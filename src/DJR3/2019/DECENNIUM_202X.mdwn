@@ -1,0 +1,175 @@
+[[!tag DJ_Set]]
+[[!meta title="DECENNIUM 202X: New Year's Eve Event"]]
+
+[ [[!myipfs QmQZv6Tb4H5PMscwa6JCSZsaaAvhoLUmEfVjBVychXyyQ7 desc="Download raw from IPFS"]] ]
+
+January 1, 2020
+
+My setup involved three computers, five instances of `ffmpeg`, one
+webcamera, one webserver, and 40GiB of RAM! It's really amazing that all
+these things came together to create one continuous experiece; it's this
+feeling that's kept me motivated in my experimentation with audio/visual
+experiences overall.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifqgqa6xkkmzkdkdnwokcjh3bi77tbbhgvqqf6d63ygmuoaa552lq" size=medium]]
+</figure>
+
+It was a super fun night! We started a little later than expected but once
+we got started the party went off without a hitch... it was my boyfriend's
+(DJ_ABF's) first time DJ'ing and I'm glad he had fun too. The entirety of
+the show was streamed on my Twitch channel as well. This show was super special
+to me because it was (1) my last show of 2019 and (2) the first show of my last
+year of college; I hope everyone at the party and everyone watching the
+recording (past, present, future) has as much fun as I did! The audicence was
+generally invited from a unviersity imageboard I run but far more people came
+out than I expected; especially since this was Winter break I didn't expect so
+many people to show up in real-life! Because this event was a blending of
+Internet neo-rave culture and my IRL friends I was surprised when we had an
+exceptional audience both online and in-person.
+
+The night was divided into **ZONES**, which resemble the Zone Races from
+WipEout HD:
+
+**ZONE VENOM** (*DJ_ABF*) (Pop, Big Room, House, Indie)
+
+DJ_ABF opened the night with an accessible amount of pop and indie hits from
+the past decade (2010's); unfortunately there is no recording of his set but
+his tracklist is published below:
+
+1. Childish Gambino - Retro [ROUGH]
+2. Lil Wayne;Swizz Beatz - Uproar
+3. Joyner Lucas - I Love (Explicit)
+4. New Legends - kFle9pGCtU0
+5. Jungle - Heavy, California
+6. Two Feet - I Feel Like I'm Drowning
+7. Tame Impala - The Less I Know the Better
+8. Oceans - 7h3Pd5SbCRI
+9. slenderbodies - king
+10. James Arthur - You Deserve Better
+11. Ed Sheeran feat. Paulo Londra & Dave - Nothing On You
+12. The Chainsmokers, Amy Shark - The Reaper
+13. LSD - Genius
+14. Saint Laurent - WT WJDPfurc
+15. Alec Benjamin - Mind Is A Prison
+16. Harry Styles - Watermelon sugar
+
+**ZONE PHANTOM** (*BUSHMASTER*) (Big beat, House, Nu-funk, Acid House)
+
+BUSHMASTER played next, generating **ZONE PHANTOM** in the process; his set
+consisted of DDR-inspired nu-funk and fighting-game OST hits; it was a
+well-mixed and well-balanced set; I especially enjoy BUSHMASTER's taste for
+early-2000's esthetic; that much is evident in the visuals (slow-scrolling
+text and harsh contrasts) for his set as well as in his music; below is his
+(unordered) set list:
+
+1. Concept of Love Intro by Stuff3
+2. Michael Gray - The Weekend (Original 12 Inch Mix)
+3. Daft Punk - Harder, Better, Faster, Stronger
+4. Dirty Vegas - Days Go By
+5. The Superman Lovers - Starlight
+6. Debbie Malone - Rescue Me (Original Version)
+7. Eric Prydz - Call On Me (Radio Edit)
+8. Space Cube - Session
+9. Justice - D.A.N.C.E.
+10. Skylar Spence - Can't You See
+11. 奥河英樹 - Makoto Stage ~ Spunky
+12. 奥河英樹 - Elena Stage ~ Beats in My Head (Tribal Dance)
+13. Hideki Naganuma - AIN'T NOTHIN' LIKE A FUNKY BEAT
+14. TeddyLoid - Fly Away (Taku & TeddyLoid For the Club Edit)
+15. Capcom Vs. SNK 2 - This is True Love Makin' (London)
+16. Justice - DVNO
+17. Hideki Naganuma - Let Mom Sleep
+18. Hideki Naganuma - Teknopathetic
+19. Nookie - Give A Little Love ('94 Lick)
+20. Duck Sauce - Barbara Streisand (Original Mix)
+21. FatBoy Slim - Wonderful night (album mix)
+22. The immortals - Techno syndrome 7
+23. Daft Punk - Da Funk
+24. Mr. Oizo - Gay Dentists
+25. Daft Punk - Indo Silver Club
+26. Ark - punkadelik (mr oizo rmx)
+27. Alan Braxe & Fred Falke - Intro (Original Club Mix)
+28. Buffalo Bunch - T.I.T.T.S. - Take It To The Streets
+29. The Chemical Brothers - Block Rockin' Beats
+30. Play Paul - Holy Ghostz
+31. Joga - Dam Dariram
+32. Le Knight Club - Nymphae Song
+33. Dance Dance Revolution - OKUYATOS - Kind Lady (Funk Disco Extended Mix)
+34. Detroit Swindle - The Break Up (Original Mix)
+35. Afro Medusa - Pasilda (Knee Deep Club Mix)
+36. Soul Providers - Rise (Bini And Martini Mix)
+37. Dizzee Rascal - Bassline Junkie
+38. Daft Punk - Something About Us
+39. Madeon - No Fear No More
+40. Stardust - Music Sounds Better With You (12' club mix)
+
+**ZONE ZEN** (*DJR3*) (French House, Synthpop, Future)
+
+I went on next after a short intermission; I split my set in half according
+to taste; this first half was focused on upbeat pop and future-sounding
+music! My chief inspiration for this half of the set was WipEout HD;
+everything I picked out here sounded like it could've been a piece of the
+original soundtrack for that game; it is an extremely inspirational game for
+me and I think that much is evident in my visuals and my music. Below is my
+full set list for **ZONE ZEN**:
+
+1. Cola Splash - Curry Drinker
+2. Yuzo Koshiro - Overdrive Neurotransmitters
+3. Lolica Tonica - Make me Feel
+4. THOMAS BANGALTER & DJ FALCON - CALL ON ME (Muttonheads fine touch remix)
+5. Yelle - Moteur action
+6. The Touch - Le Night Dominator (Radio Edit)
+7. Nightcore  - Rasputin (Remix)
+8. M_Ferri - Arturia (Boris Brejcha Remix)
+9. Justice - Waters of Nazareth
+10. Yelle - Que Veux-Tu (Madeon Remix)
+11. Perfume - Spring of Life (Album-mix)
+12. Kyary Pamyu Pamyu - チェリーボンボン extended
+13. Surkin - Love Shot (Djedjotronic & Noob Remix)
+14. Joujouka - Rock Is Sponge <area04>
+15. Captain Jack - Dream A Dream
+16. Adam Freeland - Fear <Rez edit> <area05>
+17. Ekowraith - Waiting For Tonight (Club Mix)
+18. Dopamine - Flat Out
+19. Locked in the bathroom (Deus Ex)
+20. Proxy - Decoy
+21. Surkin - Lose Yourself feat. Ann Saunderson (Brodinski Remix)
+22. Yuzo Koshiro - Acid Runner
+23. Hydelic - butterfly effect
+24. onoken - shylph
+25. Alice DeeJay - Better Off Alone 2008 (C o O k ! e Remix)
+26. Yuzo Koshiro - Entry (Maxi2 Version)
+27. Virtual Self - Particle Arts
+
+**ZONE SUPERZEN** (*DJR3*) (Neo-rave, Dark Techno)
+
+Next I transition into **ZONE SUPERZEN**; this zone is meant to be the
+harsher, neo-rave side of **ZONE ZEN**; the upbeat kick-and-snares of the
+former set are replaced with harsh synths and Roland 303 bass lines; I
+accompany the change of tone with a visual alteration, swapping out the
+bright color palette of the former ZONE with dark blacks and harsh reds
+which mirror the music I planned for **ZONE SUPERZEN**; below is the set
+list for that ZONE:
+
+28. Serial Experiments Lain - Cables and powerlines and electricity poles compilation
+29. Gesaffelstein - Trans
+30. 牛尾憲輔 - E
+31. Unknown Artist - Untitled (Kalli's Freezing Cold Confused Yoghurt Mix)
+32. Sasha - Goteki 45
+33. [ETC] MAGIA - Mindfuck Remix
+34. TaQ - stoic (EXTREME version)
+35. NOMA - Brain Power
+36. DJ Noriken - Summerlights(IIDX Edition)
+37. Rockefeller Street (EightOEight Hardstyle Remix)
+38. Treow, NaturaLe & Aruko - selFa
+39. 180 - PARANOiA (kskst mix)
+40. Simon C - Fuck You
+41. Creasemaster & Slamdog - Bump The Bass
+42. Kenta Nagata - Half Pipe
+43. Wan Bushi - Eurodance Vibes Part 5
+44. Ω - MAX 300
+45. The legend Of Max - 27 The legend Of Max
+46. kamome sano - take it higher
+47. 牛尾憲輔 - Descent To Grey
+48. Aya London - Fly Me to the Moon -Beat- [TV Size]
