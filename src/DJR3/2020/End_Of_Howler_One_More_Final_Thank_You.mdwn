@@ -1,0 +1,114 @@
+[[!tag DJ_Set]]
+[[!meta title="End of Howler: One More Final: Thank You"]]
+
+[ [Watch on YouTube](https://youtu.be/GqAUwMvmwNI) / [[!myipfs QmcrPbY95u6HdwkgxWcR7LTggnQkPprUTPvWNPo8CrN45A desc="Download raw from IPFS"]] ]
+
+May 9, 2020
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreia2bjsnmxnmcpq64ibe7ss3f34hlbj3nhxamjbo4helem7jatcjda" size=medium]]
+</figure>
+
+After three years of operation, the NCSU Imageboard,
+[howler.space](https://howlar.space), shut down. Because we couldn't meet up
+in-person anymore, as the university was closed for the rest of the semester, we
+decided to throw a rave in Garry's Mod. To my knowledge this hasn't been done
+before and it required a handful of
+[open-source](https://github.com/wesl-ee/gmod-streamstage)
+[tools](https://github.com/wesl-ee/gmod-motd) I wrote to help facilitate the
+music and atmosphere of the party. After the music was over we played Trouble in
+Terrorist Town on the same server until the website shut down.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreihas54c57llsmu2rtpo6nermmxfcfskdmirti6nnnrcjww2htkb3i" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreieg5rsjleccvlywx2ujtoyftsi7wk6meuz7yloupgmevgpx5zdwka" size=medium]]
+</figure>
+
+### Bushmaster
+
+*Neo-funk, breakbeat, hardstyle*
+
+1. KTG — Romantic Love (Remix)
+2. DOT96 — MAKE IT FUNKY NOW (BMS Edit)
+3. Gambafreaks — Down Down Down (Class A Remix)
+4. Spy — Midnight Blue
+5. Disclosure — Expressing What Matters
+6. Higgo — Champion Sound VIP
+7. Mousse T. / Hot 'N' Juicy — Horny — Mousse T.'s Extended Mix
+8. Madison Avenue — Don't Call Me Baby
+9. Kohta Takahashi — Urban Fragments
+10. Hiroshi Okubo — Movin' In Circles
+11. Hideki Naganuma — FEEL the POWER in YOUR SOUL
+12. DJ Dicks "The Doctor" Darkness —  The Psyscho Ball
+13. Masafumi Takada — DANGANRONPA FUTURE MIX
+14. Klaus Veen — Ordinary Days V2
+15. Sealab — Suit Up
+16. kittynxc — T3LL U
+17. DJ Arne L. II — R.I.P.
+18. Machine Girl — Sister Juke
+19. Maladroit — Amen Motherfucker
+20. Machine Girl — Cloud99 (As Above Mix)
+21. Hidenori Shoji & Haruyoshi Tomita — World 8: Clock Tower Factory
+22. Trym Torson — Transition (Original Mix)
+23. Machine Girl — Lilith
+24. Kohta Takahashi — Move Me
+25. Sewerslvt — Blacklight (feat. Skvllz)
+26. Machine Girl — Krystle (URL Cyber Palace Mix)
+27. Seweslvt — Mr. Kill Myself
+28. goreshit — MATZcore
+29. IOSYS — メイドやめますか？人間やめますか？
+30. WATER SPIRIT — TAILWHIP
+31. N & S — DEAD END
+32. Tomosuke / U1-ASAMi — It's a Small World (Ducking Hardcore Mix)
+33. YONEDA — Bitch
+34. High Contrast — Racing Green (Capsika Bootleg Remix)
+35. Minmi — Shiki no Uta
+
+### DJR3
+
+*Bemani, rave, gabber*
+
+1. [Lobby Music] Rei Harakami — Pone
+2. Masayoshi Iimori — Alcohol feat. Relect
+3. Hate (IDEA+RHYTHM) — BLOWHORN
+4. aran — GRiDGALAXY
+5. Lolica Tonica — Make me Feel
+6. Hideki Naganuma — AIN'T NOTHIN' LIKE A FUNKY BEAT
+7. M-Project & Signal — Come Feel The XTC
+8. Carpainter — Bitch Body + Radarman (madmaid Remix)
+9. LeKtriQue — Shots Fired
+10. The Bloody Beetroots — Heavy
+11. MASAYOSHI IIMORI — Hella Deep
+12. gasoiid — s0-n2u
+13. Carpainter — Salvo Fire
+14. Locked in the bathroom (Deus Ex)
+15. Max Graef — Rush
+17. Virtual Self — Ghost Voices (djX edit)
+18. Rockefeller Street (EightOEight Hardstyle Remix)
+19. DJ Weirdo & DJ Sim — Pump That Stupid Bass (Happy Rave Mix)
+20. TaQ — Holic
+21. Joujouka — Rock Is Sponge <area04>
+22. Klubbheads — Kickin' Hard 2001 (Central Seven Remix)
+23. TaQ — DXY!
+24. ALRT — TAKE ME AWAY
+25. Water Spirit — ARIES
+26. Boney M — Rasputin (DOPEDROP Bootleg)
+27. Dj Psycangle — Smile, Fuck Up (Wan Bushi Remix)
+28. NXC131 — DOG BLOOD — TURN OFF THE LIGHTS (djX NXC RAVE TRIP)
+29. NAOKI — BRILLIANT 2U (K.O.G G3 MIX)
+30. 源屋 — Jump!
+31. 180 — PARANOiA (kskst mix)
+32. N & S — Dead End
+33. Y&Co. — BAD BOY BASS!! (dj Remo-con MIX)
+34. Carpainter — Supernova
+35. Masayoshi Iimori — Punching Down
+36. aran & t+pazolite — Chobit Flavor
+37. 源屋 feat. motoko — Stasis (3R2 Remix)
+38. Hydelic — cycle of silence
+39. The Acolyte — Treble, Bass, and Attitude
+40. Aya London — Fly Me to the Moon -Beat- [TV Size]
+
+<figure>
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreicubyk3krx2tq56lgjafpz6l7sh7y2dmlriy6fcg2rbm2xtruwth4"/>
+</figure>
+
