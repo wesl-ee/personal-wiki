@@ -1,10 +1,28 @@
-This personal wiki belongs to [WesleyCoakley](https://wesleycoakley.com) (that
-is, me （⌒▽⌒）).
+This personal wiki belongs to [Wesley Coakley](https://wesleycoakley.com), also
+known as [[Me]] （⌒▽⌒）
 
-This is a space for organizing my thoughts and knowledge,
-gathered serially throughout my day, into parallel and correlating articles
-which are then neatly formatted and presented here on the Web. All opinions are
-my own and all information here can only be as correct as I am. 
+This is a personal space for organizing my thoughts and knowledge, gathered
+serially throughout my day, into parallel and correlating articles which are
+then neatly formatted and presented here on the Web. I'm the only one with
+write access here so all opinions are my own and all information here can only
+be as correct as I am. This site is generated with with love and [[!iki
+ikiwiki]] but saying any more about this site on the site's own front page is
+considered too [[Meta/SiteMeta]] and will be avoided at all costs.
 
-More about this site is considered too [SiteMeta](SiteMeta) to be writing about
-on the front page.
+I run a [similar personal site](https://wesleycoakley.com) which hosts my
+polished articles and HOWTO guides. If you're looking to read something more
+monolithic maybe then you should check out that site instead |･ω･｀) I'm writing
+more all the time, and actually most of the content and inspiration for those
+pages comes from my notes on this personal wiki. I'd recommend checking out one
+of these few articles hosted over there which typify my style:
+
+- [My Senior Design
+  Project](https://wesleycoakley.com/Projects/my-senior-design-project-ncsu-ece484-ece485.html)
+- [Approach, Design, and Implementation of my ECE306 Embedded Systems
+  Project](https://wesleycoakley.com/Projects/my-embedded-ncsu-ece306-project.html)
+
+I still haven't filled out many of the pages on this site but if you'd like to
+start exploring my personal wiki some the best way is to read a little about
+[[Me]] because that's who's writing this!
+
+[[!linkmap pages="backlink(Me) or link(Me) or page(Me)"]]
