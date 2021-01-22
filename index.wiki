@@ -25,4 +25,4 @@ I still haven't filled out many of the pages on this site but if you'd like to
 start exploring my personal wiki some the best way is to read a little about
 [[Me]] because that's who's writing this!
 
-[[!linkmap pages="backlink(Me) or link(Me) or page(Me)"]]
+[[!linkmap pages="(backlink(Me) or link(Me) or Me) and !index"]]

@@ -1,0 +1,27 @@
+Hi, my name is Wesley Coakley (🇯🇵  コークリー・ウェズリー) ☆ﾐ(o\*･ω･)ﾉ
+
+I am a Software Engineer in [NVIDIA's Networking Business
+Unit](https://www.nvidia.com/en-us/networking/) (NBU) and a graduate of [N.C.
+State University](https://ncsu.edu) with a B.S. in Computer Engineering and
+another B.S. in Electrical Engineering. I also accidentally took enough courses
+during my college tenure to collect my minor in mathematics on the way out the
+door. My professional expertise is in *OSI Layer 3 Routing*, specifically
+writing software in the control-plane for switches and Linux routers.
+
+Learning
+--------
+
+I am intermediately fluent in [[Japanese]] (I can speak / read / write well but
+many technical things are still are over my head) and have studied at
+[[Japan/Sophia_University]] in Tokyo, Japan; I study some every day and hope to
+pass JLPT-N1 as soon as I am allowed to take the exam. I really, really enjoy
+learning and this is one of several outlets for me to express this passion.
+
+I like to read a ton too. Technical literature excites me, as does 19th century
+philosophy and [post]modernist literature. There is a very wide breadth of
+things which interest me and often I will enter into new topics by researching,
+reading and marking up books that touch on these ideas. I prefer physical books
+to digital ones because (1) I have trouble focusing on a screen for long periods
+of time and (2) it is much easier to write in a book than to take notes in a
+PDF.
+
