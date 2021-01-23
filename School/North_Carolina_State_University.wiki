@@ -1,0 +1,140 @@
+N.C. State Unviersity is in Raleigh, North Carolina and is chiefly an
+engineering and agriculture school, though there are many different and diverse
+colleges within the university.
+
+I graduated from here in May 2020 with a B.S. in Computer Engineering as well as
+a B.S. in Electrical Engineering. I also picked up a minor in Mathematics along
+the way, as I took math classes every semester or so to break up my engineering
+workload and keep from burning out completely. I went here for a little under 5
+years, starting in August 2015 and graduating in May 2020.
+
+Along the way I made a lot of friends, meeting through various clubs like the
+Philosophy Club and the Linux User Group, and through my classes and by way of
+existing friends. I also created / cultivated several communities around the
+university myself, uniting people who otherwise likely would've never met and
+enjoyed that different perspective. It's amazing how siloed you can become once
+you're locked-in for your major after your first year, especially in
+engineering.
+
+Old College Try
+---------------
+
+Before I matriculated into university in Raleigh, I lived in rural North
+Carolina with my parents, attending a high-school which was adjacent to no less
+than 3 different farms in an equally rural part of the county. I didn't really
+do much because classes were so easy I didn't really need to try. I started
+learning C and x86 outside of school around the age of 15, and about one
+semester before I left my high-school behind I developed a healthy reading
+habit, inhaling War and Peace along with all the old, dusty books I could get my
+hands on. It was around this time that I also started keeping a diary because
+that seemed like the only way to vent any emotion for a boy who feels
+kinda-out-of-place in the middle of nowhere.
+
+I was always very comfortable living on my own. From my experiences camping with
+the Boy Scouts (which I was in until I acheived my Eagle and turned 18) I had
+become accustomed to spending days and nights away from "home" in some strange
+wilderness so the transition into the college / dorm life was very smooth. Actually I
+was very glad to be away from "home" because there were new people all around me
+and brand new things to do and explore. Raleigh is also a beautiful city full of
+interesting people  and I'd never lived somewhere so pleasant before so I was
+very comfortable during this oft-tumultuous time.
+
+My first-year classes were extremely easy and I got the hang of the
+class-homework-study-test cycle in just a month or two. Eventually, though, I
+got pretty complacent because this stuff was so easy and I'd learned a lot of
+this in my spare time. From my sophomore year on things were a little harder ( ・ω・)
+but I enjoyed many of these courses and took a lot from them, especially my ASIC
+/ FPGA classes, because those were a perfect blend (for me) of hardware and
+software engineering. Power engineering was of interest to me as well (I worked
+for a bit as a substation design consultant during my off-season from
+university) but I ultimately forfeit that opportunity to do what I do now in a
+more fast-paced field.
+
+Year | Term   | Course  | Description
+-----|--------|---------|------------
+2015 | Summer | EC201   | Principles of Microeconomics
+2015 | Summer | MA241   | Calculus II
+2015 | Fall   | E101    | Introduction to Engineering
+2015 | Fall   | E115    | Introduction to Computing Environments
+2015 | Fall   | ENG101  | Academic Writing and Research
+2015 | Fall   | MA242   | Calculus III
+2015 | Fall   | PHI210  | Representation, Reason, Reality
+2015 | Fall   | USP110  | Scholars Forum
+2015 | Fall   | HEST266 | Ultimate Frisbee
+2016 | Spring | CSC226  | Discrete Math CSC
+2016 | Spring | ECE109  | Introduction to Computer Systems
+2016 | Spring | MA341   | Applied Differential Equations I
+2016 | Spring | PSY200  | Introduction to Psychology
+2016 | Spring | PY205   | Physics for Engineers I
+2016 | Spring | PY206   | Physics for Engineers I Lab
+2016 | Spring | USP111  | HSS Scholars Forum
+2016 | Summer | COM110  | Public Speaking
+2016 | Summer | HESF107 | Run Conditioning
+2016 | Summer | MA225   | Foundations of Advanced Mathematics
+2016 | Fall   | ECE200  | Introduction to Signals, Circuits, & Systems
+2016 | Fall   | ECE209  | Computer System Programming
+2016 | Fall   | MA405   | Linear Algebra
+2016 | Fall   | PY208   | Physics for Engineers II
+2016 | Fall   | PY209   | Physics for Engineers II Lab
+2016 | Fall   | USP110  | Scholars Forum
+2017 | Spring | ECE211  | Electric Circuits
+2017 | Spring | ECE212  | Fundamentals of Logic Design
+2017 | Spring | ECE309  | Object-oriented Programming for ECE
+2017 | Spring | ST371   | Introduction to Probability and Distribution Theory
+2017 | Fall   | ECE301  | Linear Systems
+2017 | Fall   | ECE302  | Microelectronics
+2017 | Fall   | ENG331  | Communication for Engineering and Technology
+2017 | Fall   | MA408   | Foundations of Euclidean Geometry
+2018 | Fall   | ECE301  | Linear Systems
+2018 | Fall   | ECE303  | Electromagnetic Fields
+2018 | Fall   | ECE306  | [Introduction to Embedded Systems](https://wesleycoakley.com/Projects/my-embedded-ncsu-ece306-project.html)
+2018 | Fall   | ECE381  | Engineering Profession CPE
+2018 | Fall   | ECE492  | Operating Systems Design
+2018 | Fall   | ENG265  | American Literature
+2019 | Spring | E490    | FE Exam Prep
+2019 | Spring | ECE305  | Principles of Electromechanical Energy Conversion
+2019 | Spring | ECE310  | Design of Complex Digital Systems
+2019 | Spring | ECE463  | Microarchitecture
+2019 | Spring | ECE484  | [Senior Design Project I](https://wesleycoakley.com/Projects/my-senior-design-project-ncsu-ece484-ece485.html)
+2019 | Fall   | ECE434  | Fundamentals of Power Electronics
+2019 | Fall   | ECE451  | Power System Analysis
+2019 | Fall   | ECE464  | ASIC and FPGA Design
+2019 | Fall   | ECE485  | [Senior Design Project II](https://wesleycoakley.com/Projects/my-senior-design-project-ncsu-ece484-ece485.html)
+2019 | Fall   | PHI331  | Philosophy of Language
+2020 | Spring | ECE407  | Introduction to Computer Networking
+2020 | Spring | ECE453  | Electric Motor Drives
+2020 | Spring | MA410   | Theory of Numbers
+2020 | Spring | MIE201  | Introduction to Business Processes
+
+While attending university [I also passed the
+FE](https://account.ncees.org/rn/2003059-1188920-c0ff505) (fundamentals of
+engineering) exam, meaning I qualify to take the PE (Professional Engineer) exam
+should I ever want to become a certified honest-to-God Professional Engineer.
+Being a PE means a lot in other fields (notably, for me, if I decided to go back
+and work as an electrical engineer) but having a PE in my current field would be
+rather meaningless. Still, it is nice to have that option, I've learned that
+keeping doors open and cultivating your opportunities is one of the keys to
+finding room to do the things you love.
+
+
+Study Abroad in Tōkyō, Japan
+----------------------------
+
+In the Spring of 2018 I made one of the best decisions ever I've ever made to
+study at [[Sophia_University]] in Tōkyō, Japan. This was really a life-changing
+experience and it instilled within me the desire to do things and see things
+much larger than myself. Just getting over there was one of my goals from the
+start of my college career, and closing in and making good on that promise to
+myself was extremely formative to my goal-setting habits today. In fact, I'd
+been studying Japanese by myself since my Freshman year, and this cemented the
+idea that I am both capable of learning independently (and at a decent pace) and
+of bringing my hopes and dreams into my reality.
+
+While abroad I had the opportunity to travel around Japan, particularly during
+Golden Week. Even while I was not travelling, though, there was plenty to do in
+just Tōkyo, it is an absolutely massive city full of different and unique little
+towns. Just simply living, breathing, eating and drinking in this foreign
+lifestyle every single day for a semester was Nirvana and I would never trade
+this experience for another.
+
+

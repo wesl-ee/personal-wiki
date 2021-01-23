@@ -1,0 +1,79 @@
+Japanese is a beautiful language. I'm not a linguist so I can't explain the
+concepts very well, but there is an art to its ambiguity and its freedom of
+expression. It's also a classified as a Category IV language ("super-hard
+languages") by the US State department, meaning it is "exceptionally difficult
+for native English speakers" so it's not just something you pick up over a
+weekend.
+
+I started learning this language independently during my first year of college.
+At that time, I was really frustrated about one thing in particular; that one
+thing was [[Anime]]. I was really mad about subtitles, because I had to rely on
+*someone else* to assure me that these translations were accurate, which is not
+something you can always guarantee with the rag-tag nature of fansubbing groups.
+Sure, things are better than they were in the 90s, but fansubbing has always
+been a dying profession because nobody is going to pay for your work and it can
+be taxing / unfulfilling to do it on the side.
+
+From this frustration grew my resolve to learn Japanese (spoken and written) by
+the time I exited college, so I started grinding out hiragana / katakana and
+picked up an [Anki](https://apps.ankiweb.net/) deck and never looked back.
+Eventually I started reading raw manga and even translated a few things myself,
+siphoning new words I learned from the books I was reading into my Anki deck and
+practicing them over and over and over.
+
+This year I hope to take the JLPT for N1 fluency. Japanese fluency (not just
+"conversational" fluency, but a healthy technical / vocational vocabulary too)
+has been a long-term goal of mine, and having a certification to cement this
+achievement is not just important to me but also in giving meaning to my
+credibility as a Japanese speaker to my employer. Eventually I would like to use
+this skill in the workplace, but I have not yet seen many opportunities to do
+so.
+
+Although I *had* started learning the language before I studied in Japan, I
+really only started *learning* at a decent pace when I took a semester at
+[[School/Sophia_University]] in Tōkyō. There I took my first actual Japanese
+language course (I'd avoided the ones at my home university) and just by virtue
+of living there I reinforced those concepts throughout the day. I much prefer
+being immersed in that environment, it is so much easier to learn when you're
+thinking, speaking and dreaming Japanese every single day.
+
+If my major in college were more aligned with language learning or fluency I
+would have dropped out instantly and enrolled in a school abroad. Even now, I
+sometimes regret not having pushed this further or extending my study-abroad to
+a full year, but I know I would have slipped farther behind in my degree studies
+than I was already, as my semester in Tōkyō did not add any engineering credits
+to my transcript. My hope now is to work my way into a role which lets me
+both satisfy the advancement of my career as a software engineer in the
+datacenter and permits me time to practice and nurture my Japanese skill,
+hopefully in the same context.
+
+The Method
+----------
+
+It can be really intimidating to pick up a new language but with enough
+resolve and the right amount of determination, time is the only thing that can
+stand in your way! I'm going to tell you how I started learning and how I'm
+continuing to learn Japanese but this is in no way meant to be prescriptive.
+
+Even before I began learning the language I was inspired to look more into it by
+watching a ton of [Nama Sensei's Fucking Japanese
+Lessons](https://www.youtube.com/watch?v=oZEA54VJEdE). Namasensei is one of the
+whitest people I've ever seen speak Japanese but the really cool thing to me was
+that he made it all the way to Japan and was teaching English there at the time.
+That was very motivational for me, because even if the lessons were not very
+rich in content or even if his handwriting was atrocious his enthusiasm has
+stuck with me ever since and I sometimes still go back and watch a few lessons
+from time to time.
+
+When I decided to approach this language, though, the first thing I did was to
+learn hiragana and then katakana. Notably, I used
+[RealKana](https://realkana.com/) for this task and consequently memorized both
+alphabets in a few weeks. I practiced writing them by memory as I was learning
+them, I felt this helped my retention and production. Learning the alphabet is a
+non-neogitable first step, though, as knowing how to write even basic things is
+requisite to advancing in any language. In many languages which anglophones may
+be familiar with this is mostly taken for granted, however a theme of learning
+*this* language is that easy things are hard and hard things take some time to
+get used to.
+
+[... more to come here]

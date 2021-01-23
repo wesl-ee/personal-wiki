@@ -1,9 +1,9 @@
 Hi, my name is Wesley Coakley (🇯🇵  コークリー・ウェズリー) ☆ﾐ(o\*･ω･)ﾉ
 
 I am a Software Engineer in [NVIDIA's Networking Business
-Unit](https://www.nvidia.com/en-us/networking/) (NBU) and a graduate of [N.C.
-State University](https://ncsu.edu) with a B.S. in Computer Engineering and
-another B.S. in Electrical Engineering. I also accidentally took enough courses
+Unit](https://www.nvidia.com/en-us/networking/) (NBU) and a graduate of
+[[School/North_Carolina_State_University]] with a B.S. in Computer Engineering and another B.S.
+in Electrical Engineering. I also accidentally took enough courses
 during my college tenure to collect my minor in mathematics on the way out the
 door. My professional expertise is in *OSI Layer 3 Routing*, specifically
 writing software in the control-plane for switches and Linux routers.
@@ -13,15 +13,41 @@ Learning
 
 I am intermediately fluent in [[Japanese]] (I can speak / read / write well but
 many technical things are still are over my head) and have studied at
-[[Japan/Sophia_University]] in Tokyo, Japan; I study some every day and hope to
+[[School/Sophia_University]] in Tōkyō, Japan; I study some every day and hope to
 pass JLPT-N1 as soon as I am allowed to take the exam. I really, really enjoy
 learning and this is one of several outlets for me to express this passion.
 
-I like to read a ton too. Technical literature excites me, as does 19th century
-philosophy and [post]modernist literature. There is a very wide breadth of
-things which interest me and often I will enter into new topics by researching,
-reading and marking up books that touch on these ideas. I prefer physical books
-to digital ones because (1) I have trouble focusing on a screen for long periods
-of time and (2) it is much easier to write in a book than to take notes in a
-PDF.
+I like to read a ton too. I love reading technical literature because it expands
+my depth of knowledge and can improve my problem-solving ability. I also like
+reading 19th century philosophy and [post]modernist literature. There is a very
+wide breadth of things which interest me and often I will enter into new topics
+by researching, reading and marking up books that touch on these ideas. I prefer
+physical books to digital ones because (1) I have trouble focusing on a screen
+for long periods of time and (2) it is much easier to write in a book than to
+take notes in a PDF.
 
+Interests
+---------
+
+I love to design and organize systems. I've found that throughout the software
+(and hardware) spheres, I enjoy working on anything with a sizable problem
+statement. Though I *can* bear down and churn out the minute details of a
+particular element in a certain project, switching between these two worlds of
+"design" and "detailed implementation" is difficult and counterproductive, and
+since I am most comfortable being a systems architect in that sense, I have come
+to appreciate and enjoy the long and sweeping tasks demanded by design on a
+large scale. Sometimes I will design things I have no intention of implementing
+or even time to consider implementing, and that's okay, because this process
+occassionally produces schematics for something I become obsessively and
+absolutely in love with. At that point I'll pour in all the time I can afford
+into the project.
+
+Favorite Things
+---------------
+
+These are more minor things than the above but they are still very important to
+me:
+
+- Playing games in [[Virtual_Reality]]
+- Drinking and making [[Coffee]]
+- [[Cooking]], both for myself and with my boyfriend
