@@ -1,0 +1,60 @@
+VR is a hobby I only got into recently. A coworker let me borrow an Oculus Quest
+(1) in Summer, 2020 for a few weeks and I was completely enamored. Though I did
+not play a lot of games before VR (the most I ever invested into a series was
+Pokémon Snap for the Nintendo 64) those first few weeks I was playing all sorts
+of different games and genres. A few months later once Quest 2 was announced I
+bought the headset outright and have never looked back.
+
+On my Quest, you can bootleg games into the HMD itself (the Quest is meant to be
+a standalone platform anyhow) and people have modded classic games like Doom and
+Half-Life 1 to be playable on the Quest. In particular, I played [Dr. Beef's
+Lambda 1 VR](https://www.lambda1vr.com/) mod for Half-Life 1 all the way
+through. This was the first game I'd ever played on a headset and, to say the
+least, it set me up to deal with sim sickness extremely well. The game is
+jarring to play in VR, especially if you've played in on desktop before like I
+had, because you're immediately transported into and immersed in all these
+familiar rooms, surrounded by scientists and security officers and fast-moving
+HECU enemies... around every corner it seems is some zombie ready to scare the
+hell out of you; because the game was meant to spook desktop players being in
+a close-quarters encounter with these hideous enemies and aliens is absolutely
+terrifying.
+
+The physics of HL:1 are probably the most likely to induce motion-sickness of
+any game I've ever played in VR. From the falling and jumping to the puzzles and
+weapon physics, this game is not very friendly to beginners in VR but somehow I
+was able to make it all the way through the story. I remember in vivid detail
+being launched up into the air by a fan and falling over on my side in my living
+room in real life. I have not yet played Half Life: Blue Shift or Opposing Force
+but they are also supposedly playable in this mod as well and I look forward to
+that opportunity to play with this game some more.
+
+Another game I gravitated towards immediately was BallisticNG, a futuristic
+zero-g racing sim in the style of WipEout, another title from my childhood which
+I played on my N64. Though you *can* play BNG purely on desktop, being immersed
+in the cockpit of the vehicle and watching every turn fly by and the enemy ships
+slipping through the air around you is a mesmerizing sensation. Not to mention
+that everything is coming at you at several hundred kilometers per hour. It's an
+insanely fun, extremely fast game that feels, especially in VR, like a more
+immersive WipEout HD. I'm not nearly as good at BNG as I am at WipEout (maybe
+the bar in HD is lower) but this game is so so much fun at any skill level.
+
+One last game I'll call out is Garry's Mod, a game over 15 years old and not
+designed with VR in mind at all. Recently (around 2019 I think) a mod for
+Garry's Mod was developed by Catse called
+[VRMod](https://steamcommunity.com/sharedfiles/filedetails/?id=1678408548) and
+it's the most perfect thing we will get until Garry's Mod in Source 2.
+Essentially it adds VR capability into GMod, allowing a sandbox player to wear a
+headset and manipulate the world around them using typical Garry's Mod weapons
+and tools. This is one of the most impressive mods for Garry's Mod and it is a
+mod I often cite when arguing that games with a healthy modding ecosystem and
+receptive development teams often produce the most novel and amazing
+experiences, far beyond what the game ever intended to achieve in the first
+place. Hell, you can even play Half Life: 2 in Garry's Mod, and with VRMod you
+can even play all that in VR!
+
+I anticipate that a VR-only game which offers extensibility and modding tools
+like those offered in GMod will produce really amazing things; there is
+almost no limit to what you can do in Garry's Mod and VRMod really showcases
+that freedom to extend and build on the original game.
+
+[... more stuff to come here]
