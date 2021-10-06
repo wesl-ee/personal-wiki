@@ -1,0 +1,219 @@
+In many peer-to-peer software suites, there often is a desire to connect to
+clients directly, to exchange routing and peering information without passing
+through an application-layer middleman. In the case of
+[Soulseek](https://slsknet.org/), a P2P file-sharing network akin to the old
+Napster or the Japanese "Perfect Dark" with a heavy focus on sharing music,
+the exchange of routing & peering information is facilitated by a pair of
+centralized servers to which every user connects. Some examples of network
+actions performed by users which rely on this central server are:
+
+- Submitting a keyword query to the network
+- Sending or receiving messages from a chat-room
+- Joining or leaving a chat-room
+- Joining or leaving the network
+
+Obviously this is not ideal: having a central server, even if just for routing
+requests, introduces a single point of failure for the entire P2P network. If
+just one of these servers went down, for example, search requests would not be
+routed to users, rendering the network useless.
+
+A central server in a P2P architecture can alleviate many of the problems
+associated with clients who are NAT'd and behind strict firewalls to communicate
+with peers on the network. Many home routers come out of the box with a strict
+firewall which does not allow unknown connections from WAN to reach out and
+probe computers on the LAN.
+
+This is a great thing for security-minded individuals and network administrators
+alike as it helps to stop the spread of computer worms by protecting normally
+vulnerable systems (although the best defense is to upgrade your OS 😊) against
+direct exposure to the Internet. Many home routers allow you to bypass this
+safety net by toggling the "DMZ" for a device or by forwarding a range of ports
+from WAN to a device on the LAN.
+
+Introduction to UDP NAT Traversal
+-----------------------------
+
+UDP NAT Traversal (also known as UDP firewall hole-punching) is, in effect,
+identical to port-forwarding for clients behind something like your home's
+router; it is a networking technique which allows NAT'd devices to see incoming
+and unsolicited connections from outside clients via UDP, a connectionless and
+message-oriented transport protocol, without any special network configuration.
+
+NAT traversal of this flavor takes advantage of UDP's connectionless nature;
+when NAT devices like your home router see a NAT'd device sending a UDP packet
+to an external device, the egress port which transmits that packet on the
+router's WAN side is kept open for a short period of time, anticipating replies
+to your UDP packet.  We can (ab)use this short window to communicate directly with
+other clients in a P2P cluster.  Some extremely permissive firewalls will
+forward datagrams from *any address* to the NAT'd host which sent them but most
+will only allow data to flow between the two hosts in question.
+
+Bringing it Together with GoLang
+--------------------------------
+
+UDP holepunching is pretty straightforward to trigger. For simplicity, I have
+scripted this demo with these two assumptions:
+
+1. There are only 2 devices we care about, a client and a server
+2. The server is reachable at a known transport address (IP + port)
+
+Note that: the client does not need an open port or even a known transport
+address to achieve this; only the remote server needs to be addressable by the
+client.  In practice, many NAT traversal schemes leverage some kind of signaling
+structure to direct two hosts to begin sending UDP packets at each other
+*simultaneously* to achieve the NAT traversal without needing to open ports on
+either end.
+
+Below is some shell code you can run to download and run [my
+demo](https://gist.github.com/wesl-ee/5ab9c40c1926849bc3a77ff71ee4a9df),
+given you have Go installed already:
+
+[[!syntax type="bash" text="""
+git clone https://gist.github.com/wesl-ee/5ab9c40c1926849bc3a77ff71ee4a9df udp-hole-punch
+cd udp-hole-punch
+go build
+./udp-hole-punch # Runs server code
+./udp-hole-punch <remote-address> # Runs client code, connects to remote-address
+"""]]
+
+This is what the program looks like in-action: the top is a remote host
+listening on UDP4/9199 and exposed to the Internet, while the bottom pane is a
+terminal on my laptop, communicating via my WiFi network and behind my NAT
+router. I have no ports forwarded to my laptop so inbound connections are
+normally dropped at the WAN-side of the router.
+
+<figure>
+<img src="https://cdn.wesleycoakley.com/web-images/go-nat-traversal-demo.jpg">
+<figcaption>Demonstration of a NAT traversal across my home router</figcaption>
+</figure>
+
+As you can see above, the UDP packet sent by the client (my laptop) is replied
+to by the remote host on the exact port it ingressed on. This UDP reply reaches
+my home router and, because we have punched a hole in the firewall with the
+first packet, the incoming datagram is allowed to leak past the router where it
+finally reaches my laptop.
+
+Let's look at the Go code which spins up the server. The server replies to
+messages with a datagram which, on receipt by the client, confirms that the
+client has punched a hole through the NAT:
+
+[[!syntax type="go" text="""
+func doServer(port int) {
+	msgBuf := make([]byte, 1024)
+
+	// Initiatlize a UDP listener
+	ln, err := net.ListenUDP("udp4", &net.UDPAddr{Port: port})
+	if err != nil {
+		fmt.Printf("Unable to listen on :%d\n", port)
+		return
+	}
+
+	fmt.Printf("Listening on :%d\n", port)
+
+	for {
+		fmt.Println("---")
+		// Await incoming packets
+		rcvLen, addr, err := ln.ReadFrom(msgBuf)
+		if err != nil {
+			fmt.Println("Transaction was initiated but encountered an error!")
+			continue
+		}
+
+		fmt.Printf("Received a packet from: %s\n\tSays: %s\n",
+			addr.String(), msgBuf[:rcvLen])
+
+		// Let the client confirm a hole was punched through to us
+		reply := "お帰り～"
+		copy(msgBuf, []byte(reply))
+		_, err = ln.WriteTo(msgBuf[:len(reply)], addr)
+
+		if err != nil {
+			fmt.Println("Socket closed unexpectedly!")
+			continue
+		}
+
+		fmt.Printf("Sent reply to %s\n\tReply: %s\n",
+			addr.String(), msgBuf[:len(reply)])
+	}
+}
+"""]]
+
+... this creates a server which listens on an IPV4 address and a `port` and
+responds to every incoming request with a UDP datagram containing the reply
+_お帰り～_. Because UDP is connectionless, when the client receives this reply
+they know that the traversal worked correctly.  Now let's look at the code
+running on the client:
+
+[[!syntax type="go" text="""
+func doClient(remote string, port int) {
+	msgBuf := make([]byte, 1024)
+
+  // Resolve the passed address as UDP4
+	toAddr, err := net.ResolveUDPAddr("udp4", remote + ":" + strconv.Itoa(port))
+	if err != nil {
+		fmt.Printf("Could not resolve %s:%d\n", remote, port)
+		return
+	}
+
+	fmt.Printf("Trying to punch a hole to %s:%d\n", remote, port)
+
+	// Initiate the transaction (force IPv4 to demo firewall punch)
+	conn, err := net.DialUDP("udp4", nil, toAddr)
+	defer conn.Close()
+
+	if err != nil {
+		fmt.Printf("Unable to connect to %s:%d\n", remote, port)
+		return
+	}
+
+	// Initiate the transaction, creating the hole
+	msg := "ただいま～"
+	fmt.Fprintf(conn, msg)
+	fmt.Printf("Sent a UDP packet to %s:%d\n\tSent: %s\n", remote, port, msg)
+
+	// Await a response through our firewall hole
+	msgLen, fromAddr, err := conn.ReadFromUDP(msgBuf)
+	if err != nil {
+		fmt.Printf("Error reading UDP response!\n")
+		return
+	}
+
+	fmt.Printf("Received a UDP packet back from %s:%d\n\tResponse: %s\n",
+		fromAddr.IP, fromAddr.Port, msgBuf[:msgLen])
+
+	fmt.Println("Success: NAT traversed! ^-^")
+}
+"""]]
+
+... this code simply sends a datagram towards the server and awaits a reply. On
+receipt, the client knows that the NAT was traversed successfully. At this point
+in the transaction the firewall hole created by our client-server interaction
+can be used to send any amount of data over the UDP socket until the hole is
+closed, though I do not do that for this demo.
+
+With some slight modification you can make the code above re-use the socket to
+achieve bi-directional communication with the server easily. I've found that
+my home router leaves this port open for more than 5 minutes. Adding some
+keep-alive packets I am able to keep this channel open indefinitely.
+
+Applications and Considerations
+-------------------------------
+
+Successful NAT traversal allows clients behind firewalls and home routers to
+communicate directly and without the need for port-forwarding or a central
+routing server. Of course, the problems with NAT are not present with IPv6 but
+still many homes are not currently IPv6 capable. Including NAT traversal in a
+P2P application increases its potential audience for adoption by making it
+accessible to even a non-technical audience who may be uncomfortable triggering
+a port forward on their home machine, and additionally increases the resiliency
+of the network by creating and ensuring true point-to-point connectivity among
+neighboring overlay peers.
+
+I plan to further implement this type of NAT traversal in my future P2P
+projects, leveraging technologies like
+[STUN](https://tools.ietf.org/html/rfc5389) and
+[ICE](https://tools.ietf.org/html/rfc5245) to connect overlay peers in a
+ring-like topology with a UDP backbone with [UDT](https://udt.sourceforge.io/)
+extensions for heavier data transfers. Once connectivity is established, even
+protocols like [QUIC](https://www.chromium.org/quic) could be implemented over
+such a network.

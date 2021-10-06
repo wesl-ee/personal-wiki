@@ -1,0 +1,58 @@
+Whenever I install a Firefox on a new computer I always make sure to change the
+default search engine from Google to Startpage; Startpage is a search engine
+which requests data from Google's search engine on your behalf, meaning your IP
+address is never disclosed to the big G; consequently the big G cannot attribute
+any searches you have made on Startpage to you. For this reason, using Startpage
+as my default search engine is a part of my standard install of Firefox.
+
+Whenever I want to search something on Startpage, then, all that is necessary is
+to type my search query in the Firefox URL bar and press enter; the query is
+then submitted to Startpage and I get my results back in seconds.
+
+<figure>
+<img alt="Startpage Search" src="https://cdn.wesleycoakley.com/web-images/mortar-robinson-search.gif">
+</figure>
+
+Sometimes, though, I don't always want to search for something on Startpage.
+Some days I may be searching for something on Twitter, Ebay, or Wikipedia.
+Instead of typing my query into the URL bar and searching via Starpage I can
+instead use a nifty feature baked into Mozilla called **keyword search**.
+
+Keyword search allows you to *specify* a search engine in the URL bar to use,
+thereby allowing you to search Twitter or practically any site from the comfort
+of the URL bar.
+
+1. Go to Edit > Preferences > Search > One-click Search Engines
+2. Double click any of the engines under the "Keyword" column
+3. Type "@[keyword]" where keyword is a short, unique mnemonic 
+
+<figure>
+<img alt="One-click Search Engines" src="https://cdn.wesleycoakley.com/web-images/one-click-search-engines.jpg">
+</figure>
+
+Great, now you've got a keyword set up! But how can you add more search engines
+than what are already there? There are a few ways to acheive this: you can (1)
+[browse the Mozilla
+add-ons](https://addons.mozilla.org/en-US/firefox/search-tools/) and look for
+your prefered search engine; however many sites are not listed here.
+
+In this case, (2) you will need to navigate to the page you are interested in
+creating a search for and right-click on the search bar. Then select "Add a
+keyword for this search", which will open a dialog box where you can specify the
+keyword. Be sure to prefix the keyword with an "@" or similar symbol!
+
+<figure>
+<img alt="Adding a custom search" src="https://cdn.wesleycoakley.com/web-images/gentoo-add-search.jpg">
+</figure>
+
+Now you can enter "@[keyword] [query]" into the URL bar to search that search
+box as if you typed "[query]" directly! It's an extremely helpful tool and has
+kept me more focused on the task at hand rather than sifting through my default
+search engine's (sometimes irrelevent) results. It's far easier to go straight to
+the source and cut out the middle-man (i.e. the search engine).
+
+The only downside to (2) is that the keyword is not added to your "one-click
+search engines" like those you download as an add-on; instead, Firefox saves
+this engine in your bookmarks. My best advice is this: create a folder in your
+bookmarks for all your keyword-enabled search engines; this lets you manage your
+engines a little easier.

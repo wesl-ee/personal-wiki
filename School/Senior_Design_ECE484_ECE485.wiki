@@ -1,0 +1,298 @@
+In the Electrical and Computer Engineering program at N.C. State, there is a
+requisite two-semester "Senior Design Project" class, ECE484 (first semseter)
+and ECE485 (second semester).
+
+Course Structure
+----------------
+
+During the first semester of the course (ECE484), projects
+are presented to students by various university and corporate sponsors; students
+must select a project to work on and design (in teams), from the ground up, a detailed and
+thorough solution to the problem statement. Additionally they must make serious
+steps towards the construction of a working and demonstrable prototype to
+present to the course instructors, sponsors, and the public. Emphasis is placed
+on maintaining open and regular communication with the project sponsor, taking
+meeting minutes as necessary and drafting verbose and exact project
+requirements, implementation strategies, and near- (<2 weeks) and far-future (>2
+weeks) goals to achieve.
+
+During the second semester (ECE485), students must improve on the prototype constructed
+during the first semester and revise project goals and requirements, adjusting
+stretch-goals and core requirements to fit sponsor expectations weighed against
+the realization of the first-term prototype, perhaps shifting some goals (with the
+sponsor's consent) to become stretch-goals, deciding which areas and aspects of
+the project need the most attention most immediately. The goal of ECE485 is to
+produce a fully-functioning demonstration which meets all of the core
+requirements laid out in ECE484; this will involve heavy modification of the
+prototype and further communication with the sponsor.
+
+Emphasis in ECE485 is placed on week-by-week goal-setting and accomplishment,
+project management, and regular presentations by teams to the course instructors
+(emulating corporate presentations to a managerial staff) wherein short-term
+progress, recent problems, and long-term progress towards the construction of
+the final product is organized and summarized in a format fitting a short
+presentation with a small, invested audience. Projects are presented by the
+teams at the end of the semester at the McKimmon center to sponsors, course
+instructors, and the public at large.
+
+For those teams backed by a corporate sponsor, some effort is also spent by the
+students to hand-off projects in a secure and timely manner to the people in the
+sponsor's company who will be continuing the project.
+
+My Experience
+-------------
+
+My team was sponsored by a corporate sponsor (and I am not exactly at leisure to say
+which one); ultimately I enjoyed the freedom that working with a non-University
+sponsor gives. I understand that some teams sponsored by the University had
+core requirements added and removed at the will of their sponsors, largely
+graduate students and tenured professors and researchers, and were forced to
+work around that added pressure.
+
+Here is an excerpt from our core requirements document, established very early
+in the first semester:
+
+[[!syntax text="""
+The goal of this project is to develop a tool that will automate the sequencing
+of a mobile device through a series of pre-configured, interactions with the
+device to simulate a human operator.  To achieve this goal, the final system
+should be able to fulfill the following requirements list.
+
+1. General Operation Requirements and Features:
+REQ-1.1: The sequencer shall have the ability to simulate operator physical
+actions, activating the touch screen (touch), side keys, home keys, and/or soft keys.
+REQ-1.2: The sequencer shall have the capability to receive images from the
+device screen as part of the sequencing feedback.
+REQ-1.3: The sequencer shall perform a fixed sequence of steps for a specific make, model, or
+function.
+REQ-1.4: The sequencer shall be able to store multiple make, model, or
+function sequences. Initially, sequences for new device set up of a Samsung
+Galaxy S8 and iPhone 7Plus will be included. Other sequences may be added later
+on.
+REQ-1.5: The sequencer shall have an operator interface to configure, select
+jobs, start/stop operation, and provide status and error information to the
+operator.
+REQ-1.6: The sequencer shall be able to run continuously for at least
+20 hours each day.
+REQ-1.7: The sequencer shall be as compact as possible. The device fixture and
+mechanism should be able to fit on a 2'x3' workbench alongside existing work
+area. The controller components may be housed in a separate enclosure.
+REQ-1.8: The sequencer shall not leave the work station after installation.
+
+2. System/Device/Unit Constraint requirements:
+REQ-2.1:  The sequencer shall be configurable to handle a variety of OEMs and Models.
+Initially, only the Samsung Galaxy S8 and iPhone 7Plus will be supported. Other
+device models may be added later on.
+REQ-2.2:  The sequencer shall only need to support handheld smartphones.
+Tablets are not required to be processed.
+REQ-2.3: The sequencer shall cost around $5000 in parts to manufacture.
+REQ-2.4: The sequencer shall be housed in a safe enclosure in order to protect
+the user from a mechanical/electrical hazard.
+
+3. Other Needs:
+REQ-3.1: The sequencer shall not interact directly with a workstation,
+but may display information on a webpage.
+REQ-3.2: The sequencer shall have labels on any buttons on the sequencer.
+
+4. Optional Features:
+REQ-4.1: The sequencer may be capable of voice interaction with the device.
+REQ-4.2: The sequencer may have a web interface or built-in interface
+which allows for uploading instructions / downloading statistics.
+REQ-4.3: The sequencer may include an emergency stop button
+REQ-4.4: The sequencer may require a fixture to hold the device
+REQ-4.5: The sequencer shall have a configuration mode that will allow
+the setup and calibration of a new make, model, or function sequence.
+"""]]
+
+Laying out these detailed project requirements, we were able to generate over
+40+ individual prototype sketches; we used these sketches as inspiration when
+choosing a final design. The sketches we generated look similar to the ones below:
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-scope.jpg">
+<img alt="Scope-like" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-scope.jpg">
+</a>
+<figcaption>An oscilloscope-like design</figcaption>
+</figure><figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-box.jpg">
+<img alt="Box" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-box.jpg">
+</a>
+<figcaption>What became the basis for our chassis</figcaption>
+</figure><figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-bird.jpg">
+<img alt="Bird" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-bird.jpg">
+</a>
+<figcaption>A running joke of a design that features a <a
+href="https://en.wikipedia.org/wiki/Drinking_bird">Drinking Bird</a></figcaption>
+</figure>
+
+... our prototype began to emerge organically from the designs we generated; we began
+physical construction (selecting a style similar to the second of the above sketches),
+first with a cardboard mock-up and second with a static, aluminium chassis. It
+is the aluminium chassis which we used as the chassis to construct our first-
+and second-semester deliverable products.
+
+Over time, we naturally separated ourselves into our distinct roles without much
+designation; luckily we each seemed to find a niche becoming of our skillsets. I
+became the team-lead, responsible for goal-setting, management, and
+accountability; additionally and since I had the most Linux programming
+experience I gradually became the lead programmer for the actual sequencer;
+consequently I had to quickly train myself in computer vision and motor
+controller programming in order to realize our prototype.
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-motors.jpg">
+<img alt="Motor Spec" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-motors.jpg">
+</a>
+<figcaption>An example of the detailed specifations I drafted as lead-programmer</figcaption>
+</figure><figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-block-diagram.jpg">
+<img alt="Block Diagram" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-block-diagram.jpg">
+</a>
+<figcaption>A high-level block diagram summarizing our design choices</figcaption>
+</figure>
+
+Specifications like the ones above were distributed to the team and helped to
+keep us focused and on-track to achieve the final product. Below is the
+aluminium chassis which was completed during 484:
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-chassis.jpg">
+<img alt="Chassis" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-chassis.jpg">
+</a>
+<figcaption>The completed aluminium chassis</figcaption>
+</figure>
+
+My Role and Design Choices
+--------------------------
+
+As lead-programmer, I was responsible for programming the computer-vision and
+all GPIOs coming from the microcontroller (e.g. stepper-motor control lines,
+servo-motor control lines) we settled on, the Raspberry Pi 3b+. I decided to write all of
+this in [Golang](https://golang.org/), a relatively new programming language
+designed at Google which features exceptional error-handling capability and a
+diverse ecosystem of already-written libraries and routines.
+
+I decided furthermore that the motors and camera should be controllable by a simple
+command-line tool called `mds-do` (MDS is short-hand for Mobile Device
+Sequencer). This CLI tool should, then, hook in to a library which I also would
+write. The functionality is entirely implemented in this library; the CLI tool
+is only an interface to call the functions exposed in the library.
+
+For computer vision I settled on using OpenCV's template matching to identify
+which areas of the mobile device's screen needed to be touched by the stylus
+arm. The library then would identify the relative distance from this area to the
+stylus arm and move the device over the appropriate distance, lowering the
+stylus arm to activate the device's capacitive touch screen and then raising it
+once the device had been touched. Because the stepper motors employed on either
+axis parallel to the phone were accurate to 1.8deg I had no trouble precisely
+touching the exact area of the screen.
+
+The MDS parameters (motor speed, GPIO pinout, motor precision, etc. etc.) are
+controlled by a `.toml` file; this makes the MDS easily configurable and
+tuneable. The `.toml` example configuration file looks like this:
+
+[[!syntax type="toml" text="""
+# MDS configuration - .toml file
+# Install (after modifying) to: /pub/MDS-config.toml
+# Describes the physical configuration of a MDS
+# Wesley Coakley (w@wesleycoakley.com)
+
+[Sequences]
+Directory = "/path/to/sequences" # Finite state machine CSV files
+
+[Camera]
+File = "/path/to/image/file" # Input from camera (written to by `SnapScript`)
+CVFile = "/path/to/output/image" # Written to by MDS (output file, available for debugging)
+SnapScript = "/path/to/capture/script" # Script to snap a picture and put it at `File`
+Rotation = 0 # Rotate image 90, 180, or 270 deg. during pre-processing
+ServoResetPos_X = 1900 # Where is the servo arm X (from the camera's perspect.)?
+ServoResetPos_Y = 460 # Where is the servo arm Y (from the camera's perspect.)?
+PixelsPerInch = 190 # Experimental, depends on the camera resolution from `SnapScript`
+
+# Motor Wiring
+# ============
+# The following three sections define the X, Y, and Z axis wiring schemas
+#
+#            X-axis Motor
+# -------------------------------------
+# Stepper motor (mounted on the bottom)
+# These pins plug into the DRV8834 breakout board
+# and drive a Sanyo Denki 1.8deg/step motor
+[XAxisMotor]
+Id = 0
+EnablePin = 14 # (Blue)
+DirectionPin = 15 # (White)
+PwmPin = 18 # (Green)
+InchesPerRevolution = 0.4375 # Experimental value (run one `pulse`)
+StepsPerRevolution = 200 # 1.8 deg/step = 200 steps per rev.
+StepsPerSecond = 50 # Motor Speed in steps/sec
+
+#            Y-axis Motor
+# ------------------------------------
+# Stepper motor (mounted from the top)
+# These pins plug into the DRV8834 breakout board
+# and drive a Sanyo Denki 1.8deg/step motor
+[YAxisMotor]
+Id = 1
+EnablePin = 17 # (Blue)
+DirectionPin = 27 # (White)
+PwmPin = 22 # (Green)
+InchesPerRevolution = 0.375 # Experimental value (run one `pulse`)
+StepsPerRevolution = 200 # 1.8 deg/step = 200 steps per rev.
+StepsPerSecond = 50 # Motor speed in steps/sec
+
+#             Z-axis Motor
+# -------------------------------------
+# Servo motor (stylus motor)
+# These pins plug into the L298 H-bridge
+[ZAxisMotor]
+Id = 2
+ForwardPin = 9 # (Blue)
+BackwardPin = 11 # (White)
+
+#           Debugging options
+# -------------------------------------
+[Debug]
+GPIOEmulated = false # Don't try to toggle GPIO pins
+"""]]
+
+The sequences in [Sequences/Directory] are CSV files which define the finite
+state machines powering each sequence for a given device; each line is a step,
+and the (successful) completion of each step warrants the attempt of the next
+step in the sequence.
+
+Unfortunately I am not at liberty to share the Golang code nor any code from the
+project by contract; however I am permitted to share the details of its
+operation (as above) and to give insight into my design choices (also as above).
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-final.jpg">
+<img alt="Design Day" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-final.jpg">
+</a>
+<figcaption>Our presentation at second-semester Design Day</figcaption>
+</figure>
+
+Design Day and Results
+----------------------
+
+At the Senior Design Day this past Friday (2019, Dec. 6) I was unanimously
+nominated MVP of my team for my role as team-lead and programmer; although we
+didn't win any prizes for our performance I am extremely proud of our execution
+and results, achieving nearly all of our core requirements and even some of our
+stretch goals.  I feel that my capacity to manage a small group, especially in
+an environment where we are expected to rapidly prototype and spec a product,
+has greatly improved since having this experience.
+
+<figure><video controls>
+<source src="https://cdn.wesleycoakley.com/web-images/snr-design-lab-demo.mp4">
+</video>
+<figcaption>Example of the design-day demonstration</figcaption>
+</figure>
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/snr-design-me-demo.jpg">
+<img alt="Me" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-me-demo.jpg">
+</a>
+<figcaption>Me and the Golang Gopher giving a demonstration of the MDS</figcaption>
+</figure>

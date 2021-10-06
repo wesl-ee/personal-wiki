@@ -87,7 +87,7 @@ Year | Term   | Course  | Description
 2017 | Fall   | MA408   | Foundations of Euclidean Geometry
 2018 | Fall   | ECE301  | Linear Systems
 2018 | Fall   | ECE303  | Electromagnetic Fields
-2018 | Fall   | ECE306  | [Introduction to Embedded Systems](https://wesleycoakley.com/Projects/my-embedded-ncsu-ece306-project.html)
+2018 | Fall   | ECE306  | [[Introduction to Embedded Systems|Embedded_Systems_ECE306]]
 2018 | Fall   | ECE381  | Engineering Profession CPE
 2018 | Fall   | ECE492  | Operating Systems Design
 2018 | Fall   | ENG265  | American Literature
@@ -95,7 +95,7 @@ Year | Term   | Course  | Description
 2019 | Spring | ECE305  | Principles of Electromechanical Energy Conversion
 2019 | Spring | ECE310  | Design of Complex Digital Systems
 2019 | Spring | ECE463  | Microarchitecture
-2019 | Spring | ECE484  | [Senior Design Project I](https://wesleycoakley.com/Projects/my-senior-design-project-ncsu-ece484-ece485.html)
+2019 | Spring | ECE484  | [[Senior Design Project I|Senior_Design_ECE484_ECE485]]
 2019 | Fall   | ECE434  | Fundamentals of Power Electronics
 2019 | Fall   | ECE451  | Power System Analysis
 2019 | Fall   | ECE464  | ASIC and FPGA Design

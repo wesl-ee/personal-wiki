@@ -1,0 +1,776 @@
+There is an (in)famous course in the computer engineering major at N.C. State
+university: ECE306 "Introduction to Embedded Systems"
+([mirror of the 2018 syllabus](https://cdn.wesleycoakley.com/specs/syllabus/ECE306_Syllabus_Fall.pdf));
+the course is generally taken in the third year at State and advisors always recommend
+to take this course along with a light semester instead of cramming it in with other,
+equally demanding courses.
+
+ECE306 is project-based: more than fifty percent of your final grade in the
+course arises from the various components of the main project (the other
+fifty percent is derived from your performance on three exams).
+
+The Project and its Requirements
+--------------------------------
+
+The project itself is actually very neat: you are given a TI-MSP430
+microcontroller and several components (e.g. an IoT Wi-Fi booster
+board, debugging cables, an H-bridge, motors, and a handful of infrared
+detectors / emitters) which you are expected to use to complete 10 sequential projects
+(each of which builds upon the last) which include the following objectives:
+
+1. Solder all components to the TI-MSP430, booster boards and H-bridge
+2. Write an operating system which exposes and leverages the functionality
+of the MSP430 and attached hardware
+3. Design and fabricate a chassis (with room for the wheels and servo-motors)
+on which the MSP430 will be mounted
+4. Design and implement data structures and algorithms which permit the
+newly-constructed device to:
+	1. Communicate and receive commands from a user via the wireless interface
+	2. Navigate a 10-part obstacle course (while being driven by a user)
+	3. Autonomously drive, intercept and follow an arbitrary black line on
+	the floor
+
+That's all to say: the final project is an **IoT-enabled RC-Car** capable of
+operation in autonomous and manual modes.
+
+Implementation Strategy
+-----------------------
+
+All code is written in C; IAR is the preferred IDE (I explain how I replaced
+IAR with a home-baked GCC toolchain later); the free version of IAR comes
+with several restrictions, the most problematic of these is an 8MiB hard-limit
+for compiled binaries.
+
+Firstly, pieces of pre-compiled code are provided by the instructor at the
+beginning of the course: the first project focuses on installing this code
+on the MSP430; the subsequent 2 projects require you to replace the obfuscated
+binary with your own, self-written firmware. The below picture is taken from
+my lab-report for Project 1, which familiarized me with using IAR and the
+debugging tools to port software from a lab (Windows) machine to the MSP430
+board.
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/ece306-p1-board.png">
+<img alt="P1 Board"
+src="https://cdn.wesleycoakley.com/web-images/thumb/ece306-p1-board.jpg">
+</a>
+<figcaption>Example of the outcome of Project 1</figcaption>
+</figure>
+
+Projects beyond the first few introduce locomotion and precision into the
+car in addition to the black-line detection which is necessary for the final
+project. Eventually all the pre-compiled code is replaced *except for the
+LCD microcontroller code*.
+
+Reverse-engineering the LCD
+---------------------------
+
+The LCD is attached to a breakout board which is mounted on top of the
+MSP430 itself; the board only sources a handful of GPIO signals (the LCD
+board itself uses a simple SPI interface to communicate with the host MCU)
+and it seems that only a fraction of the useful and fun functions of the
+LCD are exposed by the pre-compiled, instructor-provided code.
+
+I hassled my professor a number of times about the code: how he did it, what
+documentation did he use, even if I could see the code itself; but he never
+allowed me to see even a snippet of his code, calling it a "dirty hack" and
+"not good practice"; this inspired me to research the LCD and begin
+experimenting with its functionality.
+
+The LCD itself is a **EA DOGS104-A** (amber)
+([datasheet](https://cdn.wesleycoakley.com/specs/dogs104e.pdf)); from a
+cursory look at this datasheet, I was excited about how simple things
+looked, and the prospect of doing something which nobody had ever tried in
+the history of ECE306 at State excited and inspired me to replace the
+provided obfuscated binary with my own LCD code.
+
+I began by researching everything about the LCD: especially I was interested
+in existing libraries written for the controller (I found no such code),
+downloading and filing everything meticulously on my personal computer.
+These late afternoons and weekends in the lab were meditative: I would sit
+with the MSP430 on the table to my right, wired with a pair or two of cables
+to an oscilloscope and a power supply on the lab bench. Whenever the
+documentation was not verbose, I would run the instructor's obfuscated code
+and dump the resulting voltage waveform to the oscilloscope, zooming in at
+specific parts of the sample, trying to figure out what each part meant.
+
+This process, while tedious, gave me the hands-on experience of
+reverse-engineering and SPI programming that everyone else missed out on; an
+example of my notes (annotated with my post-analysis) is posted below:
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/ece306-lcd-dump.jpg">
+<img alt="LCD Dump"
+src="https://cdn.wesleycoakley.com/web-images/thumb/ece306-lcd-dump.jpg">
+</a>
+<figcaption>An annotated view of the waveform traced from a lab
+oscilloscope; using this (and 10 other sketches) I was able to
+reverse-engineer the entire initialization routine</figcaption>
+</figure>
+
+It appeared that information travelled to the LCD from the MCU in small
+chunks (with delays in-between); 10 such command-chunks were sent in my
+professor's initialization routine. I meticulously sketched each command in
+my lab notebook and matched up the signals with the [SSD1803A
+specs](https://cdn.wesleycoakley.com/specs/ssd1803a_2_0.pdf), which is the
+actual controller and driver for the LCD segment.
+
+Cross-referencing this 69-page technical document I was able to
+reverse-engineer all 10 of the commands sent during the initialization
+routine in my instructor's binary just over a weekend in late October.
+It happens that almost none of the commands sent are necessary;
+many steps simply re-assert the power-on-default parameters of the chip; perhaps this initialization is not
+an "initialization" but a "reset" function, I wondered; but it didn't matter
+as nobody used their LCD like this anyhow (and if they *were* stressing
+their LCD to the point it required soft-reset they have bigger problems to
+worry over).
+
+It seems that the code provided to us used *delays* to ensure that the commands
+reached the LCD; this is not optimal for a number of reasons.
+Most importantly, code which uses *delays* often blocks execution of other
+critical tasks; if the blocking code is used in an ISR then events can be
+missed and normal operation can break down. I was surprised to find evidence
+of blocking delays in my professor's obfuscated code (especially because he
+warned us not to use such busy-waits); writing to a screen using his library,
+it seemed, could introduce several milliseconds of delay, potentially causing
+events to be missed elsewhere. This delay could be eliminated entirely if
+one wrote code to use a ring-buffer or a similar structure instead of
+feeding the bytes one-by-one.
+
+After decoding the initialization routine and distilling it down to only the
+necessary commands, I decided to write my own library of functions for the
+SSD1803A. I only bothered writing code to leverage the functions *I* wanted
+to use, however it is trivial to expand this library to include **all**
+functions exposed by the chip; below are a few snippets from the final version of my version of
+`LCD.c`: it's worth noting that I provided no mapping of my instructor's
+function calls to my function calls so the library is not strictly
+interchangeable (and it's likely that the hardware for future ECE306 courses
+will change so such a mapping is likely to be deprecated soon). Here is a
+snippet of the head of the file:
+
+[[!syntax type="c" text="""
+/*
+*  Provides the microcontroller an interface with the LCD screen
+*  Wesley Coakley
+*  Nov 2018
+*/
+
+#include "macros.h"
+#include "data-types.h"
+#include "functions.h"
+#include "msp430.h"
+#include "globals.h"
+#include <string.h>
+
+#define SPI_BUF_LEN	(0x3F)
+
+#define LCD_MODE_1	(0x00)
+#define LCD_MODE_2	(0x01)
+#define LCD_MODE_3	(0x02)
+#define LCD_MODE_4	(0x03)
+
+/* LCD Start Bytes */
+#define LCD_DATAWRITE_START	(0xFA)	// RS=1, RW=0
+#define LCD_DATAREAD_START	(0xFE)	// RS=1, RW=1
+#define LCD_CMD_START	(0xF8)	// RS=0, RW=0
+/* Extended instruction set */
+#define LCD_ROM_SELECTION	(0x72)
+
+/* 0x01: LCD Clear Display */
+#define LCD_CMDMASK_CLEAR	(0x01)
+
+/* 0x02: LCD Return Home */
+#define LCD_CMDMASK_RETHOME	(0x02)
+
+
+/* 0x04: LCD Entry Mode Set (RE=1) */
+#define LCD_CMDMASK_EXT_ENTRYSET	(0x04)
+#define LCD_ARGMASK_BDC	(0x02)
+#define LCD_ARGMASK_BDS	(0x01)
+
+/* 0x08: LCD Display On / Off Control (RE=0) */
+#define LCD_CMDMASK_DISPLAYCONT	(0x08)
+#define LCD_ARGMASK_D	(0x04)
+#define LCD_ARGMASK_C	(0x02)
+#define LCD_ARGMASK_B	(0x01)
+
+/* 0x08: LCD Extended Function Set (RE=1) */
+#define LCD_CMDMASK_EXTFUNCSET	(0x08)
+#define LCD_ARGMASK_FW	(0x04)
+#define LCD_ARGMASK_BW	(0x02)
+#define LCD_ARGMASK_NW	(0x01)
+
+/* 0x10: LCD Display Shift */
+#define LCD_CMDMASK_SHIFT	(0x10)
+#define LCD_ARGMASK_SC	(0x08)
+#define LCD_ARGMASK_RL	(0x04)
+/* 0x10: LCD Double Height (RE=1) */
+#define LCD_CMDMASK_EXT_DOUBLEHEIGHT	(0x10)
+#define LCD_ARGMASK_UD2	(0x08)
+#define LCD_ARGMASK_UD1	(0x04)
+#define LCD_ARGMASK_BS1	(0x02)
+#define LCD_ARGMASK_DHP	(0x01)
+
+/* 0x20 Common Arguments */
+#define LCD_ARGMASK_DL	(0x10)
+#define LCD_ARGMASK_N	(0x08)
+#define LCD_ARGMASK_RE	(0x02)
+/* 0x20: LCD Function Set */
+#define LCD_CMDMASK_FUNCSET	(0x20)
+#define LCD_ARGMASK_DH	(0x04)
+#define LCD_ARGMASK_IS	(0x01)
+/* 0x20: LCD Function Set (RE=1) */
+#define LCD_CMDMASK_EXT_FUNCSET	(0x20)
+#define LCD_ARGMASK_BE	(0x04)
+#define LCD_ARGMASK_REV	(0x01)
+
+/* 0x40: LCD Set CGRAM Address */
+#define LCD_CMDMASK_SETCGRAMADDR	(0x40)
+#define LCD_MAXCGRAMADDR	(0x3F)
+
+/* 0x50: Power Control */
+#define LCD_CMDMASK_POWERCONTROL	(0x50)
+#define LCD_ARGMASK_ION	(0x08)
+#define LCD_ARGMASK_BON	(0x04)
+
+/* 0x60: Set Follower Control */
+#define LCD_CMDMASK_SETFOLLOWERCONTROL	(0x60)
+#define LCD_ARGMASK_DBON	(0x08)
+#define LCD_MAX_RESISTOR_RATIO	(0x07)
+#define LCD_RESISTOR_RATIO	(0x06)
+
+/* 0x70: Contrast Set */
+#define LCD_CMDMASK_CONTRASTSET	(0x70)
+#define LCD_MAX_CONTRAST	(0x0F)
+#define LCD_DEFAULT_CONTRAST	(0x0F)
+
+/* 0x80: LCD Set DDRAM Address */
+#define LCD_CMDMASK_SETDDRAMADDR	(0x80)
+#define LCD_DDRAMLEN_ONELINE	(0x50)
+#define LCD_DDRAMLEN_TWOLINE	(0x68)
+#define LCD_DDRAMLEN_THREELINE	(0x54)
+#define LCD_DDRAMLEN_FOURLINE	(0x74)
+
+/* LCD ROM Spaces */
+#define LCD_ROMA	(0x00)
+#define LCD_ROMB	(0x01)
+#define LCD_ROMC	(0x02)
+
+/* LCD struct */
+#define LCD_MODERR	(0x01)
+#define LCD_ROMERR	(0x02)
+#define LCD_WRITERR	(0x04)
+#define LCD_POR_ERR	(0x00)
+
+/* LCD Modes */
+#define LCD_EXTENDED_MODE	(0x01)	// Bit 0
+#define LCD_SPECIAL_MODE	(0x02)	// Bit 1
+#define LCD_DISPLAY_MODE	(0x0C)	// Bits 2 & 3
+#define LCD_DATALENGTH_MODE	(0x10)	// Bit 4
+#define LCD_MODE_NW	(0x04)
+#define LCD_MODE_N	(0x08)
+
+/* Power on reset defaults */
+#define LCD_POR_CURSROW	(0x00)
+#define LCD_POR_CURSCOL	(0x00)
+#define LCD_POR_MODE	(0x00)
+#define LCD_POR_PMODE	(0x00)
+
+/* LCDRow */
+#define LCDROW_NOSCROLL	(-1)
+#define LCDROW_FOURCOL_ADDR(row) ( \
+	(row > 2) ? 0x60 : \
+	(row > 1) ? 0x40 : \
+	(row > 0) ? 0x20 : 0x00 )
+#define LCDROW_FOURCOL_LEN	(0x14)
+
+/* LCD Abstractions */
+char display_line[LCD_MAX_ROWS][LCD_MAX_COLS];
+char spi_buf[SPI_BUF_LEN];
+struct LCDRow framLCDScreen[LCD_MAX_ROWS];
+struct serial_buf framLCDSBuf;
+struct LCD framLCD;
+"""]]
+
+As you can see, I leveraged the preprocessor macros in C to make the commands
+and arguments easier to read; the increased readability allowed me to
+easily write the code which sends these commands. After
+declaring these constants I go on to define some useful high-level
+functions; here is a function which resets the LCD to a know state (e.g. after
+power-on-reset or after a brownout):
+
+[[!syntax type="c" text="""
+// Initialize the SPI bus for the LCD
+void Init_LCD(void) {
+	// Reclaim SPI buffer
+	struct serial_buf *sbuf = &framLCDSBuf;
+	sbuf->buf = spi_buf;
+	sbuf->len = SPI_BUF_LEN;
+	sbuf->wi = 0; sbuf->ri = 0;
+
+	// Draw up the screen
+	struct LCDRow *screen = framLCDScreen;
+	for (int i = 0; i < LCD_MAX_ROWS; i++) {
+		struct LCDRow *r = &screen[i];
+		r->chars = display_line[i];
+		r->scroll = LCDROW_NOSCROLL;
+		r->len = LCDROW_ONSCREEN_COLS;
+		r->addr = LCDROW_FOURCOL_ADDR(i);
+	}
+
+	// Configure the LCD environment
+	struct LCD *l = &framLCD;
+	l->mode = LCD_POR_MODE;
+	l->printmode = LCD_POR_PMODE;
+	l->error = LCD_POR_ERR;
+	l->ROWS = LCD_MAX_ROWS;
+	l->screen = screen;
+	l->sbuf = sbuf;
+	l->curs_row = LCD_POR_CURSROW;
+	l->curs_col = LCD_POR_CURSCOL;
+
+	UCB1CTLW0 = UCSWRST;	// Temporarily suspend eUSCI for configuration
+
+	// Control-word 0 configuration
+	UCB1CTLW0 &= ~UCCKPH;	// Change then capture
+	UCB1CTLW0 |= UCCKPL;	// Inactive state is high
+	UCB1CTLW0 |= UCMST;	// Master mode
+	UCB1CTLW0 |= UCMSB;	// MSB order
+	UCB1CTLW0 |= UCMODE_0;	// 3-pin SPI
+	UCB1CTLW0 |= UCSYNC;	// Asynchronous
+	UCB1CTLW0 |= UCSSEL_2;	// Source from SMCLK
+
+	UCB1BRW = 40;	// /40 (divide SPICLK down to 100kHz)
+
+	UCB1CTLW0 &= ~UCSWRST;	// Re-initialize SPI Bus with our configuration
+
+	// Special functionality (IS=1, RE=0)
+	lcdFunctionSet(&framLCD,
+		// Data length -> 8 bits
+		LCD_ARGMASK_DL
+		// Display lines -> 4 / 2 setting lines
+		| LCD_ARGMASK_N
+		// Special Instructions
+		| LCD_ARGMASK_IS);
+	lcdClearDisplay(&framLCD);
+	lcdContrastSet(&framLCD, LCD_DEFAULT_CONTRAST);
+	lcdPowerControl(&framLCD, LCD_ARGMASK_ION | LCD_ARGMASK_BON);
+	lcdSetFollowerControl(&framLCD, LCD_ARGMASK_DBON, LCD_RESISTOR_RATIO);
+
+	// Extended functionality (IS=0, RE=1)
+	lcdFunctionSet(&framLCD,
+		// Data length -> 8 bits
+		LCD_ARGMASK_DL
+		// Display lines -> 4 / 2 setting lines
+		| LCD_ARGMASK_N
+		// Enable extended functions
+		| LCD_ARGMASK_RE);
+	lcdExtendedFunctionSet(&framLCD,
+		// 3~4 line mode
+		LCD_ARGMASK_NW);
+	lcdEntryModeSet(&framLCD,
+		// Shift DDRAM normally; segments shift in reverse
+		LCD_ARGMASK_BDC);
+	lcdDoubleHeight(&framLCD,
+		LCD_ARGMASK_BS1
+		| LCD_ARGMASK_UD1
+		| LCD_ARGMASK_UD2
+		| LCD_ARGMASK_DH);
+
+	// Normal Functionality (RE=0, IS=0)
+	lcdFunctionSet(&framLCD,
+		LCD_ARGMASK_N
+		| LCD_ARGMASK_DL);
+	lcdDisplayControl(&framLCD,
+		// Turn on Display
+		LCD_ARGMASK_D
+		| LCD_ARGMASK_B
+		| LCD_ARGMASK_C);
+}
+"""]]
+
+... as you can see there are several helper functions which are called by
+this initialization routine; each helper function sends one or more commands
+via SPI to the LCD driver. In additon, I liberally leverage `struct` and
+other C abstractions to organize and structure my code better, in a way
+which is easier to read and which is similar to an object-oriented (OO) approach
+to the problem; it seems that the pre-compiled code did not take this
+approach to the problem. Below are examples of high-level helper functions:
+
+[[!syntax type="c" text="""
+// Toss a string on to the LCD
+void lcdPrint(struct LCD *l, char *s) {
+	for (int i = 0; s[i]; i++) lcdPutChar(l, s[i]);
+}
+
+// Erase all characters on the LCD
+void lcdEraseContents(struct LCD *l) {
+	// Reset cursor to zero position
+	lcdReturnHome(l);
+
+	// Remove characters
+	do { lcdWrite(l, ' ');
+	} while (l->curs_addr > (*l->screen).addr);
+}
+
+// Write to the cursor position
+void lcdPutChar(struct LCD *l, char c) {
+	if ((c == '\n' || c == ' ') &&
+	l->curs_col == l->screen[l->curs_row].len - 1) {
+		return;
+	}
+	switch(c) {
+	case '\n':
+		lcdLineFeed(l); break;
+	default:
+		lcdWrite(l, c);
+	}
+}
+
+// Advance LCD cursor to the beginning of the next line
+void lcdLineFeed(struct LCD *l) {
+	unsigned char row = l->curs_row;
+	row = ++row % l->ROWS;
+	l->curs_row = row;
+	l->curs_col = 0;
+
+	lcdSetDDRAMAddress(l, l->screen[row].addr);
+}
+
+// Advance cursor to the beginning of an arbitrary line
+void lcdCursorToLine(struct LCD *l, unsigned char line) {
+	if (line > l->ROWS) {
+		lcdTossError(l, LCD_WRITERR);
+		return;
+	}
+	l->curs_col = 0;
+	l->curs_row = line;
+	lcdSetDDRAMAddress(l, l->screen[line].addr);
+}
+"""]]
+
+... these are examples of high-level helper functions, which are normally
+called by code elsewhere within the MCU firmware; they make life easier for
+the progammer (me). Contrasting the high-level functions, I also programmed
+a class of low-level functions which do the heavy-lifting by taking care of
+things like SPI communication and also handle the quirks of the chip which
+I discovered from the datasheet:
+
+[[!syntax type="c" text="""
+/* Low-level LCD functions */
+
+void lcdSendCmd(struct LCD *l, unsigned char instruction) {
+	struct serial_buf *s = l->sbuf;
+	unsigned char revi = reverseInstruction(instruction);
+	writeSBuf(s, LCD_CMD_START);
+	writeSBuf(s, (revi >> 4) << 4);
+	writeSBuf(s, revi << 4);
+
+	// Initialize SPI bus transfer using TX interrupt
+	if (!(UCB1IE & UCTXIE0)) {
+		UCB1TXBUF = readSBuf(s);
+		UCB1IE |= UCTXIE0;	// Enable transmit ready interrupts
+	}
+
+}
+unsigned char reverseInstruction(unsigned char instruction) {
+	return ((instruction & 0x01) << 7)
+	| ((instruction & 0x02) << 5)
+	| ((instruction & 0x04) << 3)
+	| ((instruction & 0x08) << 1)
+	| ((instruction & 0x10) >> 1)
+	| ((instruction & 0x20) >> 3)
+	| ((instruction & 0x40) >> 5)
+	| ((instruction & 0x80) >> 7);
+}
+
+/* Clear Display */
+void lcdClearDisplay(struct LCD *l) {
+	lcdSendCmd(l, LCD_CMDMASK_CLEAR);
+}
+
+/* Return Home */
+void lcdReturnHome(struct LCD *l) {
+	l->curs_row = l->curs_col = 0;
+	lcdSendCmd(l, LCD_CMDMASK_RETHOME);
+}
+
+/* Set LCD Entry Mode (RE=1) */
+void lcdEntryModeSet(struct LCD *l, unsigned char args) {
+	if (!(l->mode & LCD_EXTENDED_MODE)) {
+		lcdTossError(l, LCD_MODERR);
+		return;
+	}
+
+	lcdSendCmd(l, LCD_CMDMASK_EXT_ENTRYSET | args);
+}
+
+/* Augment LCD functionality (RE=1) */
+void lcdExtendedFunctionSet(struct LCD *l, unsigned char args) {
+	if (!(l->mode & LCD_EXTENDED_MODE)) {
+		lcdTossError(l, LCD_MODERR);
+		return;
+	}
+	// Update LCD state if we're changing display modes
+	if ((args & LCD_ARGMASK_NW)
+	&& !(l->mode & LCD_MODE_NW)) {	// NW=0 -> NW=1
+		l->mode |= LCD_MODE_NW;
+	}
+	else if (!(args & LCD_ARGMASK_NW)
+	&& (l->mode & LCD_MODE_NW)) {	// NW=1 -> NW=0
+		l->mode &= ~LCD_MODE_NW;
+	}
+
+	lcdSendCmd(l, LCD_CMDMASK_EXTFUNCSET | args);
+}
+
+void lcdContrastSet(struct LCD *l, unsigned int contrast) {
+	if (l->mode & LCD_EXTENDED_MODE
+	|| !(l->mode & LCD_SPECIAL_MODE)) {
+		lcdTossError(l, LCD_MODERR);
+		return;
+	}
+
+	if (contrast > LCD_MAX_CONTRAST) contrast = LCD_MAX_CONTRAST;
+	lcdSendCmd(l, LCD_CMDMASK_CONTRASTSET | contrast);
+}
+void lcdSetDDRAMAddress(struct LCD *l, unsigned int a) {
+	if (l->mode & LCD_EXTENDED_MODE) {
+		lcdTossError(l, LCD_MODERR);
+		return;
+	}
+
+	// Restrict address space according to the display mode
+	if (!(l->mode & LCD_DISPLAY_MODE - LCD_MODE_1)	// One-line
+	&& (LCD_DDRAMLEN_ONELINE < a))
+		a = LCD_DDRAMLEN_ONELINE - 1;
+	else if (!(l->mode & LCD_DISPLAY_MODE - LCD_MODE_2)	// Two-line
+	&& (LCD_DDRAMLEN_TWOLINE < a))
+		a = LCD_DDRAMLEN_TWOLINE - 1;
+	else if (!(l->mode & LCD_DISPLAY_MODE - LCD_MODE_3)	// Three-line
+	&& (LCD_DDRAMLEN_THREELINE < a))
+		a = LCD_DDRAMLEN_THREELINE - 1;
+	else if (!(l->mode & LCD_DISPLAY_MODE - LCD_MODE_4)	// Four-line
+	&& (LCD_DDRAMLEN_FOURLINE < a))
+		a = LCD_DDRAMLEN_FOURLINE - 1;
+	unsigned char addr = (unsigned char) a;
+
+	lcdSendCmd(l, LCD_CMDMASK_SETDDRAMADDR | addr);
+
+	unsigned char col = addr; unsigned char row;
+	for (row = 0; l->screen[row].addr < addr && row < l->ROWS; row++) { }
+
+	l->curs_row = row;
+	l->curs_col = addr - l->screen[row].addr;
+}
+
+void lcdTossError(struct LCD *l, unsigned char error) { l->error |= error; }
+"""]]
+
+... I absolutely love using `struct` (as you can tell above); almost all of
+the LCD's functionality is managed via this paradigm because (1) `struct`
+naturally organizes data in a coherent way and (2) to add another LCD, one
+only needs to instantiate another `struct`, not to rewrite the whole
+library; notice that each function above takes `struct LCD *l` as its first
+parameter; this provides one more layer of abstraction to the library,
+permitting the OO approach which I explained before.
+
+Interesting to note also is that I regularly use error-handling code,
+something which many embedded programmers scoff at; I believe that this
+approach (as opposed to taking a "halt and catch fire" approach to errors)
+allows sub-fatal errors to be handled appropriately and avoid a total system
+freeze (especially for non-critical errors).
+
+Finally, my `LCD.c` file concludes with code for handling an interrupt
+vector for writing to the SPI buffer; the LCD communication (and all serial
+communications on my board) are handled by a number of ring buffers
+declared in heap memory. The interrupt service routine (ISR) looks like
+this:
+
+[[!syntax type="c" text="""
+/* #pragma vector = EUSCI_B1_VECTOR
+__interrupt void eUSCI_B1_ISR(void) { */
+void __attribute__ ((interrupt(EUSCI_B1_VECTOR))) eUSCI_B1_ISR() {
+	struct LCD *l = &framLCD;
+	struct serial_buf *s = l->sbuf;
+	switch(__even_in_range(UCB1IV, 4)) {
+	case 2:	// RX ready
+		break;
+	case 4: // TX ready
+		if (!(s->wi - s->ri)) {
+			UCB1IE &= ~UCTXIE0;	// Nothing more to transmit
+			return;
+		}
+		// Put one more character on the wire
+		UCB1TXBUF = readSBuf(s);
+	}
+}
+"""]]
+
+... this ISR is slim and fast, meaning that the time spent in this ISR is
+minimized so that the MSP430 has time to do the other necessary things (e.g.
+IoT communication, starting / stopping motors, etc.); this is a deliberate
+design choice on my part because ISRs block the execution of other ISRs on
+the MSP430 (at least by default); spending too much time handling an
+interrupt may mean that some other interrupts are delayed or maybe
+even never called! This is a scenario one wishes to avoid, especially when
+operating within the millisecond-by-millisecond world of IoT controllers.
+
+One intersting thing to note in the above ISR is that: I never handle the
+case where I am receiving data from the LCD (i.e. `UCB1RXBUF`); I can get
+away with this because the LCD never sends any interesting signals back in
+typical operation; the RX case above simply ensures that the interrupt in
+deasserted. The circular nature of the buffer is evident by the line `!(s->wi -
+s->ri)` which simply tests if the write-index of the serial buffer
+(`l->sbuf->ri`) is equal to the read-index of the serial buffer
+(`l->sbuf->wi`); this is the typical implementation of buffers because
+the read and write indices are advanced incrementally according to each read
+and write operation on the buffer such that the indices will be equal once all
+data has been read which has been written.
+
+These RC-Cars are entirely driven by batteries, making low-power operation
+an important thing to consider. I actually achieved a relatively low-power
+design (a pair of 4 AAs would let me drive my car for ~6 hours continuously)
+by:
+
+1. Slowing the clock periods on the MSP430
+2. Toggling the LCD backlight when necessary
+3. Taking advantage of low-power states on the wireless chip
+
+All this fine-tuning is detailed in my lab notebook (which was not a
+requisite part of the course but which I found useful to have), a page of
+which is provided below:
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/ece306-clk-design.jpg">
+<img alt="P10 Dev"
+src="https://cdn.wesleycoakley.com/web-images/thumb/ece306-clk-design.jpg">
+</a>
+<figcaption>A page from my lab notebook detailing clock propagation to
+various subsystems in the RC-Car</figcaption>
+</figure>
+
+As you can see `VLOCLK` drives low-frequency subsystems (button debouncing,
+motors, obstacle detection) and `DCOCLK` drives the subsystems which demand
+high-frequency bands for communication (the wireless module and the LCD
+module). When the car is in a software-defined "standby mode" I can easily
+cut the timer to high-frequency subsystems using a special function on the
+MSP430; this allows me to keep the car in a state which boots far, far
+faster than if I had toggled the power switch (because the car is still
+"on") while conserving power by clock-gating the important modules and
+using my power budget of 4 AAs more effectively.
+
+Driving the RC-Car with a NES Gamepad
+-------------------------------------
+
+As discussed in the introduction, one of the requirements is to be able to
+control the car manually; you must be able to navigate a 10-part obstacle
+course for a (significant) part of grade in the course; this course is set
+up on the last day of class and you can have any (reasonable) amount of time
+to complete it and the only requirements are that:
+
+1. You may not touch the car upon beginning the course
+2. The RC-Car must drive within 3 inches of the checkpoint for each section
+of the course
+3. Your car should not interfere with other students' while navigating the
+course
+4. Failure to comply with the above necessitates you starting the entire
+obstacle course over from the beginning
+
+That last day of class (the day we drove the obstacle course) was particularly
+hectic; since this counted as a major part of our grade, many people wanted
+to do the course as fast as possible to mitigate (1) the risk of collision
+with other students running the course as well and (2) maximize the time
+spent on the black-line interception portion of the course (also tested on
+that day).
+
+To facilitate the speedy completion of the obstacle course I decided
+early-on to use a dedicated controller to drive my car around the course;
+it seems that many people decide to drive the car around by issuing
+"forward", "backward", and "turn" commands over the wireless
+interface; however this routine is extremely slow in practice,
+allowing students who actually *drive* their cars to speed ahead in the
+course.
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/ece306-p10-dev.jpg">
+<img alt="P10 Dev"
+src="https://cdn.wesleycoakley.com/web-images/thumb/ece306-p10-dev.jpg">
+</a>
+<figcaption>My typical development environment (note the coffee)</figcaption>
+</figure>
+
+My NES controller in the above picture is heavily labelled with the mappings
+which I designed for each button: the DPad causes the car to move in the
+particular direction, while the L and R buttons toggle some features on the
+LCD; furthermore the two middle buttons calibrate the on-board A2D
+converters for intercepting the black line and the remaining four buttons
+cause the car to follow an according arc-and-intercept routine for the final
+part of the obstacle course.
+
+I finished the course in under 10 minutes because the precision of my
+controller outpaced every other car. Because the wireless access points were
+border-line overloaded by the mass of students present, many people were
+forcibly disassociated from the AP; the lack of error handling in many
+students' firmwares left their car immobile on the course, forcing them to
+retrieve it (by hand) and retry the course from the beginning; my firmware
+includes the necessary error-handling routines which (aggressively) attempt to
+re-associate with the AP it was connected to; this ensured that my car never
+stalled on the course for more than the time it took to reassociate with the
+AP (normally less than one second).
+
+Migrating from IAR to a GCC-based toolchain
+------------------------------------------
+
+One prolonged antagonist in ECE306 is the 8KiB code-size limit in IAR; with the
+free version of IAR Embedded Workbench, the size of the firmware may not
+exceed 8KiB in total (Kickstart IAR refuses to flash firmware images larger
+than this with the error "size limit exceeded"). Of course the MSP430 has
+much, much more memory than 8KiB; I wanted to break into this extra memory
+to store things like wireless profiles and motor configurations which would
+allow me to fine-tune the motors *en-route* without ever laying a finger on
+the RC car.
+
+I knew IAR could not accomplish this (and I was not about to shell out the
+several hundred dollars for a license); additionally I cannot run IAR on my
+laptop; a GCC-based toolchain suits my development environment far, far
+better. Unfortunately nobody had ever done this in the history of the course
+either (two firsts!) so I set off on this journey alone.
+
+The details of my development environment are boring but involve a
+TI-provided version of GCC called `MSP430-GCC` and a flashing / debugging
+tool called `mspdebug`; these two softwares form the core of my development
+environment; all compilation was done on my personal (Gentoo/Linux) laptop
+pictured above and the source-code is edited using my favorite text-editor
+[JoE (Joe's Own Editor)](https://joe-editor.sourceforge.io).
+
+Moving away from IAR has the following benefits:
+
+- No 8KiB code limit
+- Use any text editor / IDE you want
+- Integrate into your existing development environment
+- Easily use version-control software (Git, SVN etc.)
+
+Replacing the pre-compiled `LCD.c` code as above was the final barier
+preventing me from jumping straight in to a GCC-based toolchain; after
+reverse-engineering the LCD driver and (re)writing the interface I was
+finally able to develop 24/7 on my Linux computer.
+
+<figure>
+<a href="https://cdn.wesleycoakley.com/web-images/ece306-p10-run.jpg">
+<img alt="P10 Run"
+src="https://cdn.wesleycoakley.com/web-images/thumb/ece306-p10-run.jpg">
+</a>
+<figcaption>The final obstacle course; no wonder the access points were
+overloaded!... each waypoint of the course is an orange mat barely bigger
+than the car itself (and notice the line-interception portion of the course)</figcaption>
+</figure>
+
+Results
+-------
+
+I am proud of my final project: I wrote *every last line of code* myself and
+I'll own all the paradigms, quirks, and data-structures. The extra work I
+invested in this course has taught me more about embedded systems than I
+would ever have learned just by sitting in the lecture hall; if I had to do
+it all again I'd do exactly the same things.

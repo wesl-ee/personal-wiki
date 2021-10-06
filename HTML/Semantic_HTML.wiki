@@ -1,0 +1,112 @@
+The Semantic Web can be confusing at first; it's a term that's been used
+here and there for years, especially since the formalization of the HTML5.1
+specification; most webmasters are only concerned with the semantic web
+in-so-far-as it having consequences on their search-engine turnover (i.e.
+their conversion / click-through rate and their website's visibility) but
+semantics tags have farther-reaching implications than simply boosting your
+site's SEO.
+
+Consider HTML: it is a *markup* language used on webpages to describe an
+object on the Web. These webpages are retrievable at a specific location on
+the web and the information retrieved by submitting such a request should
+reflect the object unambiguously identified by the uniform resource
+indicator (URI). This expectation was widely appreciated in the early days of
+the web but recently the trend seems to have fallen out of fashion. However,
+I still support the idea that the content at a URI should always yield
+relevant and semantically meaningful data about the object. All of that
+semantic meaning for webpages is conveyed in the HTML located at that node.
+
+Without looking at the source-code (i.e. when viewing the
+web with a *User-Agent*, or browser) the difference between
+
+[[!syntax type="html" text="""
+<span style="font-size:28.8px; font-weight:400">Heading!</span>
+"""]]
+
+and
+
+[[!syntax type="html" text="""
+<h1>Heading!</h1>
+"""]]
+
+... can seem insignificant because both of these HTML snippets produce the
+same result: large text, like something that would introduce a few
+paragraphs of text or an article. But imagine that, instead, someone has
+printed the HTML out for you on a sheet of paper... which snippet means more
+to you, the reader? The second snippet, clearly, conveys more *semantic
+meaning*; the `<h1>` tag suggests that the text "Heading!" is actually a
+header and is an important piece of information. It would be trivial to
+read through the HTML and pick out all important headings: simply read
+through the HTML (i.e. walk the HTML DOM tree) and make note of all `<h1>`
+and `<h2>` tags.
+
+This is how most simple robots, web-crawlers, and other
+Internet-androids function. They sit next to their printer, fetching
+content from sites using a few `GET` requests and printing the results to
+their printers: computers don't have eyes after all, so they cannot look at
+how the markup would be *rendered* (although some advanced crawlers like
+Googlebot [use rendering engines while
+crawling](https://webmasters.googleblog.com/2019/05/the-new-evergreen-googlebot.html)).
+The same thing applies not just to web-crawlers but also to screen-readers,
+assistive technology, and web-scraping tools which rely heavily on the
+importance of semantic HTML.
+
+HTML5 has introduced a large number of semantic tags; my favorite are:
+
+[[!syntax type="html" text="""
+<article>
+<aside>
+<footer>
+<header>
+<main>
+<nav>
+<section>
+"""]]
+
+Using these tags (appropriately!) can give your articles and web-pages more
+*semantic meaning* in the eyes of web-crawlers (increasing the visibility of
+your website to search-engines!) while generally giving your page richer
+meaning; a site full of `<div>` elements doesn't mean much to someone
+reading the source-code for your site, but an `<article>` element followed
+by a `<h2>` tag conveys much more meaning.
+
+When writing HTML from now on consider using these elements where
+appropriate to give your page richer meaning; don't just toss them
+around without concern though: consider wrapping your main page content
+inside a `<main>` tag and using `<article>` and `<section>` tags for
+identifying cohesive and coherent veins of information on your page, and
+consider using `<nav>` to indentify navigational elements like clickable
+arrows or page numbers.
+
+Rules
+-----
+
+There are some rules for writing valid HTML using the semantic elements;
+although you're perfectly fine ignoring these suggestions, they indicate
+that you're employing the semantic tags to their fullest! Tools like the
+[W3C Validator](https://validator.w3.org/) can be used to check your site
+for markup validity and may offer suggestions which can improve your
+[SEO](https://en.wikipedia.org/wiki/Search_engine_optimization). Some common
+rules / suggestions I know off the top of my head are:
+
+- `<article>` and `<section>` elements should be identified by a child
+heading (i.e. `<h1>` or similar) element
+- Headers should be in cascading order of importance; you should never have
+a `<h1>` element followed directly by a `<h4>` element
+- Avoid using more than one `<h1>` element per page
+
+Of course there are a lot more rules and suggestions; you can learn more by
+flipping through the [HTML 5.1 spec](https://www.w3.org/TR/html51/)
+published by the W3C. Some benefits of using valid HTML are:
+
+- Your site is ranked higher in search engines like Google, Yahoo, Yandex,
+etc.
+- Improved accessibility for users with screen-readers
+- Simpler markup
+- Fewer CSS rules
+
+Because a lot of browsers style certain elements out-of-the-box (e.g. `<h1>`
+is always fairly large) you can avoid writing complex and cryptic CSS rules,
+instead allowing the browser to style according to its defaults (and
+according to user preferences); using semantic elements on your site makes
+everyone happier!

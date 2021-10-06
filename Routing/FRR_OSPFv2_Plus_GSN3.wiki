@@ -1,0 +1,682 @@
+Last October I gave a presentation to the Linux User Group @ N.C. State titled
+["Emulating LAN/WAN Technologies from the Comfort of your Own Home with
+GNS-3"](https://lug.ncsu.edu/presentations/2020-10-20-network-emulation.pdf).
+In that presentation I explored several methods for simulating complex virtual networks
+on a single host. The approach I spent the most time on in that presentation
+involved FRR Docker containers networked via GNS3. I've found this approach to
+be quite lightweight and intuitive and I use this approach myself for learning
+new networking concepts and validating my understanding of the underlying
+software.
+
+This article demonstrates the complete setup of an emulated two-tier network
+inside GNS3. Connectivity at the distribution layer is provided by
+containerized instances of [FRR](https://frrouting.org/) running OSPFv2. Later
+a Cumulus VX is introduced to the topology which provides the same functionality
+but using a full network operating system. A basic knowledge of networking is
+assumed but certain concepts are explored in depth so that this write-up may be
+used as a learning resource as well as a reference for building other topolgies
+using the same tools.
+
+Below is the topology we'll ultimately construct. It sports one backbone OSPFv2
+area made from 3 FRR Docker containers and one Cumulus Linux VX allowing
+east-west traffic between two Alpine tenants. Area 0 is organized in a ring to
+demonstrate how link failures can affect routing around this topology.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/gns3-complete.png">
+<figcaption>GNS3 topology which this article ultimately constructs</figcaption>
+</figure>
+
+Why use FRRouting / Docker / GNS3?
+----------------------------------
+
+The stack I use here may be surprising to some and absolutely heretical to
+others. After all, many may associate GNS3 only with IOS and Cisco hardware.
+GNS3 however supports many backends like QEMU VMs, Virtualbox VMs, VPCS and (of
+immediate interest) Docker containers. My reasons for choosing this stack over
+other possible simulation methods others are:
+
+1. GNS3, Docker, QEMU and FRR are all free software
+2. FRR supports many routing protocols so many common networks can be modeled
+3. Containerization makes each router lightweight so one can spin up more
+   routers with less overhead than running many FRR instances in full VMs
+
+And most importantly for me, my work often involves messing with one or another
+FRR daemon so this is useful for debugging and testing my patches to FRR itself
+🙂
+
+Before we get started, I'll give a a small disclaimer that this all *probably*
+works on a Windows or Mac machine but I've never tested it; I only develop from
+my Gentoo Linux machine but both Docker and GNS3 have Windows installers so try
+it if you're feeling adventurous.
+
+Getting Started
+---------------
+
+The first step is to install the tools that the rest of this write-up will use.
+The install steps will vary depending on the operating system but the necessary
+tools are:
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [GNS3](https://www.gns3.com/) ≥ 2.2.0
+- ... and optionally [QEMU](https://www.qemu.org/download/) for VX support
+
+Docker provides the platform for running several FRR containers while GNS3 will
+connect these containers together in an arbitrary topology and provides a nice
+GUI to interface with. In version 2.2.0 GNS3 added support for persistent
+storage via Docker and this ability is leveraged here to install persistent FRR
+configurations on each of the routers.
+
+Pull the Docker image for FRR from its [dockerhub
+page](https://hub.docker.com/r/frrouting/frr) to begin. We host both a `latest`
+tag and versioned tags which correspond to older releases. Either of these can
+be pulled as below:
+
+[[!syntax type="bash" text="""
+# Pull the latest FRR from Dockerhub
+docker pull frrouting/frr:latest
+# Pull a specific version of FRR from Dockerhub
+docker pull frrouting/frr:v7.5.1
+"""]]
+
+Pulling a specific version of FRR instead of the `latest` tag is recommended.
+It's worth also noting that versioned tags such as `v7.5.1` often offer builds
+for a wider variety of architectures. Keep this in mind if running GNS3 + Docker
+on an ARM platform.
+
+[[!syntax text="""
+w@kvm-gentoo ~ $ docker images frrouting/frr
+REPOSITORY          TAG         IMAGE ID            CREATED        SIZE
+frrouting/frr       latest      5bcd24ea1fed        2 weeks ago    148MB
+frrouting/frr       v7.5.1      c3e13a4c5918        6 weeks ago    123MB
+frrouting/frr       <none>      a5126e6790df        2 months ago   141MB
+frrouting/frr       v7.5.0      10a01d3ff955        6 months ago   123MB
+"""]]
+
+### A Note on Building Your own FRR Image
+
+Images published to FRR's Dockerhub are built from scripts available in [FRR's
+source repository](https://github.com/FRRouting/frr/tree/master/docker/alpine);
+the script uses a series of Alpine containers to build a final image also based
+on Alpine. Containers can be built directly on the host machine instead of pulling from
+Dockerhub by running a build script available in our repository:
+
+[[!syntax type="bash" text="""
+git clone 'https://github.com/FRRouting/frr.git'
+cd frr
+# Checkout tags, edit files etc.
+./docker/alpine/build.sh
+"""]]
+
+This approach is helpful when adding new features or testing fixes to
+FRR itself as it will build directly from the current working branch.
+
+If setting up a network that emulates clients or tenants it may be useful to
+import some other images such as `alpine` to use as edge devices.
+
+[[!syntax type="bash" text="""
+# Pull an Alpine Linux container that we'll use as an edge device
+docker pull alpine
+"""]]
+
+
+Working with Docker Images in GNS3
+----------------------------------
+
+Next these containers will be imported to GNS3 to use later.  With the GNS3 GUI
+open go to "Edit" → "Preferences" → "Docker containers". Then create a new
+container template for the FRR image that was just built or pulled.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/gns3-docker-containers.png">
+<figcaption>Docker container configuration in GNS3</figcaption>
+</figure>
+
+After clicking through the "new container" dialog the new FRR
+container will be visible in the list of available devices in the left-hand
+pane. Next it's important to find and right-click the device in that pane, hit
+"Configure Template" and go to the "Advanced" tab.
+
+Enter `/etc/frr` under the "Additional directories to make persistent".
+This could also be done with the image's VOLUMES config directly in Docker but
+it's easier to do here in my opinion. `/etc/frr` is the default directory FRR
+stores its configuration files. The two important files here are `frr.conf` and
+`daemons`.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/gns3-docker-advanced.png">
+<figcaption>Configuration of the persistent storage</figcaption>
+</figure>
+
+Now each FRR container brought into the GNS3 workspace will have its own
+persistent configuration directory. This is important for configuring the
+routers that will define the network as each router now gets its own
+configuration file.  It's also helpful to set an icon for the container to
+differentiate it from other devices. I happen to know where to find [an FRR SVG
+file](https://frrouting.org/img/frrouting.svg) which can be imported into GNS3
+(＾∇＾).
+
+This persistent storage is allocated per-node and is located in the GNS3 project
+folder. For example, if there were 3 of these FRR nodes in a project workspace
+then there would be three directories under
+`$PROJECT_NAME/project-files/docker`:
+
+[[!syntax text="""
+w@kvm-gentoo ~ $ ls -l code/gns3/untitled/project-files/docker/
+total 0
+drwxr-xr-x 3 w w 17 May 26 13:25 a604d518-9fd9-454c-adf1-1be593d8944a
+drwxr-xr-x 3 w w 17 May 24 22:01 de5e2cb9-daf4-4a63-909f-a0d0f51fe227
+drwxr-xr-x 3 w w 17 May 24 22:01 e12f6df6-1c43-4151-886b-fb2381cf436e
+"""]]
+
+The names GNS3 gives to Docker image instances seem to be arbitrary; this makes
+it difficult to know which configuration file is in which directory. To remedy
+this I often create symlinks that correspond to the names of the routers in my
+topology:
+
+[[!syntax text="""
+ln -s a604d518-9fd9-454c-adf1-1be593d8944a r1
+"""]]
+
+There are a few ways to find which node-id corresponds to which router in the
+topology. The easiest is to add nodes one at a time and then symlink them as they
+are added to the workspace. This is the method I use as it's brutally simple and
+easy to fill out as the topology is created.
+
+Another method, especially useful if labeling a topology that's already
+constructed, is to simply right-click on a router in the workspace and either
+click "Show node information" or "Show in file manager". Both will show the
+"Router ID" which will help locate to the folder.
+
+Working with a Single Node
+--------------------------
+
+Before networking containers together let's get comfortable working with just a
+single node.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/single-node.png">
+<figcaption>Single-node setup</figcaption>
+</figure>
+
+Drag an FRR node from the left pane onto a blank workspace. Right-click the node
+and select "Start". This will immediately boot the container and from this point
+on the container can be interacted with as a normal Docker container from any
+terminal:
+
+[[!syntax text="""
+w@kvm-gentoo ~ $ docker ps --format '{{.ID}}: {{.Image}}'
+d55364e9df0a: frrouting/frr:v7.5.1
+w@kvm-gentoo ~ $ docker exec -it d55364e9df0a vtysh
+Hello, this is FRRouting (version 7.5.1_git).
+Copyright 1996-2005 Kunihiro Ishiguro, et al.
+
+FRR-7.5.1-1#
+"""]]
+
+`vtysh` is the program used to interact with FRR's many daemons,
+[`ospfd`](https://docs.frrouting.org/en/latest/ospfd.html) and
+[`zebra`](https://docs.frrouting.org/en/latest/zebra.html) among them. The above
+workflow is the most convenient way to spawn this shell on a router provisioned
+by GNS3 + Docker.
+
+Instead of `vtysh` one *could* spawn `/bin/bash` and edit `/etc/frr/frr.conf`
+directly on the router but it will be easier once we have the whole topology to
+edit these files from the host's filesystem. To find where the `/etc/frr/`
+directory is on the host, right-click the node and choose "Show in file
+manager". I'd recommend calling this node `r1` and creating a symlink resolving
+the node's ID to a friendlier name in that persistent directory as I
+demonstrated above.
+
+Running OSPFv2 on a two-node topology
+-------------------------------------
+
+Good news: configuring an OSPFv2 router with FRR is easy! There's really only
+two steps:
+
+1. Change `ospfd=no` to `ospfd=yes` in `/etc/frr/daemons`
+2. Configure OSPFv2 parameters in `/etc/frr/frr.conf`
+
+Of course planning out the topology beforehand is important too but GNS3's
+drawing and notation tools can help with this step. Nodes can be connected
+together using the "Link" option in the left-hand panel; just select which
+interfaces terminate either side of the link when connecting two nodes.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/two-node.png">
+<figcaption>A two-node setup in GNS3</figcaption>
+</figure>
+
+The `frr.conf` of each router is quite simple. Once the `daemons` file has been
+edited to have `ospfd=yes` instead of `ospfd=no` then add the following files to
+the persistent storage:
+
+[[!syntax text="""
+w@kvm-gentoo ~/.../project-files/docker $ cat r1/etc/frr/frr.conf
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+interface eth0
+	ip address 10.0.0.100/31
+"""]]
+
+... and for `r2` it's nearly the same thing:
+
+[[!syntax text="""
+w@kvm-gentoo ~/.../project-files/docker $ cat r2/etc/frr/frr.conf 
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+interface eth0
+	ip address 10.0.0.101/31
+"""]]
+
+It is also possible to configure a static IP through `/etc/network/interfaces`
+but since this is partly an FRR tutorial I've configured it through the suite
+itself.
+
+Starting FRR and Packet Tracing
+-------------------------------
+
+If both routers were now started from the GNS3 "Start/Resume" button
+something like this could be seen from a `vtysh` instance spawned via `docker
+exec`:
+
+[[!syntax text="""
+r1# show ip ospf database
+
+       OSPF Router with ID (10.0.0.100)
+
+                Router Link States (Area 0.0.0.0)
+
+Link ID         ADV Router      Age  Seq#       CkSum  Link count
+10.0.0.100      10.0.0.101        20 0x80000005 0xa83b 1
+10.0.0.101      10.0.0.101        20 0x80000004 0x9831 1
+
+                Net Link States (Area 0.0.0.0)
+
+Link ID         ADV Router      Age  Seq#       CkSum
+10.0.0.101      10.0.0.101        21 0x80000001 0x4fc3
+"""]]
+
+If this or something similar appears then
+[congratulations](https://youtu.be/wDajqW561KM)! Both routers are peering via
+OSPFv2. If the peering does not happen (or if there is an "unknown command"
+error) just ensure OSPFv2 is enabled in the `daemons` file and that both routers
+are part of the same `area 0.0.0.0`.
+
+One of the extremely cool things about GNS3 is that one can watch packets on the
+wire between `r1` and `r2` flow in real-time. Right-clicking the link will
+prompt to open Wireshark and will immediately show packet dumps on this cable.
+Flapping the `eth0` interface on `r2` will show an exchange of routing
+information in the Wireshark trace.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/wireshark-ospfv2-hello.png">
+<figcaption>Example exchange of routing information in OSPFv2</figcaption>
+</figure>
+
+This is insanely cool! Especially considering that my workflow for something
+like this before GNS3 had been to `tcpdump` on a VX and then pull the pcap
+*back* to my computer and load it into Wireshark just to view it... the ability
+to watch the trace in real-time is very helpful in deepening my understanding of
+(among many things) the exchange of LSAs in arbitrary topologies. This is not
+limited to just OSPF but this protocol is what I've played with most often in
+this sandbox.
+
+Expanding into a Ring Topology
+------------------------------
+
+Because two routers is never enough let's add two more! I will connect these
+four in a ring topology instead of a full-mesh.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/gns3-ring-topology.png">
+<figcaption>A 4-node Ring Topology</figcaption>
+</figure>
+
+If the SPF algorithm were not running nodes which were not directly connected
+would have no route to each-other. Running OSPFv2 here allows traffic to be
+routed around this topology easily, and the ring topology (as opposed to a chain
+topology) avoids introducing a single point of failure as we'll see when we blow
+up a link later on.
+
+Here is the `frr.conf` for `r1`:
+
+[[!syntax text="""
+w@kvm-gentoo ~/.../project-files/docker $ cat r1/etc/frr/frr.conf 
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+interface eth0
+	ip address 10.0.0.100/31
+	ip ospf network point-to-point
+interface eth1
+	ip address 10.0.0.107/31
+	ip ospf network point-to-point
+"""]]
+
+... `r2`:
+
+[[!syntax text="""
+w@kvm-gentoo ~/.../project-files/docker $ cat r2/etc/frr/frr.conf 
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+interface eth0
+	ip address 10.0.0.101/31
+	ip ospf network point-to-point
+interface eth1
+	ip address 10.0.0.102/31
+	ip ospf network point-to-point
+"""]]
+
+... `r3`:
+
+[[!syntax text="""
+w@kvm-gentoo ~/.../project-files/docker $ cat r3/etc/frr/frr.conf 
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+interface eth0
+	ip address 10.0.0.103/31
+	ip ospf network point-to-point
+interface eth1
+	ip address 10.0.0.104/31
+	ip ospf network point-to-point
+"""]]
+
+... and `r4`:
+
+[[!syntax text="""
+w@kvm-gentoo ~/.../project-files/docker $ cat r4/etc/frr/frr.conf 
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+interface eth0
+	ip address 10.0.0.105/31
+	ip ospf network point-to-point
+interface eth1
+	ip address 10.0.0.106/31
+	ip ospf network point-to-point
+"""]]
+
+One further difference between this topology and the previous 2-node setup is
+the inclusion of `ip ospf network point-to-point` which suppresses the election
+of a Designated Router (DR) and Backup Designated Router (BDR). With only two
+nodes on any ethernet segment in this configuration there is no point in
+electing a DR since a DR only serves to minimize the number of flooded LSAs on a
+segment with many OSPF routers.
+
+One can verify that adjacent nodes have formed the expected neighbor
+relationships via `vtysh`:
+
+[[!syntax text="""
+r1# show ip ospf neighbor 
+
+Neighbor ID     Pri State           Dead Time Address         Interface       RXmtL RqstL DBsmL
+10.0.0.102        1 Full/DROther      37.972s 10.0.0.101      eth0:10.0.0.100     0     0     0
+10.0.0.106        1 Full/DROther      38.523s 10.0.0.106      eth1:10.0.0.107     0     0     0
+"""]]
+
+If the `point-to-point` directive were omitted some nodes would be elected as
+DRs and BDRs for the configured segments. Instead in this case all neighbors
+are labeled `DROther` indicating they are neither DRs nor BDRs.
+
+Adding Clients to the Access Layer
+----------------------------------
+
+The ring topology created above represents a *distribution* layer; in a
+datacenter the switches at this layer are typically called top-of-rack (TOR)
+switches (though they are more often full-mesh and not in a ring topology) and
+they provide network *access* to the tenants in their rack. Right now this
+topology has no tenants.
+
+Let's add two tenants here, `tenant1` and `tenant2`, to two separate racks. In
+order for the routers in the backbone to know where to route packets destined
+for either tenant the external subnets must be *redistributed* into the network
+by their bordering routers, known as AS boundary routers or ASBRs.
+
+I use one of GNS3's built-in unmanaged L2 switches from the "Browse Switches"
+tab on the left to connect tenants logically to the network, though this is
+mostly unnecessary and tenants could simply be directly connected to the
+switches running FRR. The introduction of the unmanaged switch only demonstrates
+that the subnet may be configured arbitrarily without affecting east-west
+traffic.
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/gns3-access-layer.png">
+<figcaption>End-devices in the access layer are connected together by the distribution layer</figcaption>
+</figure>
+
+For tenants I've used simple Alpine images pulled from [the Alpine
+Dockerhub](https://hub.docker.com/_/alpine). Unlike the FRR container's IPs
+which were configured in `frr.conf` the container IP for Alpine is configured
+through GNS3 by right-clicking the Alpine node in the workspace and selecting
+"Edit config", which allows quick editing of the `/etc/network/interfaces` file.
+
+For `tenant1` this config looks like:
+
+[[!syntax text="""
+auto eth0
+iface eth0 inet static
+	address 192.168.1.100
+	netmask 255.255.255.0
+	gateway 192.168.1.1
+"""]]
+
+... and for `tenant2` I've simply got:
+
+[[!syntax text="""
+auto eth0
+iface eth0 inet static
+	address 192.168.2.100
+	netmask 255.255.255.0
+	gateway 192.168.2.1
+"""]]
+
+Since two networks will be attached to the current one the `frr.conf` files of
+the bordering routers must be tweaked some. For instance, the router will need
+to be informed to not run OSPF on this interface, and it must also know to
+redistribute this interface into the backbone area.
+
+On the `r2` ASBR I've adjusted the `/etc/frr/frr.conf` file to look like:
+
+[[!syntax text="""
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+	redistribute connected
+	passive-interface eth2
+interface eth0
+	ip address 10.0.0.101/31
+	ip ospf network point-to-point
+interface eth1
+	ip address 10.0.0.102/31
+	ip ospf network point-to-point
+interface eth2
+	ip address 192.168.1.1/24
+"""]]
+
+... and the `r3` ASBR looks like:
+
+[[!syntax text="""
+router ospf
+	network 10.0.0.0/24 area 0.0.0.0
+	redistribute connected
+	passive-interface eth2
+interface eth0
+	ip address 10.0.0.103/31
+	ip ospf network point-to-point
+interface eth1
+	ip address 10.0.0.104/31
+	ip ospf network point-to-point
+interface eth2
+	ip address 192.168.2.1/24
+"""]]
+
+Notice that on the "access layer" (that is, where the tenants are connected) the
+default route is set to the address of the ASBR for that subnet. Traffic is then
+routed around the "distribution layer" (where all the FRR switches are) as
+appropriate. One could connect this topology to the Internet via a default route
+through one (or several) of the FRR switches but I will forego this in the
+interest of *not* modeling the Internet (｀・ω・´)”.
+
+With some GNS3 magic you can even [connect this topology to the *actual*
+Internet...](https://docs.gns3.com/docs/using-gns3/advanced/connect-gns3-internet/)
+
+### Traceroute and Link Flapping
+
+Let's make sure the topology works as expected. Though I often use `docker exec`
+to spawn an additional shell on the Alpine tenants it's just as easy to
+right-click the node and select "Console" which will open a telnet session to
+the node. Just remember to `^]` instead of `^D` or `exit` otherwise you will
+kill the main process and the tenant will shut off!
+
+[[!syntax text="""
+/ # hostname
+tenant1
+/ # traceroute 192.168.2.100
+traceroute to 192.168.2.100 (192.168.2.100), 30 hops max, 46 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.618 ms  0.439 ms  0.289 ms
+ 2  10.0.0.103 (10.0.0.103)  0.541 ms  0.806 ms  0.624 ms
+ 3  192.168.2.100 (192.168.2.100)  1.118 ms  1.127 ms  0.852 ms
+/ #
+"""]]
+
+Whoah, that's going all the way to the other tenant! Pretty neat. Now that
+east-west traffic is flowing let's try to break it by turning off an interface
+along that path. Specifically, I'll `shut` the `eth0` interface on `r3`.
+
+[[!syntax text="""
+/ # hostname
+r3
+/ # ip link set eth0 down
+"""]]
+
+With that interface offline the changes should propagate to the link-state
+database as soon as the dead timer on `r2` expires. At that point `r2` emits a
+Hello packet and upon not receiving a reply from `10.0.0.103` will emit an LSA
+containing this update to its only neighbor, who in-turn relays that to their
+other neighbor and so on.
+
+Once this information has flooded the area try another traceroute.  Remember
+that the prior shortest path between `tenant1` and `tenant2` was effectively
+severed in the middle.
+
+[[!syntax text="""
+/ # hostname
+tenant1
+/ # traceroute 192.168.2.100
+traceroute to 192.168.2.100 (192.168.2.100), 30 hops max, 46 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.364 ms  0.385 ms  0.291 ms
+ 2  10.0.0.100 (10.0.0.100)  0.477 ms  0.763 ms  0.604 ms
+ 3  10.0.0.106 (10.0.0.106)  0.831 ms  0.859 ms  0.790 ms
+ 4  10.0.0.104 (10.0.0.104)  0.922 ms  1.263 ms  1.117 ms
+ 5  192.168.2.100 (192.168.2.100)  1.373 ms  1.558 ms  1.443 ms
+"""]]
+
+Even though that interface was axed traffic still went around the ring, using
+five hops this time instead of three; notice that the path is through `r1` and
+`r4` instead of `r2` to `r3`. Kick-ass!
+
+Throwing Cumulus VX into the Mix
+--------------------------------
+
+In case things were not complicated (read: cool) enough we'll now substitute one
+of the FRR containers for a [Cumulus Linux
+VX](https://www.nvidia.com/en-us/networking/ethernet-switching/cumulus-linux/)
+running in QEMU. This emulation can also be accomplished with Virtualbox if you
+like that better or don't have QEMU installed.
+
+Head over to [the Cumulus VX download
+page](https://www.nvidia.com/en-us/networking/ethernet-switching/cumulus-vx/)
+and snag a `.qcow2` image (for free!). Once the image is downloaded it can be
+imported into GNS3 under "Edit → Preferences → Qemu VMs" (or "VirtualBox VMs").
+From here find and select the downloaded `.qcow2`. Many of the default
+parameters for VMs in GNS3 are fine but I've found that the following greatly
+improved my CL VX performance. Tune these values to your own machine as not
+everyone has 32GiB of RAM for VM reasons (｀・ω・´)”:
+
+1. Increase maximum allowed RAM from 256Mib → 2GiB
+2. Increase vCPU allocation from 1 → 2 cores
+3. Increase the number of network adapters from 1 to 4
+
+It may be wise to choose `vnc` as the console instead of `telnet`. Some CL
+images send things to console and others only output to the connected display.
+For the networking, advanced adapter settings are available under the "Network"
+tab of the "Configure" window though I haven't found much use for them yet.
+
+I also suggest picking a cool icon for your VX!
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/gns3-cumulus-vx-install.gif">
+<figcaption>Installing and Configuring a Cumulus VX in the Ring Topology</figcaption>
+</figure>
+
+Since Cumulus Linux uses FRR as its routing suite it's straightforward to
+replace the old FRR container `r1` in the example topology with a CL VX since
+the config is the exact same. Since this is a VM and not an FRR Docker container
+the switch has all the expected Cumulus-isms as well as a full arsenal of Debian
+utilities.
+
+It's important to know that CL VX will label the first interface as `eth0` and
+the remaining will be labeled as `swpX` interfaces. Don't ask me why but just
+add one more interface than is needed and start connecting links around the
+topology starting from the *second* interface (`e1`).
+
+As far as I can tell GNS3 clones the original CL image for each node dropped
+into the workspace so multiple CL VX can be introduced without interfering with
+each-other. This *also* means that configuration made to the VM disappears once
+the node is deleted from the workspace which can be a Good or a Bad Thing.
+
+Adding many VMs introduces overhead to the host computer, and though GNS3
+can be ran remotely it is likely that a developer's typical system may become
+overloaded if running too many VX in VMs. For that reason I recommend FRR Docker
+containers where possible and VX only where needed, though there are some
+high-traffic cases where even the containers may overheat. This is especially
+true for GNS3 and other simulation tools since there is no physical ASIC to
+off-load the normal data-plane operations to.
+
+Anyhow this is the final topology!
+
+<figure>
+<img src="https://wesleycoakley.com/img/frr/gns3-complete.png">
+<figcaption>Final two-tier topology in GNS3</figcaption>
+</figure>
+
+
+Special Considerations / Limits
+-------------------------------
+
+In any environment where devices must be highly available such as the datacenter
+it may be useful to tune the protocol timers to be more aggressive. FRR has the
+`frr defaults datacenter` directive which "reflects a single administrative
+domain with intradomain links using aggressive timers" that does just that.
+
+However when timer adjustment is not enough protocols like BFD can be leveraged
+to provide extremely quick reaction to link-down events. Incidentally FRR has a
+daemon `bfdd` which provides BFD support for many of its daemons (ˆڡˆ)v. I'm
+unsure of `bfdd` performance in a strictly virtual environment like GNS3 but
+because GNS3 does not emulate an ASIC this likely causes lots of CPU overhead
+and timing jitter which is not acceptable for testing the extreme lower limits
+of BFD timers.
+
+Of course, one could relax the timing window for BFD but if one is debugging
+timing issues... there are ways to connect physical switches to GNS3 (via the
+"Cloud" object in the left-hand pane) but I don't own a physical switch so it's
+hard to test that capability.
+
+Conclusion
+----------
+
+GNS3 can do some seriously cool stuff! Given its popularity as a platform for
+training with Cisco IOS images it's understandable that people may not have
+played with the more hidden bits of GNS3. As explored in this write-up it can
+also network together Docker containers and even connect together NOS VX images
+like Cumulus VX.
+
+Recently this has become my preferred way to quickly network boxes together,
+particularly FRR containers. It's not hard to imagine a topology with many FRR
+containers and a single "device-under-test" VM where FRR or some other suite
+could be quickly built and installed. Some tests could then be executed (or even
+*orchestrated*?) and network coherence could be quickly established by
+inspection of the DUT VM and surrounding containers. Or maybe this could all be
+connected out to a physical lab full of switching hardware or maybe it could be
+connected to many other GNS3 environments or maybe, or maybe...
+
+In any case this is an approach I've found extremely useful for NOS development
+and I hope writing it all down helps someone down the line!
