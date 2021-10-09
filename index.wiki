@@ -3,6 +3,15 @@ the Internet as [w!HAXU9fXGtc](https://twitter.com/wesl_ee) and locally known
 simply as [[Me]] （⌒▽⌒） I'm a software engineer at [NVIDIA](https://nvidia.com)
 working in Research Triangle Park in North Carolina.
 
+<figure class=profile>
+<img src="https://cdn.wesleycoakley.com/me/me-brs.jpg">
+<figcaption><ul class=net-presence>
+<li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
+<li class=github><a href="https://github.com/wesl-ee">GitHub</a></li>
+<li class=linkedin><a href="https://linkedin.com/in/wesleycoakley">LinkedIn</a></li>
+</ul></figcaption>
+</figure>
+
 You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
 only one with write-access so all opinions are my own and all information here
 can only be as correct as I am; this site is generated with love and [[!iki
