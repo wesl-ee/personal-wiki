@@ -99,7 +99,7 @@ Year | Term   | Course  | Description
 2019 | Fall   | ECE434  | Fundamentals of Power Electronics
 2019 | Fall   | ECE451  | Power System Analysis
 2019 | Fall   | ECE464  | ASIC and FPGA Design
-2019 | Fall   | ECE485  | [Senior Design Project II](https://wesleycoakley.com/Projects/my-senior-design-project-ncsu-ece484-ece485.html)
+2019 | Fall   | ECE485  | [[Senior Design Project II|Senior_Design_ECE484_ECE485]]
 2019 | Fall   | PHI331  | Philosophy of Language
 2020 | Spring | ECE407  | Introduction to Computer Networking
 2020 | Spring | ECE453  | Electric Motor Drives
