@@ -1,0 +1,77 @@
+My '97 BMW 318ti is the first car I've really owned and maintained by myself. It
+taught me how to think like a mechanic, act like a mechanic, and fix things like
+a mechanic. It has no shortage of things to fix and I've loved every second of
+driving and caring for this car.
+
+[[!img img/318ti-coliseum.jpeg size="750x"]]
+
+Rally Dreams
+------------
+
+I bought this car right out of college. I worked at a coffee shop during school
+for a brief period of time but only saved up $1400 before I quit that job to
+focus on school. I fantisized about buying my dream car, at the time a
+Volkswagen Golf GTI, after I saved up the money. I think this love for small
+hatchbacks was imparted on me by the hours I sank into Need for Speed: Most
+Wanted 2 (PS2) in middle- and high-school.
+
+The spring of my last semester in [[college|School/North_Carolina_State_University]]
+I was extremely fortunate to line up a job starting exactly the Monday after my
+last final exam, ECE453 — Electric Motors, on a Tuesday. As soon as I collected
+my first two paychecks from my new job as a software engineer / routing person
+which trumped anything I ever made working at the coffee shop I went
+car-shopping. I looked everywhere for a clean GTI but didn't find one within a
+good distance. But soon after I started looking I found this BMW 318ti, almost
+completely stock, for a mere $4000. After I test-drove it for 10 minutes I knew
+I had to have it. I immediately had my boyfriend drive me to the bank to swap
+cash for title with the owner. With no rust and in running condition this, I
+decided, was going to be the car to get me into cars.
+
+I heard a lot of things like "BMWs are hard to maintain" and "the parts are too
+expensive" and while those things may be true of newer BMWs they could be no
+further from the truth when it comes to older BMWs. The E36, which is the
+chassis code of my particular 318ti, is an extremely simple machine with a small
+1.9L inline 4-cylinder M44 engine. Fuel-injection is controlled electronically
+and, being a later-model E36, it's equipped with OBD-II instead of OBD-I which
+makes diagnostics far easier. The engine can be a little sluggish, especially
+considering that some E36 have 6-cylinder engines, but it's still a snappy
+little car in turns so I can forgive it for its lack of punchy acceleration.
+It can still go quite fast too, I've taken it up to 105 MPH on the highway and
+it shows no hesitation at even higher speeds. The power is hidden in the higher
+RPMs so you can let it wind-up to 5000 RPM to really see all the little engine
+is capable of.
+
+The only part I can tell which is not stock is the aftermarket JVC stereo, which
+I've since hooked up to a subwoofer in the trunk for the true *hatchback
+experience*.
+
+[[!img img/318ti-nightcore.jpeg size="750x"]]
+
+Maintaining the Dream
+---------------------
+
+I've taken care of the regular maintainance on my E36; its one of the things I'm
+very proud I can do. I've torn down the entire intake, carbon-cleaned all
+nooks of the intake manifold and put it all back together just using my growing
+set of automotive tools and my copy of the BMW E36 Bentley service manual, a
+1000+ page book detailing every inch of the E36 and how it all fits together.
+With BMW's unconventional variable-length intake manifold, things can get pretty
+complex in there, but the experience made me far more comfortable working on
+cars than I thought I would ever be.
+
+And with an old Thinkpad X61 tablet I bought at [N.C. State's electronics
+surplus
+sale](https://procurement.ofa.ncsu.edu/our-services/surplus/surplus-sales/) for
+a mere $10 I'm able to read OBD-II datapoints from the car and plot them either
+while idling or while driving. It's an incredibly valuable tool for diagnosing
+problems because you can check read data as simple as intake air volume all the
+way down to minutia like the contribution of each cylinder to the total engine
+output power.
+
+[[!img img/318ti-diagnostics.jpeg size="750x"]]
+
+Overall, making the jump from not having worked on cars to being very
+comfortable with many aspects of regular and specialty maintainance had a very
+positive impact on my life; the experience reminds me that with enough effort
+and confidence I can tackle many things which may seem daunting at first. This
+outlook is reflected in a lot of the things I do and in the chances I take today.
