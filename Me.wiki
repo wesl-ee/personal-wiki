@@ -2,13 +2,17 @@ Hi, my name is Wesley Coakley (🇯🇵  コークリー・ウェズリー) ☆�
 On the Internet and in the crypto-space I use the handle **w!HAXU9fXGtc** because it
 sounds cooler.
 
-I am a Software Engineer in [NVIDIA's Networking Business
-Unit](https://www.nvidia.com/en-us/networking/) (NBU) and a graduate of
-[[School/North_Carolina_State_University]] with a B.S. in Computer Engineering and another B.S.
-in Electrical Engineering. I also accidentally took enough courses
-during my college tenure to collect my minor in mathematics on the way out the
-door. My professional expertise is in *OSI Layer 3 Routing*, specifically
-writing software in the control-plane for switches and Linux routers.
+I am a core developer on [Levana Protocol](https://levana.finance) and a
+graduate of [[School/North_Carolina_State_University]] with a B.S. in Computer
+Engineering and another B.S. in Electrical Engineering. I also accidentally
+took enough courses during my college tenure to collect my minor in mathematics
+on the way out the door.
+
+I work with [[Digital_Money]] and I believe that all currency will eventually be
+stored on a blockchain. I began my career as a Software Engineer in NVIDIA's
+[Networking Business Unit](https://www.nvidia.com/en-us/networking/) (NBU) but
+quickly found a home developing financial tools for the [Digital_Money/Terra]]
+blockchain.
 
 Learning
 --------

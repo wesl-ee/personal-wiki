@@ -1,7 +1,8 @@
 This site belongs to [Wesley Coakley](https://wesleycoakley.com), also known on
 the Internet as [w!HAXU9fXGtc](https://twitter.com/wesl_ee) and locally known
-simply as [[Me]] （⌒▽⌒） I'm a software engineer at [NVIDIA](https://nvidia.com)
-working in Research Triangle Park in North Carolina.
+simply as [[Me]] （⌒▽⌒） I'm developing next-gen financial tools for the
+[[Digital_Money/Terra]] blockchain at [Levana
+Protocol](https://levana.finance).
 
 <figure class=profile>
 <img src="https://cdn.wesleycoakley.com/me/me-brs.jpg">
