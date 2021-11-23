@@ -76,13 +76,13 @@ This wallet gives you a Cosmos hub address beginning with `cosmos...` to which
 you can send the ATOM you bought on the centralized exchange. Withdraw the ATOM
 from your exchange account to your Keplr wallet `cosmos...` address.
 
-[[!img img/terra-keplr-address.png]]
+[[!img img/terra-keplr-address.jpeg]]
 
 With the ATOM in your Keplr wallet, navigate to [the Omosis
 DEX](https://app.osmosis.zone) and connect your Keplr wallet. Click "Assets"
 then "Deposit" next to ATOM in the Osmosis UI.
 
-[[!img img/terra-ibc-to-osmosis.png]]
+[[!img img/terra-ibc-to-osmosis.jpeg]]
 
 Click "MAX" to transfer all the ATOM from your wallet on Cosmos Hub to your
 wallet on Osmosis. Don't worry — you don't need to set up a separate Osmosis
@@ -103,7 +103,7 @@ by clicking the banner above the swap dialog.
 transaction fee to move from the Keplr Terra wallet to your own Terra wallet,
 normally only 12 cents worth of LUNA or so.
 
-[[!img img/terra-osmosis-swap.png]]
+[[!img img/terra-osmosis-swap.jpeg]]
 
 Now you've traded ATOM for UST. The last step is to withdraw UST from Osmosis to
 a Terra wallet. Keplr handles Terra wallets, so using the Osmosis UI again by
@@ -123,7 +123,7 @@ Terra-specific. You cannot use Keplr to interact with dApps on Terra.
 Copy the Terra address you have on Terra Station and use Keplr to send UST from
 your Keplr Terra wallet to your Terra wallet on Terra Station.
 
-[[!img img/terra-keplr-to-station.png]]
+[[!img img/terra-keplr-to-station.jpeg]]
 
 Finally you've got UST on Terra Station! From here the possibilities are
 endless. I recommend trying out [Anchor](https://app.anchorprotocol.com/) for an
