@@ -1,5 +1,5 @@
 This site belongs to [Wesley Coakley](https://wesleycoakley.com), also known on
-the Internet as [w!HAXU9fXGtc](https://twitter.com/wesl_ee) and locally known
+the Internet as [wesl-ee](https://twitter.com/wesl_ee) and locally known
 simply as [[Me]] （⌒▽⌒） I'm developing next-gen financial tools for the
 [[Digital_Money/Terra]] blockchain at [Levana
 Protocol](https://levana.finance).
@@ -9,7 +9,6 @@ Protocol](https://levana.finance).
 <figcaption><ul class=net-presence>
 <li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
 <li class=github><a href="https://github.com/wesl-ee">GitHub</a></li>
-<li class=linkedin><a href="https://linkedin.com/in/wesleycoakley">LinkedIn</a></li>
 </ul></figcaption>
 </figure>
 
