@@ -1,1 +1,59 @@
-[[Digital_Money]]
+DeFi (decentralized finance) puts [[Digital_Money]] to work. DeFi developers are
+implementing both old and new financial tools that use [[Digital_Money]] instead
+of traditional fiat. A number of things make DeFi products superior to the same
+products that exist in traditional finance:
+
+1. Composability + iteroperability of DeFi products
+2. Ability to self-custody your own financial instruments
+3. No middle-men
+4. Low fees
+5. High throughput
+
+I work on DeFi products in the [[Terra]] ecosystem.
+
+Lending + Borrowing
+-------------------
+
+Suppose I have $10,000 USD sitting in my bank account. There I earn 0.15%
+interest on that princial which is $15 per year. With DeFi I could instead lend
+this money out while taking on minimal risk and receive something like 20% APY
+on that principal which comes out to $2000 per year. As a lender it's clear
+which option I would prefer.
+
+On the other side if I would like to borrow against my assets DeFi makes this
+extremely easy too. One could put down 1 Bitcoin as collateral and borrow up to
+60% of its value in US dollars. So if 1 Bitcoin is worth $100,000 then one could
+borrow up to $60,000 on that collateral. If the value of my underwriting
+collateral (here, Bitcoin) drops such that my loan-to-value is over 60% then my
+Bitcoin will be liquidated and the proceeds from the sale used to cover my debt,
+thereby keeping the lender-borrower system solvent.
+
+[[!img img/terra-anchor-ltv.jpeg]]
+
+Borrowing against assets like this is similar to taking a home equity
+line-of-credit (HELOC) in TradFi except here I borrow only against digital
+assets on a blockchain and, because the system builds on programmable money, it
+is entirely automated by a smart-contract and is a far more efficient use of
+capital + time.
+
+Composability
+-------------
+
+In addition to being efficient DeFi products are also composable. All products
+in an ecosystem have access to the same underlying blockchain so one product may
+make use of the financial tools created by another product. The possibilities of
+any DeFi product are really only bound by the imaginations of its developers.
+
+For example the 20% APY I'm earning on my $10,000 could be used to secure a
+payments on another loan (self-repaying loans), or I could build further on that
+20% APY to automatically invest on my behalf into another asset. There are many
+such products building on [[Terra|Terra's]] Anchor
+
+Finally with exciting technologies like Cosmos' Inter-blockchain Communication
+(IBC) even DeFi products running on different blockchains can use assets from
+the other connected chains. I believe the cross-blockchain composability of DeFi
+will be an important area to watch in the coming years. Even now we are
+beginning to see things like [ThorChain](https://thorchain.org/], a
+decentralized cross-chain liquidity network providing swaps between native
+assets without the need for wrapping, which I can easily see becoming one of if
+not *the* building-block for the cross-chain DeFi products of the future.
