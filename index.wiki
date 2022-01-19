@@ -26,4 +26,7 @@ start exploring my personal wiki some the best way is to read a little about
 
 [[!linkmap pages="(backlink(Me) or Me) and !index"]]
 
-You can find out more about this site by reading about the site [[Meta]].
+You can find out more about this site by reading about the site [[Meta]]. You
+can also easily browse [[all the pages|Meta/All_Pages]] but that's definitely
+the lamest way to browse a wiki; just click on the blue links and wander around
+instead!
