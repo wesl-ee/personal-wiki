@@ -1,0 +1,168 @@
+IPFS is the Inter-planetary filesystem. I'm not sure exactly why it's called
+that but it's a really cool technology. The main idea of IPFS is that at its
+core it stores files across a distributed network, and that complexity can be
+abstracted away to make IPFS just feel like you're reading from a pretty slow
+hard-drive. But the reality is, of course, that each non-cached read is fetching
+blocks of files from computers scattered across the world.
+
+Distributed Hash Tables
+-----------------------
+
+One of the essential technologies that powers IPFS storage is the [[distributed
+hash table|Distributed_Hash_Table]], or DHT. A DHT is a key-value structure that
+is spread across a wide-area network like the Internet. In simplest terms, you
+feed a key into the DHT and it will return a value just as a regular hash table
+would.
+
+Nowadays many libraries (IPFS being one such library) use variations on the
+original idea of a DHT to socialize new peers into the network and to facilitate
+the discovery of files across a wide-area network like the Internet. The magnet
+files you sometimes get for torrents that are a mile long and look like
+<a href="magnet:?xt=urn:btih:d4997b8e18d5c1ef8067753cc3eecc3e612fa9af&dn=%5BTOMA%5D%20Golden%20Boy%20%28Dual%20Audio%20EN%2BJP%29%20%5B720x480%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce" class=longlink>
+magnet:?xt=urn:btih:d4997b8e18d5c1ef8067753cc3eecc3e612fa9af&dn=%5BTOMA%5D%20Golden%20Boy%20%28Dual%20Audio%20EN%2BJP%29%20%5B720x480%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+</a>
+specify a unique file on P2P network which is a variant of a Kademlia DHT called
+Mainline DHT. The `xt` specifies what file you're talking about; you can use
+this link to connect to the torrent network without ever touching a tracker.
+That's why they're called trackerless torrents after all ∩( ・ω・)∩ everything
+after the `xt` parameter is just extra information and may include information
+about a tracker (`tr`) but this is optional information that only serves to make
+the download go faster.
+
+Anyway before peer-to-peer networks began using DHT technology there were
+primarily two ways peers shared information and routed queries:
+
+1. Via centralized servers, or
+2. Network flooding
+
+You may contest that a network that routes queries using central servers (1) is
+not truly a decentralized network; you'd be right.
+
+Centralized servers are vulnerable to being censored, either voluntarily or
+"voluntarily"; Soulseek, the P2P file-sharing platform used mostly to share and
+distribute music, [is a good example of this](
+(http://www.soulseekqt.net/news/node/2056); there are some queries for
+well-known artists like "Bob Dylan" or "The Beatles" which Soulseek's servers
+refuse to answer despite the files being shared by the network's peers.
+
+Gnutella (a variant of which was Limewire) is a good example of a protocol that
+uses network flooding (2) to socialize nodes on the network. A peer on Gnutella
+is constantly receiving queries from its neighboring peers and it will relay
+these queries to its own peers until the time-to-live (TTL) on a query is
+exhausted. I may be simplifying the details of it a bit but I know that Gnutella
+is not scalable because of this decision in its design. You can't really fault
+the original team though because this was the year 2000 and DHT was only really
+popularized a few years later.
+
+Chunking Files
+--------------
+
+When staging files to be uploaded to IPFS the file's contents are first chunked
+into fixed-size blocks of data, then each block is uploaded independently of the
+other blocks to the network. Each unique block of data has a unique hash which
+will be used as the key in the network's DHT; IPFS calls this hash a "Content
+Identifier" (CID). The chunks are then organized into a [Merkle
+DAG](https://docs.ipfs.io/concepts/merkle-dag/) (directed acyclic graph); the
+root node of this tree identifies the file itself so in order to fetch the
+uploaded file one only needs to know the CID of its root node. As users interact
+with and view this file it is replicated across the network and made available
+even if the original uploader goes offline.
+
+Merkle DAGs are used outside IPFS too; the most interesting (to me) application
+of DAGs is their use in Ethereum's hashing algorithm
+[Ethhash](https://eth.wiki/concepts/ethash/dag). More generally, Merkle trees
+and Merkle roots are [[used in Bitcoin's|Digital_Money/Bitcoin/Merkle_Roots]]
+and Ethereum's block headers for validating the set of transactions within
+block.
+
+Installing + Using IPFS
+-----------------------
+
+Make sure you have an IPFS client installed before accessing the network. I like
+the official [go-ipfs](https://github.com/ipfs/go-ipfs) client which is bundled
+for release on many OS. Either compile from source or follow the instructions
+at that repository for installing the client on your OS.
+
+With the client installed you can retrieve files from the network once you
+initialize its environment.
+
+[[!syntax text="""
+ipfs@gyw:~$ ipfs init
+ipfs@gyw:~$ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
+
+Hello and Welcome to IPFS!
+
+██╗██████╗ ███████╗███████╗
+██║██╔══██╗██╔════╝██╔════╝
+██║██████╔╝█████╗  ███████╗
+██║██╔═══╝ ██╔══╝  ╚════██║
+██║██║     ██║     ███████║
+╚═╝╚═╝     ╚═╝     ╚══════╝
+
+If you're seeing this, you have successfully installed
+IPFS and are now interfacing with the ipfs merkledag!
+
+ -------------------------------------------------------
+| Warning:                                              |
+|   This is alpha software. Use at your own discretion! |
+|   Much is missing or lacking polish. There are bugs.  |
+|   Not yet secure. Read the security notes for more.   |
+ -------------------------------------------------------
+
+Check out some of the other files in this directory:
+
+  ./about
+  ./help
+  ./quick-start     <-- usage examples
+  ./readme          <-- this file
+  ./security-notes
+"""]]
+
+You can even fetch this page itself over IPFS since I upload all changes to this
+wiki (rendered HTML + the raw text files) to IPFS and pin the latest copy on my
+server's own IPFS node. You can always access the latest version of this site
+using its IPNS identifier [[!ipns
+k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m]]; alternatively my
+Ethereum domain name also resolves to this URL which makes it a lot easier to
+remember: [[!ens wesl-ee]].
+
+Note that I am not liable for injuries if you choose to
+fetch this page which references itself recursively.
+
+[[!syntax text="""
+ipfs@gyw:~$ ipfs ls /ipns/k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m/txt
+QmWXgxdipcrrw4jGpHCXrs4ASxazFKoCHSWPBCQHcxbtZe 4353 BMW_318ti.txt
+QmZK2Je1BvCPC2Npq1pSAju6dXe8jV8fk9K98iPWu28oTg 7599 Coffee.txt
+QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH 0    Cooking.txt
+QmfF8fuPSbCtcYo17cCThrQ2cshmy1g5RAbpe4YY4rJY2t -    Digital_Money/
+QmS1s5zHX4V7ZjtqiJzYP7pV9PXeu8kS35GsmYkKbiEPv7 -    Firefox/
+QmeAP1pcWpUbiRCRuJmGMCqp4km3zcKVdwJ2dvtBuZPW9t -    HTML/
+QmS4u9ExT7qK4t6d8WdZMjt2UX27YXxZp2FUkKycFYoFAH 5257 IPFS.txt
+QmZkPHZibpDQCT83RNpjXAaeEFM9tRSazUc9mvyW3fH4HN 4751 Japanese.txt
+QmNYzE4R2jBgX3Z1KrJqp8Gqdgf428AEDGLfogFp7nd6uh 3455 Me.txt
+QmS1TxR6gUnw1hqj4uhjuaGNZouTXT3avfC3VLuU4hM3W8 1941 Meta.txt
+QmeLnoTok4rsjtbFBzG1Bc57dB8piwRsaEbB1Atis6vzNi -    Routing/
+QmVaiN5Qc5hRGNee2v2rqX4jxgwXBzbvjD5Dwg22hEANfB -    School/
+QmUAVZroXkoTpduKwTgh5bpkSwAt5kAz12hg4yoBhzHZmK 26   Tokyo.txt
+QmTkB6p946Yst2EKkReWrffdMQqJfJBsZzccDkfQRk84yP 3950 Virtual_Reality.txt
+QmRr7RVjqxBb1Y84qVEE5Qynm5G3nYXy4mDJDnrBHhoQy2 4022 favicon.ico
+QmY51n9DCBdeYHrpBkcTQsAmtvnLfDcTWTPeiggr87XfhY -    img/
+QmQEYZG2usRLKK4vj2XkVEiDeQ2ik8opLLkP6UuAx5oVaV 1414 index.txt
+ipfs@gyw:~$ ipfs cat /ipns/k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m/txt/IPFS.txt
+IPFS is the Inter-planetary filesystem. I'm not sure exactly why it's called
+that but it's a really cool technology. The main idea of IPFS is that at its
+core it stores files across a distributed network, and that complexity can be
+abstracted away to make IPFS just feel like you're reading from a pretty slow
+hard-drive. But the reality is, of course, that each non-cached read is fetching
+blocks of files from computers scattered across the world.
+
+Installing + Using IPFS
+-----------------------
+[...]
+"""]]
+
+Installing an add-on like [IPFS
+companion](https://docs.ipfs.io/install/ipfs-companion/) makes browsing IPFS
+sites like mine easier and will transform all the ipfs.io links on this page
+into links pointing to your own IPFS node so you're reading directly from the
+network!
