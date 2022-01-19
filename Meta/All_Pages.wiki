@@ -1,0 +1,12 @@
+[[!map  pages="*
+	and !(ikiwiki or ikiwiki/*)
+	and !*.*
+	and !img
+	and !recentchanges
+	and !smileys
+	and !wikiicons
+	and !shortcuts
+	and !index"
+]]
+
+

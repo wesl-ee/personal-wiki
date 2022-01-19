@@ -76,10 +76,10 @@ Take this image of the protagonist of
 [[!img img/mahoro.jpeg]]
 
 I know its unique MD5 hash is `f00370836e8f32c8f930af4b59163c04` and its IPFS
-content identifier (CID) is `f00370836e8f32c8f930af4b59163c04`. The CID
-is encoded with base58 (the same encoding as Bitcoin addresses) and points to a
-Merkle DAG built from the small chunks of the file. Because this file is quite
-small (137 KiB) it fits all into one block.
+content identifier (CID) is `QmX8CSdgWFdgACxY71GVJwgVB19Bn3An5zNnzH1Mj82ut2`.
+The CID is encoded with base58 (the same encoding as Bitcoin addresses) and
+points to a Merkle DAG built from the small chunks of the file. Because this
+file is quite small (137 KiB) it fits all into one block.
 
 [[!syntax text="""
 ipfs@gyw:~$ md5sum mahoro.jpeg
