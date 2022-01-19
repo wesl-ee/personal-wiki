@@ -19,18 +19,17 @@ it was uploaded to the VPS the site ran on a self-hosted server which I operated
 on my home connection.
 
 As a decentralized alternative to accessing the site from my VPS an exact copy
-of the site is also uploaded to IPFS whenever I make any changes. It is
-available at
-[[!ipns k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m]]
-Make sure you use an add-on like [IPFS
-companion](https://docs.ipfs.io/install/ipfs-companion/) if you want to view the
-IPFS site in your browser. I have a few servers that ensure the wiki is pinned and always
-available, though it should theoretically be available as long as people are
-accessing it.
+of the site is also uploaded to [[IPFS]] whenever I make any changes. It is
+available at [[!ipns k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m]].
+Installing an add-on like [IPFS
+companion](https://docs.ipfs.io/install/ipfs-companion/) may make browsing IPFS
+sites like mine easier. I have a few servers that ensure the wiki is pinned and
+always available, though it should theoretically be available as long as people
+are accessing it.
 
 Finally if you're not keen on remembering that long IPNS URL I've reserved the
-[wesl-ee.eth](http://wesl-ee.eth.link) name on the Ethereum Name Service; that
-name points to this same content on IPFS, only the wesl-ee.eth name is far
-easier to remember. I have this .eth domain name reserved until 2032 so you
-should have plenty of time to browse through the wiki (⌒▽⌒)☆
+[[!ens wesl-ee]] name on the Ethereum Name Service; that name points to
+this same content on IPFS, only the wesl-ee.eth name is far easier to remember.
+I have this .eth domain name reserved until 2032 so you should have plenty of
+time to browse through the wiki (⌒▽⌒)☆
 
