@@ -8,11 +8,9 @@ Engineering and another B.S. in Electrical Engineering. I also accidentally
 took enough courses during my college tenure to collect my minor in mathematics
 on the way out the door.
 
-I work with [[Digital_Money]] and I believe that all currency will eventually be
-stored on a blockchain. I began my career as a Software Engineer in NVIDIA's
-[Networking Business Unit](https://www.nvidia.com/en-us/networking/) (NBU) but
-quickly found a home developing financial tools for the [[Digital_Money/Terra]]
-blockchain.
+I began my career as a Software Engineer in NVIDIA's [Networking Business
+Unit](https://www.nvidia.com/en-us/networking/) (NBU) but quickly found a home
+developing financial tools for the [[Digital_Money/Terra]] blockchain.
 
 Learning
 --------
@@ -63,4 +61,4 @@ me:
 
 - Playing games in [[Virtual_Reality]]
 - Drinking and making [[Coffee]]
-- [[Cooking]], both for myself and with my fiancé
+- Cooking, both for myself and with my fiancé
