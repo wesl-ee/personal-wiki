@@ -52,6 +52,13 @@ it is hashed.
 The distance between two nodes in a vanilla Kademlia network is defined as the
 XOR of the node IDs. XOR is chosen partly because it is a transitive operation
 so that the distance from A to B is the same as the distance from B to A.
+This distance determines the k-bucket (below) into which any known peers are
+stored. Peers which are further away from a given node are also further away in
+the network's binary tree.
+
+[[!teximg code="""
+\text{dist}(A,B)=\text{hash}(A)\oplus\text{hash}(B)
+"""]]
 
 ### Storing Data in a Kademlia DHT
 
