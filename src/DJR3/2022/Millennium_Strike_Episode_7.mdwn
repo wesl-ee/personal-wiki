@@ -1,0 +1,45 @@
+[[!tag DJ_Set]]
+[[!meta title="Millennium Strike Episode 7"]]
+
+[ [Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [[!myipfs QmZoD2SJEk3fQHCx8Tj75xu7QwdRCUUkX2Ki6GK51Wty17 desc="Download raw from IPFS"]] ]
+
+June 18, 2022
+
+<figure>
+<video autoplay muted loop controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreiadkw6byaxtgauw3hvxufu3w34s4xe4nklymbx6paa4y4echthfmm" type="video/mp4">
+</video>
+</figure>
+
+DJ set captured in real-time with an Intel Realsense depth camera (above). Depth
+data was imported into Unity and used to render a pointcloud representing a
+human form with particle effects, also in real-time.
+
+I filmed this set in a weird alcove under my stairs where I fit a subwoofer, box
+amp and a moderately large television, along with all the recording equipment.
+
+01. heimanu — Arcadia
+02. knock2 — PARANOiD
+03. MUST DIE!, IMANU — LIFE SUCK
+04. Charlie Sparks — Tatakai
+05. Lil Texas, Danny L Harle & Dj Danny - Donk Rhythm
+06. WATER SPIRIT — TAILWHIP (SMITH COMMA JOHN REMIXXX)
+07. Heimanu — Atrea
+08. Heimanu — Atrea ( Former Hero Remix)
+09. GRAVEDGR — FICK DICH (WITH CARNAGE & DITHER)
+10. Angel Cannon, Deadcrow — The Light
+11. The Straikerz & So Juice — Can You Feel That (Gearbox Presents Twin Turbo)
+12. JOYRIDE — HOT DRUM
+13. Lil Texas & Water Spirit — Down Like This
+14. Chee — Pressure
+15. Zuli — Trigger Finger
+16. Koreless — Joy Squad
+17. Dutch Master — Get Up (Kutski Remix)
+18. Dagga — Hype and Dope
+19. A.G. Cook — Xxoplex
+20. ZULI — Keen Demag
+21. Ytho — Crisis
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreia3jveagh3feo25qztceij5rny4vmkmqlcglpkg2gbxdayyf7qqxq" size=medium]]
+</figure>
