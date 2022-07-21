@@ -53,7 +53,7 @@ Finally with exciting technologies like Cosmos' Inter-blockchain Communication
 (IBC) even DeFi products running on different blockchains can use assets from
 the other connected chains. I believe the cross-blockchain composability of DeFi
 will be an important area to watch in the coming years. Even now we are
-beginning to see things like [ThorChain](https://thorchain.org/], a
+beginning to see things like [Thorchain](https://thorchain.org/), a
 decentralized cross-chain liquidity network providing swaps between native
 assets without the need for wrapping, which I can easily see becoming one of if
 not *the* building-block for the cross-chain DeFi products of the future.
