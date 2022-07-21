@@ -1,11 +1,10 @@
 This site belongs to [Wesley Coakley](https://wesleycoakley.com), also known on
 the Internet as [wesl-ee](https://twitter.com/wesl_ee) and locally known
-simply as [[Me]] （⌒▽⌒） I'm developing next-gen financial tools for the
-[[Digital_Money/Terra]] blockchain at [Levana
+simply as [[Me]] （⌒▽⌒） I'm developing a derivatives exchange at [Levana
 Protocol](https://levana.finance).
 
 <figure class=profile>
-<img src="/avi.jpg">
+<img src="avi.jpg">
 <figcaption><ul class=net-presence>
 <li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
 <li class=github><a href="https://github.com/wesl-ee">GitHub</a></li>
@@ -26,7 +25,4 @@ start exploring my personal wiki some the best way is to read a little about
 
 [[!linkmap pages="(backlink(Me) or Me) and !index"]]
 
-You can find out more about this site by reading about the site [[Meta]]. You
-can also easily browse [[all the pages|Meta/All_Pages]] but that's definitely
-the lamest way to browse a wiki; just click on the blue links and wander around
-instead!
+You can find out more about this site by reading about the site [[Meta]].

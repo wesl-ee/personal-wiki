@@ -1,0 +1,53 @@
+Terra is a blockchain which focuses on [[Decentralized_Finance]] and which
+originally featured a number of algorithmic stablecoins, each pegged to a national /
+international currency; these stablecoins facilitated transactions on the network
+and, along with Terra's native token LUNA, maintained the stablecoin peg by
+allowing users to [arbitrage](https://youtu.be/KqpGMoYZMhY) across currencies.
+
+Terra was built on the Cosmos SDK & the Tendermint Consensus algorithm; its smart
+contracts are typically written in Rust which are then compiled down to
+[CosmWasm / Web Assembly](https://github.com/CosmWasm). In October 2021 Terra
+enabled [Inter-Blockchain
+Communication](https://agora.terra.money/t/proposal-enable-ibc-for-terra/2146)
+to allow communication with other IBC-enabled projects like Cosmos Hub and
+Osmosis.
+
+In May 2022 Terra, then the third largest DeFi ecosystem by TVL, collapsed
+[spectacularly](https://time.com/6177567/terra-ust-crash-crypto/) wiping out
+over 30 *billion* dollars of capital invested in the ecosystem overnight.
+Vitalik recently wrote some [about UST's
+collapse](https://vitalik.ca/general/2022/05/25/stable.html).
+
+[[!img img/luna-brothers.jpeg]]
+
+The Terra chain was developed and deployed by Terraform Labs and many projects
+on Terra's blockchain were incubated by capital from TFL. Some of the most
+notable DeFi projects on Terra were:
+
++ [Anchor](https://anchorprotocol.com/), a decentralized money-market offering
+  20% APY on stablecoin deposits
++ [Mirror](https://mirror.finance/), which mirrors real-world stocks
++ [Pylon](https://pylon.money/), enabling project launches through crowd-funding
++ [Orion](https://orion.money/), which exports Anchor's 20% yield to other chains
++ [Astroport](https://astroport.fi/), Terra's next-gen AMM
++ [Mars protocol](https://marsprotocol.io/), trustless lending protocol
+
+... I [[worked with Levana|Levana]] to create the first perpetual
+swap protocol on Terra |･ω･｀) we were nearly ready to launch our swap
+product (we deployed our public beta and had plans to launch in June) when
+the ecosystem imploded.
+
+It was sad to watch one of the most promising DeFi ecosystems crumble in
+real-time as UST lost its peg and its collateralizing asset, LUNA, rapidly
+devaulued and lost its ability to back the circulating UST. I'm thankful Levana
+and some other protocols came out the other side alive but many protocols that
+built on Terra were burned so bad they simply abandoned their projects. Some
+had their entire treasuries locked in Anchor, the magical 20% yield machine,
+and they could only watch as their UST "stablecoin" devauled 95% over only a
+few days.
+
+I was rekt personally but I came out alive somehow, and am lucky to have
+invested myself in a company that didn't keep its entire treasury in UST.
+Still, I believe in the things I am doing through my work at [[Levana]] and
+look forward to deploying our derivatives on a new chain.
+

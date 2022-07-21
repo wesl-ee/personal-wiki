@@ -10,7 +10,7 @@ on the way out the door.
 
 I began my career as a Software Engineer in NVIDIA's [Networking Business
 Unit](https://www.nvidia.com/en-us/networking/) (NBU) but quickly found a home
-developing financial tools for the [[Digital_Money/Terra]] blockchain.
+developing financial tools for public, permissionless blockchains.
 
 Learning
 --------

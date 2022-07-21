@@ -1,0 +1,178 @@
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka,
+	"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding: 0 1ch;
+	margin: 10px auto;
+	max-width: 112ch;
+}
+
+/* article.page {
+	display: grid;
+	grid-template-areas: "header sidebar"
+	"main sidebar"
+	"footer sidebar";
+	grid-gap: 0 1em;
+	max-width: 112ch;
+	grid-template-columns: 250px 1fr;
+	grid-template-rows: min-content 1fr;
+}
+section.pageheader { grid-area: header }
+section#pagebody { grid-area: main }
+section#footer { grid-area: footer } */
+
+section#content th { text-align: center }
+section#content th,
+section#content td {
+	border: 1px solid;
+	padding: 0 10px;
+}
+section#content table {
+	border: 1px solid;
+	margin: auto;
+}
+
+section#content :is(h1, h2, h3, h4, h5, h6) {
+	border-bottom: 1px solid;
+	padding: 5px 10px;
+	text-align: right;
+}
+
+section#content {
+	font-size: 1rem;
+	-moz-hyphens: auto;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+section#content .longlink {
+	word-break: break-all;
+}
+
+@media only screen and (max-width: 700px) {
+	section#content { text-align: initial }
+}
+
+a { text-decoration: none }
+a { color: blue; transition: color .2s }
+a:hover { color: red }
+section#content a[href^="."] {
+	background-image: linear-gradient(blue, blue);
+	padding: 0 .5ch;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 50px;
+	color: white;
+	text-decoration: none;
+	transition: background-size .2s, color .4s;
+}
+section#content a[href^="."]:hover {
+	color: red;
+	background-size: 1px 1px;
+}
+
+section#content p + p {
+	text-indent: 30px;
+}
+
+.parentlinks a {
+	padding-right: 5px;
+}
+ul.net-presence {
+	padding-left: 0;
+}
+ul .twitter, ul .linkedin, ul .github, ul .website {
+	list-style: none;
+	display: inline-block;
+}
+ul .website:before {
+	content: url('/wikiicons/article.svg');
+	margin: 0 10px;
+	display: inline-block;
+	width: 1rem;
+	color: #6a737d;
+}
+ul .linkedin:before {
+	content: url('/wikiicons/work.svg');
+	margin: 0 10px;
+	display: inline-block;
+	width: 1rem;
+	color: #6a737d;
+}
+ul .github:before {
+	content: url('/wikiicons/github.svg');
+	margin: 0 10px;
+	display: inline-block;
+	width: 1rem;
+	color: #6a737d;
+}
+ul .twitter:before {
+	content: url('/wikiicons/twitter.svg');
+	margin: 0 10px;
+	display: inline-block;
+	width: 1rem;
+	color: #6a737d;
+}
+
+footer nav {
+	margin: 1rem 0;
+}
+
+figure {
+	margin: 1rem
+	hyphens: none;
+	-moz-hyphens: none }
+#content figure {
+	display: block;
+	text-align: center;
+	margin: auto }
+p img {
+	display:block;
+	max-width: calc(100% - 2px);
+	margin: auto;
+}
+p {
+	overflow-x: auto;
+	max-width: 100%;
+}
+p img[src$="linkmap.png"] {
+	max-width: initial !important;
+}
+figure img, figure video {
+	max-width: calc(100% - 2px);
+	display: block;
+	border: 1px solid;
+	margin: auto;
+	height: auto }
+figure.profile img {
+	width: 300px;
+}
+
+.syntax {
+	display: block;
+	padding: 5px;
+	background-color: cornsilk;
+	border-radius: 5px;
+	border: 2px solid cornflowerblue;
+	padding: 15px 10px;
+	max-width: 100%;
+	tab-size: 2;
+	-moz-tab-size: 2;
+	overflow-x: auto;
+	line-height: initial;
+	font-family: "Andale Mono", Hack, "Lucida Console", Monaco, monospace;
+	font-size: 0.9rem;
+}
+
+.synComment { color: blue }
+.synConstant, .synSpecial { color: deeppink }
+.synStatement { color: green }
+.synType { color: purple }
+
+a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"] {
+	display: block;
+	background-image: none !important;
+	background-size: none !important;
+	color: black !important;
+	display: inline-block;
+}
+
