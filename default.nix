@@ -25,7 +25,7 @@ in pkgs.mkShell rec {
     ghostscript
 
     git-lfs
-
+    discount
 
     perl
     perl534Packages.syntax
