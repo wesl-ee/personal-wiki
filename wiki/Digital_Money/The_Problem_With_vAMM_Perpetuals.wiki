@@ -1,0 +1,240 @@
+<div class=info>
+Although I am building a perpetual swap at <a
+href="https://www.levana.finance/">Levana</a>
+nothing I say here is intended to be an official stance of Levana protocol on any
+matter past or present (´ ∀ ` *)
+</div>
+
+Automated Market Makers (AMMs) are a staple of nearly every
+[[DeFi|Digital_Money/Decentralized_Finance]] blockchain
+worth mentioning. Show me a DeFi chain without an AMM and I will show you a
+chain that needs an AMM. Where on a centralized exchange (CEX) a Central Limit
+Order Book (CLOB) pairs market-makers with market-takers, an AMM is the sole
+market-maker for all traders. AMMs are inefficient compared with orderbooks,
+because each trader experiences AMM slippage. I think of slippage as a "premium"
+you must pay for the benefits of decentralization.
+
+The size of the premium you pay in slippage is a function of both your trade
+size and the amount of liquidity in the curve. Namely for any trade the slippage
+premium is large for (a) large trades and (b) low liquidity in the curve.
+
+<figure>
+[[!img img/xyk.jpeg size=500x]]
+<figcaption>Typical `x*y=k` curve for `k=1`</figcaption>
+</figure>
+
+AMMs are well-understood, and the constant-product curve above is just one of
+many different flavors of AMM curve. One of the coolest things I know about AMMs
+is that a [2012 Minecraft
+plugin](https://dev.bukkit.org/projects/hyperconomy/pages/information)
+was the first use of a constant-product curve for pricing an item.
+
+What are Perpetual Futures?
+---------------------------
+
+[[!wikipedia Perpetual_Futures]] (perps for short) are derivatives which lack an
+expiry date and which grant exposure to the underlying by incentivizing traders
+to keep the price of the derivative in-line with the underlying asset. They are
+designed to mimic futures contracts which are continuously rolled over, thereby
+never reaching expiry. At no point does the trader need to actually custody the
+underlying asset: one can trade BTC.USD perpetuals without buying spot Bitcoin.
+
+Perpetual exchanges have an internal "mark" price that is distinct from the spot
+price of an asset. The mark price is how much a representation of the asset is
+trading for on the futures exchange itself. If I tank the price on a perpetual
+futures exchange the price of the asset on the spot market is unaffected. To
+incentivize traders to bring the mark price back in-line with the spot price the
+protocol pays a "funding rate" to traders taking a long position. If the mark
+price were above spot price, funding would be paid to shorts. Thereby the price
+of a perpetual future product roughly tracks the price of the underlying.
+
+<figure>
+[[!img img/ftx-historic-funding.jpeg size=500x]]
+<figcaption>Historic funding rate for FTX Bitcoin perpetual futures. A positive
+rate means short positions are paid to keep their positions open</figcaption>
+</figure>
+
+And one important thing to remember about perpetual futures before we dig in
+further is that perps are ideally zero-sum: every 1 USDC that you make from a
+trade is 1 USDC that another trader lost. If a trader loses too much s/he is
+liquidated, meaning their collateral (USDC) is sold and their position is closed
+forcefully. If a trader owes more than the amount of USDC that is
+collateralizing that position then the position is underwater and the deficit is
+made up by the protocol. This is termed "bad debt" and is subsidized by an
+insurance fund. In Perpetual Protocol's case $PERP tokens are sold to cover the
+debt, and other vAMM exchanges do a similar thing to cover debt.
+
+For instance if I leverage 100 USDC 10x then I am given 1000 vUSDC. If ETH is
+trading at 1000 USDC then I can buy 1 vETH. Should the market move 10% to the
+downside then my 1 ETH is now worth only 900 vUSDC. I have lost my 100 USDC and
+should be liquidated to pay the traders who went short.
+
+Generally, a 10x leveraged long position with 0 profit + loss (PnL) should be
+liquidated when the market moves more than 10% to the downside. In reality it
+will be liquidated sooner because protocols often enforce a "safety margin" as
+liquidations will not happen instantly. Without a safety margin the protocol
+risks losing more money than it can collect from an overleveraged trader and
+thereby risks incurring bad debt.
+
+Virtual AMMs
+------------
+
+AMMs work great for spot markets. Can we use an AMMs market-making ability to
+build on-chain perpetual futures? Yes! That's exactly what
+[Perpetual Protocol](https://perp.com/) pioneered in their v1 by using a virtual
+AMM (vAMM) as their market maker. The idea is the same as an AMM except that
+both tokens are virtual and are minted solely by the protocol itself. In the
+case of Perpetual Protocol (v2) traders receive vUSDC representing their
+notional position (notional size is `margin * leverage` plus any profits /
+losses). Traders can then swap these vUSDC for vBTC (or vETH etc) on a Uniswap
+v3 AMM that is instantiated by Perpetual Protocol.
+
+What makes these vAMMs inefficient compared to a pure orderbook model as you
+would see on a CEX is: slippage.
+
+<figure>
+[[!img /img/drainage.jpeg]]
+<figcaption><em><a href="https://youtu.be/dRhRFOu-hRA">Slippage! Slippage, Eli!
+Drained dry, you boy</a></em></figcaption>
+</figure>
+
+Recall that for a given trade slippage is determined by exactly two things:
+
+1. The notional size of the trade
+2. The amount of liquidity in the AMM curve
+
+If I sell into an AMM I will cause the mark price to slip above or below the
+spot price. The more the price slips the less USDC I receive. If ETH trades for
+1000 USDC, the most efficient perpetuals market allows me to sell 1 ETH for 1000
+USDC.
+
+Unlike with traditional AMMs we can mint as much vUSDC and vBTC as we like and
+provide this as liquidity. By increasing liquidity in the vAMM we decrease
+slippage.  This is one way we can artificially control vAMM slippage.  Exactly
+*how much* virtual liquidity to provide is a difficult problem, however, because
+traders can lever their capital as much or as little as they'd like: what is
+"acceptable" slippage for 100,000 vUSDC may not be acceptable for only 100
+vUSDC. Some systems, like Drift protocol, dynamically adjust this liquidity in
+an interesting twist called a dynamic virtual AMM (DAMM).
+
+Slippage is necessary in a vAMM because without it the price of the asset in the
+vAMM would not move. But if liquidity is too low large trades may move the
+market too much. Low liquidity also allows traders to manipulate the market
+easily. If I have 100,000 USDC and lever this 10x to make a notional size of 1MM
+vUSDC, and that 1MM USDC can move a market by 10%, I could easily wipe out all
+other 10x leverage positions by (1) buying vBTC with vUSDC (2) liquidating all
+now-overleveraged positions and (3) selling my vBTC. In addition to collecting
+liquidation incentives I have also profited by forcing traders to close their
+positions, allowing me to sell my vBTC for more than what I acquired it with.
+
+This flow could be bundled into a single transaction, thereby making it
+impossible to sandwich any of these steps. With 100k USDC I now have access to
+risk-free, guaranteed profit at the expense of 10x leveraged participants. Poor
+you!
+
+Manipulation is destructive for any market, so as a decentralized perpetuals
+exchange running a vAMM I want to prevent this. But who's to say 100k USDC is "a
+lot" of USDC? I could easily be a participant with 1MM USDC or more.  Because
+this is a risk-free yield strategy I can borrow as much USDC as I possibly can
+and complete this flow as many times as I want to earn a stable return on my
+USDC for free.
+
+Perpetual protocol "solved" this by introducing a price TWAP and a 10% rule: if
+the spot price of an asset and its "mark" (virtual) price diverge by more than
+10% then the spot price is used for calculating if a position is liquidatable.
+And sure, this reduces the profitibility of such a strategy. But to understand
+why this is bad consider first that positions are liquidated when they are
+at-risk of having bad debt. If I close a position when I am underwater, the
+protocol loses money. Even better, if I *cause the bad debt myself* then I can
+profit from this by draining the protocol's insurance fund.
+
+vAMM Initial Conditions
+-----------------------
+
+A direct consequence of forcing perpetuals to be a zero-sum game is that, should
+every position be closed, the mark price will return to its initial state. So if
+I bootstrapped a Bitcoin perpetual swap at 5,000 USDC per BTC, and the BTC price
+soared to 70,000 USDC per BTC, traders exiting their long positions will need to
+be replaced by new longs to keep the price at 70,000 USDC per. If no fresh
+capital arrives and every trader closed his / her long position, the mark price
+will plummet back to 5,000 USDC per BTC regardless of the spot price of BTC. As
+stated before, the protocol will pay (out-of-pocket, mind you) a funding rate to
+incentivize new traders to take the long position.  If this continues then the
+protocol will bleed its insurance fund until it is empty, at which point the
+protocol is insolvent.
+
+For an asset that trends up over time this means that if you want to exit a
+large position in profit you must convince someone to buy your bag. This is the
+definition of PvP trading, and such schemes often collapse when everyone runs
+for the exit.
+
+You can think of the initial conditions of a vAMM as a pin, and the mark price as a
+rubberband wrapped around this pin. You can stretch the mark price out quite
+far, but eventually either the mark price must return to the pin or the pin must
+be moved closer to the mark price.
+
+<figure>
+[[!img img/rubberband-perps.jpeg size=500x]]
+<figcaption>The further we are from initial conditions, the more capital we need
+to prop up the system</figcaption>
+</figure>
+
+Considering all of this, it is clear that traditional vAMM perps cannot "unwind"
+safely when the underlying asset trends up with time. DeFi perpetuals either
+[explode
+violently](https://driftprotocol.medium.com/drift-protocol-technical-incident-report-2022-05-11-eedea078b6d4?source=rss-7075db3c6335------2)
+or quietly go bankrupt. There is no safe end-of-life for a pure vAMM perpetual
+swap as it must accomplish the impossible task of attracting more capital
+indefinitely. This is why they tend to topple over when put under stress,
+because everyone cannot redeem without returning to initial conditions,
+which bankrupts the protocol.
+
+Drift protocol had the ability to repeg the stablepoint to the current mark
+price but this cost is subsidized by the protocol and is not very attractive, as
+you're simply providing exit liquidity to traders at the expense of the
+protocol, which is what happens even without repegging by way of funding
+payments.
+
+For more thoughts about sustainability of traditional perpetuals check out
+[this](https://medium.com/@ragetrade/the-perpetual-pvp-ponzi-beaff4a0c662)
+medium post
+
+Safe, Open, Permissionless Perpetuals
+-------------------------------------
+
+The vAMM model produces a protocol that does not pass the test of being able to
+[wind down slowly](https://vitalik.ca/general/2022/05/25/stable.html). Using a
+pure orderbook model would allow a protocol to wind down safely, but
+unfortunately running an on-chain matching engine is computationally complex.
+Off-loading the matching to a "private blockchain" is no better than running a
+CEX orderbook as it gives protocol insiders the ability to front-run orders.
+
+<figure>
+[[!img img/hayes.jpeg size=500x]]
+[[!img img/hayes-stops.jpeg size=500x]]
+<figcaption>When the house runs the orderbook the house always wins</figcaption>
+</figure>
+
+Minimizing the need to trust a central authority is key. If you don't care about
+"trust" then just trade perpetuals on a CEX; the beauty of blockchain is its
+transparency and permissionlessness, both of which are destroyed if you allow
+one party to match orders behind closed doors.
+
+Designing a new, safe, stable protocol that lets traders enter and exit the
+market freely, exchanging futures around the current spot price, and without fear
+of being forcibly liquidated or "stopped out" by a whale or a market-maker is
+one of the most interesting problems I have the pleasure of working on with the
+Levana team. I am excited that we are rolling out Levana's perpetual swap on the
+Osmosis chain. As we are well-familiar with the dev tools and workflows on
+Cosmos SDK chains, finding a home for our perpetual futures on Osmosis (also a
+Cosmos SDK chain) is a welcome relief.
+
+<figure>
+[[!img img/levana-osmosis.jpeg size=500x]] <figcaption>Sourced from <a
+href="https://twitter.com/Levana_protocol/status/1544381270058205186?s=20&t=0jZTbhaMe1Jx5NX5UDw40Q">Levana's
+Twitter</a></figcaption> </figure>
+
+This was just an overview of some of the troubles that vAMM perpetual swaps
+face. Though I've already hinted at ways we're addressing these issues more
+information, overviews and explainers about Levana's solution to these perpetual
+woes are coming soon™
