@@ -19,6 +19,14 @@ in pkgs.mkShell rec {
     vim
     graphviz
 
+    # teximg
+    imagemagick
+    texlive.combined.scheme-basic
+    ghostscript
+
+    git-lfs
+
+
     perl
     perl534Packages.syntax
     perl534Packages.PathClass

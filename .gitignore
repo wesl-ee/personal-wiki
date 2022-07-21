@@ -1,5 +1,4 @@
 *.swp
-/src
 /www
-/wiki/.ikiwiki
+/src/.ikiwiki
 

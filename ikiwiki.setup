@@ -12,6 +12,8 @@ srcdir: src
 destdir: www
 # base url to the wiki
 url: https://wesl.ee/
+# extension to use for new pages
+default_pageext: wiki
 # enable optimization of only refreshing committed changes?
 only_committed_changes: 0
 # rcs backend to use
@@ -44,7 +46,7 @@ hardlink: 0
 # extra library and plugin directories
 libdirs: [ 'lib' ]
 # time zone name
-timezone: timezone
+timezone: :timezone
 # cookie control
 # set custom user agent string for outbound HTTP requests e.g. when fetching aggregated RSS feeds
 useragent: ikiwiki/3.20190228-1
