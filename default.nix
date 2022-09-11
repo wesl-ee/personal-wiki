@@ -16,6 +16,8 @@ let TextVimColor = perl534Packages.buildPerlPackage {
   };
 in pkgs.mkShell rec {
   buildInputs = with pkgs; [
+    ikiwiki
+
     vim
     graphviz
 

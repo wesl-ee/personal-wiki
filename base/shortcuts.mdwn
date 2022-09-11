@@ -5,5 +5,5 @@
 [[!shortcut name=gpg url="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&exact=on&search=0x%s"]]
 [[!shortcut name=ipns url="https://ipfs.io/ipns/%s" desc="/ipns/%s"]]
 [[!shortcut name=ipfs url="https://ipfs.io/ipfs/%s" desc="/ipfs/%s"]]
-
+[[!shortcut name=ens url="https://%s.eth.limo" desc="%s.eth" ]]
 

@@ -46,7 +46,7 @@ hardlink: 0
 # extra library and plugin directories
 libdirs: [ 'lib' ]
 # time zone name
-timezone: :timezone
+timezone: "US/Eastern"
 # cookie control
 # set custom user agent string for outbound HTTP requests e.g. when fetching aggregated RSS feeds
 useragent: ikiwiki/3.20190228-1
