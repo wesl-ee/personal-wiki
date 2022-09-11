@@ -23,7 +23,7 @@ east-west traffic between two Alpine tenants. Area 0 is organized in a ring to
 demonstrate how link failures can affect routing around this topology.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/gns3-complete.png">
+[[!img img/frr-gns3-complete.png size=500x]]
 <figcaption>GNS3 topology which this article ultimately constructs</figcaption>
 </figure>
 
@@ -128,7 +128,7 @@ open go to "Edit" → "Preferences" → "Docker containers". Then create a new
 container template for the FRR image that was just built or pulled.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/gns3-docker-containers.png">
+[[!img img/frr-gns3-docker-containers.png size=500x]]
 <figcaption>Docker container configuration in GNS3</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ stores its configuration files. The two important files here are `frr.conf` and
 `daemons`.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/gns3-docker-advanced.png">
+[[!img img/frr-gns3-docker-advanced.png size=500x]]
 <figcaption>Configuration of the persistent storage</figcaption>
 </figure>
 
@@ -195,7 +195,7 @@ Before networking containers together let's get comfortable working with just a
 single node.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/single-node.png">
+[[!img img/frr-single-node.png size=500x]]
 <figcaption>Single-node setup</figcaption>
 </figure>
 
@@ -243,7 +243,7 @@ together using the "Link" option in the left-hand panel; just select which
 interfaces terminate either side of the link when connecting two nodes.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/two-node.png">
+[[!img img/frr-two-node.png size=500x]]
 <figcaption>A two-node setup in GNS3</figcaption>
 </figure>
 
@@ -310,7 +310,7 @@ Flapping the `eth0` interface on `r2` will show an exchange of routing
 information in the Wireshark trace.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/wireshark-ospfv2-hello.png">
+[[!img img/frr-wireshark-ospfv2-hello.png size=500x]]
 <figcaption>Example exchange of routing information in OSPFv2</figcaption>
 </figure>
 
@@ -329,7 +329,7 @@ Because two routers is never enough let's add two more! I will connect these
 four in a ring topology instead of a full-mesh.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/gns3-ring-topology.png">
+[[!img img/frr-gns3-ring-topology.png size=500x]]
 <figcaption>A 4-node Ring Topology</figcaption>
 </figure>
 
@@ -439,7 +439,7 @@ that the subnet may be configured arbitrarily without affecting east-west
 traffic.
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/gns3-access-layer.png">
+[[!img img/frr-gns3-access-layer.png size=500x]]
 <figcaption>End-devices in the access layer are connected together by the distribution layer</figcaption>
 </figure>
 
@@ -603,9 +603,10 @@ tab of the "Configure" window though I haven't found much use for them yet.
 I also suggest picking a cool icon for your VX!
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/gns3-cumulus-vx-install.gif">
+<img src="/img/frr-gns3-cumulus-vx-install.gif">
 <figcaption>Installing and Configuring a Cumulus VX in the Ring Topology</figcaption>
 </figure>
+
 
 Since Cumulus Linux uses FRR as its routing suite it's straightforward to
 replace the old FRR container `r1` in the example topology with a CL VX since
@@ -634,7 +635,7 @@ off-load the normal data-plane operations to.
 Anyhow this is the final topology!
 
 <figure>
-<img src="https://wesleycoakley.com/img/frr/gns3-complete.png">
+[[!img img/frr-gns3-complete.png size=500x]]
 <figcaption>Final two-tier topology in GNS3</figcaption>
 </figure>
 

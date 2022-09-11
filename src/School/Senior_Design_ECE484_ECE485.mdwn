@@ -109,19 +109,13 @@ Laying out these detailed project requirements, we were able to generate over
 choosing a final design. The sketches we generated look similar to the ones below:
 
 <figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-scope.jpg">
-<img alt="Scope-like" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-scope.jpg">
-</a>
+[[!img img/snr-design-scope.jpg size=500x]]
 <figcaption>An oscilloscope-like design</figcaption>
 </figure><figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-box.jpg">
-<img alt="Box" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-box.jpg">
-</a>
+[[!img img/snr-design-box.jpg size=500x]]
 <figcaption>What became the basis for our chassis</figcaption>
 </figure><figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-bird.jpg">
-<img alt="Bird" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-bird.jpg">
-</a>
+[[!img img/snr-design-bird.jpg size=500x]]
 <figcaption>A running joke of a design that features a <a
 href="https://en.wikipedia.org/wiki/Drinking_bird">Drinking Bird</a></figcaption>
 </figure>
@@ -141,14 +135,10 @@ consequently I had to quickly train myself in computer vision and motor
 controller programming in order to realize our prototype.
 
 <figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-motors.jpg">
-<img alt="Motor Spec" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-motors.jpg">
-</a>
+[[!img img/snr-design-motors.jpg size=500x]]
 <figcaption>An example of the detailed specifations I drafted as lead-programmer</figcaption>
 </figure><figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-block-diagram.jpg">
-<img alt="Block Diagram" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-block-diagram.jpg">
-</a>
+[[!img img/snr-design-block-diagram.jpg size=500x]]
 <figcaption>A high-level block diagram summarizing our design choices</figcaption>
 </figure>
 
@@ -156,10 +146,8 @@ Specifications like the ones above were distributed to the team and helped to
 keep us focused and on-track to achieve the final product. Below is the
 aluminium chassis which was completed during 484:
 
-<figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-chassis.jpg">
-<img alt="Chassis" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-chassis.jpg">
-</a>
+</figure><figure>
+[[!img img/snr-design-chassis.jpg size=500x]]
 <figcaption>The completed aluminium chassis</figcaption>
 </figure>
 
@@ -267,9 +255,7 @@ project by contract; however I am permitted to share the details of its
 operation (as above) and to give insight into my design choices (also as above).
 
 <figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-final.jpg">
-<img alt="Design Day" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-final.jpg">
-</a>
+[[!img img/snr-design-final.jpg size=500x]]
 <figcaption>Our presentation at second-semester Design Day</figcaption>
 </figure>
 
@@ -285,14 +271,13 @@ an environment where we are expected to rapidly prototype and spec a product,
 has greatly improved since having this experience.
 
 <figure><video controls>
-<source src="https://cdn.wesleycoakley.com/web-images/snr-design-lab-demo.mp4">
+<source src="/vid/snr-design-lab-demo.webm">
 </video>
 <figcaption>Example of the design-day demonstration</figcaption>
 </figure>
 
 <figure>
-<a href="https://cdn.wesleycoakley.com/web-images/snr-design-me-demo.jpg">
-<img alt="Me" src="https://cdn.wesleycoakley.com/web-images/thumb/snr-design-me-demo.jpg">
-</a>
+[[!img img/snr-design-me-demo.jpg size=500x]]
 <figcaption>Me and the Golang Gopher giving a demonstration of the MDS</figcaption>
 </figure>
+
