@@ -8,6 +8,7 @@ use strict;
 use IkiWiki 3.00;
 
 my %imgdefaults;
+my $RENDER_FACTOR = 2;
 
 sub import {
 	hook(type => "getsetup", id => "img", call => \&getsetup);
@@ -230,7 +231,8 @@ sub preprocess (@) {
 				error sprintf(gettext("failed to read %s: %s"), $outfile, $r) if $r;
 			}
 			else {
-				$r = $im->Resize(geometry => "${dwidth}x${dheight}");
+                my ($rwidth, $rheight) = ($dwidth * $RENDER_FACTOR, $dheight * $RENDER_FACTOR);
+				$r = $im->Resize(geometry => "${rwidth}x${rheight}");
 				error sprintf(gettext("failed to resize: %s"), $r) if $r;
 
 				$im->set($ispdf ? (magick => 'png') : ());
@@ -277,8 +279,8 @@ sub preprocess (@) {
 	}
 	
 	my $imgtag='<img src="'.$imgurl.'"';
-	$imgtag.=' width="'.$dwidth.'"' if defined $dwidth;
-	$imgtag.=' height="'.$dheight.'"' if defined $dheight;
+	$imgtag.=' width="'.($dwidth / $RENDER_FACTOR) .'"' if defined $dwidth;
+	$imgtag.=' height="'.($dheight  / $RENDER_FACTOR) .'"' if defined $dheight;
 	$imgtag.= $attrs.
 		(exists $params{align} && ! exists $params{caption} ? ' align="'.$params{align}.'"' : '').
 		' />';
