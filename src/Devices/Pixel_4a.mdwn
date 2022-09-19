@@ -1,0 +1,230 @@
+This Pixel 4a is hands-down my favorite phone I've ever used, and by-far it has
+offered me the most performance with the least amount of hassle. Plus it was
+hilariously cheap: in total I paid
+$216 for this cute thing, not including the service, which was basically pennies
+compared to other phone plans when I paid a base $20 per month + $10 per
+GiB.
+
+<table class=no-border>
+<tr>
+  <td colspan=2 class=spread-img>
+[[!img img/pixel-4a-sep-2022.jpeg size="x500"]]
+  </td>
+</tr>
+<tr>
+  <th>Device</th>
+  <td>Pixel 4a (<em>sunfish</em>)</td>
+</tr><tr>
+  <th>Hostname</th>
+  <td><a href="https://myanimelist.net/character/12064/Taiga_Aisaka">
+  Palmtop-Tiger</a></td>
+</tr><tr>
+  <th>Dimensions</th>
+  <td>144mm x 69.4mm x 8.2mm</td>
+</tr>
+<tr>
+  <th/>
+  <td>2340 x 1080 (19.5:9)</td>
+</tr>
+<tr>
+  <th/>
+  <td>5.8in screen, 443ppi</td>
+</tr>
+<tr>
+  <th>Weight</th>
+  <td>143g</td>
+</tr>
+<tr>
+  <th>ROM</th>
+  <td>Lineage OS 19.1 (Android 12)</td>
+</tr>
+<tr>
+  <th>Owned</th>
+  <td>February 2021 〜 Now</td>
+</tr>
+<tr>
+  <th>Notable Hardware</th>
+  <td>3.5mm headphone jack</td>
+</tr>
+<tr>
+  <th/>
+  <td>Rear fingerprint scanner</td>
+</tr>
+<tr>
+  <th>Notes</th>
+  <td>Rooted w/ Magisk (v25.2)</td>
+</tr>
+<tr>
+  <th/>
+  <td>Ad-blocking w/ hosts file (AdAway)</td>
+</tr>
+<tr>
+  <th/>
+  <td></td>
+</tr>
+</table>
+
+Despite being marketed mostly as a "budget" phone there are very few features
+missing from this phone that I feel I'd want; it boasts some features over the
+Pixel 4 that I really like: the 3.5mm headphone jack, rear-mounted fingerprint
+scanner and a thinner bezel than both the Pixel 4 and Pixel 4 XL all are
+features only the 4a boasts of the 3 phones in the Pixel 4 family.
+
+Before this I used a Samsung S10e for about a year before technically
+downgrading to this phone; the difficulty of rooting that particular Verizon
+model of the S10e frustrated me as I desperately wanted to install
+[AdAway](https://f-droid.org/packages/org.adaway/) as my system-wide adblocker
+as well as to uninstall the annoying Samsung bloatware apps. Though the hardware
+was nice for the time, I wanted a purer Android experience and the Samsung ROM
+was clearly not that. Plus, rooting a phone (and maybe flashing a custom ROM)
+makes me feel like I truly "own" my own device.
+
+The All-in-One
+--------------
+
+Some lament that we no longer carry single-purpose devices like notebooks,
+stopwatches, flashlights or pagers as often (or at all) anymore. I was in this
+camp too for some time. To me, for a while, I considered phones as all-purpose
+tools and I used my Pixel 4a accordingly: I submitted to the easy modern
+lifestyle and loaded the phone to the brim with apps and used it idly, wasting
+time reading things I thought were important or relevant or communicating with
+people I've never meaningfully talked with anyhow, IRL or otherwise.
+
+For reasons like this many people consider phones to be all-in-one devices. I
+argue that this categorization depends on the person using the phone; I've
+only recently become aware of (and have recently begun practicing) the ability
+to use my phone as many single-purpose devices. At times it is a way to
+communicate with the people I work with, other times it is a convenient way to
+jot a note down so I do not forget, and yet other times it is a tool to dump
+thoughts onto my Twitter feed in basically a write-only fashion. The important
+thing is that I use it for the purpose I intend at the time I pick it up and
+put it down exactly when I am done with the task I ventured to use it for.
+
+Apps
+----
+
+When I flashed the 09.2022 build of Lineage OS onto my phone I took the
+opportunity to wipe my Pixel clean and install this set of apps and tools that
+would allow me to use my phone as I outlined above, ie as many single-purpose
+tools rolled into one:
+
+<table class=no-border>
+<tr>
+  <th>Launcher</th>
+  <td>Blue Line Console</td>
+</tr><tr>
+  <th></th>
+  <td>Nova Launcher</td>
+</tr><tr>
+  <th>Wallpaper</th>
+  <td>Kustom Live Wallpaper (KLWP)</td>
+</tr><tr>
+  <th>System</th>
+  <td>AdAway</td>
+</tr><tr>
+  <th></th>
+  <td>Magisk</td>
+</tr><tr>
+  <th>File Sharing</th>
+  <td>Primitive ftpd</td>
+</tr><tr>
+  <th></th>
+  <td>Share via HTTP</td>
+</tr><tr>
+  <th>VPN</th>
+  <td>IVPN</td>
+</tr><tr>
+  <th>Browser</th>
+  <td>Firefox Focus</td>
+</tr><tr>
+  <th>E-mail</th>
+  <td>K-9 Mail</td>
+</tr><tr>
+  <th>Chat</th>
+  <td>Telegram</td>
+</tr><tr>
+  <th/>
+  <td>Discord</td>
+</tr><tr>
+  <th/>
+  <td>Twidere</td>
+</tr><tr>
+  <th/>
+  <td>Slack</td>
+</tr><tr>
+  <th>Music</th>
+  <td>Spotify</td>
+</tr><tr>
+  <th>Japanese Language</th>
+  <td>Anki</td>
+</tr><tr>
+  <th></th>
+  <td>Jisho</td>
+</tr><tr>
+<tr>
+  <th colspan=2>&vellip;<br/>GApps Powergap<br/>&vellip;</th>
+</tr><tr>
+  <th>Navigation</th>
+  <td>Google Maps</td>
+</tr><tr>
+  <th>Telephony</th>
+  <td>Google Phone</td>
+</tr><tr>
+  <th></th>
+  <td>Google Messages</td>
+</tr><tr>
+  <th></th>
+  <td>Google Fi</td>
+</tr><tr>
+  <th>Camera</th>
+  <td>Google Camera</td>
+</tr><tr>
+  <th>Keyboard</th>
+  <td>GBoard</td>
+</tr><tr>
+  <th>Meetings</th>
+  <td>Google Meet</td>
+</tr><tr>
+  <th>Collaboration</th>
+  <td>Google Drive</td>
+</tr><tr>
+  <th>Quick notes + lists</th>
+  <td>Google Keep</td>
+</tr>
+</table>
+
+<figure class=left-float><video width=180 height=391 loop autoplay>
+<source src="/vid/pixel-4a-sep-2022.mp4">
+</video>
+</figure>
+
+I know, having so many Google services is shameful. I can justify some by the
+fact my work uses GSuite. Google apps also unlock hardware features of the Pixel
+4a that open-source apps can not / do not. Others apps (like Google Maps) are just too damn convenient. Why
+would I add 20 minutes to my drive using some open-source navigation software
+(that doesn't understand traffic flow) when I can consult for the best route
+with the gods of data-mining themselves?
+
+The biggest departure from typical UX is the launcher setup I use. [Nova
+Launcher](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
+is the trusty app launcher I've used since I've been ricing seriously. Like in
+many rices I've done before here it is only providing the screens on which KLWP
+displays its Komponents. However, I've disabled its own app drawer (default
+swipe up from the bottom) in favor of using [Blue Line
+Console](https://f-droid.org/en/packages/net.nhiroki.bluelineconsole/), an app
+launcher driven by the keyboard and configured keywords. I tap the picture in
+the middle of the screen and the launcher opens. This way I engage my brain
+to think of what I want to run instead of slowly scrolling through all my apps
+in a drawer.
+
+Note also how empty the KLWP wallpaper is; KLWP lets you rice your phone into
+oblivion but I've chosen only to show a tappable picture. Before I had
+cryptocurrency tickers, weather forecasts, RSS feeds, and many other things
+loaded onto the homescreen directly. I've reasoned now that these have no place
+on a phone which deliberately minimizes the opportunity for you to lose focus on
+something else.
+
+I have also muted notifications from many applications (especially Discord) and
+added unique notification sounds for those apps which can still notify me so I
+do not even need to pick up the phone to check those notifications if I know
+they are trivial things like e-mail.

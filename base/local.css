@@ -29,6 +29,19 @@ section#content td {
 section#content table {
 	border: 1px solid;
 	margin: auto;
+    empty-cells: hide;
+}
+
+section#content table.no-border {
+    border: 0;
+}
+
+section#content td.spread-img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /* Pesky whitespace text nodes */
+    font-size: 0rem;
 }
 
 section#content :is(h1, h2, h3, h4, h5, h6) {
@@ -50,6 +63,10 @@ section#content .longlink {
 
 @media only screen and (max-width: 700px) {
 	section#content { text-align: initial }
+}
+
+@media only screen and (max-width: 600px) {
+    #content .left-float { float: none !important; }
 }
 
 a { text-decoration: none }
@@ -125,6 +142,11 @@ figure {
 	display: block;
 	text-align: center;
 	margin: auto }
+#content .left-float {
+    float: left;
+    margin: 0 2ch 2ch 0 !important;
+}
+
 p img {
 	display:block;
 	max-width: calc(100% - 2px);
