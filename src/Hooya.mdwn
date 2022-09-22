@@ -1,0 +1,256 @@
+[[!meta title="HooYa! Network"]]
+
+<table class=left-float>
+<tr>
+<th colspan=2>HooYa! Network</th>
+</tr>
+<tr>
+<th>Project Status</th>
+<td>Side-project</td>
+</tr>
+<tr>
+<th>Article Status</th>
+<td>Unfinished</td>
+</tr>
+<tr>
+<th>Funding</th>
+<td>Unfunded</td>
+</tr>
+</table>
+
+HooYa! is a Web3 community for commissioning and supporting manga & dōjin
+artists; it offers leasable storage space for illustrations submitted by artists
+and network users and provides a
+[folksonomy](https://en.wikipedia.org/wiki/Folksonomy) of descriptive,
+searchable tags and metadata for each illustration it hosts. HooYa! maintains
+also a folksonomy for images that are not stored on-chain but that may be
+accessible through other services such as Pixiv and Danbooru.
+
+[[!img img/hooya-slide.jpeg size="x500"]]
+
+It aspires to be rapidly become completely autonomous and self-governing by
+issuing its own governance tokens for use in image proposal / acceptance and
+metadata tagging. It also seeks to incentivize the on-chain commission + minting
+of new artworks by [manga](https://en.wikipedia.org/wiki/Manga) &
+[dōjin](https://en.wikipedia.org/wiki/Doujinshi) artists (hereafter
+"illustrators") via these native utility tokens.
+
+### Background
+
+The service HooYa! provides is not novel; it finds inspiration from a handful of
+Web2 companies (mainly Japanese ones) and from the communities that form around these
+companies and the illustrators they support. I see HooYa! as a combination of
+these two communities in particular:
+
+- [Pixiv](https://pixiv.net), a Japanese-language community of illustrators who
+  connect with fans by posting original and derivative artworks
+- [Danbooru](https://danbooru.donmai.us/posts?tags=rating%3Ageneral+&z=5), a
+  community dedicated to the archive of illustrations like those posted on
+  pixiv, known mostly for its extensive vocabulary of tags used for organizing
+  and labelling these images
+
+The wealth of information provided by Danbooru has helped many [unique
+projects](https://www.gwern.net/Danbooru2021#applications) to create
+machine-learning models that can both (a) predict appropriate tags for a given
+illustration ([example](https://autotagger.donmai.us/),
+[src](https://github.com/danbooru/autotagger)) and (b) generate new
+illustrations that resemble the Japanese style
+([example](https://www.thiswaifudoesnotexist.net/),
+[background](https://www.gwern.net/TWDNE)).
+
+HooYa! will leverage these pioneering predictive models to suggest tags on
+images submitted for inclusion on the network.
+
+### What is Pixiv?
+
+[Pixiv](https://pixiv.net) is a community of primarily Japanese illustrators who
+upload their illustrations, comics and short stories and share them with other
+pixiv members. This is one of the primary ways that illustrators can connect
+with their communities and make their artwork accessible to their fans. It is
+the [10th](https://www.similarweb.com/website/pixiv.net/#overview) most visited
+site in Japan and is most popular among young Japanese illustrators and their
+fans.
+
+Pixiv offers a Patreon-like subscription program called
+[pixivFANBOX](https://www.fanbox.cc/) which connect fans with illustrators
+publishing derivative and original illustrations on a regular basis by providing
+fans in each subscriber tier with special goods, articles and hi-res renders of
+illustrations released by the artist.
+
+Because drawing is a popular hobby in Japan (and one which is gaining popularity
+abroad) the idea of earning a living as an illustrator has attracted many creators,
+both Japanese and internationals, to the Pixiv platform.
+
+<figure>
+[[!img img/pixiv-shiratama-tier-1.jpeg size="x500"]]
+<figcaption>Example of a monthly subscription from <a
+href="https://shiratamaco.fanbox.cc/">Shiratama's</a> pixivFANBOX
+page</a></figcaption>
+</figure>
+
+In addition to subscription services pixiv also provides a space for
+illustrators to sell their illustrations, manga (both short- and long-form) and
+artbooks on its [BOOTH](https://booth.pm/en/browse/Comics) site. These can be
+digital-only releases but there are also physicals for sale which are produced
+through its pixivFACTORY service.
+
+Fans can commission personal works from illustrators by a feature on
+pixiv known as
+[Requests](https://www.pixiv.help/hc/en-us/articles/900002679206-Request-flow).
+Requests can be funded entirely by an individual or can be crowd-funded by many
+fans pooling cash together to commission the piece.
+
+Finally, Pixiv lets fans and illustrators to add a limited set of tags to an image
+(up to 10) to an image. These Pixiv tags are more akin to hashtags on Twitter
+than semantic metadata as seen on sites like Danbooru.
+
+### Danbooru
+
+[Danbooru](https://danbooru.donmai.us/posts?tags=rating%3Ageneral+&z=5) is a
+community that tags and archives images from Pixiv, Twitter, DeviantArt and many
+other platforms. Each image submitted for inclusion on Danbooru goes through a
+3-day review period after which it is either accepted or denied inclusion into
+the Danbooru canon. Danbooru maintains a large
+[vocabulary of tags](https://danbooru.donmai.us/wiki_pages/help:tags) which
+are key-value pairs used to describe an image. This makes the set of images
+easily searchable by specifying (eg) the illustrator, character, franchise or
+any objects in an image.
+
+[[!img img/danbooru-product-placement.jpeg size="x500"]]
+
+As shown above Danbooru lets me search things such as: illustrations of the Love
+Live! franchise which include product placement of some kind, by issuing the
+query <code>love&lowbar;live! product&lowbar;placement</code>. From left to
+right, top to bottom these are the [Subaru
+WRX](https://danbooru.donmai.us/posts?tags=subaru_wrx+rating%3Ageneral),
+[Starbucks](https://danbooru.donmai.us/posts?tags=starbucks+rating%3Ageneral),
+[Coca-Cola](https://danbooru.donmai.us/posts?tags=coca-cola+rating%3Ageneral),
+[Sprite](https://danbooru.donmai.us/posts?tags=sprite_%28drink%29+rating%3Ageneral)
+and the [Yamaha
+Vino](https://danbooru.donmai.us/posts?tags=yamaha_vino+rating%3Ageneral).
+Danbooru limits searches to 2 tags unless the user has purchased a
+[Gold](https://danbooru.donmai.us/upgrade) account, in which case the limit is
+raised to 6. Gold accounts cost a one-time purchase of $20 USD.
+
+<figure class=left-float><video width=300 height=300 loop autoplay controls>
+<source src="/vid/gwern-stylegan-portraits-interpolation-4x4.webm">
+</video>
+</figure>
+
+Danbooru hosts over **4.9 million images** tagged with **162 million tags**, of
+498k unique tags as of the end of 2021. A single copy of this data consumes 4.5
+terrabytes of disk space.
+
+As alluded to earlier, this massive data set has allowed researchers to create
+predictive models leveraging neural networks to label the objects in a brand
+new illustration, thus reducing the workload on a single user tagging an image.
+In addition to predictive models, generative adversarial networks (in particular
+NVIDIA's StyleGAN) have been trained with the Danbooru set to draw brand new
+illustrations when prompted with a series of tags.
+
+To the left is <a
+href="https://www.gwern.net/Faces#portrait-results">Gwern's</a> Danbooru2018
+portrait model trained to generate portraits in the Danbooru style (credit <a
+href="https://www.gwern.net/Faces#portrait-results">Gwern</a> for the model and
+video). Each image in the interpolation is unique in that it is an original
+of the GAN, and though the model was seeded from the images collected on
+Danbooru the portraits are original creations.
+
+HooYa! uses the predictive model and the generative model in a few different
+ways (see below *3: Prediction* and *4: Generation*).
+
+HooYa! — A Decentralized Platform for [Dōjin](https://en.wikipedia.org/wiki/Doujinshi) & Manga Artists
+--------------
+
+Now with some understanding of the context in which HooYa! is being developed I
+can explain the mechanics the HooYa! network.
+
+HooYa! at its core can be broken into three components:
+
+1. Consensus (of metadata, tags, governance, and the image canon)
+2. Leased ephemeral storage (of commissioned images and those minted on-chain)
+3. Prediction (of tags) + generation (of reference images)
+
+The first two of these four components may be familiar to some; the last one is
+a novel component to compute on a blockchain and is one thing (among many) which
+I hope will set HooYa! apart from many other chains, both on Cosmos and beyond.
+
+### 1 — Consensus
+
+HooYa! is a blockchain built on the **Cosmos SDK**. It uses Tendermint (like
+nearly every other Cosmos SDK chain) to maintain network connectivity and
+consensus across a group of validators. Many chains I have seen begin with a
+set of 100 validator slots and so this is what HooYa! adopts initially.
+
+Each node has a perfect copy of *the canon* which refers to the set of:
+
+- Images (uniquely identified by a SHA2-256 <a
+   href="https://github.com/multiformats/multihash">multihash</a>)
+- Ownership of those images
+- Tags describing those images
+- Metadata describing those images
+
+... that HooYa! indexes. HooYa!'s canon is a subset of network state and
+therefore any archival node can retrieve a full copy of the canon at any given
+chain height. On-chain governance, ongoing subscriptions to illustrators,
+payment settlement for commissioned artwork is a subset of HooYa! network state,
+and therefore is a part of data stored on the blockchain, but is not what I mean
+when I reference *the canon*, which refers to exclusively those four things
+above.
+
+*The canon* is contributed by HooYa! network users, not necessarily the original
+illustrators themselves. HooYa! users may consult the neural networks proposed
+in (3) during the image tagging process to more accurately and swiftly tag
+images. Furthermore because *canon* includes only metadata about an image but
+not the image itself there is no risk of infringement on any copyrights by
+storing *canon*; the image data is stored in ephemeral storage (2) if it has
+been leased; this data is released once its lease expires.
+
+[... more to come here]
+
+### 2 — Leased Ephemeral Storage
+
+In addition to running the HooYa! daemon which maintains consensus (1) all
+validators are expected to run an <a href="">IPFS</a> daemon. This daemon
+connects validators to each other in a private cluster separate from the
+"global" IPFS instance that we often refer to when talking of IPFS. The private
+IPFS cluster provides ephemeral storage of the images that HooYa! has reached
+consensus in (1) should be stored on the network a period of time determined by
+the image's lease terms.
+
+Unlike for metadata stored as a part of consensus (1) no guarantee is made
+regarding the retrieval of data whose lease has expired. Validators are not
+required to store copies of all data ever indexed by HooYa!, only data whose
+lease is current because that space is reclaimed once the lease for that space
+expires.
+
+To my knowledge no other Cosmos SDK chain (not even <a href="">Stargaze</a>
+which arguably should use this) leverages IPFS like this. I believe this is a
+wonderful decentralized alternative to things like <a
+href="https://www.pinata.cloud/">Pinata</a> for IPFS pinning that is especially
+attractive for NFT projects on Cosmos. *Even if other projects do not use
+HooYa!'s consensus (1) or neural-net prediction + generation (3) they can lease
+ephemeral storage (2) to store NFT metadata and images.*
+
+[... more to come here]
+
+### 3 — Prediction + Generation
+
+There are a number of pre-trained models which can predict tags for a given
+illustration. Validators host these neural networks and provide suggestions for
+each image uploaded to ephemeral storage in (2). The deterministic nature of
+these networks dictates that each image has exactly one set of network outputs
+(ie predicted tags); models are therefore versioned and distributed as part of
+network upgrades, ensuring each validator has the latest neural network, and
+those that do not provide bitwise identifical network outputs will see their
+stake <a href="https://docs.cosmos.network/master/modules/slashing/">slashed</a>
+after an amount of time. This behavior is similar to the slashing on Gravity
+Brdige ( see <a
+href="https://github.com/cosmos/gravity-bridge/blob/main/spec/slashing-spec.md">GRAVSLASH-02
+</a>)
+
+For providing one-time GPU compute power for tag prediction validators are
+compensated with a portion of the data leasing fee.
+
+[... more to come here]
+
