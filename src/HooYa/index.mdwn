@@ -211,7 +211,7 @@ been leased; this data is released once its lease expires.
 ### 2 — Leased Ephemeral Storage
 
 In addition to running the HooYa! daemon which maintains consensus (1) all
-validators are expected to run an <a href="">IPFS</a> daemon. This daemon
+validators are expected to run an [[IPFS]] daemon. This daemon
 connects validators to each other in a private cluster separate from the
 "global" IPFS instance that we often refer to when talking of IPFS. The private
 IPFS cluster provides ephemeral storage of the images that HooYa! has reached
@@ -224,13 +224,14 @@ required to store copies of all data ever indexed by HooYa!, only data whose
 lease is current because that space is reclaimed once the lease for that space
 expires.
 
-To my knowledge no other Cosmos SDK chain (not even <a href="">Stargaze</a>
-which arguably should use this) leverages IPFS like this. I believe this is a
-wonderful decentralized alternative to things like <a
-href="https://www.pinata.cloud/">Pinata</a> for IPFS pinning that is especially
-attractive for NFT projects on Cosmos. *Even if other projects do not use
-HooYa!'s consensus (1) or neural-net prediction + generation (3) they can lease
-ephemeral storage (2) to store NFT metadata and images.*
+To my knowledge no other Cosmos SDK chain (not even <a
+href="https://stargaze.zone">Stargaze</a> which arguably should use this)
+leverages IPFS like this. I believe this is a wonderful decentralized
+alternative to things like <a href="https://www.pinata.cloud/">Pinata</a> for
+IPFS pinning that is especially attractive for NFT projects on Cosmos. *Even if
+other projects do not use HooYa!'s consensus (1) or neural-net prediction +
+generation (3) they can lease ephemeral storage (2) to store NFT metadata and
+images.*
 
 [... more to come here]
 
