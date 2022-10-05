@@ -152,8 +152,16 @@ fuel pump began to prime and I saw 40 psi in the fuel rail!
 
 [[!img img/318ti-fuel-pressure.jpeg size=400x]]
 
-This is not a permanent solution, or one that will really get me farther than
-the inspection station (my vehicle registration lapsed in July), but it's a
+Shorting to ground (ie shorting it to zero) essentially removed the DME from
+having say as to when the fuel pump should be on: in this configuration the pump
+will run all the time that the key is in position 2 or the engine is spinning,
+which for my purposes is almost all of the time as I don't often idle in my car
+if the engine is off.
+
+This is not a permanent solution however or one that will really get me farther
+than the inspection station (my vehicle registration lapsed in July), but it's a
 problem I enjoyed solving because it taught me a lot and reminded me my EE
 degree is not entirely pointless. I will probably replace the fuel pump in due
-time anyhow as the original one from '96 is still in there.
+time anyhow as the original one from '96 is still in there. Likely I will also
+pull the DME and inspect it for damage, potentially replacing the transistor
+that switches on the ground for the fuel pump relay.
