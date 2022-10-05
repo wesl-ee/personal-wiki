@@ -1,0 +1,26 @@
+The engine of any gasoline-powered car only needs 3 things to run:
+
++ Fuel
++ Air
++ Spark
+
+Air is pulled in through an intake manifold by the negative pressure created
+when post-combustion gases evacuate the engine cylinder. In contrast fuel is
+pushed into the fuel rail by a positive pressure created in the fuel lines that
+constitute the [[Fuel_Delivery]] system by the fuel pump.
+
+Fuel is atomized at the injectors before being injected into the engine cylinder
+for efficient combustion. In the case of computer-controlled combustion engines
+the onboard computer decides when to fire each fuel injector. On a four-cylinder
+engine like my 318ti's [[M44_Engine]] cylinders are fired in the 1-3-4-2 order.
+
+The computer uses a mass airflow sensor to measure the amount of air that is
+entering the intake manifold to determine how much fuel to spray into the
+cylinder. In the case of the M44 this is a hot wire sensor MAF that is situated
+just downstream from the airbox.
+
+Here is the pleasant video that taught me about fuel injection initially:
+
+<figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U2C__4NzVlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>

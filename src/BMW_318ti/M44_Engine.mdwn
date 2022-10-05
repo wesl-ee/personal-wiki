@@ -1,0 +1,10 @@
+The 318ti was equipped from the factory with two different types of engines:
+on the early 318ti (1994 〜 1996) this was the M42 engine; on the later
+318ti (1996 〜 2000) the M44 engine succeeded the M42. Both engines are
+inline-4; all M44 engines leverage a dual-length intake manifold (DISA, short
+for DIfferenzierte SaugAnlage) while only some late M42 engines do. DISA
+increases the length of the intake at higher RPM. More systems which do this are
+called "variable intakes."
+
+I have heard the [[M44_Engine]] runs best on 93 octane but truthfully this is
+the only gas I have ever pumped into the car so take that as untested fact.

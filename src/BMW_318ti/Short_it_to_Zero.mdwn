@@ -1,0 +1,159 @@
+In early April this year (2022) my beloved shitbox left me on the side of the
+highway. Despite cruising at a mere 60 mph (take "cruising" to be a figure of
+speech as cruise control was a premium, non-default option you'd buy from the
+BMW factory) the check-engine lamp began flashing and the car began to lose
+power. It always ran a little rough but never rough enough to trigger a critical
+failure like this. I knew this was a serious issue and I immediately took the
+car out of gear then coasted to a stop and turned the thing off. For once reading
+[old, near-dead car forums](http://318ti.org) paid off as I had learned from the
+experience of others that a flashing check-engine light (CEL) on an OBD-II car
+(on OBD-I this is only a minor fault) was bad bad not good and indicitive of
+something that had become seriously fucked.
+
+Not willing to leave it overnight on the side of the road where my beautiful
+windows could be shattered I called a friend and we loaded it onto his trailer.
+We parked the car at his garage and I went to work on it the next weekend. When
+we rolled it off the trailer with the key in [position
+2](https://techinfo.honda.com/rjanisis/pubs/om/ja0707/JA0707O00151A.PDF) a
+strong smell of gasoline appeared; further it seemed some gasoline had dripped onto
+the concrete below. This was the second indication that something was fucked.
+
+[[!img img/318ti-trailer.jpeg size=400x]]
+
+Clearly this was the immediate problem I needed to fix and may have been the
+cause of that loss of power. Because fuel leaked from the car I decided to start
+by diagnosing the car's [[Fuel_Delivery]] system. The fuel lines running from
+the rear of the car to the front were dry. I lifted the car up, crawled
+underneath and traced the wet fuel to the upper intake manifold; I probably
+could have found this without lifting it up but ¯\\\_(ツ)\_/¯
+
+It appeared fuel was leaking from the top of the first cylinder injector and
+dripping down onto the lower intake manifold and finally spilling onto the
+floor. To get to the injectors on the 318ti you need to first remove the upper
+intake manifold.
+
+After pulling the injectors I found that the rubber o-ring that seals the
+injector to the rail was torn so I ordered a rebuild kit and replaced it.
+Perhaps the injector was not seated well, causing fuel to push past the o-ring.
+In any case it was a shame as I already replaced the o-rings two years before
+when I bought the thing. I had recently removed the rail to try swapping in a
+new set of injectors I bought from eBay to cure my rough idle (spoiler: they
+weren't all four from the same car so the thing terrible) so the theory I hadn't
+reseated them correctly makes sense. Plus the injectors are held in place by
+metal clips that I probably installed wrong.
+
+After I fixed this problem I tried to run the fuel pump manually to check for
+leaks by shorting pins 30 and 87 of the [[Fuel_Pump_Relay]]; unfortunately I
+shorted the wrong two pins and then the pump would not prime after turning the
+key. Without pressure in the fuel rail the car would not start.
+
+It was around this time that I was to travel to Israel to meet a handful of
+people at Levana in-person, and with that only flight only a few days away I
+decided to have the car towed to the house I just bought, quite a good drive
+away from the garage where it presently sat. The car stayed in the garage at my
+house even before we'd stayed a full day there.
+
+[[!img img/israel-haifa.jpeg size=400x]]
+
+As an aside, having the car towed twice in a month convinced me to buy a truck,
+but unfortunately I've not at this time acted on that conviction; there are
+very few small US trucks made in the last 15 years and I don't care for a very
+large vehicle, just one that's equipped to tow a trailer with a car weighing a
+US ton or two on top.
+
+The E36 sat for a while until life settled down. We visited Israel,
+[[Digital_Money/Terra]] collapsed, we moved in to the new house, welcomed a 3
+month old puppy into our home over the Summer and finally work became a regular
+cadence some time around September. I finally began to work on the car seriously
+again around this time. When you have at least one "reliable" car you can afford
+to do this instead of rushing to fix it and potentially making things worse. 
+
+I began to diagnose what I had fucked up by shorting pins 30 and 87. Logically I
+started at the fuel pump in the back and worked my way forward. I tore out the
+back seat cushio (surprisingly removable on my car) which gave me access to the
+fuel pump. There are two devices stuck in the fuel tank: on the driver side
+there is a fuel-level sender unit, and on the passenger side is the fuel pump,
+which also has a sender unit attached. For some reason the fuel tank is
+physically separated into two sides with a pump between them; each sender
+measures the fuel level on its corresponding side.
+
+Pulling fuel lines was a reminder that the OEM parts were manufactured and
+installed before I was alive, and the car was rolled onto a lot in November '96,
+probably a few days after my birthday.
+
+<blockquote class="twitter-tweet tw-align-center" data-dnt="true"><p lang="en" dir="ltr">continually reminded the lines in this car are as old as me <a href="https://t.co/nZV5oEI5Pe">pic.twitter.com/nZV5oEI5Pe</a></p>&mdash; wesl-ee 🐉 (@wesl_ee) <a href="https://twitter.com/wesl_ee/status/1573832482641924096?ref_src=twsrc%5Etfw">September 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Anyhow, I did not realize the _sender_ unit is behind the driver and the _fuel
+pump_ is behind the passenger. Pictured above is the top of the sender unit
+behind the driver. I had started working on the wrong side, treating the sender
+unit as if it was the fuel pump. I probed voltage at the sender unit and saw
+voltage; I therefore figured I must have blown out the fuel pump somehow,
+because the unit was getting adequate voltage and should be running but it was
+not. I ordered a new fuel pump, dusted off my hands and called it a day.
+
+When the pump arrived I tore out the old sender unit and went to replace it with
+the fuel pump only to find there was no pump on that side.
+
+[[!img img/318ti-fuel-in-the-tank.jpeg size=400x]]
+
+It was at this moment I realized I fucked up for what felt like the 10th time in
+this arc. I muscled the sender back into the tank (with the o-ring it is a very
+snug fit) and probed the unit in the _other_ side of the tank. As it turns out
+the fuel pump was not getting voltage at all so it's hardly surprising it wasn't
+running.
+
+I tracked the problem back to the fuel pump relay. Here is its electrical
+schematic:
+
+[[!img img/318ti-fuel-pump-relay-wiring-schematic.jpeg size=400x]]
+
++ Pin 30 connects to battery voltage at all times
++ Pin 87 connects the relay to the fuel pump in the rear of the car.
++ Pin 86 is battery voltage when the key is in position 2 _and_ the antitheft
+  module is not locked down
++ Pin 85 is a switched ground coming from the DME (engine control unit)
+
+The first thing to do was to make sure the relay functioned correctly when
+tested in isolation. I took the relay out and bench tested it by applying a 9v
+battery to pins 85 and 86, then testing the resistance between pins 30 and 87.
+As expected when the +9v was applied 30 was shorted to 87, ie 0Ω, and when the
+voltage was removed the circuit was open, ie ∞Ω. It's interesting that when the
+relay is toggled I hear a physical "click" as if there is a literal switch
+inside the relay being opened and closed.
+
+Now I tested the voltage inputs to the relay. These are ideal conditions:
+
++ Pin 30 should be battery voltage at all times
++ Pin 86 should be battery voltage when the key is in position 2
++ Pin 85 should be ground when the pump should be running
+    + That is, when the key is initially put into position 2 and when the engine
+      is turning over
+
+I found that all of the above were satisfied _except_ the last point. When I
+turned the key pin 85 read 6.5v which is far higher than ground voltage, ie 0v.
+Therefore the voltage being applied to switching part of the relay was less than
+the 9v I had tested the relay with; it was therefore not guaranteed the relay
+was being switched closed when this meagar voltage was applied. I found only a
+few people on forums with this problem and 2 out of 3 times they resolved it by
+replacing the DME. That's a very complex procedure on a '97 E36 because of the
+antitheft EWS module which needs to be synced with the DME else it will not
+prime the fuel pump or fire the spark plugs. Without fuel and spark the car just
+has air which is not even enough to run a hot air balloon.
+
+To test this theory I decided to short the pin myself; I stripped the ends of a
+piece of wire, wrapping one end around an exposed bolt near the fuse box and
+securing that by tightening the nut, pinching the exposed copper between the nut
+and chassis. The other end of the wire I ran into the bottom of the socket that
+holds the fuel pump relay.
+
+The wire was a bit loose on the relay socket end so I used a bit of pomade to
+hold it in place. I finally reseated the relay and fuse then turned the key; the
+fuel pump began to prime and I saw 40 psi in the fuel rail!
+
+[[!img img/318ti-fuel-pressure.jpeg size=400x]]
+
+This is not a permanent solution, or one that will really get me farther than
+the inspection station (my vehicle registration lapsed in July), but it's a
+problem I enjoyed solving because it taught me a lot and reminded me my EE
+degree is not entirely pointless. I will probably replace the fuel pump in due
+time anyhow as the original one from '96 is still in there.

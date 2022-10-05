@@ -1,0 +1,19 @@
+The 318ti is a gasoline powered car. With the exception of the
+[316g](https://bmwguide.net/bmw-3-series-e36-316g-compact-natural-gas-1995-2000-specs/)
+which is powered by natural gas all brands on the E36 chassis run on gasoline. I
+have heard my 318ti's [[M44_Engine]] runs best on 93 octane.
+
+Gasoline is stored in a tank underneath the car and is pumped to the fuel
+rail by a fuel pump that physically sits in the gas tank. The fuel rail is
+pressurized to 40 PSI when the car key is turned to position 2, ie the position
+before attempting to crank the car. To achieve pressurization the fuel pump is
+run for 30 seconds. It takes far less than 30 seconds to pressurize the fuel
+delivery system, and any excess gas which is pumped to the rail during this time
+(or anytime the pump is running for that matter) is returned to the tank to
+maintain 40 PSI.
+
+4 fuel injectors sit atop the fuel rail and inject fuel into the engine. The
+M44 is a "port injection" engine meaning fuel is sprayed into the intake
+manifold a brief distance away from the cylinder but not into the cylinder
+itself ("direct injection"). Fuel injectors are a core part of
+the [[Fuel_Injection]] system.

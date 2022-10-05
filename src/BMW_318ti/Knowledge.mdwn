@@ -1,0 +1,6 @@
+[[!map  pages="BMW_318ti/*
+    and !BMW_318ti/Knowledge
+    and !BMW_318ti/Work
+    and !BMW_318ti/Short_it_to_Zero"
+]]
+

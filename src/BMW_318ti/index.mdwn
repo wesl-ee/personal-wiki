@@ -3,7 +3,15 @@ taught me how to think like a mechanic, act like a mechanic, and fix things like
 a mechanic. It has no shortage of things to fix and I've loved every second of
 driving and caring for this car.
 
-[[!img img/318ti-coliseum.jpeg size="750x"]]
+[[!img img/318ti-coliseum.jpeg size="500x"]]
+
+Here's a little writing about work I've done on the 318ti:
+
+[[!inline pages="BMW_318ti/Work" rss="no"]]
+
+... I've also started writing about the things I learn about the car as I learn them:
+
+[[!inline pages="BMW_318ti/Knowledge" rss="no"]]
 
 Rally Dreams
 ------------
@@ -45,7 +53,7 @@ The only part I can tell which is not stock is the aftermarket JVC stereo, which
 I've since hooked up to a subwoofer in the trunk for the true *hatchback
 experience*.
 
-[[!img img/318ti-nightcore.jpeg size="750x"]]
+[[!img img/318ti-nightcore.jpeg size="500x"]]
 
 Maintaining the Dream
 ---------------------
@@ -68,7 +76,7 @@ problems because you can check read data as simple as intake air volume all the
 way down to minutia like the contribution of each cylinder to the total engine
 output power.
 
-[[!img img/318ti-diagnostics.jpeg size="750x"]]
+[[!img img/318ti-diagnostics.jpeg size="500x"]]
 
 Overall, making the jump from not having worked on cars to being very
 comfortable with many aspects of regular and specialty maintainance had a very
