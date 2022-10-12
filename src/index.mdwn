@@ -4,7 +4,7 @@ simply as [[Me]] （⌒▽⌒） I'm developing a derivatives exchange at [Levan
 Protocol](https://levana.finance).
 
 <figure class=profile>
-<img src="avi.jpg">
+<img src="/img/avi.jpeg">
 <figcaption><ul class=net-presence>
 <li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
 <li class=github><a href="https://github.com/wesl-ee">GitHub</a></li>
