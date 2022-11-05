@@ -1,7 +1,7 @@
-This site belongs to [Wesley Coakley](https://wesleycoakley.com), also known on
+This site belongs to [Wesley Coakley](https://wesl.ee), also known on
 the Internet as [wesl-ee](https://twitter.com/wesl_ee) and locally known
-simply as [[Me]] （⌒▽⌒） I'm developing a derivatives exchange at [Levana
-Protocol](https://levana.finance).
+simply as [[Me]] （⌒▽⌒） I am a DeFi dev working in the Cosmos
+ecosystem and co-founder of a DAO building on the Juno blockchain.
 
 <figure class=profile>
 <img src="/img/avi.jpeg">

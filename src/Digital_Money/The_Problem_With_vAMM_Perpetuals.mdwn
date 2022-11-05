@@ -1,10 +1,3 @@
-<div class=info>
-Although I am building a perpetual swap at <a
-href="https://www.levana.finance/">Levana</a>
-nothing I say here is intended to be an official stance of Levana protocol on any
-matter past or present (´ ∀ ` *)
-</div>
-
 Automated Market Makers (AMMs) are a staple of nearly every
 [[DeFi|Digital_Money/Decentralized_Finance]] blockchain
 worth mentioning. Show me a DeFi chain without an AMM and I will show you a
@@ -223,18 +216,5 @@ one party to match orders behind closed doors.
 Designing a new, safe, stable protocol that lets traders enter and exit the
 market freely, exchanging futures around the current spot price, and without fear
 of being forcibly liquidated or "stopped out" by a whale or a market-maker is
-one of the most interesting problems I have the pleasure of working on with the
-Levana team. I am excited that we are rolling out Levana's perpetual swap on the
-Osmosis chain. As we are well-familiar with the dev tools and workflows on
-Cosmos SDK chains, finding a home for our perpetual futures on Osmosis (also a
-Cosmos SDK chain) is a welcome relief.
-
-<figure>
-[[!img img/levana-osmosis.jpeg size=500x]] <figcaption>Sourced from <a
-href="https://twitter.com/Levana_protocol/status/1544381270058205186?s=20&t=0jZTbhaMe1Jx5NX5UDw40Q">Levana's
-Twitter</a></figcaption> </figure>
-
-This was just an overview of some of the troubles that vAMM perpetual swaps
-face. Though I've already hinted at ways we're addressing these issues more
-information, overviews and explainers about Levana's solution to these perpetual
-woes are coming soon™
+one of the interesting problems I had the pleasure of working on with the
+Levana team.

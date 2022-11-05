@@ -2,15 +2,18 @@ Hi, my name is Wesley Coakley (🇯🇵  コークリー・ウェズリー) ☆�
 On the Internet and in the crypto-space I use the handle **wesl-ee** because it
 sounds cooler.
 
-I am a core developer on [Levana Protocol](https://levana.finance) and a
-graduate of [[School/North_Carolina_State_University]] with a B.S. in Computer
-Engineering and another B.S. in Electrical Engineering. I also accidentally
-took enough courses during my college tenure to collect my minor in mathematics
-on the way out the door.
+In November 2022 I co-founded a DAO building on the [Juno](https://www.junonetwork.io/)
+blockchain; previously I worked as a core dev at
+[Levana](https://levana.finance) on the [[Terra]] blockchain developing a
+perpetual futures market before the collapse of Terra's native UST.
 
-I began my career as a Software Engineer in NVIDIA's [Networking Business
-Unit](https://www.nvidia.com/en-us/networking/) (NBU) but quickly found a home
-developing financial tools for public, permissionless blockchains.
+Before I took the leap into developing public, permissionless financial tools on
+Cosmos blockchains I worked as a Software Engineer in NVIDIA's
+[Networking Business Unit](https://www.nvidia.com/en-us/networking/) (NBU).
+I graduated from [[School/North_Carolina_State_University]] with a B.S. in
+Computer Engineering and another B.S. in Electrical Engineering. I also
+accidentally took enough courses during my college tenure to collect my minor in
+mathematics on the way out the door.
 
 Learning
 --------
