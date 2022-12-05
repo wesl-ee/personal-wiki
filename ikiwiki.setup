@@ -3,7 +3,7 @@
 # Setup file for ikiwiki.
 # 
 # name of the wiki
-wikiname: wesl-ee 🐉
+wikiname: wesl-ee
 # contact email for wiki
 adminemail: w@wesleycoakley.com
 # where the source of the wiki is located
@@ -18,7 +18,7 @@ default_pageext: wiki
 only_committed_changes: 0
 # rcs backend to use
 rcs: 'git'
-add_plugins: [ 'teximg', 'syntax', 'inline', 'goodstuff', 'link', 'date', 'favicon', 'graphviz', 'parentlinks', 'sortnaturally', 'meta', 'linkmap', 'shortcut', 'recentchangesdiff', 'recentchanges', 'autoindex', 'headinganchors', 'img' ]
+add_plugins: [ 'mirrorlist', 'wikitext', 'teximg', 'syntax', 'inline', 'goodstuff', 'link', 'date', 'favicon', 'graphviz', 'parentlinks', 'sortnaturally', 'meta', 'linkmap', 'shortcut', 'recentchangesdiff', 'recentchanges', 'autoindex', 'headinganchors', 'img' ]
 # plugins to disable
 disable_plugins: ['htmlscrubber']
 # additional directory to search for template files
