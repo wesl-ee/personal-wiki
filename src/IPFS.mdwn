@@ -40,8 +40,8 @@ not truly a decentralized network; you'd be right.
 
 Centralized servers are vulnerable to being censored, either voluntarily or
 "voluntarily"; Soulseek, the P2P file-sharing platform used mostly to share and
-distribute music, [is a good example of this](
-(http://www.soulseekqt.net/news/node/2056); there are some queries for
+distribute music, [is a good example of
+this](http://www.soulseekqt.net/news/node/2056); there are some queries for
 well-known artists like "Bob Dylan" or "The Beatles" which Soulseek's servers
 refuse to answer despite the files being shared by the network's peers.
 
@@ -130,25 +130,27 @@ Note that I am not liable for injuries if you choose to
 fetch this page which references itself recursively.
 
 [[!syntax text="""
-ipfs@gyw:~$ ipfs ls /ipns/k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m/txt
-QmWXgxdipcrrw4jGpHCXrs4ASxazFKoCHSWPBCQHcxbtZe 4353 BMW_318ti.txt
+ipfs@gyw:~$ ipfs ls /ipns/wesl-ee.eth/txt
+QmdkiSRWKc3XUJGNAsxXX6QhC8dFcQbJqEyNES52bBpTH1 -    BMW_318ti/
 QmZK2Je1BvCPC2Npq1pSAju6dXe8jV8fk9K98iPWu28oTg 7599 Coffee.txt
-QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH 0    Cooking.txt
-QmfF8fuPSbCtcYo17cCThrQ2cshmy1g5RAbpe4YY4rJY2t -    Digital_Money/
+QmPQsUXeZAU6wVGhJDJivZHpaWoLweTPvus7jzQ6JzXXjb -    Devices/
+QmdELJZ9pFPDYgBHDrdHWH9diQZEpVYbhCW2FX3Xb7fwqt -    Digital_Money/
+QmaZt5Hkz2gTvjy3XxmpWnnxQepsjQ3RsBiYQgpX1EFjoE 7303 Distributed_Hash_Table.txt
 QmS1s5zHX4V7ZjtqiJzYP7pV9PXeu8kS35GsmYkKbiEPv7 -    Firefox/
 QmeAP1pcWpUbiRCRuJmGMCqp4km3zcKVdwJ2dvtBuZPW9t -    HTML/
-QmS4u9ExT7qK4t6d8WdZMjt2UX27YXxZp2FUkKycFYoFAH 5257 IPFS.txt
+QmPPp8VL4nrgMafL8E8brUUs767sDuZHn2trjPMaFdk17V -    HooYa/
+QmZrynjRdJCaZAFu2ehNubFav7KciuywU8SqFJHg5EDTpb 9229 IPFS.txt
 QmZkPHZibpDQCT83RNpjXAaeEFM9tRSazUc9mvyW3fH4HN 4751 Japanese.txt
-QmNYzE4R2jBgX3Z1KrJqp8Gqdgf428AEDGLfogFp7nd6uh 3455 Me.txt
-QmS1TxR6gUnw1hqj4uhjuaGNZouTXT3avfC3VLuU4hM3W8 1941 Meta.txt
-QmeLnoTok4rsjtbFBzG1Bc57dB8piwRsaEbB1Atis6vzNi -    Routing/
-QmVaiN5Qc5hRGNee2v2rqX4jxgwXBzbvjD5Dwg22hEANfB -    School/
+QmchQS5xy7Pq5ngjcMB6TggHat1wjVB1q4p61MGGTqYbKK 3553 Me.txt
+QmerR1rpARa9c9sED71vC2usERA1N7QJexpSMotsKobTtJ -    Meta/
+QmNqpPqFL5ZbXhoUA5PhRjUcLxFhPKuMsieXoMHoVgnWzj 1957 Meta.txt
+QmV7X7hjoRjZN1223Xqi3ZjDJpyZtC6xa1dLBHpsgA2T6U -    Routing/
+QmUixKXqD8ZmiYT9XNXV9Cy79DyYTRNSaYbDtL2sCMEDLT -    School/
 QmUAVZroXkoTpduKwTgh5bpkSwAt5kAz12hg4yoBhzHZmK 26   Tokyo.txt
 QmTkB6p946Yst2EKkReWrffdMQqJfJBsZzccDkfQRk84yP 3950 Virtual_Reality.txt
-QmRr7RVjqxBb1Y84qVEE5Qynm5G3nYXy4mDJDnrBHhoQy2 4022 favicon.ico
-QmY51n9DCBdeYHrpBkcTQsAmtvnLfDcTWTPeiggr87XfhY -    img/
-QmQEYZG2usRLKK4vj2XkVEiDeQ2ik8opLLkP6UuAx5oVaV 1414 index.txt
-ipfs@gyw:~$ ipfs cat /ipns/k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m/txt/IPFS.txt
+QmaX98ndt7UbzuQtx8nJ85Cqyoo2EQCQBmgSDrGSNMrRP4 1370 index.txt
+QmR5R3uHjWMJ13ozeHnrt33gRmrtUyFm1r9cd5UvDm4Wvw 6202 pubkey.txt
+ipfs@gyw:~$ ipfs cat /ipns/wesl-ee.eth/txt/IPFS.txt
 IPFS is the Inter-planetary filesystem. I'm not sure exactly why it's called
 that but it's a really cool technology. The main idea of IPFS is that at its
 core it stores files across a distributed network, and that complexity can be
