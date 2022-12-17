@@ -2,16 +2,13 @@ This site belongs to [Wesley Coakley](https://wesl.ee), also known on
 the Internet as [wesl-ee](https://twitter.com/wesl_ee) and locally known
 simply as [[Me]] （⌒▽⌒） I am building DeFi applications on Cosmos through a
 DAO organizing on the Juno blockchain.
-
 <figure class=profile>
 <img src="/img/avi.jpeg">
-<figcaption><ul class=net-presence>
+<figcaption>
+Afront my [['97 BMW 318ti|BMW_318ti]]<ul class=net-presence>
 <li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
-<li class=github><a href="https://github.com/wesl-ee">GitHub</a></li>
-</ul></figcaption>
-</figure>
-
-You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
+<li class=github><a href="https://github.com/wesl-ee">GitHub</a></li></ul></figcaption>
+</figure>You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
 only one with write-access so all opinions are my own and all information here
 can only be as correct as I am; this site is generated with love and [[!iki
 ikiwiki]] and collects much of my writing, ranging from full-length write-ups to
