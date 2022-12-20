@@ -158,7 +158,7 @@ p {
 p img[src$="linkmap.png"] {
 	max-width: initial !important;
 }
-figure img, figure video {
+figure img, figure video, figure #viewer {
 	max-width: calc(100% - 2px);
 	display: block;
 	border: 1px solid;

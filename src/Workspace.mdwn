@@ -1,0 +1,37 @@
+<script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.js"></script>
+
+My workspace is where I sit to type stuff when I'm at home. My biggest
+accomplishment with my workspace that I built the desk myself, but was so
+excited to finally have a meaningfully large desk that I didn't set aside time
+to stain it.
+
+<figure><div id="viewer" style="width: 80%; height: 600px;"></div><figcaption>2022 December</figcaption></figure>
+
+<script>
+new PhotoSphereViewer.Viewer({
+    container: 'viewer',
+    panorama: '/img/room-2022-2.jpeg',
+    fisheye: 2,
+    navbar: false,
+});
+</script>
+
++ Secretlab TITAN 2020 w/ SoftWeave™ Fabric
++ A desk I built from 4 pieces of 1"x10" lumber and 1 2"x10" board with a live
+  edge
++ Durgod Taurus K320 keyboard
++ Logitech G600 MMO gaming mouse
++ Komplete Audio 1 audio interface
++ Audiotechnica AT2020 microphone
++ HP-50g calculator
++ Microsoft Surface Pro 2
++ HTC Vive Pro 2 HMD + Valve's VR "Knuckles" controllers
++ [VR Wire](https://vr-wire.com) keeping my VR cables off the floor
++ Desktop (under the desk) with 2 monitors
++ Bookshelf with lots of my favorite manga and reference books
++ Desktop (on bookshelf) running a file-server + 3 blockchain full-nodes
++ Yamaha P45 Piano
++ Moondream blackout thermal + sound-dampening curtains
++ … and a number of random posters and figures I've bought at anime cons
+
