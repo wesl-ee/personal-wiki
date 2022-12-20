@@ -6,7 +6,7 @@ accomplishment with my workspace that I built the desk myself, but was so
 excited to finally have a meaningfully large desk that I didn't set aside time
 to stain it.
 
-<figure><div id="viewer" style="width: 80%; height: 600px;"></div><figcaption>2022 December</figcaption></figure>
+<figure><div id="viewer"></div><figcaption>2022 December</figcaption></figure>
 
 <script>
 new PhotoSphereViewer.Viewer({
