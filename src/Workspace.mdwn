@@ -6,16 +6,7 @@ accomplishment with my workspace that I built the desk myself, but was so
 excited to finally have a meaningfully large desk that I didn't set aside time
 to stain it.
 
-<figure><div id="viewer"></div><figcaption>2022 December</figcaption></figure>
-
-<script>
-new PhotoSphereViewer.Viewer({
-    container: 'viewer',
-    panorama: '/img/room-2022-2.jpeg',
-    fisheye: 2,
-    navbar: false,
-});
-</script>
+<figure><div id="viewer-2022"></div><figcaption>2022 December</figcaption></figure>
 
 + Secretlab TITAN 2020 w/ SoftWeave™ Fabric
 + A desk I built from 4 pieces of 1"x10" lumber and 1 2"x10" board with a live
@@ -35,3 +26,25 @@ new PhotoSphereViewer.Viewer({
 + Moondream blackout thermal + sound-dampening curtains
 + … and a number of random posters and figures I've bought at anime cons
 
+---
+
+I lived in an apartment in Cary, North Carolina before I moved into the home I
+am in now. This was my workspace in that apartment:
+
+<figure><div id="viewer-2021"></div><figcaption>2021 October</figcaption></figure>
+
+<script>
+new PhotoSphereViewer.Viewer({
+    container: 'viewer-2022',
+    panorama: '/img/room-2022-2.jpeg',
+    fisheye: 2,
+    navbar: false,
+});
+new PhotoSphereViewer.Viewer({
+    container: 'viewer-2021',
+    panorama: '/img/room-2021-1.jpeg',
+    defaultPitch: -0.5,
+    fisheye: 1.5,
+    navbar: false,
+});
+</script>
