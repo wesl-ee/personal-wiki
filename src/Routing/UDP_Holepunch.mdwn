@@ -1,3 +1,5 @@
+[[!toc]]
+
 In many peer-to-peer software suites, there often is a desire to connect to
 clients directly, to exchange routing and peering information without passing
 through an application-layer middleman. In the case of

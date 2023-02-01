@@ -68,6 +68,18 @@ section#content .longlink {
     #content .left-float { float: none !important; }
 }
 
+.toc {
+    border: 1px solid;
+    width: 50ch;
+    max-width: 100%;
+    margin: 10px auto 0 auto;
+    text-align: initial;
+}
+
+.toc li {
+    list-style: upper-roman;
+}
+
 a { text-decoration: none }
 a { color: blue; transition: color .2s }
 a:hover { color: red }

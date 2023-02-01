@@ -1,3 +1,5 @@
+[[!toc]]
+
 Last October I gave a presentation to the Linux User Group @ N.C. State titled
 ["Emulating LAN/WAN Technologies from the Comfort of your Own Home with
 GNS-3"](https://lug.ncsu.edu/presentations/2020-10-20-network-emulation.pdf).

@@ -1,3 +1,5 @@
+[[!toc]]
+
 Automated Market Makers (AMMs) are a staple of nearly every
 [[DeFi|Digital_Money/Decentralized_Finance]] blockchain
 worth mentioning. Show me a DeFi chain without an AMM and I will show you a
