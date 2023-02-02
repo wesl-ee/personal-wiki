@@ -1,3 +1,5 @@
+[[!tag School North_Carolina_State_University]]
+
 There is an (in)famous course in the computer engineering major at N.C. State
 university: ECE306 "Introduction to Embedded Systems"
 ([mirror of the 2018 syllabus](https://cdn.wesleycoakley.com/specs/syllabus/ECE306_Syllabus_Fall.pdf));

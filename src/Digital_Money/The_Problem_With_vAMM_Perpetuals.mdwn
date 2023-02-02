@@ -1,4 +1,4 @@
-[[!toc]]
+[[!tag Digital_Money]]
 
 Automated Market Makers (AMMs) are a staple of nearly every
 [[DeFi|Digital_Money/Decentralized_Finance]] blockchain

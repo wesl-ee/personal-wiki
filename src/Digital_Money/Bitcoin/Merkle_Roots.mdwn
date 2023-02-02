@@ -1,7 +1,7 @@
+[[!tag Digital_Money Cryptography]]
+
 > *tl;dr C++ code for this is on
 > [GitHub](https://github.com/wesl-ee/btc-merkle-tree)* (｀・ω・´)”
-
-[[!toc]]
 
 When exploring on-chain transactions for Bitcoin, you may discover that each BTC
 block header has a field called *Merkle root*. What exactly this value means and

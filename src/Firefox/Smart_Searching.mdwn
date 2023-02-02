@@ -1,3 +1,5 @@
+[[!tag Firefox Productivity]]
+
 Whenever I install a Firefox on a new computer I always make sure to change the
 default search engine from Google to Startpage; Startpage is a search engine
 which requests data from Google's search engine on your behalf, meaning your IP

@@ -1,5 +1,7 @@
+[[!tag Digital_Money]]
+
 DeFi (decentralized finance) puts [[Digital_Money]] to work. DeFi developers are
-implementing both old and new financial tools that use [[Digital_Money]] instead
+implementing both old and new financial tools that use digital money instead
 of traditional fiat. A number of things make DeFi products superior to the same
 products that exist in traditional finance:
 

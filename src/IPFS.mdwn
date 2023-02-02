@@ -1,3 +1,5 @@
+[[!tag Peer_to_Peer_Networking]]
+
 IPFS is the Inter-planetary filesystem. I'm not sure exactly why it's called
 that but it's a really cool technology. The main idea of IPFS is that at its
 core it stores files across a distributed network, and that complexity can be

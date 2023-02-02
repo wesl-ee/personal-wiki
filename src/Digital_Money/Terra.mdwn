@@ -1,3 +1,5 @@
+[[!tag Digital_Money]]
+
 Terra is a blockchain which focuses on [[Decentralized_Finance]] and which
 originally featured a number of algorithmic stablecoins, each pegged to a national /
 international currency; these stablecoins facilitated transactions on the network

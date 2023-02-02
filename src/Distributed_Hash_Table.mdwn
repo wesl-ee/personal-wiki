@@ -1,3 +1,5 @@
+[[!tag Peer_to_Peer_Networking]]
+
 A DHT is a key-value structure that is spread across a wide-area network like
 the Internet. You feed a key into the DHT and it will return a value. It is used
 in distributed + peer-to-peer systems as a rudimentary data-store.

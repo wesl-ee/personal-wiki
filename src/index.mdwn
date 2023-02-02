@@ -21,6 +21,18 @@ I still haven't filled out many of the pages on this site but if you'd like to
 start exploring my personal wiki some the best way is to read a little about
 [[Me]] because that's who's writing this!
 
-[[!linkmap pages="(backlink(Me) or Me) and !index"]]
+[[!linkmap pages="(Me
+or North_Carolina_State_University
+or Japanese
+or Sophia_University
+or Digital_Money
+or Coffee
+or BMW_318ti
+) and !index"]]
 
-You can find out more about this site by reading about the site [[Meta]].
+Here are some of the topics I write about here. Larger text means I've written
+more about that topic.
+
+[[!pagestats show="Title" pages="Discover/*"]]
+
+Finally, you can find out more about this site by reading about the site [[Meta]].

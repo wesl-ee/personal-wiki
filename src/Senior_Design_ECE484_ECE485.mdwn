@@ -1,3 +1,5 @@
+[[!tag School North_Carolina_State_University]]
+
 In the Electrical and Computer Engineering program at N.C. State, there is a
 requisite two-semester "Senior Design Project" class, ECE484 (first semseter)
 and ECE485 (second semester).

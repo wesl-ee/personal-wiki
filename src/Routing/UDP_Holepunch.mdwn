@@ -1,4 +1,4 @@
-[[!toc]]
+[[!tag Peer_to_Peer_Networking]]
 
 In many peer-to-peer software suites, there often is a desire to connect to
 clients directly, to exchange routing and peering information without passing

@@ -87,7 +87,8 @@ section#content .longlink {
 a { text-decoration: none }
 a { color: blue; transition: color .2s }
 a:hover { color: red }
-section#content a[href^="."] {
+section#content p a[href^="."],
+section#content figcaption a[href^="."] {
 	background-image: linear-gradient(blue, blue);
 	padding: 0 .5ch;
 	background-position: 0 100%;
@@ -100,6 +101,34 @@ section#content a[href^="."] {
 section#content a[href^="."]:hover {
 	color: red;
 	background-size: 1px 1px;
+}
+
+.biggestPC {
+    font-size: 180%;
+}
+
+.bigPC {
+    font-size: 140%;
+}
+
+.normalPC {
+    font-size: 120%;
+}
+
+.smallPC {
+    font-size: 100%;
+}
+
+.pagecloud {
+    display: flex;
+    float: initial;
+    width: 60ch;
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 4ch;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 section#content p + p {
@@ -167,10 +196,6 @@ figure {
 }
 
 .pagecloud {
-    float: initial;
-    width: 40ch;
-    max-width: 100%;
-    margin: auto;
 }
 
 p img {
