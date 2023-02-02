@@ -18,9 +18,9 @@ default_pageext: wiki
 only_committed_changes: 0
 # rcs backend to use
 rcs: 'git'
-add_plugins: [ 'toc', 'mirrorlist', 'wikitext', 'teximg', 'syntax', 'inline', 'goodstuff', 'link', 'date', 'favicon', 'graphviz', 'parentlinks', 'sortnaturally', 'meta', 'linkmap', 'shortcut', 'recentchangesdiff', 'recentchanges', 'autoindex', 'headinganchors', 'img' ]
+add_plugins: [ 'toc', 'mirrorlist', 'wikitext', 'teximg', 'syntax', 'inline', 'goodstuff', 'link', 'date', 'favicon', 'graphviz', 'parentlinks', 'sortnaturally', 'meta', 'linkmap', 'shortcut', 'headinganchors', 'autoindex', 'img' ]
 # plugins to disable
-disable_plugins: ['htmlscrubber']
+disable_plugins: ['htmlscrubber', 'recentchanges', 'recentchangesdiff']
 # additional directory to search for template files
 # templatedir: /usr/share/ikiwiki/templates
 # base wiki source location
@@ -110,6 +110,12 @@ autoindex_commit: 0
 
 # recentchanges plugin
 # name of the recentchanges page
-recentchangespage: recentchanges
+# recentchangespage: recentchanges
 # number of changes to track
-recentchangesnum: 100
+# recentchangesnum: 100
+
+# Autocreate new tag pages
+tag_autocreate: true
+tag_autocreate_commit: false
+
+tagbase: "Discover"

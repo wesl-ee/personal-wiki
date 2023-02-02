@@ -1,3 +1,5 @@
+[[!tag Car]]
+
 The 318ti is a gasoline powered car. With the exception of the
 [316g](https://bmwguide.net/bmw-3-series-e36-316g-compact-natural-gas-1995-2000-specs/)
 which is powered by natural gas all brands on the E36 chassis run on gasoline. I

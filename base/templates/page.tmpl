@@ -101,6 +101,16 @@
 <TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
 </TMPL_IF>
 
+<TMPL_IF TAGS>
+<TMPL_IF HTML5><nav class="tags"><TMPL_ELSE><div class="tags"></TMPL_IF>
+Tags:
+<TMPL_LOOP TAGS>
+<TMPL_VAR LINK>
+</TMPL_LOOP>
+<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
+</TMPL_IF>
+
+
 <TMPL_IF OTHERLANGUAGES>
 <TMPL_IF HTML5><nav id="otherlanguages"><TMPL_ELSE><div id="otherlanguages"></TMPL_IF>
 <ul>
@@ -166,15 +176,6 @@
 <TMPL_IF HTML5><nav id="pageinfo"><TMPL_ELSE><div id="pageinfo"></TMPL_IF>
 
 <TMPL_VAR TRAILS>
-
-<TMPL_IF TAGS>
-<TMPL_IF HTML5><nav class="tags"><TMPL_ELSE><div class="tags"></TMPL_IF>
-Tags:
-<TMPL_LOOP TAGS>
-<TMPL_VAR LINK>
-</TMPL_LOOP>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
 
 <TMPL_IF BACKLINKS>
 <TMPL_IF HTML5><nav id="backlinks"><TMPL_ELSE><div id="backlinks"></TMPL_IF>

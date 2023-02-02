@@ -15,10 +15,14 @@ body {
 	grid-template-columns: 250px 1fr;
 	grid-template-rows: min-content 1fr;
 }
-section.pageheader { grid-area: header }
 section#pagebody { grid-area: main }
 section#footer { grid-area: footer } */
 
+section.pageheader {
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
 section#content th { text-align: center }
 section#content th,
 section#content td {
@@ -156,6 +160,17 @@ figure {
 #content .left-float {
     float: left;
     margin: 0 2ch 2ch 0 !important;
+}
+
+.tags {
+    margin-top: 5px;
+}
+
+.pagecloud {
+    float: initial;
+    width: 40ch;
+    max-width: 100%;
+    margin: auto;
 }
 
 p img {

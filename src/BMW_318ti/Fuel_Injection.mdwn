@@ -1,3 +1,5 @@
+[[!tag Car]]
+
 The engine of any gasoline-powered car only needs 3 things to run:
 
 + Fuel

@@ -13,6 +13,7 @@ visibility too.
 	and !smileys
 	and !wikiicons
 	and !shortcuts
+	and !Discover_Cloud
 	and !index"
 ]]
 
