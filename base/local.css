@@ -123,7 +123,8 @@ section#content a[href^="."]:hover {
     display: flex;
     float: initial;
     width: 60ch;
-    max-width: 100%;
+    max-width: calc(100% - 22px);
+    padding: initial 5px;
     margin: auto;
     flex-wrap: wrap;
     gap: 4ch;
@@ -193,9 +194,6 @@ figure {
 
 .tags {
     margin-top: 5px;
-}
-
-.pagecloud {
 }
 
 p img {
