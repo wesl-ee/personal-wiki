@@ -38,9 +38,9 @@ Perhaps the injector was not seated well, causing fuel to push past the o-ring.
 In any case it was a shame as I already replaced the o-rings two years before
 when I bought the thing. I had recently removed the rail to try swapping in a
 new set of injectors I bought from eBay to cure my rough idle (spoiler: they
-weren't all four from the same car so the thing terrible) so the theory I hadn't
-reseated them correctly makes sense. Plus the injectors are held in place by
-metal clips that I probably installed wrong.
+weren't all four from the same car so the thing ran terrible) so the theory I
+hadn't reseated them correctly makes sense. Plus the injectors are held in place
+by metal clips that I probably installed wrong.
 
 After I fixed this problem I tried to run the fuel pump manually to check for
 leaks by shorting pins 30 and 87 of the [[Fuel_Pump_Relay]]; unfortunately I
