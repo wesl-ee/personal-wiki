@@ -7,7 +7,7 @@ failure like this. I knew this was a serious issue and I immediately took the
 car out of gear then coasted to a stop and turned the thing off. For once reading
 [old, near-dead car forums](http://318ti.org) paid off as I had learned from the
 experience of others that a flashing check-engine light (CEL) on an OBD-II car
-(on OBD-I this is only a minor fault) was bad bad not good and indicitive of
+(on OBD-I this is only a minor fault) was bad bad not good and indicative of
 something that had become seriously fucked.
 
 Not willing to leave it overnight on the side of the road where my beautiful
@@ -33,7 +33,7 @@ floor. To get to the injectors on the 318ti you need to first remove the upper
 intake manifold.
 
 After pulling the injectors I found that the rubber o-ring that seals the
-injector to the rail was torn so I ordered a rebuild kit and replaced it.
+injector to the rail was torn, so I ordered a rebuild kit and replaced it.
 Perhaps the injector was not seated well, causing fuel to push past the o-ring.
 In any case it was a shame as I already replaced the o-rings two years before
 when I bought the thing. I had recently removed the rail to try swapping in a
