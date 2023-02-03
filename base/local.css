@@ -136,6 +136,11 @@ section#content p + p {
 	text-indent: 30px;
 }
 
+/* PhotoViewer */
+.psv-panel-close-button {
+    display: none;
+}
+
 .parentlinks a {
 	padding-right: 5px;
 }
