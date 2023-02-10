@@ -1,8 +1,9 @@
 This site belongs to [Wesley Coakley](https://wesl.ee), also known on
 the Internet as [wesl-ee](https://twitter.com/wesl_ee) and locally known
-simply as [[Me]] （⌒▽⌒） I am building
-[[DeFi|Digital_Money/Decentralized_Finance]] applications on Cosmos through a
-DAO organizing on the Juno blockchain.
+simply as [[Me]] （⌒▽⌒） I built a lot of
+[[DeFi|Digital_Money/Decentralized_Finance]] stuff and am currently
+building in the TradFi space through Nasdaq's [Digital
+Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 <figure class=profile>
 <img src="/img/avi.jpeg">
 <figcaption>

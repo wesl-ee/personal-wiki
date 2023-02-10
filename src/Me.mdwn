@@ -1,18 +1,20 @@
 Hi, I'm Wesley, also known as **wesl-ee**. I program [[Digital_Money]] to
 solve problems most people don't care much about (yet).
 
-In November 2022 I co-founded a DAO building on the [Juno](https://www.junonetwork.io/)
-blockchain; previously I worked as a core dev at
-[Levana](https://levana.finance) on the [[Terra]] blockchain developing a
-perpetual futures market before the collapse of Terra's native UST.
 
-Before I took the leap into developing public, permissionless financial tools on
-Cosmos blockchains I worked as a Software Engineer in NVIDIA's
-[Networking Business Unit](https://www.nvidia.com/en-us/networking/) (NBU).
-I graduated from [[North_Carolina_State_University]] with a B.S. in
-Computer Engineering and another B.S. in Electrical Engineering. I also
-accidentally took enough courses during my college tenure to collect my minor in
-mathematics on the way out the door.
+I am building at Nasdaq with their [Digital
+Assets](https://www.nasdaq.com/solutions/digital-assets) team; previously I
+worked as a core dev at [Levana](https://levana.finance) on the [[Terra]]
+blockchain developing a perpetual futures market before the collapse of Terra's
+native UST.
+
+Before I took the leap into building [[DeFi|Digital_Money/Decentralized_Finance]] I
+worked as a Software Engineer in NVIDIA's [Networking Business
+Unit](https://www.nvidia.com/en-us/networking/) (NBU). I graduated from
+[[North_Carolina_State_University]] with a B.S. in Computer Engineering and
+another B.S. in Electrical Engineering. I also accidentally took enough courses
+during my college tenure to collect my minor in mathematics on the way out the
+door.
 
 Learning
 --------

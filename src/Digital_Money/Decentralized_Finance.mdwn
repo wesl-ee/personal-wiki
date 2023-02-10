@@ -11,8 +11,6 @@ products that exist in traditional finance:
 4. Low fees
 5. High throughput
 
-I work on DeFi products in the Cosmos ecosystem.
-
 Lending + Borrowing
 -------------------
 
