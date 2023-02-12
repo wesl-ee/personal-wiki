@@ -33,6 +33,7 @@ in pkgs.mkShell rec {
     perl536Packages.syntax
     perl536Packages.PathClass
     perl536Packages.FileShare
+    perl536Packages.TextMultiMarkdown
     perl536Packages.SortNaturally
     TextVimColor
   ];
