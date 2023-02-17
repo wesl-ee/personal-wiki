@@ -64,12 +64,24 @@ section#content .longlink {
 	word-break: break-all;
 }
 
+#content .left-float {
+    float: left;
+    margin: 0 2ch 2ch 0 !important;
+}
+
+#content #startpage-icon {
+    max-width: 30ch;
+}
+
 @media only screen and (max-width: 700px) {
 	section#content { text-align: initial }
 }
 
 @media only screen and (max-width: 600px) {
-    #content .left-float { float: none !important; }
+    #content .left-float { float: none !important; margin: 2ch auto !important; }
+    #content #startpage-icon {
+        max-width: initial;
+    }
 }
 
 .toc {
@@ -136,12 +148,6 @@ section#content > p + p {
 	text-indent: 30px;
 }
 
-#content #startpage-float {
-    float: left;
-    margin: 0 1ch 1ch 0;
-    max-width: 30ch;
-}
-
 #sundial-motto { font-style: italic }
 #time { font-size: 2rem }
 
@@ -201,11 +207,6 @@ figure {
 	display: block;
 	text-align: center;
 	margin: auto }
-#content .left-float {
-    float: left;
-    margin: 0 2ch 2ch 0 !important;
-}
-
 .tags {
     margin-top: 5px;
 }
