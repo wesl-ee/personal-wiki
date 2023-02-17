@@ -132,9 +132,18 @@ section#content a[href^="."]:hover {
     align-items: center;
 }
 
-section#content p + p {
+section#content > p + p {
 	text-indent: 30px;
 }
+
+#content #startpage-float {
+    float: left;
+    margin: 0 1ch 1ch 0;
+    max-width: 30ch;
+}
+
+#sundial-motto { font-style: italic }
+#time { font-size: 2rem }
 
 /* PhotoViewer */
 .psv-panel-close-button {
@@ -229,6 +238,9 @@ figure img, figure video, figure > div {
 	height: auto }
 figure.profile img {
 	width: 300px;
+}
+
+#startpage-popout {
 }
 
 .syntax {
