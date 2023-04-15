@@ -1,0 +1,50 @@
+[[!tag DJ_Set]]
+[[!meta title="HOWLAR.SPACE"]]
+
+[ [Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!myipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download raw from IPFS"]] ]
+
+April 15, 2023
+
+<figure class="image-square">
+[[!template id="hooya-img.tmpl" cid="bafkreicmmx3655t2uheken42omsfueth63i4vthgoydqhr2zs43hlkxqoy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreibxmvqwjl3ylecnp6tu74zpfutnj5jf7puegz3kq7f5nczmk6uf7a" size=medium]]
+</figure>
+
+DJ set captured in real-time with an Intel Realsense depth camera. As with my
+set 2022 set for Millennium Strike I also filmed this in the weird alcove under
+my stairs. This time I recorded the raw sensor data (downlod availability
+pending…)
+
+01. Habstrakt — Préambule
+02. Habstrakt — Tonight
+03. ISOxo — Beam
+04. Deadcrow — Fallout (Poni Remix)
+05. Toriena — CQC
+06. S3RL — Dopamine
+07. Martin Bravi — Habits (Stay High)
+08. Sub Zero Project — Rave Culture 2022
+09. Bioweapon — Bass Power
+10. MUST DIE!, Waterspirit — IN MY HEAD
+11. ???
+12. Gunman — Raito
+13. Yeah — Deapmash
+14. Silencee — Controller
+15. Crypovolk — Like a G6 (Hardstyle)
+16. Buunshin — Sterven
+17. Sudoverse — In the City
+18. Connor Gallagher, Zyzz, Zedd — Clarity - Hardstyle
+19. ISOxo — inhuman (fairy fountain VIP)
+20. Lady Gaga, Zyzz — Just Dance - Hardstyle (SPED UP)
+21. Sickmode, Rooler — TOO COLD
+22. HARDSTYLE CVNT — LIGHTS
+23. k?d — SOMEWHAT HUMAN
+24. Oliver Tree & Robin Schulz — Miss You (Hardstyle Remix)
+25. Lil Texas — Total Knock Out
+26. S3RL — Bass Slut - X-FIR3 Remix
+27. KLIO, DJ Satomi, Nightcore Nation — I'll Fly With You (L'amour Toujours) (Nightcore Party Mix)
+28. S3RL — Doki Doki ドキドキ
+29. Otira — Incorrect
+30. Sickmode — GO STUPID
+31. Maul — TOKYO LIFT
+32. Yosuf, Lil Texas — DECA
+33. Knock2 — REWiND
