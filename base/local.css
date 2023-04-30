@@ -206,7 +206,16 @@ figure {
 #content figure {
 	display: block;
 	text-align: center;
-	margin: auto }
+	margin: 0 auto }
+#content .image-square {
+    display: flex;
+}
+#content .image-square > * {
+    flex: 1;
+}
+#content .image-square img {
+    max-width: 100%;
+}
 .tags {
     margin-top: 5px;
 }
@@ -231,7 +240,7 @@ p img[src$="linkmap.png"] {
 	height: 500px !important;
 }
 
-figure img, figure video, figure > div {
+figure img, figure video, figure > [id^=viewer] {
 	max-width: calc(100% - 2px);
 	display: block;
 	border: 1px solid;
