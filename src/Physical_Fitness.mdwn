@@ -1,0 +1,97 @@
+As a young man I was blessed with a high basal metabolic rate. Although I
+played sports and played in a marching band for a time I never needed to
+consider what I was eating, how much exercise was I getting, how much I weighed
+etc. For the first 20 years of my life physical fitness was never a thought in my
+mind; it was something I never considered a priority or really considered at all.
+Even into my 20s I didn't think much of my overall wellbeing; I picked up
+running to maintain what had come to consider my twink-ish figure but never with
+any fitness goal in mind or any consideration of my physical capacity beyond
+endurance and whether or not I could see my Adonis belt.
+
+<figure><div class=image-square>
+[[!img img/fitness-2019-11.jpeg]]
+[[!img img/fitness-2020-02.jpeg]]
+[[!img img/fitness-2020-03.jpeg]]
+</div><figcaption>2019 〜 2020 (23)</figcaption></figure>
+
+... and honestly for most people who are a healthy (1) weight for their (2)
+height then it does not matter what one's body composition is. The metric that
+considers those two factors is called the BMI (body-mass index). The BMI is a
+fine metric if one only wishes to gauge how un/healthy one is, as a sedentary
+individual, measured against a representative average of one's demographic or
+country. It is a *convenient rule-of-thumb* for many. Presently this how the CDC
+classifies Americans (me) based on BMI circa 2023:
+
+BMI        | Classification
+-----------|----------------
+< 18.5     | Underweight
+18.5 〜 25 | Normal weight
+25 〜 30   | Overweight
+30 〜 35   | Class 1 obesity
+35 〜 40   | Class 2 obesity
+> 40       | Class 3 obesity
+
+Throughout my years in college I weighed within ~4% of 130lbs at almost all
+times. At 5'10 that clocked me in at a BMI of **~18.7**. I didn't note my weight
+often (or even own a scale for that matter) but that's the range I'd see at the
+doctor's office and on incidental scales.
+
+The BMI metric is naïve of everything but height + weight which makes it a very
+poor indicator of body composition. The BMI can be simple because it makes
+assumptions about body-fat percentages and muscle distributions that are
+good-enough approximations for many but are simply not accurate for athletes or
+non-sedentary individuals.
+
+As I began to train and incorporate anabolic exercises in addition to the cardio
+routine I began during college I formed goals around my overall fitness and
+wellness. I ate more protein and carbohydrates to supplement my new caloric
+deficit, the result of more exercise, and to encourage faster muscle healing.
+Seemingly the work has paid off so far; and I can bench 1pl8 (135lb) where
+before I could barely bench half that amount. Considering that I achieved 1pl8
+at 143lb that means I can *almost* bench my body weight (but not quite). If
+you're reading this I can probably already bench my body-weight and above!
+
+<figure><div class=image-square>
+[[!img img/fitness-2022-10.jpeg]]
+[[!img img/fitness-2023-04.jpeg]]
+</div><figcaption>2022 〜 2023 (26)</figcaption></figure>
+
+I began training in November 2022 but began a serious regiment in late January
+2023. That involves going to a gym 3 times every week and targeting one of (1)
+arms + shoulders, (2) chest + back or (3) legs. Luckily there is a gym roughly 5
+minutes from my home so this is not difficult to accomplish once I had set my
+mind on the task of training regularly.
+
+The beginning of this training coincided with an increase of *breadth* in my
+life: I began to [[draw|Draw]] in my free-time here too. The idea was to fill my
+idle-time with things that are life-affirming and emotionally, physically
+stimulating. Drawing fills the former, emotional niche while anabolic exercise
+has filled the latter, physical niche.
+
+Curiosity in my phyiscal progress has tempted me to seek out alternates to the
+BMI for measuring body health. As I am focused on increasing the amount of
+weight I can lift with each muscle group I find that my *body-fat percentage* is
+the most relevant thing to track. My total weight minus my body-fat should yield
+my lean body mass. I measure my waist + neck (+ height + weight) regularly
+and use the [US
+Army's](https://www.army.mil/e2/downloads/rv7/r2/policydocs/r600_9.pdf) method
+for calculating this value. This gives me a better idea of my body-fat
+percentage but is still not super-extremely accurate. To be more accurate one
+would need an MRI and I do not care to drill down in that much detail at this
+point.
+
+For example, here are my measurements for this calculation from late April,
+2023:
+
+Measurement Type    | Value
+--------------------|-------
+Age                 | 26
+Sex                 | Yes
+Weight              | 142.2
+Height              | 5'11"
+Neck circumference  | 13.5"
+Waist circumference | 30"
+
+That yields an estimate for my body-fat percentage at **11.8%**. You should try
+taking these measurements at home if you have not! It's good to know in general
+and especially if you want a benchmark against which you can measure progress.
