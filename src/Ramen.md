@@ -1,6 +1,6 @@
 [[!meta title="Rāmen"]]
 
-[[!tag Food_/_Drink Japan]]
+[[!tag Food_+_Drink Japan]]
 
 As it has been said, rāmen is a world unto itself. There are so many different
 types, textures of noodles, which also vary in thickness and length.
