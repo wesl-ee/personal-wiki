@@ -299,5 +299,13 @@ a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"] {
 	figure img, figure video, figure > [id^="viewer"] {
 		border-color: white;
 	}
+	.syntax {
+		background-color: navy;
+	}
+	.synComment { color: springgreen }
+	.synConstant, .synSpecial { color: gold }
+	.synStatement { color: darkorange }
+	.synType { color: yellow }
+	img { background-color: white }
 }
 
