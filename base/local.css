@@ -282,3 +282,22 @@ a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"] {
 	display: inline-block;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #121212;
+		color: white;
+	}
+	.pagecloud {
+		background: #121212;
+		border-color: white;
+	}
+	a { color: cyan; }
+	section#content p a[href^="."], section#content figcaption a[href^="."] {
+		background-image: linear-gradient(cyan, cyan);
+		color: black;
+	}
+	figure img, figure video, figure > [id^="viewer"] {
+		border-color: white;
+	}
+}
+
