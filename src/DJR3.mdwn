@@ -34,13 +34,16 @@ Apr 15, 2023 — HOWLAR.SPACE
 
 [[!img img/djr3-howlar-space.jpeg]]
 
-DJ set captured in real-time with an Intel Realsense depth camera.
-
 <figure>
 <video preload=none controls>
 <source src="https://cdn.wesl.ee/DJR3/sets/2023/howlar-space-djr3.mp4" type="video/mp4">
 </video>
 </figure>
+
+DJ set captured in real-time with an Intel Realsense depth camera. As with my
+set 2022 set for Millennium Strike (below) I also filmed this in the weird
+alcove under my stairs. This time I recorded the raw sensor data (downlod
+availability pending…)
 
 01. Habstrakt — Préambule
 02. Habstrakt — Tonight
