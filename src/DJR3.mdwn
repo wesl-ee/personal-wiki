@@ -28,11 +28,19 @@ Here are all videos of the sets I have played which I have archived:
 Apr 15, 2023 — HOWLAR.SPACE
 ---------------------------
 
-[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [Download]()]
+[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [Download](https://cdn.wesl.ee/DJR3/sets/2023/howlar-space-djr3.mp4)]
 
 [[!img img/djr3-poster-howlar-space.jpeg]]
 
 [[!img img/djr3-howlar-space.jpeg]]
+
+DJ set captured in real-time with an Intel Realsense depth camera.
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2023/howlar-space-djr3.mp4" type="video/mp4">
+</video>
+</figure>
 
 01. Habstrakt — Préambule
 02. Habstrakt — Tonight
@@ -86,6 +94,9 @@ June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 DJ set captured in real-time with an Intel Realsense depth camera (above). Depth
 data was imported into Unity and used to render a pointcloud representing a
 human form with particle effects, also in real-time.
+
+I filmed this set in a weird alcove under my stairs where I fit a subwoofer, box
+amp and a moderately large television, along with all the recording equipment.
 
 01. heimanu — Arcadia
 02. knock2 — PARANOiD
