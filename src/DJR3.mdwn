@@ -32,6 +32,8 @@ Apr 15, 2023 — HOWLAR.SPACE
 
 [[!img img/djr3-poster-howlar-space.jpeg]]
 
+[[!img img/djr3-howlar-space.jpeg]]
+
 01. Habstrakt — Préambule
 02. Habstrakt — Tonight
 03. ISOxo — Beam
@@ -78,6 +80,12 @@ June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 </figure>
 
 [[!img img/djr3-millennium-strike-ep7.jpeg]]
+
+[[!img img/djr3-millennium-strike-ep7-2.jpeg]]
+
+DJ set captured in real-time with an Intel Realsense depth camera (above). Depth
+data was imported into Unity and used to render a pointcloud representing a
+human form with particle effects, also in real-time.
 
 01. heimanu — Arcadia
 02. knock2 — PARANOiD
