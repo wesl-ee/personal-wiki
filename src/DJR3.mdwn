@@ -9,6 +9,12 @@ these these non-exclusive genre tags:
 + Drum and Bass
 + French House
 
+<figure>
+<video autoplay muted loop>
+<source src="/vid/r3-loop.webm" type="video/mp4">
+</video>
+</figure>
+
 I've performed more in [[Virtual Reality]] than I have in real-life, though
 often my sets are hybrids of VR + IRL. I explore unconventional, real-time
 settings, like throwing interactive, VR raves in *Garry's Mod*, a video game
@@ -24,10 +30,76 @@ Apr 15, 2023 — HOWLAR.SPACE
 
 [[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [Download]()]
 
+[[!img img/djr3-poster-howlar-space.jpeg]]
+
+01. Habstrakt — Préambule
+02. Habstrakt — Tonight
+03. ISOxo — Beam
+04. Deadcrow — Fallout (Poni Remix)
+05. Toriena — CQC
+06. S3RL — Dopamine
+07. Martin Bravi — Habits (Stay High)
+08. Sub Zero Project — Rave Culture 2022
+09. Bioweapon — Bass Power
+10. MUST DIE!, Waterspirit — IN MY HEAD
+11. ???
+12. Gunman — Raito
+13. Yeah — Deapmash
+14. Silencee — Controller
+15. Crypovolk — Like a G6 (Hardstyle)
+16. Buunshin — Sterven
+17. Sudoverse — In the City
+18. Connor Gallagher, Zyzz, Zedd — Clarity - Hardstyle
+19. ISOxo — inhuman (fairy fountain VIP)
+20. Lady Gaga, Zyzz — Just Dance - Hardstyle (SPED UP)
+21. Sickmode, Rooler — TOO COLD
+22. HARDSTYLE CVNT — LIGHTS
+23. k?d — SOMEWHAT HUMAN
+24. Oliver Tree & Robin Schulz — Miss You (Hardstyle Remix)
+25. Lil Texas — Total Knock Out
+26. S3RL — Bass Slut - X-FIR3 Remix
+27. KLIO, DJ Satomi, Nightcore Nation — I'll Fly With You (L'amour Toujours) (Nightcore Party Mix)
+28. S3RL — Doki Doki ドキドキ
+29. Otira — Incorrect
+30. Sickmode — GO STUPID
+31. Maul — TOKYO LIFT
+32. Yosuf, Lil Texas — DECA
+33. Knock2 — REWiND
+
 June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 ------------------------------------------------------------
 
 [[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [Download]()]
+
+<figure>
+<video autoplay muted loop>
+<source src="/vid/djr3-poster-millennium-strike-ep7.mp4" type="video/mp4">
+</video>
+</figure>
+
+[[!img img/djr3-millennium-strike-ep7.jpeg]]
+
+01. heimanu — Arcadia
+02. knock2 — PARANOiD
+03. MUST DIE!, IMANU — LIFE SUCK
+04. Charlie Sparks — Tatakai
+05. Lil Texas, Danny L Harle & Dj Danny - Donk Rhythm
+06. WATER SPIRIT — TAILWHIP (SMITH COMMA JOHN REMIXXX)
+07. Heimanu — Atrea
+08. Heimanu — Atrea ( Former Hero Remix)
+09. GRAVEDGR — FICK DICH (WITH CARNAGE & DITHER)
+10. Angel Cannon, Deadcrow — The Light
+11. The Straikerz & So Juice — Can You Feel That (Gearbox Presents Twin Turbo)
+12. JOYRIDE — HOT DRUM
+13. Lil Texas & Water Spirit — Down Like This
+14. Chee — Pressure
+15. Zuli — Trigger Finger
+16. Koreless — Joy Squad
+17. Dutch Master — Get Up (Kutski Remix)
+18. Dagga — Hype and Dope
+19. A.G. Cook — Xxoplex
+20. ZULI — Keen Demag
+21. Ytho — Crisis
 
 Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 --------------------------------------------------
@@ -35,9 +107,14 @@ Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 [[Watch on YouTube](https://youtu.be/gEpmLXdssUA) /
 [Download](https://cdn.wesl.ee/DJR3/sets/2021/%5BDJR3%5D%20%5BVR%2CAR%5D%20Synesthesia%20009.mp4)]
 
-<figure class=image-square>
 [[!img img/djr3-poster-synesthesia-009.jpeg]]
+
 [[!img img/djr3-synesthesia-009.jpeg]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2021/%5BDJR3%5D%20%5BVR%2CAR%5D%20Synesthesia%20009.mp4" type="video/mp4">
+</video>
 </figure>
 
 I did this set entirely in VR and never took my HMD off for any bit of it. The
@@ -102,9 +179,14 @@ Jan 8, 2021 — VRChat DJs United x EVA DIMENSIONAL COLLAPSE
 [[Watch on YouTube](https://youtu.be/i7vGk5dUW7c) /
 [Download](https://cdn.wesl.ee/DJR3/sets/2021/%5BDJs%20United%20X%20EVA%5D%20%5BVRCHAT%5D%20DJR3%20DIMENSIONAL%20COLLAPSE.mp4)]
 
-<figure class=image-square>
 [[!img img/djr3-poster-djs-united-eva-dimensional-collapse.jpeg]]
+
 [[!img img/djr3-djs-united-eva-dimensional-collapse.jpeg]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2021/%5BDJs%20United%20X%20EVA%5D%20%5BVRCHAT%5D%20DJR3%20DIMENSIONAL%20COLLAPSE.mp4" type="video/mp4">
+</video>
 </figure>
 
 DIMENSIONAL COLLAPSE was a party in VRChat organized by DJ's United and
@@ -164,16 +246,151 @@ Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 [[Watch on YouTube](https://youtu.be/H8093iYalM8) /
 [Download](https://cdn.wesl.ee/DJR3/sets/2020/%5BStreamstage%5D%5BDJR3%5D%20Dec.11.2020.mp4)]
 
+[[!img img/djr3-poster-streamstage-12-11.jpeg]]
+
+[[!img img/djr3-streamstage-12-11.jpeg]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2020/%5BStreamstage%5D%5BDJR3%5D%20Dec.11.2020.mp4" type="video/mp4">
+</video>
+</figure>
+
+1. GRRL - Rally
+2. Hommarju - Reboot
+3. TORIENA - Break Me Down
+4. USAO - BroGamer
+5. Hommarju - Demon's Rave (Original Mix)
+6. Massive New Krew - The Daylight
+7. Anime - Cracks
+8. Rockefeller Street (EightOEight Hardstyle Remix)
+9. S3RL - Bass Slut (X-FIR3 Remix)
+10. Shaun Baker/Seaside Clubbers - DUP DUP (Danceboy German Remix)
+11. Sagi-Rei - L'Amour toujours
+12. Danny L Harle, Lil Texas - Dreaming
+13. Rav3r - Thick As Thieves - Jack To The Sound (T78 Extended Remix)
+14. Scot Project - B (Baby) (Scot Project Remix)
+15. A.Mochi - Squeal 43 (Original Mix)
+16. JOYRYDE - BROOKLYN
+17. DOG BLOOD - TURN OFF THE LIGHTS (djX NXC RAVE TRIP)
+18. NAOKI - BRILLIANT 2U (K.O.G G3 MIX)
+19. S3RL - Neon Genesis (Pulse Remix)
+20. Anime - Be A God (Tih) (Endymion Remix)
+21. DJ Mad Dog - 1996
+22. Barong Family - Psycho Boys Club & Sihk - Spicy Curry
+23. LIL TEXAS - TERROR TO YOUR EAR
+24. TORIENA - Flashback
+25. Otira - Believe In Yourself
+26. LeKtriQue, Midnight CVLT - Full Throttle (Original Mix)
+27. RoughSketch & uno feat. さきぴょ - Nyan-Nyan-Nyan!
+28. REDALiCE - SKYLiGHTS
+29. aran & t+pazolite - Chobit Flavor
+30. USAO - Radiant (Massive New Krew REMIX)
+31. S3RL Feat. Sara - Over The Rainbow
+
 Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 -----------------------------------------------------------------
 
 [[Watch on YouTube](https://youtu.be/6U7CYY2QRrY) /
 [Download](https://cdn.wesl.ee/DJR3/sets/2020/Steamstage%20Oct.%2024.mp4)]
 
+<figure>
+[[!img img/djr3-poster-streamstage-oct-24.jpeg]]
+</figure>
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2020/Steamstage%20Oct.%2024.mp4" type="video/mp4">
+</video>
+</figure>
+
+01. [Music Bed] MURA MASA - Low (feat Jay Prince)
+02. Yuki Kajiura - Magical Girl Birthday
+03. DJ Hidden - Times Like These VIP
+04. Rav3r - Thick As Thieves - Jack To The Sound (T78 Extended Remix)
+05. Scot Project - B (Baby) (Scot Project Remix)
+06. Mak & Pasteman - Runout (Original Mix)
+07. Nineteen Sines - Chemical (T78 Remix)
+08. Patrik Berg - Hope (Original Mix)
+09. A*S*Y*S, T78 - Ac/Id (Original Mix)
+10. i_o - Another Level
+11. Virtual Self - Ghost Voices (Raito Remix)
+12. Unknown Artist - Untitled (Kalli's Freezing Cold Confused Yoghurt Mix)
+13. ASYS - The Acid (Original Version)
+14. UMEK - Beat at 4 AM (Original Mix)
+15. i_o - Rave 444
+16. Batongo - Batongo - Aguirre (Fango Remix)
+17. I Hate Models - Walpurgis Night (feat. Zanias)
+18. Hydelic - Walls
+19. In-Panic Vs Bubble - Imitation Of Life
+20. Neurotic Pulse - Undermind All
+21. Klanglos - Acid Trip
+22. Cosmic Boys - Timeless (Original Mix)
+23. Kai Tracid, Ramon Tapia - 303 State (Extended Version)
+24. Alignment - Time (Original Mix)
+25. Ursula Rucker, 2pole - Alone Feat. Ursula Rucker (Original Mix)
+26. A.Mochi - Squeal 43 (Original Mix)
+27. A*S*Y*S, Kai Tracid, Tom Wax - Freedom of Expression (Dark Acid Mix)
+28. Renegade System - Predator (Extended Mix)
+29. Da Tekno Warriors - Yo
+30. DJ Hidden - The Nightmare Connector (Original Mix)
+31. DJ Mad Dog - 1996
+32. Camisra - Let Me Show You (Da Techno Bohemian Mix)
+33. TORIENA - Flashback
+34. Otira - Believe In Yourself
+35. DOG BLOOD - TURN OFF THE LIGHTS (djX NXC RAVE TRIP)
+36. Good Enuff - Otira - Night Is Short
+37. TORIENA - PURE FIRE
+38. NAOKI - BRILLIANT 2U (K.O.G G3 MIX)
+39. S3RL - Bass Slut
+40. Anime - Cracks
+41. tiger YAMATO - R3
+42. 190' - PARANOiA Rebirth
+43. Yuki Kajiura - Domus Meus [Arrangement No.1]
+44. Atlon Inc. - Room Nr. 1
+45. Juyen Sebulba & Lil Texas - Rush Hour
+46. WATER SPIRIT - TAILWHIP (SMITH COMMA JOHN REMIXXX)
+47. Son Lux - Flickers
+48. Halogenix & IMANU - Technoid
+49. Geoxor - Virtual
+50. bitbird - Aiobahn - Fragments (ft. KOCHO)
+51. Yuki Kajiura - Where Is It
+52. MONDO GROSSO - ラビリンス (Album Mix)
+
 Jun 28, 2020 — EVA Online Presents: Synesthesia #002
 ----------------------------------------------------
 
 [[Download](https://cdn.wesl.ee/DJR3/sets/2020/%5BVIP%5D%20%5BMIXED%20REALITY%5D%20Synesthesia%20EVA_0nline%20x%20DJR3.mp4)]
+
+[[!img img/djr3-synesthesia-002.jpeg]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2020/%5BVIP%5D%20%5BMIXED%20REALITY%5D%20Synesthesia%20EVA_0nline%20x%20DJR3.mp4" type="video/mp4">
+</video>
+</figure>
+
+1. [Lobby] Rei Harakami - Pone
+2. S3RL & SynthWulf - Press Play Walk Away
+3. gasoiid - s0-n2u
+4. kittynxc - T3LL U
+5. Boney M - Rasputin (DOPEDROP Bootleg)
+6. Nightcore - All The Things She Said (DJ Gollum feat. Scarlet)
+7. Anime - Cracks
+8. 180 - PARANOiA (kskst mix)
+9. Crystal Lake - Handzup Motherfuckers (Nightcore edit)
+10. S3RL & Filthy Frank - Dumbass Statuses
+11. t+pazolite & Getty - Twisted Drop Party
+12. USAO - BroGamer
+13. LIL TEXAS - Description of Evil
+14. Braven - Texas Energy
+15. DJ Sharpnel - MOTHERFUCKER!! (tanigon)
+16. Usao - Up in Smoke
+17. Water Spirit - ARIES
+18. Juyen Sebulba & Stoltenhoff - Deathmatch
+19. DJ Mad Dog - Fuck That Shit
+20. Nightcore - Dreamers
+21. S3RL Feat. Tamika - Better Off Alone
 
 Jun 6, 2020 — [Week 2] Club Howler Virtual Rave & TTT
 -----------------------------------------------------
@@ -181,29 +398,590 @@ Jun 6, 2020 — [Week 2] Club Howler Virtual Rave & TTT
 [[Watch on YouTube](https://youtu.be/xZ_q44V44h4) /
 [Download](https://cdn.wesl.ee/DJR3/sets/2020/%5BWeek%202%5D%20Club%20Howler%20%26%20TTT-DJR3.mp4)]
 
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2020/%5BWeek%202%5D%20Club%20Howler%20%26%20TTT-DJR3.mp4" type="video/mp4">
+</video>
+</figure>
+
+01. [Lobby] AAron EVO --- Beverly Chills
+02. Perfume --- Take off
+03. Perfume --- love the world
+04. The Touch --- Le Night Dominator (Zombie Disco Squad Remix)
+05. Lady Gaga --- Alice
+06. COFFIN --- COFFIN --- Bullet
+07. Injury Reserve --- Jailbreak the Tesla (feat. Aminé)
+08. Flava D --- Acting Stank
+09. Prospa --- Back to the motherland (original mix)
+10. 𝑮𝑹𝑹𝑳 --- GRRL --- The Bird
+11. MacHinedrum & Holly --- Berry Patch (IMANU Remix)
+12. ALRT --- ALRT & Callum Higby --- Feel My NRG
+13. Good Enuff --- Otira --- The Funky Beat
+14. Blacklolita --- FOREVER (^_^)
+15. Ken Ishii --- The World of PAC-MAN (Original Mix)
+16. Azureon: Surge --- HAEZER --- You Feel Me ft. Born I Music
+17. Gesaffelstein --- Hate Or Glory
+18. Daft Punk --- Fall (Japanese Popstars Remix)
+19. Water Spirit --- ARIES
+20. Barong Family --- Juyen Sebulba & Stoltenhoff --- Deathmatch
+21. DJ Mad Dog --- Fuck That Shit
+22. Otira --- Otira --- Black Dog
+23. Barong Family --- Juyen Sebulba & Lil Texas --- Rush Hour
+24. Mitomoro & M-Project --- F#=k That Beat Up
+25. S3RL --- Bass Slut
+26. Anime --- Cracks
+27. DJ Sharpnel --- 詩片
+28. LIL TEXAS --- Out My Head
+29. 180 --- PARANOiA (kskst mix)
+30. Alice DeeJay --- Better Off Alone 2008 (C o O k ! e Remix)
+31. Himera --- Voicenote
+
 May 9, 2020 — End of Howler: One More Final: Thank You
 ------------------------------------------------------
 
 [[Watch on YouTube](https://youtu.be/GqAUwMvmwNI) /
 [Download](https://cdn.wesl.ee/DJR3/sets/2020/End-Of-Howler-DJR3.mp4)]
+<figure class="image-square">
+[[!img img/djr3-poster-end-of-howler.jpeg]]
+[[!img img/djr3-poster-end-of-howler-2.jpeg]]
+</figure>
+
+<figure class="image-square">
+[[!img img/djr3-end-of-howler.jpeg]]
+[[!img img/djr3-end-of-howler-2.jpeg]]
+</figure>
+
+[[!img img/djr3-end-of-howler-nico-nico.gif]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2020/End-Of-Howler-DJR3.mp4" type="video/mp4">
+</video>
+</figure>
+
+After three years of operation, the NCSU Imageboard, Howler.space, shut down.
+Because we couldn't meet up in-person anymore, as the university was closed for
+the rest of the semester, we decided to throw a rave in Garry's Mod. To my
+knowledge this hasn't been done before and it required a handful of
+[open-source](https://github.com/wesl-ee/gmod-streamstage)
+[tools](https://github.com/wesl-ee/gmod-motd) that I wrote to help facilitate
+the music and atmosphere of the party. After the music was over we played
+Trouble in Terrorist Town on the same server until the website shut down.
+
+### Bushmaster
+
+*Neo-funk, breakbeat, hardstyle*
+
+1. KTG --- Romantic Love (Remix)
+2. DOT96 --- MAKE IT FUNKY NOW (BMS Edit)
+3. Gambafreaks --- Down Down Down (Class A Remix)
+4. Spy --- Midnight Blue
+5. Disclosure --- Expressing What Matters
+6. Higgo --- Champion Sound VIP
+7. Mousse T. / Hot 'N' Juicy --- Horny --- Mousse T.'s Extended Mix
+8. Madison Avenue --- Don't Call Me Baby
+9. Kohta Takahashi --- Urban Fragments
+10. Hiroshi Okubo --- Movin' In Circles
+11. Hideki Naganuma --- FEEL the POWER in YOUR SOUL
+12. DJ Dicks "The Doctor" Darkness ---  The Psyscho Ball
+13. Masafumi Takada --- DANGANRONPA FUTURE MIX
+14. Klaus Veen --- Ordinary Days V2
+15. Sealab --- Suit Up
+16. kittynxc --- T3LL U
+17. DJ Arne L. II --- R.I.P.
+18. Machine Girl --- Sister Juke
+19. Maladroit --- Amen Motherfucker
+20. Machine Girl --- Cloud99 (As Above Mix)
+21. Hidenori Shoji & Haruyoshi Tomita --- World 8: Clock Tower Factory
+22. Trym Torson --- Transition (Original Mix)
+23. Machine Girl --- Lilith
+24. Kohta Takahashi --- Move Me
+25. Sewerslvt --- Blacklight (feat. Skvllz)
+26. Machine Girl --- Krystle (URL Cyber Palace Mix)
+27. Seweslvt --- Mr. Kill Myself
+28. goreshit --- MATZcore
+29. IOSYS --- メイドやめますか？人間やめますか？
+30. WATER SPIRIT --- TAILWHIP
+31. N & S --- DEAD END
+32. Tomosuke / U1-ASAMi --- It's a Small World (Ducking Hardcore Mix)
+33. YONEDA --- Bitch
+34. High Contrast --- Racing Green (Capsika Bootleg Remix)
+35. Minmi --- Shiki no Uta
+
+### DJR3
+
+*Bemani, rave, gabber*
+
+1. [Lobby Music] Rei Harakami --- Pone
+2. Masayoshi Iimori --- Alcohol feat. Relect
+3. Hate (IDEA+RHYTHM) --- BLOWHORN
+4. aran --- GRiDGALAXY
+5. Lolica Tonica --- Make me Feel
+6. Hideki Naganuma --- AIN'T NOTHIN' LIKE A FUNKY BEAT
+7. M-Project & Signal --- Come Feel The XTC
+8. Carpainter --- Bitch Body + Radarman (madmaid Remix)
+9. LeKtriQue --- Shots Fired
+10. The Bloody Beetroots --- Heavy
+11. MASAYOSHI IIMORI --- Hella Deep
+12. gasoiid --- s0-n2u
+13. Carpainter --- Salvo Fire
+14. Locked in the bathroom (Deus Ex)
+15. Max Graef --- Rush
+17. Virtual Self --- Ghost Voices (djX edit)
+18. Rockefeller Street (EightOEight Hardstyle Remix)
+19. DJ Weirdo & DJ Sim --- Pump That Stupid Bass (Happy Rave Mix)
+20. TaQ --- Holic
+21. Joujouka --- Rock Is Sponge <area04>
+22. Klubbheads --- Kickin' Hard 2001 (Central Seven Remix)
+23. TaQ --- DXY!
+24. ALRT --- TAKE ME AWAY
+25. Water Spirit --- ARIES
+26. Boney M --- Rasputin (DOPEDROP Bootleg)
+27. Dj Psycangle --- Smile, Fuck Up (Wan Bushi Remix)
+28. NXC131 --- DOG BLOOD --- TURN OFF THE LIGHTS (djX NXC RAVE TRIP)
+29. NAOKI --- BRILLIANT 2U (K.O.G G3 MIX)
+30. 源屋 --- Jump!
+31. 180 --- PARANOiA (kskst mix)
+32. N & S --- Dead End
+33. Y&Co. --- BAD BOY BASS!! (dj Remo-con MIX)
+34. Carpainter --- Supernova
+35. Masayoshi Iimori --- Punching Down
+36. aran & t+pazolite --- Chobit Flavor
+37. 源屋 feat. motoko --- Stasis (3R2 Remix)
+38. Hydelic --- cycle of silence
+39. The Acolyte --- Treble, Bass, and Attitude
+40. Aya London --- Fly Me to the Moon -Beat- [TV Size]
 
 Jan 25, 2020 — NEUROTiC
 -----------------------
 
 [[Download](https://cdn.wesl.ee/DJR3/sets/2020/NEUROTiC-DJR3.webm)]
 
+[[!img img/djr3-poster-neurotic.gif]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2020/NEUROTiC-DJR3.webm" type="video/webm">
+</video>
+</figure>
+
+4FTERLIFE_ONLINE was an internet neo-rave
+community that spawned from inspiration of internet rave life, underground
+2000s rave cultures, Y2K, cyberpunk, infornography, identity & existentialism.
+NEUROTiC was my first performance with 4F_O; the event was
+livestreamed on 4F_O's twitch channel and featured performances by
+six different DJs and over 20 different virtual stages!
+
+1. Yuzo Koshiro - Entry Maxi4 (Terminal mode)
+2. DJ Noriken - Exhaust Hype
+3. Shinichi Osawa - Rendezvou
+4. THOMAS BANGALTER & DJ FALCON - CALL ON ME (Muttonheads fine touch remix)
+5. Mr. Oizo feat. Errorsmith - Erreur Jean
+6. 牛尾憲輔 - Drop In Pressure
+7. DJ Weirdo & DJ Sim - Pump That Stupid Bass (Happy Rave Mix)
+8. Carpainter - Mission Accepted (Otira Remix)
+9. Shinichi Osawa - Technodluv
+10. Dance Dance Revolution - The Acolyte - Treble, Bass, and Attitude
+11. C-Show - ERROR CODE
+12. The Speed Freak - DJ-Fuck
+13. Masayoshi Iimori - Rave Revolt
+14. Rockefeller Street (EightOEight Hardstyle Remix)
+15. Yuzo Koshiro - Highway Obsession
+16. Hydelic - butterfly effect
+
 Jan 1, 2020 — DECENNIUM 202X: New Year's Eve Event
 --------------------------------------------------
 
 [[Download](https://cdn.wesl.ee/DJR3/sets/2020/2020-01-01-DECENNIUM-202X.webm)]
+
+[[!img img/djr3-poster-decennium-202X.jpeg]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2020/2020-01-01-DECENNIUM-202X.webm" type="video/webm">
+</video>
+</figure>
+
+My setup involved three computers, five instances of `ffmpeg`, one
+webcamera, one webserver, and 40GiB of RAM! It's really amazing that all
+these things came together to create one continuous experiece; it's this
+feeling that's kept me motivated in my experimentation with audio/visual
+experiences overall.
+
+It was a super fun night! We started a little later than expected but once
+we got started the party went off without a hitch... it was my boyfriend's
+(DJ_ABF's) first time DJ'ing and I'm glad he had fun too. The entirety of
+the show was streamed on my Twitch channel as well. This show was super special
+to me because it was (1) my last show of 2019 and (2) the first show of my last
+year of college; I hope everyone at the party and everyone watching the
+recording (past, present, future) has as much fun as I did! The audicence was
+generally invited from a unviersity imageboard I run but far more people came
+out than I expected; especially since this was Winter break I didn't expect so
+many people to show up in real-life! Because this event was a blending of
+Internet neo-rave culture and my IRL friends I was surprised when we had an
+exceptional audience both online and in-person.
+
+The night was divided into **ZONES**, which resemble the Zone Races from
+WipEout HD:
+
+**ZONE VENOM** (*DJ_ABF*) (Pop, Big Room, House, Indie)
+
+DJ_ABF opened the night with an accessible amount of pop and indie hits from
+the past decade (2010's); unfortunately there is no recording of his set but
+his tracklist is published below:
+
+1. Childish Gambino - Retro [ROUGH]
+2. Lil Wayne;Swizz Beatz - Uproar
+3. Joyner Lucas - I Love (Explicit)
+4. New Legends - kFle9pGCtU0
+5. Jungle - Heavy, California
+6. Two Feet - I Feel Like I'm Drowning
+7. Tame Impala - The Less I Know the Better
+8. Oceans - 7h3Pd5SbCRI
+9. slenderbodies - king
+10. James Arthur - You Deserve Better
+11. Ed Sheeran feat. Paulo Londra & Dave - Nothing On You
+12. The Chainsmokers, Amy Shark - The Reaper
+13. LSD - Genius
+14. Saint Laurent - WT WJDPfurc
+15. Alec Benjamin - Mind Is A Prison
+16. Harry Styles - Watermelon sugar
+
+**ZONE PHANTOM** (*BUSHMASTER*) (Big beat, House, Nu-funk, Acid House)
+
+BUSHMASTER played next, generating **ZONE PHANTOM** in the process; his set
+consisted of DDR-inspired nu-funk and fighting-game OST hits; it was a
+well-mixed and well-balanced set; I especially enjoy BUSHMASTER's taste for
+early-2000's esthetic; that much is evident in the visuals (slow-scrolling
+text and harsh contrasts) for his set as well as in his music; below is his
+(unordered) set list:
+
+1. Concept of Love Intro by Stuff3
+2. Michael Gray - The Weekend (Original 12 Inch Mix)
+3. Daft Punk - Harder, Better, Faster, Stronger
+4. Dirty Vegas - Days Go By
+5. The Superman Lovers - Starlight
+6. Debbie Malone - Rescue Me (Original Version)
+7. Eric Prydz - Call On Me (Radio Edit)
+8. Space Cube - Session
+9. Justice - D.A.N.C.E.
+10. Skylar Spence - Can't You See
+11. 奥河英樹 - Makoto Stage ~ Spunky
+12. 奥河英樹 - Elena Stage ~ Beats in My Head (Tribal Dance)
+13. Hideki Naganuma - AIN'T NOTHIN' LIKE A FUNKY BEAT
+14. TeddyLoid - Fly Away (Taku & TeddyLoid For the Club Edit)
+15. Capcom Vs. SNK 2 - This is True Love Makin' (London)
+16. Justice - DVNO
+17. Hideki Naganuma - Let Mom Sleep
+18. Hideki Naganuma - Teknopathetic
+19. Nookie - Give A Little Love ('94 Lick)
+20. Duck Sauce - Barbara Streisand (Original Mix)
+21. FatBoy Slim - Wonderful night (album mix)
+22. The immortals - Techno syndrome 7
+23. Daft Punk - Da Funk
+24. Mr. Oizo - Gay Dentists
+25. Daft Punk - Indo Silver Club
+26. Ark - punkadelik (mr oizo rmx)
+27. Alan Braxe & Fred Falke - Intro (Original Club Mix)
+28. Buffalo Bunch - T.I.T.T.S. - Take It To The Streets
+29. The Chemical Brothers - Block Rockin' Beats
+30. Play Paul - Holy Ghostz
+31. Joga - Dam Dariram
+32. Le Knight Club - Nymphae Song
+33. Dance Dance Revolution - OKUYATOS - Kind Lady (Funk Disco Extended Mix)
+34. Detroit Swindle - The Break Up (Original Mix)
+35. Afro Medusa - Pasilda (Knee Deep Club Mix)
+36. Soul Providers - Rise (Bini And Martini Mix)
+37. Dizzee Rascal - Bassline Junkie
+38. Daft Punk - Something About Us
+39. Madeon - No Fear No More
+40. Stardust - Music Sounds Better With You (12' club mix)
+
+**ZONE ZEN** (*DJR3*) (French House, Synthpop, Future)
+
+I went on next after a short intermission; I split my set in half according
+to taste; this first half was focused on upbeat pop and future-sounding
+music! My chief inspiration for this half of the set was WipEout HD;
+everything I picked out here sounded like it could've been a piece of the
+original soundtrack for that game; it is an extremely inspirational game for
+me and I think that much is evident in my visuals and my music. Below is my
+full set list for **ZONE ZEN**:
+
+1. Cola Splash - Curry Drinker
+2. Yuzo Koshiro - Overdrive Neurotransmitters
+3. Lolica Tonica - Make me Feel
+4. THOMAS BANGALTER & DJ FALCON - CALL ON ME (Muttonheads fine touch remix)
+5. Yelle - Moteur action
+6. The Touch - Le Night Dominator (Radio Edit)
+7. Nightcore  - Rasputin (Remix)
+8. M_Ferri - Arturia (Boris Brejcha Remix)
+9. Justice - Waters of Nazareth
+10. Yelle - Que Veux-Tu (Madeon Remix)
+11. Perfume - Spring of Life (Album-mix)
+12. Kyary Pamyu Pamyu - チェリーボンボン extended
+13. Surkin - Love Shot (Djedjotronic & Noob Remix)
+14. Joujouka - Rock Is Sponge <area04>
+15. Captain Jack - Dream A Dream
+16. Adam Freeland - Fear <Rez edit> <area05>
+17. Ekowraith - Waiting For Tonight (Club Mix)
+18. Dopamine - Flat Out
+19. Locked in the bathroom (Deus Ex)
+20. Proxy - Decoy
+21. Surkin - Lose Yourself feat. Ann Saunderson (Brodinski Remix)
+22. Yuzo Koshiro - Acid Runner
+23. Hydelic - butterfly effect
+24. onoken - shylph
+25. Alice DeeJay - Better Off Alone 2008 (C o O k ! e Remix)
+26. Yuzo Koshiro - Entry (Maxi2 Version)
+27. Virtual Self - Particle Arts
+
+**ZONE SUPERZEN** (*DJR3*) (Neo-rave, Dark Techno)
+
+Next I transition into **ZONE SUPERZEN**; this zone is meant to be the
+harsher, neo-rave side of **ZONE ZEN**; the upbeat kick-and-snares of the
+former set are replaced with harsh synths and Roland 303 bass lines; I
+accompany the change of tone with a visual alteration, swapping out the
+bright color palette of the former ZONE with dark blacks and harsh reds
+which mirror the music I planned for **ZONE SUPERZEN**; below is the set
+list for that ZONE:
+
+28. Serial Experiments Lain - Cables and powerlines and electricity poles compilation
+29. Gesaffelstein - Trans
+30. 牛尾憲輔 - E
+31. Unknown Artist - Untitled (Kalli's Freezing Cold Confused Yoghurt Mix)
+32. Sasha - Goteki 45
+33. [ETC] MAGIA - Mindfuck Remix
+34. TaQ - stoic (EXTREME version)
+35. NOMA - Brain Power
+36. DJ Noriken - Summerlights(IIDX Edition)
+37. Rockefeller Street (EightOEight Hardstyle Remix)
+38. Treow, NaturaLe & Aruko - selFa
+39. 180 - PARANOiA (kskst mix)
+40. Simon C - Fuck You
+41. Creasemaster & Slamdog - Bump The Bass
+42. Kenta Nagata - Half Pipe
+43. Wan Bushi - Eurodance Vibes Part 5
+44. Ω - MAX 300
+45. The legend Of Max - 27 The legend Of Max
+46. kamome sano - take it higher
+47. 牛尾憲輔 - Descent To Grey
+48. Aya London - Fly Me to the Moon -Beat- [TV Size]
+
 
 Nov 23, 2019 — Subsystem 20XX
 -----------------------------
 
 [[Download](https://cdn.wesl.ee/DJR3/sets/2019/2019-11-23-SUBSYSTEM20XX.webm)]
 
+[[!img img/djr3-poster-subsystem-20XX.jpeg]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2019/2019-11-23-SUBSYSTEM20XX.webm" type="video/webm">
+</video>
+</figure>
+
+This may be the most fun I've ever had putting together a show; we had decided
+that BUSHMASTER would open and DJR3 would go on right after; this was the second
+time I organized / played a set with an opener, the first being Howlerween. I
+advertised the party on my website and ~20 people showed overall; I was
+super-excited to see everyone!
+
+The entire SUBSYSTEM20XX experience (i.e. both DJ sets) was livestreamed to
+Twitch.tv on [my channel there](https://twitch.tv/DJRThree). Despite being my
+first time livestreaming an event I think I ran it well; I used two IP cameras
+to feed an OBS setup running on a server in my closet; that feed was then
+encoded and sent to the Twitch servers to be broadcast in real-time. I hope to
+do more streams like this soon.
+
+### BUSHMASTER (8PM)
+
+BUSHMASTER opened the night with a fun run of breakbeat, acid house, and
+neo-funk. Here's his setlist (not ordered):
+
+01. Fatboy Slim - Right Here, Right Now
+02. Fatboy Slim - The Rockafeller Skank
+03. The Chemical Brothers - Setting Sun
+04. The Prodigy - Smack My Bitch Up
+05. Bald Terror - Drummachine
+06. Fatboy Slim - Acid 8000
+07. The Prodigy - Voodoo People
+08. Yugo Kanno - il vento d'oro
+09. Commix - Be True
+10. Fatboy Slim Vs Bassbin Twins - Aaaaw Shut Up
+11. FatBoy Slim - Big Beat Souffle
+12. Fatboy Slim - Everybody Needs A 303
+13. The Prodigy - Timebomb Zone
+14. Dawl - Let's Go
+15. Fatboy Slim - Love Island
+16. L.E.D.LIGHT-G - HELL SCAPER (Long version)
+17. Fatboy Slim - Ya Mama
+18. Mr.Oizo - Flat Beat
+19. Chosen Few - Name Of The DJ
+20. Nookie - Give A Little Love ('94 Lick)
+21. j^p^n - amend. []
+22. Agent Sumo - Aint Got Time To
+23. Backdraft - Headcharge (original mix)
+24. Chosen Few - Name Of The DJ
+25. Various Artists - Underworld - Born Slippy
+
+### DJR3 (8:45PM)
+
+I went on around 8:45PM, playing a DJ set consisting of deep house, trance, and
+neo-rave; here's my setlist (in order):
+
+01. 奥河英樹 - Now, Fight a New Rival!
+02. Gesaffelstein - Trans
+03. Deapmash - Halcyon (VIP mix)
+04. MPIA3 - Acid Badger
+05. The Black Dog - Heavy Industry (Shifted Remix)
+06. TaQ - Digital MinD (AT Libra mix)
+07. The Black Dog - Black Chamber Order (Blawan Remix)
+08. tiger YAMATO - R3
+09. TaQ - DXY!
+10. Counsel pop - jd sports
+11. Kai Tracid - Skywalker
+12. Dwig - Rise
+13. Daft Punk - Rollin' & Scratchin'
+14. Daft Punk - Oh Yeah
+15. Sasha - FEISAR
+16. zodiak commune - ZC 006 Mig - Passing Io A - Passing Io
+17. 180 - PARANOiA (kskst mix)
+18. G Jones - Drift (Acid Mix)
+19. System Shock - Bizzy Time
+20. NAOKI underground - INSERTiON
+21. Parallax - b Transcendental
+22. The Source Experience - Intruder
+23. The Speed Freak - 06 - Kung-Fu(ck You ! - I'll Use My Sword)
+24. 竹本晃 - track44
+25. ABLK - Acid Starter Pack
+26. Virtual Self - EON BREAK
+27. d-complex - ECSTASY
+28. The Infinity Project - Hyperspaced (Doof Remix)
+29. USAO - Outbreak
+30. 竹本晃 - サイベリアテクスチュア5a
+31. onoken - shylph
+32. Masashi Hamauzu - FINAL FANTASY XIII - The Promise ~ The Sunleth Waterscape
+33. Aya London - Fly Me to the Moon -Beat- [TV Size]
+34. MOGUAI - ACIIID (Kryder X Benny Benassi Remix)
+35. Ryu - Be quiet
+36. zodiak commune - ZC 001 Acid Basztard-Kompressor EP A2 - Atomzeit-'98
+37. Wan Bushi - 02 Samurai Dance
+38. OutPhase - sync
+39. onoken - felys
+40. Creasemaster & Slamdog - Bump The Bass
+41. The Prophet - Big Boys Don't Cry (Rave Mix)
+42. Virtual Self - Ghost Voices (djX edit)
+43. Dj Psycangle - Smile, Fuck Up (Wan Bushi Remix)
+
 Aug 17, 2019 — Howler Presents...
 ---------------------------------
 
 [[Download](https://cdn.wesl.ee/DJR3/sets/2019/2019-08-17-howler-presents.mp4)]
 
+[[!img img/djr3-poster-howler-presents.jpeg]]
+
+<figure>
+<video preload=none controls>
+<source src="https://cdn.wesl.ee/DJR3/sets/2019/2019-08-17-howler-presents.mp4" type="video/mp4">
+</video>
+</figure>
+
+This was the first set I ever played and the first really big party we threw;
+serious home-grown house party vibes contained in this grainy video.
+Unfortunately, the VOD cuts when things start to get really weird and really
+deep and really gabber... maybe that's for the best!
+
+I recorded it all on my Google Nexus 6 propped against a wall.
+
+01. Naoki Maeda - Title (Can You Feel The Rhythm?)
+02. Push - Strange World (2000 Remake)
+03. Hydelic - butterfly effect (instrumental mix)
+04. The Crystal Method - Acetone
+05. Hydelic - awakening
+06. Porter Robinson - my nostalgia is a curse
+07. LAMONT - Titanic
+08. Otira - Take Me
+09. Proxy - Cypher
+10. Orbital - Impact (The Earth Is Burning)
+11. Unknown Artist - Untitled (Kalli's Freezing Cold Confused Yoghurt Mix)
+12. Fatboy Slim - Acid 8000
+13. counsel pop - jd sports
+14. Stakker - Humanoid (Plump DJs 2001 Retouch)
+15. The Future Sound of London - We Have Explosive (Herd Killing)
+16. 138 - Deconstruct (Joefarr Remix)
+17. Sync [Extreme Version] - 18 Sync [Extreme Version]
+19. Porter Robinson - SHEPHERDESS
+20. Plump DJs - Gobbstopper
+21. JS16 - STOMP TO MY BEAT
+22. bald terror - drummachine (original mix)
+23. kors k - Rave Cannon
+24. DJ TECHNORCH - PARANOiA TCN ～Dirty Mix～
+25. かめりあ - kick the dance floor!!
+26. DJ Noriken - Exhaust Hype(Boost Up)
+27. ノマ - Brain Power
+28. Pushin' On - 656237072
+29. L.E.D. - INVISIBLE STRIX
+30. Dj Psycangle - Smile, Fuck Up (Wan Bushi Remix)
+31. Unexist - Die Screaming Motherfucker
+32. WATER SPIRIT - TAILWHIP (SMITH COMMA JOHN REMIXXX)
+33. Wan Bushi - Combo Whore
+34. 2MB - PARANOiA KCET (Clean Mix)
+35. Masayoshi Iimori - Rave Revolt
+36. DJ Noriken - Summerlights(IIDX Edition)
+37. Square Enix - Wretched Weaponry:Quiet
+38. Kai Tracid - Skywalker
+39. Virtual Self - Particle Arts
+40. Virtual Self - ANGEL VOICES
+41. Virtual Self - Ghost Voices (Raito Remix)
+42. Virtual Self - Ghost Voices (Raito Old School Remix)
+43. MPIA3 - Acid Badger
+44. tiger YAMATO - R3
+45. Pharoahe Monch - Simon Says (Mt Eden Remix)
+46. Shiro Sagisu - Decisive Battle
+47. Dj Sharpnel - That Japanese Track(Noiserave Remix
+48. N & S - Dead End
+49. Chosen Few - The Name Of The Dj(Noiserave Remix)
+50. Masayoshi Iimori - Euphoria
+51. ALRT - TAKE ME AWAY
+52. TaQ - DXY!
+53. KONAMI - MUSIC SELECT
+54. STM 200 - PARANOiA ETERNAL
+55. Square Enix - Broken Heart
+56. Eprom, G Jones - Daemon Veil (Original Mix)
+57. Eprom and Bong-Ra - Center of the Sun (Bong-Ra Remix)
+58. Toys Are Real - Flymutha
+59. Sasha - FEISAR
+60. Yuzo Koshiro - Acid Runner
+61. Underworld - Kittens
+62. Plump DJs - Big Groovy Funker
+63. Keiichi Sugiyama - Buggie Running Beeps 01 <area01>
+64. Yuzo Koshiro - Wanna Try One Last Time
+65. Ekowraith - Waiting For Tonight (Club Mix)
+66. SHIKI - air
+67. Son Lux - Flickers
+68. Disclosure - What's In Your Head
+69. Kenta Nagata - Lost
+70. Kenta Nagata - White Out
+71. ENDING 1 (MUSIC LIST)
+72. Kenta Nagata - Half Pipe
+73. Kenta Nagata - db
+74. Harrison BDP - Confusion Of Sound
+75. Stoic [Extreme Version] - 20 Stoic [Extreme Version]
+76. Kai Tracid - 180° Bassdrum
+77. Ryu - Be quiet
+78. E-ROTIC - CAT'S EYE (Ventura Mix)
+79. Ω - MAX 300
+80. The legend Of Max - 27 The legend Of Max
+81. Wan Bushi - 02 Samurai Dance
+82. KONAMI - MODE SELECT
+83. Gabber Piet - Real Hardcore
+84. DJ TECHNORCH - Gothic System (2005 Re-Edit)
+85. 竹本晃 - プロトタイプF
+86. Porter Robinson - Goodbye To A World
+87. Masashi Hamauzu - FINAL FANTASY XIII - The Promise ~ The Sunleth Waterscape
+88. SHIKI - Mercury Lamp
+89. Virtual Self - EON BREAK
+90. NAOKI - STAFF ROLL
+91. Dance Dance Revolution - OKUYATOS - Kind Lady (Funk Disco Extended Mix)
+92. Hydelic - butterfly effect (instrumental mix)
