@@ -42,7 +42,7 @@ GiB.
 </tr>
 <tr>
   <th>Owned</th>
-  <td>February 2021 〜 Now</td>
+  <td>February 2021 〜 May 2023</td>
 </tr>
 <tr>
   <th>Notable Hardware</th>

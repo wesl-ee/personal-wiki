@@ -1,0 +1,75 @@
+[[!tag Personal_Device]]
+
+I held out for the Pixel 7a for a very, very long time, entranced by the idea of
+a "budget" Pixel that used the same chip as its Pixel 7 friends. The Pixel leaks
+that circulated the Internet since at least July of the year before, 2022, left
+almost nothing to the imagination w/r/t the 7a's specs. I owned a 4a for at
+least 3 years before this and I was ready to sacrifice myself on the 7a altar.
+
+But... the I/O reveal came and went and the pricing of the 7a was underwhelming:
+$500 upfront or $20.79/mo for 2 years then $250 back after those 24 months. $250
+off after 2 years was... a comical deal in this high interest-rate environment
+for a neutered phone. At the same time the Samsung Galaxy Z Flip4 was available
+for $600 or $25/mo for 2 years. You know which path I took.
+
+<figure><div class=image-square>
+[[!img img/z-fold4-may-2023-1.jpeg]]
+[[!img img/z-fold4-may-2023-2.jpeg]]
+</div>
+[[!img img/z-fold4-may-2023-3.jpeg]]
+</figure>
+
+<table class=no-border>
+<tr>
+  <td colspan=2 class=spread-img>
+[[!img img/z-flip4-may-2023.jpeg size="x500"]]
+  </td>
+</tr>
+<tr>
+  <th>Device</th>
+  <td>Samsung Z Flip4 (<em>taro</em>)</td>
+</tr><tr>
+  <th>Hostname</th>
+  <td>dry-your-eyes</a></td>
+</tr><tr>
+  <th>Dimensions
+  <td>171.66 x 72 x 8mm</td>
+</tr>
+<tr>
+  <th/>
+  <td>2640 x 1080 (22:9)</td>
+</tr>
+<tr>
+  <th/>
+  <td>6.7in screen, 425ppi</td>
+</tr>
+</tr><tr>
+  <th>Dimensions (folded)</th>
+  <td>84.81mm x 72mm x 17.08mm</td>
+</tr>
+</tr><tr>
+  <th>Cover Display
+  <td>512 x 260</td>
+</tr>
+<tr>
+  <th/>
+  <td>1.9in screen, 302ppi</td>
+</tr>
+<tr>
+  <th>Owned</th>
+  <td>May 2023 〜 Now</td>
+</tr>
+<tr>
+  <th>Notes</th>
+  <td>Foldable</td>
+</tr>
+<tr>
+  <th/>
+  <td>Secondary display (cover)</td>
+</tr>
+<tr>
+  <th/>
+  <td>Fingerprint scanner (side)</td>
+</tr>
+</table>
+
