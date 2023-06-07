@@ -102,7 +102,7 @@ a:hover { color: red }
 section#content p a[href^="."],
 section#content figcaption a[href^="."] {
 	background-image: linear-gradient(blue, blue);
-	padding: 0 .5ch;
+	padding: .2ch .5ch;
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 4px 50px;
@@ -209,9 +209,11 @@ figure {
 	margin: 0 auto }
 #content .image-square {
     display: flex;
+    flex-wrap: wrap;
 }
 #content .image-square > * {
-    flex: 1;
+    width: 33%;
+    flex: 1 1 auto;
 }
 #content .image-square img {
     max-width: 100%;
