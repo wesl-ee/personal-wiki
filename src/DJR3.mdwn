@@ -85,7 +85,7 @@ availability pending…)
 June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 ------------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [[!ipfs QmcNP5GrW3CCMzox2JwvKTa9jkKt6mW2YP8WsL4GJ35ka5 desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [[!ipfs QmZoD2SJEk3fQHCx8Tj75xu7QwdRCUUkX2Ki6GK51Wty17 desc="Download raw from IPFS"]]]
 
 [[!img img/djr3-millennium-strike-ep7-2.jpeg]]
 
@@ -300,7 +300,7 @@ Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 -----------------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/6U7CYY2QRrY) / [[!ipfs QmSmLbanrijWMhVVUQ676bBbi2e59QAPPG1xVzXg9W9V6D desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/6U7CYY2QRrY) / [[!ipfs QmUuaKLuxxe6wYgAMjNv3Usqx4BLfo77UCAcVUyEh1gF4J desc="Download raw from IPFS"]]]
 
 <figure>
 <video autoplay muted loop controls>
