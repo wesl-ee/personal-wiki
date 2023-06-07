@@ -91,7 +91,7 @@ June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 
 <figure>
 <video autoplay muted loop controls>
-<source src="/vid/djr3-ep-7.mp4" type="video/mp4">
+<source src="../vid/djr3-ep-7.mp4" type="video/mp4">
 </video>
 </figure>
 
@@ -134,7 +134,7 @@ Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 
 <figure>
 <video autoplay muted loop controls>
-<source src="/vid/djr3-practice-synesthesia-009.webm" type="video/webm">
+<source src="../vid/djr3-practice-synesthesia-009.webm" type="video/webm">
 </video>
 </figure>
 
@@ -261,7 +261,7 @@ Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 
 <figure>
 <video autoplay muted loop controls>
-<source src="/vid/djr3-streamstage-dec-11.mp4" type="video/mp4">
+<source src="../vid/djr3-streamstage-dec-11.mp4" type="video/mp4">
 </video>
 </figure>
 
@@ -304,7 +304,7 @@ Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 
 <figure>
 <video autoplay muted loop controls>
-<source src="/vid/djr3-streamstage.webm" type="video/webm">
+<source src="../vid/djr3-streamstage.webm" type="video/webm">
 </video>
 </figure>
 
@@ -539,7 +539,7 @@ Jan 25, 2020 — NEUROTiC
 
 <figure>
 <video autoplay muted loop controls>
-<source src="/vid/djr3-neurotic.webm" type="video/webm">
+<source src="../vid/djr3-neurotic.webm" type="video/webm">
 </video>
 </figure>
 
