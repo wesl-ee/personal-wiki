@@ -39,7 +39,7 @@ Here are all videos of the sets I have played which I have archived:
 Apr 15, 2023 — HOWLAR.SPACE
 ---------------------------
 
-[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!ipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download raw on IPFS"]]]
+[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!ipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download raw from IPFS"]]]
 
 [[!img img/djr3-howlar-space.jpeg]]
 
@@ -128,7 +128,7 @@ amp and a moderately large television, along with all the recording equipment.
 Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 --------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/gEpmLXdssUA) / [[!ipfs QmekqjoXSeRfY6N7tpBqKNYPMdR4Y3xoiscLdpxeiV2M7H desc="Download"]]]
+[[Watch on YouTube](https://youtu.be/gEpmLXdssUA) / [[!ipfs QmekqjoXSeRfY6N7tpBqKNYPMdR4Y3xoiscLdpxeiV2M7H desc="Download raw from IPFS"]]]
 
 [[!img img/djr3-synesthesia-009.jpeg]]
 
