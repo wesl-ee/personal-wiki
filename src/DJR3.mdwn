@@ -12,18 +12,18 @@ these these non-exclusive genre tags:
 + French House
 
 <figure class="image-square">
-[[!img img/djr3-poster-howlar-space.jpeg]]
-[[!img img/djr3-millennium-strike-ep7.jpeg]]
-[[!img img/djr3-poster-synesthesia-009.jpeg]]
-[[!img img/djr3-poster-djs-united-eva-dimensional-collapse.jpeg]]
-[[!img img/djr3-poster-streamstage-12-11.jpeg]]
-[[!img img/djr3-poster-streamstage-oct-24.jpeg]]
-[[!img img/djr3-synesthesia-002.jpeg]]
-[[!img img/djr3-poster-end-of-howler-2.jpeg]]
-[[!img img/djr3-poster-neurotic.gif]]
-[[!img img/djr3-poster-decennium-202X.jpeg]]
-[[!img img/djr3-poster-subsystem-20XX.jpeg]]
-[[!img img/djr3-poster-howler-presents.jpeg]]
+[[!img img/djr3-poster-howlar-space.jpeg size=500x]]
+[[!img img/djr3-millennium-strike-ep7.jpeg size=500x]]
+[[!img img/djr3-poster-synesthesia-009.jpeg size=500x]]
+[[!img img/djr3-poster-djs-united-eva-dimensional-collapse.jpeg size=500x]]
+[[!img img/djr3-poster-streamstage-12-11.jpeg size=500x]]
+[[!img img/djr3-poster-streamstage-oct-24.jpeg size=500x]]
+[[!img img/djr3-synesthesia-002.jpeg size=500x]]
+[[!img img/djr3-poster-end-of-howler-2.jpeg size=500x]]
+[[!img img/djr3-poster-neurotic.gif size=500x]]
+[[!img img/djr3-poster-decennium-202X.jpeg size=500x]]
+[[!img img/djr3-poster-subsystem-20XX.jpeg size=500x]]
+[[!img img/djr3-poster-howler-presents.jpeg size=500x]]
 </figure>
 
 I've performed more in [[Virtual Reality]] than I have in real-life, though
@@ -39,7 +39,7 @@ Here are all videos of the sets I have played which I have archived:
 Apr 15, 2023 — HOWLAR.SPACE
 ---------------------------
 
-[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!ipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download"]]]
+[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!ipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download raw on IPFS"]]]
 
 [[!img img/djr3-howlar-space.jpeg]]
 
