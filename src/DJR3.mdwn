@@ -11,10 +11,19 @@ these these non-exclusive genre tags:
 + Drum and Bass
 + French House
 
-<figure>
-<video autoplay muted loop>
-<source src="/vid/r3-loop.webm" type="video/mp4">
-</video>
+<figure class="image-square">
+[[!img img/djr3-poster-howlar-space.jpeg]]
+[[!img img/djr3-millennium-strike-ep7.jpeg]]
+[[!img img/djr3-poster-synesthesia-009.jpeg]]
+[[!img img/djr3-poster-djs-united-eva-dimensional-collapse.jpeg]]
+[[!img img/djr3-poster-streamstage-12-11.jpeg]]
+[[!img img/djr3-poster-streamstage-oct-24.jpeg]]
+[[!img img/djr3-synesthesia-002.jpeg]]
+[[!img img/djr3-poster-end-of-howler-2.jpeg]]
+[[!img img/djr3-poster-neurotic.gif]]
+[[!img img/djr3-poster-decennium-202X.jpeg]]
+[[!img img/djr3-poster-subsystem-20XX.jpeg]]
+[[!img img/djr3-poster-howler-presents.jpeg]]
 </figure>
 
 I've performed more in [[Virtual Reality]] than I have in real-life, though
@@ -30,17 +39,9 @@ Here are all videos of the sets I have played which I have archived:
 Apr 15, 2023 — HOWLAR.SPACE
 ---------------------------
 
-[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [Download](https://cdn.wesl.ee/DJR3/sets/2023/howlar-space-djr3.mp4)]
-
-[[!img img/djr3-poster-howlar-space.jpeg]]
+[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!ipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download"]]]
 
 [[!img img/djr3-howlar-space.jpeg]]
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2023/howlar-space-djr3.mp4" type="video/mp4">
-</video>
-</figure>
 
 DJ set captured in real-time with an Intel Realsense depth camera. As with my
 set 2022 set for Millennium Strike (below) I also filmed this in the weird
@@ -84,17 +85,16 @@ availability pending…)
 June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 ------------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [Download]()]
+[[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [[!ipfs QmcNP5GrW3CCMzox2JwvKTa9jkKt6mW2YP8WsL4GJ35ka5 desc="Download raw from IPFS"]]]
+
+[[!img img/djr3-millennium-strike-ep7-2.jpeg]]
 
 <figure>
-<video autoplay muted loop>
-<source src="/vid/djr3-poster-millennium-strike-ep7.mp4" type="video/mp4">
+<video autoplay muted loop controls>
+<source src="/vid/djr3-ep-7.mp4" type="video/mp4">
 </video>
 </figure>
 
-[[!img img/djr3-millennium-strike-ep7.jpeg]]
-
-[[!img img/djr3-millennium-strike-ep7-2.jpeg]]
 
 DJ set captured in real-time with an Intel Realsense depth camera (above). Depth
 data was imported into Unity and used to render a pointcloud representing a
@@ -128,16 +128,13 @@ amp and a moderately large television, along with all the recording equipment.
 Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 --------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/gEpmLXdssUA) /
-[Download](https://cdn.wesl.ee/DJR3/sets/2021/%5BDJR3%5D%20%5BVR%2CAR%5D%20Synesthesia%20009.mp4)]
-
-[[!img img/djr3-poster-synesthesia-009.jpeg]]
+[[Watch on YouTube](https://youtu.be/gEpmLXdssUA) / [[!ipfs QmekqjoXSeRfY6N7tpBqKNYPMdR4Y3xoiscLdpxeiV2M7H desc="Download"]]]
 
 [[!img img/djr3-synesthesia-009.jpeg]]
 
 <figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2021/%5BDJR3%5D%20%5BVR%2CAR%5D%20Synesthesia%20009.mp4" type="video/mp4">
+<video autoplay muted loop controls>
+<source src="/vid/djr3-practice-synesthesia-009.webm" type="video/webm">
 </video>
 </figure>
 
@@ -200,18 +197,9 @@ which mostly played out on Twitch.
 Jan 8, 2021 — VRChat DJs United x EVA DIMENSIONAL COLLAPSE
 ----------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/i7vGk5dUW7c) /
-[Download](https://cdn.wesl.ee/DJR3/sets/2021/%5BDJs%20United%20X%20EVA%5D%20%5BVRCHAT%5D%20DJR3%20DIMENSIONAL%20COLLAPSE.mp4)]
-
-[[!img img/djr3-poster-djs-united-eva-dimensional-collapse.jpeg]]
+[[Watch on YouTube](https://youtu.be/i7vGk5dUW7c) / [[!ipfs QmbdhRkpqvqyCNToxzRbw1PTqommPDNxzbTt9SNkMW2PNj desc="Download raw from IPFS"]]]
 
 [[!img img/djr3-djs-united-eva-dimensional-collapse.jpeg]]
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2021/%5BDJs%20United%20X%20EVA%5D%20%5BVRCHAT%5D%20DJR3%20DIMENSIONAL%20COLLAPSE.mp4" type="video/mp4">
-</video>
-</figure>
 
 DIMENSIONAL COLLAPSE was a party in VRChat organized by DJ's United and
 featuring collaboration with EVA Online to celebrate the release of [R O C K Y's
@@ -267,16 +255,13 @@ everyone's body language, that makes experiences like this very special to me.
 Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 -------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/H8093iYalM8) /
-[Download](https://cdn.wesl.ee/DJR3/sets/2020/%5BStreamstage%5D%5BDJR3%5D%20Dec.11.2020.mp4)]
-
-[[!img img/djr3-poster-streamstage-12-11.jpeg]]
+[[Watch on YouTube](https://youtu.be/H8093iYalM8) / [[!ipfs QmSmLbanrijWMhVVUQ676bBbi2e59QAPPG1xVzXg9W9V6D desc="Download raw from IPFS"]]]
 
 [[!img img/djr3-streamstage-12-11.jpeg]]
 
 <figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2020/%5BStreamstage%5D%5BDJR3%5D%20Dec.11.2020.mp4" type="video/mp4">
+<video autoplay muted loop controls>
+<source src="/vid/djr3-streamstage-dec-11.mp4" type="video/mp4">
 </video>
 </figure>
 
@@ -315,16 +300,11 @@ Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 -----------------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/6U7CYY2QRrY) /
-[Download](https://cdn.wesl.ee/DJR3/sets/2020/Steamstage%20Oct.%2024.mp4)]
+[[Watch on YouTube](https://youtu.be/6U7CYY2QRrY) / [[!ipfs QmSmLbanrijWMhVVUQ676bBbi2e59QAPPG1xVzXg9W9V6D desc="Download raw from IPFS"]]]
 
 <figure>
-[[!img img/djr3-poster-streamstage-oct-24.jpeg]]
-</figure>
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2020/Steamstage%20Oct.%2024.mp4" type="video/mp4">
+<video autoplay muted loop controls>
+<source src="/vid/djr3-streamstage.webm" type="video/webm">
 </video>
 </figure>
 
@@ -384,15 +364,7 @@ Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 Jun 28, 2020 — EVA Online Presents: Synesthesia #002
 ----------------------------------------------------
 
-[[Download](https://cdn.wesl.ee/DJR3/sets/2020/%5BVIP%5D%20%5BMIXED%20REALITY%5D%20Synesthesia%20EVA_0nline%20x%20DJR3.mp4)]
-
-[[!img img/djr3-synesthesia-002.jpeg]]
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2020/%5BVIP%5D%20%5BMIXED%20REALITY%5D%20Synesthesia%20EVA_0nline%20x%20DJR3.mp4" type="video/mp4">
-</video>
-</figure>
+[[[!ipfs QmQEkL8PsfUTExKDrKkmTMaKomF5vRF6BDwzFqzDxH4XY7 desc="Download raw from IPFS"]]]
 
 1. [Lobby] Rei Harakami - Pone
 2. S3RL & SynthWulf - Press Play Walk Away
@@ -419,69 +391,53 @@ Jun 28, 2020 — EVA Online Presents: Synesthesia #002
 Jun 6, 2020 — [Week 2] Club Howler Virtual Rave & TTT
 -----------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/xZ_q44V44h4) /
-[Download](https://cdn.wesl.ee/DJR3/sets/2020/%5BWeek%202%5D%20Club%20Howler%20%26%20TTT-DJR3.mp4)]
+[[Watch on YouTube](https://youtu.be/xZ_q44V44h4) / [[!ipfs QmVswafWow6VsXTgLmSVymqepMHtmQ33dBSbMXkUuDgYBR desc="Download raw from IPFS"]]]
 
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2020/%5BWeek%202%5D%20Club%20Howler%20%26%20TTT-DJR3.mp4" type="video/mp4">
-</video>
-</figure>
-
-01. [Lobby] AAron EVO --- Beverly Chills
-02. Perfume --- Take off
-03. Perfume --- love the world
-04. The Touch --- Le Night Dominator (Zombie Disco Squad Remix)
-05. Lady Gaga --- Alice
-06. COFFIN --- COFFIN --- Bullet
-07. Injury Reserve --- Jailbreak the Tesla (feat. Aminé)
-08. Flava D --- Acting Stank
-09. Prospa --- Back to the motherland (original mix)
-10. 𝑮𝑹𝑹𝑳 --- GRRL --- The Bird
-11. MacHinedrum & Holly --- Berry Patch (IMANU Remix)
-12. ALRT --- ALRT & Callum Higby --- Feel My NRG
-13. Good Enuff --- Otira --- The Funky Beat
-14. Blacklolita --- FOREVER (^_^)
-15. Ken Ishii --- The World of PAC-MAN (Original Mix)
-16. Azureon: Surge --- HAEZER --- You Feel Me ft. Born I Music
-17. Gesaffelstein --- Hate Or Glory
-18. Daft Punk --- Fall (Japanese Popstars Remix)
-19. Water Spirit --- ARIES
-20. Barong Family --- Juyen Sebulba & Stoltenhoff --- Deathmatch
-21. DJ Mad Dog --- Fuck That Shit
-22. Otira --- Otira --- Black Dog
-23. Barong Family --- Juyen Sebulba & Lil Texas --- Rush Hour
-24. Mitomoro & M-Project --- F#=k That Beat Up
-25. S3RL --- Bass Slut
-26. Anime --- Cracks
-27. DJ Sharpnel --- 詩片
-28. LIL TEXAS --- Out My Head
-29. 180 --- PARANOiA (kskst mix)
-30. Alice DeeJay --- Better Off Alone 2008 (C o O k ! e Remix)
-31. Himera --- Voicenote
+01. [Lobby] AAron EVO — Beverly Chills
+02. Perfume — Take off
+03. Perfume — love the world
+04. The Touch — Le Night Dominator (Zombie Disco Squad Remix)
+05. Lady Gaga — Alice
+06. COFFIN — COFFIN — Bullet
+07. Injury Reserve — Jailbreak the Tesla (feat. Aminé)
+08. Flava D — Acting Stank
+09. Prospa — Back to the motherland (original mix)
+10. 𝑮𝑹𝑹𝑳 — GRRL — The Bird
+11. MacHinedrum & Holly — Berry Patch (IMANU Remix)
+12. ALRT — ALRT & Callum Higby — Feel My NRG
+13. Good Enuff — Otira — The Funky Beat
+14. Blacklolita — FOREVER (^_^)
+15. Ken Ishii — The World of PAC-MAN (Original Mix)
+16. Azureon: Surge — HAEZER — You Feel Me ft. Born I Music
+17. Gesaffelstein — Hate Or Glory
+18. Daft Punk — Fall (Japanese Popstars Remix)
+19. Water Spirit — ARIES
+20. Barong Family — Juyen Sebulba & Stoltenhoff — Deathmatch
+21. DJ Mad Dog — Fuck That Shit
+22. Otira — Otira — Black Dog
+23. Barong Family — Juyen Sebulba & Lil Texas — Rush Hour
+24. Mitomoro & M-Project — F#=k That Beat Up
+25. S3RL — Bass Slut
+26. Anime — Cracks
+27. DJ Sharpnel — 詩片
+28. LIL TEXAS — Out My Head
+29. 180 — PARANOiA (kskst mix)
+30. Alice DeeJay — Better Off Alone 2008 (C o O k ! e Remix)
+31. Himera — Voicenote
 
 May 9, 2020 — End of Howler: One More Final: Thank You
 ------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/GqAUwMvmwNI) /
-[Download](https://cdn.wesl.ee/DJR3/sets/2020/End-Of-Howler-DJR3.mp4)]
-<figure class="image-square">
-[[!img img/djr3-poster-end-of-howler.jpeg]]
-[[!img img/djr3-poster-end-of-howler-2.jpeg]]
-</figure>
+[[Watch on YouTube](https://youtu.be/GqAUwMvmwNI) / [[!ipfs QmcrPbY95u6HdwkgxWcR7LTggnQkPprUTPvWNPo8CrN45A desc="Download raw from IPFS"]]]
+
+[[!img img/djr3-end-of-howler.jpeg]]
 
 <figure class="image-square">
-[[!img img/djr3-end-of-howler.jpeg]]
 [[!img img/djr3-end-of-howler-2.jpeg]]
+[[!img img/djr3-poster-end-of-howler.jpeg]]
 </figure>
 
 [[!img img/djr3-end-of-howler-nico-nico.gif]]
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2020/End-Of-Howler-DJR3.mp4" type="video/mp4">
-</video>
-</figure>
 
 After three years of operation, the NCSU Imageboard, Howler.space, shut down.
 Because we couldn't meet up in-person anymore, as the university was closed for
@@ -496,96 +452,94 @@ Trouble in Terrorist Town on the same server until the website shut down.
 
 *Neo-funk, breakbeat, hardstyle*
 
-1. KTG --- Romantic Love (Remix)
-2. DOT96 --- MAKE IT FUNKY NOW (BMS Edit)
-3. Gambafreaks --- Down Down Down (Class A Remix)
-4. Spy --- Midnight Blue
-5. Disclosure --- Expressing What Matters
-6. Higgo --- Champion Sound VIP
-7. Mousse T. / Hot 'N' Juicy --- Horny --- Mousse T.'s Extended Mix
-8. Madison Avenue --- Don't Call Me Baby
-9. Kohta Takahashi --- Urban Fragments
-10. Hiroshi Okubo --- Movin' In Circles
-11. Hideki Naganuma --- FEEL the POWER in YOUR SOUL
-12. DJ Dicks "The Doctor" Darkness ---  The Psyscho Ball
-13. Masafumi Takada --- DANGANRONPA FUTURE MIX
-14. Klaus Veen --- Ordinary Days V2
-15. Sealab --- Suit Up
-16. kittynxc --- T3LL U
-17. DJ Arne L. II --- R.I.P.
-18. Machine Girl --- Sister Juke
-19. Maladroit --- Amen Motherfucker
-20. Machine Girl --- Cloud99 (As Above Mix)
-21. Hidenori Shoji & Haruyoshi Tomita --- World 8: Clock Tower Factory
-22. Trym Torson --- Transition (Original Mix)
-23. Machine Girl --- Lilith
-24. Kohta Takahashi --- Move Me
-25. Sewerslvt --- Blacklight (feat. Skvllz)
-26. Machine Girl --- Krystle (URL Cyber Palace Mix)
-27. Seweslvt --- Mr. Kill Myself
-28. goreshit --- MATZcore
-29. IOSYS --- メイドやめますか？人間やめますか？
-30. WATER SPIRIT --- TAILWHIP
-31. N & S --- DEAD END
-32. Tomosuke / U1-ASAMi --- It's a Small World (Ducking Hardcore Mix)
-33. YONEDA --- Bitch
-34. High Contrast --- Racing Green (Capsika Bootleg Remix)
-35. Minmi --- Shiki no Uta
+1. KTG — Romantic Love (Remix)
+2. DOT96 — MAKE IT FUNKY NOW (BMS Edit)
+3. Gambafreaks — Down Down Down (Class A Remix)
+4. Spy — Midnight Blue
+5. Disclosure — Expressing What Matters
+6. Higgo — Champion Sound VIP
+7. Mousse T. / Hot 'N' Juicy — Horny — Mousse T.'s Extended Mix
+8. Madison Avenue — Don't Call Me Baby
+9. Kohta Takahashi — Urban Fragments
+10. Hiroshi Okubo — Movin' In Circles
+11. Hideki Naganuma — FEEL the POWER in YOUR SOUL
+12. DJ Dicks "The Doctor" Darkness —  The Psyscho Ball
+13. Masafumi Takada — DANGANRONPA FUTURE MIX
+14. Klaus Veen — Ordinary Days V2
+15. Sealab — Suit Up
+16. kittynxc — T3LL U
+17. DJ Arne L. II — R.I.P.
+18. Machine Girl — Sister Juke
+19. Maladroit — Amen Motherfucker
+20. Machine Girl — Cloud99 (As Above Mix)
+21. Hidenori Shoji & Haruyoshi Tomita — World 8: Clock Tower Factory
+22. Trym Torson — Transition (Original Mix)
+23. Machine Girl — Lilith
+24. Kohta Takahashi — Move Me
+25. Sewerslvt — Blacklight (feat. Skvllz)
+26. Machine Girl — Krystle (URL Cyber Palace Mix)
+27. Seweslvt — Mr. Kill Myself
+28. goreshit — MATZcore
+29. IOSYS — メイドやめますか？人間やめますか？
+30. WATER SPIRIT — TAILWHIP
+31. N & S — DEAD END
+32. Tomosuke / U1-ASAMi — It's a Small World (Ducking Hardcore Mix)
+33. YONEDA — Bitch
+34. High Contrast — Racing Green (Capsika Bootleg Remix)
+35. Minmi — Shiki no Uta
 
 ### DJR3
 
 *Bemani, rave, gabber*
 
-1. [Lobby Music] Rei Harakami --- Pone
-2. Masayoshi Iimori --- Alcohol feat. Relect
-3. Hate (IDEA+RHYTHM) --- BLOWHORN
-4. aran --- GRiDGALAXY
-5. Lolica Tonica --- Make me Feel
-6. Hideki Naganuma --- AIN'T NOTHIN' LIKE A FUNKY BEAT
-7. M-Project & Signal --- Come Feel The XTC
-8. Carpainter --- Bitch Body + Radarman (madmaid Remix)
-9. LeKtriQue --- Shots Fired
-10. The Bloody Beetroots --- Heavy
-11. MASAYOSHI IIMORI --- Hella Deep
-12. gasoiid --- s0-n2u
-13. Carpainter --- Salvo Fire
+1. [Lobby Music] Rei Harakami — Pone
+2. Masayoshi Iimori — Alcohol feat. Relect
+3. Hate (IDEA+RHYTHM) — BLOWHORN
+4. aran — GRiDGALAXY
+5. Lolica Tonica — Make me Feel
+6. Hideki Naganuma — AIN'T NOTHIN' LIKE A FUNKY BEAT
+7. M-Project & Signal — Come Feel The XTC
+8. Carpainter — Bitch Body + Radarman (madmaid Remix)
+9. LeKtriQue — Shots Fired
+10. The Bloody Beetroots — Heavy
+11. MASAYOSHI IIMORI — Hella Deep
+12. gasoiid — s0-n2u
+13. Carpainter — Salvo Fire
 14. Locked in the bathroom (Deus Ex)
-15. Max Graef --- Rush
-17. Virtual Self --- Ghost Voices (djX edit)
+15. Max Graef — Rush
+17. Virtual Self — Ghost Voices (djX edit)
 18. Rockefeller Street (EightOEight Hardstyle Remix)
-19. DJ Weirdo & DJ Sim --- Pump That Stupid Bass (Happy Rave Mix)
-20. TaQ --- Holic
-21. Joujouka --- Rock Is Sponge <area04>
-22. Klubbheads --- Kickin' Hard 2001 (Central Seven Remix)
-23. TaQ --- DXY!
-24. ALRT --- TAKE ME AWAY
-25. Water Spirit --- ARIES
-26. Boney M --- Rasputin (DOPEDROP Bootleg)
-27. Dj Psycangle --- Smile, Fuck Up (Wan Bushi Remix)
-28. NXC131 --- DOG BLOOD --- TURN OFF THE LIGHTS (djX NXC RAVE TRIP)
-29. NAOKI --- BRILLIANT 2U (K.O.G G3 MIX)
-30. 源屋 --- Jump!
-31. 180 --- PARANOiA (kskst mix)
-32. N & S --- Dead End
-33. Y&Co. --- BAD BOY BASS!! (dj Remo-con MIX)
-34. Carpainter --- Supernova
-35. Masayoshi Iimori --- Punching Down
-36. aran & t+pazolite --- Chobit Flavor
-37. 源屋 feat. motoko --- Stasis (3R2 Remix)
-38. Hydelic --- cycle of silence
-39. The Acolyte --- Treble, Bass, and Attitude
-40. Aya London --- Fly Me to the Moon -Beat- [TV Size]
+19. DJ Weirdo & DJ Sim — Pump That Stupid Bass (Happy Rave Mix)
+20. TaQ — Holic
+21. Joujouka — Rock Is Sponge <area04>
+22. Klubbheads — Kickin' Hard 2001 (Central Seven Remix)
+23. TaQ — DXY!
+24. ALRT — TAKE ME AWAY
+25. Water Spirit — ARIES
+26. Boney M — Rasputin (DOPEDROP Bootleg)
+27. Dj Psycangle — Smile, Fuck Up (Wan Bushi Remix)
+28. NXC131 — DOG BLOOD — TURN OFF THE LIGHTS (djX NXC RAVE TRIP)
+29. NAOKI — BRILLIANT 2U (K.O.G G3 MIX)
+30. 源屋 — Jump!
+31. 180 — PARANOiA (kskst mix)
+32. N & S — Dead End
+33. Y&Co. — BAD BOY BASS!! (dj Remo-con MIX)
+34. Carpainter — Supernova
+35. Masayoshi Iimori — Punching Down
+36. aran & t+pazolite — Chobit Flavor
+37. 源屋 feat. motoko — Stasis (3R2 Remix)
+38. Hydelic — cycle of silence
+39. The Acolyte — Treble, Bass, and Attitude
+40. Aya London — Fly Me to the Moon -Beat- [TV Size]
 
 Jan 25, 2020 — NEUROTiC
 -----------------------
 
-[[Download](https://cdn.wesl.ee/DJR3/sets/2020/NEUROTiC-DJR3.webm)]
-
-[[!img img/djr3-poster-neurotic.gif]]
+[[[!ipfs QmZxptVSPaDKaKpC6Ws5N4pUsyworgCLxeYNE2T2M2vFhD desc="Download raw from IPFS"]]]
 
 <figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2020/NEUROTiC-DJR3.webm" type="video/webm">
+<video autoplay muted loop controls>
+<source src="/vid/djr3-neurotic.webm" type="video/webm">
 </video>
 </figure>
 
@@ -616,15 +570,7 @@ six different DJs and over 20 different virtual stages!
 Jan 1, 2020 — DECENNIUM 202X: New Year's Eve Event
 --------------------------------------------------
 
-[[Download](https://cdn.wesl.ee/DJR3/sets/2020/2020-01-01-DECENNIUM-202X.webm)]
-
-[[!img img/djr3-poster-decennium-202X.jpeg]]
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2020/2020-01-01-DECENNIUM-202X.webm" type="video/webm">
-</video>
-</figure>
+[[[!ipfs QmQZv6Tb4H5PMscwa6JCSZsaaAvhoLUmEfVjBVychXyyQ7 desc="Download raw from IPFS"]]]
 
 My setup involved three computers, five instances of `ffmpeg`, one
 webcamera, one webserver, and 40GiB of RAM! It's really amazing that all
@@ -795,15 +741,7 @@ list for that ZONE:
 Nov 23, 2019 — Subsystem 20XX
 -----------------------------
 
-[[Download](https://cdn.wesl.ee/DJR3/sets/2019/2019-11-23-SUBSYSTEM20XX.webm)]
-
-[[!img img/djr3-poster-subsystem-20XX.jpeg]]
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2019/2019-11-23-SUBSYSTEM20XX.webm" type="video/webm">
-</video>
-</figure>
+[[[!ipfs QmPpD7uLEDK7z3DUGCKNSqoaFGK1vrFKQFriYTLo1pgunT desc="Download raw from IPFS"]]]
 
 This may be the most fun I've ever had putting together a show; we had decided
 that BUSHMASTER would open and DJR3 would go on right after; this was the second
@@ -901,15 +839,7 @@ neo-rave; here's my setlist (in order):
 Aug 17, 2019 — Howler Presents...
 ---------------------------------
 
-[[Download](https://cdn.wesl.ee/DJR3/sets/2019/2019-08-17-howler-presents.mp4)]
-
-[[!img img/djr3-poster-howler-presents.jpeg]]
-
-<figure>
-<video preload=none controls>
-<source src="https://cdn.wesl.ee/DJR3/sets/2019/2019-08-17-howler-presents.mp4" type="video/mp4">
-</video>
-</figure>
+[[[!ipfs QmWosFFWVuTVTWFuoWvjXconj1E2KMszL8TxWBGcZ7Nkd3 desc="Download raw from IPFS"]]]
 
 This was the first set I ever played and the first really big party we threw;
 serious home-grown house party vibes contained in this grainy video.

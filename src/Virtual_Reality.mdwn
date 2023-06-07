@@ -3,9 +3,16 @@ VR is a hobby I only got into recently. A coworker let me borrow an Oculus Quest
 not play a lot of games before VR (the most I ever invested into a series was
 Pokémon Snap for the Nintendo 64) those first few weeks I was playing all sorts
 of different games and genres. A few months later once Quest 2 was announced I
-bought the headset outright and have never looked back.
+bought the headset outright and never looked back.
 
-On my Quest, you can bootleg games into the HMD itself (the Quest is meant to be
+<figure>
+<video width="300" autoplay muted loop controls>
+<source src="/vid/rez-infinite.mp4">
+</video>
+<figcaption>Playing Rez Infinite with my Quest 1 HMD</figcaption>
+</figure>
+
+On my Quest you can bootleg games into the HMD itself (the Quest is meant to be
 a standalone platform anyhow) and people have modded classic games like Doom and
 Half-Life 1 to be playable on the Quest. In particular, I played [Dr. Beef's
 Lambda 1 VR](https://www.lambda1vr.com/) mod for Half-Life 1 all the way
@@ -38,9 +45,9 @@ insanely fun, extremely fast game that feels, especially in VR, like a more
 immersive WipEout HD. I'm not nearly as good at BNG as I am at WipEout (maybe
 the bar in HD is lower) but this game is so so much fun at any skill level.
 
-One last game I'll call out is Garry's Mod, a game over 15 years old and not
-designed with VR in mind at all. Recently (around 2019 I think) a mod for
-Garry's Mod was developed by Catse called
+I'll also call out Garry's Mod, a game over 15 years old and not designed with
+VR in mind at all. Recently (around 2019 I think) a mod for Garry's Mod was
+developed by Catse called
 [VRMod](https://steamcommunity.com/sharedfiles/filedetails/?id=1678408548) and
 it's the most perfect thing we will get until Garry's Mod in Source 2.
 Essentially it adds VR capability into GMod, allowing a sandbox player to wear a
