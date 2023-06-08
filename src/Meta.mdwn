@@ -33,4 +33,4 @@ this same content on IPFS, only the wesl-ee.eth name is far easier to remember.
 I have this .eth domain name reserved until 2032 so you should have plenty of
 time to browse through the wiki (⌒▽⌒)☆
 
-[[!inline pages="Meta/All_Pages" rss="no"]]
+[[!inline pages="Meta/Recent_Posts" rss="no"]]

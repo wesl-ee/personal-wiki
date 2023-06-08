@@ -1,0 +1,20 @@
+Here's a breakdown of all pages on this wiki ordered by time of creation. This
+is definitely the least-cool way to browse the site; I find it more fun to just
+keep clicking on the blue links and wander around but this is provided to give
+less-accessible pages some visibility too.
+
+[[!inline  archive="yes" pages="*
+	and !(ikiwiki or ikiwiki/*)
+	and !*.*
+	and !img
+	and !vid
+	and !templates
+	and !recentchanges
+	and !smileys
+	and !wikiicons
+	and !shortcuts
+	and !Discover/*
+	and !index"
+]]
+
+
