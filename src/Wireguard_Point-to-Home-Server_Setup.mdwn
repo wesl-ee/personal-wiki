@@ -1,0 +1,123 @@
+[[!tag Peer_to_Peer_Networking]]
+
+Wireguard can provide secure connectivity to a home-server no matter where one
+is in the world. It is fine to run protocols like SMB and NFS over this tunnel
+because the channel is encrypted! Finally because Wireguard can run on a number
+of devices this can be used to network a phone, laptop, or even a remote
+workstation to a home-server, making network drives and services available.
+
+[[!img img/wireguard-android-cx-file-explorer.jpeg size="x500"]]
+
+I use Wireguard to access a single machine, not my entire LAN. I expose a
+handful of VMs on the `10.0.10.0/24` subnet to remote peers which are given
+addresses on the `10.0.20.0/24` subnet. This means I can isolate my filestorage
+VM from my IPFS node and other networked software I may not trust to run on the
+same machine.
+
+The server that runs Wireguard also handles the packet forwarding with this file:
+
+[[!syntax type="systemd" text="""
+# [root@home-server /]# cat /etc/systemd/network/30-wired.network
+[Match]
+Name=enp5s0
+
+[Network]
+Address=10.0.10.2/24
+
+[Route]
+Gateway=10.0.10.1
+Destination=10.0.10.0/24
+"""]]
+
+Make sure to set `net.ipv4.ip_forward=1` in sysctl otherwise packets will not be
+forwarded to anything in the `10.0.10.0/24` subnet.
+
+Server Setup
+------------
+
+On the server where I run Wireguard and on each remote device I wish to network to
+that server I generate Wireguard private key like this:
+
+[[!syntax type="bash" text="""
+wesl-ee@air2earth ~ > (umask 077; wg genkey > out.key)
+wesl-ee@air2earth ~ > wg pubkey < out.key > out.pub
+"""]]
+
+On the server I copy the private key just generated and use it to complete the Wireguard config file
+which I store in `/etc/wireguard/wg0.conf`. Notice that each peer I plan to
+allow to access the server gets its own `[Peer]` section which details its
+public key and its static IP.
+
+[[!syntax text="""
+# [root@home-server /]# cat /etc/wireguard/wg0.conf
+[Interface]
+Address = 10.0.20.1/24
+ListenPort = 51871
+PrivateKey = <HOME SERVER PRIVATE KEY>
+
+# air2earth
+[Peer]
+PublicKey = 4TtXu4l8gXyF4MrwlT/PjUBudzt/rvby0IPgtQrgpzw=
+AllowedIPs = 10.0.20.100/32
+
+# win10 (divinity)
+[Peer]
+PublicKey = bEYTG4o7aCtFFck+2OG6979Iiv069eoo9tUZlR1eXxs=
+AllowedIPs = 10.0.20.101/32
+
+# dry-your-eyes
+[Peer]
+PublicKey =  nHcvdFsRSg3SuktoJBMbtyHgOKkWI7iB+Wktc/zNHWk=
+AllowedIPs = 10.0.20.102/32
+
+# particle-arts (Macbook)
+[Peer]
+PublicKey = jTDK8OT53HbefiDSO+L/rs3HxK23sjNEwrAmwHHLi1I=
+AllowedIPs = 10.0.20.103/32
+
+# nixos (divinity)
+[Peer]
+PublicKey = GQc4uVjH72axOP3DAjt/Z1bpoUkgOFd5113WgyM1UTw=
+AllowedIPs = 10.0.20.104/32
+"""]]
+
+Remote Hosts Setup
+------------------
+
+On the client things look similar except only one `[Peer]`, the server
+configured above, is used. Generate a private key for each machine in the same
+way one was generated on the server.
+
+[[!syntax text="""
+# [root@air2earth:/]# cat /etc/wireguard/wg0.conf
+[Interface]
+Address = 10.0.20.100/24
+PrivateKey = <REMOTE HOST PRIVATE KEY>
+
+[Peer]
+PublicKey = 5xodOxP3JGfj9bqysb+/lg0UUSK7ig27flLlT5+1dRI=
+AllowedIPs = 10.0.20.1/32, 10.0.10.0/24
+Endpoint = <HOME SERVER PUBLIC IP>:51871
+"""]]
+
+Usage
+-----
+
+With Wireguard configured and hopefully running, one should be able to ping the
+home-server IP on the Wireguard subnet, ie `10.0.20.1`. Additionally `10.0.10.2`
+should be reachable if packet forwarding has been activated through sysctl.
+
+As mentioned above I use this as a secure way to access SMB + NFS shares
+remotely. This is an NFSv4 configuration while only allows Wireguard hosts to
+access shares:
+
+[[!syntax type="exports" text="""
+# [root@home-server ~]$ cat /etc/exports
+/srv/nfs 10.0.20.0/24(rw,sync,crossmnt,fsid=0)
+/srv/nfs/steam 10.0.20.0/24(rw,sync,all_squash,anonuid=65534,anongid=65534)
+/srv/nfs/public 10.0.20.0/24(rw,sync,all_squash,anonuid=65534,anongid=65534)
+/srv/nfs/personal 10.0.20.0/24(rw,sync,all_squash,anonuid=65534,anongid=65534)
+"""]]
+
+Because I am the only one using these shares I squash the UIDs + GIDs of new
+files to simply be `nobody:nobody`.
