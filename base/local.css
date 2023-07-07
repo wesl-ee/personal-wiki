@@ -167,35 +167,35 @@ ul .twitter, ul .linkedin, ul .github, ul .website, ul .fediverse {
 	display: inline-block;
 }
 ul .website:before {
-	content: url('/wikiicons/article.svg');
+	content: url('wikiicons/article.svg');
 	margin: 0 10px;
 	display: inline-block;
 	width: 1em;
 	color: #6a737d;
 }
 ul .fediverse:before {
-	content: url('/wikiicons/fediverse.svg');
+	content: url('wikiicons/fediverse.svg');
 	margin: 0 10px;
 	display: inline-block;
 	width: 1em;
 	color: #6a737d;
 }
 ul .linkedin:before {
-	content: url('/wikiicons/work.svg');
+	content: url('wikiicons/work.svg');
 	margin: 0 10px;
 	display: inline-block;
 	width: 1em;
 	color: #6a737d;
 }
 ul .github:before {
-	content: url('/wikiicons/github.svg');
+	content: url('wikiicons/github.svg');
 	margin: 0 10px;
 	display: inline-block;
 	width: 1em;
 	color: #6a737d;
 }
 ul .twitter:before {
-	content: url('/wikiicons/twitter.svg');
+	content: url('wikiicons/twitter.svg');
 	margin: 0 10px;
 	display: inline-block;
 	width: 1em;

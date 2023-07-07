@@ -5,7 +5,7 @@ simply as [[Me]] （⌒▽⌒） I built a lot of
 building in the TradFi space through Nasdaq's [Digital
 Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 <figure class=profile>
-<img src="/img/avi.jpeg">
+<img src="img/avi.jpeg">
 <figcaption>
 Afront my [['97 BMW 318ti|BMW_318ti]]<ul class=net-presence>
 <li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
