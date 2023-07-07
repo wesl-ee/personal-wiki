@@ -9,6 +9,7 @@ Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 <figcaption>
 Afront my [['97 BMW 318ti|BMW_318ti]]<ul class=net-presence>
 <li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
+<li class=fediverse><a href="https://tldr.wesl.ee/users/wesl-ee">Fediverse</a></li>
 <li class=github><a href="https://github.com/wesl-ee">GitHub</a></li></ul></figcaption>
 </figure>You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
 only one with write-access so all opinions are my own and all information here
