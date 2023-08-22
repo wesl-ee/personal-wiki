@@ -3,10 +3,13 @@
 <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core@5.1.5/index.min.js"></script>
 
-My workspace is where I sit to type stuff when I'm at home. My biggest
-accomplishment with my workspace that I built the desk myself, but was so
-excited to finally have a meaningfully large desk that I didn't set aside time
-to stain it.
+My workspace is where I sit to type stuff when I'm at home. In my current
+workspace I built the desk myself but I was so excited to finally have a
+meaningfully large desk that I didn't set aside time to stain it.
+
+I have a [fuller gallery](https://gallery.wesl.ee/gallery/Workspace) with
+pictures of the places I have worked over the years which I maintain on a
+separate site.
 
 <figure>
 <div id="viewer-2022" style="width: 100vw; height: 100vh;"></div>

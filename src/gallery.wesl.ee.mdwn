@@ -1,0 +1,6 @@
+[gallery.wesl.ee](https://gallery.wesl.ee/gallery) points to an instance of
+[pigallery2](https://github.com/bpatrik/pigallery2) running on a Kubernetes
+cluster in my home. It is the first meaningful project I am running on
+Kubernetes which I've begun in earnest to use in order to learn it more
+intimately than interacting with it in a managed cloud environment like AWS EKS.
+

@@ -8,7 +8,8 @@ driving and caring for this car.
 [[!img img/318ti-coliseum.jpeg size="500x"]]
 [[!img img/318ti-rear.jpeg size="500x"]]
 
-Here's a little writing about work I've done on the 318ti:
+I keep a [little gallery of the car](https://gallery.wesl.ee/gallery/E36)
+online. Below is a little writing about work I've done on this 318ti:
 
 [[!inline pages="BMW_318ti/Work" rss="no"]]
 

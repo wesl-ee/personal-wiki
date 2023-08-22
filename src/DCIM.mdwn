@@ -1,0 +1,17 @@
+I take pictures with my phone like a plebian. I *want* a DSLR camera but
+I'm very uninformed about which I should buy and whether I should research
+a good mirrorless model instead of a DSLR. Additionally I'm not sure if I will
+enjoy toting a heavy camera around my neck (or in a bag) just to get some good
+snaps.
+
+[[Vacationing in Tōkyō this Summer|Tokyo_23]] one of my friends brought along his
+DSLR camera and I was extremely impressed with the picture quality. Phones
+cannot compete against even an entry-level camera because of the physical
+restraints on lens length and accuracy in smartphones.
+
+DCIM Gallery
+------------
+
+I host a curated set of pictures I have taken or have been involved in the
+process on a subdomain, [gallery.wesl.ee](https://gallery.wesl.ee/gallery). It
+even has its own page about it on this wiki, [[gallery.wesl.ee]]

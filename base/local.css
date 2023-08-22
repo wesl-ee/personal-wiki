@@ -283,7 +283,7 @@ figure.profile img {
 .synStatement { color: green }
 .synType { color: purple }
 
-a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"] {
+a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"] a[href^="https://gallery.wesl.ee/pgapi/gallery"] {
 	display: block;
 	background-image: none !important;
 	background-size: none !important;
