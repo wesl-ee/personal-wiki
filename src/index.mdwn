@@ -7,11 +7,27 @@ Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 <figure class=profile>
 <img src="img/avi.jpeg">
 <figcaption>
-Afront my [['97 BMW 318ti|BMW_318ti]]<ul class=net-presence>
-<li class=twitter><a href="https://twitter.com/wesl_ee">Twitter</a></li>
-<li class=fediverse><a href="https://tldr.wesl.ee/users/wesl-ee">Fediverse</a></li>
-<li class=github><a href="https://github.com/wesl-ee">GitHub</a></li></ul></figcaption>
-</figure>You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
+Afront my [['97 BMW 318ti|BMW_318ti]]</figcaption></figure>
+
+<table class=no-border>
+<th colspan=2>Net Presence</th></tr>
+</td>
+    <th>Fediverse</th>
+    <td><a href="https://tldr.wesl.ee/users/wesl-ee">@wesl-ee@tldr.wesl.ee</a></td>
+</tr><tr>
+    <th>Matrix</th>
+    <td><a href="https://matrix.to/#/@wesl-ee:chat.wesl.ee">@wesl-ee:chat.wesl.ee</a></td>
+</tr><tr>
+<th colspan=2>&vellip;<br/>Centralized Services Powergap<br/>&vellip;</th>
+</tr><tr>
+    <th>Github</th>
+    <td><a href="https://github.com/wesl-ee">@wesl-ee</a></td>
+</tr><tr>
+    <th>Twitter</th>
+    <td><a href="https://twitter.com/wesl_ee">@wesl_ee</a></td>
+</tr></table>
+
+You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
 only one with write-access so all opinions are my own and all information here
 can only be as correct as I am; this site is generated with love and [[!iki
 ikiwiki]] and collects much of my writing, ranging from full-length write-ups to

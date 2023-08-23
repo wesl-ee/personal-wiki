@@ -5,14 +5,24 @@ less-accessible pages some visibility too.
 
 [[!inline  archive="yes" pages="*
 	and !(ikiwiki or ikiwiki/*)
-	and !*.*
+	and !Recent_Posts
 	and !img
+	and !img/*
+	and !*.css
+	and !*.tmpl
+	and !*.js
 	and !vid
+	and !vid/*
+	and !pubkey.txt
+	and !favicon.ico
 	and !templates
 	and !recentchanges
 	and !smileys
+	and !smileys/*
 	and !wikiicons
+	and !wikiicons/*
 	and !shortcuts
+	and !shortcuts/*
 	and !Discover/*
 	and !index"
 ]]
