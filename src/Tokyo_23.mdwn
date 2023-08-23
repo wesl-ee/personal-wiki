@@ -191,18 +191,21 @@ people than just me and Bakesta.
 ---
 
 I spend most of the next day buying dōjin at various book shops. [[Rāmen|Ramen]]
-at a novel crowded joint for dinner.
+at a novel crowded joint in Ueno for dinner.
 
 <figure>
 <a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_184536.jpg">
 <img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_184536.jpg/thumbnail" />
 </a>
 </figure>
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_185348.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_185348.jpg/thumbnail" />
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_185351.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_185351.jpg/thumbnail" />
 </a>
-</figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_190758.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_190758.jpg/thumbnail" />
+</a>
+</div></figure>
 
 That night a small group of us ventured all the way out to Shinjuku because I saw
 a flyer for a DJ associated with Denonbu/電音部 playing at a new Namco arcade
@@ -211,11 +214,14 @@ dumped their arcade locations on GiGo. Anyhow there were no interesting cabinets
 arcade at all, you could hardly call it an arcade, but the music and atmosphere
 was otherworldly.
 
-<figure>
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200452.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200452.jpg/thumbnail" />
+</a>
 <a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200918.jpg">
 <img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200918.jpg/thumbnail" />
 </a>
-</figure>
+</div></figure>
 
 That, mind you, is someone filleting a tuna in front of a crowd, while someone
 cues music in front of 2 analog decks, 2 CDJs and a mixer. A tuna. I have no
