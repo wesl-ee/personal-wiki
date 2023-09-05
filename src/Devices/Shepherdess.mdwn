@@ -1,3 +1,5 @@
+[[!tag Personal_Device]]
+
 Shepherdess is the name of my present desktop. Gradually it was assembled from the
 remains of [[Spitfire]] but is now a new machine entirely. It is a level 1
 hypervisor using Arch Linux (btw) as the host and running any number of virtual
