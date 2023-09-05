@@ -9,7 +9,7 @@ the chassis gives me no doubt how this laptop ended up in this shop.
 <a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181206_145649.jpg">
 <img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181206_145649.jpg/thumbnail" />
 </a>
-<figcaption>MSP430 microcontrolled connected to the x240 during the final for an [[Introduction to Embedded
+<figcaption>MSP430 microcontroller connected to the x240 during the final for an [[Introduction to Embedded
 Systems|Embedded_Systems_ECE306]] course in
 [[NCSU's||North_Carolina_State_University]] Engineering Building 2
 atrium</figcaption>
