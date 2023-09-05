@@ -1,0 +1,49 @@
+Shepherdess is the name of my present desktop. Gradually it was assembled from the
+remains of [[Spitfire]] but is now a new machine entirely. It is a level 1
+hypervisor using Arch Linux (btw) as the host and running any number of virtual
+machines on top of it, passing through the GPU to those machines which I use as
+full-blown desktops.
+
+You can see this desktop in the most recent photospheres of my [[Workspace]].
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2023-05-09-23:06:25-snip.png">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2023-05-09-23:06:25-snip.png/thumbnail" />
+</a>
+</figure>
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220905_042219659.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220905_042219659.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220114_043917397~2.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220114_043917397~2.jpg/thumbnail" />
+</a>
+</div></figure>
+
+Sometimes I get in trouble with anti-cheat engines for running on a hypervisor.
+Present virtual machines running on top of shepherdess with periphieral passthrough
+(including GPU) include:
+
++ NixOS, for most stuff (hostname “divinity”)
++ Windows 10, for VR games because I have an HTC Vive Pro 2 with no Linux support
++ Windows ME, for fun!
+
+Present hardware specs are as below:
+
++ MSI NVIDIA RTX 3090 (formerly an FE RTX 3070) GPU
++ Intel i9-11900K CPU
++ 80GiB RAM
++ 2〜3 16:9 monitors with only the center one placed landscape
+
+Absurd RAM and GPU needed for local AI imagegen + textgen.
+
+Because this is a hypervisor I don't run any desktop environment on the
+bare-metal. But here is how my Linux box is configured on top of this
+hypervisor:
+
++ NixOS + home-manager (formerly Gentoo)
++ awesomewm as a window manager on X11
++ alacritty as a terminal emulator
++ mpd + ncmpcpp for music playback through
++ stable-diffusion-webui for AI imagegen
++ text-generation-webui for AI textgen

@@ -1,0 +1,45 @@
+Spitfire was the name of the desktop I used throughout most of college. Spitfire
+eventually morphed into [[Shepherdess]] which like the Ship of Theseus is now a new
+machine entirely after having every part replaced over time.
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2019-01-31_01:31:15_scrot.png">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2019-01-31_01:31:15_scrot.png/thumbnail" />
+</a>
+</figure>
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20171225_204914.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20171225_204914.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190114_145551.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190114_145551.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190224_203311.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190224_203311.jpg/thumbnail" />
+</a>
+</div></figure>
+
+While using the name “spitfire” these were the machine's specs:
+
++ Intel Core i5-4590 CPU
++ Radeon 5850 GPU
++ 8GiB RAM
++ 1TiB HDD
++ HAF 912 case
++ 2 Dell 4:3 monitors (2560x1024)
++ Unicomp PC 122 Buckling Spring “Model M” keyboard
+
+*Aside: my first step into [[cryptocurrency|Digital_Money]] was mining Dogecoin with that beast of
+a GPU in January 2014. I donated my first bag of coins to the [Jamaican bobsled
+team](https://www.reddit.com/r/dogecoin/comments/1virfc/lets_send_the_jamaican_bobsled_team_to_the_winter)
+and the [NASCAR
+sponsporship](https://www.reddit.com/r/dogecoin/comments/21c5xq/doge4nascar_is_funded/).*
+
+Software workflow on this machine involved the following programs:
+
++ Gentoo Linux
++ dwm as an X11 window manager
++ urxvt as a terminal emulator
++ JoE (Joe's Own Editor) as text editor
++ mpd + ncmpc for playing music through Pulseaudio
