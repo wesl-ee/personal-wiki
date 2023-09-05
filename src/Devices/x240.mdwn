@@ -1,0 +1,34 @@
+[[!tag Personal_Device Japan]]
+
+This laptop is a Lenovo x240 I bought while studying in Japan at
+[[Sophia_University]] from one of the shrinking number of hobbyist electronic
+shops in Akihabara. The fact that the Kensington security lock is ripped out of
+the chassis gives me no doubt how this laptop ended up in this shop.
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181206_145649.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181206_145649.jpg/thumbnail" />
+</a>
+<figcaption>MSP430 microcontrolled connected to the x240 during the final for an [[Introduction to Embedded
+Systems|Embedded_Systems_ECE306]] course in
+[[NCSU's||North_Carolina_State_University]] Engineering Building 2
+atrium</figcaption>
+</figure>
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181219_194519.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181219_194519.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180726_001845.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180726_001845.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190729_224422.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190729_224422.jpg/thumbnail" />
+</a></div>
+<figcaption>Profile of the Kensington lock (middle) and using the computer in
+several other places (left and right)</figcaption>
+</figure>
+
+Unfortunately the keyboard's “s” key stopped working making necessary the
+replacement of the entire keyboard. Because the Japanese keyboard was probably
+the only reason I bought this computer I decided to retire the x240 after this
+mishap.

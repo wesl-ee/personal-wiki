@@ -1,0 +1,102 @@
+[[!tag Personal_Device]]
+
+wonder-pop is a Lenovo X61 tablet and is what I consider my “daily” laptop. I
+don't take it with me when I travel because it's hefty (about 3.75 pounds).
+Additionally it has about 50 minutes of battery life meaning that it's more akin
+to a “mobile desktop” than anything else, though this battery life will likely
+2x once I upgrade its battery, and unintentionally its weight.
+
+<table class=no-border>
+<tr>
+  <td colspan=2 class=spread-img>
+    <figure>
+    <a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20230905_151917.jpg">
+    <img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20230905_151917.jpg/thumbnail" />
+    </a>
+    </figure>
+  </td>
+</tr>
+<tr>
+<th>Compute</th>
+<td>Intel Core 2 Duo L7500 (1.6GHz) CPU</td>
+</tr><tr>
+<th>Memory</th>
+<td>4GiB PC2-5300 RAM</td>
+</tr><tr>
+<th>Display</th>
+<td>1024 x 768 (4:3)</td>
+</tr><tr>
+<th/>
+<td>12.1" tablet “touchscreen”</td>
+</tr><tr>
+<th/>
+<td></td>
+</tr><tr>
+<th>Auxillary</th>
+<td>Fingerprint reader</td>
+</tr><tr>
+<th/>
+<td>Rotating + fold-down Wacom tablet screen</td>
+</tr><tr>
+<th/>
+<td>Bluetooth 2.0 chip</td>
+</tr>
+</tr><tr>
+<th/>
+<td>SD Card slot</td>
+</tr><tr>
+<th/>
+<td>Firewire 400 port</td>
+</tr><tr>
+<th/>
+<td>Cardbus (type 2) slot</td>
+</tr>
+</table>
+
+This computer was [[North_Carolina_State_University]] surplus equipment and was
+sold to me for $10 in August 2018. I keep the original surplus equipment price
+tag on the back though it's quite faded now.
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20200302_141744.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20200302_141744.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190417_122827.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190417_122827.jpg/thumbnail" />
+</a></div>
+<figcaption>My X61 Tablet in a lecture hall in
+[[NCSU's|North_Carolina_State_University]] Engineering Building 3 (left) and next to my Japanese [[x240]] (right)</figcaption>
+</figure>
+
+Additionally I own an X6 Tablet Ultrabase which docks to the bottom of this
+tablet and which extends the functionality to include:
+
++ (1) serial port
++ (1) parallel port
++ (1) additional VGA port
++ (4) extra USB ports
++ Optical disk drive (MATSHITA UJDA775)
++ (1) additional RJ-11 (telephone) jack
++ (1) additional RJ-45 (ethernet) jack
+
+The tablet functionality has been really nice working with my
+[[318ti|BMW_318ti]]. I can fold the computer in half and lay it in the passenger
+seat while still on and connected to my OBD-II port in the cabin, scraping
+real-time data from the ECU as the car pushes the tachometer through its range.
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200813_174725.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200813_174725.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220422_191254536_1.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220422_191254536_1.jpg/thumbnail" />
+</a>
+</div></figure>
+
+The serial port is necessary to access further modules within this E36 unless
+one jumps some pins in the 20-pin Pacman connector under the hood. A K+DCAN tool will
+do this without needing to jump those pins too. Modules which are inaccessible
+are things like the instrument cluster, airbags, ABS + traction control and the
+“comfort” features like making headlights flash during key FOB activation and
+other small things like this which are programmed with NCSExpert coding.
+
