@@ -13,18 +13,18 @@ Afront my [['97 BMW 318ti|BMW_318ti]]</figcaption></figure>
 <th colspan=2>Net Presence</th></tr>
 </td>
     <th>Fediverse</th>
-    <td><a href="https://tldr.wesl.ee/users/wesl-ee">@wesl-ee@tldr.wesl.ee</a></td>
+    <td><a href="https://tldr.wesl.ee/users/wesl-ee" rel="me">@wesl-ee@tldr.wesl.ee</a></td>
 </tr><tr>
     <th>Matrix</th>
-    <td><a href="https://matrix.to/#/@wesl-ee:chat.wesl.ee">@wesl-ee:chat.wesl.ee</a></td>
+    <td><a href="https://matrix.to/#/@wesl-ee:chat.wesl.ee" rel=me>@wesl-ee:chat.wesl.ee</a></td>
 </tr><tr>
 <th colspan=2>&vellip;<br/>Centralized Services Powergap<br/>&vellip;</th>
 </tr><tr>
     <th>Github</th>
-    <td><a href="https://github.com/wesl-ee">@wesl-ee</a></td>
+    <td><a href="https://github.com/wesl-ee" rel="me">@wesl-ee</a></td>
 </tr><tr>
     <th>Twitter</th>
-    <td><a href="https://twitter.com/wesl_ee">@wesl_ee</a></td>
+    <td><a href="https://twitter.com/wesl_ee" rel="me">@wesl_ee</a></td>
 </tr></table>
 
 You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
