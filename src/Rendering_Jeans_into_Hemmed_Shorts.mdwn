@@ -1,0 +1,167 @@
+[[!tag Aesthetics]]
+
+Recently I've found myself in the care of a Singer “Zig-zag” Sewing Machine
+Model 247 from the mid-70s built into a table. I'm not a fan of the aesthetics
+of the enclosure as it has all the appearances of a cabinet without the drawers
+part. If I was designing this I'd rather just not have an ornate handle on the
+front at all (because it's not a drawer) but I'm not one to turn down a free
+sewing machine. The copyright date on the manual is 1975.
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230723_040036.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230723_040036.jpg/thumbnail" />
+</a>
+</figure>
+
+I learned everything I could about sewing by reading. It was intimidating at
+first but opening the machine up, cleaning it out and lubricating the moving
+parts taught me some about how it works internally. After running a few test
+patches through I decided to take on a few concrete projects, the first of these
+being simply hemming existing clothes.
+
+A well-done alteration can completely change how something looks on your body.
+You can go from baggy and shapeless to neat and polished in few stitches.
+Hemming also allows you to repurpose clothes and tailor them to suit your needs.
+
+In celebration of this helpful diagram for men's summer style I settled on first
+repurposing old jeans into new denim shorts.
+
+[[!img img/mens-summer-shorts-guide.jpeg size=400x]]
+
+I'm a fan of shorts of the 80s; I know a lot of people are not. I think people
+deserve to show off their muscle tone where they've got it because I understand
+a lot of work goes into maintaining body aesthetics, especially beyond the early
+20s. And I think what they turned basketball shorts into is a tragedy. I'm also
+gay so this is far from objective.
+
+I don't even mind the shorts that are core to any femboy's aesthetic (see the
+above diagram). I own a few pairs of shorts like this and I can tell you the
+fabric is thin and the construction is poor and their half-life is measured in
+months. Nobody makes men's shorts like they used to.
+
+No matter my disapproving opinions on the evolution of men's hemlines, I'm here
+to craft my own clothes. For this project I used the following materials. As it
+happens this is just a good collection of sewing material to own anyway for
+other basic projects too.
+
++ Sewing machine
+    + Needle
+    + Bobbin
+    + Enough thread matching the fabric being hemmed
++ Fabric shears
++ Pins
++ Iron + board for pressing hems
++ Jeans which fit me at the waist (legs not important)
+
+I had to buy my jeans from a Goodwill because I honestly haven't worn
+full-length, regular denim jeans since probably high-school.
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_012539.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_012539.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230820_010555.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230820_010555.jpg/thumbnail" />
+</a>
+</div><figcaption>Before (left) and after (right) of the Denim
+Demolition Derby</figcaption></figure>
+
+The bottom pair in the above “after” image sports a “raw edge” which I did not hem
+while the top pair is hemmed using a straight stitch. The fraying on the bottom
+pair happened naturally after a few cycles in the washer and dryer but looked
+kinda dorky before it really begin to fray.
+
+With my new pairs of jeans I measured down to the length I wanted. Using fabric
+chalk I marked down to about where my knuckles rest against my leg when standing
+straight up meaning these shorts would have about a 2.5-inch inseam. I then
+marked 1 inch below that, folded the jeans over and cut the legs off at that
+spot, making an initial 3.5-inch inseam.
+
+This is necessary to cuff the raw edge for the hem.
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193917.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193917.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193558.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193558.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_194143.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_194143.jpg/thumbnail" />
+</a>
+</div><figcaption>Black denim jeans at a 3.5-inch inseam after being cut but before being
+hemmed, note the frays already showing at the edge</figcaption></figure>
+
+Now, you can either leave them as they are (“raw edge”) or hem them if you
+prefer. For one pair I decided to leave them unhemmed just to see how they fray.
+I settled on hemming the other two pairs.
+
+To create the hem I turned the new cutoffs inside out then folded the legs up a
+half-inch, then folded them over again another half-inch to the first line I
+marked at 2.5-inch inseam. The reason for folding twice is so that the raw edge
+does not fray and is safely tucked under a layer of fabric. I plugged in my iron
+and pressed the folds flat, then pinned them to make sure they would not move
+while stitching the hem.
+
+The bobbin in my Singer was already loaded with white thread I used while
+practicing on a test patch of denim so I kept it in there and threaded the
+needle with black fabric. Bobbin color doesn't matter because it only appears on
+the reverse of the fabric.
+
+Turning the dial on the sewing machine once towards you will begin the stitch.
+I backstitch some before moving around the leg just to increase the strength of
+the beginning of the stitch.
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_211440.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_211440.jpg/thumbnail" />
+</a>
+<div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_195814.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_195814.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_021008.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_021008.jpg/thumbnail" />
+</a>
+</div><figcaption>Stitching in-progress</figcaption></figure>
+
+My machine is controlled by a foot-pedal allowing me to drive the belt with
+variable speed. I made sure that the fabric stayed taut by holding onto both
+ends as I worked my way down each side, pivoting the workpiece around the bottom
+corner, then up the other side, all the while keeping an eye out for any puckers
+or pleats in the fabric caused by irregularities in its weave or uneven
+stretching.
+
+Once both legs are hemmed cut away any excess thread and press the hems with an
+iron to strengthen the stitch.
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204424.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204424.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204448.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204448.jpg/thumbnail" />
+</a>
+</div><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204842.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204842.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230826_152825.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230826_152825.jpg/thumbnail" />
+</a>
+</div>
+<figcaption>Final products, puppy not included</figcaption></figure>
+
+I really like how the pockets show past the cuff on the hemmed blue denim pair.
+They are comically deep pockets, women's pants typically don't sport these by
+the way.
+
+This project was simple enough to complete in one sitting and gave me a chance
+to practice using my “new” machine while also giving me a useful new addition to
+my summer closet. Now I have one more pair of shorts to wear. I feel confident
+that I can take on more complex projects in the future. I'll keep practicing and
+experimenting with fabrics and patterns to develop my skills even further. Soon
+I'll try my hand at designing and making my own clothes. I'm glad to know the
+basics of sewing and to be able to fix clothing and alter garments to better fit
+me.
+
