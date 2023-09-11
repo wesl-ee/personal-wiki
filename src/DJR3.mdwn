@@ -12,6 +12,7 @@ these these non-exclusive genre tags:
 + French House
 
 <figure class="image-square">
+[[!img img/djr3-ashpocalypse.jpeg size=500x]]
 [[!img img/djr3-poster-howlar-space.jpeg size=500x]]
 [[!img img/djr3-millennium-strike-ep7.jpeg size=500x]]
 [[!img img/djr3-poster-synesthesia-009.jpeg size=500x]]
@@ -35,6 +36,35 @@ expressely for this, if only because I was curious if it could be done. It *can*
 be done and I have done it many times.
 
 Here are all videos of the sets I have played which I have archived:
+
+August 29, 2023 — ASHPOCALYPSE
+------------------------------
+
+[Watch on YouTube](https://youtu.be/Aqwmoz66urQ)
+
+VRChat AR/VR DJ set. I am performing in real-time in VRChat and also wrote the
+Unity plugin for the view you see on the video. My clothes are from Kingly Mask
+in Harajuku, Tōkyō, which I acquired during [[this trip to Tōkyō in
+2023|Tokyo_23]].
+
+[[!img img/djr3-ashpocalypse.jpeg]]
+
+01. Tevvez — Virtual Self — Ghost Voices (Hardstyle Remix)
+02. Arianna — Strange B3ast (x mionn)
+03.  BWBO —「 P H Y S A 」— dontstop
+04. NXC131 — DOG BLOOD — TURN OFF THE LIGHTS (djX NXC RAVE TRIP)
+05. ☆puppy☆ — lick it
+06. Britney Spears — Toxic (Nightcore)
+07. Yurkyu — Let's Get Physical
+08. Klubbheads — Bambooze
+09. Mqx — Next 2 Me
+10. Mqx — Next to Me
+11. OMY — Origin
+12. Skeler — Arcadia (Heimanu Remix)
+13. Yurkyu — BULLEETTPROOOF
+14. PLURGATTI BOY 420 — SKRILLEX — RUMBLE (FEAT ISOXO AND EXCISION)
+15. RITMADINHA DANÇANTE · DJ GUDOG · (EXTREME BASS)
+16. S3RL — Bass Slut (KINN Remix)
 
 Apr 15, 2023 — HOWLAR.SPACE
 ---------------------------
