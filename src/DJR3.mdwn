@@ -12,7 +12,7 @@ these these non-exclusive genre tags:
 + French House
 
 <figure class="image-square">
-[[!img img/djr3-ashpocalypse.jpeg size=500x]]
+[[!img img/djr3-ashpocalypse-poster.jpeg size=500x]]
 [[!img img/djr3-poster-howlar-space.jpeg size=500x]]
 [[!img img/djr3-millennium-strike-ep7.jpeg size=500x]]
 [[!img img/djr3-poster-synesthesia-009.jpeg size=500x]]
@@ -40,7 +40,7 @@ Here are all videos of the sets I have played which I have archived:
 August 29, 2023 — ASHPOCALYPSE
 ------------------------------
 
-[Watch on YouTube](https://youtu.be/Aqwmoz66urQ)
+[[Watch on YouTube](https://youtu.be/Aqwmoz66urQ)]
 
 VRChat AR/VR DJ set. I am performing in real-time in VRChat and also wrote the
 Unity plugin for the view you see on the video. My clothes are from Kingly Mask
