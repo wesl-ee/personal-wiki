@@ -99,8 +99,7 @@ section#content .longlink {
 a { text-decoration: none }
 a { color: blue; transition: color .2s }
 a:hover { color: red }
-section#content p a[href^="."],
-section#content figcaption a[href^="."] {
+section#content a[href^="."] {
 	background-image: linear-gradient(blue, blue);
 	padding: .2ch .5ch;
 	background-position: 0 100%;
@@ -312,7 +311,7 @@ a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"], a[href^="https:
 		border-color: white;
 	}
 	a { color: cyan; }
-	section#content p a[href^="."], section#content figcaption a[href^="."] {
+	section#content a[href^="."] {
 		background-image: linear-gradient(cyan, cyan);
 		color: black;
 	}
