@@ -1,0 +1,152 @@
+[[!meta title="On-Prem (Home Lab) Kubernetes"]]
+
+I'm <span class=trans-text>transitioning</span> some of my hosted services
+running on a home-server to running as workloads on a Kubernetes cluster where
+they were previously ran as simple daemons on the same machine. Here are some
+workloads I run on this cluster at the moment.
+
+- [pigallery2](https://github.com/bpatrik/pigallery2)
+- [pihole](https://github.com/pi-hole/pi-hole)
+- [raamen](https://github.com/wesl-ee/raamen)
+
+For instance, [gallery.wesl.ee](https://gallery.wesl.ee) points to my deployment
+of pigallery2 running on this cluster.
+[public-demo.raamen.org](https://public-demo.raamen.org) resolves to a demo
+instance of my own barebones file-server which I originally wrote in PHP years
+ago.
+
+Setup
+-----
+
+This is all running on one physical machine presently on a bookcase in my room;
+each new node in the cluster and its resources is provisioned as a VM under
+libvirt. I used Arch (btw) for the VM OS but only because it's simple to set up
+Kubernetes and less fuss to get working than NixOS which is my go-to for my
+other computers (btw).
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220412_070924792_1.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220412_070924792_1.jpg/thumbnail" />
+</a>
+</figure>
+
+There are four different VMs I provisioned under libvirt that carry out the
+functions of this cluster.
+
++ `kmaster` (10.0.10.5) hosts the control plane
++ `knode-1` (10.0.10.6) is a worker node
++ `db` (10.0.10.3) is running an instance of postgres
++ `share` (10.0.10.2) is hosting an NFSv4 network share
+
+I run nginx on the hypervisor itself and use this as a bootleg ingress gateway
+for now. Each of these VMs uses a static IP and is connected to a bridge called
+`br1` which is the same bridge I set up when configuring my
+[[Wireguard_Point-to-Home-Server_Setup]]. This lets me easily access my cluster
+directly when I am connected to the Wireguard tunnel. Master and worker nodes
+are additionally given access to `br0` which connects those VMs to the Internet
+directly, for pulling images from public repositories.
+
+When actually configuring Kubernetes I used `kubeadm` to make things easier for
+myself. In the grand scheme of Kubernetes tooling `kubeadm` is still quite
+low-level and still affords much control over the cluster. As we'll see it
+doesn't even facilitate pod-to-pod communication (we will need a CNI like
+Flannel for this). Execute the below on the control-plane node `kmaster`.
+
+[[!syntax text="""
+root@kmaster ~ > pacman -S kubectl kubeadm kubelet containerd cni-plugins
+root@kmaster ~ > echo overlay >> /etc/modules-load.d/k8s.conf
+root@kmaster ~ > echo br_netfilter >> /etc/modules-load.d/k8s.conf
+root@kmaster ~ > echo 'net.bridge.bridge-nf-call-iptables = 1' >> /etc/sysctl.d/k8s.conf
+root@kmaster ~ > echo 'net.bridge.bridge-nf-call-ip6tables = 1' >> /etc/sysctl.d/k8s.conf
+root@kmaster ~ > echo 'net.ipv4.ip_forward = 1' >> /etc/sysctl.d/k8s.conf
+root@kmaster ~ > sysctl --system
+root@kmaster ~ > systemctl start containerd && systemctl enable containerd
+root@kmaster ~ > kubeadm init --cri-socket /run/containerd/containerd.sock \
+                     --apiserver-advertise-address=10.0.10.5 \
+                     --pod-network-cidr='10.244.0.0/16'
+root@kmaster ~ > systemctl start kubelet && systemctl enable kubelet
+"""]]
+
+Save the command output by `kubeadm init` which will need to be run on nodes
+wishing to join this cluster. Now copy `/etc/kubernetes/admin.conf` from
+`kmaster` to the local machine at `~/.kube/config` to administrate this cluster
+remotely.
+
+I found it necessary to edit `/etc/kubernetes/kubelet.env` to include the line
+`KUBELET_ARGS=--node-ip=10.0.10.5` for the master and
+`KUBELET_ARGS=--node-ip=10.0.10.6` for the worker node in order for the correct
+IP address to be advertised; without this I could not open a remote shell to pod
+running on a node.
+
+On `knode-1` I run the same set of commands except for `kubeadm init` where I
+instead run the command printed during `kubeadm init` to actualy join the node
+to the cluster.
+
+Finally I use the Flannel CNI to configure a simple VXLAN over which pods will
+communicate. From the local machine with `admin.conf` installed to
+`~/.kube/config` run:
+
+[[!syntax text="""
+wesl-ee@wonder-pop ~ > kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+"""]]
+
+On the current setup a VXLAN solution like Flannel is probably not necessary but
+I found it to be the simplest to deploy.
+
+NFS
+---
+
+I make a few NFS shares accessible to the cluster to use as PersistentVolumes.
+These are configured on the VM running NFSv4, `10.0.10.2`, like so:
+
+[[!syntax type="exports" text="""
+# /etc/exports - exports(5) - directories exported to NFS clients
+"/srv/samba/public/DCIM Gallery" 10.0.10.0/24(ro,sync,all_squash,anonuid=65534,anongid=65534)
+/srv/samba/raamen-demo 10.0.10.0/24(ro,sync,all_squash,anonuid=65534,anongid=65534)
+"""]]
+
+With these NFS shares accessible from the `10.0.10.0/24` subnet which the nodes
+are networked to I am able to access this storage in Kubernetes. Here is an
+example of the spec for one of these shares which I use at
+[public-demo.raamen.org](https://public-demo.raamen.org):
+
+[[!syntax type="yaml" text="""
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: raamen-demo-mnt
+  labels:
+    type: local
+spec:
+  storageClassName: raamen-demo-mnt
+  capacity:
+    storage: 8Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadOnlyMany
+  persistentVolumeReclaimPolicy: Retain
+  mountOptions:
+    - hard
+    - nfsvers=4.1
+  nfs:
+    path: "/raamen-demo"
+    server: 10.0.10.2
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: raamen-demo-mnt
+spec:
+  storageClassName: raamen-demo-mnt
+  accessModes:
+    - ReadOnlyMany
+  resources:
+    requests:
+      storage: 8Gi
+"""]]
+
+The rest of my Kubernetes spec is stored on Github at
+[wesl-ee/xen-infra](https://github.com/wesl-ee/xen-infra). If I bother to
+provision these VMs using Nix or Terraform then those configs will be stored
+here too; I don't see much reason to complicate my setup like this however,
+especially when it is all hosted on one machine.

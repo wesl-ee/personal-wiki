@@ -202,6 +202,10 @@ ul .twitter:before {
 	color: #6a737d;
 }
 
+.trans-text {
+	background: linear-gradient(to right, #58c8f2 20%, #eda4b2 0 40%, #ffffff 0 60%, #eda4b2 0 80%, #58c8f2 0);
+}
+
 .gay-text {
 	background: linear-gradient(to right, red 16.7%, orange 0 33.3%, yellow 0 50%, green 0 66.7%, blue 0 83.3%, purple 0);
 	color: white;
