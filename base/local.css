@@ -203,6 +203,9 @@ ul .twitter:before {
 
 .trans-text {
 	background: linear-gradient(to right, #58c8f2 20%, #eda4b2 0 40%, #ffffff 0 60%, #eda4b2 0 80%, #58c8f2 0);
+	color: white;
+	text-shadow: 1px 1px black;
+	padding: 0 1ch;
 }
 
 .gay-text {
