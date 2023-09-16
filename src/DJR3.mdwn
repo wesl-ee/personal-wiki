@@ -40,7 +40,7 @@ Here are all videos of the sets I have played which I have archived:
 August 29, 2023 — ASHPOCALYPSE
 ------------------------------
 
-[[Watch on YouTube](https://youtu.be/Aqwmoz66urQ) / [[!ipfs QmV7gDTmhLyfRn7Jpesff9fpebw7ZoQqbr24XHSwgoVcQe desc="Download raw from IPFS"]
+[[Watch on YouTube](https://youtu.be/Aqwmoz66urQ) / [[!ipfs QmV7gDTmhLyfRn7Jpesff9fpebw7ZoQqbr24XHSwgoVcQe desc="Download raw from IPFS"]]]
 
 VRChat AR/VR DJ set. I am performing in real-time in VRChat and also wrote the
 Unity plugin for the view you see on the video. My clothes are from Kingly Mask
