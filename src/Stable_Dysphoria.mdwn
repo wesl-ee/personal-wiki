@@ -1,0 +1,29 @@
+[[!tag Aesthetics]]
+
+Just for funsies sometimes I pipe pictures of myself into a locally available
+Stable Diffusion model. When I use the keyword `boy` in the img2img workflow in
+almost any context I receive back a hairy, muscular man; only halfway what I
+intended.
+
+<figure><div class=image-square>
+[[!img img/stable-dysphoria-base.jpeg size=x500]]
+[[!img img/stable-dysphoria-weird.jpeg size=x500]]
+</div></figure>
+
+Often I find it necessary to (1) prompt the model with `girl`,
+`feminine` etc. with sufficient denoising to get the intended effect, then I (2)
+go back over the results and inpaint the face with significantly less denoising
+to adjust the proportions to seem a bit more masc.
+
+But the intermediate results, between these two steps, leaves me feeling funny
+sometimes.
+
+<figure>
+<a href="../img/stable-dysphoria.gif"><img src="../img/stable-dysphoria.gif"></a>
+</figure>
+
+*Stable Dysphoria (noun): a state arising from conflict between the sex a person
+was identified as having at birth and what that person sees after fucking around
+with pictures of themselves in Stable Diffusion's img2img pipeline for a few
+hours.*
+
