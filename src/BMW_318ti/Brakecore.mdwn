@@ -23,12 +23,12 @@ It's impossible to even look at brakes without getting dirty.
 Featured prominently in the above photograph is the rotor which is the shiny
 metal surface. Behind that is the brake caliper which holds two brake pads near
 the rotor. Brake fluid compresses a piston according to [[!wikipedia
-Pascal's_Law]] which pushes one pad against the rotor which the opposite pad
+Pascal's_Law]] which pushes one pad against the rotor while the opposite pad
 remains stationary, squeezing the rotor during braking. Lug bolts couple the
 wheel to the hub which itself is coupled to the rotor. Many cars use lug nuts
 and studs to secure the wheel to the hub but for some reason BMW uses lug bolts
 which are more hassle to mount and unmount. Rotors need to be replaced sometimes
-too when they wear below their recommended width.
+too when they wear below their recommended thickness.
 
 Brakes in the front of cars are bigger than the brake pads in the rear
 because weight is transferred to the nose of the car during hard braking, when
@@ -46,6 +46,7 @@ Tools needed
 - Pliers
 - Flathead screwdriver
 - Brake grease
+- Micrometer
 - Small piece of wood or a tool to compress the brake piston
 
 <figure>
@@ -63,8 +64,8 @@ Procedure
 2. Lift the vehicle with a jack and stands
 3. Remove all lugbolts and pop off the tire. May need some coercion if it has
    been a while since the wheel was removed
-4. Inspect the pads and measure the rotor width
-5. Remove the two plastic caps covering the rotor guide bolts by shimmying them
+4. Inspect the pads and measure the rotor thickness with a micrometer
+5. Remove the two plastic caps covering the caliper guide bolts by shimmying them
    out with the flathead
 6. Remove the guide bolts with the 7mm allen key
 7. Remove the brake pad sensor wire if present
