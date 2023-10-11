@@ -1,0 +1,111 @@
+Recently I heard my front brakes squealing and knew it was time to replace
+them. Brake pads are designed to make noise like this when nearing the end of
+their lifetime to give an audible cue that they need to be replaced soon.
+Foregoing this maintainance item will completely wear away the brake pad
+material resulting in metal-on-metal contact between the rotor surface and the
+metal plate on which the brake pad is mounted.
+
+The brakes on my car are simple disc brakes. Pressing the brake pedal in the
+cabin will compress a set of brake pads mounted in the wheel well against a
+rotor which is coupled to the tire. The wheel is slowed as the brake pad
+material grips the rotor and the kinetic energy of the wheel is dissipated as
+heat, slowly wearing down the brake pad over its lifetime until it becomes thin
+and needs replacing. The brake pad material is ejected as brake dust and is
+one of the dirtiest things a car ejects regularly, ignoring its exhaust fumes.
+It's impossible to even look at brakes without getting dirty.
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20230929_150251.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20230929_150251.jpg/thumbnail" />
+</a>
+</figure>
+
+Featured prominently in the above photograph is the rotor which is the shiny
+metal surface. Behind that is the brake caliper which holds two brake pads near
+the rotor. Brake fluid compresses a piston according to [[!wikipedia
+Pascal's_Law]] which pushes one pad against the rotor which the opposite pad
+remains stationary, squeezing the rotor during braking. Lug bolts couple the
+wheel to the hub which itself is coupled to the rotor. Many cars use lug nuts
+and studs to secure the wheel to the hub but for some reason BMW uses lug bolts
+which are more hassle to mount and unmount. Rotors need to be replaced sometimes
+too when they wear below their recommended width.
+
+Brakes in the front of cars are bigger than the brake pads in the rear
+because weight is transferred to the nose of the car during hard braking, when
+the nose of the car dives. The front brakes do more work to stop the vehicle in
+this state than the rear brakes.
+
+Changing Brake Pads on an E36
+-----------------------------
+
+Tools needed
+
+- 17mm socket and socket wrench
+- 7mm allen key
+- Breaker bar
+- Pliers
+- Flathead screwdriver
+- Brake grease
+- Small piece of wood or a tool to compress the brake piston
+
+<figure>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_183832.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_183832.jpg/thumbnail" />
+</a>
+<figcaption>Piston tool in action. Use a piece of wood to push it back if not available</figcaption>
+</figure>
+
+Procedure
+
+1. Crack the wheel lugbolts loose with the breaker bar while the vehicle is on
+   the ground, otherwise the wheels will spin while in the air as you try to
+   break the bolts loose
+2. Lift the vehicle with a jack and stands
+3. Remove all lugbolts and pop off the tire. May need some coercion if it has
+   been a while since the wheel was removed
+4. Inspect the pads and measure the rotor width
+5. Remove the two plastic caps covering the rotor guide bolts by shimmying them
+   out with the flathead
+6. Remove the guide bolts with the 7mm allen key
+7. Remove the brake pad sensor wire if present
+8. Pry off the brake pad clip (watch your eyes) and hold on to the caliper to
+   make sure it does not fall off the rotor
+9. Remove the caliper, may require some coercion with a mallet or flathead.
+   Don't scratch the rotors!
+10. Remove the old brake pads from the caliper
+11. Press the piston back with a piece of wood or the special tool to make room
+    for the new, thicker pads
+11. Press the new brake pad into the compressed piston and straddle the rotor
+    with the other new pad
+12. Reinstall the brake pad clip
+13. Grease the guidebolts and reinstall, ensuring they thread correctly
+14. Replace plastic caps and remount the wheel to the hub, tighten, lower the
+    car and torque to spec (88 ft lbs for my car)
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_215313.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_215313.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_174615.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_174615.jpg/thumbnail" />
+</a>
+</div></figure>
+
+It's not clear to me how old these old Textar brakes were but they have a BMW
+logo so they must have been installed by BMW itself, as my new brakes are
+from the same OEM supplier (Textar) but lack the logo.
+
+Just to be complete I also replaced the rear brake pads and cleaned up the brake
+dust that coated the wheel well and everything in it. All together it was
+probably 6 hours of work for me over two days and at the end of this work it
+looked like I crawled out of a coal mine. I showered and scrubbed the dust off
+my face and body vigorously.
+
+<figure><div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_180545.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_180545.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_220847.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_220847.jpg/thumbnail" />
+</a>
+</div></figure>
