@@ -12,8 +12,18 @@ beyond endurance and whether or not I could see my Adonis belt.
 
 <figure><div class=image-square>
 [[!img img/fitness-2019-11.jpeg]]
-[[!img img/fitness-2020-02.jpeg]]
 [[!img img/fitness-2020-03.jpeg]]
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20200317_021438.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20200317_021438.jpg/thumbnail" />
+</a>
+</div>
+<div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201008_233046.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201008_233046.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201107_204857.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201107_204857.jpg/thumbnail" />
+</a>
 </div><figcaption>2019 〜 2020 (23)</figcaption></figure>
 
 ... and honestly for most people who are a healthy (1) weight for their (2)
@@ -56,6 +66,14 @@ you're reading this I can probably already bench my body-weight and above!
 <figure><div class=image-square>
 [[!img img/fitness-2022-10.jpeg]]
 [[!img img/fitness-2023-04.jpeg]]
+</div>
+<div class=image-square>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231007_115636.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231007_115636.jpg/thumbnail" />
+</a>
+<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231027_122724.jpg">
+<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231027_122724.jpg/thumbnail" />
+</a>
 </div><figcaption>2022 〜 2023 (26)</figcaption></figure>
 
 I began training in November 2022 but began a serious regiment in late January
