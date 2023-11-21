@@ -1,0 +1,23 @@
+Many organizations wanting to proactively defend against phishing employ
+periodic audits against their members to increase awareness about the content of
+phishing emails and to increase report rates of legitimate phishing attempts to
+the proper channels. These campaigns involve sending “test” phishing emails to
+users' inboxes and expecting them to both not click on the links inside and,
+hopefully, to report them to the IT resources dedicated to tracking phishing.
+
+If you are looking to keep a clean and tidy 100% report rate and to have the
+best kill rate for test phishing emails on your team then look no further than
+the email headers sent along with these tests.
+
+| Vendor            | Header                             |
+| ----------------- | ---------------------------------- |
+| KnowBe4           | X-Phishtest                        |
+| Proofpoint Wombat | X-ThreatSim-ID, X-ThreatSim-Header |
+| Cofense           | X-PhishMe                          |
+| PhishMe           | X-PhishMeTracking                  |
+
+The presence of these headers helps whatever service is sending these test
+phishing emails to recognize when one that is reported is part of a planned
+phishing test, and is not a legitimate phishing attempt. Outlook rules filtering
+on these headers can help you sort these emails into an appropriate folder to be
+reported at your convenience. Technology!
