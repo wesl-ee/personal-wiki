@@ -11,10 +11,10 @@ I host some of the pictures from this trip [in a
 gallery](https://gallery.wesl.ee/gallery/Tokyo23) on a separate site.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/P1140801.JPG">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/P1140801.JPG/thumbnail" />
-</a>
-<figcaption>Walking in Akihabara near Tokyo Leisure Land</figcaption>
+[[!template id="hooya-img.tmpl" cid="bafkreia53edqz7z2wgbpwikpuz2rii5w2xdvam4rqr4ey6qyockrozazba" size=medium]]
+<figcaption>
+Walking in Akihabara near Tokyo Leisure Land
+</figcaption>
 </figure>
 
 I loved walking with friends around my favorite city in the world. We did a lot
@@ -29,11 +29,7 @@ Raleigh-Durham International Airport, with one stop in Detroit interrupting
 those 18 hours.
 
 <figure>
-</figure>
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA100286.JPG">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA100286.JPG/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreiaogf6r2e3pdu3nme6srmi3fcpxfc4bd3f7xwrbdoruzbzxxotub4" size=medium]]
 <figcaption>Mediterranean grille *Mezza* in the DTW airport. The catch is that there is no
 Mediterranean food served before noon; breakfast meal is pictured above; the above
 subjects are not actors; they are real people attempting to enjoy breakfast in an airport</figcaption>
@@ -64,18 +60,11 @@ to learn at a university.
 Later that day I accompanied some of us headed to a street festival. One of the
 many celebrating the longevity of Tōkyō's shrines, this one took place along a
 street in Ueno-okachimachi. That afternoon was slightly rainy but the street was
-still quite busy.
+still quite busy. We visited a 7-11 in Ueno-okachimachi on the way there.
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230611_164354.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230611_164354.jpg/thumbnail" />
-</a>
-<figcaption>7-11 right off the festival street in Ueno-okachimachi</figcaption>
-</figure>
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA110333.JPG">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA110333.JPG/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreiadzjz4r7eqptnsm4ibhssj2pwhknh2djbbcnl7hbuwdx77rcteuy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiffb6v5zg27eofbsex5cugph27wltvpxo5623gy6nzqmt3x4nr5n4" size=medium]]
 </figure>
 
 After this Bakesta and I wandered around Ueno and eventually went to try to buy
@@ -116,27 +105,19 @@ breakfast. This was Monday morning so the inside of that Yoshinoya was hectic
 with the dawn of a new workweek.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PXL_20230611_233309332.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PXL_20230611_233309332.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreieew366zm3zh2wneniz5nnli4kdj32ikyjghbkvdhg7hg6x4njfpy" size=medium]]
 <figcaption>Negitama Gyūdon is the king of beef bowl</figcaption>
 </figure>
 
 After Yoshinoya it was more wandering around Ueno park.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_091112.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_091112.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreia7crfrgdm723nbypgagxtkkw3mgm4leurlpxv44lahvabbyrkwfm" size=medium]]
 </figure>
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA120357.JPG">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA120357.JPG/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA120355.JPG">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PA120355.JPG/thumbnail" />
-</a>
-</div></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreialunjyaxfswqhvpeivolivmcwkl32izpb7x4o5ydbggq2r3xvlky" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidamyljxqvgsugnn6l6tdgthoplckhyb5rvxbcucrk2hlsmpf74py" size=medium]]
+</figure>
 
 Then we visited Yasukuni shrine. My fiancé wanted to visit a “big gate” and,
 as a consequence of wandering this city for a few months, I knew the biggest
@@ -144,25 +125,16 @@ gate here. It's a bit weird to be walking as foreigners around such a
 controversial point in Japanese history but I'm not one to pass up the biggest
 gate in the city for something like feeling out-of-place.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180331_154420.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180331_154420.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PXL_20230612_025957373.PORTRAIT.ORIGINAL.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/PXL_20230612_025957373.PORTRAIT.ORIGINAL.jpg/thumbnail" />
-</a>
-</div></figure>
-
-<figure>
-<video autoplay muted loop controls>
-<source src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/VID_20180331_154752.mp4" type="video/mp4">
-</video>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreid7htyxssgvohqylrrgbjlnbyg7h5e54byzlj227bw5k77x5ikzdi" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifrsp3fgrmfc6asy7hxthxbbxq72435mdshrsileaa4xciztz7uva" size=medium]]
 </figure>
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_120748.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_120748.jpg/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreifqdcvapxlg5zmwwkviq4kmajy2l7xh3uvn6cjmdknhkqyz3ifgoa" size=medium]]
+<div><video autoplay muted loop controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreifwol2nhb5systdombsqoof7c4t2habsnzgqg6jovhi5bbyjc6ory" type="video/mp4">
+</video></div>
 </figure>
 
 After this a smaller group of us wandered north to Asakusa, my favorite
@@ -170,20 +142,11 @@ tourist-y spot in Taitō and conveniently close to our Ueno hotel. We visited
 the apartment where I lived for some time too, nobody was as touched by this
 small neighborhood as I was.
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_174254.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_174254.jpg/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreied2xtj7necvxgtlxnpbjf6q3bacnmpdnrcyir5x3rq6cqgi6fgqu" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidtl4tk4fx4yorkz454u3g3ying5v2ft5icmgtx5ljl2ikrkfbuda" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreigotcpbac7wnqoox2exu7rilyqofekgt7ljhualkksdh5pzoujfoi" size=medium]]
 </figure>
-
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_174615.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230612_174615.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180617_182012.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180617_182012.jpg/thumbnail" />
-</a>
-</div></figure>
 
 We ended that day in Akihabara again, of course, albeit with a larger group of
 people than just me and Bakesta.
@@ -193,19 +156,11 @@ people than just me and Bakesta.
 I spend most of the next day buying dōjin at various book shops. [[Rāmen|Ramen]]
 at a novel crowded joint in Ueno for dinner.
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_184536.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_184536.jpg/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreicsycezglb2wqonyatgyc7sfqybvojelj3i3ornqo3y55xo27zqqq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreib2gqfmyujieu3k2vqvqsvxaeektmfb54atllakyxffgit2yd7sem" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiczatqvm2zxwqdljx6ryrrmamdvfzqr7iv54mbuatbvxj52xhfdqa" size=medium]]
 </figure>
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_185351.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_185351.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_190758.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_190758.jpg/thumbnail" />
-</a>
-</div></figure>
 
 That night a small group of us ventured all the way out to Shinjuku because I saw
 a flyer for a DJ associated with Denonbu/電音部 playing at a new Namco arcade
@@ -214,14 +169,10 @@ dumped their arcade locations on GiGo. Anyhow there were no interesting cabinets
 arcade at all, you could hardly call it an arcade, but the music and atmosphere
 was otherworldly.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200452.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200452.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200918.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_200918.jpg/thumbnail" />
-</a>
-</div></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreih52axl6jvykt4aeibzwpxv3q2vlsi5mlx5tzhetbufq6pz5ke2uy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreieukwpxbtzwarpktd6kzdg656352hb5ms5ss3tdcl5b2ztytpjcui" size=medium]]
+</figure>
 
 That, mind you, is someone filleting a tuna in front of a crowd, while someone
 cues music in front of 2 analog decks, 2 CDJs and a mixer. A tuna. I have no
@@ -230,9 +181,7 @@ were looking for however. She was on the third floor (below) in the arcade
 proper:
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_210752.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_210752.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreida2nor76jjcjudiad4w7q6c5yoj73vfxqk6mlhknenu3nhbyb4h4" size=medium]]
 </figure>
 
 The floor was packed. The girls guarding the floor had long ago stopped letting
@@ -259,9 +208,7 @@ sat on those steps, not moving except to look up and down and left and right
 around the plaza. Then he left as suddenly as he appeared.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_231022.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo23/20230613_231022.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreianz7mubjvfwba4jviasvce2o5vr7cxubbgo4dti2twii4nht4j24" size=medium]]
 </figure>
 
 We made our way to Shinjuku station to scurry home before the last train that

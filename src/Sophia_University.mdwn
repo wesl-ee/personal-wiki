@@ -40,15 +40,15 @@ glad I made this decision: it gave me the experience I would never trade for
 anything else.
 
 <figure>
-[[!img img/japan-sophia-university-bukatsu.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreic4hknafhj233zvyfdufhuuhznap47ycdmjeusxxp74ftcfngj3im" size=medium]]
 <figcaption>Sophia University during circle + club open-house</figcaption>
 </figure>
 
 <figure>
-[[!img img/japan-sophia-university-behind.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreib3gskzkt26n6k7wyke32tqkmflxpoiiju3oxfmq3a7bjsn6oitim" size=medium]]
 <figcaption>Behind Sophia University overlooking the Shuto expressway's [Shinjuku Route
-(4)](https://en.wikipedia.org/wiki/Route_4_(Shuto_Expressway))
-</figcaption></figure>
+(4)](https://en.wikipedia.org/wiki/Route_4_(Shuto_Expressway))</figcaption>
+</figure>
 
 I knew almost no-one from my university who would be abroad at Sophia with me
 Eventually I met three others from N.C. State also studying alongside me there,
@@ -71,9 +71,9 @@ very quiet, peaceful, relaxing and extremely meditative days which chased the
 previous weeks which had bustled and rumbled and brimmed with anxienty but had
 now passed and were now so far removed.
 
-<figure>
-[[!img img/japan-chiyoda-hanami-1.jpeg]]
-[[!img img/japan-chiyoda-hanami-2.jpeg]]
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreiam6al6j5jfhicmv2nubhcurkaypszhtlnzucbkfadyljjuaaoroy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreieeikjwbkbgmzqlablxe3yax5gy6kyvikn664g4dd67vsz5zdcs4q" size=medium]]
 <figcaption>Chidorigafuchi Park during a cherry blossom festival</figcaption>
 </figure>
 
@@ -234,7 +234,7 @@ had to offer. I'm not sure what first urged me to enter the dimly-lit world of
 rāmen shops but the culture surrounding it quickly became familiar and personal.
 
 <figure>
-[[!img img/japan-ramen-1.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreiat4ay6hqmoogng5thpoc2uqiapgej5y7g6txvhpnv6pucbrzju5y" size=medium]]
 <figcaption>Tonkotsu Rāmen from 麺屋 江武里</figcaption>
 </figure>
 
@@ -242,9 +242,8 @@ Tonkatsu also became a staple for me. I'd hunt up and down the street for a
 sign or menu with the fabled four characters と・ん・か・つ and no matter how
 ratty the outside looked I would walk in
 
-
 <figure>
-[[!img img/japan-tonkatsu.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreifo6bihaiceegutipgoaipl43xysiwwz7ljwaklweuw4b3mpynpvy" size=medium]]
 <figcaption>Tonkatsu from Danki Tonkatsu, a shop in Asakusa in those weird side-streets near Sensō-ji</figcaption>
 </figure>
 
@@ -257,7 +256,7 @@ seeing a Porter set IRL even though I had been a fan for a long time before
 this.
 
 <figure>
-[[!img img/japan-virtual-self.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreibo3kdzjf26wddqfpkdub2mpj4nreyaucxmd3puw6zc5krsjckhca" size=medium]]
 <figcaption>Virtual Self at Akasaka BLITZ in Tōkyō</figcaption>
 </figure>
 

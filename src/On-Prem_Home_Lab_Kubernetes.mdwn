@@ -25,9 +25,8 @@ Kubernetes and less fuss to get working than NixOS which is my go-to for my
 other computers (btw).
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220412_070924792_1.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220412_070924792_1.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreid2nrlub6jea66xoxxs72uavvrerqwmrojmbkrcukhtsbdmllhnou" size=medium]]
+<figcaption>Final products, puppy not included</figcaption>
 </figure>
 
 There are four different VMs I provisioned under libvirt that carry out the

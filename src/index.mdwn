@@ -5,9 +5,12 @@ simply as [[Me]] (´ ∀ ` *) I built a lot of
 building in the TradFi space through Nasdaq's [Digital
 Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 <figure class=profile>
-<img src="img/avi.jpeg">
+[[!template id="hooya-img.tmpl" cid="bafkreidfyule625lckk4hnuofmeymyrdb5si3bbbusxcmms33s3y6zqwu4" size=medium]]
 <figcaption>
-Afront my [['97 BMW 318ti|BMW_318ti]]</figcaption></figure>
+Afront the Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] on 35mm film
+</figcaption>
+</figure>
+
 
 <table class=no-border>
 <th colspan=2>Net Presence</th></tr>

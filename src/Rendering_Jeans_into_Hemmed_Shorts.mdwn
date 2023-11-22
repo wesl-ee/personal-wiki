@@ -8,9 +8,7 @@ front at all (because it's not a drawer) but I'm not one to turn down a free
 sewing machine. The copyright date on the manual is 1975.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230723_040036.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230723_040036.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreib3qn72ahbyagucu27duy5hbhps42srblila4d3bluwgr3js6gzty" size=medium]]
 </figure>
 
 I learned everything I could about sewing by reading. It was intimidating at
@@ -56,15 +54,18 @@ other basic projects too.
 I had to buy my jeans from a Goodwill because I honestly haven't worn
 full-length, regular denim jeans since probably high-school.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_012539.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_012539.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230820_010555.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230820_010555.jpg/thumbnail" />
-</a>
-</div><figcaption>Before (left) and after (right) of the Denim
-Demolition Derby</figcaption></figure>
+I learned everything I could about sewing by reading. It was intimidating at
+first but opening the machine up, cleaning it out and lubricating the moving
+parts taught me some about how it works internally. After running a few test
+patches through I decided to take on a few concrete projects, the first of these
+being simply hemming existing clothes.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreictc52fdzupnlwmckwf7idwzx3rmzmyfr4supqd5fh6ygaaozjsw4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifmhdslr6rvtdjcirepgrtuqvghj7v3zsihi5cm3ujotjnx6auqey" size=medium]]
+<figcaption>Before (left) and after (right) of the Denim Demolition
+Derby</figcaption>
+</figure>
 
 The bottom pair in the above “after” image sports a “raw edge” which I did not hem
 while the top pair is hemmed using a straight stitch. The fraying on the bottom
@@ -79,18 +80,13 @@ spot, making an initial 3.5-inch inseam.
 
 This is necessary to cuff the raw edge for the hem.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193917.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193917.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193558.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_193558.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_194143.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_194143.jpg/thumbnail" />
-</a>
-</div><figcaption>Black denim jeans at a 3.5-inch inseam after being cut but before being
-hemmed, note the frays already showing at the edge</figcaption></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreif7t3xegfkarhlho2n3cqqpl6oh6uuwzqspyer5l4kiq3e3vnqpqq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiegeynknofbuo4cjy2dyonr3r3nm7xg5lytkzfoh52xvwwcr65re4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreif4s4lrdgatbvxywhkz6xvr7jucykh4oboehcb3aa7ycf5lbw57tu" size=medium]]
+<figcaption>Black denim jeans at a 3.5-inch inseam after being cut but before
+being hemmed, note the frays already showing at the edge</figcaption>
+</figure>
 
 Now, you can either leave them as they are (“raw edge”) or hem them if you
 prefer. For one pair I decided to leave them unhemmed just to see how they fray.
@@ -112,18 +108,12 @@ Turning the dial on the sewing machine once towards you will begin the stitch.
 I backstitch some before moving around the leg just to increase the strength of
 the beginning of the stitch.
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_211440.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_211440.jpg/thumbnail" />
-</a>
-<div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_195814.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_195814.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_021008.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230819_021008.jpg/thumbnail" />
-</a>
-</div><figcaption>Stitching in-progress</figcaption></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreidhbxzpprxltrou3liow2vtjnhcblmyltkiryrwdqfek7fgrwxbaq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiamsxse63eyum2uq7k4xjdmn7ohauffzwx47htok3rfyaeimcwlki" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidok2f2jcp7jfjylfq4jz2gnu4duto75z656agglbjpgg6srmvvhu" size=medium]]
+<figcaption>Stitching in-progress</figcaption>
+</figure>
 
 My machine is controlled by a foot-pedal allowing me to drive the belt with
 variable speed. I made sure that the fabric stayed taut by holding onto both
@@ -135,22 +125,13 @@ stretching.
 Once both legs are hemmed cut away any excess thread and press the hems with an
 iron to strengthen the stitch.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204424.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204424.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204448.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204448.jpg/thumbnail" />
-</a>
-</div><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204842.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230908_204842.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230826_152825.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20230826_152825.jpg/thumbnail" />
-</a>
-</div>
-<figcaption>Final products, puppy not included</figcaption></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreib4mlkwqe4pwvzlxjbm6zq7biqij2rr7d2fbtm6izweomha2brkce" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreic2kfrytc4chc4xuaqiwzydy7b4lllzt6xi6dofqd2uaj57fws77i" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifncl5v7rabh3h3km3kyjyt2bjng5pcna4mc7hy5bd5azualzat3i" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreid2nrlub6jea66xoxxs72uavvrerqwmrojmbkrcukhtsbdmllhnou" size=medium]]
+<figcaption>Final products, puppy not included</figcaption>
+</figure>
 
 I really like how the pockets show past the cuff on the hemmed blue denim pair.
 They are comically deep pockets, women's pants typically don't sport these by

@@ -220,7 +220,7 @@ footer nav {
 }
 
 figure {
-	margin: 1rem
+	margin: 1rem;
 	hyphens: none;
 	-moz-hyphens: none }
 #content figure {
@@ -231,9 +231,12 @@ figure {
     display: flex;
     flex-wrap: wrap;
 }
-#content .image-square > * {
-    width: 33%;
-    flex: 1 1 auto;
+#content .image-square > div {
+	flex: 1 0 30%;
+	margin: 1rem;
+}
+#content .image-square > figcaption {
+	flex: 0 0 100%;
 }
 #content .image-square img {
     max-width: 100%;
@@ -271,6 +274,8 @@ figure img, figure video, figure > [id^=viewer] {
 figure.profile img {
 	width: 300px;
 }
+/* Random Markdown paragraph */
+figure > p { display: none; }
 
 #startpage-popout {
 }
@@ -296,12 +301,20 @@ figure.profile img {
 .synStatement { color: green }
 .synType { color: purple }
 
-a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"], a[href^="https://gallery.wesl.ee/pgapi/gallery"] {
+a[href$="jpeg"], a[href$="png"], a[href$="jpg"], a[href$="gif"], a.hooya-img, a[href^="https://gallery.wesl.ee/pgapi/gallery"] {
 	display: block;
 	background-image: none !important;
 	background-size: none !important;
 	color: black !important;
 	display: inline-block;
+}
+
+img.hooya-img-medium {
+	max-height: 450px;
+}
+
+img.hooya-img-small {
+	max-height: 200px;
 }
 
 @media (prefers-color-scheme: dark) {

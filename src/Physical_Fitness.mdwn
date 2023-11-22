@@ -10,21 +10,12 @@ running to maintain what I had come to consider my twink-ish figure but never
 with any fitness goal in mind or any consideration of my physical capacity
 beyond endurance and whether or not I could see my Adonis belt.
 
-<figure><div class=image-square>
-[[!img img/fitness-2019-11.jpeg]]
-[[!img img/fitness-2020-03.jpeg]]
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20200317_021438.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20200317_021438.jpg/thumbnail" />
-</a>
-</div>
-<div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201008_233046.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201008_233046.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201107_204857.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20201107_204857.jpg/thumbnail" />
-</a>
-</div><figcaption>2019 〜 2020 (23)</figcaption></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreieudxd5ca4blxdgotxcymuy5bgxwi6cugf5eblex7r2qiddxoojoe" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreihlcn5qncdsuemgxd75rtlzeurqped4mrlejjy7xev5colycsjzku" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidn72izlw7qxakdpicvxdxcfjxwplpd7tnbgytsufleopzsywgy24" size=medium]]
+<figcaption>2019 〜 2020 (23)</figcaption>
+</figure>
 
 ... and honestly for most people who are a healthy (1) weight for their (2)
 height then it does not matter what one's body composition is. The metric that
@@ -63,18 +54,14 @@ before I could barely bench half that amount. Considering that I achieved 1pl8
 at 143lb that means I can *almost* bench my body weight (but not quite). If
 you're reading this I can probably already bench my body-weight and above!
 
-<figure><div class=image-square>
-[[!img img/fitness-2022-10.jpeg]]
-[[!img img/fitness-2023-04.jpeg]]
-</div>
-<div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231007_115636.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231007_115636.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231027_122724.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Fit/20231027_122724.jpg/thumbnail" />
-</a>
-</div><figcaption>2022 〜 2023 (26)</figcaption></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreiexf7rzn77tiw7g5dvg6vvjlc7houhhe4rlu6tpdwlfda4oemqgtm" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiecjv76alj5yxm5vrodmsfuagwkfq5nveigufqmj5qwsoskqtc7ha" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreibgwqqiiyo3k3vbj2qgptgzbmuqsdl5soabgrsyp2ncyune6nlcc4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifuklm6hpcjca6kfiid3iblarbp2vhtysyc5ik2iahjlrlmcx7qwe" size=medium]]
+<figcaption>2022 〜 2023 (26)</figcaption>
+</figure>
+
 
 I began training in November 2022 but began a serious regiment in late January
 2023. That involves going to a gym 3 times every week and targeting one of (1)
