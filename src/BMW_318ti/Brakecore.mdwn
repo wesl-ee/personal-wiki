@@ -15,9 +15,7 @@ one of the dirtiest things a car ejects regularly, ignoring its exhaust fumes.
 It's impossible to even look at brakes without getting dirty.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20230929_150251.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20230929_150251.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreieajfrgqleu35mqrxlwfsjm3c5ouxcf2dhfixxxaaahme3s3wigti" size=medium]]
 </figure>
 
 Featured prominently in the above photograph is the rotor which is the shiny
@@ -50,9 +48,7 @@ Tools needed
 - Small piece of wood or a tool to compress the brake piston
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_183832.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_183832.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreibsrvtsj3mi4pgppunazzl5ost7d2n5xpc7ijzehwnh74ar6wyvim" size=medium]]
 <figcaption>Piston tool in action. Use a piece of wood to push it back if not available</figcaption>
 </figure>
 
@@ -83,14 +79,10 @@ Procedure
 14. Replace plastic caps and remount the wheel to the hub, tighten, lower the
     car and torque to spec (88 ft lbs for my car)
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_215313.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_215313.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_174615.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_174615.jpg/thumbnail" />
-</a>
-</div></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreibvwkda5hhk74fjerjxszllp3vpdrnfns4d63u3um5svr24lzzlu4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreif4o5uka6kdpriqm46jndzhbfe7zr3huzbpec2wqrvlckv3ebjhny" size=medium]]
+</figure>
 
 It's not clear to me how old these old Textar brakes were but they have a BMW
 logo so they must have been installed by BMW itself, as my new brakes are
@@ -102,11 +94,8 @@ probably 6 hours of work for me over two days and at the end of this work it
 looked like I crawled out of a coal mine. I showered and scrubbed the dust off
 my face and body vigorously.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_180545.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_180545.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_220847.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20231003_220847.jpg/thumbnail" />
-</a>
-</div></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreia4x5rerlt2p765hlrl3olotckw4pqxc53bf2foep7fvqvaxootx4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreihuposr5h4jjmjfqfb4hm5bkqcxui7y5ystadbdy4bkchvgo4zxxm" size=medium]]
+</figure>
+

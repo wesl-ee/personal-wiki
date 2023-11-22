@@ -18,10 +18,8 @@ we rolled it off the trailer with the key in [position
 strong smell of gasoline appeared; further it seemed some gasoline had dripped onto
 the concrete below. This was the second indication that something was fucked.
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220511_220219365.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220511_220219365.jpg/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreigxj4cnbtpi6qa47rxqyh3qi7zoufhr6c25oiczqyxnyio2srtjmm" size=medium]]
 </figure>
 
 Clearly this was the immediate problem I needed to fix and may have been the
@@ -57,10 +55,8 @@ decided to have the car towed to the house I just bought, quite a good drive
 away from the garage where it presently sat. The car stayed in the garage at my
 house even before we'd stayed a full day there.
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Israel22/PXL_20220506_071742165.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Israel22/PXL_20220506_071742165.jpg/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreibu3mv6snfbc7265uniutxr5ddzbxdpwuculqpcd6vfgoedfmq6au" size=medium]]
 </figure>
 
 As an aside, having the car towed twice in a month convinced me to buy a truck,
@@ -103,9 +99,7 @@ When the pump arrived I tore out the old sender unit and went to replace it with
 the fuel pump only to find there was no pump on that side.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220925_003354517_1_1.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220925_003354517_1_1.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreiefxbjhs6oqkfnfhsowylsjuret7outh4qtq6vkbivme55zwyd75m" size=medium]]
 </figure>
 
 It was at this moment I realized I fucked up for what felt like the 10th time in

@@ -46,7 +46,7 @@ am in now. This was my workspace in that apartment:
 <script>
 new PhotoSphereViewer.Viewer({
     container: document.querySelector('#viewer-2023'),
-    panorama: 'https://gallery.wesl.ee/pgapi/gallery/content/Workspace/09-2023-room.jpg',
+    panorama: 'https://web.hooya.wesl.ee/cid-content/bafkreidbuzv5e3by3ypzq3iiurc6bursrla5vkwomwj3o7yzendafcef3e',
     fisheye: 1.5,
     defaultYaw: 2.5,
     defaultPitch: -0.5,
@@ -54,7 +54,7 @@ new PhotoSphereViewer.Viewer({
 });
 new PhotoSphereViewer.Viewer({
     container: document.querySelector('#viewer-2021'),
-    panorama: 'https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20211001_143224905.PHOTOSPHERE.jpg',
+    panorama: 'https://web.hooya.wesl.ee/cid-content/bafkreiduq62uee5nsdxqmn52zgsr4aicukmpdmoushugteterc546at5bm',
     defaultPitch: -0.5,
     fisheye: 1.5,
     navbar: true,

@@ -5,22 +5,14 @@ eventually morphed into [[Shepherdess]] which like the Ship of Theseus is now a 
 machine entirely after having every part replaced over time.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2019-01-31_01:31:15_scrot.png">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2019-01-31_01:31:15_scrot.png/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreihzksg6scqldppwmdsatolb7p6yksu3bafbvqfdbtpcoj5gqa4nkq" size=medium]]
 </figure>
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20171225_204914.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20171225_204914.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190114_145551.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190114_145551.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190224_203311.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190224_203311.jpg/thumbnail" />
-</a>
-</div></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreidtbhnwsu7o7bh2d3npdoaeqdmysxpvlctijbyhpzqxsxnfsrkwki" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreig6xupa55eyns6cjyagzcdsufpg6d7bb4fgiy2dwvc6c2v7qwb244" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiclxsqdh5sltzfkmugtp5dqk6tue7pc54gp32p6ixbscc3opbs6ka" size=medium]]
+</figure>
 
 While using the name “spitfire” these were the machine's specs:
 

@@ -8,19 +8,11 @@ full-blown desktops.
 
 You can see this desktop in the most recent photospheres of my [[Workspace]].
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2023-05-09-23:06:25-snip.png">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/2023-05-09-23:06:25-snip.png/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreihtr6i2jsz2o4suukuvgfoy6twe5un6hfkkjhlkkchcenglorzz2u" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiep2eireeqtz65yxqc5jydxys4uobyg25xevguw6su5d4gxdro3c4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidcktg23iiboerb6xkr7gvean5vauj6bsvnfvwm43eju2oufecta4" size=medium]]
 </figure>
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220905_042219659.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220905_042219659.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220114_043917397~2.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/PXL_20220114_043917397~2.jpg/thumbnail" />
-</a>
-</div></figure>
 
 Sometimes I get in trouble with anti-cheat engines for running on a hypervisor.
 Present virtual machines running on top of shepherdess with periphieral passthrough

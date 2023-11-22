@@ -6,24 +6,17 @@ shops in Akihabara. The fact that the Kensington security lock is ripped out of
 the chassis gives me no doubt how this laptop ended up in this shop.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181206_145649.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181206_145649.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreihs6owxtcgl3wvtk2um26i2hloclowyf5gdxisstubb3ro5pewshm" size=medium]]
 <figcaption>MSP430 microcontroller connected to the x240 during the final for an [[Introduction to Embedded
 Systems|Embedded_Systems_ECE306]] course in
 [[NCSU's||North_Carolina_State_University]] Engineering Building 2
 atrium</figcaption>
 </figure>
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181219_194519.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20181219_194519.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180726_001845.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Tokyo18/IMG_20180726_001845.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190729_224422.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190729_224422.jpg/thumbnail" />
-</a></div>
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreih3egpjbcg6cu63lyakyh3gntme2yent2ymz2vjacu5y3f3nwjxtm" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreicapy63mf2z66jp7xh7y4lsdn3vnfjazcgy4k7leslvw54ek6bvs4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifx5gcnunxpdum2adqky4r2mbyauz5qocqwiwr47ar75xg37oh2fa" size=medium]]
 <figcaption>Profile of the Kensington lock (middle) and using the computer in
 several other places (left and right)</figcaption>
 </figure>

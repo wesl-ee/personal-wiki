@@ -10,9 +10,7 @@ to a “mobile desktop” than anything else, though this battery life will like
 <tr>
   <td colspan=2 class=spread-img>
     <figure>
-    <a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20230905_151917.jpg">
-    <img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20230905_151917.jpg/thumbnail" />
-    </a>
+    [[!template id="hooya-img.tmpl" cid="bafkreiafozzkx73pyfyqyxkdwrrsawseee2rzlir7kawepv5htccle6hl4" size=medium]]
     </figure>
   </td>
 </tr>
@@ -57,13 +55,9 @@ This computer was [[North_Carolina_State_University]] surplus equipment and was
 sold to me for $10 in August 2018. I keep the original surplus equipment price
 tag on the back though it's quite faded now.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20200302_141744.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/20200302_141744.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190417_122827.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/Workspace/IMG_20190417_122827.jpg/thumbnail" />
-</a></div>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreigr5vbqbeoa5onwaodn5gq7flifhpc63tbrc3fmej75fmk5slay2u" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreibnpimzdab7urit323qjxs4j4pvzkrmuefjrgozqcb4wdb4bwgrvu" size=medium]]
 <figcaption>My X61 Tablet in a lecture hall in
 [[NCSU's|North_Carolina_State_University]] Engineering Building 3 (left) and next to my Japanese [[x240]] (right)</figcaption>
 </figure>
@@ -84,14 +78,12 @@ The tablet functionality has been really nice working with my
 seat while still on and connected to my OBD-II port in the cabin, scraping
 real-time data from the ECU as the car pushes the tachometer through its range.
 
-<figure><div class=image-square>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200813_174725.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200813_174725.jpg/thumbnail" />
-</a>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220422_191254536_1.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/PXL_20220422_191254536_1.jpg/thumbnail" />
-</a>
-</div></figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreigiyitxd7ztdgw52ghp3wjmt2tif7ma3fvbo6l7lefxxbbmer4g24" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreid2kjsroij24k35w44ygnkpfga6zydhlgku2ng4qp5y4zpum765ni" size=medium]]
+<figcaption>My X61 Tablet in a lecture hall in
+[[NCSU's|North_Carolina_State_University]] Engineering Building 3 (left) and next to my Japanese [[x240]] (right)</figcaption>
+</figure>
 
 The serial port is necessary to access further modules within this E36 unless
 one jumps some pins in the 20-pin Pacman connector under the hood. A K+DCAN tool will

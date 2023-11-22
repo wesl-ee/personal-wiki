@@ -5,16 +5,10 @@ taught me how to think like a mechanic, act like a mechanic, and fix things like
 a mechanic. It has no shortage of things to fix and I've loved every second of
 driving and caring for this car.
 
-<figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200723_181958.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200723_181958.jpg/thumbnail" />
-</a>
-</figure><figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200723_182013.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200723_182013.jpg/thumbnail" />
-</a>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreiflbfa7uzk4huvatrkt6wjbl7vubi2nx3n22ob5zjdtojelvmj67u" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidqxyvy62dod5n5wxkfclajvzr32zjisbpguxuz7r4fq6tv7mer64" size=medium]]
 </figure>
-
 
 I keep a [little gallery of the car](https://gallery.wesl.ee/gallery/E36)
 online. Below is a little writing about work I've done on this 318ti:
@@ -66,9 +60,7 @@ I've since hooked up to a subwoofer in the trunk for the true *hatchback
 experience*.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200723_180747.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200723_180747.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreicbo4fm6j6czbu4f63ebfqooxohftp5ukvolvm5cwxpwobe56xfpa" size=medium]]
 </figure>
 
 Maintaining the Dream
@@ -93,9 +85,7 @@ way down to minutia like the contribution of each cylinder to the total engine
 output power.
 
 <figure>
-<a href="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200813_174725.jpg">
-<img src="https://gallery.wesl.ee/pgapi/gallery/content/E36/20200813_174725.jpg/thumbnail" />
-</a>
+[[!template id="hooya-img.tmpl" cid="bafkreigiyitxd7ztdgw52ghp3wjmt2tif7ma3fvbo6l7lefxxbbmer4g24" size=medium]]
 </figure>
 
 Overall, making the jump from not having worked on cars to being very
