@@ -11,6 +11,10 @@ type and are normally closed until the DME applies a ground signal to one of the
 injector terminals to move the injector solenoid and release fuel from the rail
 into the intake manifold.
 
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreigou6udtgcilyfi5znea7tu5m275yp3vnktp3j62ype2sfcem5afm" size=medium]]
+</figure>
+
 Unfortunately I found no other engines other than the M44 or M42 use this
 shrouded injector type so when it came time to replace a failing injector I
 found these injectors are not made new anymore and even remanufactured and
@@ -37,11 +41,16 @@ This injector type was used in a wide variety of Ford V8 and V10 engines in
 trucks, cars and jeeps produced between '87 and '99. This is an EV6CL injector.
 And, importantly, I found a set of six brand new injectors for a mild $73.
 
-The challenge with these injectors is that they are physically shorter than the
-air-shrouded injectors I was replacing; in addition to the length discrepency
-the interface where the injector meets the manifold is 3mm bigger on the stock
-injector I was replacing. Evidently BMW made Bosch do things differently just
-for their cute little 4-banger engine.
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiffpnle2pqltgq6j27qyb7a23fmvrr3dnvzpcbhnp7meobxz72xwa" size=medium]]
+<figcaption>Old 0280150501 injectors (numbered by cylinder) and one of the new
+0280155710 injectors</figcaption> </figure>
+
+The challenge with these new injectors is that they are physically shorter than
+the air-shrouded injectors I was replacing; in addition to the length
+discrepency the interface where the injector meets the manifold is 3mm bigger on
+the stock injector I was replacing. Evidently BMW made Bosch do things
+differently just for their cute little 4-banger engine.
 
 Lacking access to any equipment to manufacture a serious adapter, I made 4
 bootleg adapters that raised the manifold ports by 6mm and reduced the diameter
@@ -54,7 +63,7 @@ lacking both relevant CAD experience and access to a lathe I could not machine
 these out of a metal as I'd prefer.
 
 With the injectors replaced, I had a spare vacuum tree coming off the intake
-boot that needed to be handled. As this tree had no use I simply deleted it
+boot that needed to be handled. As this tree had no use I simply tossed it out
 and plugged the intake boot hole with a plastic PEX pipe cap I found at Lowes.
 
 <figure class=image-square>
@@ -65,5 +74,10 @@ and plugged the intake boot hole with a plastic PEX pipe cap I found at Lowes.
 After taking it out for a careful drive with my fire extinguisher handy I
 noticed almost no difference in driveability except that the 3500 rpm range
 where my injector performance was previously degraded because of the failing
-cylinder 1 injector had disappeared (´• ω •`)
+cylinder 1 injector had disappeared (´• ω •\`)
 
+This could be used to upgrade the injector flow rate as many aftermarket
+injectors are 14mm diameter anyway, but probably don't turbo your M44! It's a
+small engine anyway; swap in the S50 or S52 engine if you're going after power
+and are really, really in love with the E36 platform. With a new engine you get
+a new intake manifold that probably has more sensible injector interfaces.
