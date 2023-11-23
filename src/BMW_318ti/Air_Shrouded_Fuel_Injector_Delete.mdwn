@@ -15,12 +15,12 @@ into the intake manifold.
 [[!template id="hooya-img.tmpl" cid="bafkreigou6udtgcilyfi5znea7tu5m275yp3vnktp3j62ype2sfcem5afm" size=medium]]
 </figure>
 
-Unfortunately I found no other engines other than the M44 or M42 use this
+Unfortunately I found no engines other than the M44 or M42 that use this
 shrouded injector type so when it came time to replace a failing injector I
 found these injectors are not made new anymore and even remanufactured and
 flow-tested injectors cost more than I was comfortable paying for a used part. I
 researched some online and found that these are the specs for the injector that
-are used in the stock layout of the M44. It may be the same part number for some
+are shipped with the stock the M44. It may be the same part number for some
 M42s but I can't say for certain, I only know that some M42 engines have
 shrouded injectors also. It may have been a US-spec thing for emissions reasons.
 
@@ -79,5 +79,6 @@ cylinder 1 injector had disappeared (´• ω •\`)
 This could be used to upgrade the injector flow rate as many aftermarket
 injectors are 14mm diameter anyway, but probably don't turbo your M44! It's a
 small engine anyway; swap in the S50 or S52 engine if you're going after power
-and are really, really in love with the E36 platform. With a new engine you get
-a new intake manifold that probably has more sensible injector interfaces.
+and are really, really in love with the E36 platform, that's what the M3 shipped
+with anyway. With a new engine you get a new intake manifold that probably has
+more sensible injector interfaces.
