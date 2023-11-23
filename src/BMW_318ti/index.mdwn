@@ -6,7 +6,7 @@ a mechanic. It has no shortage of things to fix and I've loved every second of
 driving and caring for this car.
 
 <figure class=image-square>
-[[!template id="hooya-img.tmpl" cid="bafkreiflbfa7uzk4huvatrkt6wjbl7vubi2nx3n22ob5zjdtojelvmj67u" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidiyddjpg2jnphdpoql6ukcqrb62l2fcspcpwrlo4qbqycpzfifo4" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreidqxyvy62dod5n5wxkfclajvzr32zjisbpguxuz7r4fq6tv7mer64" size=medium]]
 </figure>
 

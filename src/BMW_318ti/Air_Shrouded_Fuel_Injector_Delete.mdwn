@@ -1,0 +1,69 @@
+[[!tag Car]]
+
+The intake manifold for the [[M44|M44_Engine]] and some M42s that came with the
+[[318ti|BMW_318ti]] expects a certain type of air-shrouded Bosch fuel injector
+that accepts a vacuum line. I have read this supposedly helps with fuel
+atomization but opinions are varied, and it may simply have to do with reducing
+emissions at idle. The air shroud give this Bosch injector a unique silhouette
+and requires a small nest of vacuum hoses to transfer negative pressure from the
+intake manifold to the injector body. These injectors use a Motronic connector
+type and are normally closed until the DME applies a ground signal to one of the
+injector terminals to move the injector solenoid and release fuel from the rail
+into the intake manifold.
+
+Unfortunately I found no other engines other than the M44 or M42 use this
+shrouded injector type so when it came time to replace a failing injector I
+found these injectors are not made new anymore and even remanufactured and
+flow-tested injectors cost more than I was comfortable paying for a used part. I
+researched some online and found that these are the specs for the injector that
+are used in the stock layout of the M44. It may be the same part number for some
+M42s but I can't say for certain, I only know that some M42 engines have
+shrouded injectors also. It may have been a US-spec thing for emissions reasons.
+
+| Part Number | Resistance | Flow Rate (cc)    | Flow Rate (lb) |
+| ----------- | ---------- | ----------------- | -------------- |
+| 0280150501  | 16Ω        | 200 cc/min @ 3bar | 19.04 lb/hr    |
+
+Then consulting this [nice
+table](https://www.polog40.co.uk/article_injector_table.php) of Bosch fuel
+injector specs I found a suitable replacement with matching flow and resistance
+specs.
+
+| Part Number | Resistance | Flow Rate (cc)    | Flow Rate (lb) |
+| ----------- | ---------- | ----------------- | -------------- |
+| 0280155710  | 16Ω        | 200 cc/min @ 3bar | 19.04 lb/hr    |
+
+This injector type was used in a wide variety of Ford V8 and V10 engines in
+trucks, cars and jeeps produced between '87 and '99. This is an EV6CL injector.
+And, importantly, I found a set of six brand new injectors for a mild $73.
+
+The challenge with these injectors is that they are physically shorter than the
+air-shrouded injectors I was replacing; in addition to the length discrepency
+the interface where the injector meets the manifold is 3mm bigger on the stock
+injector I was replacing. Evidently BMW made Bosch do things differently just
+for their cute little 4-banger engine.
+
+Lacking access to any equipment to manufacture a serious adapter, I made 4
+bootleg adapters that raised the manifold ports by 6mm and reduced the diameter
+of the injection ports from 17mm to 14mm out of a washer and a rubber grommet I
+trimmed with a dremel and sealed the thing with RTV. It fit well on the manifold
+and the pressure from the tightened-down fuel rail ought to keep it in place but
+to make sure I secured the adapter to the manifold ports with JB Weld
+ #justmechanicstuff. Soon I will design a part in a CAD that can be machined, but
+lacking both relevant CAD experience and access to a lathe I could not machine
+these out of a metal as I'd prefer.
+
+With the injectors replaced, I had a spare vacuum tree coming off the intake
+boot that needed to be handled. As this tree had no use I simply deleted it
+and plugged the intake boot hole with a plastic PEX pipe cap I found at Lowes.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreifbipovhmcoxoigngg2mjr6n5bfze5itajqk4ko7kfjhsc354zyla" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreieqpg47tlw6orfut2eblfido76i4npym726bijuvcejrrcs6q5jlm" size=medium]]
+</figure>
+
+After taking it out for a careful drive with my fire extinguisher handy I
+noticed almost no difference in driveability except that the 3500 rpm range
+where my injector performance was previously degraded because of the failing
+cylinder 1 injector had disappeared (´• ω •`)
+
