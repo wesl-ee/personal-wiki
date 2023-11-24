@@ -8,6 +8,7 @@ workloads I run on this cluster at the moment.
 - [pigallery2](https://github.com/bpatrik/pigallery2)
 - [pihole](https://github.com/pi-hole/pi-hole)
 - [raamen](https://github.com/wesl-ee/raamen)
+- [HooYa web gateway](https://github.com/hooya-network/hooya)
 
 For instance, [gallery.wesl.ee](https://gallery.wesl.ee) points to my deployment
 of pigallery2 running on this cluster.
@@ -25,8 +26,7 @@ Kubernetes and less fuss to get working than NixOS which is my go-to for my
 other computers (btw).
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreid2nrlub6jea66xoxxs72uavvrerqwmrojmbkrcukhtsbdmllhnou" size=medium]]
-<figcaption>Final products, puppy not included</figcaption>
+[[!template id="hooya-img.tmpl" cid="bafkreibaukjhu6qi6qatb6smacj36k6odl2voduvnzj5p54cuifexxqcpi" size=medium]]
 </figure>
 
 There are four different VMs I provisioned under libvirt that carry out the
