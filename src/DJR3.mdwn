@@ -1,7 +1,7 @@
 [[!tag Music]]
 
 I often relax and explore my mood through music. Beginning in late 2019 I began to
-DJ exclusively & *anonymously* under the moniker **DJR3**. I use that
+DJ exclusively & *pseudononymously* under the moniker **DJR3**. I use that
 identity now as a pseudonym only when I DJ and when I play music fitting
 these these non-exclusive genre tags:
 
@@ -12,20 +12,21 @@ these these non-exclusive genre tags:
 + French House
 
 <figure class="image-square">
-[[!img img/djr3-millennium-strike-prologue-2023-poster.jpeg size=500x]]
-[[!img img/djr3-ashpocalypse-poster.jpeg size=500x]]
-[[!img img/djr3-poster-howlar-space.jpeg size=500x]]
-[[!img img/djr3-millennium-strike-ep7.jpeg size=500x]]
-[[!img img/djr3-poster-synesthesia-009.jpeg size=500x]]
-[[!img img/djr3-poster-djs-united-eva-dimensional-collapse.jpeg size=500x]]
-[[!img img/djr3-poster-streamstage-12-11.jpeg size=500x]]
-[[!img img/djr3-poster-streamstage-oct-24.jpeg size=500x]]
-[[!img img/djr3-synesthesia-002.jpeg size=500x]]
-[[!img img/djr3-poster-end-of-howler-2.jpeg size=500x]]
-[[!img img/djr3-poster-neurotic.gif size=500x]]
-[[!img img/djr3-poster-decennium-202X.jpeg size=500x]]
-[[!img img/djr3-poster-subsystem-20XX.jpeg size=500x]]
-[[!img img/djr3-poster-howler-presents.jpeg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreiep3y6k4dmrxk5ofbtliyk54gdtfimtgggtibtgecnm65bu6fdbya" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreigzproqobth44f3tt4or37s37rt5mopbymmh72tutukfaq3kszeoa" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreicmmx3655t2uheken42omsfueth63i4vthgoydqhr2zs43hlkxqoy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreia3jveagh3feo25qztceij5rny4vmkmqlcglpkg2gbxdayyf7qqxq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreigrcbz3vbyicly7xoqfpvacvhdnoxabusqkpcdd3cipb2bjnoryle" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiesxdzkk7kdwgvcvcqqzyevomwgw6kknm7ebzrzhoc7blmxpllhpe" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiai5kmejn5qcongzpcez45sfusbo76o756vo4inxmouleckqsczji" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreibbs2typ7ikfz4miyz4fwogypmyimdetd7afze2jo353zqsefi2sa" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifbkzbkhugktf5ioccssnb2ws7fgvyij6qn272i2hjzmz2rz7bmcu" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreia2bjsnmxnmcpq64ibe7ss3f34hlbj3nhxamjbo4helem7jatcjda" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidre7babb4jqe7vd3fspd432j5f6x33xh5vo6mge4rzep3ndpbm6i" size=medium]]
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreidre7babb4jqe7vd3fspd432j5f6x33xh5vo6mge4rzep3ndpbm6i" />
+[[!template id="hooya-img.tmpl" cid="bafkreifqgqa6xkkmzkdkdnwokcjh3bi77tbbhgvqqf6d63ygmuoaa552lq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifajnshvcx737wxzcffdrbnni24wqiw3w5hb6ughwcilcfl4con5m" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreif25bord4kqhuhgpfdioogmocqhmnkqlulqkyg52p2aga2wdpk634" size=medium]]
 </figure>
 
 I've performed more in [[Virtual Reality]] than I have in real-life, though
@@ -52,7 +53,9 @@ great time playing and putting together the visuals. I also wore a crop top I
 re-hemmed myself from an Old Navy pull-over despite how cold it was outside
 because the venue was so hot after hours of dancing.
 
-[[!img img/djr3-millennium-strike-prologue-2023.jpeg]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicfrji54iofwlcrnlxbapuek5nekjvytnoilkomt3alqkr4h5v6ra" size=medium]]
+</figure>
 
 1. ･. sample bandit — beat masta ･.
 2. DJ eSPORTS — NOT A RAVE TOOL 19
@@ -80,7 +83,9 @@ Unity plugin for the view you see on the video. My clothes are from Kingly Mask
 in Harajuku, Tōkyō, which I acquired during [[this trip to Tōkyō in
 2023|Tokyo_23]].
 
-[[!img img/djr3-ashpocalypse.jpeg]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreigpe7ianxiu6xv4oxoxgb7oqqqyweusmmvgdaigp4q6l546mrlo5a" size=medium]]
+</figure>
 
 01. Tevvez — Virtual Self — Ghost Voices (Hardstyle Remix)
 02. Arianna — Strange B3ast (x mionn)
@@ -104,7 +109,9 @@ Apr 15, 2023 — HOWLAR.SPACE
 
 [[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!ipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download raw from IPFS"]]]
 
-[[!img img/djr3-howlar-space.jpeg]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreibxmvqwjl3ylecnp6tu74zpfutnj5jf7puegz3kq7f5nczmk6uf7a" size=medium]]
+</figure>
 
 DJ set captured in real-time with an Intel Realsense depth camera. As with my
 set 2022 set for Millennium Strike (below) I also filmed this in the weird
@@ -150,8 +157,6 @@ June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 
 [[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [[!ipfs QmZoD2SJEk3fQHCx8Tj75xu7QwdRCUUkX2Ki6GK51Wty17 desc="Download raw from IPFS"]]]
 
-[[!img img/djr3-millennium-strike-ep7-2.jpeg]]
-
 <figure>
 <video autoplay muted loop controls>
 <source src="../vid/djr3-ep-7.mp4" type="video/mp4">
@@ -192,8 +197,6 @@ Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 --------------------------------------------------
 
 [[Watch on YouTube](https://youtu.be/gEpmLXdssUA) / [[!ipfs QmbGBHPH2dj8Aa2DcAt9YTKuDP7ewL7hNt1vfdbtTToJ47 desc="Download raw from IPFS"]]]
-
-[[!img img/djr3-synesthesia-009.jpeg]]
 
 <figure>
 <video autoplay muted loop controls>
@@ -262,7 +265,9 @@ Jan 8, 2021 — VRChat DJs United x EVA DIMENSIONAL COLLAPSE
 
 [[Watch on YouTube](https://youtu.be/i7vGk5dUW7c) / [[!ipfs QmbdhRkpqvqyCNToxzRbw1PTqommPDNxzbTt9SNkMW2PNj desc="Download raw from IPFS"]]]
 
-[[!img img/djr3-djs-united-eva-dimensional-collapse.jpeg]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidwbuexmdgf2rfnlbkqodz6iuxki6jlb555fgoxte466arfltv4im" size=medium]]
+</figure>
 
 DIMENSIONAL COLLAPSE was a party in VRChat organized by DJ's United and
 featuring collaboration with EVA Online to celebrate the release of [R O C K Y's
@@ -319,8 +324,6 @@ Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 -------------------------------------------------
 
 [[Watch on YouTube](https://youtu.be/H8093iYalM8) / [[!ipfs QmSmLbanrijWMhVVUQ676bBbi2e59QAPPG1xVzXg9W9V6D desc="Download raw from IPFS"]]]
-
-[[!img img/djr3-streamstage-12-11.jpeg]]
 
 <figure>
 <video autoplay muted loop controls>
@@ -493,16 +496,16 @@ May 9, 2020 — End of Howler: One More Final: Thank You
 
 [[Watch on YouTube](https://youtu.be/GqAUwMvmwNI) / [[!ipfs QmcrPbY95u6HdwkgxWcR7LTggnQkPprUTPvWNPo8CrN45A desc="Download raw from IPFS"]]]
 
-[[!img img/djr3-end-of-howler.jpeg]]
-
-<figure class="image-square">
-[[!img img/djr3-end-of-howler-2.jpeg]]
-[[!img img/djr3-poster-end-of-howler.jpeg]]
+<figure>
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreicubyk3krx2tq56lgjafpz6l7sh7y2dmlriy6fcg2rbm2xtruwth4"/>
 </figure>
 
-[[!img img/djr3-end-of-howler-nico-nico.gif]]
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreihas54c57llsmu2rtpo6nermmxfcfskdmirti6nnnrcjww2htkb3i" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreieg5rsjleccvlywx2ujtoyftsi7wk6meuz7yloupgmevgpx5zdwka" size=medium]]
+</figure>
 
-After three years of operation, the NCSU Imageboard, Howler.space, shut down.
+After three years of operation, the NCSU Imageboard, howler.space, shut down.
 Because we couldn't meet up in-person anymore, as the university was closed for
 the rest of the semester, we decided to throw a rave in Garry's Mod. To my
 knowledge this hasn't been done before and it required a handful of
