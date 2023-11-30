@@ -344,3 +344,14 @@ img.hooya-img-small {
 	img { background-color: slategray }
 }
 
+del {
+  text-decoration: line-through;
+  background-color: #fbb;
+  color: #555;
+}
+
+ins {
+  text-decoration: none;
+  background-color: #d4fcbc;
+}
+

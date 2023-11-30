@@ -2,6 +2,9 @@
 
 [[!tag Japan]]
 
+<script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core@5.1.5/index.min.js"></script>
+
 I visited [[Tōkyō]] again in the second full week of June 2023 with a group of
 11 friends. Some went to Kyōtō on a day trip, I did not and stayed in the
 capital city for the full week. I have been here before when I studied at
@@ -26,23 +29,23 @@ Arrival
 
 We landed a bit after noon at Haneda about 18 hours after our plane departed
 Raleigh-Durham International Airport, with one stop in Detroit interrupting
-those 18 hours.
+those 18 hours. We ate a sad breakfast at Mediterranean grille *Mezza* in the
+DTW airport. The catch is that there is no Mediterranean food served before
+noon; breakfast meal is pictured below; the below subjects are not actors; they
+are real people attempting to enjoy breakfast in an airport.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreiaogf6r2e3pdu3nme6srmi3fcpxfc4bd3f7xwrbdoruzbzxxotub4" size=medium]]
-<figcaption>Mediterranean grille *Mezza* in the DTW airport. The catch is that there is no
-Mediterranean food served before noon; breakfast meal is pictured above; the above
-subjects are not actors; they are real people attempting to enjoy breakfast in an airport</figcaption>
 </figure>
 
-Interestingly the airport fare machine was not selling new IC
-cards, more on that in a moment. Currency was exchanged, tickets were bought and
-I loaded up my PASMO card I still had from my last time here with some yen which
-I also kept from then. Considering macroeconomic inflation and the weakening of
-the yen against the US dollar since 2018 this was one of my worst performing
-investments, but hey, holding 20,000 yen for 5 years was worth not having to
-wait in line to exchange currency at the airport. I gave those who needed cash
-some money and we were off.
+Interestingly when we arrived the airport fare machine at Haneda was not selling
+new IC cards, more on that in a moment. Currency was exchanged, tickets were
+bought and I loaded up my PASMO card I still had from my last time here with
+some yen which I also kept from then. Considering macroeconomic inflation and
+the weakening of the yen against the US dollar since 2018 this was one of my
+worst performing investments, but hey, holding 20,000 yen for 5 years was worth
+not having to wait in line to exchange currency at the airport. I gave those who
+needed cash some money and we were off.
 
 From the airport we took the monorail north, transferring at Hanamatsuchō, and
 exiting the train at Ueno station. On the way north I recognized many of the
@@ -63,6 +66,7 @@ street in Ueno-okachimachi. That afternoon was slightly rainy but the street was
 still quite busy. We visited a 7-11 in Ueno-okachimachi on the way there.
 
 <figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreifwffl3onzxbi4e3iwsgvylwe43hqdvz7vpo2v4ifdxi3c37jwfb4" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreiadzjz4r7eqptnsm4ibhssj2pwhknh2djbbcnl7hbuwdx77rcteuy" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreiffb6v5zg27eofbsex5cugph27wltvpxo5623gy6nzqmt3x4nr5n4" size=medium]]
 </figure>
@@ -97,19 +101,11 @@ buildings (RIP). We were both exhuasted quite early owing to the fact we were
 operating on such little sleep so we kicked it back to the hotel near Ueno
 station well before the last train that night.
 
----
-
 The next morning it was **straight** to [[Yoshinoya]] because fuck it I wanted
 that ねぎ玉牛丼. It's not great but goddamn it's quick and it's a savory
 breakfast. This was Monday morning so the inside of that Yoshinoya was hectic
-with the dawn of a new workweek.
-
-<figure>
-[[!template id="hooya-img.tmpl" cid="bafkreieew366zm3zh2wneniz5nnli4kdj32ikyjghbkvdhg7hg6x4njfpy" size=medium]]
-<figcaption>Negitama Gyūdon is the king of beef bowl</figcaption>
-</figure>
-
-After Yoshinoya it was more wandering around Ueno park.
+with the dawn of a new workweek. After Yoshinoya it was more wandering around
+Ueno park.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreia7crfrgdm723nbypgagxtkkw3mgm4leurlpxv44lahvabbyrkwfm" size=medium]]
@@ -137,6 +133,10 @@ gate in the city for something like feeling out-of-place.
 </video></div>
 </figure>
 
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiezxjqaw6vyzt237cmscxvipas73wwuqy4vfx72eayc6khx2hvtkm" size=medium]]
+</figure>
+
 After this a smaller group of us wandered north to Asakusa, my favorite
 tourist-y spot in Taitō and conveniently close to our Ueno hotel. We visited
 the apartment where I lived for some time too, nobody was as touched by this
@@ -149,18 +149,21 @@ small neighborhood as I was.
 </figure>
 
 We ended that day in Akihabara again, of course, albeit with a larger group of
-people than just me and Bakesta.
+people than just Bakesta and myself. Things wind down early that night as it's a
+Sunday night and by the time we are ready to go only a few shops are open still.
 
----
-
-I spend most of the next day buying dōjin at various book shops. [[Rāmen|Ramen]]
-at a novel crowded joint in Ueno for dinner.
+I spend most of the next day buying dōjin at various book shops in Akihabara.
+[[Rāmen|Ramen]] at a novel, cheap and crowded joint in Ueno called 花田 “Hanada”
+for dinner.
 
 <figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreicsycezglb2wqonyatgyc7sfqybvojelj3i3ornqo3y55xo27zqqq" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreib2gqfmyujieu3k2vqvqsvxaeektmfb54atllakyxffgit2yd7sem" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreiczatqvm2zxwqdljx6ryrrmamdvfzqr7iv54mbuatbvxj52xhfdqa" size=medium]]
 </figure>
+
+Have You Tried the Tuna in Kabukichō?
+-------------------------------------------
 
 That night a small group of us ventured all the way out to Shinjuku because I saw
 a flyer for a DJ associated with Denonbu/電音部 playing at a new Namco arcade
@@ -214,4 +217,168 @@ around the plaza. Then he left as suddenly as he appeared.
 We made our way to Shinjuku station to scurry home before the last train that
 night as did much of the crowd from Kabukichō.
 
-[*to be continued…*]
+---
+
+The next day we visit Odaiba. This place was never on my radar; I had not been
+before nor ever thought of visiting. Now it seems that's because there's nothing
+on that artificial island, formerly a series of defensive positions built in
+Tōkyō Bay but expanded in the late 90s to its current form, except for the Fuji
+TV headquarters and a massive mall outside which the life-size Rainbow Gundam
+is stationed. But away from the mall the view overlooking the Rainbow Bridge is
+beautiful. When travelling back we took the Yurikamome train which actually
+crosses the Rainbow Bridge, something I didn't know until we were nearly
+crossing the river.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreihbbexrg5btfkxj3hltawx7sw6jektrivtcy65cw2c2ytxkjtvuzi" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreicxeunxcghmmcxpks2puoymmp3v7ktbhsv43utmfoefgekfnq4bf4" size=medium]]
+</figure>
+
+Still in Ueno, my fiancé and I lunched the next day at Danki Tonkatsu in
+Asakusa. I found this place once years wandering around Asakusa scouting for
+tonkatsu shops; neither time I ate here did it disappoint. After this I walked
+to Skytree while others took the train. I have fond memories walking along the
+Sumida river so I was far from bored on the walk there. I had been to Skytree
+just once, during Golden Week. Unfortunately Skytree tickets were sold out at
+that time so I just walked around Skytree City and went home. This time we
+pre-ordered tickets for both the tower and the aquarium.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidcuw5iemy3f7dhs5qwmyhf64qbhq4g6jtre4v4wb6matd6l7mb6y" size=medium]]
+</figure>
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreibydxp4dxmm2bwtmy5irhahhj2booxkchuv5lwshqfkwh352bn6km" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreibogjxmqd6j5xcpvgkt5rkmpkicmscsy54vtb4gyzapnr4khrokhi" size=medium]]
+</figure>
+
+It is amazing that even given how dense this city is it's not hard to pick out
+nearby districts given the defining Sumida and a few notable landmarks like
+Sensō-ji and Ueno Park. Still it was unfortunately foggy and we could not see
+far even to Shinjuku, let alone anywhere close towards Fuji. On clear days
+though it is possible to see Fuji from this vantage.
+
+Harajuku
+--------
+
+That next day we move hotels from Ueno to a place in Shinjuku; not that being in
+Ueno had inhibited us from venturing into Shinjuku but it's more convenient for
+everyone in general. It's Friday now and most of this day I spend in Harajuku.
+
+Harajuku is quite busy on the surface with bustling shops and tourists abound.
+Trendy young people parade the street dressed in more brands than they could
+count on a hand. It's loud, busy, and on this particular friday it's hard to
+even find a spot to sit. We scout a crepé shop after getting hungry and nestle
+in to enjoy one of the most iconic Harajuku items before wandering off to the
+south-east.
+
+Uraharajuku is much quieter than the main thoroughfare of Takeshita-dōri
+naturally. Walking around Urahara is like living in a dream; the homes are so
+beautiful, the streets wind so mercilessly and one could easily become lost
+here. There is a distinct change in elevation as you navigate from any one point
+in Uraharajuku to another. There are lazy shops with doors wide open sporting
+coats, pants and many items of clothing spaced far apart on the racks. Any item
+of clothing in these shops probably costs a good chunk of my bi-weekly salary. I
+peek into [Kingly Mask](https://kinglymask.jp/index.html) and buy the unwieldy
+clothes I don for the rest of the trip. I highly recommend visiting there and
+many of the shops around it in this corner of Harajuku; Kingly Mask in
+particular has a wide range of non-binary clothes any person could wear, many
+items for sale are simply “small” or “large” sizes. Many of the nearby shops
+have a similar vibe.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreicouhfki2otvdbb5k5zu65px44kmvtwjut6ufp5yeg4vm4dofg62u" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiao3a4ahcacpmqonx5i2h2dxtndo67wu5625nyyoohqcjygc2tshy" size=medium]]
+</figure>
+
+The architecture is beautiful everywhere around Harajuku, Ura- or not; this and
+the liveliness of the district makes Harajuku one of my favorite areas in the
+city. The only sushi I indulged of on this trip in was from a conveyor-belt
+sushi chain in Harajuku that night. I can only eat so much in a week and I was
+not focused on sushi in the slightest though others wanted to try it. One of the
+cuter nuances of translation I know of is that many conveyor belt places in
+Japan advertise themselves as a “sushi go-round”, which is a very literal
+translation of 回転寿司 “kaiten-zushi”.
+
+On our last full day in the city I visit [[Sophia_University]] where I studied
+in 2018; this was the only time I'd been in Japan before and the only reason I
+know my way around Tōkyō. I visited the on-campus store to buy my mom a
+uni-branded shirt, though she already has one from 2018, but as it happens they
+were closed this Saturday which I probably should have known already but did not
+remember.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreih6ytsodzhcsgrmnahtqiiy7xfc6rkpaflhqysq3z5sazpiwgsavi" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiagxv24re7divoorbhgbvkhkxjlgplfmgpiyy5b5sfs6ystheqlie" size=medium]]
+</figure>
+
+<figure>
+<div id="viewer-sophia" style="width: 100vw; height: 60vh;"></div>
+<figcaption>Walkway behind Sophia University</figcaption></figure>
+
+From Sophia I head back to Shinjuku and try yakitori at a place called 晴京
+“Harukyō” which we found by walking around looking for yakitori shops. I never
+had yakitori but my fiancé's insistence persuaded me to try it; it is niche, not
+my favorite food I tried abroad but the fact you can see the single chef in a
+cute and very tall hat grill everyone's order over charcoal made this worth. I
+can't remember the names of the parts of the chicken I indulged in as I didn't
+know that chickens actually had such complicated anatomy; but there it was laid
+out on a menu before me in a language I barely studied anymore. This was had for
+late-lunch; I am sure that dinner is somehow more spectacular and more crowded.
+
+Then I ditch my fiancé and hop on the Chūō-Sōbu at Shinjuku station and blitz
+Akihabara on the other side of town with Bakesta.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreihlxjcjp5kg4vdlwbbqig3rtzdkhwewwcfpocevlwr2lcugoh576i" size=medium]]
+<figcaption>Boy dinner on the sidewalk near the JR Akihabara station</figcaption>
+</figure>
+
+I pick up more dōjin from the Melon Books in the basement of the Hey! Arcade and
+we generally bounce around Tokyo Leisure Land, Hey! and many of the new GiGo
+arcades that inhabit the carcasses of Akihabara's many freshly-killed SEGA
+arcades playing Wangan Maxi 6RR, Initial D “The Arcade”, Beatmania IIDX 30
+RESIDENT and many other new and fun machines. We enjoy the last Saturday night
+in Akihabara scurry back to Shinjuku just in time for karaoke with friends,
+having been completely separated from them for all of that afternoon.
+
+Karaoke is karaoke: loud and fun. You are given your own room and permitted to
+yell as much as you want, that's almost the point. Unlimited coffee, tea and
+soft-drinks and, if you should so choose to buy a group package, endless mixed
+drinks too. If there's one regret I had from my first time in Japan it's that I
+never did karaoke but I guarantee it's worth it especially if you're with a fun
+group of friends.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreigkif6jihcucxikfh5u4rxqwsv2nbcwdwkpvinl4rhxxuqrrvpg6i" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreid24zushdqycws3mhwxds3yqki7koywmv5laelq2yo6qr2d2vvthe" size=medium]]
+</figure>
+
+I will spare posting the videos of us singing here, there are plenty on
+[gallery.wesl.ee](https://gallery.wesl.ee/gallery/Tokyo23). If you're looking
+for a good introduction to what is Japanese karaoke and how is it different from
+at least the American version, check out [this helpful video from
+Namasensei](https://youtu.be/1e2JBXGPnuo). I checked and they still do have “Sit
+on my Face” as a song choice (above) which I happily belted out. Unlike when
+Namasensei was there we were able to order the drinks and food on a dedicated
+tablet without needing to pick up the phone! Definitely worth paying for the
+飲み放題 “nomihōdai”, unlimited drinks for the duration you are there is
+priceless and fun!
+
+Endless <del>September</del> <ins>Sunday</ins>
+----------------------------------------------
+
+We awoke the next day, Sunday morning, and after our long flight home we
+returned to US soil at RDU airport, on Sunday night.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreie7ihhvhx2i2hnsyr4i364pzvjlyghwsp6x2oz53maz3xtekcgzqq" size=medium]]
+</figure>
+
+<script>
+new PhotoSphereViewer.Viewer({
+    container: document.querySelector('#viewer-sophia'),
+    panorama: 'https://web.hooya.wesl.ee/cid-content/bafkreiccip4ql3atw3oekb3cldk2v3u6ipds54kghkpza2ryrfumonbtzm',
+    navbar: true,
+});
+</script>
