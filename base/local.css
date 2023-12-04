@@ -220,7 +220,7 @@ footer nav {
 }
 
 figure {
-	margin: 1rem;
+	margin: 0.2rem;
 	hyphens: none;
 	-moz-hyphens: none }
 #content figure {
@@ -233,7 +233,7 @@ figure {
 }
 #content .image-square > div {
 	flex: 1 0 30%;
-	margin: 1rem;
+	margin: 0.2rem;
 }
 #content .image-square > figcaption {
 	flex: 0 0 100%;

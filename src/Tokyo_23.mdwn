@@ -109,8 +109,7 @@ Ueno park.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreia7crfrgdm723nbypgagxtkkw3mgm4leurlpxv44lahvabbyrkwfm" size=medium]]
-</figure>
-<figure class=image-square>
+</figure><figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreialunjyaxfswqhvpeivolivmcwkl32izpb7x4o5ydbggq2r3xvlky" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreidamyljxqvgsugnn6l6tdgthoplckhyb5rvxbcucrk2hlsmpf74py" size=medium]]
 </figure>
@@ -123,10 +122,8 @@ gate in the city for something like feeling out-of-place.
 
 <figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreid7htyxssgvohqylrrgbjlnbyg7h5e54byzlj227bw5k77x5ikzdi" size=medium]]
-[[!template id="hooya-img.tmpl" cid="bafkreifrsp3fgrmfc6asy7hxthxbbxq72435mdshrsileaa4xciztz7uva" size=medium]]
-</figure>
-
-<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreialnopojqdveengpuyanpj4j4nn6axlgdg5llscf7pdbn2cjhpvk4" size=medium]]
+</figure><figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreifqdcvapxlg5zmwwkviq4kmajy2l7xh3uvn6cjmdknhkqyz3ifgoa" size=medium]]
 <div><video autoplay muted loop controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreifwol2nhb5systdombsqoof7c4t2habsnzgqg6jovhi5bbyjc6ory" type="video/mp4">
