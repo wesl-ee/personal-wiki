@@ -20,7 +20,7 @@ only_committed_changes: 0
 rcs: 'git'
 add_plugins: [ 'toc', 'mirrorlist', 'wikitext', 'teximg', 'syntax', 'inline', 'goodstuff', 'link', 'date', 'favicon', 'graphviz', 'parentlinks', 'sortnaturally', 'meta', 'linkmap', 'shortcut', 'headinganchors', 'autoindex', 'img' ]
 # plugins to disable
-disable_plugins: ['htmlscrubber', 'recentchanges', 'recentchangesdiff']
+disable_plugins: ['htmlscrubber', 'recentchanges', 'recentchangesdiff', 'smiley']
 # additional directory to search for template files
 # templatedir: /usr/share/ikiwiki/templates
 # base wiki source location
