@@ -101,7 +101,7 @@ Piercing
 --------
 
 I had my [[ears pierced|Piercings]] in December of this year. My fiancé had this
-done about a year ago and since then had I always thought about getting mine
+done about a year ago and since then I had always thought about getting mine
 done, not because I am <span class=gay-text>gay</span>, but because I thought it
 would look tight as fuck; I was right.
 
@@ -152,7 +152,7 @@ cool! Those links on this website to the current build of HooYa! always start
 with `web.hooya.wesl.ee` which is a web gateway proxying HTTP traffic to
 the protocol's native gRPC calls brought to you by protobuf. I have not written
 anything about how the current build works because it's still pre-alpha
-software. I do no promise any functionality beyond what you see today;
+software. I do not promise any functionality beyond what you see today;
 I have a *normal* job to focus on, dummy.
 
 Cryptocurrency
