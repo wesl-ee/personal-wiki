@@ -160,10 +160,32 @@ section#content > p + p {
 }
 ul.net-presence {
 	padding-left: 0;
+	list-style: none;
+}
+ul.net-presence li {
+	display: inline-block;
+}
+ul.net-presence li + li:before {
+	content: "—";
+	padding: 0 1ch;
 }
 ul .twitter, ul .linkedin, ul .github, ul .website, ul .fediverse {
 	list-style: none;
 	display: inline-block;
+}
+ul .home:before {
+	content: url('wikiicons/home.gif');
+	margin: 0 10px;
+	display: inline-block;
+	width: 1em;
+	color: #6a737d;
+}
+ul .coffee:before {
+	content: url('wikiicons/coffee.gif');
+	margin: 0 10px;
+	display: inline-block;
+	width: 1em;
+	color: #6a737d;
 }
 ul .website:before {
 	content: url('wikiicons/article.svg');

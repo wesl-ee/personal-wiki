@@ -56,4 +56,6 @@ more about that topic.
 
 [[!pagestats show="Title" pages="Discover/*"]]
 
-Finally, you can find out more about this site by reading about the site [[Meta]].
+All pages on this site are available in chronological order under the
+[[Meta/Recent_Posts]] page.
+
