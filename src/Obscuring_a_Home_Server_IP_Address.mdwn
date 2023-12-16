@@ -80,8 +80,7 @@ the home-server.
 [root@cloud-vps ~]$ wg genkey | tee privatekey | wg pubkey > publickey
 """]]
 
-On the VPS, create a Wireguard configuration file using the following
-template:
+On the VPS create a Wireguard configuration file using the following template:
 
 [[!syntax type="toml" text="""
 [Interface]
@@ -161,7 +160,9 @@ server {
 """]]
 
 These rules are not necessary or even advised but as I know my content available
-on [[HooYa]] is immutable I can make cache guarantees like this.
+on [[HooYa]] is immutable I can make cache guarantees like this. Caching on the
+VPS reduced the page load time of [[this page|Tokyo_23]] from 3.3s to 560ms
+because my home network upload speed is atrocious (about 40Mbps tonight).
 
 Setting up iptables for Routing
 -------------------------------
