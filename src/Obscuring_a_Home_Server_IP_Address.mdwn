@@ -1,0 +1,212 @@
+[[!tag Peer_to_Peer_Networking]]
+
+Running a home-server has a number of advantages over renting from a cloud
+provider. Over a surprisingly short period of time the costs of building a
+dedicated server are less than that of renting a similar computer in the cloud.
+Doing so also provides you with the flexibility to expand and upgrade your
+system as needed.
+
+With cloud providers you are limited by the specifications of the VMs they
+offer. If you require more storage or processing power you may find yourself
+having to upgrade to a more expensive plan resulting in additional costs. With a
+home-server you have the freedom to add more storage, upgrade your CPU, etc.
+
+One trouble with running a home-server is exposing the machine to the public
+Internet. Especially if you are operating online as a pseudonymous individual
+exposing sensitive information like your IP address from which your
+jurisdiction can be gleaned is a misstep. To prevent this one can rent a cloud
+VPS to act exclusively as an ingress controller for the home-server.
+
+Basic Concept
+-------------
+
+We will create a Tailscale-like network to connect the home-server to the cloud
+VPS. This way both computers will be on the same subnet and can communicate as
+if they were on the same LAN.
+
+The technology we'll use here:
+
++ Wireguard, for creating the network connecting the home-server cluster to the
+  cloud VPS
++ Nginx, as the ingress controller for HTTP/S
++ iptables, for routing any non-HTTP/S traffic
+  through the Wireguard tunnel
+
+With this setup we can ensure secure communication between the home-server and
+the cloud VPS while also providing a secure and controlled ingress point for
+HTTP/S traffic.
+
+You can skip the next section if you already have a home-server with Wireguard set
+up like I describe in [[Wireguard_Point-to-Home-Server_Setup]].
+
+Setting up Wireguard on the Home-Server
+---------------------------------------
+
+First we need to set up the Wireguard network between the home-server and the
+cloud VPS. On the home-server it is necessary to install Wireguard and generate
+a private key for the server. This can be done like:
+
+[[!syntax text="""
+[root@home-server ~]$ wg genkey | tee privatekey | wg pubkey > publickey
+"""]]
+
+The `privatekey` file will contain the generated private key while the
+`publickey` file will contain the corresponding public key. Using this
+information we can configure wireguard on the home-server using this template:
+
+[[!syntax type="toml" text="""
+[Interface]
+PrivateKey = <home-server-private-key>
+Address = 10.0.20.1/24
+ListenPort = 51871
+
+[Peer]
+PublicKey = <cloud-vps-public-key>
+AllowedIPs = 10.0.20.2/32"""]]
+
+Note that ports on the home router may need to be forwarded for the server to
+know of any incoming Wireguard connections. Additionally the
+`cloud-vps-public-key` is generated below so fill that part out later. Save the
+file as `wg0.conf` in the `/etc/wireguard/` directory on the home-server.
+
+Setting up Wireguard on the Cloud VPS
+-------------------------------------
+
+Next we should install Wireguard on the cloud VPS and generate a private key for
+it as well. This is exactly the same as generating a public / private pair for
+the home-server.
+
+[[!syntax text="""
+[root@cloud-vps ~]$ wg genkey | tee privatekey | wg pubkey > publickey
+"""]]
+
+On the VPS, create a Wireguard configuration file using the following
+template:
+
+[[!syntax type="toml" text="""
+[Interface]
+PrivateKey = <cloud-vps-private-key>
+Address = 10.0.20.2/24
+
+[Peer]
+PublicKey = <home-server-public-key>
+AllowedIPs = 10.0.20.1/32, 10.0.10.0/24
+Endpoint = <external-home-server-ip>:51871
+"""]]
+
+Note that in addition to making `10.0.20.1` available I also expose
+`10.0.10.0/24` as that is the subnet of my [[On-Prem_Home_Lab_Kubernetes]] pods.
+
+Save the file as `wg0.conf` in the `/etc/wireguard/` directory.
+
+Starting the Wireguard Connection
+---------------------------------
+
+Now that the Wireguard configuration files are in place we can start the
+connection on both the home-server and the cloud VPS.
+
+On both computers run `wg-quick up wg0` which should start the Wireguard
+connection and allow the computers to communicate.
+
+To verify that the Wireguard connection is working properly use the `wg` command
+on both the home-server and the cloud VPS. Check connectivity using
+`ping` between both computers also.
+
+Setting up Nginx as the Ingress Controller
+-----------------------------------------
+
+With the networks bridged let's move on to actually forwarding traffic. For
+HTTP/S traffic my proxy of choice is nginx. An instance of nginx running on the
+cloud VPS will listen for connections on ports 80 and 443 then route traffic on
+those ports to our home server via the Wireguard interface we set up earlier.
+
+A server block may look like this:
+
+[[!syntax type="nginx" text="""
+server {
+    listen 80;
+    listen [::]:80;
+    server_name web.hooya.wesl.ee;
+
+    location / {
+        proxy_pass http://10.0.10.6:30005;
+    }
+}
+"""]]
+
+This forwards traffic from my ingress cloud VPS to my local cluster. In addition
+to this I have these caching rules in place:
+
+[[!syntax type="nginx" text="""
+http {
+    # ...
+    proxy_cache_path /etc/nginx/cache-cid levels=1:2 keys_zone=cidcache:10m max_size=10g inactive=1y;
+    proxy_cache_path /etc/nginx/cache-thumbs levels=1:2 keys_zone=thumbscache:10m max_size=10g inactive=1y;
+}
+server {
+    # ...
+    location /cid-thumbnail {
+        proxy_cache thumbscache;
+        add_header X-Cache-Status $upstream_cache_status;
+        proxy_cache_valid 200 1y;
+        proxy_pass http://10.0.10.6:30005;
+    }
+    location /cid-content {
+        proxy_cache cidcache;
+        add_header X-Cache-Status $upstream_cache_status;
+        proxy_cache_valid 200 1y;
+        proxy_pass http://10.0.10.6:30005;
+    }
+}
+"""]]
+
+These rules are not necessary or even advised but as I know my content available
+on [[HooYa]] is immutable I can make cache guarantees like this.
+
+Setting up iptables for Routing
+-------------------------------
+
+Running nginx on the cloud VPS makes it simple to manage HTTP/S traffic. But
+what about other types of traffic? We can handle it with these commands, which
+enable IPv4 forwarding and set up the necessary `iptables` rules. In this
+example I forward only a port for a Garry's Mod server, but these commands could
+be run for any arbitrary port:
+
+[[!syntax text="""
+[root@cloud-vps ~]# echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
+[root@cloud-vps ~]# sysctl -p
+[root@cloud-vps ~]# iptables -A FORWARD -i wg0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+[root@cloud-vps ~]# iptables -t nat -A PREROUTING -p udp --dport 27015 -j DNAT --to-destination 10.0.10.6:27015
+[root@clous-vps ~]# iptables -t nat -A POSTROUTING -o wg0 -p tcp --dport 27015 -d 10.0.10.6 -j SNAT --to-source 10.0.20.2
+"""]]
+
+A `POSTROUTING` rule is necessary instead of a `MASQUERADE` because traffic from
+the home-server is not routed back through our VPS by default. It took an
+embarassing amount of time for me to realize this was the issue when I was
+trying `MASQUERADE` commands.
+
+Conclusion
+----------
+
+This setup allows for secure communication between the home-server cluster and
+the cloud VPS, enabling seamless access to services and resources on the
+home-server from the address of the cloud VPS. Not limited to just HTTP/S
+traffic, this setup also permits file-sharing traffic and generally any Internat
+application, for example email or P2P filesharing.
+
+After following these steps there is no need to expose any port on your home
+network other than the Wireguard port. This will only obscure your home address
+though, and for simple applications this is probably enough to completely mask
+it. There are no guarantees that the application itself will not leak data some
+other way, but this at the very least sets up an ingress server so you don't go
+handing out your public IP every time someone wants to access a service running
+on your server.
+
+Finally remember to secure your Wireguard configuration files and private keys,
+as they are crucial for maintaining the security of your connection. Regularly
+update and patch your systems to ensure they are protected against any
+vulnerabilities.
+
+With the steps outlined in this guide, you can create your own Tailscale-like
+network to connect your home-server to the cloud, opening up a world of
+possibilities for remote access and secure communication.
