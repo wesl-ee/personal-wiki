@@ -197,17 +197,8 @@ application, for example email or P2P filesharing.
 
 After following these steps there is no need to expose any port on your home
 network other than the Wireguard port. This will only obscure your home address
-though, and for simple applications this is probably enough to completely mask
-it. There are no guarantees that the application itself will not leak data some
+though; for simple applications this is probably enough to completely mask it.
+There are no guarantees that the application itself will not leak data some
 other way, but this at the very least sets up an ingress server so you don't go
 handing out your public IP every time someone wants to access a service running
 on your server.
-
-Finally remember to secure your Wireguard configuration files and private keys,
-as they are crucial for maintaining the security of your connection. Regularly
-update and patch your systems to ensure they are protected against any
-vulnerabilities.
-
-With the steps outlined in this guide, you can create your own Tailscale-like
-network to connect your home-server to the cloud, opening up a world of
-possibilities for remote access and secure communication.
