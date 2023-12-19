@@ -19,11 +19,11 @@ jobs:
 
     - name: Build Website
       run: |
-        nix-shell --run 'ikiwiki --setup ikiwiki.setup'
+        nix-build
 
     - name: Upload to Remote Server
       run: |
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        rsync -av --delete -e www/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/http/wesl.ee/
+        rsync -av --delete -e "ssh -i ~/.ssh/id_rsa" $(readlink result)/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/http/wesl.ee/

@@ -14,12 +14,17 @@ let TextVimColor = perl536Packages.buildPerlPackage {
       license = with lib.licenses; [ artistic1 gpl1Plus ];
     };
   };
-in pkgs.mkShell rec {
+in pkgs.stdenv.mkDerivation rec {
+  pname = "personal-wiki";
+  version = "0.1.0";
+  src = builtins.path { name = "personal-wiki"; path = ./.; };
+
   buildInputs = with pkgs; [
     ikiwiki
 
     vim
     graphviz
+    git
 
     # teximg
     imagemagick
@@ -37,4 +42,12 @@ in pkgs.mkShell rec {
     perl536Packages.SortNaturally
     TextVimColor
   ];
+
+  buildPhase = ''
+    ikiwiki --gettime --setup ./ikiwiki.setup -v
+  '';
+
+  installPhase = ''
+    mv www $out
+  '';
 }
