@@ -1,0 +1,30 @@
+name: Deploy Static Website
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ikiwiki rsync
+
+    - name: Build Website
+      run: |
+        ikiwiki --setup ikiwiki.setup
+
+    - name: Upload to Remote Server
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        rsync -av --delete -e www/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/http/wesl.ee/
