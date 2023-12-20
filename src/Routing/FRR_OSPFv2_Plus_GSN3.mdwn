@@ -604,7 +604,7 @@ tab of the "Configure" window though I haven't found much use for them yet.
 I also suggest picking a cool icon for your VX!
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreib6mm23lwfnvv6mea3ihbyprlrrqv6sunvigpomvoy3zghuuvedri" size=medium]]
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreib6mm23lwfnvv6mea3ihbyprlrrqv6sunvigpomvoy3zghuuvedri"/>
 <figcaption>Installing and Configuring a Cumulus VX in the Ring Topology</figcaption>
 </figure>
 

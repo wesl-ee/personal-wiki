@@ -19,7 +19,7 @@ But the intermediate results, between these two steps, leaves me feeling funny
 sometimes.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreiakf7ohsu33q74l65kevqq7zrxomhfpyokdnl3rcteehsgrz7pmtq" size=medium]]
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreiakf7ohsu33q74l65kevqq7zrxomhfpyokdnl3rcteehsgrz7pmtq"/>
 </figure>
 
 *Stable Dysphoria (noun): a state arising from conflict between the sex a person

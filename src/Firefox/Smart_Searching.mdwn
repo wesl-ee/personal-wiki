@@ -12,7 +12,7 @@ to type my search query in the Firefox URL bar and press enter; the query is
 then submitted to Startpage and I get my results back in seconds.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreibyqipxlsp7dazmrgonok5jz4pp6aqvudednrntuq4kn277botlgi" size=medium]]
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreibyqipxlsp7dazmrgonok5jz4pp6aqvudednrntuq4kn277botlgi"/>
 </figure>
 
 Sometimes, though, I don't always want to search for something on Startpage.
