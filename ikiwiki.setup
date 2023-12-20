@@ -18,7 +18,7 @@ default_pageext: wiki
 only_committed_changes: 0
 # rcs backend to use
 rcs: 'git'
-add_plugins: [ 'toc', 'mirrorlist', 'wikitext', 'teximg', 'syntax', 'inline', 'goodstuff', 'link', 'date', 'favicon', 'graphviz', 'parentlinks', 'sortnaturally', 'meta', 'linkmap', 'shortcut', 'headinganchors', 'autoindex', 'img' ]
+add_plugins: [ 'toc', 'mirrorlist', 'wikitext', 'teximg', 'syntax', 'inline', 'goodstuff', 'link', 'date', 'favicon', 'graphviz', 'parentlinks', 'sortnaturally', 'meta', 'linkmap', 'shortcut', 'headinganchors', 'img' ]
 # plugins to disable
 disable_plugins: ['htmlscrubber', 'recentchanges', 'recentchangesdiff', 'smiley']
 # additional directory to search for template files
@@ -46,7 +46,7 @@ hardlink: 0
 # extra library and plugin directories
 libdirs: [ 'lib' ]
 # time zone name
-timezone: "US/Eastern"
+timezone: "America/New_York"
 # cookie control
 # set custom user agent string for outbound HTTP requests e.g. when fetching aggregated RSS feeds
 useragent: ikiwiki/3.20190228-1
@@ -103,11 +103,6 @@ mdwn_alpha_lists: 0
 ######################################################################
 # other plugins
 ######################################################################
-
-# autoindex plugin
-# commit autocreated index pages
-autoindex_commit: 0
-
 # recentchanges plugin
 # name of the recentchanges page
 # recentchangespage: recentchanges

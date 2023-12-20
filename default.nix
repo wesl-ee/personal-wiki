@@ -46,9 +46,6 @@ in pkgs.stdenv.mkDerivation rec {
   buildPhase = ''
     export TZ="America/New_York"
 
-    # Reset all timestamps to the epoch start
-    find . -exec touch -t 197001010000 {} \;
-
     # Then timestamps for ikiwiki
     find src/ -name "*.mdwn" -exec bash -c '
         last_edit_timestamp=$(git log -1 --format=%ct -- "{}")
