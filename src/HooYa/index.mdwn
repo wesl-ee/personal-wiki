@@ -26,7 +26,9 @@ searchable tags and metadata for each illustration it hosts. HooYa! maintains
 also a folksonomy for images that are not stored on-chain but that may be
 accessible through other services such as Pixiv and Danbooru.
 
-[[!img img/hooya-slide.jpeg size="x500"]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreid7runqtgkhyou6oiipplfc6laku7rth2irvo4bnhhj64xzmutj6i" size=medium]]
+</figure>
 
 It aspires to be rapidly become completely autonomous and self-governing by
 issuing its own governance tokens for use in image proposal / acceptance and
@@ -82,7 +84,7 @@ abroad) the idea of earning a living as an illustrator has attracted many creato
 both Japanese and internationals, to the Pixiv platform.
 
 <figure>
-[[!img img/pixiv-shiratama-tier-1.jpeg size="x500"]]
+[[!template id="hooya-img.tmpl" cid="bafkreicy3nr2eou6gsvjy5y5bnhpcttap54bieaygr3kuiqzg5fekpe4wu" size=medium]]
 <figcaption>Example of a monthly subscription from <a
 href="https://shiratamaco.fanbox.cc/">Shiratama's</a> pixivFANBOX
 page</a></figcaption>
@@ -116,7 +118,9 @@ are key-value pairs used to describe an image. This makes the set of images
 easily searchable by specifying (eg) the illustrator, character, franchise or
 any objects in an image.
 
-[[!img img/danbooru-product-placement.jpeg size="x500"]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreie3otugdsqc7vgs2ybiqxhghm2gudncrr7g6qie3q5cgho2biwnu4" size=medium]]
+</figure>
 
 As shown above Danbooru lets me search things such as: illustrations of the Love
 Live! franchise which include product placement of some kind, by issuing the
@@ -133,7 +137,7 @@ Danbooru limits searches to 2 tags unless the user has purchased a
 raised to 6. Gold accounts cost a one-time purchase of $20 USD.
 
 <figure class=left-float><video width=300 height=300 loop autoplay controls>
-<source src="/vid/gwern-stylegan-portraits-interpolation-4x4.webm">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreig5oc2qi6nhfesewedwcumhmh44fcqbmc5gguk4hmr3ntigua3qgm" type="video/webm">
 </video>
 </figure>
 

@@ -24,7 +24,9 @@ Hemming also allows you to repurpose clothes and tailor them to suit your needs.
 In celebration of this helpful diagram for men's summer style I settled on first
 repurposing old jeans into new denim shorts.
 
-[[!img img/mens-summer-shorts-guide.jpeg size=400x]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiadu2ejgx7bxfhz2ov3nom2cjbyszncdvpsji6n5bd67esywln3ya" size=medium]]
+</figure>
 
 I'm a fan of shorts of the 80s; I know a lot of people are not. I think people
 deserve to show off their muscle tone where they've got it because I understand

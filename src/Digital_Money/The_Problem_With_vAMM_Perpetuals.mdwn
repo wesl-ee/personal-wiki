@@ -14,7 +14,7 @@ size and the amount of liquidity in the curve. Namely for any trade the slippage
 premium is large for (a) large trades and (b) low liquidity in the curve.
 
 <figure>
-[[!img img/xyk.jpeg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreihnolv3r6jwrmgdextu4g2v2ba7p6rrxae5zrcmh7xjq4dmcxp6vq" size=medium]]
 <figcaption>Typical `x*y=k` curve for `k=1`</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ price were above spot price, funding would be paid to shorts. Thereby the price
 of a perpetual future product roughly tracks the price of the underlying.
 
 <figure>
-[[!img img/ftx-historic-funding.jpeg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreihga6lzrbheikqpjcumuyb4pflqqkawbfuhjrgdpgr2753nege33m" size=medium]]
 <figcaption>Historic funding rate for FTX Bitcoin perpetual futures. A positive
 rate means short positions are paid to keep their positions open</figcaption>
 </figure>
@@ -88,7 +88,7 @@ What makes these vAMMs inefficient compared to a pure orderbook model as you
 would see on a CEX is: slippage.
 
 <figure>
-[[!img /img/drainage.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreigy5nfuclvf3574y4gmwgtysv2rr6k7mc5a6upsuyocjgpjjscgba" size=medium]]
 <figcaption><em><a href="https://youtu.be/dRhRFOu-hRA">Slippage! Slippage, Eli!
 Drained dry, you boy</a></em></figcaption>
 </figure>
@@ -169,7 +169,7 @@ far, but eventually either the mark price must return to the pin or the pin must
 be moved closer to the mark price.
 
 <figure>
-[[!img img/rubberband-perps.jpeg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreiaiava3u3kom7cpkfowzxoc37urexb2mf6vmw2jsfoabwsm53n7de" size=medium]]
 <figcaption>The further we are from initial conditions, the more capital we need
 to prop up the system</figcaption>
 </figure>
@@ -205,8 +205,8 @@ Off-loading the matching to a "private blockchain" is no better than running a
 CEX orderbook as it gives protocol insiders the ability to front-run orders.
 
 <figure>
-[[!img img/hayes.jpeg size=500x]]
-[[!img img/hayes-stops.jpeg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreibkdzafkdt7asgesinys5mplcqxjizow2zvupc3rvtlv2blqqof5q" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreif554lfpuclk7gst3rzgm6k5zhtoavfusdvxjlpda2rmajnsldgzq" size=medium]]
 <figcaption>When the house runs the orderbook the house always wins</figcaption>
 </figure>
 

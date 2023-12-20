@@ -23,7 +23,6 @@ these these non-exclusive genre tags:
 [[!template id="hooya-img.tmpl" cid="bafkreifbkzbkhugktf5ioccssnb2ws7fgvyij6qn272i2hjzmz2rz7bmcu" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreia2bjsnmxnmcpq64ibe7ss3f34hlbj3nhxamjbo4helem7jatcjda" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreidre7babb4jqe7vd3fspd432j5f6x33xh5vo6mge4rzep3ndpbm6i" size=medium]]
-<img src="https://web.hooya.wesl.ee/cid-content/bafkreidre7babb4jqe7vd3fspd432j5f6x33xh5vo6mge4rzep3ndpbm6i" />
 [[!template id="hooya-img.tmpl" cid="bafkreifqgqa6xkkmzkdkdnwokcjh3bi77tbbhgvqqf6d63ygmuoaa552lq" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreifajnshvcx737wxzcffdrbnni24wqiw3w5hb6ughwcilcfl4con5m" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreif25bord4kqhuhgpfdioogmocqhmnkqlulqkyg52p2aga2wdpk634" size=medium]]
@@ -159,7 +158,7 @@ June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 
 <figure>
 <video autoplay muted loop controls>
-<source src="../vid/djr3-ep-7.mp4" type="video/mp4">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreiadkw6byaxtgauw3hvxufu3w34s4xe4nklymbx6paa4y4echthfmm" type="video/mp4">
 </video>
 </figure>
 
@@ -200,7 +199,7 @@ Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 
 <figure>
 <video autoplay muted loop controls>
-<source src="../vid/djr3-practice-synesthesia-009.webm" type="video/webm">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreiebaiio4zk2wogvmneik3s45zcvemw6fs62ga2a275ch3wwk3fjy4" type="video/mp4">
 </video>
 </figure>
 
@@ -327,7 +326,7 @@ Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 
 <figure>
 <video autoplay muted loop controls>
-<source src="../vid/djr3-streamstage-dec-11.mp4" type="video/mp4">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreie7ltjqr4uxtjanwnkulnemcmmp4jq2l4tkalktue5fa6ybfnrcoy" type="video/mp4">
 </video>
 </figure>
 
@@ -370,7 +369,7 @@ Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 
 <figure>
 <video autoplay muted loop controls>
-<source src="../vid/djr3-streamstage.webm" type="video/webm">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreih5jd6whn4laj52vurr2zkztqmgt6r7ejjxyoqsmc2x57vouv4nsm" type="video/webm">
 </video>
 </figure>
 
@@ -605,7 +604,7 @@ Jan 25, 2020 — NEUROTiC
 
 <figure>
 <video autoplay muted loop controls>
-<source src="../vid/djr3-neurotic.webm" type="video/webm">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreicg2tm4rghr2v5brelnk44abhqfj7ryvtvebnkok6c7wcfhbslrwa" type="video/webm">
 </video>
 </figure>
 

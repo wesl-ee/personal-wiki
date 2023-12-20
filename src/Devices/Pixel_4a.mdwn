@@ -10,7 +10,9 @@ GiB.
 <table class=no-border>
 <tr>
   <td colspan=2 class=spread-img>
-[[!img img/pixel-4a-sep-2022.jpeg size="x500"]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreib4ickn752x3vahuykwnzpccc33feeqnx5spjkts5apmdmkzdufoe" size=medium]]
+</figure>
   </td>
 </tr>
 <tr>
@@ -196,7 +198,7 @@ tools rolled into one:
 </table>
 
 <figure class=left-float><video width=180 height=391 loop autoplay>
-<source src="/vid/pixel-4a-sep-2022.mp4">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreifycxn5rhnym7jhlzcozz3qzhmm674ihowqaxmzohhi65i2zzgl7e" type="video/mp4">
 </video>
 </figure>
 

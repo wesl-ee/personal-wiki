@@ -52,7 +52,7 @@ debugging tools to port software from a lab (Windows) machine to the MSP430
 board.
 
 <figure>
-[[!img img/ece306-p1-board.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreiesoy4ysgxwn2oyofycmikzb6a2giiisb5lqdcwihiiycmzx5bdhm" size=medium]]
 <figcaption>Example of the outcome of Project 1</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ reverse-engineering and SPI programming that everyone else missed out on; an
 example of my notes (annotated with my post-analysis) is posted below:
 
 <figure>
-[[!img img/ece306-lcd-dump.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreihwqenngydmhvrwsqutfslgfpbrqzncgafd5ibaywioy5vk2v7qfe" size=medium]]
 <figcaption>An annotated view of the waveform traced from a lab
 oscilloscope; using this (and 10 other sketches) I was able to
 reverse-engineer the entire initialization routine</figcaption>
@@ -638,7 +638,7 @@ requisite part of the course but which I found useful to have), a page of
 which is provided below:
 
 <figure>
-[[!img img/ece306-clk-design.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreihg4b4i2cuckyyklyzagvpb3bdzljehy3fyqo7nphugqaul32xsxu" size=medium]]
 <figcaption>A page from my lab notebook detailing clock propagation to
 various subsystems in the RC-Car</figcaption>
 </figure>
@@ -686,7 +686,7 @@ allowing students who actually *drive* their cars to speed ahead in the
 course.
 
 <figure>
-[[!img img/ece306-p10-dev.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreihs6owxtcgl3wvtk2um26i2hloclowyf5gdxisstubb3ro5pewshm" size=medium]]
 <figcaption>My typical development environment (note the coffee)</figcaption>
 </figure>
 
@@ -747,7 +747,7 @@ reverse-engineering the LCD driver and (re)writing the interface I was
 finally able to develop 24/7 on my Linux computer.
 
 <figure>
-[[!img img/ece306-p10-run.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreih6jecrwyz24o57lxh5lh3leyawvuubt63wyhdj7thw7vjc4pppqi" size=medium]]
 <figcaption>The final obstacle course; no wonder the access points were
 overloaded!... each waypoint of the course is an orange mat barely bigger
 than the car itself (and notice the line-interception portion of the course)</figcaption>

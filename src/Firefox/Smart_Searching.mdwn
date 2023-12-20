@@ -12,7 +12,7 @@ to type my search query in the Firefox URL bar and press enter; the query is
 then submitted to Startpage and I get my results back in seconds.
 
 <figure>
-<img alt="Startpage Search" src="https://cdn.wesleycoakley.com/web-images/mortar-robinson-search.gif">
+[[!template id="hooya-img.tmpl" cid="bafkreibyqipxlsp7dazmrgonok5jz4pp6aqvudednrntuq4kn277botlgi" size=medium]]
 </figure>
 
 Sometimes, though, I don't always want to search for something on Startpage.
@@ -29,7 +29,7 @@ of the URL bar.
 3. Type "@[keyword]" where keyword is a short, unique mnemonic 
 
 <figure>
-<img alt="One-click Search Engines" src="https://cdn.wesleycoakley.com/web-images/one-click-search-engines.jpg">
+[[!template id="hooya-img.tmpl" cid="bafkreihi5uvrta5dbuyprh76ee3ogk327ccbvkqnbrjban72f3e35bvm4y" size=medium]]
 </figure>
 
 Great, now you've got a keyword set up! But how can you add more search engines
@@ -44,7 +44,7 @@ keyword for this search", which will open a dialog box where you can specify the
 keyword. Be sure to prefix the keyword with an "@" or similar symbol!
 
 <figure>
-<img alt="Adding a custom search" src="https://cdn.wesleycoakley.com/web-images/gentoo-add-search.jpg">
+[[!template id="hooya-img.tmpl" cid="bafkreiekmr2lvyp2mv2dl7me5oino4khtc3kruirxwcwit4jqc764uj3ou" size=medium]]
 </figure>
 
 Now you can enter "@[keyword] [query]" into the URL bar to search that search

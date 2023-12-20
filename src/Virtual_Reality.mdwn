@@ -7,7 +7,7 @@ bought the headset outright and never looked back.
 
 <figure>
 <video width="300" autoplay muted loop controls>
-<source src="/vid/rez-infinite.mp4">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreicixkisdlsavr3tsfs7leb4t6thkwbu2e7hpnex4q2olxf4wgdps4" type="video/mp4">
 </video>
 <figcaption>Playing Rez Infinite with my Quest 1 HMD</figcaption>
 </figure>

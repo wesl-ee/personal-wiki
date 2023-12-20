@@ -1,2 +1,0 @@
-/src/img/** filter=lfs diff=lfs merge=lfs -text
-/src/vid/** filter=lfs diff=lfs merge=lfs -text

@@ -111,13 +111,13 @@ Laying out these detailed project requirements, we were able to generate over
 choosing a final design. The sketches we generated look similar to the ones below:
 
 <figure>
-[[!img img/snr-design-scope.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreibxim7dhn5rricsthkjfp6zq7wrzmdyhalpkptmthdzjudmgkx7ae" size=medium]]
 <figcaption>An oscilloscope-like design</figcaption>
 </figure><figure>
-[[!img img/snr-design-box.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreickqkz7enhehoooayiwjijnod5xxg3dfnq227d4bzgtly556ataou" size=medium]]
 <figcaption>What became the basis for our chassis</figcaption>
 </figure><figure>
-[[!img img/snr-design-bird.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreigzpwcqz7lmor4jombhtia42jzv2zxv2o7uvejmatcaonwcvmzfi4" size=medium]]
 <figcaption>A running joke of a design that features a <a
 href="https://en.wikipedia.org/wiki/Drinking_bird">Drinking Bird</a></figcaption>
 </figure>
@@ -137,10 +137,10 @@ consequently I had to quickly train myself in computer vision and motor
 controller programming in order to realize our prototype.
 
 <figure>
-[[!img img/snr-design-motors.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreia35iweois26oak2nx3k2237ljzmlsl46y5gxtat3wvgxrtxvefpu" size=medium]]
 <figcaption>An example of the detailed specifations I drafted as lead-programmer</figcaption>
 </figure><figure>
-[[!img img/snr-design-block-diagram.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreidzeu5zh57a5j5sfsiyatgzrrykpo2wlgdbfr5o3nq2pexsfpkspu" size=medium]]
 <figcaption>A high-level block diagram summarizing our design choices</figcaption>
 </figure>
 
@@ -149,7 +149,7 @@ keep us focused and on-track to achieve the final product. Below is the
 aluminium chassis which was completed during 484:
 
 </figure><figure>
-[[!img img/snr-design-chassis.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreicnn5mdksc6luen4udz7tlaxmjgatq65ntmkkqxlyauxh2us6lfbi" size=medium]]
 <figcaption>The completed aluminium chassis</figcaption>
 </figure>
 
@@ -257,7 +257,7 @@ project by contract; however I am permitted to share the details of its
 operation (as above) and to give insight into my design choices (also as above).
 
 <figure>
-[[!img img/snr-design-final.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreihkm4j3l4jh3hz62fquigg63wig3btt4vdhvtyuv7dj5ug7rpdqmi" size=medium]]
 <figcaption>Our presentation at second-semester Design Day</figcaption>
 </figure>
 
@@ -273,13 +273,13 @@ an environment where we are expected to rapidly prototype and spec a product,
 has greatly improved since having this experience.
 
 <figure><video controls>
-<source src="/vid/snr-design-lab-demo.webm">
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreicdqb4s7fscqaffqjphqma6nmeo3vc4ulsncdbhuhieknru7d7kzi" type="video/mp4">
 </video>
 <figcaption>Example of the design-day demonstration</figcaption>
 </figure>
 
 <figure>
-[[!img img/snr-design-me-demo.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreie3gu5iql66zuuk5xpsx5uxol4qo7aqbnxs5y4inagajxmvyqmfya" size=medium]]
 <figcaption>Me and the Golang Gopher giving a demonstration of the MDS</figcaption>
 </figure>
 

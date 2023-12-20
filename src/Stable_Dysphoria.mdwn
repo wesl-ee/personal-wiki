@@ -6,8 +6,8 @@ almost any context I receive back a hairy, muscular man; only halfway what I
 intended.
 
 <figure><div class=image-square>
-[[!img img/stable-dysphoria-base.jpeg size=x500]]
-[[!img img/stable-dysphoria-weird.jpeg size=x500]]
+[[!template id="hooya-img.tmpl" cid="bafkreib2f4mfbno6mbauddzvtcs4n7yp7j3fdincymwdi6cvao7xnizr3e" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidn3zgbaxv5pezebhabjr4ysrs4ckcbwvpnixoqpuz6rlxrswn3de" size=medium]]
 </div></figure>
 
 Often I find it necessary to (1) prompt the model with `girl`,
@@ -19,7 +19,7 @@ But the intermediate results, between these two steps, leaves me feeling funny
 sometimes.
 
 <figure>
-<a href="../img/stable-dysphoria.gif"><img src="../img/stable-dysphoria.gif"></a>
+[[!template id="hooya-img.tmpl" cid="bafkreiakf7ohsu33q74l65kevqq7zrxomhfpyokdnl3rcteehsgrz7pmtq" size=medium]]
 </figure>
 
 *Stable Dysphoria (noun): a state arising from conflict between the sex a person

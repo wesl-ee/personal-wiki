@@ -14,16 +14,15 @@ for a neutered phone. At the same time the Samsung Galaxy Z Flip4 was available
 for $600 or $25/mo for 2 years. You know which path I took.
 
 <figure><div class=image-square>
-[[!img img/z-fold4-may-2023-1.jpeg]]
-[[!img img/z-fold4-may-2023-2.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreicvjipljfipo5fepexodvqazgeqodvzu5pucvext7zil6yvawddxm" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreig7wjkypsehgufmzx24kcqawo7zis65ykvckwi7piehi4iwdt3roy" size=medium]]
 </div>
-[[!img img/z-fold4-may-2023-3.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreiapwc5t7jnyvn4dcaucvjpf4wvpszik6ifot2ttxrkmyb3cfyo25m" size=medium]]
 </figure>
 
 <table class=no-border>
 <tr>
   <td colspan=2 class=spread-img>
-[[!img img/z-flip4-may-2023.jpeg size="x500"]]
   </td>
 </tr>
 <tr>

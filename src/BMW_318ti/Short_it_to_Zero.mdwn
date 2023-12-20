@@ -111,7 +111,9 @@ running.
 I tracked the problem back to the fuel pump relay. Here is its electrical
 schematic:
 
-[[!img img/318ti-fuel-pump-relay-wiring-schematic.jpeg size=400x]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiapwzh2d24lmzbfcf37tpb2z7dwgwfxzjnd4svllx66glta6q2c7e" size=medium]]
+</figure>
 
 + Pin 30 connects to battery voltage at all times
 + Pin 87 connects the relay to the fuel pump in the rear of the car.
@@ -156,7 +158,9 @@ The wire was a bit loose on the relay socket end so I used a bit of pomade to
 hold it in place. I finally reseated the relay and fuse then turned the key; the
 fuel pump began to prime and I saw 40 psi in the fuel rail!
 
-[[!img img/318ti-fuel-pressure.jpeg size=400x]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreih55o5oq3jhulwi2ecwoc4turdqr2q4ueqcpomr3pz32bwqu6mxqy" size=medium]]
+</figure>
 
 Shorting to ground (ie shorting it to zero) essentially removed the DME from
 having say as to when the fuel pump should be on: in this configuration the pump

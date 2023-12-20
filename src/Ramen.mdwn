@@ -9,7 +9,7 @@ seasoning, a hint of wasabi, green onions, or any other ingredients you can
 imagine.
 
 <figure>
-[[!img img/japan-ramen-4.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreiebmve2m3dmp4i5hz3fs777kxlt5orlmmxkzl3q2rlhdhcs3oszge" size=medium]]
 <figcaption>Rāmen from some shop in Tōkyō</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ You can even order a hankeadama (半かえだま) at some places, which is just 
 half-serving of noodles.
 
 <figure>
-[[!img img/japan-ramen-2.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreihj7edy35b227jzxyw2ixdkb326eysyrm65q6i4ht46kynzb2s42u" size=medium]]
 <figcaption>汁なし担々麺 (soupless tan-tan) complete with instructions on how to best approach it</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ are. Slurping like this also cools down the noodles so you don't burn your
 tongue if the broth is still scalding hot.
 
 <figure>
-[[!img img/japan-ramen-3.jpeg]]
+[[!template id="hooya-img.tmpl" cid="bafkreihwyy24aslhjurlzwryputulf552fzzcsyq3254n2fdutjhevl2c4" size=medium]]
 <figcaption>Rāmen from some shop in Tōkyō</figcaption>
 </figure>
 

@@ -6,7 +6,9 @@ because the channel is encrypted! Finally because Wireguard can run on a number
 of devices this can be used to network a phone, laptop, or even a remote
 workstation to a home-server, making network drives and services available.
 
-[[!img img/wireguard-android-cx-file-explorer.jpeg size="x500"]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiekm3r25hf6czcxoowmiksszbtdai74jxlwkupx5tzo7icevqzpc4" size=medium]]
+</figure>
 
 I use Wireguard to access a single machine, not my entire LAN. I expose a
 handful of VMs on the `10.0.10.0/24` subnet to remote peers which are given

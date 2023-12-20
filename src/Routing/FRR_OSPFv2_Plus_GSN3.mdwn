@@ -23,9 +23,10 @@ east-west traffic between two Alpine tenants. Area 0 is organized in a ring to
 demonstrate how link failures can affect routing around this topology.
 
 <figure>
-[[!img img/frr-gns3-complete.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreid36fe3fhhtffptbwhw4ehirwb6xxygb2ig65szwhioxehbxg4lsi" size=medium]]
 <figcaption>GNS3 topology which this article ultimately constructs</figcaption>
 </figure>
+
 
 Why use FRRouting / Docker / GNS3?
 ----------------------------------
@@ -128,7 +129,7 @@ open go to "Edit" → "Preferences" → "Docker containers". Then create a new
 container template for the FRR image that was just built or pulled.
 
 <figure>
-[[!img img/frr-gns3-docker-containers.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreid7wsrguuaj4m2z36nc4sfagtsxrnqdnw3sh7lsng2buvgih6inpe" size=medium]]
 <figcaption>Docker container configuration in GNS3</figcaption>
 </figure>
 
@@ -144,7 +145,7 @@ stores its configuration files. The two important files here are `frr.conf` and
 `daemons`.
 
 <figure>
-[[!img img/frr-gns3-docker-advanced.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreia63qo2kkqrzemq6rkikwnewpcrdvu32xqo5wmdmg3daviaragguu" size=medium]]
 <figcaption>Configuration of the persistent storage</figcaption>
 </figure>
 
@@ -195,7 +196,7 @@ Before networking containers together let's get comfortable working with just a
 single node.
 
 <figure>
-[[!img img/frr-single-node.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreib4evjits2eck6ofe56fnjr4mwnknusnwed7x2edua3tqwx4lwoeu" size=medium]]
 <figcaption>Single-node setup</figcaption>
 </figure>
 
@@ -243,7 +244,7 @@ together using the "Link" option in the left-hand panel; just select which
 interfaces terminate either side of the link when connecting two nodes.
 
 <figure>
-[[!img img/frr-two-node.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreiaduomrtbqpp6vl33sqd5pz25wjhnks6or4yomzuktlgv6yrgv3cy" size=medium]]
 <figcaption>A two-node setup in GNS3</figcaption>
 </figure>
 
@@ -310,7 +311,7 @@ Flapping the `eth0` interface on `r2` will show an exchange of routing
 information in the Wireshark trace.
 
 <figure>
-[[!img img/frr-wireshark-ospfv2-hello.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreifwerqv4dx4nfoyryp3dy5vjefjjguz2lshvk3wsyr3gtuaanvofe" size=medium]]
 <figcaption>Example exchange of routing information in OSPFv2</figcaption>
 </figure>
 
@@ -329,7 +330,7 @@ Because two routers is never enough let's add two more! I will connect these
 four in a ring topology instead of a full-mesh.
 
 <figure>
-[[!img img/frr-gns3-ring-topology.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreid3vozilayiyggkuzhdqpxle37gff5tipjfcljk3jp3j3dafcuqhu" size=medium]]
 <figcaption>A 4-node Ring Topology</figcaption>
 </figure>
 
@@ -439,7 +440,7 @@ that the subnet may be configured arbitrarily without affecting east-west
 traffic.
 
 <figure>
-[[!img img/frr-gns3-access-layer.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreifd2a4r3rrkwqbrh22ozr757it2ountdrovgrqrm6edcplswb7kcu" size=medium]]
 <figcaption>End-devices in the access layer are connected together by the distribution layer</figcaption>
 </figure>
 
@@ -603,10 +604,9 @@ tab of the "Configure" window though I haven't found much use for them yet.
 I also suggest picking a cool icon for your VX!
 
 <figure>
-<img src="/img/frr-gns3-cumulus-vx-install.gif">
+[[!template id="hooya-img.tmpl" cid="bafkreib6mm23lwfnvv6mea3ihbyprlrrqv6sunvigpomvoy3zghuuvedri" size=medium]]
 <figcaption>Installing and Configuring a Cumulus VX in the Ring Topology</figcaption>
 </figure>
-
 
 Since Cumulus Linux uses FRR as its routing suite it's straightforward to
 replace the old FRR container `r1` in the example topology with a CL VX since
@@ -635,10 +635,9 @@ off-load the normal data-plane operations to.
 Anyhow this is the final topology!
 
 <figure>
-[[!img img/frr-gns3-complete.png size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreid36fe3fhhtffptbwhw4ehirwb6xxygb2ig65szwhioxehbxg4lsi" size=medium]]
 <figcaption>Final two-tier topology in GNS3</figcaption>
 </figure>
-
 
 Special Considerations / Limits
 -------------------------------

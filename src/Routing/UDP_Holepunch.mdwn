@@ -85,7 +85,7 @@ router. I have no ports forwarded to my laptop so inbound connections are
 normally dropped at the WAN-side of the router.
 
 <figure>
-[[!img img/go-nat-traversal-demo.jpg size=500x]]
+[[!template id="hooya-img.tmpl" cid="bafkreihijrn67agtet2cpxdlncat2lp6zpwt2qk4rs4iayw5bh5zvdu6my" size=medium]]
 <figcaption>Demonstration of a NAT traversal across my home router</figcaption>
 </figure>
 

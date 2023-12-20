@@ -45,7 +45,7 @@ next *depth* of the Merkle tree until there is only one pair to hash. Their
 parent is the Merkle root and is the ancestor of all nodes in the tree.
 
 <figure>
-<img src="/img/merkle-tree.svg">
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreidh36erkpq4p34bbd3oz2zca6sfjz23mrbz6f4ku3jr4lfbabvbwa">
 <figcaption>Color-mixing example of a binary Merkle tree<br/>
 Notice the content of each parent node is a function of its children</figcaption>
 </figure>

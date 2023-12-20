@@ -28,7 +28,9 @@ collateral (here, Bitcoin) drops such that my loan-to-value is over 60% then my
 Bitcoin will be liquidated and the proceeds from the sale used to cover my debt,
 thereby keeping the lender-borrower system solvent.
 
-[[!img img/terra-anchor-ltv.jpeg]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreih6qzwyqjnw4m4dlzdvb4gn26upwcrni77pmigwmrm6gkgrzhqniu" size=medium]]
+</figure>
 
 Borrowing against assets like this is similar to taking a home equity
 line-of-credit (HELOC) in TradFi except here I borrow only against digital

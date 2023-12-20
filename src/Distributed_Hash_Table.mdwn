@@ -82,7 +82,9 @@ data you are storing by appending a namespace to the key, e.g.
 Take this image of the protagonist of
 [Mahoromatic](https://anidb.net/anime/109), one of my favorite manga / anime.
 
-[[!img img/mahoro.jpeg]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i" size=medium]]
+</figure>
 
 I know its unique MD5 hash is `f00370836e8f32c8f930af4b59163c04` and its IPFS
 content identifier (CID) is `QmX8CSdgWFdgACxY71GVJwgVB19Bn3An5zNnzH1Mj82ut2`.

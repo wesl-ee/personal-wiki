@@ -20,7 +20,9 @@ over 30 *billion* dollars of capital invested in the ecosystem overnight.
 Vitalik recently wrote some [about UST's
 collapse](https://vitalik.ca/general/2022/05/25/stable.html).
 
-[[!img img/luna-brothers.jpeg]]
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreihferh7cmsbuiagsblq5uxtun2krmaxpqzlyuc7ubik47cvymhjei" size=medium]]
+</figure>
 
 The Terra chain was developed and deployed by Terraform Labs and many projects
 on Terra's blockchain were incubated by capital from TFL. Some of the most
