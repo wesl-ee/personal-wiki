@@ -25,6 +25,7 @@ in pkgs.stdenv.mkDerivation rec {
     vim
     graphviz
     git
+    tzdata
 
     # teximg
     imagemagick
@@ -43,9 +44,11 @@ in pkgs.stdenv.mkDerivation rec {
     TextVimColor
   ];
 
-  buildPhase = ''
-    export TZ="America/New_York"
+  preCheck = ''
+    export TZDIR=${tzdata}/share/zoneinfo
+  '';
 
+  buildPhase = ''
     # Then timestamps for ikiwiki
     find src/ -name "*.mdwn" -exec bash -c '
         last_edit_timestamp=$(git log -1 --format=%ct -- "{}")

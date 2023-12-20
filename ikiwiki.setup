@@ -34,7 +34,7 @@ discussion: 0
 # use elements new in HTML5 like <section>?
 html5: 1
 # strftime format string to display date
-timeformat: '%c'
+timeformat: '%c %Z'
 # UTF-8 locale to use
 locale: en_US.UTF-8
 # put user pages below specified page
@@ -46,7 +46,7 @@ hardlink: 0
 # extra library and plugin directories
 libdirs: [ 'lib' ]
 # time zone name
-# timezone: "America/New_York"
+timezone: "America/New_York"
 # cookie control
 # set custom user agent string for outbound HTTP requests e.g. when fetching aggregated RSS feeds
 useragent: ikiwiki/3.20190228-1
