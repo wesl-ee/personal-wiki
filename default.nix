@@ -44,7 +44,12 @@ in pkgs.stdenv.mkDerivation rec {
   ];
 
   buildPhase = ''
-    # Adjust timestamps for ikiwiki
+    export TZ="America/New_York"
+
+    # Reset all timestamps to the epoch start
+    find . -exec touch -t 197001010000 {} \;
+
+    # Then timestamps for ikiwiki
     find src/ -name "*.mdwn" -exec bash -c '
         last_edit_timestamp=$(git log -1 --format=%ct -- "{}")
         created_timestamp=$(git log --reverse --format=%ct -- "{}" | tail -n 1)
@@ -55,7 +60,6 @@ in pkgs.stdenv.mkDerivation rec {
         if [[ -n "$created_timestamp" ]]; then
             touch -t "$(date -d @$created_timestamp +"%Y%m%d%H%M.%S")" "{}"
         fi
-        echo {} - $created_timestamp - $last_edit_timestamp
     ' bash {} \;
 
     # Actually build

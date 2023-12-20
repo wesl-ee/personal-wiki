@@ -29,4 +29,4 @@ jobs:
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        rsync -crv --delete --inplace -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" $(readlink result)/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/http/wesl.ee/
+        rsync -acv --delete --chmod=ugo=rwX -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" $(readlink result)/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/http/wesl.ee/
