@@ -1,0 +1,132 @@
+This website is a collection of Markdown files compiled by [[!iki ikiwiki]], an
+old software for creating wikis. Until recently I was building this site and
+deploying by-hand; the frailty of this approach bothered me. Considering I
+already [wrote a nix
+expression](https://github.com/wesl-ee/personal-wiki/blob/master/default.nix)
+to build this site I decided to automate the rest of the process. Here were my
+requirements:
+
++ Build the website on every push to the main branch
++ Deploy the website to my home server on every push to the main branch
++ Stabilize creation and last edit times for ikiwiki
+
+As I already host this repository on Github I settled on using Github Actions to
+handle both building and deployment of the static site.
+
+Github Actions and Nix
+----------------------
+
+Here is my full `build.yml` file which describes my Action.
+
+[[!syntax type="yaml" text="""
+name: Deploy Static Website
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        lfs: true
+    - uses: cachix/install-nix-action@v20
+      with:
+        nix_path: nixpkgs=channel:nixos-23.05
+    - uses: DeterminateSystems/magic-nix-cache-action@v2
+    - name: Build Website
+      run: |
+        nix-build
+    - name: Upload to Remote Server
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        rsync -acv --delete --chmod=ug=rwX -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" $(readlink result)/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/http/wesl.ee/
+"""]]
+
+The `cachix/install-nix-action` will install nix on the Ubuntu runner in a very
+short amount of time with nixpkgs configured; using
+`DeterminateSystems/magic-nix-cache-action` I can leverage the built derivations
+stored in cachix to make for a very fast build. The next step simply does a
+`nix-build` which leaves the results in `results`.
+
+Finally I use `rsync` to propagate the built website files to a remote server.
+This step involves creating a secure connection to the server using SSH so I
+need to set up the necessary keys for passwordless auth.
+
+To accomplish this I create the `~/.ssh` directory if it doesn't already exist
+using the `mkdir -p ~/.ssh` command. Inside this directory I make a file
+called `id_rsa` and write the value of a key I have already generated and stored
+as a Github secret. This private key will be used for authentication when
+connecting to the remote server.
+
+Now that the SSH authentication is set up I can use the `rsync` command to
+transfer the built website files to the remote server. The source directory as
+`$(readlink result)/` which points to the location where the `nix-build` command
+placed the built files.
+
+To maintain synchronization between the source directory and the remote server
+the `--delete` option removes any files on the server that are not present in
+the source directory. This was a bigger problem when I first migrated but now is
+probably not needed. I use the `--chmod=ug=rwX` option to establish the correct
+file permissions on the transferred files, as otherwise the permissions are
+copied from the nix store where the site was built. This grants read and write
+access to the user and group.
+
+The static website deployment to the remote server is now finished. When a push
+event happens on the `master` branch of the repository, this GitHub Action will
+promptly trigger, constructing the website and transferring the revised files to
+the server.
+
+My nix derivation is a bit interesting. In addition to pulling in the weirdest
+Perl packages which ikiwiki uses, and even building one which is not in
+nixpkgs, I need to perform some git fuckery to make correct timestamps for
+ikiwiki. This is because ikiwiki relies on `ctime` and `mtime` of the source
+files for assigning “Created” and “Last Edited” times for pages. As I am now
+building this in an Action the source file timestamps reflect the datetime the
+repository was fetched (so, the current datetime) instead of when the article
+was actually written or edited.
+
+In order to set the timestamps to the correct creation and edit times I wrote
+the following script which is run during the buildPhase of the derivation.
+
+[[!syntax type="bash" text="""
+# Timestamps for ikiwiki
+find src/ -name "*.mdwn" -exec bash -c '
+    last_edit_timestamp=$(git log -1 --format=%ct -- "{}")
+    created_timestamp=$(git log --reverse --format=%ct -- "{}" | tail -n 1)
+
+    if \[[ -n "$last_edit_timestamp" ]]; then
+        touch -t "$(date -d @$last_edit_timestamp +"%Y%m%d%H%M.%S")" -c "{}"
+    fi
+    if \[[ -n "$created_timestamp" ]]; then
+        touch -t "$(date -d @$created_timestamp +"%Y%m%d%H%M.%S")" "{}"
+    fi
+' bash {} \;
+"""]]
+
+Parsing the git log like this required me to include `fetch-depth: 0` during the
+Actions checkout step.
+
+### Handling Timezones in a Nix Build
+
+The envrionment during a `nix-build` is much like that of `nix-shell --pure`;
+it does not seem to export `TZDIR` which made every date in ikiwiki show as UTC.
+I found it necessary to add `tzdata` as a build input and to include this
+`preCheck` section to export this data.
+
+[[!syntax type="nix" text="""
+preCheck = ''
+  export TZDIR=${tzdata}/share/zoneinfo
+'';
+"""]]
+
+The timezone can then be set by simply exporting `TZ=America/New_York` or your
+favorite TZ. In my case I have TZ hardcoded into my ikiwiki.setup file.
+
+To check out the complete derivation see
+[here](https://github.com/wesl-ee/personal-wiki/blob/master/default.nix).
