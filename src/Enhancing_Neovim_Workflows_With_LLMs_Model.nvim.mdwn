@@ -42,7 +42,7 @@ in normal mode when querying, which can get weird during coding!
 
 I found it easiest to press `<C-o>` while in insert mode which lets you execute
 one normal mode command after which the editor returns to insert mode. So in my
-case where I have `<leader>` mapped to the space bar I press `<C+o> <leader>lc`
+case where I have `<leader>` mapped to the space bar I press `<C-o> <leader>lc`
 to invoke a locally-hosted Langchain chain powered by
 `codellama-13b.Q5_K_M.gguf` offering fill-in-the-middle capability for wherever
 my cursor is at the time on invokation.
@@ -183,7 +183,7 @@ content-farm. I've varied the prompt so many times and have not found any
 settings satisfactory for editing or generating anything that sounds like me.
 
 Likely the solution to this problem involves training a model locally using
-the llama2 model I use right now as a base for transfer learning
+the llama2 model I use right now as a base for transfer learning.
 
 [[!template id="warning" text="""
 Funnily enough I completely forgot the phrase “transfer
@@ -255,13 +255,18 @@ class LlmChains:
 Codellama was actually trained on a 16k context window but I can't fit that
 whole window into VRAM with this particular 13b model, so 8k it is :) When
 offloading all layers to the GPU I see 56.20 tokens per second with these
-parameters.
+parameters. I could afford to run some of this on CPU to nail that 16k context
+window as I have a comical 76GiB of RAM available on this machine but CPU
+inference is slower; I can comfortably load about half the layers on my 3090 if
+I double the context window to 16k but that pulls my speed down to about 3.7
+tokens per second for the same model. We are not even going to attempt to run
+34b as that would require either a very tiny window or too much on the CPU.
 
-The prompt template here, ` <PRE> {before} <SUF>{after} <MID>` took me [so long
-to get right](https://tldr.wesl.ee/notice/Ad1o0MYlYfWCLnrPii) but works well
-now, as long as I use the trick I showed earlier about entering the `model.nvim`
-command in insert-normal mode with `<C-o>`.
+In any case, the prompt template here, ` <PRE> {before} <SUF>{after} <MID>` took
+me [so long to get right](https://tldr.wesl.ee/notice/Ad1o0MYlYfWCLnrPii) but
+works well now, as long as I use the trick I showed earlier about entering the
+`model.nvim` command in insert-normal mode with `<C-o>`.
 
 So far, after a week of usage, I have blown a full $0.17 USD on OpenAI credits
-for queries. A far better than paying for Copilot at $19 / mo or ChatGPT Plus at
-$20 / mo.
+for queries. A far better deal than paying for Copilot at $19 / mo or ChatGPT
+Plus at $20 / mo.
