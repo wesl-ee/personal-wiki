@@ -210,10 +210,11 @@ how a chain (my code assistant for instance) is served with Langserve.
 [[!syntax type="python" text="""
 # main.py
 
-app = FastAPI(title="Retrieval App")
 from fastapi import FastAPI
 from langserve import add_routes
 from chain import LlmChains
+
+app = FastAPI(title="Retrieval App")
 
 llm_chains = LlmChains()
 add_routes(app, llm_chains.chain_codellama_coding_assistant(), path="/codellama-coding-assistant")
