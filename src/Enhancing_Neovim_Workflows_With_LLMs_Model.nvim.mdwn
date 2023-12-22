@@ -1,0 +1,264 @@
+Neovim is powerful. Large language models are powerful. Recently I've combined
+these two with `model.nvim` (formerly `LLM.nvim`); I have seen amazing results.
+
+<figure>
+<video autoplay muted controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreiekwg37vztefed2nywl2w36uzpe7vldb5dk3tlpr46t5loah6vbim"/>
+</video>
+<figcaption>Demo in the style of an old YouTube tutorial minus Notepad and the WMM title card 🔊🆙</figcaption>
+</figure>
+
+Introduction
+------------
+
+My work sponsored a Copilot license for me earlier this year and that spoiled
+me. Having actually decent text completion in addition to neovim's LSP
+suggestions made the tedious bits of programming a breeze. Normally I'm not a
+fan of ghost text but Copilot's is quite nice.
+
+I began wondering if I could emulate this same thing on my personal desktop
+experience as I bought a 3090 a few months ago to tinker with stable-diffusion
+and bigger LLMs locally. `model.nvim` came up during my research and I explored
+the plugin thoroughly. There were a few other plugins claiming to offer access
+to LLMs but `model.nvim` seemed to be the simplest and easiest to hack.
+
+`model.nvim` lacked an interface for Langserve / Langchain so I added that.
+Langchain lets you create complex chains of LLMs, each operating on the output
+of the model before it in the chain. In my case I wanted to query a chain with
+access to a Vectorstore of my personal wiki to attempt to write in my style and
+to generally act as an editor of my work. Unfortunately the results were
+disappointing, more on that later.
+
+Configuring `model.nvim` with Lua
+---------------------------------
+
+This is not so weird but configures some keystrokes to invoke my models. One
+difference from this and Copilot is that the model is not automatically queried,
+instead relying on these keymaps to invoke the model. This means you need to be
+in normal mode when querying, which can get weird during coding!
+
+I found it easiest to press `<C-o>` while in insert mode which lets you execute
+one normal mode command after which the editor returns to insert mode. So in my
+case where I have `<leader>` mapped to the space bar I press `<C+o> <leader>lc`
+to invoke a locally-hosted Langchain chain powered by
+`codellama-13b.Q5_K_M.gguf` offering fill-in-the-middle capability for wherever
+my cursor is at the time on invokation.
+
+Anyway here is the config:
+
+[[!syntax type="lua" text="""
+vim.keymap.set({'n', 'v'}, '<leader>ld', ':Mdelete<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>lj', ':Mselect<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>lq', ':Mcancel<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>ls', ':Mshow<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>ll', ':Model langserve:general-instruct<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>lr', ':Model langserve:rewriting-assistant<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>lc', ':Model langserve:codellama-coding-assistant<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>tj', ':Model langserve:translator-jp-en<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>te', ':Model langserve:translator-en-jp<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>cj', ':Mchat openai<cr>')
+vim.keymap.set({'n', 'v'}, '<leader>cc', ':Mchat<cr>')
+
+local starters = require('model.prompts.starters')
+local langserve = require('model.providers.langserve')
+local llm = require('model')
+local prompts = require('model.util.prompts')
+
+require("model").setup((function()
+    local langchain_endpoint = 'http://127.0.0.1:8000/'
+
+    return {
+    hl_group = 'Comment',
+    prompts = {
+      ['langserve:translator-jp-en'] = {
+        provider = langserve,
+        options = {
+          base_url = langchain_endpoint .. 'translator/',
+          output_parser = langserve.chat_generation_chunk_parser
+        },
+        builder = function(input, context)
+          return {
+            input_language = "english",
+            output_language = "japanese",
+            text = input,
+          }
+        end
+      },
+      ['langserve:translator-en-jp'] = {
+        provider = langserve,
+        options = {
+          base_url = langchain_endpoint .. 'translator/',
+          output_parser = langserve.chat_generation_chunk_parser
+        },
+        builder = function(input, context)
+          return {
+            input_language = "japanese",
+            output_language = "english",
+            text = input,
+          }
+        end
+      },
+      ['langserve:codellama-coding-assistant'] = {
+        provider = langserve,
+        options = {
+          base_url = langchain_endpoint .. 'codellama-coding-assistant/',
+          output_parser = langserve.generation_chunk_parser
+        },
+        builder = function(input, context)
+          local surrounding_text = prompts.limit_before_after(context, 30)
+          local selection = ""
+          if context.selection then -- we only use input if we have a visual selection
+            selection = input
+          end
+          return {
+            before = surrounding_text.before,
+            after = surrounding_text.after,
+            selection = selection,
+            filename = context.filename,
+          }
+        end,
+        mode = llm.mode.INSERT_OR_REPLACE,
+      },
+      ['langserve:writing-assistant'] = {
+        provider = langserve,
+        options = {
+          base_url = langchain_endpoint .. 'writing-assistant/',
+          output_parser = langserve.chat_generation_chunk_parser,
+        },
+        builder = function(input, context)
+          return {
+            text = input,
+          }
+        end
+      },
+      ['langserve:general-instruct'] = {
+        provider = langserve,
+        options = {
+          base_url = langchain_endpoint .. 'general-instruct/',
+          output_parser = langserve.chat_generation_chunk_parser,
+        },
+        builder = function(input, context)
+          return {
+            text = input,
+          }
+        end
+      },
+      ['langserve:rewriting-assistant'] = {
+        provider = langserve,
+        options = {
+          base_url = langchain_endpoint .. 'rewriting-assistant/',
+          output_parser = langserve.chat_generation_chunk_parser,
+        },
+        builder = function(input, context)
+          return {
+            text = input,
+          }
+        end,
+        mode = llm.mode.REPLACE,
+      },
+    },
+} end)())
+"""]]
+
+Obviously how `langchain_endpoint` is configured doesn't let me use this on any
+computer without the 3090 in it, but I'm still working on a solution to that!
+
+Problems
+--------
+
+One problem I encountered while using `model.nvim` with my personal wiki was the
+disappointing results it produced. Despite my efforts to create a complex chain
+of language models using Langchain, the output did not meet my expectations. The
+generated text did not accurately reflect my writing style, and it struggled to
+effectively edit or act as an editor of my work.
+
+The problem is that models trained for general tasks suck hard at emulating
+an arbitrary writing style. Even when describing my style and supplying several
+samples with relevant material using a `Vectorstore` of my personal wiki the
+model is unable to write in a style that doesn't just read like a generic
+content-farm. I've varied the prompt so many times and have not found any
+settings satisfactory for editing or generating anything that sounds like me.
+
+Likely the solution to this problem involves training a model locally using
+the llama2 model I use right now as a base for transfer learning
+
+[[!template id="warning" text="""
+Funnily enough I completely forgot the phrase “transfer
+learning” while drafting the above paragraph. I still knew what I wanted
+to describe, however, so I consulted an instruction-tuned LLM for the answer right
+from Neovim. I have not rigged chatting in `model.nvim` up to my Langchain chains
+yet so this is using `gpt-3.5-turbo-1106` from OpenAI. Quick conversations like
+this have largely replaced Googling for simple things like this for me. It's
+surprising how much more convenient and accurate it is, even with tasks one
+would expect it not to excel at. Below wallpaper source is
+[@vinneart](https://twitter.com/vinneart/status/1701710930483011588).
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreihogzaxott5zqvff662ryaufbqfunqpvxlwhcaizcggiyru7amoz4" size="medium"]]
+</figure>
+"""]]
+
+Configuring Langserve + Langchain
+---------------------------------
+
+I'm not posting my whole langchain repo because it's a bit of a mess but here is
+how a chain (my code assistant for instance) is served with Langserve.
+
+[[!syntax type="python" text="""
+# main.py
+
+app = FastAPI(title="Retrieval App")
+from fastapi import FastAPI
+from langserve import add_routes
+from chain import LlmChains
+
+llm_chains = LlmChains()
+add_routes(app, llm_chains.chain_codellama_coding_assistant(), path="/codellama-coding-assistant")
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host='127.0.0.1')
+"""]]
+
+… and here is the Langchain side of things for the code assistant.
+
+[[!syntax type="python" text="""
+# chain.py
+from langchain.llms import LlamaCpp
+from langchain.prompts import PromptTemplate
+
+DEFAULT_LLAMA_CODE_PROMPT = PromptTemplate(
+    input_variables=["before", "after"],
+    template=" <PRE> {before} <SUF>{after} <MID>"
+)
+
+class LlmChains:
+    chat_codellama_llm = LlamaCpp(
+        model_path="/home/wesl-ee/ai/llm-models/codellama-13b.Q5_K_M.gguf",
+        temperature=0.2,
+        repeat_penalty=1.1,
+        max_tokens=4096,
+        context=8192,
+        n_gpu_layers=41,
+        n_batch=512,
+        f16_kv=True,
+        verbose=True,
+    )
+
+    def chain_codellama_coding_assistant(self):
+        return DEFAULT_LLAMA_CODE_PROMPT | self.chat_codellama_llm
+"""]]
+
+Codellama was actually trained on a 16k context window but I can't fit that
+whole window into VRAM with this particular 13b model, so 8k it is :) When
+offloading all layers to the GPU I see 56.20 tokens per second with these
+parameters.
+
+The prompt template here, ` <PRE> {before} <SUF>{after} <MID>` took me [so long
+to get right](https://tldr.wesl.ee/notice/Ad1o0MYlYfWCLnrPii) but works well
+now, as long as I use the trick I showed earlier about entering the `model.nvim`
+command in insert-normal mode with `<C-o>`.
+
+So far, after a week of usage, I have blown a full $0.17 USD on OpenAI credits
+for queries. A far better than paying for Copilot at $19 / mo or ChatGPT Plus at
+$20 / mo.

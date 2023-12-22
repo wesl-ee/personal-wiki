@@ -364,6 +364,12 @@ img.hooya-img-small {
 	.synStatement { color: darkorange }
 	.synType { color: yellow }
 	img { background-color: slategray }
+    .warning figure img, .warning figure video {
+        border-color: black;
+    }
+    .warning a {
+        color: blue;
+    }
 }
 
 del {
@@ -377,3 +383,35 @@ ins {
   background-color: #d4fcbc;
 }
 
+.warning {
+  color: black;
+  border: 2px solid #ffc107;
+  background-color: #fff9c4;
+  margin: 0 5ch;
+  padding: 2ch 2ch 0 2ch;
+  line-height: 1.5;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.warning::before {
+  content: "⚠️";
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.5rem;
+}
+.tldr {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 0.9em;
+}
+
+.tldr:before {
+  content: "\1F4D1";
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  line-height: 30px;
+}
