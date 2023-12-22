@@ -1,3 +1,5 @@
+[[!tag Productivity]]
+
 Neovim is powerful. Large language models are powerful. Recently I've combined
 these two with `model.nvim` (formerly `LLM.nvim`); I have seen amazing results.
 
@@ -22,12 +24,13 @@ and bigger LLMs locally. `model.nvim` came up during my research and I explored
 the plugin thoroughly. There were a few other plugins claiming to offer access
 to LLMs but `model.nvim` seemed to be the simplest and easiest to hack.
 
-`model.nvim` lacked an interface for Langserve / Langchain so I added that.
-Langchain lets you create complex chains of LLMs, each operating on the output
-of the model before it in the chain. In my case I wanted to query a chain with
-access to a Vectorstore of my personal wiki to attempt to write in my style and
-to generally act as an editor of my work. Unfortunately the results were
-disappointing, more on that later.
+`model.nvim` lacked an interface for Langserve / Langchain [so I added
+that](https://github.com/gsuuon/model.nvim/pull/41). Langchain lets you create
+complex chains of LLMs, each operating on the output of the model before it in
+the chain. In my case I wanted to query a chain with access to a Vectorstore of
+my personal wiki to attempt to write in my style and to generally act as an
+editor of my work. Unfortunately the results were disappointing, more on that
+later.
 
 Configuring `model.nvim` with Lua
 ---------------------------------
