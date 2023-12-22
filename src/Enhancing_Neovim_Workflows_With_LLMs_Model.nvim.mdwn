@@ -1,7 +1,8 @@
 [[!tag Productivity]]
 
 Neovim is powerful. Large language models are powerful. Recently I've combined
-these two with `model.nvim` (formerly `LLM.nvim`); I have seen amazing results.
+these two with [`model.nvim`](https://github.com/gsuuon/model.nvim) (formerly
+`LLM.nvim`); I have seen amazing results.
 
 <figure>
 <video autoplay muted controls>
