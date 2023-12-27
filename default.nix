@@ -51,8 +51,8 @@ in pkgs.stdenv.mkDerivation rec {
   buildPhase = ''
     # Then timestamps for ikiwiki
     find src/ -name "*.mdwn" -exec bash -c '
-        last_edit_timestamp=$(git log --follow -1 --format=%ct -- "{}")
-        created_timestamp=$(git log --follow --reverse --format=%ct -- "{}" | tail -n 1)
+        last_edit_timestamp=$(git log -1 --format=%ct -- "{}")
+        created_timestamp=$(git log --follow --format=%ct -- "{}" | tail -n1)
 
         if [[ -n "$last_edit_timestamp" ]]; then
             touch -t "$(date -d @$last_edit_timestamp +"%Y%m%d%H%M.%S")" -c "{}"
