@@ -48,21 +48,8 @@ in pkgs.stdenv.mkDerivation rec {
   '';
 
   buildPhase = ''
-    # Then timestamps for ikiwiki
-    find src/ -name "*.mdwn" -exec bash -c '
-        last_edit_timestamp=$(git log -1 --format=%ct -- "{}")
-        created_timestamp=$(git log --follow --format=%ct -- "{}" | tail -n1)
-
-        if [[ -n "$created_timestamp" ]]; then
-            touch -t "$(date -d @$created_timestamp +"%Y%m%d%H%M.%S")" "{}"
-        fi
-        if [[ -n "$last_edit_timestamp" ]]; then
-            touch -mt "$(date -d @$last_edit_timestamp +"%Y%m%d%H%M.%S")" "{}"
-        fi
-    ' bash {} \;
-
     # Actually build
-    ikiwiki --setup ./ikiwiki.setup -v
+    ikiwiki --gettime --setup ./ikiwiki.setup -v
   '';
 
   installPhase = ''
