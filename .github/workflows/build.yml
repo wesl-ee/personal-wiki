@@ -15,14 +15,6 @@ jobs:
       with:
         fetch-depth: 0
 
-
-    - name: Set up IPFS
-      run: |
-        # Install IPFS
-        wget https://dist.ipfs.io/go-ipfs/v0.11.0/go-ipfs_v0.11.0_linux-amd64.tar.gz
-        tar -xvf go-ipfs_v0.11.0_linux-amd64.tar.gz
-        sudo mv go-ipfs/ipfs /usr/local/bin/ipfs
-
     - uses: cachix/install-nix-action@v20
       with:
         nix_path: nixpkgs=channel:nixos-23.05
@@ -38,7 +30,10 @@ jobs:
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         rsync -acv --delete --chmod=ugo=rwX -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" $(readlink result)/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/http/wesl.ee/
-        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << EOF
+
+    - name: Upload and pin to IPFS
+      run: |
+        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
           IPNS=k2k4r8mboahxabdczxp817ktff8blpdo6z32kjw5qjuvlc9c56tjbr9m
           OLD=$(ipfs name resolve $IPNS)
           echo Unpinning $OLD
