@@ -46,7 +46,7 @@ start exploring my personal wiki some the best way is to read a little about
 or North_Carolina_State_University
 or Japanese
 or Sophia_University
-or Digital_Money/Decentralized_Finance
+or Digital_Money
 or Coffee
 or BMW_318ti
 ) and !index"]]

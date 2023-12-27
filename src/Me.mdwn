@@ -8,7 +8,7 @@ worked as a core dev at [Levana](https://levana.finance) on the [[Terra]]
 blockchain developing a perpetual futures market before the collapse of Terra's
 native UST.
 
-Before I took the leap into building [[DeFi|Digital_Money/Decentralized_Finance]] I
+Before I took the leap into building [[DeFi|Decentralized_Finance]] I
 worked as a Software Engineer in NVIDIA's [Networking Business
 Unit](https://www.nvidia.com/en-us/networking/) (NBU). I graduated from
 [[North_Carolina_State_University]] with a B.S. in Computer Engineering and

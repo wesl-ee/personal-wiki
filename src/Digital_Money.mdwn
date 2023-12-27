@@ -1,0 +1,14 @@
+[[!taglink Digital_Money]] is the inscription of value on a public ledger.
+Digital money is the self-custody of value where legacy banking does not
+support this notion. Bitcoin was the first widely available digital currency;
+nowadays there are many more coins, tokens, digital assets and real-world assets
+available on technology built on the back of Bitcoin.
+
+[[Decentralized_Finance]] is a natural extension of digital money which
+democratizes access to financial tools. The simplest tool of DeFi is trustless
+lending + borrowing.
+
+I write about digital money often here:
+
+[[!inline pages="tagged(Digital_Money) and !Digital_Money" actions="no" archive="yes" rss="no"]]
+
