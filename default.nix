@@ -32,7 +32,6 @@ in pkgs.stdenv.mkDerivation rec {
     texlive.combined.scheme-basic
     ghostscript
 
-    git-lfs
     discount
 
     perl536
@@ -54,11 +53,11 @@ in pkgs.stdenv.mkDerivation rec {
         last_edit_timestamp=$(git log -1 --format=%ct -- "{}")
         created_timestamp=$(git log --follow --format=%ct -- "{}" | tail -n1)
 
-        if [[ -n "$last_edit_timestamp" ]]; then
-            touch -t "$(date -d @$last_edit_timestamp +"%Y%m%d%H%M.%S")" -c "{}"
-        fi
         if [[ -n "$created_timestamp" ]]; then
             touch -t "$(date -d @$created_timestamp +"%Y%m%d%H%M.%S")" "{}"
+        fi
+        if [[ -n "$last_edit_timestamp" ]]; then
+            touch -mt "$(date -d @$last_edit_timestamp +"%Y%m%d%H%M.%S")" "{}"
         fi
     ' bash {} \;
 
