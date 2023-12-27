@@ -103,9 +103,6 @@ find src/ -name "*.mdwn" -exec bash -c '
     if \[[ -n "$last_edit_timestamp" ]]; then
         touch -t "$(date -d @$last_edit_timestamp +"%Y%m%d%H%M.%S")" -c "{}"
     fi
-    if \[[ -n "$created_timestamp" ]]; then
-        touch -t "$(date -d @$created_timestamp +"%Y%m%d%H%M.%S")" "{}"
-    fi
 ' bash {} \;
 """]]
 
