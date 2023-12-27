@@ -852,20 +852,15 @@ sub findtimes ($$) {
 	my $file=shift;
 	my $id=shift; # 0 = mtime ; 1 = ctime
 
-	if (! keys %time_cache) {
-		opendir my $dir, $config{srcdir} or die "Cannot open directory: $!";
-		my @files = readdir $dir;
-		closedir $dir;
-		foreach my $file (@files) {
-			my $command = "git log --follow --format=%ct -- \"$config{srcdir}/$file\"";
-			my $output = `$command`;
-			my @timestamps = $output =~ /(\d+)/g;
-			if (@timestamps) {
-				my $ctime = $timestamps[-1] or undef;
-				my $mtime //= $timestamps[0] or $ctime;
-				$time_cache{$file}[1]=$ctime;
-				$time_cache{$file}[0]=$mtime;
-			}
+	if (!exists $time_cache{$file}) {
+		my $command = "git log --follow --format=%ct -- \"$config{srcdir}/$file\"";
+		my $output = `$command`;
+		my @timestamps = $output =~ /(\d+)/g;
+		if (@timestamps) {
+			my $ctime = $timestamps[-1] or undef;
+			my $mtime //= $timestamps[0] or $ctime;
+			$time_cache{$file}[1]=$ctime;
+			$time_cache{$file}[0]=$mtime;
 		}
 	}
 
