@@ -19,7 +19,7 @@ door.
 Tech
 ----
 
-I am a digital native. I believe [[Digital_Money]] is the future. I run an
+I am a digital native; I believe [[Digital_Money]] is the future. I run an
 [[On-Prem_Home_Lab_Kubernetes]] cluster which hosts this website and many other
 services. I am building a generally available P2P network called
 [[HooYa!|HooYa]]. I command technology because technology is a tool to build our
@@ -30,21 +30,24 @@ Personal
 
 Within and without the above tech I maintain my hobbies.
 
-My daily-driver is a [['97 BMW 318ti|BMW_318ti]] which I maintain to factory
-specification. This car is older than me yet somehow still runs. I am its only
+My daily-driver is a [['97 BMW 318ti|BMW_318ti]] which I maintain to its factory
+specification. This car is older than me yet somehow still runs; I am its only
 mechanic.
 
-I am intermediately fluent in [[Japanese]]; I studied at [[Sophia_University]]
-in Tōkyō, Japan; continuing my Japanese study is one of several outlets for me
-to express my passion for learning.
+I am fluent in [[Japanese]]; I studied at [[Sophia_University]] in Tōkyō, Japan;
+continuing my Japanese study is one of several outlets for me to express my
+passion for learning.
 
 My taste in music is… different. I express this taste under my pseudonym
-[[DJR3]] from time-to-time, playing IRL + online DJ sets.
+[[DJR3]] often, playing IRL + online DJ sets.
+
+My [[aesthetics|Discover/Aesthetics]] are important to me; I am in the gym and
+lifting more days than I am not.
 
 Other things I love:
 
 - Playing games made for [[Virtual_Reality]]
-- I drink and make [[Coffee]]
+- Making + enjoying [[Coffee]]
 - Cooking, both for myself and with my fiancé
 
-Most of the day I am hanging out in my [[Workspace]].
+Most of the day I exist in my [[Workspace]].
