@@ -135,10 +135,10 @@ Case Studies
 
 Let's delve into the stories of two authors, each navigating the realms of
 technology and travel, showcasing the tangible impact of integrating
-AI-generated art into their Medium articles.
+AI-generated art into their online work.
 
-Meet Sarah, a tech enthusiast authoring on Medium with a passion for simplifying
-complex coding concepts.
+First, meet Sarah, a tech enthusiast authoring on Medium with a passion for
+simplifying complex coding concepts.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreigtxl2mu4ffqaiahyewab6gvchr2fzo7ytvxhrez4it3wwbivzl64" size="medium"]]
