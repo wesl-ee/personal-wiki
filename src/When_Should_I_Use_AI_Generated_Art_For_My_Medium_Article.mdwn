@@ -229,7 +229,7 @@ enhances the overall reader experience while maintaining ethical standards.
 
 <div style="float:left;transform: skew(2deg);padding:0 20px 0 0">[[!template id="hooya-img.tmpl" cid="bafkreigb7l3d2jw5nobw7lijubjdwrcsmkogwvjpzegyqrjhpzhzo5csxi" size="medium"]]</div>
 
-One primary concern is reader skepticism regarding the relevance and
+One primary concern is reader skepticism regarding the relevance and importance
 of generated visuals. To assuage this concern, remind readers that an algorithm
 generated this content and that computers are smarter than most people.
 
