@@ -15,6 +15,7 @@ less-accessible pages some visibility too.
 	and !vid/*
 	and !pubkey.txt
 	and !favicon.ico
+	and !templates/*
 	and !templates
 	and !recentchanges
 	and !smileys
@@ -24,6 +25,7 @@ less-accessible pages some visibility too.
 	and !shortcuts
 	and !shortcuts/*
 	and !Discover/*
+	and !Discover
 	and !index"
 ]]
 
