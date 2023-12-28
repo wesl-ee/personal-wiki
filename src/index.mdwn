@@ -1,8 +1,7 @@
-This site belongs to [Wesley Coakley](https://wesl.ee), also known on
-the Internet as [wesl-ee](https://twitter.com/wesl_ee) and locally known
-simply as [[Me]] (´ ∀ ` *) I built a lot of
-[[DeFi|Digital_Money/Decentralized_Finance]] stuff and am currently
-building in the TradFi space through Nasdaq's [Digital
+This site belongs to Wesley Coakley, also known on the Internet as wesl-ee and
+locally known simply as [[Me]] (´ ∀ ` *) I built a lot of
+[[DeFi|Decentralized_Finance]] stuff and am currently building in
+the TradFi space through Nasdaq's [Digital
 Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 <figure class=profile>
 [[!template id="hooya-img.tmpl" cid="bafkreidfyule625lckk4hnuofmeymyrdb5si3bbbusxcmms33s3y6zqwu4" size=medium]]
@@ -10,7 +9,6 @@ Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 Afront the Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] on 35mm film
 </figcaption>
 </figure>
-
 
 <table class=no-border>
 <th colspan=2>Net Presence</th></tr>
