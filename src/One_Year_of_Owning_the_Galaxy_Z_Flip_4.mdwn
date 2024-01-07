@@ -1,0 +1,37 @@
+<figure class=left-float><video width=360 height=270 controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreied5c2tatjvu2wku3vka2etmmy6xkwoya6aph5uefwxsoivhfdxqe" type="video/webm">
+</video>
+</figure>
+Last May I bought my current [[Devices/Z_Flip4]]. A few days ago a sensor at the
+hinge began to malfunction, causing the device to believe it was closed when it
+was actually open. I'm not sure it's entirely a hardware fault of the sensor as
+I see weird screen artifacts when I open or close it, though maybe it's a result
+of the sensor rapidly toggling the display. But regardless it has rendered the
+device unusable for some time after it has been unfolded.
+
+Luckily, visionary I am, I bought the device warranty for $11 / mo, and even
+though I figured the cause of device destruction would have been from my own
+hand, this warranty covers everything short of intentional destruction of the
+device. This phone has two screens after all: a main screen and a cover display,
+and I wagered that I would have cracked at least one of them, but the reality is
+that I rarely drop this thing as it fits so snugly into my pocket when folded.
+
+I have heard that another failure mode is that dust can get under the screen
+and can cause the screen to pop out after unfolding it.
+
+Comparing Old and New
+---------------------
+
+After activating the warranty I received exactly the same device roughly 3 days
+later. With both phones in hand, the first thing I immediately noticed is how
+prominent the crease is on the used one. The crease is easily detectable by
+touch alone and when held sideways in slanting light it is very clear where the
+screen folds. With the display on, however, I can detect no difference between
+the new and old as the crease is invisible to the eye in this case.
+
+There is almost no perceptible crease in the new phone at the hinge, which is
+amazing considering the phone physically folds to half the size. The hinge is
+stiffer than my used Z Flip 4, however, and takes some effort to open with one
+hand.
+
+Otherwise they're exactly the same phone. Here's to another year!
