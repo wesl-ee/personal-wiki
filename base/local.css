@@ -254,7 +254,7 @@ figure {
     flex-wrap: wrap;
 }
 #content .image-square > div {
-	flex: 1 0 30%;
+	flex: 1 0 calc(50% - 0.4rem);
 	margin: 0.2rem;
 }
 #content .image-square > figcaption {
