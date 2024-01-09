@@ -13,7 +13,7 @@ Systems|Embedded_Systems_ECE306]] course in
 atrium</figcaption>
 </figure>
 
-<figure>
+<figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreih3egpjbcg6cu63lyakyh3gntme2yent2ymz2vjacu5y3f3nwjxtm" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreicapy63mf2z66jp7xh7y4lsdn3vnfjazcgy4k7leslvw54ek6bvs4" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreifx5gcnunxpdum2adqky4r2mbyauz5qocqwiwr47ar75xg37oh2fa" size=medium]]
