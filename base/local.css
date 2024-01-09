@@ -287,7 +287,7 @@ p img[src$="linkmap.png"] {
 	height: 500px !important;
 }
 
-figure img, figure video, figure > [id^=viewer] {
+figure img, figure video, figure > [id^=viewer], figure object {
 	max-width: calc(100% - 2px);
 	display: block;
 	border: 1px solid;
