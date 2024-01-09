@@ -1,0 +1,11 @@
+[[!meta title="🐩"]]
+
+Mogul is a standard poodle.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifmqpxeg4f3qohzmjvazp3uepsrs4ljyiunkgl4rwyaz53gwyrbua" size=medium]]
+</figure>
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreicbb4vlwn7dlstr4nsnsmkzfu3ketoizooattnzrm7lddgg7bhhqy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreigclpdln3p3d3csxi74ooyhgmeivtv63damraw5r6r5ostz7tiqdy" size=medium]]
+</figure>
