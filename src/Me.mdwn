@@ -1,8 +1,9 @@
-Hi, I'm Wesley, also known as **wesl-ee**. I program [[Digital_Money]]. I work
-at Nasdaq in concert with the [Digital
+Hi, I'm Wesley, also known as **wesl-ee**.
+
+I work at Nasdaq in concert with the [Digital
 Assets](https://www.nasdaq.com/solutions/digital-assets) team here to build a
-platform for custodians to manage, deposit and withdraw assets on distributed
-ledgers.
+platform for custodians to manage, deposit and withdraw [[Digital_Money]] on
+distributed ledgers.
 
 Previously I developed a perpetual futures exchange based on a
 [[vAMM model|The_Problem_With_vAMM_Perpetuals]] with
@@ -22,8 +23,12 @@ Tech
 I am a digital native; I believe [[Digital_Money]] is the future. I run an
 [[On-Prem_Home_Lab_Kubernetes]] cluster which hosts this website and many other
 services. I am building a generally available P2P network called
-[[HooYa!|HooYa]]. I command technology because technology is a tool to build our
-vision in general, and my vision in particular.
+[[HooYa!|HooYa]] which already hosts all of the images on this website.
+
+New software I write these days is typically in Rust but I have a strong
+background in Go and C++. The technologies I use beyond these languages are too
+many to mention. My personal code is available from [my
+Github](https://github.com/wesl-ee).
 
 Personal
 --------
@@ -38,14 +43,13 @@ I am fluent in [[Japanese]]; I studied at [[Sophia_University]] in Tōkyō, Japa
 continuing my Japanese study is one of several outlets for me to express my
 passion for learning.
 
-My taste in music is… different. I express this taste under my pseudonym
-[[DJR3]] often, playing IRL + online DJ sets.
-
 My [[aesthetics|Discover/Aesthetics]] are important to me; I am in the gym and
 lifting more days than I am not.
 
 Other things I love:
 
+- [[Drawing]]
+- DJ'ing as [[DJR3]]
 - Playing games made for [[Virtual_Reality]]
 - Making + enjoying [[Coffee]]
 - Cooking, both for myself and with my fiancé
