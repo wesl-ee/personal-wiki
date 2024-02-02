@@ -3,10 +3,11 @@ locally known simply as [[Me]] (´ ∀ ` *) I built a lot of
 [[DeFi|Decentralized_Finance]] stuff and am currently building in
 the TradFi space through Nasdaq's [Digital
 Assets](https://www.nasdaq.com/solutions/digital-assets) team.
-<figure class=profile>
+<figure class="profile image-square">
 [[!template id="hooya-img.tmpl" cid="bafkreidfyule625lckk4hnuofmeymyrdb5si3bbbusxcmms33s3y6zqwu4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreigy5b4htw4notlchhjsxlpfhrb63orgkjzujpqafg52vgvayk2hdy" size=medium]]
 <figcaption>
-Afront the Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] on 35mm film
+Afront Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] (left) and a [[drawn|Drawing]] self-portrait (right)
 </figcaption>
 </figure>
 
