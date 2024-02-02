@@ -5,7 +5,7 @@ the TradFi space through Nasdaq's [Digital
 Assets](https://www.nasdaq.com/solutions/digital-assets) team.
 <figure class="profile image-square">
 [[!template id="hooya-img.tmpl" cid="bafkreidfyule625lckk4hnuofmeymyrdb5si3bbbusxcmms33s3y6zqwu4" size=medium]]
-[[!template id="hooya-img.tmpl" cid="bafkreigy5b4htw4notlchhjsxlpfhrb63orgkjzujpqafg52vgvayk2hdy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiav7g4jprel7pbrwjokh4pgxgxyo4thsks5mtwy2gbrythdrtv2wa" size=medium]]
 <figcaption>
 Afront Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] (left) and a [[drawn|Drawing]] self-portrait (right)
 </figcaption>
