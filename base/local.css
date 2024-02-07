@@ -257,6 +257,10 @@ figure {
 	flex: 1 0 calc(50% - 0.4rem);
 	margin: 0.2rem;
 }
+#content .image-square.small > div {
+	flex: 1 0 calc(25% - 0.4rem);
+	margin: 0.2rem;
+}
 #content .image-square > figcaption {
 	flex: 0 0 100%;
 }
