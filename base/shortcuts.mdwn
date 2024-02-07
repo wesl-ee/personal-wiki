@@ -3,7 +3,7 @@
 [[!shortcut name=c2 url="http://wiki.c2.com/?%s"]]
 [[!shortcut name=iki url="http://ikiwiki.info/%S/"]]
 [[!shortcut name=gpg url="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&exact=on&search=0x%s"]]
-[[!shortcut name=ipns url="https://ipfs.io/ipns/%s" desc="/ipns/%s"]]
-[[!shortcut name=ipfs url="https://ipfs.io/ipfs/%s" desc="/ipfs/%s"]]
+[[!shortcut name=ipns url="https://cloudflare-ipfs.com/ipns/%s" desc="/ipns/%s"]]
+[[!shortcut name=ipfs url="https://cloudflare-ipfs.com/ipfs/%s" desc="/ipfs/%s"]]
 [[!shortcut name=ens url="https://%s.eth.limo" desc="%s.eth" ]]
 
