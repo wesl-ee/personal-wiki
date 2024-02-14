@@ -6,10 +6,11 @@ We are all lots of things. In fact, singularly, *you*, are so many things, too
 many things to fit into a response of reasonable length to the question. Often I
 settle on something like [[“I am a software developer working with Nasdaq”|Me]]
 because that offers a few things for people to grab on to, namely that I work in
-tech and that I am at the very least informed about the US stock market. But
-this is hardly a complete answer and especially over the past [[year|2023]]
-simply stating “I am X I work at Y doing Z” has done an increasingly poor job at
-providing an adequate answer to the question.
+tech and that I am at the very least informed about the US stock market. Not
+everyone knows about tech but we're almost all beholden to and aware of the US
+economy. But this is hardly a complete answer and especially over the past
+[[year|2023]] simply stating “I am X I work at Y doing Z” has done an
+increasingly poor job at providing an adequate answer to the question.
 
 I'd like to tell you how much I love French house snowboarding Shibuya-kei my
 fiancé IIDX DDR cars my poodle bare-metal servers Rust Go anime sketching
