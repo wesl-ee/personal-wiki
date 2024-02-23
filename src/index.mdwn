@@ -23,7 +23,7 @@ Afront Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] (left) a
     <th>Email</th>
     <td><a href="mailto:w@wesl.ee" rel="me">w@wesl.ee</a></td>
 </tr>
-<th colspan=2>&vellip;<br/>Centralized Services Powergap<br/>&vellip;</th>
+<tr><th colspan=2>&vellip;<br/>Centralized Services Powergap<br/>&vellip;</th>
 </tr><tr>
     <th>Github</th>
     <td><a href="https://github.com/wesl-ee" rel="me">@wesl-ee</a></td>
