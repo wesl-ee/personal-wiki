@@ -12,14 +12,17 @@ Afront Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] (left) a
 </figure>
 
 <table class=no-border>
-<th colspan=2>Net Presence</th></tr>
-</td>
+<tr><th colspan=2>Net Presence</th></tr>
+<tr>
     <th>Fediverse</th>
     <td><a href="https://tldr.wesl.ee/users/wesl-ee" rel="me">@wesl-ee@tldr.wesl.ee</a></td>
 </tr><tr>
     <th>Matrix</th>
     <td><a href="https://matrix.to/#/@wesl-ee:chat.wesl.ee" rel=me>@wesl-ee:chat.wesl.ee</a></td>
 </tr><tr>
+    <th>Email</th>
+    <td><a href="mailto:w@wesl.ee" rel="me">w@wesl.ee</a></td>
+</tr>
 <th colspan=2>&vellip;<br/>Centralized Services Powergap<br/>&vellip;</th>
 </tr><tr>
     <th>Github</th>
