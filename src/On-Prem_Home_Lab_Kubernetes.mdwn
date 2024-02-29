@@ -55,10 +55,12 @@ Flannel for this). Execute the below on the control-plane node `kmaster`.
 root@kmaster ~ > pacman -S kubectl kubeadm kubelet containerd cni-plugins
 root@kmaster ~ > echo overlay >> /etc/modules-load.d/k8s.conf
 root@kmaster ~ > echo br_netfilter >> /etc/modules-load.d/k8s.conf
+root@kmaster ~ > modprobe overlay
+root@kmaster ~ > modprobe br_netfilter
 root@kmaster ~ > echo 'net.bridge.bridge-nf-call-iptables = 1' >> /etc/sysctl.d/k8s.conf
 root@kmaster ~ > echo 'net.bridge.bridge-nf-call-ip6tables = 1' >> /etc/sysctl.d/k8s.conf
 root@kmaster ~ > echo 'net.ipv4.ip_forward = 1' >> /etc/sysctl.d/k8s.conf
-root@kmaster ~ > sysctl --system
+root@kmaster ~ > sysctl -p /etc/sysctl.d/k8s.conf
 root@kmaster ~ > systemctl start containerd && systemctl enable containerd
 root@kmaster ~ > kubeadm init --cri-socket /run/containerd/containerd.sock \
                      --apiserver-advertise-address=10.0.10.5 \
@@ -149,3 +151,42 @@ The rest of my Kubernetes spec is stored on Github at
 provision these VMs using Nix or Terraform then those configs will be stored
 here too; I don't see much reason to complicate my setup like this however,
 especially when it is all hosted on one machine.
+
+Pitfalls
+--------
+
+When adding a new node recently to this relatively old cluster I found the
+following issue after attempting to join the cluster.
+
+[[!syntax text="""
+this version of kubeadm only supports deploying clusters with the control plane version >= 1.28.0. Current version: v1.27.4
+"""]]
+
+I took it upon myself at 2AM to upgrade the existing cluster instead of simply
+installing an old version of kubeadm on the new node. I [downloaded
+the v1.28.0 kubeadm](https://v1-28.docs.kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
+and ran this fateful command on my single control node.
+
+[[!syntax text="""
+[root@kmaster k8s-128]# ./kubeadm upgrade apply v1.28.0
+[upgrade/config] Making sure the configuration is correct:
+[upgrade/config] Reading configuration from the cluster...
+[upgrade/config] FYI: You can look at this config file with 'kubectl -n kube-system get cm kubeadm-config -o yaml'
+[preflight] Running pre-flight checks.
+[upgrade] Running cluster health checks
+[upgrade/version] You have chosen to change the cluster version to "v1.28.0"
+[upgrade/versions] Cluster version: v1.27.4
+[upgrade/versions] kubeadm version: v1.28.0
+[upgrade] Are you sure you want to proceed? [y/N]:
+"""]]
+
+After typing “y” and a few minutes of bated breath I found myself with the
+pleasant message `[upgrade/successful] SUCCESS! Your cluster was upgraded to
+"v1.28.0". Enjoy!` Hooray! From here, I was able to join my node to the cluster
+without trouble. After upgrading the other worker node to the latest v1.29.2 as
+well, I upgraded the control plane to from v1.28.0 to v1.29.2 and called it a
+night! TYBG!
+
+<figure>
+<img src="https://public-demo.raamen.org/based.gif"/>
+</figure>
