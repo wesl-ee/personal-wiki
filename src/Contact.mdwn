@@ -1,0 +1,33 @@
+<table class=no-border>
+<th colspan=2>Net Presence</th></tr>
+</td>
+    <th>Matrix</th>
+    <td><a href="https://matrix.to/#/@wesl-ee:chat.wesl.ee" rel=me>@wesl-ee:chat.wesl.ee</a></td>
+</tr><tr>
+    <th>Fediverse</th>
+    <td><a href="https://tldr.wesl.ee/users/wesl-ee" rel="me">@wesl-ee@tldr.wesl.ee</a></td>
+</tr><tr>
+    <th>Email</th>
+    <td><a href="mailto:w@wesl.ee" rel="me">w@wesl.ee</a></td>
+</tr><tr>
+<th colspan=2>&vellip;<br/>Centralized Services Powergap<br/>&vellip;</th>
+</tr><tr>
+    <th>Github</th>
+    <td><a href="https://github.com/wesl-ee" rel="me">@wesl-ee</a></td>
+</tr><tr>
+    <th>Twitter</th>
+    <td><a href="https://twitter.com/wesl_ee" rel="me">@wesl_ee</a></td>
+</tr><tr>
+    <th>Discord</th>
+    <td><a href="https://discord.com/users/wesl_ee" rel="me">@wesl_ee</a></td>
+</tr><tr>
+    <th>Steam</th>
+    <td><a href="https://steamcommunity.com/id/wesl-ee/" rel="me">wesl-ee</a></td>
+</tr><tr>
+    <th>Telegram</th>
+    <td><a href="https://t.me/wesl-ee" rel="me">@wesl_ee</a></td>
+</tr></table>
+
+I prefer to be contacted and am most responsive by email or [[!wikipedia
+Matrix_(protocol)]], both of which I self-host, but a PM to any address here
+will reach me.
