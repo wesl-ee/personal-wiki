@@ -1,0 +1,217 @@
+Deploying Plex to a Kubernetes cluster is much the same as deploying any old
+Docker image to a cluster. There are two images
+([1](https://github.com/plexinc/pms-docker),
+[2](https://github.com/linuxserver/docker-plex)) that one can use that simply
+wrap Plex; I haven't seen much difference between them. There is another project
+that splits transcoding across pods called
+[kube-plex](https://github.com/munnerz/kube-plex) also. I use
+plex-inc/pms-docker for simplicity. If you decide to use it as well, please
+refer to the [pms-docker repo](https://github.com/plexinc/pms-docker) for the
+most up to date configuration options.
+
+Below is my configuration for the Plex deployment.
+
+[[!syntax type="yaml" text="""
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: plex-media-server
+  labels:
+    app: plex-media-server
+spec:
+  selector:
+    matchLabels:
+      app: plex-media-server
+  template:
+    metadata:
+      labels:
+        app: plex-media-server
+    spec:
+      containers:
+          # You should probably pin this to a specific version
+        - image: plexinc/pms-docker:latest
+          name: plex-media-server
+          env:
+          - name: TZ
+            value: "US/Eastern"
+            # Only needed during first run; https://www.plex.tv/claim/
+          - name: PLEX_CLAIM
+            value: "claim-someclaimtoken"
+          - name: ADVERTISE_IP
+            value: "https://plex.local:32400"
+          - name: CHANGE_CONFIG_DIR_OWNERSHIP
+            value: "false"
+          volumeMounts:
+              # This is the media share
+            - mountPath: /data
+              name: plex-share
+              # Transcoding cache
+            - mountPath: /transcode
+              name: plex-transcode
+              # Persistent config, logs, some caching
+            - mountPath: /config
+              name: scsi-plex-config
+      restartPolicy: Always
+      volumes:
+        - name: plex-share
+          persistentVolumeClaim:
+            claimName: plex-share
+        - name: scsi-plex-config
+          persistentVolumeClaim:
+            claimName: scsi-plex-config
+          # Storing transcode data on the node is fine for me
+          # Make sure you have the space for this on the worker
+        - name: plex-transcode
+          hostPath:
+            path: "/mnt/plex-transcode"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: plex-media-server
+spec:
+  selector:
+    app: plex-media-server
+  type: NodePort
+  ports:
+  - name: plex
+    port: 32400
+    nodePort: 32400
+"""]]
+
+*Note: I don't actually use `plex.local` but you could feasibly configure a home DNS
+resolver to resolve `plex.local` to a node in the cluster (because NodePort is a
+good load balancer itself) or possibly a discrete load balancer in front of the
+cluster. Nginx has been good to me in this capacity, and as an SSL termination
+point.*
+
+Now for the quirky bit. To serve these PersistentVolumes to Kubernetes I
+originally employed NFS for both the shared media and config. Plex uses SQLite
+for its database. If you know the relationship [between NFS and
+SQLite](https://www.sqlite.org/faq.html#q5) you know where this is going.
+
+As I added media to the server I noticed it took a non-trivial amount of time to
+process new files. Considering that CPU usage did not spike significantly I knew
+something was misconfigured. When Plex started randomly losing connectivity and
+seemingly freezing I tailed the logs at `/config/Library/Application
+Support/Plex Media Server/Logs/Plex Media Server.log` and observed the
+following messages:
+
+[[!syntax text="""
+DEBUG - 23 threads are waiting on db connections held by threads
+"""]]
+
+Hmm. I dug into this and learned about the problems SQLite has running over NFS.
+Instead of serving the config over NFS I settled on serving it over iSCSI. I
+allocated an LVM logical volume and added this as a block device served over
+iSCSI:
+
+[[!syntax text="""
+[root@dullscythe:/]# vcreate --size 100G --name kube-scsi-plex vg0
+[root@dullscythe:/]# nix-shell -p targetcli --run 'targetcli'
+targetcli shell version 2.1.57
+Copyright 2011-2013 by Datera, Inc and others.
+For help on commands, type 'help'.
+
+/> /iscsi create
+Created target iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788.
+Created TPG 1.
+Global pref auto_add_default_portal=true
+Created default portal listening on all IPs (0.0.0.0), port 3260.
+/> /backstores/block create kube_scsi_plex /dev/vg0/kube-scsi-plex
+Created block storage object kube_scsi_plex using /dev/vg0/kube-scsi-plex.
+/> /iscsi/iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788/tpg1/luns create /backstores/block/kube_scsi_plex
+Created LUN 0.
+/> /iscsi/iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788/tpg1/acls create iqn.2003-01.org.linux-iscsi.dullscythe.client:kubes-plex
+Created Node ACL for iqn.2003-01.org.linux-iscsi.dullscythe.client:kubes-plex
+Created mapped LUN 0.
+/iscsi/iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788/tpg1/ set attribute authentication=0
+Parameter authentication is now '0'.
+"""]]
+
+Now there is an iSCSI target available. Firewall rules can help to isolate
+this drive from the rest of your network as it is presently listening on
+0.0.0.0:3260 and not guarded with auth. You could optionally configure CHAP
+authentication, which I disabled with `set attribute authentication=0`.
+
+Enable the `target` service (`services.target.enable = true` in NixOS ^^),
+install `open-iscsi` on all workers that may host this pod and finally start and
+enable `iscsid` on the workers.
+
+The spec that provides storage to the Plex deployment is below:
+
+[[!syntax type="yaml" text="""
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: plex-share
+spec:
+  storageClassName: plex-share
+  capacity:
+    # Yours will be a different size
+    storage: 10Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadOnlyMany
+  persistentVolumeReclaimPolicy: Retain
+  mountOptions:
+    - hard
+    - nfsvers=4.2
+  nfs:
+    # ... or however you access your media share over a network
+    path: "/public"
+    server: 10.0.30.1
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: plex-share
+spec:
+  storageClassName: plex-share
+  accessModes:
+    - ReadOnlyMany
+  resources:
+    requests:
+      # Yours will be a different size
+      storage: 10Ti
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: scsi-plex-config
+spec:
+  storageClassName: scsi-plex-config
+  capacity:
+    storage: 100Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  iscsi:
+    targetPortal: 10.0.30.1:3260
+    # Use the IQN generated during the above steps
+    iqn: iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788
+    lun: 0
+    fsType: ext4
+    readOnly: false
+    chapAuthDiscovery: false
+    chapAuthSession: false
+    # Use the initiator name configured during the ACL step above
+    initiatorName: iqn.2003-01.org.linux-iscsi.dullscythe.client:kubes-plex
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: scsi-plex-config
+spec:
+  storageClassName: scsi-plex-config
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 100Gi
+"""]]
+
+I magnanimously present this article *gratis* as it took a good amount of
+digging to pinpoint the cause of this issue. For setting up a bare-metal
+Kubernetes cluster check out my companion article,
+[[On-Prem_Home_Lab_Kubernetes]].
