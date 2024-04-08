@@ -125,7 +125,7 @@ Created LUN 0.
 /> /iscsi/iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788/tpg1/acls create iqn.2003-01.org.linux-iscsi.dullscythe.client:kubes-plex
 Created Node ACL for iqn.2003-01.org.linux-iscsi.dullscythe.client:kubes-plex
 Created mapped LUN 0.
-/iscsi/iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788/tpg1/ set attribute authentication=0
+/> /iscsi/iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788/tpg1/ set attribute authentication=0
 Parameter authentication is now '0'.
 """]]
 
