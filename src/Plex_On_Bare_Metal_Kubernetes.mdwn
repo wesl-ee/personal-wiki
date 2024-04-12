@@ -127,7 +127,13 @@ Created Node ACL for iqn.2003-01.org.linux-iscsi.dullscythe.client:kubes-plex
 Created mapped LUN 0.
 /> /iscsi/iqn.2003-01.org.linux-iscsi.dullscythe.x8664:sn.938cb8d24788/tpg1/ set attribute authentication=0
 Parameter authentication is now '0'.
+/> saveconfig
+Last 10 configs saved in /etc/target/backup/.
+Configuration saved to /etc/target/saveconfig.json
 """]]
+
+*Note that targetcli interacts with the kernel and does not save its config by
+default; running `saveconfig` is needed to persist changes through a reboot.*
 
 Now there is an iSCSI target available. Firewall rules can help to isolate
 this drive from the rest of your network as it is presently listening on
