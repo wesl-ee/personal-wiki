@@ -9,14 +9,26 @@ those familiar with image boorus, consider it a P2P booru.
 In the spirit of _dogfooding_, I use HooYa! to organize my own media even as I
 build it. For example, I run a private HooYa! network on my [[home Kubernetes
 cluster|On-Prem_Home_Lab_Kubernetes]] providing all images and videos on this
-site, including the media on this very page (hooyaception). All code is developed under an open
-source license and [available on GitHub](https://github.com/hooya-network)
-license. As of May 2024 I am rapidly developing a Next.js frontend, pictured
-below.
+site, including the media on this very page (hooyaception). All code is
+developed under an open source license and [available on
+GitHub](https://github.com/hooya-network).
+
+<table>
+<tr><th>Component</th><th>Language / Framework</th><th>Description</th></tr>
+<tr><td><code><a href="https://github.com/hooya-network/hooya/blob/trunk/hooyad/src/server.rs">hooyad</a></code></td><td>Rust</td><td>Daemon</td></tr>
+<tr><td><code><a href="https://github.com/hooya-network/hooya-protobuf">hooya-protobuf</a></code><td>gRPC + protobuf</td><td><code>hooyad</code> API stubs</td></tr>
+<tr><td><code><a href="https://github.com/hooya-network/hooya/blob/trunk/hooyad/src/web-proxy.rs">hooya-web-proxy</a></code></td><td>Rust</td><td>REST proxy to <code>hooyad</code></td></tr>
+<tr><td><code><a href="https://github.com/hooya-network/hooya/blob/trunk/hooyad/src/client.rs">hooya</a></code></td><td>Rust</td><td><code>hooyad</code> gRPC CLI</td></tr>
+<tr><td><code><a href="https://github.com/hooya-network/hooya-web-ui">hooya-web-ui</a></code></td><td>Typescript + Next.js</td><td>New web frontend</tr>
+<tr><td><code><a href="https://github.com/hooya-network/hooya/tree/trunk/hooya-gtk">hooya-gtk</a></code><td>Rust + GTK4</td><td>Old GTK4 frontend</td></tr>
+</table>
+
+As of May 2024 I am rapidly developing a Next.js frontend `hooya-web-ui`,
+pictured below. I will deploy a public demo instance soon™.
 
 <figure>
 <div>
-    <video autoplay muted loop>
+    <video autoplay muted loop controls>
     <source src="https://web.hooya.wesl.ee/cid-content/bafkreicnkwgek5n2eh4dojzdb3gino2tqpgeq4wqn2owry37wip3jljhbq" type="video/mp4">
     </video>
 </div>
@@ -24,7 +36,7 @@ below.
 [[!template id="hooya-img.tmpl" cid="bafkreicpq6xclws7lmv7gmfinhhzgl6p7bloo4osgrghjkk3j5uycb2cb4" size=medium]]
 </figure>
 
-It aspires to become completely autonomous and self-governing by issuing its own
+HooYa! aspires to become completely autonomous and self-governing by issuing its own
 governance tokens for use in image proposal / acceptance and metadata tagging.
 It also seeks to incentivize the on-chain commission + minting of new artworks
 by [manga](https://en.wikipedia.org/wiki/Manga) &
@@ -33,7 +45,8 @@ by [manga](https://en.wikipedia.org/wiki/Manga) &
 
 However before I tackle the implementation of network governance, I am focused on
 building the P2P overlay network for file-sharing and making this a pleasant
-software to use and host that can be used to organize personal file storage.
+software to use and host that can be used to organize personal file storage and
+exchange semantically rich metadata.
 
 ### Background
 
