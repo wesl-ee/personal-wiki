@@ -24,14 +24,14 @@ below.
 [[!template id="hooya-img.tmpl" cid="bafkreicpq6xclws7lmv7gmfinhhzgl6p7bloo4osgrghjkk3j5uycb2cb4" size=medium]]
 </figure>
 
-It aspires to be rapidly become completely autonomous and self-governing by
-issuing its own governance tokens for use in image proposal / acceptance and
-metadata tagging. It also seeks to incentivize the on-chain commission + minting
-of new artworks by [manga](https://en.wikipedia.org/wiki/Manga) &
+It aspires to become completely autonomous and self-governing by issuing its own
+governance tokens for use in image proposal / acceptance and metadata tagging.
+It also seeks to incentivize the on-chain commission + minting of new artworks
+by [manga](https://en.wikipedia.org/wiki/Manga) &
 [dōjin](https://en.wikipedia.org/wiki/Doujinshi) artists (hereafter
 "illustrators") via these governance tokens.
 
-However before I tackle the complexities of network governance, I am focused on
+However before I tackle the implementation of network governance, I am focused on
 building the P2P overlay network for file-sharing and making this a pleasant
 software to use and host that can be used to organize personal file storage.
 
