@@ -1,33 +1,27 @@
 [[!meta title="HooYa! Network"]]
 
-<table class=left-float>
-<tr>
-<th colspan=2>HooYa! Network</th>
-</tr>
-<tr>
-<th>Project Status</th>
-<td>Side-project</td>
-</tr>
-<tr>
-<th>Article Status</th>
-<td>Unfinished</td>
-</tr>
-<tr>
-<th>Funding</th>
-<td>Unfunded</td>
-</tr>
-</table>
-
-HooYa! is a Web3 community for commissioning and supporting manga & dōjin
-artists; it offers leasable storage space for illustrations submitted by artists
-and network users and provides a
+HooYa! is an IPFS-like network for sharing and downloading files tagged with
+rich semantic metadata. Network participants provide a
 [folksonomy](https://en.wikipedia.org/wiki/Folksonomy) of descriptive,
-searchable tags and metadata for each illustration it hosts. HooYa! maintains
-also a folksonomy for images that are not stored on-chain but that may be
-accessible through other services such as Pixiv and Danbooru.
+searchable tags and metadata for the set of all files across the network. For
+those familiar with image boorus, consider it a P2P booru.
+
+In the spirit of _dogfooding_, I use HooYa! to organize my own media even as I
+build it. For example, I run a private HooYa! network on my [[home Kubernetes
+cluster|On-Prem_Home_Lab_Kubernetes]] providing all images and videos on this
+site, including the media on this very page (hooyaception). All code is developed under an open
+source license and [available on GitHub](https://github.com/hooya-network)
+license. As of May 2024 I am rapidly developing a Next.js frontend, pictured
+below.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreid7runqtgkhyou6oiipplfc6laku7rth2irvo4bnhhj64xzmutj6i" size=medium]]
+<div>
+    <video autoplay muted loop>
+    <source src="https://web.hooya.wesl.ee/cid-content/bafkreicnkwgek5n2eh4dojzdb3gino2tqpgeq4wqn2owry37wip3jljhbq" type="video/mp4">
+    </video>
+</div>
+</figure><br/><figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicpq6xclws7lmv7gmfinhhzgl6p7bloo4osgrghjkk3j5uycb2cb4" size=medium]]
 </figure>
 
 It aspires to be rapidly become completely autonomous and self-governing by
@@ -35,11 +29,15 @@ issuing its own governance tokens for use in image proposal / acceptance and
 metadata tagging. It also seeks to incentivize the on-chain commission + minting
 of new artworks by [manga](https://en.wikipedia.org/wiki/Manga) &
 [dōjin](https://en.wikipedia.org/wiki/Doujinshi) artists (hereafter
-"illustrators") via these native utility tokens.
+"illustrators") via these governance tokens.
+
+However before I tackle the complexities of network governance, I am focused on
+building the P2P overlay network for file-sharing and making this a pleasant
+software to use and host that can be used to organize personal file storage.
 
 ### Background
 
-The service HooYa! provides is not novel; it finds inspiration from a handful of
+The service HooYa! will provide is not novel; it finds inspiration from a handful of
 Web2 companies (mainly Japanese ones) and from the communities that form around these
 companies and the illustrators they support. I see HooYa! as a combination of
 these two communities in particular:
@@ -59,6 +57,10 @@ illustration ([example](https://autotagger.donmai.us/),
 illustrations that resemble the Japanese style
 ([example](https://www.thiswaifudoesnotexist.net/),
 [background](https://www.gwern.net/TWDNE)).
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreid7runqtgkhyou6oiipplfc6laku7rth2irvo4bnhhj64xzmutj6i" size=medium]]
+</figure>
 
 HooYa! will leverage these pioneering predictive models to suggest tags on
 images submitted for inclusion on the network.
@@ -160,102 +162,14 @@ video). Each image in the interpolation is unique in that it is an original
 of the GAN, and though the model was seeded from the images collected on
 Danbooru the portraits are original creations.
 
-HooYa! uses the predictive model and the generative model in a few different
-ways (see below *3: Prediction* and *4: Generation*).
+### What is HooYa! to Pixiv and Danbooru?
 
-HooYa! — A Decentralized Platform for [Dōjin](https://en.wikipedia.org/wiki/Doujinshi) & Manga Artists
---------------
+HooYa! is built from first principles to be P2P software. This differentiates it
+from Danbooru, which is centralized, and Hydrus, which is not P2P.
 
-Now with some understanding of the context in which HooYa! is being developed I
-can explain the mechanics the HooYa! network.
-
-HooYa! at its core can be broken into three components:
-
-1. Consensus (of metadata, tags, governance, and the image canon)
-2. Leased ephemeral storage (of commissioned images and those minted on-chain)
-3. Prediction (of tags) + generation (of reference images)
-
-The first two of these four components may be familiar to some; the last one is
-a novel component to compute on a blockchain and is one thing (among many) which
-I hope will set HooYa! apart from many other chains, both on Cosmos and beyond.
-
-### 1 — Consensus
-
-HooYa! is a blockchain built on the **Cosmos SDK**. It uses Tendermint (like
-nearly every other Cosmos SDK chain) to maintain network connectivity and
-consensus across a group of validators. Many chains I have seen begin with a
-set of 100 validator slots and so this is what HooYa! adopts initially.
-
-Each node has a perfect copy of *the canon* which refers to the set of:
-
-- Images (uniquely identified by a SHA2-256 <a
-   href="https://github.com/multiformats/multihash">multihash</a>)
-- Ownership of those images
-- Tags describing those images
-- Metadata describing those images
-
-... that HooYa! indexes. HooYa!'s canon is a subset of network state and
-therefore any archival node can retrieve a full copy of the canon at any given
-chain height. On-chain governance, ongoing subscriptions to illustrators,
-payment settlement for commissioned artwork is a subset of HooYa! network state,
-and therefore is a part of data stored on the blockchain, but is not what I mean
-when I reference *the canon*, which refers to exclusively those four things
-above.
-
-*The canon* is contributed by HooYa! network users, not necessarily the original
-illustrators themselves. HooYa! users may consult the neural networks proposed
-in (3) during the image tagging process to more accurately and swiftly tag
-images. Furthermore because *canon* includes only metadata about an image but
-not the image itself there is no risk of infringement on any copyrights by
-storing *canon*; the image data is stored in ephemeral storage (2) if it has
-been leased; this data is released once its lease expires.
-
-[... more to come here]
-
-### 2 — Leased Ephemeral Storage
-
-In addition to running the HooYa! daemon which maintains consensus (1) all
-validators are expected to run an [[IPFS]] daemon. This daemon
-connects validators to each other in a private cluster separate from the
-"global" IPFS instance that we often refer to when talking of IPFS. The private
-IPFS cluster provides ephemeral storage of the images that HooYa! has reached
-consensus in (1) should be stored on the network a period of time determined by
-the image's lease terms.
-
-Unlike for metadata stored as a part of consensus (1) no guarantee is made
-regarding the retrieval of data whose lease has expired. Validators are not
-required to store copies of all data ever indexed by HooYa!, only data whose
-lease is current because that space is reclaimed once the lease for that space
-expires.
-
-To my knowledge no other Cosmos SDK chain (not even <a
-href="https://stargaze.zone">Stargaze</a> which arguably should use this)
-leverages IPFS like this. I believe this is a wonderful decentralized
-alternative to things like <a href="https://www.pinata.cloud/">Pinata</a> for
-IPFS pinning that is especially attractive for NFT projects on Cosmos. *Even if
-other projects do not use HooYa!'s consensus (1) or neural-net prediction +
-generation (3) they can lease ephemeral storage (2) to store NFT metadata and
-images.*
-
-[... more to come here]
-
-### 3 — Prediction + Generation
-
-There are a number of pre-trained models which can predict tags for a given
-illustration. Validators host these neural networks and provide suggestions for
-each image uploaded to ephemeral storage in (2). The deterministic nature of
-these networks dictates that each image has exactly one set of network outputs
-(ie predicted tags); models are therefore versioned and distributed as part of
-network upgrades, ensuring each validator has the latest neural network, and
-those that do not provide bitwise identifical network outputs will see their
-stake <a href="https://docs.cosmos.network/master/modules/slashing/">slashed</a>
-after an amount of time. This behavior is similar to the slashing on Gravity
-Brdige ( see <a
-href="https://github.com/cosmos/gravity-bridge/blob/main/spec/slashing-spec.md">GRAVSLASH-02
-</a>)
-
-For providing one-time GPU compute power for tag prediction validators are
-compensated with a portion of the data leasing fee.
-
-[... more to come here]
-
+The addition of token governance allows HooYa! to compete in the niche that
+Pixiv and other commission platforms fill now with the Japanese and Otaku
+market, by facilitating artwork commissions. A convenient consequence of being a
+P2P file-sharing network with on-chain governance is that art comissioned on
+the blockchain that supplies the governance layer could be stored trivially on
+the overlay network.
