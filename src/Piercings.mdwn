@@ -1,25 +1,83 @@
 [[!tag Aesthetics]]
 
-I had my ears pierced today. It didn't realy hurt at all, just a quick sting
-like getting the flu shot. Both sides were pierced at the upper and lower
-lobes so this procedure was done 4 times; I was in + out in ~20 minutes,
-accounting for filling out paperwork and picking out the stainless-steel studs.
-I can recommend going to a dedicated shop like a tattoo + piercing place;
-somewhere that uses a hollow needle to pierce, not a gun.
+Piercings are cool. I have 6.
 
-<figure class=left-float>
++ L ear lobe (x2)
++ R ear lobe (x2)
++ L + R nipples
+
+I was really inspired to try them after previous contemplation after I visited
+Kabukichō during a [[trip to Tōkyō in 2023|Tokyo_23]] and saw the Jirai-kei
+fashion that has become popular in recent years, especially around that part of
+Shinjuku. Jirai-kei itself is a controversial topic but the people I saw and the
+way they dressed stuck with me and I found it beautiful even with its dark
+color.
+
+In any case, piercings are far less permanent body modifications than tattoos; I
+love how tattoos look on other people but I could _never_ settle on a piece of
+art to display on my body for most of the rest of my life; that's such a large
+committment. With a piercing you can simply remove it and it will heal with
+proper care; after that it's almost as if you never had it.
+
+Ear Lobes
+---------
+
+I had all four lobe piercings done back to back. It didn't realy hurt at all,
+just a quick sting like getting the flu shot. Both sides were pierced at the
+upper and lower lobes so this procedure was done 4 times; I was in + out of the
+shop in ~20 minutes, accounting for filling out paperwork and picking out the
+stainless-steel studs. I can 100% recommend going to a dedicated shop like a
+tattoo + piercing place, at least somewhere that uses a hollow needle to pierce,
+not a gun.
+
+<figure class="image-square small">
 [[!template id="hooya-img.tmpl" cid="bafkreiftqopozwpwlb57hpatr4p4edib4kui3mhwvwlmuglpc4sjikz55y" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreibl5troaroziuiefylsbziscbeaui5eraidus27auzbaye6f2k6d4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidviqwl52nz7pigmx2huigvcwcowddvwsxxbbulbhcld6jsjbamwa" size=medium]]
+<figcaption>Ear piercing detail</figcaption>
 </figure>
 
-These will heal for 3 〜 4 months at which point I can change them out for other
-jewelry which I have not decided on nor bought yet. After about a year I'll
-consider possibly more work if I like how these look with studs or earrings.
-I think it would look way cool to connect one of the lobes to a helix piercing
-with a chain; I may just do an industrial piercing instead of that; I'm not
-really sure yet but I will let these heal for now.
-
-There were many other types of studs at the shop made of different materials
-such as opalite or stainless steel finished with gold; I prefer the ones I got
-as I don't think I'd like the look of any white or gold finish on me, though
-it's hard to tell just looking at them next to your ear; titanium was a close
+The ear piercings healed fully in about 4 months at which point I was able to
+change them out for other jewelry. I really like the look of the studs I got at
+the shop when I had the work done, so I wear these studs most often. There were
+many other types of studs at the shop made of different materials such as
+opalite or stainless steel finished with gold; I prefer the ones I got as I
+don't think I'd like the look of any white or gold finish on me, though it's
+hard to tell just looking at them next to your ear; titanium was a close
 runner-up.
+
+My ears are not suitable for an industrial piercing that runs front to back as
+the top, most-forward part of my ear is too close to my head; I was advised
+such a piercing likely would be rejected by my body for that reason.
+
+Nipples
+-------
+
+In place of an industrial I decided to have my both nipples done. Mine lay
+almost flat on my chest (below) so I was worried about the feasibility of having
+them pierced but it seems that skilled piercers can do almost any type of
+nipple, even inverted ones. The piercer cleaned the area off, marked the entry +
+exit points and pushed through the entry mark to the exit mark using a 16 gauge
+needle with the jewelry already attached. 16 gauge was needed because mine are
+small.
+
+I have heard the pain described as “minimal” maybe
+rivaling that of an upper ear lobe but honestly the entry stung significantly
+more than either lobes; after the needle was removed the pain went away and I
+was left with a vague soreness for a half hour afterwards. Now, 2 weeks after,
+there is only pain if they get snagged on clothing which I've quickly learned to
+not do.
+
+<figure class="image-square small">
+[[!template id="hooya-img.tmpl" cid="bafkreihg65lzkmeh74dndybfgazek24gudnuu36anglvgzc2ctvsdi3zfi" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreigkefrwfjdiit6ldloihlc64nclorxesp5bk5eyezc4yo5rmzge6e" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreigamlhewqbmvlkijvgvycpi4xaiaumz2btir4dsm6skhvwat4cjxq" size=medium]]
+<figcaption>Nipple piercing before / after / after detail</figcaption>
+</figure>
+
+One thing I definitely want to do is get a helix piercing so I can run a chain
+from it to one of my lobes. And unfortunately I cannot get the “traditional”
+front-back industrial because of my anatomy but I was advised that a vertical
+industrial is do-able with my ears. I'll let what I have heal until I pursue
+that thought further.
+
