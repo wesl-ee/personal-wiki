@@ -1,8 +1,6 @@
-This site belongs to Wesley Coakley, also known on the Internet as wesl-ee and
-locally known simply as [[Me]] (´ ∀ ` *) I built a lot of
-[[DeFi|Decentralized_Finance]] stuff and am currently building in
-the TradFi space through Nasdaq's [Digital
-Assets](https://www.nasdaq.com/solutions/digital-assets) team.
+This site belongs to Wesley Coakley, also known on the Internet as **wesl-ee** and
+locally known simply as [[Me]] (´ ∀ ` *)
+
 <figure class="profile image-square">
 [[!template id="hooya-img.tmpl" cid="bafkreidfyule625lckk4hnuofmeymyrdb5si3bbbusxcmms33s3y6zqwu4" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreiav7g4jprel7pbrwjokh4pgxgxyo4thsks5mtwy2gbrythdrtv2wa" size=medium]]
@@ -11,12 +9,17 @@ Afront Ōtorii at Yasukuni Shrine during a [[Trip to Tōkyō|Tokyo_23]] (left) a
 </figcaption>
 </figure>
 
-You're reading my homepage & personal wiki; nothing is off-topic here! I'm the
-only one with write-access so all opinions are my own and all information here
-can only be as correct as I am; this site is generated with love and [[!iki
-ikiwiki]] and collects much of my writing, ranging from full-length write-ups to
-thoughts I have throughout the day. It is my personal knowledge base and also
-the manifestation of my character on the
+You're reading my homepage & personal wiki; nothing is off-topic here! The big
+blue links [[like this one|Me]] will lead you further down the rabbit-hole of
+this site so click as many of those as you can to learn more! Approach pages on
+this site as if they are Wikipedia articles, and click relevant large blue links
+to read the related article.
+
+I am the only one with write-access so all opinions are my own and all
+information here can only be as correct as I am; this site is generated with
+love and [[!iki ikiwiki]] and collects much of my writing, ranging from
+full-length write-ups to thoughts I have throughout the day. It is my personal
+knowledge base and also the manifestation of my character on the
 [Wired](https://sel.fandom.com/wiki/The_Wired).
 
 I still haven't filled out many of the pages on this site but if you'd like to

@@ -1,21 +1,21 @@
 Hi, I'm Wesley, also known as **wesl-ee**.
 
-I work at Nasdaq in concert with the [Digital
-Assets](https://www.nasdaq.com/solutions/digital-assets) team here to build a
-platform for custodians to manage, deposit and withdraw [[Digital_Money]] on
-distributed ledgers.
+I write computer code that does useful things. I have worked as a software
+developer with large companies like Nasdaq and NVIDIA and also with with
+smaller, leaner startups in the cryptocurrency space. I hope you will see
+through this site that I am a generalist too and cultivate knowledge across many
+seemingly disjoint domains. This site is a record of that interest.
 
-Previously I developed a perpetual futures exchange based on a
-[[vAMM model|The_Problem_With_vAMM_Perpetuals]] with
-[Levana](https://levana.finance) on the [[Terra]] blockchain shortly before the
-collapse of Terra's native UST stablecoin.
+My professional expertise is within the broad scope of “distributed systems”;
+this includes blockchains, P2P networking, high-availibility systems, and
+technology built on these primitives. High-level concepts I have relevant
+professional experience with are [[Digital_Money]], [[Decentralized_Finance]],
+perpetual futures, options, and many different flavors of stablecoins.
 
-Before this I worked as a Software Engineer in NVIDIA's [Networking Business
-Unit](https://www.nvidia.com/en-us/networking/) (NBU). I graduated from
+Before I began working full-time I graduated from
 [[North_Carolina_State_University]] with a B.S. in Computer Engineering and
-another B.S. in Electrical Engineering. I also accidentally took enough courses
-during my college tenure to collect my minor in mathematics on the way out the
-door.
+another B.S. in Electrical Engineering. During that time I also accidentally
+took enough courses to collect my minor in mathematics on the way out the door.
 
 Tech
 ----
