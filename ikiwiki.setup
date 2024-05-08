@@ -65,6 +65,11 @@ deterministic: 0
 rss: 1
 # allow rss feeds to be used?
 allowrss: 1
+# enable atom feeds by default?
+atom: 1
+# allow atom feeds to be used?
+atom: 1
+allowatom: 1
 
 ######################################################################
 # format plugins
