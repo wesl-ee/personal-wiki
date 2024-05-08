@@ -60,6 +60,11 @@ section#content {
 	text-align: justify;
 }
 
+.archivepagedate {
+	display: block;
+	line-height: 1.2;
+}
+
 section#content .longlink {
 	word-break: break-all;
 }

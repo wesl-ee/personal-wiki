@@ -3,7 +3,7 @@ is definitely the least-cool way to browse the site; I find it more fun to just
 keep clicking on the blue links and wander around but this is provided to give
 less-accessible pages some visibility too.
 
-[[!inline  archive="yes" pages="*
+[[!inline  archive="yes" showmtime="yes" sort="mtime title" pages="*
 	and !(ikiwiki or ikiwiki/*)
 	and !Recent_Posts
 	and !img
