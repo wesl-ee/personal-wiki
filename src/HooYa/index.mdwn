@@ -23,17 +23,20 @@ GitHub](https://github.com/hooya-network).
 <tr><td><code><a href="https://github.com/hooya-network/hooya/tree/trunk/hooya-gtk">hooya-gtk</a></code><td>Rust + GTK4</td><td>Old GTK4 frontend</td></tr>
 </table>
 
-As of May 2024 I am rapidly developing a Next.js frontend `hooya-web-ui`,
-pictured below. I will deploy a public demo instance soon™.
+At [public-demo.hooya.wesl.ee](https://public-demo.hooya.wesl.ee) there is a
+demo of the full stack. That instance stores pictures and videos I've taken in
+Tōkyō from when I [[studied there in 2018|Sophia_University]] and [[visited
+there in 2023|Tokyo_23]], both times of which I've written about on this site
+before. Some video and screenshots of the UI are below.
 
 <figure>
 <div>
     <video autoplay muted loop controls>
-    <source src="https://web.hooya.wesl.ee/cid-content/bafkreicnkwgek5n2eh4dojzdb3gino2tqpgeq4wqn2owry37wip3jljhbq" type="video/mp4">
+    <source src="https://web.hooya.wesl.ee/cid-content/bafkreif5o34nqsqt52x6gdgxw62an3mifsvudkyg47zuspq3hg6yjttbhi" type="video/mp4">
     </video>
 </div>
 </figure><br/><figure>
-[[!template id="hooya-img.tmpl" cid="bafkreicpq6xclws7lmv7gmfinhhzgl6p7bloo4osgrghjkk3j5uycb2cb4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreicflu5adp3sitaqqclujiy4cuyqkhdom2irhpu366gym4q3niiega" size=medium]]
 </figure>
 
 HooYa! aspires to become completely autonomous and self-governing by issuing its own
@@ -151,29 +154,9 @@ Danbooru limits searches to 2 tags unless the user has purchased a
 [Gold](https://danbooru.donmai.us/upgrade) account, in which case the limit is
 raised to 6. Gold accounts cost a one-time purchase of $20 USD.
 
-<figure class=left-float><video width=300 height=300 loop autoplay controls>
-<source src="https://web.hooya.wesl.ee/cid-content/bafkreig5oc2qi6nhfesewedwcumhmh44fcqbmc5gguk4hmr3ntigua3qgm" type="video/webm">
-</video>
-</figure>
-
 Danbooru hosts over **4.9 million images** tagged with **162 million tags**, of
 498k unique tags as of the end of 2021. A single copy of this data consumes 4.5
 terrabytes of disk space.
-
-As alluded to earlier, this massive data set has allowed researchers to create
-predictive models leveraging neural networks to label the objects in a brand
-new illustration, thus reducing the workload on a single user tagging an image.
-In addition to predictive models, generative adversarial networks (in particular
-NVIDIA's StyleGAN) have been trained with the Danbooru set to draw brand new
-illustrations when prompted with a series of tags.
-
-To the left is <a
-href="https://www.gwern.net/Faces#portrait-results">Gwern's</a> Danbooru2018
-portrait model trained to generate portraits in the Danbooru style (credit <a
-href="https://www.gwern.net/Faces#portrait-results">Gwern</a> for the model and
-video). Each image in the interpolation is unique in that it is an original
-of the GAN, and though the model was seeded from the images collected on
-Danbooru the portraits are original creations.
 
 ### What is HooYa! to Pixiv and Danbooru?
 
