@@ -1,0 +1,118 @@
+[[!tag Car]]
+
+The water pump in any car is responsible for pushing coolant through the engine
+block to prevent the engine from overheating. These pumps are typically driven
+by the same serpentine belt that powers the alternator and power steering pump
+and is driven by the crankshaft pulley.
+
+The BMW E36 shipped with a water pump featuring a plastic impeller. Though the
+composite BMW uses for this impeller has gotten better in recent years a common
+failure of the E36 cooling system was due to this plastic; it had the tendency
+to break apart suddenly due to age or use. This is not healthy for the cooling
+system and if this happens then engine overheating is imminent as coolant is not
+being pushed through the block to the radiator to distribute the accumulated
+heat. Also you'd have a bunch of plastic impeller shards in your coolant
+system which is not where they belong.
+
+It's worth noting that a hot engine is not always a result of a water pump
+failure but a water pump failure will eventually result in engine overheating.
+For this reason, replacing the factory-installed water pump in the E36 with a
+pump using a metal impeller is a common maintainance item that supports the
+longevity of the engine and will protect against being stranded by an overheated
+engine. If the engine is allowed to overheat significantly it is *very* likely
+to sustain fatal damage requiring a full teardown. Even worse, the ECU buffers
+the temperature reading from the engine so the temperature displayed in the
+cabin thermometer lags what the engine is actually experiencing. By the time the
+engine overheat light comes on the engine may already be in dangerous territory.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifypblrztwx3z3gav4qrlyq5p7azn6ezronqfvfsppndbujrzkfdq" size=medium]]
+<figcaption>OEM water pump with plastic impeller (left) and the new water
+pump with metal impeller (right)</figcaption>
+</figure>
+
+Anyhow I performed this upgrade on my [[BMW_318ti]]. The only good thing about
+this car's [[BMW_318ti/M44_Engine]] being an inline-4 is that there is much more
+room in the engine bay. So much room in fact that the radiator does not even
+need to be removed to perform this maintainance as it would need to be if
+working on any of the inline-6 E36s like the M3. Removing the fan shroud is
+helpful however.
+
+I won't detail every step of this upgrade, consult your service manual for the
+exact process. But I will include some insight and document my experience here.
+
+It's a good idea to perform other maintainance items while you have the
+belts off and block drained. Personally I replaced both serpentine belts while
+they were off. A note about the belt tensioners: the secondary belt tensioner
+required a 8mm hex tool to untension; the tensioner for the main belt required a
+torx T50 bit; both of these things I did not have and needed to wait on. The
+secondary belt was rather easy to untension with the right tools but the main
+belt tensioner required a comical amount of force to move just a little bit to
+slide the belt off; putting it back on was a feat of strength and required a
+second person because I used both my hands to torque and steady the ratchet. My
+E36 uses a hydraulic tensioner in contrast to the mechanical tensioner used on
+the secondary belt.
+
+Removing the water pump was a nightmare. I have read every forum post in
+existence on the topic and it seems these pumps either pop out with a little bit
+of extra force once all four bolts are out or are welded into the block by God
+and are very difficult to pull. Unfortunately mine was the latter. BMW tapped
+two threads on the top and bottom of the pump into which you can drive the same
+size bolts as are on the thermostat. In its infinite wisdom some BMW engineer
+also designed the pump to have a large metal fin going exactly over this tapped
+thread on the bottom.
+
+I used these threads to attempt to drive the pump out. The bottom bolt got
+stuck as clearance between the fin and the bolt head became so small after
+driving it in that I couldn't fit the socket on it anymore. On the top side, the
+pump was so stuck in the block that driving the top bolt in broke the entire top
+tab of the water pump off. I seriously strained my bicep trying to pull it out
+directly.
+
+This was vexing. A week after I snapped the tab we had a party at my house and I
+convinced everyone to take turns wailing on this thing using a pry bar after
+we'd been properly inebriated; nobody could make it move more than a few mm.
+This was probably due to only applying force to the top of the pump, causing it
+to lodge itself cockeyed in the block. I tried every angle over the next few
+days using various prybars.
+
+Eventually I ideated a solution to this problem that would use a bearing puller
+to pull the pump from the block. Though the application was a bit different than
+what a bearing puller is designed for I figured it could work. I would drive two
+bolts through the holes of the bearing puller and apply equal pressure to both
+sides of the pump this way, mimicking what the tabs are meant to do.
+
+The particular puller I ordered had holes tapped for an M9 bolt which is
+extremely rare and weird that they did this. The extensions they provided of
+course fit in these holes, but I needed bolts to go *through* these holes, not
+extensions to thread halfway into them. Because of their rarity M9 bolts are
+also quite expensive; I decided against ordering 2 bolts for $40 and looked for
+another solution to the bolt thing. The hardware store near me sells only the
+even-numbered metric bolts, unsurprisingly; I settled on using a 5/16" bolt
+which will fit in a 9mm sized hole and, because this would not thread in that
+hole on the puller, a corresponding nut on the other side of the puller to
+thread the bolt through. I placed two shims of wood against the block to prevent
+further cosmetic damage to the timing case.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreig44pv4ncnzxv7t5avq6p3il23lz452cfto2l5aj4n6wmu4vw5bom" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiefvgfbyrefw5vrwbpwbrmzchvc5havw7pxsa645wxf5hakruktla" size=medium]]
+<figcaption>Described puller doing its job; note the abuse on the pump</figcaption>
+</figure>
+
+This use of the puller worked and the pump popped out like it was nothing. I
+replaced the pump and installed new screws for the pump, as the one that got
+stuck in the pump tab was unable to be removed easily. I replaced the belts and,
+as mentioned, called on my fiancé to install the main belt while I torqued the
+tensioner back with strength I only cultivated over the [[last year|2023]].
+
+With new coolant mixed together I refilled the radiator (making sure the drain
+plug and drain bolt were tightened to spec) and bled air from the system until
+the cabin heat ran hot when the engine was at mid-temp.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidtjf3y3mswkhz2l6ur6pgjr3l5xqhzwlspwevhihko4v5b4nmo54" size=medium]]
+<figcaption>Just enough concentrated coolant cut with distilled water to fill the system</figcaption>
+</figure>
+
+I threw the old, very scarred pump into the trash and that was that.
