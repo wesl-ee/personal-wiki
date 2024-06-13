@@ -1,7 +1,7 @@
 For whatever reason Google Chrome does not allow one to disable browsing
 history. When I type things into the searchbar (omnibox, in Chrome's vocabulary)
-I don't get value from the suggestion that pop up that are not bookmarked sites;
-such suggestions are just noise to me.
+I don't get value from the suggestions that pop up which are not bookmarked
+sites; such suggestions are just noise to me.
 
 Most online help suggests to launch Chrome with the `-incognito` flag, but I
 know we can do better. Plus, incognito mode comes with a host of other features
@@ -9,7 +9,10 @@ like wiping all cookies on exit that I don't want to use all of the time.
 
 In the absence of a toggle for disabling history in browser settings the only
 remaining option is the nuclear one, which is to revoke write access from the
-history file after deleting your history.
+history file after deleting your history. This way Chrome cannot track your
+profile's history because it cannot write to the file in which it records this
+history. This file is called `History` and is inside your profile's directory
+within Chrome's data directory. Here's a quick list of steps to achieve this:
 
 1. Delete all browsing history from Chrome first
 2. Open `chrome://version` and note the profile path
