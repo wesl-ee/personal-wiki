@@ -12,6 +12,7 @@ these these non-exclusive genre tags:
 + French House
 
 <figure class="image-square small">
+[[!template id="hooya-img.tmpl" cid="bafkreibxtukg6zkj7enofjqj2vozfscybojg26bc2d2bspf74eldolg22a" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreic7r3l4bgpvsocpautaqwzwrdeahs2ehygcyyksizvayt67zotgke" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreiep3y6k4dmrxk5ofbtliyk54gdtfimtgggtibtgecnm65bu6fdbya" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreigzproqobth44f3tt4or37s37rt5mopbymmh72tutukfaq3kszeoa" size=medium]]
@@ -38,6 +39,47 @@ expressely for this, if only because I was curious if it could be done. It *can*
 be done and I have done it many times.
 
 Here are all videos of the sets I have played which I have archived:
+
+June 22, 2024 — Moonlight's House Party
+-------------------------
+
+[[Watch on YouTube](https://youtu.be/6vRzqsZkmDI) / [[!ipfs QmSRC8U3VUgcn61bKStb7gZF5prysGsvkwrrZEy9ULsxAr desc="Download full version from IPFS"]]]
+
+Rare basement IRL back-to-back in an undisclosed location with a wicked
+audioreactive visual setup.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicx72bsx3ixbynpoo5hfnv5alkgjit52zu46o52psgeolt7zoc5ie" size=medium]]
+</figure>
+
+1. ISOxo & Ninajirachi - SHYPOP
+2. leroy — it's up to YOU now!!
+3. Q-ic — Get Down Low
+4. pavvvvvvlo — Serbian Plotwist
+5. maniken05 — one shot
+6. maniken05 — nü high
+7. Sopik — Boryspil
+8. Eliminate MOREPWR
+9. Otira — Flying High
+10. DJ Sliink — Football Anthem (Jersey Club)
+11. DJ Daniels, DJ LK Da VB — CHUPA MEU PIRU FDP
+12. AnGy KoRe, Gabriel Padrevita — Quei Bravi Ragazzi
+13. leroy — BACK DOOR EXIT ---- IVE got a cr*sh on you
+14. Skeler — Arcadia (Heimanu Remix)
+15. Ayako Mori — So Cute!! - Schiere Remix
+16. Jean Terechkova — Opus 22
+17. ALRT — Pushin' On
+18. Sudoverse — In the City
+19. 3DMA — Around The World
+20. TRXGGX — BXG STEPPA [VIP]
+21. GRRL — Honeybee
+22. Zheani — BRING WET CUNT
+23. Funk Tribu — Phonky Tribu - DJ HEARTSTRING Remix
+24. PISAPIA (IT) — Hybrid Boom
+25. DATABASS — TORI NO UTA (DATABASS REWORK)
+26. XEDRA — oko
+27. pewtwo!, dj pewpewpew — supastylin
+28. No_4mat — 1992
 
 February 3, 2024 — re;set
 -------------------------
@@ -75,7 +117,7 @@ has my ~1.5 minute intro and text chat from the event attached.
 16. 이정현 - Wa (와)
 17. leroy - it's up to YOU now!!
 18. DJ Sliink - Football Anthem
-19. BACK DOOR EXIT - IVE got a cr*sh on you
+19. leroy — BACK DOOR EXIT ---- IVE got a cr*sh on you
 
 October 6, 2023 — Millennium Strike Prologue: 2023
 ------------------------------
