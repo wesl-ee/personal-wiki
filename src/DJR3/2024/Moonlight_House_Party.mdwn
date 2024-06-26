@@ -1,7 +1,7 @@
 [[!tag DJ_Set]]
 [[!meta title="Moonlight's House Party"]]
 
-[[Watch on YouTube](https://youtu.be/6vRzqsZkmDI) / [[!ipfs QmSRC8U3VUgcn61bKStb7gZF5prysGsvkwrrZEy9ULsxAr desc="Download from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/6vRzqsZkmDI) / [[!myipfs QmSRC8U3VUgcn61bKStb7gZF5prysGsvkwrrZEy9ULsxAr desc="Download from IPFS"]]]
 
 June 22, 2024
 

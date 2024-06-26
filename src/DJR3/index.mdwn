@@ -43,7 +43,7 @@ Here are all videos of the sets I have played which I have archived:
 June 22, 2024 — Moonlight's House Party
 -------------------------
 
-[[Watch on YouTube](https://youtu.be/6vRzqsZkmDI) / [[!ipfs QmSRC8U3VUgcn61bKStb7gZF5prysGsvkwrrZEy9ULsxAr desc="Download from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/6vRzqsZkmDI) / [[!myipfs QmSRC8U3VUgcn61bKStb7gZF5prysGsvkwrrZEy9ULsxAr desc="Download from IPFS"]]]
 
 Rare basement IRL back-to-back in an undisclosed location with a wicked
 audioreactive visual setup.
@@ -84,14 +84,14 @@ audioreactive visual setup.
 February 3, 2024 — re;set
 -------------------------
 
-[[Watch on YouTube](https://youtu.be/9OHSDTAppco) / [[!ipfs Qmde1FqLj4jQdnqYdaWuhBW4iTR62jKnGNxyHzGPQvhA1r desc="Download full version from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/9OHSDTAppco) / [[!myipfs Qmde1FqLj4jQdnqYdaWuhBW4iTR62jKnGNxyHzGPQvhA1r desc="Download full version from IPFS"]]]
 
 re;set was a URL event; it was the first time I rendered tryhard visuals
 alongside a set which took forever to actually plan and do, considering this was
 only a ~30 minute spot, but I'm proud of how they turned out despite how many
 times I cursed at Adobe Premiere.
 
-The [[!ipfs Qmde1FqLj4jQdnqYdaWuhBW4iTR62jKnGNxyHzGPQvhA1r desc="IPFS version"]]
+The [[!myipfs Qmde1FqLj4jQdnqYdaWuhBW4iTR62jKnGNxyHzGPQvhA1r desc="IPFS version"]]
 has my ~1.5 minute intro and text chat from the event attached.
 
 <figure>
@@ -122,7 +122,7 @@ has my ~1.5 minute intro and text chat from the event attached.
 October 6, 2023 — Millennium Strike Prologue: 2023
 ------------------------------
 
-[[Watch on YouTube](https://youtu.be/GahGCvpkXds) / [[!ipfs QmNRPnoyk4czfnmh36NoZ7NvZb8VUnPTVoNtkfmXmtF8bL desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/GahGCvpkXds) / [[!myipfs QmNRPnoyk4czfnmh36NoZ7NvZb8VUnPTVoNtkfmXmtF8bL desc="Download raw from IPFS"]]]
 
 Millennium Strike hosted two days packed full of DJs in Chicago this weekend in
 October, 2023. I was given the chance to play one alongside Bushmaster, with
@@ -156,7 +156,7 @@ because the venue was so hot after hours of dancing.
 August 29, 2023 — ASHPOCALYPSE
 ------------------------------
 
-[[Watch on YouTube](https://youtu.be/Aqwmoz66urQ) / [[!ipfs QmV7gDTmhLyfRn7Jpesff9fpebw7ZoQqbr24XHSwgoVcQe desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/Aqwmoz66urQ) / [[!myipfs QmV7gDTmhLyfRn7Jpesff9fpebw7ZoQqbr24XHSwgoVcQe desc="Download raw from IPFS"]]]
 
 VRChat AR/VR DJ set. I am performing in real-time in VRChat and also wrote the
 Unity plugin for the view you see on the video. My clothes are from Kingly Mask
@@ -187,7 +187,7 @@ in Harajuku, Tōkyō, which I acquired during [[this trip to Tōkyō in
 Apr 15, 2023 — HOWLAR.SPACE
 ---------------------------
 
-[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!ipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/w6aqSncIJ58) / [[!myipfs QmVRRuumXtY59HaPBJKBF4cyFH1EvjWy5RuTBU4jDfvJL7 desc="Download raw from IPFS"]]]
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreibxmvqwjl3ylecnp6tu74zpfutnj5jf7puegz3kq7f5nczmk6uf7a" size=medium]]
@@ -235,7 +235,7 @@ availability pending…)
 June 18, 2022 — MILLENNIUM STRIKE: E3 PRESS CONFERENCE — EP7
 ------------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [[!ipfs QmZoD2SJEk3fQHCx8Tj75xu7QwdRCUUkX2Ki6GK51Wty17 desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/HOxVTD_PzsQ) / [[!myipfs QmZoD2SJEk3fQHCx8Tj75xu7QwdRCUUkX2Ki6GK51Wty17 desc="Download raw from IPFS"]]]
 
 <figure>
 <video autoplay muted loop controls>
@@ -276,7 +276,7 @@ amp and a moderately large television, along with all the recording equipment.
 Mar 26, 2021 — EVA Online Presents: Synesthesia #009
 --------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/gEpmLXdssUA) / [[!ipfs QmbGBHPH2dj8Aa2DcAt9YTKuDP7ewL7hNt1vfdbtTToJ47 desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/gEpmLXdssUA) / [[!myipfs QmbGBHPH2dj8Aa2DcAt9YTKuDP7ewL7hNt1vfdbtTToJ47 desc="Download raw from IPFS"]]]
 
 <figure>
 <video autoplay muted loop controls>
@@ -343,7 +343,7 @@ which mostly played out on Twitch.
 Jan 8, 2021 — VRChat DJs United x EVA DIMENSIONAL COLLAPSE
 ----------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/i7vGk5dUW7c) / [[!ipfs QmbdhRkpqvqyCNToxzRbw1PTqommPDNxzbTt9SNkMW2PNj desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/i7vGk5dUW7c) / [[!myipfs QmbdhRkpqvqyCNToxzRbw1PTqommPDNxzbTt9SNkMW2PNj desc="Download raw from IPFS"]]]
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreidwbuexmdgf2rfnlbkqodz6iuxki6jlb555fgoxte466arfltv4im" size=medium]]
@@ -403,7 +403,7 @@ everyone's body language, that makes experiences like this very special to me.
 Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 -------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/H8093iYalM8) / [[!ipfs QmSmLbanrijWMhVVUQ676bBbi2e59QAPPG1xVzXg9W9V6D desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/H8093iYalM8) / [[!myipfs QmSmLbanrijWMhVVUQ676bBbi2e59QAPPG1xVzXg9W9V6D desc="Download raw from IPFS"]]]
 
 <figure>
 <video autoplay muted loop controls>
@@ -446,7 +446,7 @@ Dec 11, 2020 — Streamstage Dec.11.2020.GMod.VR.DJ
 Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 -----------------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/6U7CYY2QRrY) / [[!ipfs QmUuaKLuxxe6wYgAMjNv3Usqx4BLfo77UCAcVUyEh1gF4J desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/6U7CYY2QRrY) / [[!myipfs QmUuaKLuxxe6wYgAMjNv3Usqx4BLfo77UCAcVUyEh1gF4J desc="Download raw from IPFS"]]]
 
 <figure>
 <video autoplay muted loop controls>
@@ -510,7 +510,7 @@ Oct 24, 2020 — STREAMSTAGE Virtual-Reality Audiovisual Experience
 Jun 28, 2020 — EVA Online Presents: Synesthesia #002
 ----------------------------------------------------
 
-[[[!ipfs QmQEkL8PsfUTExKDrKkmTMaKomF5vRF6BDwzFqzDxH4XY7 desc="Download raw from IPFS"]]]
+[[[!myipfs QmQEkL8PsfUTExKDrKkmTMaKomF5vRF6BDwzFqzDxH4XY7 desc="Download raw from IPFS"]]]
 
 1. [Lobby] Rei Harakami - Pone
 2. S3RL & SynthWulf - Press Play Walk Away
@@ -537,7 +537,7 @@ Jun 28, 2020 — EVA Online Presents: Synesthesia #002
 Jun 6, 2020 — [Week 2] Club Howler Virtual Rave & TTT
 -----------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/xZ_q44V44h4) / [[!ipfs QmVswafWow6VsXTgLmSVymqepMHtmQ33dBSbMXkUuDgYBR desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/xZ_q44V44h4) / [[!myipfs QmVswafWow6VsXTgLmSVymqepMHtmQ33dBSbMXkUuDgYBR desc="Download raw from IPFS"]]]
 
 01. [Lobby] AAron EVO — Beverly Chills
 02. Perfume — Take off
@@ -574,7 +574,7 @@ Jun 6, 2020 — [Week 2] Club Howler Virtual Rave & TTT
 May 9, 2020 — End of Howler: One More Final: Thank You
 ------------------------------------------------------
 
-[[Watch on YouTube](https://youtu.be/GqAUwMvmwNI) / [[!ipfs QmcrPbY95u6HdwkgxWcR7LTggnQkPprUTPvWNPo8CrN45A desc="Download raw from IPFS"]]]
+[[Watch on YouTube](https://youtu.be/GqAUwMvmwNI) / [[!myipfs QmcrPbY95u6HdwkgxWcR7LTggnQkPprUTPvWNPo8CrN45A desc="Download raw from IPFS"]]]
 
 <figure>
 <img src="https://web.hooya.wesl.ee/cid-content/bafkreicubyk3krx2tq56lgjafpz6l7sh7y2dmlriy6fcg2rbm2xtruwth4"/>
@@ -681,7 +681,7 @@ Trouble in Terrorist Town on the same server until the website shut down.
 Jan 25, 2020 — NEUROTiC
 -----------------------
 
-[[[!ipfs QmZxptVSPaDKaKpC6Ws5N4pUsyworgCLxeYNE2T2M2vFhD desc="Download raw from IPFS"]]]
+[[[!myipfs QmZxptVSPaDKaKpC6Ws5N4pUsyworgCLxeYNE2T2M2vFhD desc="Download raw from IPFS"]]]
 
 <figure>
 <video autoplay muted loop controls>
@@ -716,7 +716,7 @@ six different DJs and over 20 different virtual stages!
 Jan 1, 2020 — DECENNIUM 202X: New Year's Eve Event
 --------------------------------------------------
 
-[[[!ipfs QmQZv6Tb4H5PMscwa6JCSZsaaAvhoLUmEfVjBVychXyyQ7 desc="Download raw from IPFS"]]]
+[[[!myipfs QmQZv6Tb4H5PMscwa6JCSZsaaAvhoLUmEfVjBVychXyyQ7 desc="Download raw from IPFS"]]]
 
 My setup involved three computers, five instances of `ffmpeg`, one
 webcamera, one webserver, and 40GiB of RAM! It's really amazing that all
@@ -887,7 +887,7 @@ list for that ZONE:
 Nov 23, 2019 — Subsystem 20XX
 -----------------------------
 
-[[[!ipfs QmPpD7uLEDK7z3DUGCKNSqoaFGK1vrFKQFriYTLo1pgunT desc="Download raw from IPFS"]]]
+[[[!myipfs QmPpD7uLEDK7z3DUGCKNSqoaFGK1vrFKQFriYTLo1pgunT desc="Download raw from IPFS"]]]
 
 This may be the most fun I've ever had putting together a show; we had decided
 that BUSHMASTER would open and DJR3 would go on right after; this was the second
@@ -985,7 +985,7 @@ neo-rave; here's my setlist (in order):
 Aug 17, 2019 — Howler Presents...
 ---------------------------------
 
-[[[!ipfs QmWosFFWVuTVTWFuoWvjXconj1E2KMszL8TxWBGcZ7Nkd3 desc="Download raw from IPFS"]]]
+[[[!myipfs QmWosFFWVuTVTWFuoWvjXconj1E2KMszL8TxWBGcZ7Nkd3 desc="Download raw from IPFS"]]]
 
 This was the first set I ever played and the first really big party we threw;
 serious home-grown house party vibes contained in this grainy video.
