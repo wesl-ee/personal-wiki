@@ -1,2 +1,1 @@
-+ [[Moonlight_House_Party]]
-+ [[re-set]]
+[[!inline  archive="yes" sort="age" atom="no" rss="no" pages="./2024/*"]]
