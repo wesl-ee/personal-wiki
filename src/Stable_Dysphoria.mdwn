@@ -1,4 +1,4 @@
-[[!tag Aesthetics]]
+[[!tag Aesthetics Diary]]
 
 Just for funsies sometimes I pipe pictures of myself into a locally available
 Stable Diffusion model. When I use the keyword `boy` in the img2img workflow in

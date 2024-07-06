@@ -1,6 +1,5 @@
 [[!meta title="Tōkyō 2023"]]
-
-[[!tag Japan]]
+[[!tag Japan Diary]]
 
 <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core@5.1.5/index.min.js"></script>
