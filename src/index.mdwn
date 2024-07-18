@@ -41,6 +41,6 @@ more about that topic.
 [[!pagestats show="Title" pages="Discover/*"]]
 
 All pages on this site are available in chronological order under the
-[[Meta/New_Posts]] page or in last-modified order at the [[Meta_Recent_Posts]]
+[[Meta/New_Posts]] page or in last-modified order at the [[Meta/Recent_Posts]]
 page.
 
