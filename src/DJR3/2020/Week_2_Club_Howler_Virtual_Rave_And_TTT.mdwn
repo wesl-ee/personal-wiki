@@ -7,7 +7,7 @@
 June 6, 2020
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreifbkzbkhugktf5ioccssnb2ws7fgvyij6qn272i2hjzmz2rz7bmcu" size=medium]]
+[[!template id="hooya-img.tmpl" cid="" size=medium]]
 </figure>
 
 01. [Lobby] AAron EVO — Beverly Chills
