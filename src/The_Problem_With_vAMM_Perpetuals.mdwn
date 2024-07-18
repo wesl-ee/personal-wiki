@@ -20,9 +20,14 @@ premium is large for (a) large trades and (b) low liquidity in the curve.
 
 AMMs are well-understood, and the constant-product curve above is just one of
 many different flavors of AMM curve. One of the coolest things I know about AMMs
-is that a [2012 Minecraft
-plugin](https://dev.bukkit.org/projects/hyperconomy/pages/information)
-was the first use of a constant-product curve for pricing an item.
+is that they were born from multiplayer games; the earliest example I found is
+from an MMO called A tale In The Desert
+[[1](https://web.archive.org/web/20090618112140/http://www.landoflyrics.com/thegoods/procedures.php)
+[2](https://www.reddit.com/r/ethereum/comments/54l32y/euler_the_simplest_exchange_and_currency/)]
+and a [2012 Minecraft
+plugin](https://dev.bukkit.org/projects/hyperconomy/pages/information). These
+types of AMMs directly inspired the first version of the Uniswap AMM, often
+refered to as DeFi's 0-to-1 innovation.
 
 What are Perpetual Futures?
 ---------------------------
