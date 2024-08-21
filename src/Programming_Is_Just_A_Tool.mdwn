@@ -1,0 +1,90 @@
+Programs do things. They are everywhere. There are so many programs that do so
+many things that there is a near-zero chance you've interacted with something
+that was not powered by an executable or runtime originally written in a
+human-readable programming language and then compiled, assembled, and linked
+six ways from Sunday in any given day.
+
+This is the way our audience, as programmers, interacts with the code we write.
+They expect the program to do the things they want, like turn down the
+thermostat, show notifications when you get messages, or tell them when the last
+train home is. They don't care about your code beyond that it works and does the
+things it is meant to do.
+
+This is a liberating perspective to approach programming from, because when a
+program is only meant to achieve a certain output, all a programmer needs to do
+is to write a program that produces the correct outputs for the given inputs.
+From this vantage, nobody here cares how the black box of the program does it,
+and neither should you. You, programmer, arbiter of code and computer whiz, just
+write the program for everyone else so that it works. When it doesn't work it's
+probably your fault; when it does work you are (thanklessly) the one who saved
+the day.
+
+It doesn't matter how your code works. It only matters that it _does_ work.
+
+---
+
+The first program I ever wrote was for the TI-84 calculator and was written with
+TI-BASIC. Like everyone learning Basic I made a simple text adventure game,
+featuring four rooms in the four cardinal directions. I mastered graphics
+programming on the 84 (don't ask) in high-school and soon after found TI-BASIC
+too limiting: the helicopter game I wrote based on that [one old flash
+game](https://www.otherstrangeness.com/2022/09/29/the-shrouded-origins-of-the-helicopter-game/)
+ran at a pathetic 1fps and I found the process of programming on this tiny
+screen and entering commands with the numpad very limiting and it was affecting
+my capacity to write code. I considered writing Z80 assembly on the computer and
+uploading over link but I heard that running malformed assembly could mess with
+your calculator and I was not willing to brick the only graphing calculator I
+had so I pivoted stance and decided to write code on the computer for the
+computer.
+
+Starting with Basic I rewrote many of my games for the 84 except in 1/10 the
+time. It was easy but I found, through this, that I didn't really understand how
+the computer worked. On top of this, BASIC felt inelegant and clunky; it was way
+too abstract from the essence of _what computing was_. Where did the BASIC code
+run? How did that translate to the actual hardware? I didn't know the answer to
+either.
+
+So I dove further. I learned C in the ample time high-school provides in the
+afternoon + evening, using K&R as my reference, guide, and connection with the
+past. I found C pleasant but too high-level to _really_ get what was happening,
+it still felt so far from _computing_ especiallly when provided with niceties
+like `stdlib.h`. I pushed further on into my esoteric descent, digging into x86
+assembly with `nasm` and the Intel syntax. I wrote cute programs that ran in
+Real mode on a computer, by directly `dd`'ing the binary onto the Mater Boot
+Record. I, 16, was a fan of Kubrick and unsurprisingly my favorite program was
+one I wrote that played the melody of [Daisy](https://youtu.be/41U78QP8nBk) over
+the PC speaker when you booted off the drive. I had a growing collection of
+vintage Thinkpads I snagged for between $5 and $10 from the Goodwill near me; I
+ran all these programs on floppies on those drives.
+
+---
+
+This adventure taught me a lot about _computing_ but, now, I largely view it as
+having been a waste of time. The world at-large passed me by while I stared into
+a terminal. I was not abreast of what other hackers were doing or knowledgable
+at any level about anything that was outside of the safe space of my
+intellectuality and curiosity. I was stuck, comfortably, in the past, because it
+was closest to the essence of _computing_.
+
+I put the intellectual pleasure of writing code above what the code actually
+did. I never published my programs because they were for me because they
+actually did nothing, though I still have `DAISY.ASM`. I glance at it every few
+years and remember, distantly, who I was.
+
+---
+
+The pursuit of clean code, purity, patterns, etc is a trap. I actively avoid it
+because, as explored above, I've fallen into this trap before.
+
+If it brings you joy to write clean code at all costs then please feel free to
+continue. I, in my case, do not do things that provide me no value, or things
+that promise only small future value. I abstract only as much as is required. I
+compromise and take shortcuts. I am not afraid to copy and paste. I have no
+morals or belief system. I have no spirituality or anything that gives my life
+meaning or structure. They ask me to shoot, I do it.
+
+Don't code carelessly, or without thinking: thinking before programming pays
+dividends in the denomination of bugs and complexities you need to address
+later. Still, remember that programming is a tool to make programs and nothing
+beyond this. `gcc` will flatten your clever recursion. Your program will be
+retired. It will all return to dust, ashes to ashes, letters on a dim screen.
