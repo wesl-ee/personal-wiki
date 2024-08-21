@@ -71,8 +71,6 @@ did. I never published my programs because they were for me because they
 actually did nothing, though I still have `DAISY.ASM`. I glance at it every few
 years and remember, distantly, who I was.
 
----
-
 The pursuit of clean code, purity, patterns, etc is a trap. I actively avoid it
 because, as explored above, I've fallen into this trap before.
 
