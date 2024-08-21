@@ -1,8 +1,8 @@
 Programs do things. They are everywhere. There are so many programs that do so
-many things that there is a near-zero chance you've interacted with something
-that was not powered by an executable or runtime originally written in a
-human-readable programming language and then compiled, assembled, and linked
-six ways from Sunday in any given day.
+many things that there is a near-zero chance you've not interacted with
+something that was powered by an executable or runtime originally written in a
+human-readable programming language and then compiled, assembled, and linked six
+ways from Sunday on any given day.
 
 This is the way our audience, as programmers, interacts with the code we write.
 They expect the program to do the things they want, like turn down the
@@ -47,7 +47,7 @@ either.
 So I dove further. I learned C in the ample time high-school provides in the
 afternoon + evening, using K&R as my reference, guide, and connection with the
 past. I found C pleasant but too high-level to _really_ get what was happening,
-it still felt so far from _computing_ especiallly when provided with niceties
+it still felt so far from _computing_ especially when provided with niceties
 like `stdlib.h`. I pushed further on into my esoteric descent, digging into x86
 assembly with `nasm` and the Intel syntax. I wrote cute programs that ran in
 Real mode on a computer, by directly `dd`'ing the binary onto the Mater Boot
@@ -82,7 +82,8 @@ morals or belief system. I have no spirituality or anything that gives my life
 meaning or structure. They ask me to shoot, I do it.
 
 Don't code carelessly, or without thinking: thinking before programming pays
-dividends in the denomination of bugs and complexities you need to address
-later. Still, remember that programming is a tool to make programs and nothing
-beyond this. `gcc` will flatten your clever recursion. Your program will be
-retired. It will all return to dust, ashes to ashes, letters on a dim screen.
+dividends in the denomination of reducing the number of bugs and complexities
+you need to address later. Still, remember that programming is a tool to make
+programs and nothing beyond this. `gcc` will flatten your clever recursion. Your
+program will be retired. It will all return to dust, ashes to ashes, letters on
+a dim screen.
