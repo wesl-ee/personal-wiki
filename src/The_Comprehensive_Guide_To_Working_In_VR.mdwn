@@ -1,0 +1,142 @@
+Recently I've done a fairly comprehensive overview of software for working in
+VR. My use-case is that I would like to perform my daily work at least partially
+within a headset, taking advantage of the virtual space to access more monitors
+than are at my desk, and to do so within a pleasant, relaxing environment. Maybe
+even be able to stand up, walk around, and lounge in a virtual space when done
+working, all from the comfort of my IRL room. I distilled this vision down to
+the following non-negotiable qualifications for my setup.
+
+- Lightweight HMD, to be able to use for hours without much fatigue
+- Virtual environment that supports many different, customizable “worlds”
+- Multi-monitor support
+
+I will skip all of my evaluation phase and simply tell you what setup has
+fulfilled these requirements for me. Presently (September 2024) I have worked in
+this space for about a week
+
+- HMD — Bigscreen Beyond
+- OS — Windows (necessarily)
+- Virtual Desktops — Desktop+
+- World / Environment — VRChat or Steam Home
+
+HMD / Hardware
+--------------
+
+I became interested in the Bigscreen Beyond when looking for a replacement for
+my Vive Pro 2. The Pro 2 weighs about 1.87 lbs (0.85 kg) and is quite heavy for
+a headset. It's a fine headset but I noticed significant fatigue after playing
+Skyrim VR within the first hour of playing the game. This is probably because
+the journey to High Hrothgar is long and there is not much to distract you while
+walking so my mind gradually disengaged with the world and I began to notice the
+heavy weight on my head increasingly often. The head strap on the Pro 2 does a
+lot to distribute this weight evenly over your head but still the HMD is quite
+heavy. Additionally the HMD is aging. I'm reminded of this when I put on newer
+headsets and am surprised by their clarity, especially the Quest 2 (still) and
+the Quest 3.
+
+Committing to the Beyond means embracing the SteamVR ecosystem, which I was
+luckily already in given that the Vive Pro 2 uses Valve's base stations. I also
+already used controllers the from the Index too because HTC's controllers
+suck, and because I wanted to flip people off in VR which you can only do
+(currently) with the Index controllers.
+
+Bootstrapping into this VR setup from zero (minus an adequate computer) these
+are the hardware components that compose my setup.
+
+| Item                               | Price (MSRP) (US) |
+| ---------------------------------- | ----------------- |
+| Valve Index Controllers (knuckles) | 279               |
+| Valve Index Base Stations 2.0 (x2) | 300               |
+| Bigscreen Beyond                   | 999               |
+| [VR Wire II](https://vr-wire.com/) | 60                |
+
+VR Wire II is very optional but I love how it keeps the cable up and away from
+my head. You can inspect my [[Workspace]] further to get a feel for my VR space
+and wiring setup.
+
+Also you only need one base station, but two works better so you don't lose
+tracking if facing away from the station. I assume you don't _only_ want to work
+in VR!
+
+OS
+---
+
+I thought my Beyond would work with Linux. Unfortunately for NVIDIA (ticker:
+NVDA) chads we have a driver problem. The wakeup signal is not sent to the
+headset display so while SteamVR works and the HMD is detected, the HMD is
+unusable because it's all black inside.
+
+This is the only time I've ever felt that I'd be better off with an AMD card
+because they already patched this, though you'll need to patch the kernel
+yourself (note: this information may be out of date by the time you read this.
+check [this](https://lvra.gitlab.io/docs/hardware/) table for Beyond support in
+Linux).
+
+In every other case the NVIDIA (ticker: NVDA) cards are just better. Even on
+Linux! It's 2024 bro if you're not talking to your locally hallucinated waifu
+whose soul is encoded in a 15.6 GiB file called
+wizard-vicuna-30B-uncensored.ggmlv3.q3_K_M.bin loaded to VRAM on your 3090
+you're not gonna make it, sorry I don't make the rules!
+
+Virtual Desktops
+----------------
+
+I did a _lot_ of searching for decent software I can use to actually work in VR.
+The choices I found relevant in 2024 for PCVR were:
+
+- [XSOverlay](https://store.steampowered.com/app/1173510/XSOverlay/) / OVR Toolkit
+- [Bigscreen Beta](https://store.steampowered.com/app/457550/Bigscreen_Beta/)
+- [Virtual Desktop (Classic)](https://store.steampowered.com/app/382110/Virtual_Desktop_Classic/)
+- [Desktop+](https://store.steampowered.com/app/1494460/Desktop/)
+
+Virtual Desktop Classic multi-monitor support is jank and I don't think
+Bigscreen Beta does multi-monitor well. Both of these are great for
+single-monitor applications, like watching anime, movies, videos etc. Bigscreen
+Beta allows you to watch these things with friends as well so that's really
+cool. I love that the screens in both these applications are applied to model
+textures in the virtual world, so you can actually work from a desk with your
+monitor view on it or watch movies on a big theater screen. Unfortunately both
+of these are limited to just one desktop and I was informed that Virtual Desktop
+for PCVR is not getting new features (hence, Classic), just fixes. They are
+focused on the standalone version evidently.
+
+XSOverlay and OVR Toolkit let you arrange windows and desktops around yourself
+in VR. Both these softwares are separate apps that are started from the Steam
+menu but these windows stay around you no matter what game or environment you
+work from in VR. The windows are not applied to in-world textures as they can be
+in Virtual Desktop Classic or Bigscreen Beta, but this does have multi-monitor /
+multi-window support. Streamers use XSOverlay to pin their Twitch chat to their
+wrist, this is an example of what can be done with it.
+
+Unfortunately I found the lag of XSOverlay desktop capture to be very
+distracting. It felt like the overlay refresh was 10 FPS and it made everything
+very choppy and unbearable to work in.
+
+Desktop+, while not being a virtual world itself, checked all the boxes I needed
+to use my desktops in VR. Like XSOverlay I'm able to arrange windows around
+myself in any game. It works by adding a new “desktop” to the SteamVR UI that
+you can view using Steam VR's toolbar, and it adds a new toolbar below that you
+can use to add new windows. Even though it's only accessible from the SteamVR UI
+toolbar thing you can actually pin windows or desktops to your playspace so they
+are visible even when the SteamVR menu is closed. I prefer just showing my
+desktops when the SteamVR menu is open though.
+
+Desktop+ works beautifully. The downside is that it does not work on Linux
+because the capture API Proton exposes is not implemented at all, at least
+according to a [post from the
+dev](https://steamcommunity.com/app/1494460/discussions/1/3807281795242785969/)
+from 2023. WixOverlay seems promising at least, I will try it when the Beyond
+becomes usable on Linux.
+
+World / Environment
+-------------------
+
+There are a number of peaceful VRChat worlds to work from but recently I've been
+foregoing VRChat in favor of simply working from the SteamVR dashboard, but when
+I do find more worlds I enjoy working in I will update the list below.
+
+I work in invite-only instances but it could be very fun to work in a social
+environment during the day too. Sitting in VRChat without full-body tracking
+looks weird though so I'd like to wear my trackers too, and those don't have
+great vision of the base stations at my desk. Maybe I could build a VR-only desk
+with just a mouse and keyboard...
