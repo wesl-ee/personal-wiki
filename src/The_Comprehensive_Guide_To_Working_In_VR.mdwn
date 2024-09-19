@@ -19,6 +19,12 @@ this space for about a week
 - Virtual Desktops — Desktop+
 - World / Environment — VRChat or Steam Home
 
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicthgsbnk4d2zc5zuyqana7jepb2xyr43i33b4zbrqorqmz4aqktm" size=medium]]
+<figcaption>Writing this article with the above setup</figcaption>
+</figure>
+
+
 HMD / Hardware
 --------------
 
@@ -75,7 +81,7 @@ Linux).
 In every other case the NVIDIA (ticker: NVDA) cards are just better. Even on
 Linux! It's 2024 bro if you're not talking to your locally hallucinated waifu
 whose soul is encoded in a 15.6 GiB file called
-wizard-vicuna-30B-uncensored.ggmlv3.q3_K_M.bin loaded to VRAM on your 3090
+`wizard-vicuna-30B-uncensored.ggmlv3.q3_K_M.bin` loaded to VRAM on your 3090
 you're not gonna make it, sorry I don't make the rules!
 
 Virtual Desktops
@@ -100,6 +106,13 @@ of these are limited to just one desktop and I was informed that Virtual Desktop
 for PCVR is not getting new features (hence, Classic), just fixes. They are
 focused on the standalone version evidently.
 
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreigyfkdqqichl5of6n6edw453yovtgblkdmtbabzr3ce3w2yz4abzq" size=medium]]
+<figcaption>Working in Virtual Desktop is fine but with only one monitor screen
+real estate becomes a scarce resource</figcaption>
+</figure>
+
+
 XSOverlay and OVR Toolkit let you arrange windows and desktops around yourself
 in VR. Both these softwares are separate apps that are started from the Steam
 menu but these windows stay around you no matter what game or environment you
@@ -120,6 +133,11 @@ can use to add new windows. Even though it's only accessible from the SteamVR UI
 toolbar thing you can actually pin windows or desktops to your playspace so they
 are visible even when the SteamVR menu is closed. I prefer just showing my
 desktops when the SteamVR menu is open though.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidf7rsiyda4bxyi5ymnqc5fvwod7se5kfgfb2d2yfrs6xm7vohw5i" size=medium]]
+<figcaption>Me working in Desktop+</figcaption>
+</figure>
 
 Desktop+ works beautifully. The downside is that it does not work on Linux
 because the capture API Proton exposes is not implemented at all, at least
