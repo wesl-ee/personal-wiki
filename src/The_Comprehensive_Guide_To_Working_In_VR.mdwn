@@ -1,3 +1,5 @@
+[[!tag Virtual_Reality Productivity]]
+
 Recently I've done a fairly comprehensive overview of software for working in
 VR. My use-case is that I would like to perform my daily work at least partially
 within a headset, taking advantage of the virtual space to access more monitors
