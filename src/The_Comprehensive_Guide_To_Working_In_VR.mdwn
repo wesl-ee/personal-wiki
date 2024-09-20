@@ -40,6 +40,19 @@ heavy. Additionally the HMD is aging. I'm reminded of this when I put on newer
 headsets and am surprised by their clarity, especially the Quest 2 (still) and
 the Quest 3.
 
+In contrast, the Beyond weighs 127 grams and looks amazing. There is a narrow
+sweet spot and blur around the edges which is something to get used to, but
+after using this for a full week I do not notice these things anymore, I simply
+move my head around more to look at things than I use my eyes to glance to my
+peripheral. I think this glancing behavior is a holdover from my Pro 2 which
+commanded much more inertia when moving my head. With the Beyond I barely notice
+it on my face.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreichex6xzwfsys3u4dz5qqrarzkptt7oqwrtnazd77ifqlp7wjfe5e" size=medium]]
+<figcaption>Me interfacing with the computer through the Beyond</figcaption>
+</figure>
+
 Committing to the Beyond means embracing the SteamVR ecosystem, which I was
 luckily already in given that the Vive Pro 2 uses Valve's base stations. I also
 already used controllers the from the Index too because HTC's controllers
