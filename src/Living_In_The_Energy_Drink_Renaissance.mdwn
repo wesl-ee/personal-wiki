@@ -1,0 +1,194 @@
+Between time of the release of Red Bull in the US in 1996 and the formation of
+Rockstar in 2001 and Monster Energy in 2002, the US thirst for energy drinks
+went from nonexistent to red hot.
+
+Pushed further by insane bids on behalf of Monster Energy and Red Bull, energy
+drinks forced their way into the US public consciousness around this time. Red
+Bull heavily sponsored Sauber Motorsport AG in F1 races from 1995 until 2005
+when it purchased _it's own F1 team_, formerly Jaguar Racing, from Ford. Monster
+Energy pushed its _rockstar_ image by handing out cans at rock concerts, and it
+became a sponsor of Vans Warped Tour in 2003 [^1]. Rip-It secured a contract with
+the US Department of Defense in 2004 to provide energy drinks in 8oz cans to US
+troops in Afghanistan and Iraq.
+
+Monster, Red Bull and Rockstar formed the triumvirate of top 3 energy drinks by
+sales volume by 2007. Here is a snapshot of the market that year, by brand.
+
+### 2007 Energy Drink Brands By Market Share [^2]
+
+| Brand                 | Dollar Sales    | % Change vs. Prior Year | Market Share | % Change vs. Prior Year |
+|-----------------------|-----------------|-------------------------|--------------|-------------------------|
+| Red Bull              | $301,757,200    | 19.3%                   | 41.5         | -5.7%                   |
+| Monster Energy        | $111,701,900    | 70.8%                   | 15.4         | 3.2%                    |
+| Rockstar              | $85,969,880     | 52.6%                   | 11.8         | 1.3%                    |
+| Full Throttle         | $47,512,540     | 43.8%                   | 6.5          | 0.4%                    |
+| Sobe No Fear          | $35,579,070     | 33.7%                   | 4.9          | 0.1%                    |
+| Amp                   | $26,260,140     | 18.7%                   | 3.6          | -0.5%                   |
+| Sobe Adrenaline Rush  | $17,735,360     | 17.4%                   | 2.4          | -1.6%                   |
+| Tab Energy            | $14,626,450     | 212.5%                  | 2.0          | 11%                     |
+| Powerade              | $10,719,600     | 117.6%                  | 1.5          | 0.6%                    |
+| Monster Energy XXL    | $8,033,378      | 230.8%                  | 1.1          | 0.7%                    |
+| **Category Total**    | **$727,391,000**| **35.8%**               | **100.0**    | **N/A**                 |
+
+I argue that, following this period of massive revenue + explosive growth, the
+decade from 2011 to 2021 was a dark-age for energy drinks, due to the natural
+contraction and concentration of the market and to these special two factors.
+
+Factor One: Four Loko
+---------------------
+
+In 2010 we see the reformulation of Four Loko, a caffeinated, canned, alcoholic
+malt beverage packaged between 6% and 14% ABV, sold by Phusion Projects. I'd
+argue that the public hysteria around caffeine plus alcohol, and consequent FDA
+warnings issued to Phusion Projects and other caffeinated malt producers,
+spooked the market as more Americans became aware of the dangers of not just
+mixing caffeine and alcohol, but of caffeine ingested on its own. Outlets state
+that the inclusion of caffeine makes consumers feel "wide-awake drunk" and makes
+them act out of character. This gives Four Loko a cult-like status. Many
+publicized incidents from late-2010 involve people drinking more than one can of
+Four Loko. If these were just normal 6% to 14% ABV malts this event would not be
+newsworthy but the hysteria surrounding the "alcohol plus caffeine death
+cocktail" I believe tainted the perception of caffeinated, carbonated energy
+drinks, as many outlets state it was the caffeine that made people do stupid
+stuff, not the amount of alcohol and often the mixing of Four Loko with other
+(non-malt) liquors.
+
+There were a few producers of caffeinated malts in the US at the time. In the
+Four Loko case, as the result of several widely publicized incidents, injuries
+and probably 1 death, Four Loko was banned across many college campuses and at
+the state level in some cases, with the hysteria peaking in October and November 2010.
+In November 2010 the FDA publicly warned the producers of caffeinated
+alcoholic beverages, Phusion Projects included, that caffeine may be an unsafe
+food additive in their products; Four-Loko was reformulated to remove the
+caffeine in December of the same year in compliance with this FDA guidance.
+
+Factor Two: Michelle Obama
+--------------------------
+
+Another factor which hurt energy drink sales during this time was the begin of
+the acceleration of the decline of per-capita sugary drink consumption. From
+2007 to 2008 US sugary drink consumptuion fell 1.8% and continued to fall as
+childhood obesity became a defining issue of this time in the US, highlighted
+and bookended by Michelle Obama's Let's Move program in 2010. Energy drinks,
+which had few sugar-free formulas at this time, suffered as a result of the
+downturn in US public perception.
+
+---
+
+The industry entered into an intermission where new introductions into the
+category slumped, brands were pulled from shelves and power was centralized in
+larger market participants. Here is a list of companies that sold the bottom:
+
+- Coca-Cola, who bought NOS in 2007 from Fuze, sold the brand to Monster Energy in
+2015
+- Coca-Cola also dumped the Powerade Energy brand in 2013
+- SoBe No Fear / Adrenaline Rush distribution was scaled back heavily in the US
+  market
+    - As of 2024 a company in Guatamala produces Adrenaline Rush, without the
+      SoBe branding, under just the name "Adrenaline Rush" with the subtext
+      "bebida energizente"
+- Mtn Dew experiments with Game Fuel and removes the Mountain Dew logo from Amp
+  cans entirely
+    - In 2018 Mtn Dew pulled a 180 and un-rebranded it back to "Mountain Dew Amp" again
+
+Shareholder presentations from this time confirm that, in addition to the
+concerns about sugar content, companies are aware that consumers living in
+what I propose as the post-caffeinated Four Loko society are more aware of the
+risks of caffeine on health [^3].
+
+In the background of the 10 years from 2011 〜 2021, something was brewing. I
+believe the market saw the trends of sugary drink consumption and realized that
+dumping high-fructose corn syrup into an energy drink was not sustainable if the
+trend continued (and it has). Although there were a few zero- or low-sugar
+energy drinks available, the field was still budding in these years. The first
+sign of life we see is a product from Monster called:
+
+| Item | Launch Date |
+|------|-------------|
+| Monster Energy Zero Ultra | Q3 2012 |
+
+The Monster Zero Ultra (white can) launched in Q3 2012 without much fanfare from
+the company. Immediately after hitting shelves though the drink becomes an
+instant success. By 2014 the barely 2 year-old line is Monster's #2 sub brand
+and Zero Ultra in particular is Monster's #2 SKU [^4]. Prior to Zero Ultra the
+only entries in Monster's low / zero sugar category were Monster Lo-Carb and
+Monster Absolutely Zero, which saw limited success but failed to hit the mark as
+well as Zero Ultra did.
+
+Monster scales up the Ultra line quickly, trying to capture more of the market
+that Ultra Zero tapped in to before anyone else can.
+
+With the sugar concern mostly solved through zero-sugar offerings, the only
+problem now was looming public concern about caffeine, and a lack of clear FDA
+guidance about safe and healthy caffeine dosing by age.
+
+In 2014, 2 cases of death by overdosing caffeine anhydrous are recorded and
+further stoke public fear of caffeine. Another death in 2017 (not anhydrous)
+causes the FDA to look more closely into the issue.
+
+Then, in April 2018 the FDA issues guidance about caffeine, effectively limiting
+the sale of anhydrous caffeine, and around the same time began prescribing
+adults with no special heart conditions to stay below 400mg of caffeine / day
+[^5].
+
+This guidance, I believe, was the final domino that let the energy drink market
+flourish again. It took a wave of newcomers to the space, mostly from the
+athletic supplements (preworkout) fields, to reenergize the old guard, but now
+in 2024 we enjoy the consequences of those actions as the benefactors of the
+current energy drink renaissance.
+
+Amid the growing hype, the old triumvirate of Rockstar, Monster Energy and
+Rockstar became 2 when Pespi acquired Rockstar for 3.85 billion USD in cash on
+in April 2020 [^6].
+
+### 2024 Energy Drink Brands By Market Share [^7]
+
+| Brand | Market Share (including energy shots) |
+|-------|---------------------------------------|
+| Red Bull | 34.6 |
+| Monster Energy | 30.6 |
+| Celsius | 8.5 |
+| C4 | 3.7 |
+| Five Hour Energy | 3.3 |
+| Rockstar | 3 |
+| Ghost | 3 |
+| Bang | 1.6 |
+| Reign | 3.1 |
+| NOS | 2.6 |
+| Full Throttle | 0.7 |
+
+It's worth noting that more energy drink brands emerged from the world of
+preworkout supplements than during the 2000s boom. Ghost, C4 and some incumbents
+not on this list like Bucked Up, Lit and Alani Nu were preworkout powders before
+or around the same time that they were reformulated and sold in cans.
+
+And speaking of products not on the above market share list, honorable mentions
+here are 3D Energy and Prime Energy, both of which are owned alongside Alani Nu
+by Congo Brands, a company that seems as much a digital marketing machine as an
+energy drink distributor.
+
+| Item | Launch Date |
+| Reign | March 2019 |
+| Ghost Energy | 2021 |
+| Prime Energy | January 2023 |
+| Monser Zero Sugar | January 2023 |
+| Nos Zero Sugar | 2023 |
+
+Dan Lourenco, the founder of Ghost described the current energy drink market as
+being "on fire" [^8]. I couldn't agree more.
+
+[^1] Information Resources Inc., Total food, drug, and mass merchandise (excluding Wal-Mart) for the 52 weeks ending May 20, 2007.
+
+[^2] [Hansen Natural Corporation March 2006 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000086575206000101/e991.htm)
+
+[^3] [Monster Beverage Corporation December 11 2012 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465912083284/a12-29092_1ex99d1.htm)
+
+[^4] [Monster Beverage Corporation January 7 2014 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465914000830/a14-1249_1ex99d1.htm)
+
+[^5] [FDA–2018–D–1189](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-highly-concentrated-caffeine-dietary-supplements)
+
+[^6] [PepsiCo, Inc. Form 10-K Annual Report For the Fiscal Year Ended December 26, 2020](https://www.sec.gov/Archives/edgar/data/77476/000007747621000007/pep-20201226.htm), Note 14
+
+[^7] Monster Beverage Corporation (NASDAQ:MNST) Q1 2024 Earnings Conference Call, May 2, 2024
+
+[^8] [How Ghost Energy Found Success Through Transparency](https://www.bevindustry.com/articles/95710-how-ghost-energy-found-success-through-transparency), BevIndustry
