@@ -33,6 +33,7 @@ section#content table {
 	border: 1px solid;
 	margin: auto;
     empty-cells: hide;
+    text-align: left;
 }
 
 section#content table.no-border {
@@ -242,7 +243,7 @@ ul .twitter:before {
 	padding: 0 1ch;
 }
 
-footer nav {
+footer nav , .footnotes {
 	margin: 1rem 0;
 }
 
@@ -423,4 +424,11 @@ ins {
   left: 0;
   font-size: 24px;
   line-height: 30px;
+}
+
+.footnote::before {
+    content: " [";
+}
+.footnote::after {
+    content: "]";
 }
