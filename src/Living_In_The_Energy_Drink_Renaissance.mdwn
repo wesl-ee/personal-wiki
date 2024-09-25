@@ -1,5 +1,5 @@
-Between time of the release of Red Bull in the US in 1996 and the formation of
-Rockstar in 2001 and Monster Energy in 2002, the US thirst for energy drinks
+Between the time of the release of Red Bull in the US in 1996 and the formation
+of Rockstar in 2001 and Monster Energy in 2002, the US thirst for energy drinks
 went from nonexistent to red hot.
 
 Pushed further by insane bids on behalf of Monster Energy and Red Bull, energy
@@ -15,7 +15,7 @@ Monster, Red Bull and Rockstar formed the triumvirate of top 3 energy drinks by
 sales volume by 2007. Here is a snapshot of the market that year, by brand.
 
 <table>
-  <caption>2007 Energy Drink Brands By Market Share[^2]</caption>
+  <caption>2007 Energy Drink Brands By Market Share[^1]</caption>
   <tr>
     <th>Brand</th>
     <th>Dollar Sales</th>
@@ -102,33 +102,39 @@ sales volume by 2007. Here is a snapshot of the market that year, by brand.
   </tr>
 </table>
 
-I argue that, following this period of massive revenue + explosive growth, the
-decade from 2011 to 2021 was a dark-age for energy drinks, due to the natural
-contraction and concentration of the market and to these special two factors.
+The energy drink market from ~2000 through 2007 was a time of innovation,
+experimentation, failure and success in the energy drink indusry. Virtually
+every company was a newcomer and household names were only being formed by the
+mid 00s.
+
+I argue that, in contrast, following this period of massive revenue + explosive
+growth, the decade from 2011 to 2021 was a dark-age for energy drinks, due to
+the natural contraction and concentration of the market and to these special two
+factors.
 
 Factor One — Four Loko
 ----------------------
 
 In 2010 we see the reformulation of Four Loko, a caffeinated, canned, alcoholic
-malt beverage packaged between 6% and 14% ABV, sold by Phusion Projects. I'd
-argue that the public hysteria around caffeine plus alcohol, and consequent FDA
+malt beverage packaged between 6% and 14% ABV, sold by Phusion Projects. I argue
+that the public hysteria around caffeine plus alcohol, and consequent FDA
 warnings issued to Phusion Projects and other caffeinated malt producers,
 spooked the market as more Americans became aware of the dangers of not just
 mixing caffeine and alcohol, but of caffeine ingested on its own. Outlets state
-that the inclusion of caffeine makes consumers feel “wide-awake drunk” and makes
-them act out of character. This gives Four Loko a cult-like status. Many
-publicized incidents from late-2010 involve people drinking more than one can of
-Four Loko. If these were just normal 6% to 14% ABV malts this event would not be
-newsworthy but the hysteria surrounding the “alcohol plus caffeine death
-cocktail” I believe tainted the perception of caffeinated, carbonated energy
-drinks, as many outlets state it was the caffeine that made people do stupid
-stuff, not the amount of alcohol and often the mixing of Four Loko with other
-(non-malt) liquors. This is when I should mention that each 23.5 oz can has
-156mg of caffeine, about 50% more than the 8.2oz redbull can at the time, and
-about as much alcohol as a 1.5oz shot of 80 proof liquor. Consider it a
-near-strictly worse vodka redbull in every single regard *except* for the fact
-it can be sold almost anywhere instead of requiring a liquor license.
-
+that the inclusion of caffeine in Four Loko makes consumers feel “wide-awake
+drunk” and causes them act out of character. This gave Four Loko a cult-like
+status. Many publicized incidents from late-2010 involved people drinking more
+than one can of Four Loko. If these were just normal 6% to 14% ABV malts this
+event would not be newsworthy but the hysteria surrounding the “alcohol plus
+caffeine death cocktail” I believe tainted the perception of caffeinated,
+carbonated energy drinks, as many outlets stated at the time it was the caffeine
+that made people do stupid stuff, not the amount of alcohol, nor the often
+mixing of Four Loko with other (non-malt) liquors. This is when I should mention
+that each 23.5 oz can has 156mg of caffeine, about 50% more than the 8.2oz
+redbull can at the time, and at 12% ABV about as much alcohol as 4x 1.5oz shots
+of 80 proof liquor. 23.5oz is a significant amount of liquid, mind you. Consider
+it a near-strictly worse vodka redbull in every single regard *except* for the
+fact it can be sold almost anywhere instead of requiring a liquor license.
 
 There were a few producers of caffeinated malts in the US at the time. In the
 Four Loko case, as the result of several widely publicized incidents, injuries
@@ -142,11 +148,12 @@ caffeine in December of the same year in compliance with this FDA guidance.
 Factor Two — Michelle Obama
 ---------------------------
 
-Another factor which hurt energy drink sales during this time was the begin of
-the acceleration of the decline of per-capita sugary drink consumption. From
-2007 to 2008 US sugary drink consumptuion fell 1.8% and continued to fall as
-childhood obesity became a defining issue of this time in the US, highlighted
-and bookended by Michelle Obama's *Let's Move* program in 2010.
+Another factor which hurt energy drink sales during this time was the beginning
+of the acceleration of the decline of per-capita sugary drink consumption in the
+US. From 2007 to 2008 US sugary drink consumptuion fell 1.8% and continued to
+fall as childhood obesity became a defining issue of this time in the US. This
+sentiment was highlighted and bookended by Michelle Obama's *Let's Move* program
+in 2010.
 
 Energy drinks, which had few sugar-free formulas at this time, suffered as a
 result of the downturn in US public perception.
@@ -154,10 +161,10 @@ result of the downturn in US public perception.
 ---
 
 These two factors contributed to a slowdown, causing the environment that bore
-so many distinct energy drinks, brands and companies entered an intermission.
+so many distinct energy drinks, brands and companies to enter into a brief lull.
 New introductions into the energy drink category slumped, brands were pulled
-from shelves and power was centralized in larger market participants. Here is a
-list of companies that sold the bottom:
+from shelves and power was centralized in larger market participants by
+acquisition. Here is a list of companies that sold the bottom:
 
 - Coca-Cola, who bought NOS in 2007 from Fuze, sold the brand to Monster Energy in
 2015
@@ -173,22 +180,23 @@ list of companies that sold the bottom:
 
 Shareholder presentations from this time confirm that, in addition to
 acknowledging concerns about sugar content, companies were also aware that
-consumers living in (what I propose as) a post-caffeinated Four Loko society are
-more aware of the risks of caffeine on health.
+consumers living in (what I propose as) a post-caffeinated Four Loko society
+were more aware of the risks of caffeine on health, as below:
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreicb6ytwfh3a7pfnyfr67v4yjgubyqafeyfnibqmfgfxb34gueotbi" size=medium]]
 <figcaption>An odd slide a from Monster Beverage Corporation presentation to
-shareholders from December 11, 2012[^3] mentioning the “current frenzy of
+shareholders from December 11, 2012[^2] mentioning the “current frenzy of
 directed attacks against energy drinks”</figcaption>
 </figure>
 
 In the background of the 10 years from 2011 〜 2021, something was brewing. I
 believe the market saw the trends of sugary drink consumption and realized that
 dumping high-fructose corn syrup into an energy drink was not sustainable if the
-trend continued (and it has). Although there were a few zero- or low-sugar
-energy drinks available, the field was still budding in these years. The first
-sign of life we see is a product from Monster called:
+sugary drink trend continued (and it has). Although there were a few zero- or
+low-sugar energy drinks available, the field was still budding in these years
+and these products had little traction. The first sign of life we see is a
+product from Monster called:
 
 | Item | Launch Date |
 |------|-------------|
@@ -197,8 +205,8 @@ sign of life we see is a product from Monster called:
 The Monster Zero Ultra (white can) launched in Q3 2012 without much fanfare from
 the company. Immediately after hitting shelves though the drink becomes an
 instant success. By 2014 the barely 2 year-old line is Monster's #2 sub brand
-and Zero Ultra in particular is Monster's #2 SKU.[^4] Prior to Zero Ultra the
-only entries in Monster's low / zero sugar category were Monster Lo-Carb and
+and Zero Ultra in particular is Monster's #2 SKU.[^3] Prior to Zero Ultra the
+only entries in Monster's low- / zero- sugar category were Monster Lo-Carb and
 Monster Absolutely Zero, which saw limited success but failed to hit the mark as
 well as Zero Ultra did.
 
@@ -209,32 +217,32 @@ well as Zero Ultra did.
 Monster scales up the Ultra line quickly, trying to capture more of the market
 that Ultra Zero tapped in to before anyone else can.
 
-With the sugar concern mostly solved through zero-sugar offerings sweetened
-artificially, and having clear product-market fit, the only problem now was
-looming public concern about caffeine, and a lack of clear FDA guidance about
-safe and healthy caffeine dosing by age.
+With the sugar concern mostly solved through zero-sugar offerings that are
+sweetened artificially, and having clear product-market fit, the only problem
+now was looming public concern about caffeine, and a lack of clear FDA guidance
+about safe and healthy caffeine dosing by age.
 
 In 2014, 2 cases of death by overdosing caffeine anhydrous are recorded and
 further stoke public fear of caffeine. Another death in 2017 (not anhydrous)
 causes the FDA to look more closely into the issue.
 
 Then, in April 2018 the FDA issues guidance about caffeine, effectively limiting
-the sale of anhydrous caffeine, and around the same time began prescribing
+the sale of anhydrous caffeine, and around the same time began recommending
 adults with no special heart conditions to stay below 400mg of caffeine /
-day.[^5] This guidance, I believe, was the final domino that let the energy
-drink market flourish again. It brought a wave of newcomers to the space, mostly
-from the athletic supplements (preworkout) fields. This reenergized the old
-guard and has brought the flourishing energy drink renaissance that we exist in
-now. Well, at least the one that I exist in now. If you're reading this way
-in the future maybe they've regulated this beautiful space out of existence. For
-shame!
+day.[^4] This guidance, I believe, was the final domino. After this guidance was
+released I believe the energy drink market felt a clear enough path forward to
+flourish again. Newcomers flooded the space in the years soon after, mostly from
+the athletic supplements (preworkout) fields. This reenergized the old guard and
+brought the flourishing energy drink renaissance that we exist in now. Well, at
+least the one that I exist in now. If you're reading this way in the future
+maybe they've regulated this beautiful space out of existence. For shame!
 
 Amid the growing hype, and as more newcomers entered the market, the old
 triumvirate of Rockstar, Monster Energy and Rockstar became 2 when Pespi
-acquired Rockstar for 3.85 billion USD in cash on in April 2020.[^6]
+acquired Rockstar for 3.85 billion USD in cash on in April 2020.[^5]
 
 <table>
-  <caption>Q4 2023 Energy Drink Brands By Market Share[^7]</caption>
+  <caption>Q4 2023 Energy Drink Brands By Market Share[^6]</caption>
   <thead>
     <tr>
       <th>Brand</th>
@@ -418,11 +426,13 @@ not on this list like Bucked Up, Lit and Alani Nu were preworkout powders before
 or around the same time that they were reformulated and sold in cans.
 
 This table is ripped from a Monster shareholder report so it doesn't break out
-the relation of other brands, but many of these are owned by parent companies.
-For instance, Prime Energy and Alani Nu are owned alongside 3D Energy by Congo
-Brands, a company that seems as much a digital marketing machine as an energy
-drink distributor. Bucked Up, which doesn't make this list beyond `ALL OTHER` is
-a notable independent company too that began in the preworkout space.
+the relation of other brands, but many of these are owned by common parent
+companies. For instance, Prime Energy and Alani Nu are owned alongside 3D Energy
+by Congo Brands, a company that seems as much a digital marketing machine as an
+energy drink distributor. Bucked Up, which doesn't make this list beyond `ALL
+OTHER` is a notable independent company that began in the preworkout space. Bang
+is presently a brand of Monster Energy after being sued out of existence by
+Monster itself.
 
 Many energy drinks, like Bucked Up and C4, tease the FDA's 400mg per day
 suggestion. These drinks, mostly with a past (and present) as preworkout
@@ -442,8 +452,6 @@ marketing towards children, even if not intended, does raise some concern
 despite Prime's amazing virality as the 400mg number is the FDA guideline for
 those over 18.
 
----
-
 Personally regardless of caffeine content I will try every one that I find (I
 have a risk-taking personality). I will fill out some reviews here soon on ones
 that I have ready access to, as I've become an encyclopedia on this knowledge
@@ -454,7 +462,7 @@ never get to try, from 2008 to
 2012. Thank you, XAQuiri Daiquiri, your writing is inspirational.
 
 Dan Lourenco, the founder of Ghost described the current energy drink market as
-being “on fire”[^8]. I couldn't agree more. Here is a list of company and brand
+being “on fire”[^7]. I couldn't agree more. Here is a list of company and brand
 launches that I noticed in my day-to-day which I cross-referenced with publicly
 available information to determine a launch date as accurate as possible.
 
@@ -470,19 +478,16 @@ available information to determine a launch date as accurate as possible.
 | Monster Zero Sugar | January 2023 |
 | Nos Zero Sugar | 2023 |
 
-[^2]: Information Resources Inc., Total food, drug, and mass merchandise (excluding Wal-Mart) for the 52 weeks ending May 20, 2007.
+[^1]: Information Resources Inc., Total food, drug, and mass merchandise (excluding Wal-Mart) for the 52 weeks ending May 20, 2007.
 
-[^3]: [Monster Beverage Corporation December 11 2012 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465912083284/a12-29092_1ex99d1.htm)
+[^2]: [Monster Beverage Corporation December 11 2012 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465912083284/a12-29092_1ex99d1.htm)
 
-[^4]: [Monster Beverage Corporation January 7 2014 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465914000830/a14-1249_1ex99d1.htm)
+[^3]: [Monster Beverage Corporation January 7 2014 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465914000830/a14-1249_1ex99d1.htm)
 
-[^5]: [FDA–2018–D–1189](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-highly-concentrated-caffeine-dietary-supplements)
+[^4]: [FDA–2018–D–1189](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-highly-concentrated-caffeine-dietary-supplements)
 
-[^6]: [PepsiCo, Inc. Form 10-K Annual Report For the Fiscal Year Ended December 26, 2020](https://www.sec.gov/Archives/edgar/data/77476/000007747621000007/pep-20201226.htm), Note 14
+[^5]: [PepsiCo, Inc. Form 10-K Annual Report For the Fiscal Year Ended December 26, 2020](https://www.sec.gov/Archives/edgar/data/77476/000007747621000007/pep-20201226.htm), Note 14
 
-[^7]: Nielsen Total US xAOX + Conv 13 weeks ending 12/30/2023, from [Monster Beverage Corporation Q4 2023 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465924004103/tm243289d1_ex99-1.htm)
+[^6]: Nielsen Total US xAOX + Conv 13 weeks ending 12/30/2023, from [Monster Beverage Corporation Q4 2023 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000110465924004103/tm243289d1_ex99-1.htm)
 
-[^8]: [How Ghost Energy Found Success Through Transparency](https://www.bevindustry.com/articles/95710-how-ghost-energy-found-success-through-transparency), BevIndustry
-
-[^1]: [Hansen Natural Corporation March 2006 Shareholder Report](https://www.sec.gov/Archives/edgar/data/865752/000086575206000101/e991.htm)
-
+[^7]: [How Ghost Energy Found Success Through Transparency](https://www.bevindustry.com/articles/95710-how-ghost-energy-found-success-through-transparency), BevIndustry
