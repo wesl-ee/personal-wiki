@@ -1,8 +1,10 @@
-These are the newest pages on this wiki.
+These are all pages on this wiki ordered by creation time. This is the
+least-cool way to browse the site; I find it more fun to just keep clicking on
+the blue links and wander around but this is provided to give less-accessible
+pages some visibility too.
 
 [[!inline  archive="yes" pages="*
 	and !(ikiwiki or ikiwiki/*)
-	and !Recent_Posts
 	and !New_Posts
 	and !img
 	and !img/*
