@@ -82,3 +82,16 @@ small engine anyway; swap in the S50 or S52 engine if you're going after power
 and are really, really in love with the E36 platform, that's what the M3 shipped
 with anyway. With a new engine you get a new intake manifold that probably has
 more sensible injector interfaces.
+
+------
+
+I drove my car with this modification for about a year and it continued to run
+very well through that time. After almost exactly a year I pulled my bootleg
+adapters out and replaced them with machined adapters made by VAC motorsports,
+available
+[here](https://store.vacmotorsports.com/vac-motorsports-fuel-injector-adaptors-bmw-m44m42-p2454.aspx).
+I'm sure it would have continued to run fine, as my modification was very
+difficult to pull out, but the potential of one failing after many cycles,
+especially being exposed to operating temperatures in the bay, was not worth it
+to me. These could be machined on a lathe but this requires lathe operating
+experience (and access) that I lack currently.
