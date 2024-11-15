@@ -90,6 +90,14 @@ section#content .longlink {
     }
 }
 
+@media only screen and (min-width: 600px) {
+    #content figure.profile {
+        float: left;
+        display: block;
+        margin: 0 1rem 1rem 0;
+    }
+}
+
 .toc {
     border: 1px solid;
     width: 50ch;
