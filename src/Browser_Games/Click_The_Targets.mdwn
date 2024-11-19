@@ -22,6 +22,7 @@
   let clicks;
   let timeLeft;
   let interval;
+  let bgInterval;
 
   function showMenu(message, submessage, buttonText) {
       menuText.innerHTML = "<strong>" + message + "</strong><br/>" + submessage;
@@ -90,12 +91,16 @@
 
   function handleClick() {
     scoreboard.textContent = `Clicks: ${++clicks}`;
-    moveTarget();
 
     const rect = target.getBoundingClientRect();
-    const clickX = rect.left + rect.width / 2;
-    const clickY = rect.top + rect.height / 2;
+
+    const gameAreaRect = gameArea.getBoundingClientRect();
+
+    const clickX = rect.left - gameAreaRect.left + rect.width / 2;
+    const clickY = rect.top - gameAreaRect.top + rect.height / 2;
     createParticles(clickX, clickY);
+
+    moveTarget();
   }
 
   function startTimer() {
@@ -124,12 +129,18 @@
       showMenu(`Game Over! Your score is ${score} clicks/s.`, "That was fast!", "Play Again");
     }
 
+    bgInterval = setInterval(() => {
+       if (document.visibilityState == "visible") {
+        createParticles(Math.random() * gameArea.clientWidth, Math.random() * gameArea.clientHeight);
+      }
+    }, 1000)
     target.style.display = "none";
     scoreboard.style.display = "none";
     timerDisplay.style.display = "none";
   }
 
   function initGame() {
+    clearInterval(bgInterval);
     clicks = 0;
     timeLeft = 30;
     scoreboard.textContent = "Score: 0";
