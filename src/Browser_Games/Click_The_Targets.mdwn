@@ -1,0 +1,104 @@
+<div id="game">
+  <div id="scoreboard" style="display:none">Score: 0</div>
+  <div id="timer" style="display:none">Time Left: 30s</div>
+  <div id="game-area">
+    <div id="target" style="display:none">X</div>
+  </div>
+  <div id="menu">
+    <p id="menu-text">Welcome to Click the Target!<</p>
+    <button id="start-button">Start</button>
+  </div>
+</div>
+<script>
+  const target = document.getElementById("target");
+  const scoreboard = document.getElementById("scoreboard");
+  const timerDisplay = document.getElementById("timer");
+  const menu = document.getElementById("menu");
+  const startButton = document.getElementById("start-button");
+  const menuText = document.getElementById("menu-text");
+  const gameArea = document.getElementById("game-area");
+
+  let score;
+  let clicks;
+  let timeLeft;
+  let interval;
+
+  function showMenu(message, submessage, buttonText) {
+      menuText.innerHTML = "<strong>" + message + "</strong><br/>" + submessage;
+    startButton.textContent = buttonText;
+    menu.style.display = "block";
+  }
+
+  function hideMenu() {
+    menu.style.display = "none";
+  }
+
+  function moveTarget() {
+    const areaWidth = gameArea.clientWidth;
+    const areaHeight = gameArea.clientHeight;
+
+    const randomX = Math.random() * (areaWidth - target.offsetWidth);
+    const randomY = Math.random() * (areaHeight - target.offsetHeight);
+
+    target.style.left = `${randomX}px`;
+    target.style.top = `${randomY}px`;
+  }
+
+  function handleClick() {
+    scoreboard.textContent = `Clicks: ${++clicks}`;
+    moveTarget();
+  }
+
+  function startTimer() {
+    interval = setInterval(() => {
+      timeLeft--;
+      timerDisplay.textContent = `Time Left: ${timeLeft}s`;
+  
+      if (timeLeft === 0) {
+        endGame();
+      }
+    }, 1000);
+  }
+
+  function endGame() {
+    clearInterval(interval);
+    target.removeEventListener("click", handleClick);
+
+    // clicks per second
+    score = (clicks / 30).toFixed(2);
+
+    if (score < 0.3) {
+      showMenu(`Game Over! Your score is ${score} clicks/s.`, "You can do better!", "Play Again");
+    } else if (score < 0.6) {
+      showMenu(`Game Over! Your score is ${score} clicks/s.`, "Not bad!", "Play Again");
+    } else {
+      showMenu(`Game Over! Your score is ${score} clicks/s.`, "That was fast!", "Play Again");
+    }
+
+    target.style.display = "none";
+    scoreboard.style.display = "none";
+    timerDisplay.style.display = "none";
+  }
+
+  function initGame() {
+    clicks = 0;
+    timeLeft = 30;
+    scoreboard.textContent = "Score: 0";
+    timerDisplay.textContent = "Time Left: 30s";
+
+    scoreboard.style.display = "block";
+    timerDisplay.style.display = "block";
+    target.style.display = "block";
+
+    moveTarget();
+    startTimer();
+    target.addEventListener("click", handleClick);
+  }
+
+  startButton.addEventListener("click", () => {
+    hideMenu();
+    initGame();
+  });
+
+  showMenu("Click the Target", "You have 30s to click the X as many times as you can!", "Start");
+</script>

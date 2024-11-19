@@ -440,3 +440,60 @@ ins {
 .footnote::after {
     content: "]";
 }
+
+/* Game */
+#game {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+#game #game-area {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+#game #target {
+  font-size: 1.2rem;
+  position: absolute;
+  cursor: pointer;
+}
+#game #scoreboard, #timer {
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#game #scoreboard {
+  left: 10px;
+}
+#game #timer {
+  right: 10px;
+}
+#game #menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 3px groove;
+  color: black;
+  padding: 20px;
+  display: none;
+  text-align: center;
+}
+#game #menu button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: white;
+  border: 3px groove;
+  cursor: pointer;
+  color: black;
+}
