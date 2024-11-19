@@ -444,16 +444,19 @@ ins {
 /* Game */
 #game {
   font-family: Arial, sans-serif;
+  position: relative;
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 50ch;
+  max-height: 80vh;
   text-align: center;
   overflow: hidden;
 }
 #game #game-area {
   position: relative;
   width: 100%;
-  height: 100vh;
-  border: 1px solid #ddd;
+  height: 100%;
   overflow: hidden;
 }
 #game #target {
