@@ -1,6 +1,5 @@
-Browser games inspired by Web 1.0 I've seen + played on Geocities or similar.
-Unless noted these games are my original work.
+Browser games inspired by Web 1.0 I've played on Geocities or similar. Unless
+noted these games are my original work.
 
-### [[Browser_Games/Click_The_Targets]]
-
-Click the target "X" as fast as you can to win.
+- [[Browser_Games/Click_The_Targets]]: Click the target "X" as fast as you can to
+win.
