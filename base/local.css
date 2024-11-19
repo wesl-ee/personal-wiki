@@ -500,3 +500,9 @@ ins {
   cursor: pointer;
   color: black;
 }
+
+#game .particle {
+  position: absolute;
+  opacity: 1;
+  pointer-events: none;
+}

@@ -33,6 +33,50 @@
     menu.style.display = "none";
   }
 
+  function createParticles(x, y) {
+    for (let i = 0; i < 10; i++) {
+      const particle = document.createElement("div");
+      particle.className = "particle";
+      particle.style.color = `hsl(${Math.random() * 360}, 100%, 50%)`;
+      particle.style.left = `${x}px`;
+      particle.style.top = `${y}px`;
+      particle.textContent = "X";
+
+      const size = Math.random() * 10 + 5;
+      particle.style.width = `${size}px`;
+      particle.style.height = `${size}px`;
+
+      const angle = Math.random() * 2 * Math.PI;
+      const speed = Math.random() * 5 + 2;
+      const velocityX = Math.cos(angle) * speed;
+      const velocityY = Math.sin(angle) * speed;
+
+      gameArea.appendChild(particle);
+
+      let opacity = 1;
+
+      function animateParticle() {
+        const currentX = parseFloat(particle.style.left);
+        const currentY = parseFloat(particle.style.top);
+
+        particle.style.left = `${currentX + velocityX}px`;
+        particle.style.top = `${currentY + velocityY}px`;
+
+        opacity -= 0.01;
+        particle.style.opacity = opacity;
+
+        if (opacity <= 0) {
+          particle.remove();
+        } else {
+          requestAnimationFrame(animateParticle);
+        }
+      }
+
+      animateParticle();
+    }
+  }
+
+
   function moveTarget() {
     const areaWidth = gameArea.clientWidth;
     const areaHeight = gameArea.clientHeight;
@@ -47,13 +91,18 @@
   function handleClick() {
     scoreboard.textContent = `Clicks: ${++clicks}`;
     moveTarget();
+
+    const rect = target.getBoundingClientRect();
+    const clickX = rect.left + rect.width / 2;
+    const clickY = rect.top + rect.height / 2;
+    createParticles(clickX, clickY);
   }
 
   function startTimer() {
     interval = setInterval(() => {
       timeLeft--;
       timerDisplay.textContent = `Time Left: ${timeLeft}s`;
-  
+
       if (timeLeft === 0) {
         endGame();
       }
