@@ -1,0 +1,262 @@
+[[!tag North_Carolina_State_University]]
+
+[The Wolf Web](https://thewolfweb.com) (TWW) is a discussion board launched in
+2000 for students at [[North_Carolina_State_University]]. It was part of the
+PartyInCollege (PartyInCollege.com), later known as CampusBlender
+(CampusBlender.com), network, a ring of sites running the CrazyWeb software that
+was developed and refined on TWW. I know of some history of the ownership of the
+site and of Party In College / CampusBlender but it's not important to recount
+here, but sources[^1][^2] are provided if you're curious.
+
+Nobody at NC State right now seems to know about TWW, and it seems this has been
+the case for a _long_ time. Still the site persists; users with mid 5-digit post
+counts and accounts over 8,000 days old still post from their nursing homes for
+whatever reason and haunt the site like ghosts. Registration is currently closed
+and, even when it was open, required either (1) an @ncsu.edu email address or
+(2) a $5.00 activation fee. I actively have an account on the site, as I
+discovered the site while in college in 2017, but some time between then and now
+new user registration was disabled. Needless to say I missed the site's prime by
+over 16 years and have made only a few posts to TWW.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreid7zrzhlzoqlbzuxmbgrb3itxka3pfe2jic5ottocphvnzoeqzjea" size=medium]]
+</figure>
+
+Some sections of the site have wound down but around 2002 the sections on the
+site were:
+
++ Message Board
++ Photo Gallery
++ Calendar
++ Book Exchange
++ Ride Exchange (Ride Share)
++ School Tool
+
+The Message Board was the main area for discussion and is structured like any
+forum with topics and replies. Posts could be formatted with CrazyCode which is
+very, very similar to BBCode if not a strict subset. Unfortunately the message
+board was wiped sometime around 2004 except for Feedback Forum, necessarily
+because the Internet Archive shows there were 14000+ topics on the site's
+previously largest board, The Lounge, as early as October 2001. Presently
+there's 103,986 topics under the off-topic board Chit-Chat and 11,867 under The
+Lounge.
+
+The Photo Gallery was the space for users to upload pictures. This acted both as
+a general purpose, hot-linkable image host like how forum posters used
+photobucket and as a place to share images on TWW itself. The Photo Gallery was
+thankfully not wiped when the Message Board was.
+
+<figure class="image-square">
+[[!template id="hooya-img.tmpl" cid="bafkreia6jlxu2xpftnudwasduuji7zjoccjseu7kvufjclpoeus3sqdw2a" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreif25f62vnqq57dsg7775to546vkqgaeo3ndyk5gqdu7qqgjen4tka" size=medium]]
+</figure>
+
+Calendar was a part of the site where clubs and local venues could advertise
+their special events or meetings. Anyone with an account could put anything on
+this calendar. Book Exchange was a small marketplace for trading class textbooks
+to other students. Each seller entry listed the course number, title, price and
+date posted. Ride Exchange was where students driving a long distance could
+communicate to carpool together. Especially useful during Winter and Summer
+breaks when students would leave campus to drive back to family elsewhere in the
+state. Finally, School Tool aggregated data about NCSU classes like class times,
+professors, textbooks, grade distributions and reviews. It would also tell you
+which TWW users were in your classes if they added them under their own School
+Tool.
+
+At its prime there were supposedly 118 sites in the CampusBlender /
+PartyInCollege network. TWW, as I understand, was the genesis of this federation
+because the TWW admins wrote CrazyWeb, the custom application that powered every
+site the federation. 
+
+On the other PartyInCollege sites I have seen the following sections beyond what
+TWW had:
+
+- Webcams
+- Party Tunes
+- Hookup
+- Groups
+
+The help page under Webcam is pretty interesting:
+
+> **SETTING UP YOUR WEBCAM**
+>
+> Just about every school gives you personal webspace with FTP access. This is ideal for hosting a webcam.
+>
+> To use this webspace fluently with your camera you will need to obtain a
+> webcam software program. Many webcams come with free webcam software. I use a
+> program called ConquerCam which costs $10. You Can use this program flawlessly
+> forever without purchasing it, but every few minutes or so it leaves a
+> watermark that says "Evaluation Version" on your picture. To get rid of this
+> you can pay the $10. I've tried numerous programs and continue to go back to
+> ConquerCam. ConquerCam appeals to me and is the most flexible for the way I
+> run my system. Many of the other programs are also good; Download.com has
+> plenty of them.
+>
+> Once installed and connected to your webcam, you need to setup the FTP system
+> within the program. To do this in ConquerCam: go to View > select "Options"
+> click on uploading. Click the first button which creates "New Upload
+> Connection" then "New FTP site". Host name is the name of your FTP server.
+>
+> - hostname: personal.ecu.edu
+> - Username: EKR1022
+> - Password: \*\*\*\*\*
+>
+> (these are usually the same as your school email login)
+>
+> You can leave the directory blank which is the default root directory File
+> Name: just make it whatever you want your picture to be name (Ex: Evan.jpg)
+>
+> ADDING YOUR WEBCAM TO PIC Then go to your PIC Site and click webcam > Add
+> Webcam > Add a title and description and the in the URL you put the location
+> of your stored picture (EX: http://personal.ecu.edu/username/filename.jpg --->
+> http://personal.ecu.edu/ekr1022/test.jpg )
+>
+> Click "Add Webcam" and you are ready for your very own peep show!
+
+Interesting.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreid6yqwkiapakmuwvd6qbg75ros27gkvigt27zqlvrmedfo52fl3ve" size=medium]]
+</figure>
+
+And because non-TWW sites are permadead things like the webcam and hookups pages
+will remain a mystery as they were gated by login. Some things we were never
+meant to know. May be for the best.
+
+By far my favorite thing to do on TWW is click around the user galleries. Among
+the pornography, memes of George Bush, and endlessly reposted garbage are
+genuinely interesting candid pictures of people around the campus, in their
+dorms or at parties. There is OC art and flyers for campus events long passed.
+Sometimes I recognize spaces from these pictures on campus that have since been
+bulldozed or changed entirely. It's not necessarily a good or a bad thing, just
+a thing that happens.
+
+This is a big reason I keep revisiting the site. The gallery is a snapshot of a
+time far removed from today without any of the survival bias inherent in the
+things we collectively remember.
+
+<figure class="image-square">
+[[!template id="hooya-img.tmpl" cid="bafkreie27jvdxvag4ee7fakmip4pxp34hq5dqzzj2nd33fmui7xsiursyq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiaro4cz5fo2sfzjmt65vlumrtj7lmqaxpba262bgmnc2sl2zxbbui" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreihbcidxw3asgyihhrbwzt43jfdqfjfbsrq3xthgwxvbfjm7heaowu" size=medium]]
+</figure>
+
+It's fun to look back and remember that not much changes.
+
+TWW was the most active of the PartyInCollege / CampusBlender sites but it was
+among a claimed 111+ other sites. Here is a list of 107 sites I found in the
+federation:
+
+- www.partyapp.com
+- www.partybuckeyes.com
+- www.partypennstate.com
+- www.partyaggies.com
+- www.haloparty.com
+- www.auburnparty.com
+- www.partybadgers.com
+- www.partybeavers.com
+- www.partyducks.com
+- www.partybluedemons.com
+- www.partybruins.com
+- www.partybulldogs.com
+- www.partycowboys.com
+- www.partyclemson.com
+- www.partycocks.com
+- www.partycougars.com
+- www.partytigers.net
+- www.partycyclones.com
+- www.partydawgs.com
+- www.partygophers.com
+- www.partygators.com
+- www.partygeorgetown.com
+- www.partygt.com
+- www.partyhawkeyes.com
+- www.partyhoos.com
+- www.partyhuskies.com
+- www.partyjayhawks.com
+- www.partykstate.com
+- www.partylobos.com
+- www.partylonghorns.com
+- www.partyminers.com
+- www.partypitt.com
+- www.partyrams.com
+- www.partyrebels.com
+- www.partyredraiders.com
+- www.partyseminoles.com
+- www.partysooners.com
+- www.partyspartans.com
+- www.volsweb.com
+- www.partytrojans.com
+- www.partyutes.com
+- www.partyzona.com
+- www.coastalparty.com
+- www.goldenknightsparty.com
+- www.ionaparty.com
+- www.huskiesparty.com
+- www.partybillikens.com
+- www.partybulls.com
+- www.partycommodores.com
+- www.partygreenwave.com
+- www.partyhawks.com
+- www.partyhokies.com
+- www.partyhoosiers.com
+- www.partyillini.com
+- www.partylasalle.com
+- www.partymizzou.com
+- www.partynova.com
+- www.partyolemiss.com
+- www.partyscarletknights.com
+- www.partytide.com
+- www.partywpi.com
+- www.terrierparty.com
+- www.redstormparty.com
+- www.partymeangreen.com
+- www.partyflyers.net
+- www.partymaryland.net
+- www.partyhall.net
+- www.partylouisville.net
+- www.partymichigan.net
+- www.partytulsa.net
+- www.partyuk.net
+- www.partywarriors.net
+- www.partynewyork.net
+- www.partybuffs.com
+- www.mountaineersparty.com
+- www.partydevils.net
+- www.partycal.com
+- www.partycincinatti.com
+- www.partyalaska.net
+- www.partyboston.net
+- www.aggiesparty.com
+- www.partyrazorbacks.com
+- www.party49ers.com
+- www.partyidaho.com
+- www.partywyoming.com
+- www.partyuncg.com
+- www.partyzips.com
+- www.partyheels.com
+- www.partyeastcarolina.com
+- www.therockparty.com
+- www.wfunderground.com
+- www.partyucc.com
+- www.oduweb.com
+- www.jmuspot.com
+- www.radfordparty.com
+- www.campbellspot.com
+- www.partypride.com
+- www.partycanes.com
+- www.partywcu.com
+- www.partysouthern.com
+- www.partyincollege.com
+- www.partydub.com
+- www.sunyweb.com
+- www.sbuparty.com
+- www.partyvcu.com
+- www.partyeastcarolina.com
+- www.theowlweb.com
+- www.thewolfweb.com
+- www.dragonclawz.com
+
+[^1]: [https://thewolfweb.com/message_topic.aspx?topic=570933](https://thewolfweb.com/message_topic.aspx?topic=570933)
+
+[^2]: [https://thewolfweb.com/message_topic.aspx?topic=588403](https://thewolfweb.com/message_topic.aspx?topic=570933)
