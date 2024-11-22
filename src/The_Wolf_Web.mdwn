@@ -14,7 +14,7 @@ counts and accounts over 8,000 days old still post from their nursing homes for
 whatever reason and haunt the site like ghosts. Registration is currently closed
 and, even when it was open, required either (1) an @ncsu.edu email address or
 (2) a $5.00 activation fee. I actively have an account on the site, as I
-discovered the site while in college in 2017, but some time between then and now
+discovered the site while in college in 2017, but sometime between then and now
 new user registration was disabled. Needless to say I missed the site's prime by
 over 16 years and have made only a few posts to TWW.
 
@@ -66,7 +66,7 @@ Tool.
 At its prime there were supposedly 118 sites in the CampusBlender /
 PartyInCollege network. TWW, as I understand, was the genesis of this federation
 because the TWW admins wrote CrazyWeb, the custom application that powered every
-site the federation. 
+site in the federation. 
 
 On the other PartyInCollege sites I have seen the following sections beyond what
 TWW had:
@@ -123,8 +123,8 @@ And because non-TWW sites are permadead things like the webcam and hookups pages
 will remain a mystery as they were gated by login. Some things we were never
 meant to know. May be for the best.
 
-By far my favorite thing to do on TWW is click around the user galleries. Among
-the pornography, memes of George Bush, and endlessly reposted garbage are
+By far my favorite thing to do on TWW is to click around the user galleries.
+Among the pornography, memes of George Bush, and endlessly reposted garbage are
 genuinely interesting candid pictures of people around the campus, in their
 dorms or at parties. There is OC art and flyers for campus events long passed.
 Sometimes I recognize spaces from these pictures on campus that have since been
