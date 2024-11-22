@@ -25,8 +25,8 @@ over 16 years and have made only a few posts to TWW.
 Some sections of the site have wound down but around 2002 the sections on the
 site were:
 
-+ Message Board
-+ Photo Gallery
++ [Message Board](https://thewolfweb.com/message.aspx)
++ [Photo Gallery](https://thewolfweb.com/photo.aspx)
 + Calendar
 + Book Exchange
 + Ride Exchange (Ride Share)
