@@ -1,0 +1,40 @@
+[[!tag DJ_Set]]
+[[!meta title="re;set02"]]
+
+[ [Watch on YouTube](https://youtu.be/6NrmgURJCC0) / [[!myipfs QmTXeV6N1gtsaSkKfpsQxoZKye9Ljcyh3D84vnZWPUL79u desc="Download full version from IPFS"]] ]
+
+December 7, 2024
+
+re;set02 was a URL event with 12 different artists that was in similar spirit to
+the [[first re;set|re-set]] which I also played. While the previuous stream of
+re;set was hosted on Twitch this iteration was hosted at
+[reloadreset.net](https://reloadreset.net) and broadcast using Restreamer;
+Twitch's new DJ program made it infeasible to host this event on their platform.
+
+The [[!myipfs QmTXeV6N1gtsaSkKfpsQxoZKye9Ljcyh3D84vnZWPUL79u desc="IPFS
+version"]] of my re;set2 set has my ~1.5 minute intro and text chat from the
+event attached.
+
+<figure class="image-square">
+[[!template id="hooya-img.tmpl" cid="bafkreihackbnjytz4fsmbgtohnn64t6xjojn7wtroknfgthmre5v3qonfq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreifgdumzk3ofei5aeca5jhwd4gt6tioxbwh6jxqw6urlt2ohenrsjm" size=medium]]
+</figure>
+
+1. Gregor McMurray — What I Want
+2. Isoxo — dontstopme! (DRYDEN remix)
+3. ALRT — New Hype
+4. Beastboi — Burn
+5. Sudoverse — Cyber Knight
+6. BlackCrow — OutCast
+7. Frost Children — FLATLINE (Eliminate Remix)
+8. leroy — it's up to YOU now!!
+9. momone — What is it already morning?
+10. momone — never lied to you
+11. Oolacile — Bathtub Marlboro
+12. Zeds Dead — Eyes on Fire VIP
+13. ident — burning, alive (Katzhu Remix)
+14. ISOKNOCK — THRASH (PARTY STARTER)
+15. Dj Psycangle — Smile, Fuck Up (Wan Bushi Remix)
+16. maniken05 — one shot
+17. ღDJ魔女っ娘ミラクるんღ —  ゅ─､ζ､ぃ─ゑʚ ♥ɞ
+18. Virtual Self — Particle Arts (What A Shino Frenchcore Edit)
