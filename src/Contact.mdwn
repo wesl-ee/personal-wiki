@@ -12,6 +12,9 @@
 </tr><tr>
 <th colspan=2>&vellip;<br/>Centralized Services Powergap<br/>&vellip;</th>
 </tr><tr>
+    <th>Bluesky</th>
+    <td><a href="https://bsky.app/profile/wesl.ee" rel="me">@wesl.ee</a></td>
+</tr><tr>
     <th>Github</th>
     <td><a href="https://github.com/wesl-ee" rel="me">@wesl-ee</a></td>
 </tr><tr>
