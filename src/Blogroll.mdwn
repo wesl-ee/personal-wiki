@@ -1,0 +1,21 @@
+Search on the Internet in <current-year> sucks and will only get worse as search
+results are overrun with LLM-generated content. If there was any doubt of the
+merit of the Dead Internet theory before GPT3 arrived then there's no doubt
+about it now (at least, the part about bots).
+
+The value of hunman-produced information on the Internet has gone parabolic and,
+with it, I've felt that it is important to enumerate some of the personal
+websites of People I know on the Internet and call it my blog roll.
+
+Personal Wikis
+--------------
+
+- [Compendium of Personal Ignorance](http://www.xiongnu.org/wiki/doku.php?id=index)
+- [qlyoung](https://wiki.qlyoung.net/)
+
+Blogs
+-----
+
+- [apt-get](https://apt-get.xyz/)
+- [progress](https://www.progress.sh/)
+- [willow](https://willow.phantoma.online/)
