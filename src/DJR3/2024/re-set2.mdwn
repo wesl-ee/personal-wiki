@@ -6,7 +6,7 @@
 December 7, 2024
 
 re;set02 was a URL event with 12 different artists that was in similar spirit to
-the [[first re;set|re-set]] which I also played. While the previuous stream of
+the [[first re;set|re-set]] which I also played. While the previous stream of
 re;set was hosted on Twitch this iteration was hosted at
 [reloadreset.net](https://reloadreset.net) and broadcast using Restreamer;
 Twitch's new DJ program made it infeasible to host this event on their platform.
