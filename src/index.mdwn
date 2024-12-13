@@ -42,3 +42,32 @@ more about that topic.
 All pages on this site are available in chronological order under the
 [[Meta/New_Posts]] page.
 
+What's New?
+-----------
+
+[[!inline  archive="yes" quick="yes" limit=8 pages="*
+	and !(ikiwiki or ikiwiki/*)
+	and !New_Posts
+	and !img
+	and !img/*
+	and !*.css
+	and !*.tmpl
+	and !*.js
+	and !vid
+	and !vid/*
+	and !pubkey.txt
+	and !favicon.ico
+	and !templates/*
+	and !templates
+	and !recentchanges
+	and !smileys
+	and !smileys/*
+	and !wikiicons
+	and !wikiicons/*
+	and !shortcuts
+	and !shortcuts/*
+	and !Discover/*
+	and !Discover
+	and !index"
+]]
+
