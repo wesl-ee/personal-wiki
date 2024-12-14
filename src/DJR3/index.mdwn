@@ -10,6 +10,7 @@ these these non-exclusive genre tags:
 + French House
 
 <figure class="image-square small">
+[[!template id="hooya-img.tmpl" cid="bafkreifgdumzk3ofei5aeca5jhwd4gt6tioxbwh6jxqw6urlt2ohenrsjm" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreibxtukg6zkj7enofjqj2vozfscybojg26bc2d2bspf74eldolg22a" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreic7r3l4bgpvsocpautaqwzwrdeahs2ehygcyyksizvayt67zotgke" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreiep3y6k4dmrxk5ofbtliyk54gdtfimtgggtibtgecnm65bu6fdbya" size=medium]]
