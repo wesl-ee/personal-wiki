@@ -8,11 +8,11 @@ A [[drawn|Drawing]] self-portrait
 </figcaption>
 </figure>
 
-You're reading my homepage & personal wiki; nothing is off-topic here! The big
-blue links [[like this one|Me]] will lead you further down the rabbit-hole of
-this site so click as many of those as you can to learn more! Approach pages on
-this site as if they are Wikipedia articles, and click relevant large blue links
-to read the related article.
+You are reading my homepage & [[Personal_Wiki]]; nothing is off-topic here! The
+big blue links [[like this one|Me]] will lead you further down the rabbit-hole
+of this site so click as many of those as you can to learn more! Approach pages
+on this site as if they are Wikipedia articles, and click relevant large blue
+links to read the related article.
 
 I am the only one with write-access so all opinions are my own and all
 information here can only be as correct as I am; this site is generated with

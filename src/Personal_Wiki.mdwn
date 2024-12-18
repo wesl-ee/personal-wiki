@@ -1,0 +1,23 @@
+This **personal wiki** is a place to dump [[my|Me]] personal knowledge and
+ideas. I use this as a space to blog and to aggregate the information I know. It
+is always changing. I often revise old entries when presented with new
+information.
+
+The wiki trend is quite old. The first wiki was the [[!c2 WikiWikiWeb]]. Many
+have iterated on this concept since. Personal wikis are derived from this wiki
+format but the pages of a personal wiki are created and edited by only the
+author of the wiki. Sometimes, but not necessarily, pages embrace the author's
+bias and present a personal view of the world. This contrasts with pages in a
+traditional wiki which seek to define a knowledge domain in more neutral terms,
+or at least in terms which align with the wiki's community. For more about the
+wiki idea and its contrast with the monolithic Wikipedia see [[!c2
+WikipediaIsNotWiki]].
+
+The most well-known of personal wikis is [Everything Shii
+Knows](https://shii.bibanon.org/shii.org/knows/Everything_Shii_Knows.html). You
+probably only care about this wiki if you care about imageboard history for
+Shii's perspective on
+[4chan](https://shii.bibanon.org/shii.org/knows/4chan.html) as a 4chan
+moderator.
+
+Some personal wikis I like are on my [blogroll](/Blogroll/#personalwiki).

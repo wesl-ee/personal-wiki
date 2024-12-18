@@ -1,6 +1,8 @@
 [[!shortcut name=google url="https://google.com/search?q=%s"]]
 [[!shortcut name=wikipedia url="https://en.wikipedia.org/wiki/%W"]]
 [[!shortcut name=c2 url="http://wiki.c2.com/?%s"]]
+[[!shortcut name=rumia url="https://namelessrumia.heliohost.org/w/doku.php?id=%s"]]
+[[!shortcut name=xiongnu url="http://xiongnu.org/wiki/doku.php?id=%s"]]
 [[!shortcut name=iki url="http://ikiwiki.info/%S/"]]
 [[!shortcut name=gpg url="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&exact=on&search=0x%s"]]
 [[!shortcut name=ipns url="https://cloudflare-ipfs.com/ipns/%s" desc="/ipns/%s"]]
