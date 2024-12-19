@@ -12,6 +12,8 @@ Hi, I'm Wesley, also known as **wesl-ee**.
 <tr><td class="no-border">[[!template id="userbox-adult.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-mortal.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-foodlion.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-vaporwave.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-happy.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-weird.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-exercise-water.tmpl"]]</td></tr>
 </table>
