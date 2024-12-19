@@ -7,6 +7,7 @@ Hi, I'm Wesley, also known as **wesl-ee**.
 <tr><td class="no-border">[[!template id="userbox-deathgrips.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-slsk.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-peak-oil-theory.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-us-taxpayer.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-ti-basic-n.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-adult.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-mortal.tmpl"]]</td></tr>
