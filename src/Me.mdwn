@@ -1,5 +1,19 @@
 Hi, I'm Wesley, also known as **wesl-ee**.
 
+<table class="no-border">
+<tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-manga-time-krr.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-google-earth.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-deathgrips.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-slsk.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-peak-oil-theory.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-ti-basic-n.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-adult.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-mortal.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-weird.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-exercise-water.tmpl"]]</td></tr>
+</table>
+
 I write computer code that does useful things. I have worked as a software
 developer with large companies like Nasdaq and NVIDIA and also with with
 smaller, leaner startups in the cryptocurrency space. I hope you will see

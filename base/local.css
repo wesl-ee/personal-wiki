@@ -29,6 +29,10 @@ section#content td {
 	border: 1px solid;
 	padding: 0 10px;
 }
+section#content th.no-border, section#content td.no-border {
+    border: 0;
+}
+
 section#content table {
 	border: 1px solid;
 	margin: auto;
@@ -291,7 +295,6 @@ p img {
 	margin: auto;
 }
 p {
-	overflow-x: auto;
 	max-width: 100%;
 }
 p img[src$="linkmap.png"] {
