@@ -295,6 +295,7 @@ p img {
 	margin: auto;
 }
 p {
+    overflow-x: auto;
 	max-width: 100%;
 }
 p img[src$="linkmap.png"] {
