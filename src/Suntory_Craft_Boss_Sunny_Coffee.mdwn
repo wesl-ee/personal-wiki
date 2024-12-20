@@ -1,0 +1,36 @@
+[[!meta title="Energy Drink Review — Suntory Craft Boss Sunny Coffee (Lemon)"]]
+[[!tag Energy_Drink Review]]
+
+I picked this drink up at HMart along with [[Nongshim_Shin_Spicy_Cup_Noodles]]
+and [[Ottogi_Yeul_Ramen]], among other things. I was
+[hoping](https://bsky.app/profile/wesl.ee/post/3lde6w5hbdc22) to find BOSS
+coffee in the can but no such luck existed that day. In any case this was
+something I hadn't seen before so I figured it could be interesting to try.
+
+Craft Boss Sunny Coffee Lemon (クラフトボス・サニーコーヒー・レモン) is a drink
+from Suntory made with [[coffee]] and at least 9% lemon and apple juice. It
+comes in a plastic bottle and is _refreshingly sweet_ (すっきり甘い). We'll see
+about that.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidq6guc3llyy3t7k7koeor7mowhzzzltc4ekvvpitwhmagv5juqtq" size=medium]]
+</figure>
+
+First sip: what the fuck. The sour taste of lemon juice slaps me in the face. I
+can't discern much beyond the sourness. It actually has citric acid listed as an
+ingredient beyond lemon juice and apple juice. It's like they are
+acid-adjusting a glass of lemonade cut with apple juice. Incredible.
+
+Overwhelmingly its taste is redolent to me of Brisk iced tea with further bitter
+notes stemming from the addition of coffee.
+
+Through the lemon overtones I can still taste the distinctive BOSS coffee hiding
+in this drink. The actual caffeine content is a mystery and I'm not sensitive
+enough to caffeine right now to guess it either.
+
+<table class="no-border">
+<tr><td class="no-border">[[!template id="userbox-limits-caffeine.tmpl" limit="500"]]</td></tr>
+</table>
+
+I can't imagine this would be refreshing on a hot day as it's so sour and has a
+fair amount of sugar (54g) for one 500ml bottle, 220cal.
