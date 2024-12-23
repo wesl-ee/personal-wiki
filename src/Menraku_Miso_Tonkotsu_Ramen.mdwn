@@ -1,15 +1,21 @@
 [[!meta title="Instant Noodles Review — Menraku Miso Tonkotsu Ramen"]]
 [[!tag Instant_Noodles Review]]
 
-Each pack of Menraku has 2 powdered flavor packets and 2 bundles of noodles.
-Because of this, I decided to make one bundle by pouring hot water over it as if
-it were cup-type instant noodles, and I made the other bundle the recommended
-way, in a pot over the stove.
+Another HMart find.
 
-Logistically, it was difficult to cover the noodles with water as they are far
-too big to squeeze into even a normal _rāmen_ bowl, so I needed to break this
-batch in half. The ones in the pot were fine once they cooked enough and slumped
-down into the boiling water.
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidxnbeftopsjj45gu6szai4zbzjpshu4zi5sdlcg3iquyfexnfbgy" size=medium]]
+</figure>
+
+Each pack of Menraku has 2 powdered flavor packets and 2 bundles of noodles.
+Because of this I decided to make one bundle by pouring hot water over it as if
+it were cup-type instant noodles and the other bundle by the recommended way, in
+a pot over the stove.
+
+Logistically it was difficult to cover the noodles with water as they are far
+too big to squeeze into even a normal _rāmen_ bowl so I needed to break the
+hot-water batch in half. The ones in the pot were fine once they cooked enough
+and slumped down into the boiling water.
 
 It's no surprise the batch that was cooked the recommended way came out better.
 Much better, in fact. Despite leaving the cup-style bundle in hot water one
@@ -18,14 +24,16 @@ cup-style ones were not cooked all the way through. I returned these to the
 stove to finish. Also, in breaking them in half, they were now not very long
 anymore like the noodles for any _rāmen_ should be.
 
+The noodle taste and texture reminds me of spaghetti. The comparison immediately
+brought this image to mind:
+
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreidxnbeftopsjj45gu6szai4zbzjpshu4zi5sdlcg3iquyfexnfbgy" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreiheeqy2t4jaa6kwbgpm5ktuyc56ekdddnrxz3wjjpydnzeb4ms4qq" size=medium]]
 </figure>
 
-The noodle taste and texture reminds me of spaghetti. There's nothing special
-here, just not terrible like some instant noodles can be. Decent bite, not too
-thin or weak. Again, I think of spaghetti when I taste these. They don't soak up
-much broth either.
+There's nothing special here, just not terrible like some instant noodles can
+be. Decent bite, not too thin or weak. Again, I think of spaghetti when I taste
+these. They don't soak up much broth either.
 
 The broth is amazing; there is a surprisingly deep flavor to it, redolent of
 actual tonkotsu broth. Considering this broth was a powder 3 minutes ago this is
