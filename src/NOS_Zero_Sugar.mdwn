@@ -1,0 +1,36 @@
+[[!meta title="Energy Drink Review — NOS Zero Sugar"]]
+[[!tag Energy_Drink Review]]
+
+I love NOS. I even have this userbox on my [[Me]] page.
+
+<table class="no-border">
+<tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
+</table>
+
+It's the first energy drink themed after an automotive product; it's one of the
+OG energy drinks, having launched in 2004. It is currently owned by Monster
+Beverage but was formerly a Coke product. It changed hands in 2015 from Coke to
+Monster; it was originally created by Fuze who sold it to Coke in 2007, a fact
+I've mentioned [[before|Living_In_The_Energy_Drink_Renaissance]] on this
+website.
+
+This is their zero sugar alternative to full-sugar NOS. As I understand there
+was a different formula for a similar zero-sugar NOS prior to this[^1] which
+came in a white can. In addition there was NOS Zero[^2] in a gray can. Both of
+these have been discontinued. The current iteration of NOS sugar-free comes in a
+can with the same colorway as the full-sugar NOS but it just says “ZERO” above
+the name “NOS”.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreie3i5ozpz7qvah77itijqueqhtjbod5y6wmvi4kcpmlr6fnice4sy" size=medium]]
+</figure>
+
+The taste of the zero sugar NOS is whatever; it is much less caustic than OG
+NOS, maybe even a bit bitter. For a zero-sugar I'd choose the OG over this any
+day in terms of taste, but the zero sugar bit of this is great. With 200mg of
+caffeine in a 16oz can this is a great way to enjoy roughly the taste of NOS
+without all its sugar.
+
+[^1]: [Review for NOS Sugar Free](https://caffeinetheenergyblog.blogspot.com/2012/03/review-for-nos-sugar-free.html) on caffeinetheenergyblog.blogspot.com
+
+[^2]: [Review for NOS Zero](https://caffeinetheenergyblog.blogspot.com/2013/04/review-for-nos-zero.html) on caffeinetheenergyblog.blogspot.com
