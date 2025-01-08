@@ -7,20 +7,24 @@ I'm a big NOS fan.
 <tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
 </table>
 
-I have written about [[NOS_Zero_Sugar]] here before. It is a relatively new
-introduction compared to how old the OG NOS is which was introduced in 2005 and
-was the first energy drink to share the name with an automotive accessory. NOS
-was sold in a canister resembling an actual NOS canister (the one for cars) but
-this canister was discontinued in 2015[^1]. Interestingly, it was only 22 fl oz
-where the new twist-top is 24 fl oz; I thought the old canister was bigger than
-this new aluminum one but I guess that's how time distorts memory. They have
-always come in the smaller 16 fl oz cans though.
+I have written about [[NOS_Zero_Sugar]] here before but not the OG one. Compared
+to Zero Sugar, the full-sugar one is a very old drink as it was introduced in
+2005; it was the first energy drink to share the name with an automotive
+accessory. NOS was sold in a canister resembling an actual NOS canister (the one
+for cars) but this canister was discontinued in 2015[^1]. Interestingly, it was
+only 22 fl oz where the new twist-top is 24 fl oz; I thought the old canister
+was bigger than this new aluminum one but I guess that's how time distorts
+memory. They have always come in the smaller 16 fl oz cans though.
+
+NOS is presently owned by Monster Beverage, as are some other energy drinks that
+you probably wouldn't expect like Reign, Full Throttle and Bang. It changed
+hands from Fuze to Coke in 2007 then from Coke to Monster in 2015.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreicnjm7lnb2fv5qflxe2blh6utf5gfvtrbydkcrx5pcpibxibe7dya" size=medium]]
 </figure>
 
-There is a distinctive metallic taste up front. Then it turns very sour. The
+OG NOS has a distinctive metallic taste up front. Then it turns very sour. The
 taste throughout is grapefruit. It's like a grapefruit was sprinkled with citric
 acid then thrown 100mph at a sheet of aluminum and it splattered and you ate the
 pulp off the ground like an animal. That's what it's like, the NOS. And it has
