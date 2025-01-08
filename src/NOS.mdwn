@@ -1,0 +1,36 @@
+[[!meta title="Energy Drink Review — NOS"]]
+[[!tag Energy_Drink Review]]
+
+In case you didn't know:
+
+<table class="no-border">
+<tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
+</table>
+
+I've written about [[NOS_Zero_Sugar]] here before. It is a relatively new
+introduction compared to how old the OG NOS is which was introduced in 2005 and
+was the first energy drink to share the name with an automotive accessory. NOS
+was sold in a canister resembling an actual NOS canister (the one for cars) but
+this canister was discontinued in 2015[^1]. Interestingly, it was only 22 fl oz
+where the new twist-top is 24 fl oz; I thought the old canister was bigger than
+this new aluminum one but I guess that's how time distorts memory. They have
+always come in the smaller 16 fl oz cans though.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicnjm7lnb2fv5qflxe2blh6utf5gfvtrbydkcrx5pcpibxibe7dya" size=medium]]
+</figure>
+
+There is a distinctive metallic taste up front. Then it turns very sour. The
+taste throughout is grapefruit. It's like a grapefruit was sprinkled with citric
+acid then thrown 100mph at a sheet of aluminum and it splattered and you ate the
+pulp off the ground like an animal. That's what it's like, the NOS. And it has
+an energy blend called CMPLX6 with 240mg of caffeine in the 24 fl oz can.
+
+| | Amount |
+| --- | --- |
+| Volume | 24 floz |
+| Calories | 320cal |
+| Caffeine | 240mg |
+
+[^1]: Gleaned this knowledge by peeking through the Wikipedia edit history of
+      [[!wikipedia NOS_(Drink)]]
