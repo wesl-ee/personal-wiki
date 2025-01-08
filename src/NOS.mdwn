@@ -1,13 +1,13 @@
 [[!meta title="Energy Drink Review — NOS"]]
 [[!tag Energy_Drink Review]]
 
-In case you didn't know:
+I'm a big NOS fan.
 
 <table class="no-border">
 <tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
 </table>
 
-I've written about [[NOS_Zero_Sugar]] here before. It is a relatively new
+I have written about [[NOS_Zero_Sugar]] here before. It is a relatively new
 introduction compared to how old the OG NOS is which was introduced in 2005 and
 was the first energy drink to share the name with an automotive accessory. NOS
 was sold in a canister resembling an actual NOS canister (the one for cars) but
@@ -32,5 +32,5 @@ an energy blend called CMPLX6 with 240mg of caffeine in the 24 fl oz can.
 | Calories | 320cal |
 | Caffeine | 240mg |
 
-[^1]: Gleaned this knowledge by peeking through the Wikipedia edit history of
-      [[!wikipedia NOS_(Drink)]]
+[^1]: I gleaned this knowledge by peeking through the Wikipedia edit history of
+      [[!wikipedia NOS_(drink)]]. This rougly lines up with its acquisition by Monster
