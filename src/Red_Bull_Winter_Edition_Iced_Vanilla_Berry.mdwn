@@ -37,4 +37,4 @@ Edition.
 | --- | --- |
 | Volume | 12 floz |
 | Calories | 140cal |
-| Caffeine | 114mg
+| Caffeine | 114mg |
