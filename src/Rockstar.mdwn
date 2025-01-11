@@ -12,9 +12,12 @@ time.
 (2006)</figcaption>
 </figure>
 
-Rockstar sat at a 3rd place in the US with an 11.8% market share in 2007 [^1]
+Rockstar sat at 3rd place in the US with an 11.8% market share in 2007 [^1]
 behind Monster (2nd) and Red Bull (1st). It's since fallen very far down in
 market share and I don't know anyone who seeks out Rockstar in particular.
+Controversially Pepsico changed the flavor in 2021 [^2] and also changed the can
+colorway. I've heard there is not a huge difference between the new and OG
+flavors but I personally have not compared them side-by-side.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreicsi4ehtf3k3wp4ykkjxhkppa5dsojvhol44bwirtwucey6rfh4km" size=medium]]
@@ -44,3 +47,6 @@ than corn.
 | Caffeine | 160mg |
 
 [^1]: [[Living_In_The_Energy_Drink_Renaissance]]
+
+[^2]: According to a [Reddit post](https://www.reddit.com/r/energydrinks/comments/mca7t3/pepsi_co_response_to_rockstar_flavor_change/) citing an email from Pepsico Consumer Relations
+
