@@ -13,11 +13,13 @@ time.
 </figure>
 
 Rockstar sat at 3rd place in the US with an 11.8% market share in 2007 [^1]
-behind Monster (2nd) and Red Bull (1st). It's since fallen very far down in
-market share and I don't know anyone who seeks out Rockstar in particular.
-Controversially Pepsico changed the flavor in 2021 [^2] and also changed the can
-colorway. I've heard there is not a huge difference between the new and OG
-flavors but I personally have not compared them side-by-side.
+behind Monster (2nd) and Red Bull (1st). Evidently they were the first to
+package energy drinks in the iconic 16oz cans way back in like 2001, which was
+double the size of a Red Bull at the same price point. Rockstar has since fallen
+very far down in market share and I don't know anyone who seeks out Rockstar in
+particular. Controversially Pepsico changed the flavor in 2021 [^2] and also
+changed the can colorway. I've heard there is not a huge difference between the
+new and OG flavors but I personally have not compared them side-by-side.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreicsi4ehtf3k3wp4ykkjxhkppa5dsojvhol44bwirtwucey6rfh4km" size=medium]]
