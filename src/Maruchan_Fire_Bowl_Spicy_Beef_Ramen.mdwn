@@ -3,7 +3,7 @@
 
 The Food Lion near me is well-stocked with Maruchan Fire Bowl Spicy Beef Ramen.
 
-<table>
+<table class="no-border">
 <tr><td class="no-border">[[!template id="userbox-foodlion.tmpl"]]</td></tr>
 </table>
 
