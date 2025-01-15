@@ -46,10 +46,11 @@ This is not a rabbit-hole I've gone down yet so I can't explain them myself.
 
 In both rollup regimes there is a trusted party, the sequencer, which we must
 trust to order transactions for execution. This party can censor transaction if
-it wishes. But because the sequencer only sequencers and does not execute, there
+it wishes. But because the sequencer only sequences and does not execute, there
 is a way to force-include a transaction by submitting directly to the L1
 contract and have the transaction executed on the L2. In this way you are your
-own sequencer, sequencing just one transaction, your own.
+own sequencer, sequencing just one transaction, your own. You pay the much cost
+of posting data to the L1 directly in this case.
 
 Typically the rollup sequencer is run by the rollup developer so censorship is
 not great optics, but recently there was a case where a sequencer was censoring
@@ -57,5 +58,8 @@ transactions on a new L2 based on the OP Stack called Soneium, developed by Sony
 Group of all people:
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-dnt="true" align="center"><p lang="en" dir="ltr">since i&#39;ve seen a lot of bad takes regarding L2s and their censorship resistance, here&#39;s how i bypassed  <a href="https://twitter.com/soneium?ref_src=twsrc%5Etfw">@soneium</a>&#39;s sequencer and bought a banned token with a forced tx through L1 🧵 <a href="https://t.co/4BzveajLkw">https://t.co/4BzveajLkw</a> <a href="https://t.co/5Mfop9I9M3">pic.twitter.com/5Mfop9I9M3</a></p>&mdash; donnoh.eth 💗 (@donnoh_eth) <a href="https://twitter.com/donnoh_eth/status/1879210463952818472?ref_src=twsrc%5Etfw">January 14, 2025</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The usefulness of purchasing memecoins on a rollup where the developer is
+actively censoring you is questionable.
 
 [^1]: The price to execute transactions on the Ethereum Virtual Machine (EVM)
