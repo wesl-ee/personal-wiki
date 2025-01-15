@@ -1,3 +1,5 @@
+[[!tag Cryptography Digital_Money]]
+
 A rollup is a blockchain built on top of another blockchain. They increase
 transaction throughput by moving state and logic off-chain, from the host chain,
 often called the Layer 1 (L1), to the rollup, or Layer 2 (L2). The first rollups
