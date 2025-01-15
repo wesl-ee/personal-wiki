@@ -21,18 +21,25 @@ In optimistic rollups, **verifiers** keep the proposer honest by executing the
 set of sequenced transactions in parallel and verifying the output. If the
 proposer has committed a state not corresponding to the state computed by other
 verifiers, because the output is deterministic, verifiers can call out the
-proposer's errant behavior by providing a **fraud proof**. If the output root is
-correct, then no action is needed and the output is implicitly accepted after
-the window to submit a fraud proof, called the **finalization window**, has
-passed. After this window, typically 7 days, the block cannot be reverted. You
-can read more about the why the finalization window is 7 days
+proposer's errant behavior by providing a **fraud proof**. The proposer is then
+penalized, typically by slashing an economic bond provided by the proposer for
+the privilige of being able to propose. Slashing here is similar to slashing of
+validators in proof-of-stake (PoS) networks, and indeed these may be actors
+arranged in a PoS or delegated PoS (dPoS) configuration who take turns being
+the proposer.
+
+In the case where the posted output root was correct, no fraud proof is
+submitted and no action is needed by verifiers; the output is implicitly
+accepted after the window to submit a fraud proof, called the **finalization
+window**, has passed. After this window, typically 7 days, the block cannot be
+reverted. You can read more about the why the finalization window is 7 days
 [here](https://kelvinfichter.com/pages/thoughts/challenge-periods/) (hint: it's
 mostly arbitrary).
 
 In ZK rollups, a finalization window is not needed because the root is not
 accepted unless proof of correct execution, called a **validity proof**, is
 provided. You can read more about validity proofs
-[here]https://ethereum.org/en/developers/docs/scaling/zk-rollups/#validity-proofs).
+[here](https://ethereum.org/en/developers/docs/scaling/zk-rollups/#validity-proofs).
 This is not a rabbit-hole I've gone down yet so I can't explain them myself.
 
 In both rollup regimes there is a trusted party, the sequencer, which we must
@@ -44,8 +51,8 @@ own sequencer, sequencing just one transaction, your own.
 
 Typically the rollup sequencer is run by the rollup developer so censorship is
 not great optics, but recently there was a case where a sequencer was censoring
-transactions, on a new L2 based on the OP Stack called Soneium, developed by
-Sony Group of all people:
+transactions on a new L2 based on the OP Stack called Soneium, developed by Sony
+Group of all people:
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-dnt="true" align="center"><p lang="en" dir="ltr">since i&#39;ve seen a lot of bad takes regarding L2s and their censorship resistance, here&#39;s how i bypassed  <a href="https://twitter.com/soneium?ref_src=twsrc%5Etfw">@soneium</a>&#39;s sequencer and bought a banned token with a forced tx through L1 🧵 <a href="https://t.co/4BzveajLkw">https://t.co/4BzveajLkw</a> <a href="https://t.co/5Mfop9I9M3">pic.twitter.com/5Mfop9I9M3</a></p>&mdash; donnoh.eth 💗 (@donnoh_eth) <a href="https://twitter.com/donnoh_eth/status/1879210463952818472?ref_src=twsrc%5Etfw">January 14, 2025</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
