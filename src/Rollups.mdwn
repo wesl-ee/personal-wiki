@@ -16,7 +16,7 @@ rollups, **optimistic** and **zero knowledge (ZK)**. In both rollup types,
 transactions submitted to the L2 are ordered into blocks by an actor called the
 **sequencer**. The sequencer posts a committment to the order to the L1 rollup
 contract and makes the sequenced transactions available to rollup nodes via a
-**data availabity* (DA) layer. DA can be provided by a sovereign chain like
+**data availabity** (DA) layer. DA can be provided by a sovereign chain like
 [Celestia](https://celestia.org/), [EigenDA](https://www.eigenda.xyz/) which is
 not a sovereign chain,
 [protodanksharding](https://ethereum.org/en/roadmap/danksharding/) a/k/a EIP4844
