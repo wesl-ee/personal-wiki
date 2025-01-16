@@ -14,10 +14,17 @@ Rollups are blockchains themselves: they have their own state and history
 distinct from the L1 on which they are built. There are at least two types of
 rollups, **optimistic** and **zero knowledge (ZK)**. In both rollup types,
 transactions submitted to the L2 are ordered into blocks by an actor called the
-**sequencer**. The sequencer makes these sequenced transactions available to
-rollup nodes which execute them in the provided order. The output of the result
-of executing these transactions is written to an L1 rollup contract by a
-**proposer**.
+**sequencer**. The sequencer posts a committment to the order to the L1 rollup
+contract and makes the sequenced transactions available to rollup nodes via a
+**data availabity* (DA) layer. DA can be provided by a sovereign chain like
+[Celestia](https://celestia.org/), [EigenDA](https://www.eigenda.xyz/) which is
+not a sovereign chain,
+[protodanksharding](https://ethereum.org/en/roadmap/danksharding/) a/k/a EIP4844
+as enabled by the Dencun upgrade, or just plain L1 calldata as was done
+historically. Once made available to rollup nodes via a DA layer transaction
+batches are executed by rollup execution nodes in the committed order. The
+output of the result of executing these transactions is written to an L1 rollup
+contract by a **proposer**.
 
 In optimistic rollups, **verifiers** keep the proposer honest by executing the
 set of sequenced transactions in parallel and verifying the output. If the
@@ -50,7 +57,7 @@ it wishes. But because the sequencer only sequences and does not execute, there
 is a way to force-include a transaction by submitting directly to the L1
 contract and have the transaction executed on the L2. In this way you are your
 own sequencer, sequencing just one transaction, your own. You pay the much cost
-of posting data to the L1 directly in this case.
+of posting to the L1 directly in this case.
 
 Typically the rollup sequencer is run by the rollup developer so censorship is
 not great optics, but recently there was a case where a sequencer was censoring
