@@ -41,7 +41,7 @@ In the case where the posted output root was correct, no fraud proof is
 submitted and no action is needed by verifiers; the output is implicitly
 accepted after the window to submit a fraud proof, called the **finalization
 window**, has passed. After this window, typically 7 days, the block cannot be
-reverted. You can read more about the why the finalization window is 7 days
+reverted. You can read more about why the finalization window is 7 days
 [here](https://kelvinfichter.com/pages/thoughts/challenge-periods/) (hint: it's
 mostly arbitrary).
 
@@ -56,8 +56,8 @@ trust to order transactions for execution. This party can censor transaction if
 it wishes. But because the sequencer only sequences and does not execute, there
 is a way to force-include a transaction by submitting directly to the L1
 contract and have the transaction executed on the L2. In this way you are your
-own sequencer, sequencing just one transaction, your own. You pay the much cost
-of posting to the L1 directly in this case.
+own sequencer, sequencing just one transaction, your own. You pay the cost of
+posting to the L1 directly in this case.
 
 Typically the rollup sequencer is run by the rollup developer so censorship is
 not great optics, but recently there was a case where a sequencer was censoring
