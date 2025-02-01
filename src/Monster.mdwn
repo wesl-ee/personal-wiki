@@ -1,0 +1,49 @@
+[[!meta title="Energy Drink Review — Monster"]]
+[[!tag Energy_Drink Review]]
+
+It's a bit embarassing that I've been doing these energy drink reviews for
+[[months|Ghost_Energy_x_Faze_Clan_Faze_Pop]] and still have not reviewed the OG
+Monster. That changes today. After all, Monster is one of the [[OG energy
+drinks|Living_In_The_Energy_Drink_Renaissance]]; it wouldn't be a proper review
+series if I didn't review the ([[second|Red_Bull]]) OG.
+
+Across the hall from the lab I built all of my [[ECE 306 (Embedded
+Systems)|Embedded_Systems_ECE306]] projects in, nestled in a small alcove, was a
+vending machine that sold the full-sugar Monster, alongside the Java Monsters.
+This vending machine was on the Electrical / Computer Engineering (ECE) side of
+the building, the tactfully-named [Engineering Building 2
+(EB2)](https://visit.ncsu.edu/engineering-building-2/)
+
+In the same building on the Computer Science side there was a Port City Java
+that closed at 3P. Routinely I was in there much, much later than the PCJ was
+open, as I had 24/7 access to the building and the project I was building for
+ECE306 demanded a lot of my time; the small alcove with the vending machine with
+the Monster became a routine visit for these reasons.
+
+I remember distinctly leaving my [[x240|Devices/x240]] in the lab, connected
+over USB to my ECE306 project, typically around 10 at night, and walking the
+short distance to this vending machine. I'd swipe my campus card, debiting my
+[Dining Dollars](https://dining.ncsu.edu/meal-plans/faq/), and watch the robotic
+arm inside the vending machine jolt to life and achieve its purpose for only a
+moment, retrieving my night-black Monster from the cold corner of the machine.
+You were so helpful; thank you.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifwaak2dk6wt76mrm6nzy2d37otiibz3h7yg3sekymufv57rlo42a" size=medium]]
+</figure>
+
+It tastes like battery acid; it's in-your-face; it sort of tastes like sour
+candy; it has all the sugar to prove it. This taste is the baseline, for me,
+that I compare and derive the taste of all energy drinks presented to me because
+it's one of the first ones I remember having.
+
+Because of its early success there are many Monster imitators out there, like
+[[Rip_It_Sting-er_Mo]], and honestly most do a fine job. There's nothing special
+about Monster, especially the original flavor, other than that it was one of the
+OGs from way back. We salute your service.
+
+| | Amount |
+| --- | --- |
+| Volume | 16 floz |
+| Calories | 230cal |
+| Caffeine | 160mg |
