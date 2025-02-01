@@ -11,9 +11,9 @@ April 15, 2023
 </figure>
 
 DJ set captured in real-time with an Intel Realsense depth camera. As with my
-set 2022 set for Millennium Strike I also filmed this in the weird alcove under
-my stairs. This time I recorded the raw sensor data (downlod availability
-pending…)
+[[2022 set for Millennium Strike|DJR3/2022/Millennium_Strike_Episode_7]] I also
+filmed this in the weird alcove under my stairs. This time I recorded the raw
+sensor data (downlod availability pending…)
 
 01. Habstrakt — Préambule
 02. Habstrakt — Tonight
