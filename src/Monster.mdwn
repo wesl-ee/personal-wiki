@@ -18,14 +18,15 @@ In the same building on the Computer Science side there was a Port City Java
 that closed at 3P. Routinely I was in there much, much later than the PCJ was
 open, as I had 24/7 access to the building and the project I was building for
 ECE306 demanded a lot of my time; the small alcove with the vending machine with
-the Monster became a routine visit for these reasons.
+the Monster on _my_ side of EB2 became a routine visit for these reasons.
 
 I remember distinctly leaving my [[x240|Devices/x240]] in the lab, connected
-over USB to my ECE306 project, typically around 10 at night, and walking the
-short distance to this vending machine. I'd swipe my campus card, debiting my
-[Dining Dollars](https://dining.ncsu.edu/meal-plans/faq/), and watch the robotic
-arm inside the vending machine jolt to life and achieve its purpose for only a
-moment, retrieving my night-black Monster from the cold corner of the machine.
+via Mini USB to the MSP430 board controlling my ECE306 project, normally within
+30 minutes of around 10 at night, and walking the short distance to this vending
+machine. I'd swipe my campus card, debiting my [Dining
+Dollars](https://dining.ncsu.edu/meal-plans/faq/), and watch the robotic arm
+inside the vending machine spring to life and achieve its given purpose for only
+a moment, retrieving my night-black Monster from the cold corner of the machine.
 You were so helpful; thank you.
 
 <figure>
