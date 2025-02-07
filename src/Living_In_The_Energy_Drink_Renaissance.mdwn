@@ -5,16 +5,17 @@ of Rockstar in 2001 and Monster Energy in 2002, the US thirst for energy drinks
 went from nonexistent to red hot.
 
 Pushed further by insane bids on behalf of Monster Energy and Red Bull, energy
-drinks forced their way into the US public consciousness around this time. Red
-Bull heavily sponsored Sauber Motorsport AG in F1 races from 1995 until 2005
-when it purchased _its own F1 team_, formerly Jaguar Racing, from Ford. Monster
-Energy pushed its _rockstar_ image by handing out cans at rock concerts, and it
-became a sponsor of Vans Warped Tour in 2003. Rip-It secured a contract with
-the US Department of Defense in 2004 to provide energy drinks in 8oz cans to US
-troops in Afghanistan and Iraq.
+drinks forced their way into the US public consciousness around this time.
+[[Red_Bull]] heavily sponsored Sauber Motorsport AG in F1 races from 1995 until
+2005 when it purchased _its own F1 team_, formerly Jaguar Racing, from Ford.
+[[Monster]] Energy pushed its _rockstar_ image by handing out cans at rock
+concerts, and it became a sponsor of Vans Warped Tour in 2003.
+[[Rip-It|Rip_It_Dragon_Fire]] secured a contract with the US Department of
+Defense in 2004 to provide energy drinks in 8oz cans to US troops in Afghanistan
+and Iraq.
 
-Monster, Red Bull and Rockstar formed the triumvirate of top 3 energy drinks by
-sales volume by 2007. Here is a snapshot of the market that year, by brand.
+Monster, Red Bull and [[Rockstar]] formed the triumvirate of top 3 energy drinks
+by sales volume by 2007. Here is a snapshot of the market that year, by brand.
 
 <table>
   <caption>2007 Energy Drink Brands By Market Share[^1]</caption>
@@ -428,9 +429,11 @@ breakout of the market share as of Q4 2023.
 </table>
 
 It's worth noting that more energy drink brands emerged from the world of
-preworkout supplements than during the 2000s boom. Ghost, C4 and some incumbents
-not on this list like Bucked Up, Lit and Alani Nu were preworkout powders before
-or around the same time that they were reformulated and sold in cans.
+preworkout supplements than during the 2000s boom.
+[[Ghost|Ghost_Energy_x_Warheads_Sour_Watermelon]],
+[[C4|C4_Jolly_Rancher_Green_Apple]] and some incumbents not on this list like
+Bucked Up, Lit and Alani Nu were preworkout powders before or around the same
+time that they were reformulated and sold in cans.
 
 This table is ripped from a Monster shareholder report so it doesn't break out
 the relation of other brands, but many of these are owned by common parent
@@ -442,12 +445,12 @@ which doesn't make this list beyond `ALL OTHER` is a notable independent company
 that began in the preworkout space. Bang is presently a brand of Monster Energy
 after being sued out of existence by Monster itself.
 
-Many energy drinks, like Bucked Up and C4, tease the FDA's 400mg per day
-suggestion. These drinks, mostly with a past (and present) as preworkout
-supplements, market themselves as anaerobic performance enhancements to be
-consumed prior to a workout like their preworkout supplement formulas. Their
-purpose is to provide more impetus for explosive performance in the gym and to
-increase your max effort output, which they do quite well. And similar to
+Many energy drinks, like [[Bucked Up|Bucked_Up_Miami]] and C4, tease the FDA's
+400mg per day suggestion. These drinks, mostly with a past (and present) as
+preworkout supplements, market themselves as anaerobic performance enhancements
+to be consumed prior to a workout like their preworkout supplement formulas.
+Their purpose is to provide more impetus for explosive performance in the gym
+and to increase your max effort output, which they do quite well. And similar to
 preworkouts they often have other additives like beta alanine, which makes my
 skin tingly (this is evidently intended), and L-theanine and taurine. Of course
 these energy drinks also have elevated levels of caffeine in them, often 250mg
