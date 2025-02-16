@@ -1,0 +1,71 @@
+Recently I revived my husband's Nintendo 2DS XL and flashed custom firmware to
+it. This lets me install custom games and applications via a multitude of
+installers, including one called [FBI](https://wiki.hacks.guide/wiki/3DS:FBI).
+FBI accepts files in the CIA format, an installable 3DS format that's the same
+as used in the eShop.
+
+Because the DS is a fun little portable console I decided to use it as the main
+vehicle for learning new [[Japanese]] words. Recently I remembered how much I've
+forgotten how to write in Japanese, and a portable console with a stylus is a
+nice way to practice. Plus there are lots of games on the DS I can learn from
+while I practice writing. While I researched what games are heavy on dialogue
+on the DS I remembered that the PC98 was a thing and had so, so many _adventure_
+games that were heavy on text. And I love its color palette. As it happens there
+is a port of [Neko Project 2 for the
+DS](https://www.gamebrew.org/wiki/NP2_for_3DS), a PC98 emulator.
+
+To install a game typically I can find a QR code online which encodes a link to
+a CIA file, which I can scan with the DS via FBI and it handles the download and
+install for me. For NP2 I had access to the CIA file from my computer but no QR
+code. My solution was to use ftpd, which my hacked DS already had, to transfer
+the CIA file from my computer to the DS.
+
+FTP is weird and old and really insecure, but it's really convenient. The
+commands I used to transfer this file from my computer to the DS were.
+
+```
+wesl-ee@particle-arts np2for3ds/np2 > ftp 10.0.0.238 5000
+Connected to 10.0.0.238.
+220 Hello!
+Name (10.0.0.238:wesl-ee):
+230 OK
+ftp> put NP21.cia /NP21.cia
+200 OK
+150 Ready
+ftp>
+```
+
+Opening FBI, clicking "SD Card" and then clicking "A" on the file did not give
+me an option to install the game, it only gave the filetype as "Archive" and
+presented options to rename, copy, or delete the file. According to what I read
+online, I expected to see an "Install CIA File" option.
+
+I ruminated on the possibilities and figued the file was corrupted somehow.
+There were two options: (1) bad download or (2) corruption during network
+transfer. Because FTP uses TCP for transfers, the possibility of experiencing
+actual file corruption during this step were slim. And I trusted the download I
+had found was legit.
+
+This seemed to be a very niche issue but I had some ideas. Looking online I
+found no immediately relevant information and FBI was not being very helpful.
+
+I tapped my knowledge of FTP and remembered a fact buried in the back of my mind
+somewhere, that FTP has two different transfer modes: ASCII and binary. ASCII
+mode is used for text files and will convert all line-ending characters (LF,
+`\n` on Unix-like systems and `\r\n` on Windows) when transfering to an
+operating system that uses the other. This is the default mode according to RFC
+specs and the default mode of almost all distributions of the `ftp` binary,
+which I was using. In order to not induce this behavior, any session should
+begin with the command `binary`, switching the mode from ASCII to binary. Binary
+transfer mode does not modify any of the underlying data being transfered.
+
+This was the issue affecting my CIA file: all of the characters which _would
+have_ been `\r\n` were being converted to `\n`. This was corrupting the file.
+Running `binary` fixed that issue, and I was able to install the file normally
+in FBI. Moving the CIA file to the DS via SD card would have worked too!
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicvna3oai4hyktwxgyd24bvzq3xgdk3n66arpxsfvfdbtjjqsqb3i" size=medium]]
+<figure>Games!</figure>
+</figure>
+
