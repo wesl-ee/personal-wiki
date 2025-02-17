@@ -27,3 +27,8 @@ king|Red_Bull]].
 <figcaption>This is *not* the king in question</figcaption>
 </figure>
 
+| | Amount |
+| ---- | ------ |
+| Volume | 12floz |
+| Caffeine | 114mg |
+| Calories | 10cal |
