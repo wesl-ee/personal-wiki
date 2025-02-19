@@ -64,6 +64,7 @@ tables|Distributed_Hash_Table]].
 </figure>
 
 This image can be represented by the identifier
+
 ```
 bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i
 ```
@@ -73,6 +74,7 @@ explorer](https://cid.ipfs.tech/#bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmf
 This CID indicates that it itself is base32 encoded ('b'), hashed the data using
 `sha2-256`, and that the data at this hash should be treated as raw data. The
 same data can be identified by the string
+
 ```
 bafkr2qcpiobgk7f3jrowospr6rdeyhasc3lfyeuosms22pi35dhsp5af4pjusnz7l67xyd7vogirmr2dnnf75zbc2xjmkkyne72azxdctlgie
 ```
