@@ -17,7 +17,8 @@ of hash it is. Given that no single character exceeds `f` it is likely this is a
 hex-encoded string, but this is just a guess. Assuming this, then the 64
 characters describe a 256-bit hash. But what 256-bit hash exactly? There are
 many hashes which can produce a 256-bit output, such as SHA-256, SHA3-256,
-RIPEMD-256 and more.
+RIPEMD-256 and more. Furthermore, you only think this string is a hash because I
+told you; what if I was not online to tell you?
 
 For long-running systems there are significant downsides to assuming encodings
 or algorithms will never change. Imagine that a protocol identifies data using
@@ -62,12 +63,19 @@ Consider this picture from my article on [[Distributed_Hash_Tables]].
 </figure>
 
 This image can be represented by the identifier
-`bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i` ([CID
+```
+bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i
+```
+
+([CID
 explorer](https://cid.ipfs.tech/#bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i)).
 This CID indicates that it itself is base32 encoded ('b'), hashed the data using
-`sha2-256`, and that the data at this hash should be treated as raw data.
-The same data can be identified by the string
-`bafkr2qcpiobgk7f3jrowospr6rdeyhasc3lfyeuosms22pi35dhsp5af4pjusnz7l67xyd7vogirmr2dnnf75zbc2xjmkkyne72azxdctlgie`
+`sha2-256`, and that the data at this hash should be treated as raw data. The
+same data can be identified by the string
+```
+bafkr2qcpiobgk7f3jrowospr6rdeyhasc3lfyeuosms22pi35dhsp5af4pjusnz7l67xyd7vogirmr2dnnf75zbc2xjmkkyne72azxdctlgie
+```
+
 ([CID
 explorer](https://cid.ipfs.tech/#bafkr2qcpiobgk7f3jrowospr6rdeyhasc3lfyeuosms22pi35dhsp5af4pjusnz7l67xyd7vogirmr2dnnf75zbc2xjmkkyne72azxdctlgie)),
 an identifier which is base32 encoded ('b') and which identifies raw data, but
