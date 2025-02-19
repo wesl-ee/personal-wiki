@@ -1,0 +1,78 @@
+A multiformat is a method of embedding metadata describing a value into the
+value itself. Such values are called `self-describing` values because they
+contain information about the value in-band. This contrasts with out-of-band
+descriptions of data, such as pre-shared schema files or implicit agreements
+about shared data within contexts. File formats with magic values can be
+considered a type of self-describing format.
+
+One example of where multiformat is useful is when sharing data hashes. Consider
+I present you with the following hash of some data:
+
+```
+9ceb0f9889b786a37fd5e754af12f721aa3d8cb18276dd2616d031d2de53a4f2
+```
+
+Many things about this hash are ambiguous, especially its encoding and what type
+of hash it is. Given that no single character exceeds `f` it is likely this is a
+hex-encoded string, but this is just a guess. Assuming this, then the 64
+characters describe a 256-bit hash. But what 256-bit hash exactly? There are
+many hashes which can produce a 256-bit output, such as SHA-256, SHA3-256,
+RIPEMD-256 and more.
+
+For long-running systems there are significant downsides to assuming encodings
+or algorithms will never change. Imagine that a protocol identifies data using
+MD5 hashes before it is discovered that MD5 is insecure. Such a protocol would
+face a crisis when needing to switch to a more secure algorithm. Given a more
+secure algorithm which also produces 128-bit hashes[^1] it is impossible to
+distinguish it from an MD5 without some hack.
+
+Multiformat aims to eliminate this ambiguity. Furthermore, multiformat aims to
+make the encoded data forward-compatible, addressing the problem given in the
+above example. There are a few multiformat specifications out there; these are
+the most mature ones:
+
+- [multihash](https://github.com/multiformats/multihash)
+- [multiaddr](https://github.com/multiformats/multiaddr)
+- [multibase](https://github.com/multiformats/multibase)
+- [multicodec](https://github.com/multiformats/multicodec)
+
+All of these specifications were created to address needs which arose during the
+implementation of [[IPFS]]. Multihash was the first to be created and is present
+in CIDv0. It describes the hashing algorithm which was used to create the CID.
+When adding a new file to IPFS with CIDv0, the ipfs binary defaults to using
+SHA2-256. When encoded, this visually becomes a `Qm` prefix, and explains why
+many IPFS CIDs begin with `Qm`.
+
+CIDv1 added multibase and multicodec to CIDs. Where previously it was assumed to
+always be base `base58-btc` and the codec to always be `dag-pb`, the base and
+codec are now explicitly encoded into the CID.
+
+These are not just relevant to IPFS but can be used on any platform which
+indexes data by its hash. Bluesky, for instance, [uses
+CIDv1](https://bsky.app/profile/wesl.ee/post/3lbqt2p5s622m). I use the same CID
+format to index images on my [[HooYa]] platform.
+
+Example
+-------
+
+Consider this picture from my article on [[Distributed_Hash_Tables]].
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i" size=medium]]
+</figure>
+
+This image can be represented by the identifier
+`bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i` ([CID
+explorer](https://cid.ipfs.tech/#bafkreie45mhzrcnxq2rx7vphksxrf5zbvi6yzmmco3osmfwqghjn4u5e6i)).
+This CID indicates that it itself is base32 encoded ('b'), hashed the data using
+`sha2-256`, and that the data at this hash should be treated as raw data.
+The same data can be identified by the string
+`bafkr2qcpiobgk7f3jrowospr6rdeyhasc3lfyeuosms22pi35dhsp5af4pjusnz7l67xyd7vogirmr2dnnf75zbc2xjmkkyne72azxdctlgie`
+([CID
+explorer](https://cid.ipfs.tech/#bafkr2qcpiobgk7f3jrowospr6rdeyhasc3lfyeuosms22pi35dhsp5af4pjusnz7l67xyd7vogirmr2dnnf75zbc2xjmkkyne72azxdctlgie)),
+an identifier which is base32 encoded ('b') and which identifies raw data, but
+which was made by hashing data with the `keccak-512` hashing algorithm.
+
+[^1]: It is unlikely a protocol would switch from MD5 to another 128-bit cipher
+      because 128 is far too few bits in the current day. The hash type could be
+      deduced by its encoded length. But still!
