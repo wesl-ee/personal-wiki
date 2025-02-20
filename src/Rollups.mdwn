@@ -80,7 +80,6 @@ actively censoring you is questionable.
   const root = createRoot(container);
   root.render(
     createElement(BlueskyComments, {
-      "author": 'wesl.ee',
       "uri": 'https://bsky.app/profile/wesl.ee/post/3lfthjigpkc2u',
     })
   );
