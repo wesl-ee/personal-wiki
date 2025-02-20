@@ -70,3 +70,18 @@ The usefulness of purchasing memecoins on a rollup where the developer is
 actively censoring you is questionable.
 
 [^1]: The price to execute transactions on the Ethereum Virtual Machine (EVM)
+
+<script type="module">
+  import { createElement } from 'react';
+  import { createRoot } from 'react-dom/client';
+  import { BlueskyComments } from 'https://unpkg.com/bluesky-comments@0.9.0/dist/bluesky-comments.es.js';
+
+  const container = document.getElementById('bluesky-comments');
+  const root = createRoot(container);
+  root.render(
+    createElement(BlueskyComments, {
+      "author": 'wesl.ee',
+      "uri": 'https://bsky.app/profile/wesl.ee/post/3lfthjigpkc2u',
+    })
+  );
+</script>
