@@ -34,3 +34,5 @@ without all its sugar.
 [^1]: [Review for NOS Sugar Free](https://caffeinetheenergyblog.blogspot.com/2012/03/review-for-nos-sugar-free.html) on caffeinetheenergyblog.blogspot.com
 
 [^2]: [Review for NOS Zero](https://caffeinetheenergyblog.blogspot.com/2013/04/review-for-nos-zero.html) on caffeinetheenergyblog.blogspot.com
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lekhn7k5hc2z"]]
