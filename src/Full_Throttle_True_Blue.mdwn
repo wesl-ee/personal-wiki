@@ -33,3 +33,5 @@ like blue agave.
 | Volume | 16 floz |
 | Calories | 230cal |
 | Caffeine | 160mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3litjya4ikc24"]]
