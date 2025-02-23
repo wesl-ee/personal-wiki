@@ -22,3 +22,5 @@ is an energy drink to avoid unless absolutely necessary.
 <figcaption>A true patriot holding a Rip It Tribute Cherry Lime and Black &
 Milds outside an Exxon</figcaption>
 </figure>
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ldapm65uqs2s"]]

@@ -118,6 +118,7 @@ section#content .longlink {
 a { text-decoration: none }
 a { color: blue; transition: color .2s }
 a:hover { color: red }
+
 section#content a[href^="."], section#content a[href^="/"] {
 	background-image: linear-gradient(blue, blue);
 	padding: .2ch .5ch;
@@ -512,3 +513,8 @@ ins {
   opacity: 1;
   pointer-events: none;
 }
+
+/* bsky-comments */
+#bluesky-comments a:hover { color: revert }
+#bluesky-comments p { margin: 0 }
+#bluesky-comments ._container_1pvtk_1 { max-width: revert }

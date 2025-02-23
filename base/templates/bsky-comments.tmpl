@@ -1,0 +1,16 @@
+<script type="module">
+  import { createElement } from 'react';
+  import { createRoot } from 'react-dom/client';
+  import { BlueskyComments, BlueskyFilters } from 'https://unpkg.com/bluesky-comments@0.9.0/dist/bluesky-comments.es.js';
+
+  const container = document.getElementById('bluesky-comments');
+  const root = createRoot(container);
+  root.render(
+    createElement(BlueskyComments, {
+      "uri": '<TMPL_VAR uri>',
+      "commentFilters": [
+        BlueskyFilters.MinCharacterCountFilter(1),
+      ],
+    })
+  );
+</script>

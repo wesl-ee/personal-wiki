@@ -42,6 +42,15 @@
 </TMPL_LOOP>
 </TMPL_UNLESS>
 
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18",
+    "react-dom": "https://esm.sh/react-dom@18",
+    "react-dom/client": "https://esm.sh/react-dom@18"
+  }
+}
+</script>
 </head>
 <body>
 
@@ -232,13 +241,5 @@ Created <TMPL_VAR CTIME>
 <TMPL_IF HTML5></footer><TMPL_ELSE></div></TMPL_IF>
 
 <TMPL_IF HTML5></article><TMPL_ELSE></div></TMPL_IF>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@18",
-    "react-dom": "https://esm.sh/react-dom@18"
-  }
-}
-</script>
 </body>
 </html>
