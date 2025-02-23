@@ -1,7 +1,7 @@
 [[!meta title="Instant Noodles Review — Maruchan Instant Lunch Chili Piquin and Shrimp"]]
 [[!tag Instant_Noodles Review]]
 
-Random pull from a convenience store. It says "CAJUN style on the front but
+Random pull from a convenience store. It says "CAJUN style" on the front but
 cajun cooking normally uses cayenne pepper for heat, not typically piquin. Maybe
 it's because of the shrimp? In any case I had already dedicated 5 seconds of
 thought to this cup already so I picked it up. The Maruchan Instant Lunch
@@ -23,3 +23,12 @@ shrimp, like [[Maruchan_Cup_Beef_Flavor]], have been fine. In Japan, seafood cup
 noodles, especially the one from Nissin, are [very
 popular](https://prtimes.jp/main/html/rd/p/000000023.000135215.html). Maruchan
 US people should take note.
+
+| | Amount |
+| ---- | ------ |
+| Calories | 290cal |
+| Fat | 12g |
+| Carbohydrates | 39g |
+| Sodium | 1080mg |
+| Protein | 6g |
+
