@@ -42,3 +42,4 @@ through. Nothing interesting beyond that.
 | Sodium | 1230mg |
 | Protein | 6g |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lj53snhab22k"]]
