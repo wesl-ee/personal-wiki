@@ -1,18 +1,20 @@
 [[!meta title="Energy Drink Review — Celsius Raspberry Açaí + Green Tea"]]
 [[!tag Energy_Drink Review]]
 
-Gee bill, your mom lets you have _two_ health gimmicks, raspberry açaí _and_
+[Gee
+Bill](https://i.kym-cdn.com/entries/icons/original/000/000/988/1217548733985.jpg),
+how come your mom lets you have _two_ health gimmicks, raspberry açaí _and_
 green tea? Yes, if you get the Celsius <span style="color:tomato">Raspberry
-Açaí</span> <span style="color:springgreen">+ Green Tea</span> you too can
-drink deep of these superfoods that are in about every health food these days.
-Well, it actually doesn't have açaí in it; just natural flavors that are
-intended to mimic it. The ingredients list supports that it does have some
-amount of green tea extract, however.
+Açaí</span> <span style="color:springgreen">+ Green Tea</span> you too can drink
+deep of these superfoods that are in about every health food these days. Well,
+it actually doesn't have açaí in it; just natural flavors that are intended to
+mimic it. The ingredients list supports that it does have some amount of green
+tea extract, however.
 
 <figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicu2dzs4owifct4bhtah6oi3k6mk5ebrqaynj4prlvf6atstagsfe" size=medium]]
 <figcaption>Did someone say [green
 tea](https://youtu.be/wo62NTsqcUg)?</figcaption>
-[[!template id="hooya-img.tmpl" cid="bafkreicu2dzs4owifct4bhtah6oi3k6mk5ebrqaynj4prlvf6atstagsfe" size=medium]]
 </figure>
 
 This drink is somewhat sour in a very contrived way. Not like citric acid sour
@@ -49,3 +51,5 @@ biotin deficiency can be fatal?
 | Biotin | 300mcgmg |
 | Panthotenic Acid | 10mg |
 | Chromium | 50mcg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lj5557qwck2k"]]
