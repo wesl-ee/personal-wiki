@@ -7,7 +7,7 @@ everything nearby was closed and this was the most substantial meal they had. I
 cooked it in the cup with boiling water from the coffee machine. Take a look at
 the nice man on the cup livery.
 
-<figure class="image-square">
+<figure>
 [[!template id="hooya-img.tmpl" cid="bafkreifbjnjuvt7zdobybfz3v7ilmjf44lznsiniq37qrpawgxr7navtry" size=medium]]
 </figure>
 
