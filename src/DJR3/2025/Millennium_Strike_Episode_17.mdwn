@@ -1,0 +1,38 @@
+[[!tag DJ_Set]]
+
+[ [Watch on YouTube](https://youtu.be/xVzLMweR30c) / [[!myipfs Qmf325QvppBfLYiDW9Amim2FxtF6ihc9pVuCRijJQ2ZRvo desc="Download from IPFS"]] ]
+
+February 21, 2025
+
+This is the first Millennium Strike event I've played since [[Prologue
+2023|DJR3/2023/Millennium_Strike_Prologue]] and the first URL show I've done
+with MS since [[Episode 7|DJR3/2022/Millennium_Strike_Episode_7]] way back in 2022.
+The visuals here are a custom [next.js](https://nextjs.org/) webpage... don't
+ask! But the code is somewhat based off this web browser game I made called
+[[Browser_Games/Click_The_Targets]], inspired by some cozy Web 1.0 games I
+played on the [Geocities archive](https://geocities.restorativland.org/).
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiarpytailqr5pwkedqyndosz2ummpirxaidtkgwsxq5r6sxa2ezr4" size=medium]]
+</figure>
+
+1. maniken05 — b444cccckkkkkkk
+2. Gesaffelstein — Psycho
+3. Masakatsu Takagi — marginalia #83
+4. Aphex Twin — avril 14th
+5. XEDRA — INTRO
+6. NZE NZE — Yemendzime
+7. Water Spirit — TECHNO GENERATION
+8. Warface — Heart Bass
+9. Mura Masa — Hell
+10. Gesaffelstein — Hellifornia
+11. ISOKNOCK — TROUBLE
+12. KAVARI — Attachment Style
+13. GRRL — Night Kids
+14. Damian Avila — DJ TOOL
+15. Dog Blood — KOKOE (with Otira)
+16. Knock2 — shake!the!city!
+17. Porter Robinson — Unison (Mikkas Remix)
+18. Audien — Iris
+19. wisp X — Chrono Field
+
