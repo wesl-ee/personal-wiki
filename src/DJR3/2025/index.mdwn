@@ -1,0 +1,1 @@
+[[!inline  archive="yes" sort="age" atom="no" rss="no" pages="./2025/*"]]

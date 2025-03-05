@@ -12,6 +12,9 @@ ask! But the code is somewhat based off this web browser game I made called
 [[Browser_Games/Click_The_Targets]], inspired by some cozy Web 1.0 games I
 played on the [Geocities archive](https://geocities.restorativland.org/).
 
+The IPFS version has the full set whereas I had to cut some from the YouTube
+upload because copyright.
+
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreiarpytailqr5pwkedqyndosz2ummpirxaidtkgwsxq5r6sxa2ezr4" size=medium]]
 </figure>

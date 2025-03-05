@@ -7,6 +7,7 @@ I DJ as DJR3 playing roughly these these non-exclusive genre tags:
 + French House
 
 <figure class="image-square small">
+[[!template id="hooya-img.tmpl" cid="bafkreiarpytailqr5pwkedqyndosz2ummpirxaidtkgwsxq5r6sxa2ezr4" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreifgdumzk3ofei5aeca5jhwd4gt6tioxbwh6jxqw6urlt2ohenrsjm" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreibxtukg6zkj7enofjqj2vozfscybojg26bc2d2bspf74eldolg22a" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreic7r3l4bgpvsocpautaqwzwrdeahs2ehygcyyksizvayt67zotgke" size=medium]]
@@ -20,7 +21,7 @@ I DJ as DJR3 playing roughly these these non-exclusive genre tags:
 [[!template id="hooya-img.tmpl" cid="bafkreibbs2typ7ikfz4miyz4fwogypmyimdetd7afze2jo353zqsefi2sa" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreifbkzbkhugktf5ioccssnb2ws7fgvyij6qn272i2hjzmz2rz7bmcu" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreia2bjsnmxnmcpq64ibe7ss3f34hlbj3nhxamjbo4helem7jatcjda" size=medium]]
-<img src="https://web.hooya.wesl.ee/cid-content/bafkreidre7babb4jqe7vd3fspd432j5f6x33xh5vo6mge4rzep3ndpbm6i" />
+<div><img src="https://web.hooya.wesl.ee/cid-content/bafkreidre7babb4jqe7vd3fspd432j5f6x33xh5vo6mge4rzep3ndpbm6i" /></div>
 [[!template id="hooya-img.tmpl" cid="bafkreifqgqa6xkkmzkdkdnwokcjh3bi77tbbhgvqqf6d63ygmuoaa552lq" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreifajnshvcx737wxzcffdrbnni24wqiw3w5hb6ughwcilcfl4con5m" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreif25bord4kqhuhgpfdioogmocqhmnkqlulqkyg52p2aga2wdpk634" size=medium]]

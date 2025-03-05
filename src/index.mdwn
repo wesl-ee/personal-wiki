@@ -68,6 +68,13 @@ What's New?
 	and !shortcuts/*
 	and !Discover/*
 	and !Discover
+	and !DJR3/2019
+	and !DJR3/2020
+	and !DJR3/2021
+	and !DJR3/2022
+	and !DJR3/2023
+	and !DJR3/2024
+	and !DJR3/2025
 	and !index"
 ]]
 
