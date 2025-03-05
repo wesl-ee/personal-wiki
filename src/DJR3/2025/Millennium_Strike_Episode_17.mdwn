@@ -39,3 +39,4 @@ upload because copyright.
 18. Audien — Iris
 19. wisp X — Chrono Field
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ljmfsinsdk2b"]]
