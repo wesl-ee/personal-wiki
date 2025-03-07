@@ -2,14 +2,18 @@
 [[!tag Energy_Drink Review]]
 
 The introduction of a Spring Edition Red Bull is a first for the US market, and
-which has happened over 12 years after Red Bull"Editions" were introduced in
-2013 with the Red, Silver and Blue edition. These 3 tasted like cranberry, lime
-and blueberry respectively. Seasonal editions were introduced not long after
-with the Summer 2014[^1] can, later enshrined as the Yellow Edition in 2015 and
-made permanent. Through the years, some seasonal flavors have become permanent
-and some have replaced existing Editions after their brief tenure as the
-seasonal flavor because of dwindling sales or whatever for one flavor or
-another.
+which has happened over 12 years after Red Bull "Editions" were introduced in
+late 2012 with the
+[Red](https://caffeineking101.blogspot.com/2012/12/red-bull-red-edition-energy-drink-review.html),
+[Silver](https://caffeineking101.blogspot.com/2012/11/red-bull-silver-edition-energy-drink.html)
+and
+[Blue](https://caffeineking101.blogspot.com/2012/12/red-bull-blue-edition-energy-drink.html)
+edition. These 3 tasted like cranberry, lime and blueberry respectively.
+Seasonal editions were introduced not long after with the Summer 2014[^1] can,
+later enshrined as the Yellow Edition in 2015 and made permanent. Through the
+years, some seasonal flavors have become permanent and some have replaced
+existing Editions after their brief tenure as the seasonal flavor because of
+dwindling sales or whatever for one flavor or another.
 
 The 2025 Spring Edition _Grapefruit & Blossom_ released on March 3, 2025[^2] and
 almost immediately I found it on the shelf of my local Speedway (formerly Hess)
@@ -51,5 +55,7 @@ very good.
 | Caffeine | 114mg |
 
 [^1]: [https://www.energydrinkmania.net/en/news/2014/06211230.html](https://www.energydrinkmania.net/en/news/2014/06211230.html)
+
 [^2]: I am the source of this information. I am a [[!wikipedia Primary_source]]
-[^3]: [](https://www.energydrinkmania.net/en/red_bull/redbull_spring_edition_2025_strawberry_japan.html)
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ljrdnknt522u"]]
