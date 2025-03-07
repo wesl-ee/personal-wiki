@@ -48,7 +48,7 @@ biotin deficiency can be fatal?
 | Niacin | 20mg |
 | Vitamin B6 | 2mg |
 | Vitamin B12 | 6mcg |
-| Biotin | 300mcgmg |
+| Biotin | 300mcg |
 | Panthotenic Acid | 10mg |
 | Chromium | 50mcg |
 
