@@ -37,3 +37,5 @@ pleasant, cheap, and does have some sugar but not too much.
 | Caffeine | 60mg |
 
 [^1]: [This LA Times article from late '02](https://www.latimes.com/archives/la-xpm-2002-dec-25-fo-cocktail25-story.html)
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ljvpcfear22t"]]
