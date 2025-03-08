@@ -1,0 +1,39 @@
+[[!meta title="Energy Drink Review — Vitaminwater Energy Tropical Citrus"]]
+[[!tag Energy_Drink Review]]
+
+Vitaminwater is one of those brands I typically ignore, along with all other
+"health" branded drinks, because I normally get my [daily
+dose](https://www.youtube.com/watch?v=dQw4w9WgXcQ) of vitamins and minerals from
+my diet.
+
+But this isn't just normal Vitaminwater though. And it's not really an energy
+drink either, but it _does_ have 60mg of caffeine and has _energy_ in the title.
+This flavor, Energy Tropical Citrus has been on shelves since at least 2002[^1].
+Some sources I've seen list the caffeine content at 50mg but the bottle I have
+in my hands says 60mg. They probably adjusted it some time between release and
+now. Not that a difference of 10mg is perceptible, but it does push the drink to
+being equivalent to about half a 12oz [[Red_Bull]].
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidhenz7qjqgwsbh735vucai5wcadjbl7co32m2v7p3ec5q2kp37du" size=medium]]
+</figure>
+
+This drink is very easy to drink and very inoffensive. Tastes like water with a distant echo
+of orange citrus. Somewhat bitter. If this marketed as an energy drink, I'd be
+upset, because it's none of the things energy drinks are, even the
+non-carbonated ones. But, as a drink that happens to have caffeine, it's
+pleasant, cheap, and does have some sugar but not too much.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreienm33kkpl6xmj7uljnauzjyjbojeue3poaexsi5oyyp53kll4lf4" size=medium]]
+<figcaption>50 Cent drinking his branded Formula 50 Vitaminwater.
+</figure>
+
+| | Amount |
+| --- | --- |
+| Volume | 20 floz |
+| Calories | 100cal |
+| Carbohydrates | 27g |
+| Caffeine | 60mg |
+
+[^1]: [This LA Times article from late '02](https://www.latimes.com/archives/la-xpm-2002-dec-25-fo-cocktail25-story.html)
