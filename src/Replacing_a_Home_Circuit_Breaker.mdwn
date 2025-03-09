@@ -138,7 +138,7 @@ no, GFCI/AFCI can live on the breaker too. GFCI breakers eliminate the need for
 individual protection at the outlet.
 
 Secondly, my panel is made by [[!wikipedia Eaton_Corporation]] which makes
-breakers for both [[!wikiedia Square_D]] panels (Eaton calls these
+breakers for both [[!wikipedia Square_D]] panels (Eaton calls these
 UL-Classified) and Cutler-Hammer panels, a brand which Eaton acquired.
 Mistakenly, I bought the GFCI/AFCI Square-D breaker before learning this.
 
