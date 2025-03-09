@@ -1,0 +1,173 @@
+I live in a home that was built in 2018. Having lived here since 2022 I
+would not expect that I'd need to perform much upkeep on this home, but
+nevertheless because there are so many moving parts to a home there are at least
+some parts that need replacing anyways. Some things are more frustrating,
+expensive, and require more expertise to replace than others. One repair which
+came up recently within my home was quite small and easy to do and I think more
+could benefit from knowing at least how it's done, if not to do it yourself then
+to know how to approach hiring someone to do it.
+
+Problem
+-------
+
+One day I open the door to my master bedroom and notice the light on the
+overhead fan is off even though the light switch for the overhead fan is on. I
+toggle the light switch a few times; nothing happens. Toggling the immediately
+adjacent fan switch does nothing, also, and the fan remains off no matter how
+many times I throw it. The lights and fans in the master bath, adjacent to the
+master bedroom, do not work either.
+
+This is a problem. I'd rather be able to use the lights and fans rather than for
+them to exist for just decoration. At this moment I believe (and was correct in
+believing) that the lights and fans and outlets in both rooms are connected to
+the same breaker in the breaker panel.
+
+Background
+----------
+
+If you don't know, outlets and fans and lights and stuff are routed through a
+building's breaker panel which is responsible for distributing and regulating
+the current delivered to all outlets on every breaker's circuit. There are many
+individual breakers in a breaker box. With the cover off, mine looks like this:
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidpwg57ok4kwlyxpdt5wr4v4mn7re7u7ds6xua5zdywkr66m3pu2m" size=medium]]
+</figure>
+
+To analyze this box, starting from the bottom, there are two very thick cables,
+one red and one black, coming through an inlet at the bottom of the box. These
+cables are the exclusive conduits for power to my home. They are fed into a 200A
+breaker visible in the image. Both these cables carry alternating current (AC)
+power signals. They are 180° out of phase, such that when one phase is at its
+peak positive voltage (120v) the other is at its peak negative voltage (-120v).
+By their powers combined they can provide an appliance with 240v. If you
+connected these lines to an oscilloscope you'd see that the signal on these
+wires [does not really peak at 120v but at
+170v](https://en.wikipedia.org/wiki/Root_mean_square#In_electrical_engineering)
+but this is very beside the point unless you care what the difference between
+measuring RMS and peak voltage is. In any case, no matter how you measure it,
+these wires transmit power to my home from the street.
+
+The power company ensures these cables have a nominal 240v RMS voltage across
+them. This is the standard RMS voltage in all 50 US states, US territories, some
+Central American countries and some regions of Japan. The frequency across these
+places may differ but that's not important right now.
+
+In addition to these two cables there is a single neutral cable, provided by the
+power company, tapped from the center of the same upstream transformer which
+provides the 240v. Relative to the cables carrying AC power this neutral wire is
+a constant 0v so any appliance provided with neutral wire and any one of the power
+wires will see a 120v RMS signal.
+
+Anyway, none of this happens in the home. It all happens at a transformer
+somewhere within my neighborhood, and each transformer in the neighborhood feeds
+a few houses. I think these are the small green boxes I see every couple houses
+here. Inside my breaker box I only get three wires: the two thick power lines
+and a neutral. The neutral is likely grounded to the Earth with a grounding rod
+very nearby. Older homes have metal plumbing so the ground can be short to Earth
+via the home plumbing itself.
+
+In the breaker box picture, coming out of the top of the 200A breaker are two metal
+bus bars that are sort of gold colored which feed a series of 15A to 20A
+breakers. These breakers feed the rooms and appliances in my home. Many rooms
+are fed from one breaker, but if at any point appliances on any breaker exceed
+the breaker's rated amperage the breaker will trip and cut power to the rooms on
+the breaker completely. This is a safety thing provided by breakers to prevent
+house fires. Previously this guarantee was provided by fusesqbut fuses are
+little strips of metal that burn up when amperage exceeds the fuse rating and
+fuses were a pain in the ass to replace so everyone uses electromechanical
+breakers now. You can toggle them on or off by throwing a physical switch, which
+toggles whether power is delivered to the circuit from the bus through the
+breaker.
+
+As you may be aware, there is electrical code which enforces safety measures for
+outlets in bathrooms, kitchens and sometimes bedrooms because of increased risk
+of ground faults due to the presence of water. That's because running just 0.01A ~
+0.02A through you can cause muscles to contract and can make it hard for you to
+let go of a live wire! Even small current running directly through your heart
+can kill you too; as little as 10μA can cause fibrilation. But don't worry
+because anything under 200v will probably just travel along your skin, never
+contract your muscles and you'll probably reflexively flinch back and probably
+not die. But better safe than sorry! That's the reason for safety devices like
+**GFCI** (Ground Fault Circuit Interrupters) which is the particular device
+installed in bathrooms and kitchens to cut power much earlier than the 15A
+breaker itself.
+
+A GFCI breaker will typically trip if there is a difference in current of at
+most 6mA between the hot wire and the neutral return wire because the presence
+of a current differential means current is finding some other path to ground on
+that circuit, possibly through you! A GFCI breaker, at least the one I have
+installed in the panel, will also trip on overcurrent.
+
+Solution
+--------
+
+Throwing the breaker back to the "on" position turned the lights back on for a
+day. Then the breaker tripped again. Again I threw it back and it stayed on for
+another day until tripping. We went back and forth for a few days until I
+decided the breaker was in need of replacing. There is additionally a little
+status light on this breaker that flashes when it trips and sometimes it would
+flash 6 times, indicating a self-test failure.
+
+Replacing it did the trick. I went out and bought one on the assumption that
+mine was bad and, sure enough, replacing it stopped the intermittent tripping.
+These are the tools I needed:
+
+- Phillips head screwdriver or bit (panel screws)
+- **Square (Robertson) S2 screwdriver or bit** (breaker and bus bar screws)
+- Correct breaker
+
+In the US a lot of electrical work requires a square screwdriver. I have no idea
+why this is the case. Evidently Canada uses square drivers for a lot more stuff
+than the US does, probably because they are strictly better screws and were
+[invented by a Canadian](https://en.wikipedia.org/wiki/P._L._Robertson).
+
+In addition to not having the correct screwdriver before I began, I bought the
+wrong breaker twice. Third time was the charm. So you can avoid what I did and
+learn, I bought these breakers, in order:
+
+1. Non-GFCI 15A breaker (fits but not GFCI/AFCI)
+2. 15A GFCI/AFCI Square-D breaker [GFTCB115CS](https://www.eaton.com/us/en-us/skuPage.GFTCB115CS.html) (doesn't fit in my panel)
+3. 15A GFCI/AFCI Cutler-Hammer breaker [CH115GF](https://www.eaton.com/us/en-us/skuPage.CHFGF115.html) (correct!)
+
+My first mistake was not realizing that GFCI/AFCI breakers exist. I thought that
+was only technology that existed at the outlet in the form of "test" buttons but
+no, GFCI/AFCI can live on the breaker too. GFCI breakers eliminate the need for
+individual protection at the outlet.
+
+Secondly, my panel is made by [[!wikipedia Eaton_Corporation]] which makes
+breakers for both [[!wikiedia Square_D]] panels (Eaton calls these
+UL-Classified) and Cutler-Hammer panels, a brand which Eaton acquired.
+Mistakenly, I bought the GFCI/AFCI Square-D breaker before learning this.
+
+Finally, I bought the correct breaker, a 15A cutler-hammer GFCI/AFCI breaker,
+part number CH115GF.
+
+To replace the breaker, throw the main breaker (in my case, the 200A one) and
+remove the breaker panel. Mine had six screws along the edges. Throwing the
+big breaker will deenergize everything above it (remember the main breaker
+itself is still is energized from the power company so do not touch it!) and
+with this out of the way you can freely work on the breaker with less risk of
+getting zapped.
+
+With that breaker thrown you can safely rock the troublesome smaller breaker (in
+this case the 15A one I am replacing) off the bus by pressing on the end which
+is furthest from the center of the panel, at least for Cutler-Hammer breakers,
+because Cutler-Hammer breakers have a hook on the bottom which hooks onto a
+metal piece on the bus bar and secures it in place.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreigu5rmn2s37opuyeq6it2ro4ipsc25c6rsb5ftmgzcgspdyt3oioa" size=medium]]
+<figcaption>A Cutler-Hammer breaker halfway out of the panel with wires
+disconnected</figcaption>
+</figure>
+
+With the breaker only attached by the wires, loosen the screws holding the hot
+and return wires in place with a square screwdriver bit (S2). Then, trace the
+breaker's pigtail connection to the neutral bus bar, loosen this screw, and
+fully remove the breaker. Pop in the new breaker, connecting the hot, return and
+pigtail wires in the same configuration as before you removed the old breaker.
+Ensure the wires are held securely and the breaker and neutral bus screws are
+sufficiently tight such that the wires will not just pop out.
+
+[Eazy](https://youtu.be/fJuapp9SORA) enough!
