@@ -1,3 +1,5 @@
+[[!tag Diary]]
+
 I live in a home that was built in 2018. Having lived here since 2022 I
 would not expect that I'd need to perform much upkeep on this home, but
 nevertheless because there are so many moving parts to a home there are at least
@@ -171,3 +173,5 @@ Ensure the wires are held securely and the breaker and neutral bus screws are
 sufficiently tight such that the wires will not just pop out.
 
 [Eazy](https://youtu.be/fJuapp9SORA) enough!
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ljw4plfrsc25"]]
