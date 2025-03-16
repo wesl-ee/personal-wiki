@@ -20,3 +20,4 @@ Blogs
 - [apt-get](https://apt-get.xyz/)
 - [progress](https://www.progress.sh/)
 - [willow](https://willow.phantoma.online/)
+- [Energy Drink-kun](https://www.energydrinkmania.net/en/)
