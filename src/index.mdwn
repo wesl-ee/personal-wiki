@@ -38,9 +38,9 @@ Here are some of the topics I write about here. Larger text means I've written
 more about that topic.
 
 [[!pagestats show="Title" pages="Discover/*
-    and !Energy_Drink
-    and !Review
-    and !Instant_Noodles
+    and !Discover/Energy_Drink
+    and !Discover/Review
+    and !Discover/Instant_Noodles
 "]]
 
 All pages on this site are available in chronological order under the
