@@ -36,8 +36,10 @@ store here and I drank it chilled instead of hot.
 The taste is rich and wet. It is as daunting to approach describing Black as it
 is to approach describing a very dark chocolate; BOSS Black has the same profile
 you find in chocolate with a cocoa content of > 80%; bitter, fruity, somewhat
-salty. It is a beautiful, industrial drink. The size of it means you can put it
-in your pocket 
+salty. It is a beautiful, industrial drink. The small size of it means you can
+put it in your pocket and easily walk around with it before you open it.
+Especially useful if it is hot because the can can be scalding straight from the
+vending machine.
 
 | | Amount |
 | ---- | ------ |
@@ -45,3 +47,5 @@ in your pocket
 | Calories | 0cal |
 | Caffeine | 74mg |
 | Potassium | 111mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lkjr6yeo7k2j"]]
