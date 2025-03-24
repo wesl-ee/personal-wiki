@@ -1,3 +1,6 @@
+[[!meta title="Energy Drink — Ghost Energy x Sour Patch Kids | Redberry"]]
+[[!tag Review Energy_Drink]]
+
 I love Ghost. Right now, second to [[Red_Bull]], they are my favorite brand
 doing it. Consistently they churn out amazing flavors, all with zero sugar,
 which is nice. Red Bull fills a different niche for me as their zero-sugar
@@ -23,3 +26,5 @@ taste.
 | Volume | 16 floz |
 | Calories | 5cal |
 | Caffeine | 200mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ll3t2tsors27"]]
