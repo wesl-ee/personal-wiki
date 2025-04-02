@@ -90,17 +90,18 @@ Mind the Gap
 ------------
 
 The other reason I've hinted at of why these dichotomies are constructed is: it
-makes the world easier to reason about. And generally they're correct.
-
-Most people fall neatly into a left- / right-brain dichotomy. Most people are
-either male or female. Most people are strictly introverted or extroverted. Most
-people are either leaders or followers. Most people see themselves as either one
-or the other.
+makes the world easier to reason about. And generally they're correct. Most
+people fall neatly into a left- / right-brain dichotomy. Most people are either
+male or female. Most people are strictly introverted or extroverted. Most people
+are either leaders or followers. Most people see themselves as either one or the
+other.
 
 Few have the knowledge that the chains that bind them are artificial, that the
-boundaries are arbitrary. Few care to cross the gap.
+boundaries are arbitrary. Fewer care to cross the gap.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreifjt6ncnzztnq4jd5mt6776uerfyovlzruph6sw2cdlz7kmmeuupe" size=medium]]
-<figcaption>Another Feinman</figcaption>
+<figcaption>Another Feynman</figcaption>
 </figure>
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3llsjxxglz22n"]]
