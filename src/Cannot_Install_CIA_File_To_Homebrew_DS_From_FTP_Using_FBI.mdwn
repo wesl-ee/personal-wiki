@@ -23,7 +23,7 @@ the CIA file from my computer to the DS.
 FTP is weird and old and really insecure, but it's really convenient. The
 commands I used to transfer this file from my computer to the DS were.
 
-```
+[[!syntax text="""
 wesl-ee@particle-arts np2for3ds/np2 > ftp 10.0.0.238 5000
 Connected to 10.0.0.238.
 220 Hello!
@@ -33,7 +33,7 @@ ftp> put NP21.cia /NP21.cia
 200 OK
 150 Ready
 ftp>
-```
+"""]]
 
 Opening FBI, clicking "SD Card" and then clicking "A" on the file did not give
 me an option to install the game, it only gave the filetype as "Archive" and
@@ -62,7 +62,21 @@ transfer mode does not modify any of the underlying data being transfered.
 This was the issue affecting my CIA file: all of the characters which _would
 have_ been `\r\n` were being converted to `\n`. This was corrupting the file.
 Running `binary` fixed that issue, and I was able to install the file normally
-in FBI. Moving the CIA file to the DS via SD card would have worked too!
+in FBI. Moving the CIA file to the DS via SD card would have worked too! The
+whole exchange now looks like:
+
+[[!syntax text="""
+wesl-ee@particle-arts np2for3ds/np2 > ftp 10.0.0.238 5000
+Connected to 10.0.0.238.
+220 Hello!
+Name (10.0.0.238:wesl-ee):
+230 OK
+ftp> binary
+ftp> put NP21.cia /NP21.cia
+200 OK
+150 Ready
+ftp>
+"""]]
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreicvna3oai4hyktwxgyd24bvzq3xgdk3n66arpxsfvfdbtjjqsqb3i" size=medium]]
