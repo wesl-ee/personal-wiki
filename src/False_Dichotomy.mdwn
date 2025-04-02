@@ -1,0 +1,106 @@
+[[!tag Diary]]
+
+A false dichotomy is the presentation of two options when more than two options
+really exist. Outside of formal logic and math, dichotomies do not exist. All
+choices which are strictly one-or-the-other are false. It is human nature to
+reduce choices to one-or-the-other. Such reductions are useful, but not
+accurate.
+
+Example
+-------
+
+Here is an example of a false dichotomy that's commonly applied.
+
+There is a notion that people are either _left-brained_ (logical,
+detail-oriented) or _right-brained_ (creative, driven by intuition). This is
+broadly true, and left-brain / right-brain categorization can be a useful tool to
+sort people in instances like, say, while choosing high-school electives:
+creative people should take an art class, and logical people should take a
+computer class, because creative people like to do creative tasks and logical
+people like to do logical tasks.
+
+Everyone has a _natural tendency_ towards being left- or right- brained. That
+fact doesn't preclude people from transcending the category. People do all the
+time. Escape velocity is easy to achieve, with time and effort. Your
+pre-disposition is not a curse of pre-destination.
+
+Broadly, polymaths display this transencendence, and arguably it's what makes
+them great at a wide variety of things. [[!wikipedia Albrecht_Dürer]] was a
+great painter who [created a number of drawing
+aids](https://blogs.unimelb.edu.au/librarycollections/2017/08/13/finding-durers-perspective/),
+called perspective machines, to help artists draw and understand perspective
+when the concept of perspective was still very new. [[!wikipedia
+Richard_Feynman]] was a well-accomplished physicist, having developed quantum
+electrodynamics and the self-named Feynman diagrams, who enjoyed playing the
+bongos and who learned to draw around 1962, at the age of 44, for the reason he
+states below:
+
+> I wanted very much to learn to draw, for a reason that I kept to myself: I
+> wanted to convey an emotion I have about the beauty of the world. It's
+> difficult to describe because it's an emotion. It's analogous to the feeling
+> one has in religion that has to do with a god that controls everything in the
+> universe.
+
+<figure>
+<div>
+[[!template id="hooya-img.tmpl" cid="bafkreibr2edmgqo6aydx6erweujiuit3ekkoey5ervabg7skem6pbbspke" size=medium]]
+</div><div class="image-square">
+[[!template id="hooya-img.tmpl" cid="bafkreid2vjmoqckqxuyhtw2zclbfbwnvlklqimspa4mbf2nawm4263ho2q" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreibve4r7t3v5qoswkewzjum6pwdez4kni6mhy2c5a72pqjassmjxdm" size=medium]]
+</div>
+<figcaption>Top: Engraving by Albrecht Dürer showing the perspective
+machine<br/>Bottom: Two drawings by Richard Feynman</figcaption>
+</figure>
+
+Finally, there are the traditional examples of gifted men with wide expertise
+like Ben Franklin, Thomas Jefferson, and those guys they named the four
+[[!wikipedia Teenage_Mutant_Ninja_Turtles]] after: Leonardo da Vinci, Donatello,
+Raphael and Michelangelo.
+
+The people enumerated here are all notable examples who defy reduction to a
+left- / right- dichotomy, but all cases need not be famous, polymaths, or anyone
+special.
+
+Us Versus Them
+--------------
+
+One of the two reasons I understand dichotomies are constructed is to _other_
+some group. To create an "us" and "them". This tactic is polarizing and maybe a
+symptom of those wanting to incite [[!wikipedia Sensationalism]].
+
+Anything that benefits from increased readership or viewership can benefit from
+sensationalism because emotion, even anger, can drive the headlines that [do
+iron man numbers](https://www.youtube.com/watch?v=WFQK5eF_puo). Headlines
+distilled from broad dichotomies and other generalities abound. Today this
+tactic is practiced largely by online content creators because their income is
+directly tied to audience click-through rate, viewership numbers, and how many
+people follow that affiliate link in the description. Newspapers whose bottom
+line is driven by subscriptions are less susceptible to this, thankfully,
+because a one-off paywalled article with a really upsetting headline does not
+meaningfully increase conversion. Online papers supported by advertising and
+affiliate linking, however, bend the knee.
+
+Just an observation. I try to avoid sensationalism by staying off the parts of
+the Internet where it abounds, and by recognizing it when I see it and simply
+not engaging. Blocking web elements with uBlock Origin has been very helpful in
+scrubbing away comment sections and suggestions from YouTube when I just want to
+watch a video about something I am interested in in peace.
+
+Mind the Gap
+------------
+
+The other reason I've hinted at of why these dichotomies are constructed is: it
+makes the world easier to reason about. And generally they're correct.
+
+Most people fall neatly into a left- / right-brain dichotomy. Most people are
+either male or female. Most people are strictly introverted or extroverted. Most
+people are either leaders or followers. Most people see themselves as either one
+or the other.
+
+Few have the knowledge that the chains that bind them are artificial, that the
+boundaries are arbitrary. Few care to cross the gap.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifjt6ncnzztnq4jd5mt6776uerfyovlzruph6sw2cdlz7kmmeuupe" size=medium]]
+<figcaption>Another Feinman</figcaption>
+</figure>
