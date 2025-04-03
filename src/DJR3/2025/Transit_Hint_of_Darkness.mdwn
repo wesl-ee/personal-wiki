@@ -7,7 +7,7 @@ March 12, 2025
 
 There's a little place in Fairfax, Virginia under a bar. It hosts music every
 Wednesday night. It's been around since 2004. The bar is [The Auld
-Shebeen](https://theauldshebeenva.com/), The venue is
+Shebeen](https://theauldshebeenva.com/). The venue is
 [Transit](https://www.facebook.com/Transit.GiveProductions/).
 
 I was invited to play Transit along with some old and some new friends:
@@ -22,7 +22,7 @@ friends whom I've known for a bit over a year,
 [[!template id="hooya-img.tmpl" cid="bafkreiakt2nuvnb5i7gqt6lagwrqvclvql77vlrjo4jzfdny4jgu6u2rhi" size=medium]]
 </figure>
 
-Equipment was 2x CDJ 3000 coupled with an A9 mixer. I'd never played on CDJ 3ks
+Equipment was 2x CDJ 3000s coupled with an A9 mixer. I'd never played on CDJ 3ks
 before and, briefly before going up, discovered my USB was non-compliant. Before
 the event I had made an ordered playlist in Rekordbox with tracks I was going to
 play for the night but for whatever reason the playlist, along with the cue
