@@ -33,3 +33,5 @@ do it live. So I did.
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreientmpkwfnjq4rhlmff6higp4q5e3asct6yvar6g4mghbina3rjni" size=medium]]
 </figure>
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3llveci7gas2j"]]
