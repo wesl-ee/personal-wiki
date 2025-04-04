@@ -14,9 +14,10 @@ Adding ChatGPT to the url bar is done by by adding a custom search engine and
 setting it as the default. That way, when you type something in and hit enter
 you are greeted with ChatGPT helpfully responding directly to your query.
 
-Paired with my [[Smart_Searching]] across many different sites offering search,
-I am able to find the resource I need or the answer to my question almost every
-time without pulling out the tired `@g` shortcut for a Google search.
+Paired with my [[Firefox/Smart_Searching]] across many different sites offering
+search, I am able to find the resource I need or the answer to my question
+almost every time without pulling out the tired `@g` shortcut for a Google
+search.
 
 Follow the instructions in the above linked article to add a new search
 engine, specifically for Firefox. If you use Chrome then the instructions are
@@ -24,11 +25,23 @@ similar but the menu names are different.
 
 This is the query string you're going to add:
 
-```
+[[!syntax text="""
 https://chat.openai.com/chat?q=%s&temporary-chat=true
-```
+"""]]
 
 Recently `temporary-chat=true` has caused some issues, namely that I get a
 response and then it immediately disappears. It's a bug on their end that's
 forced me to remove it, though I wish it worked because my one-off queries now
 clutter my history. Better than not using it all though.
+
+ChatGPT recently opened access to SearchGPT for everyone, even people not signed
+in. It and is accessible with the following query string:
+
+[[!syntax text="""
+https://chat.openai.com/chat?q=%s&temporary-chat=true&hints=search
+"""]]
+
+I use ChatGPT Search as a drop-in replacement for Google as a tool that I use to
+find documentation or to research things for this wiki. I used
+[Perplexity](https://perplexity.ai) before SearchGPT was made generally
+available.
