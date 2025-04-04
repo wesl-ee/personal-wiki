@@ -44,4 +44,17 @@ https://chat.openai.com/chat?q=%s&temporary-chat=true&hints=search
 I use ChatGPT Search as a drop-in replacement for Google as a tool that I use to
 find documentation or to research things for this wiki. I used
 [Perplexity](https://perplexity.ai) before SearchGPT was made generally
-available.
+available. I like it because it provides sources. For equities and
+cryptocurrencies it has nice graphs. Be warned, even on the nice looking chart
+the price action's still bad.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreig7qoe6ec3sbvebrevmf3uzmkxg755ihazivvauuzwsqkpa35oecm" size=medium]]
+</figure>
+
+Ads are not present right now, but I do not doubt that SearchGPT, and possibly
+other parts of ChatGPT, will be monetized and spots sold to publishers who are
+willing to pay for ranking, similar to how the top-most Google result (when you
+have ad-block disabled) is always an ad. As an LLM it is also prone to mistakes,
+such as when I look up "Best burger place in Raleigh" and it places
+[Char-grill](https://www.chargrillusa.com/) at #5. Inexcusable behavior.
