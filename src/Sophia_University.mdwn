@@ -8,14 +8,15 @@ Summer of 2018 as part of a study-abroad program with
 [[North_Carolina_State_University]], returning eventually that Fall to continue
 my engineering studies at my home university.
 
-I [keep a gallery of pictures online](https://gallery.wesl.ee/gallery/Tokyo18)
-that I took during that time abroad.
+You can see many of the pictures I took during my stay in Tōkyō
+[here](https://public-demo.hooya.wesl.ee/?query=gallery%3Atokyo+18) via an
+instance of my own [[HooYa]] network.
 
 Although my purpose overseas was ostensibly to study, the courses I took while
 abroad gave zero credit towards the completion of my electrical engineering or
 computer engineering degrees. After convincing my advisors that this was
-actually my plan and not some mistake or oversight, I signed up to take these
-classes at Sophia University:
+actually my plan and not some mistake or oversight, I signed up to take the
+following classes at Sophia University:
 
 Course Name                        | Course Number
 -----------------------------------|--------------
@@ -24,20 +25,21 @@ Human Resource Management in Japan | IBE445
 Survey of Japanese Literature 1    | LIT231
 Introduction to Art History        | ART250
 
-Though it looked great on paper, in reality this course load was only settled
-when I finally arrived at the school and had a small orientation with other
-exchange students. There is not perfect communication between universities on
-the other side of the world so exactly what was in the course catalog was not
+Though it looked great on paper, in reality the actual courses I took were only
+settled when I finally arrived at the school and had a small orientation with
+other exchange students. There is not perfect communication between universities
+on the other side of the world. Exactly what was in the course catalog was not
 known until we actually landed.
 
-This [[Japanese]] course was the first time I ever took a formal langauge class;
-before this I only studied on my own. The self-study curriculum I followed began
-my first year of college, and at that time I had already decided to study abroad
-in Japan to continue my language study and improve my speaking, reading, and
-writing skills in an immersive and enriching context.  This, of course, was a
-smart move, because despite delaying my graduation by a semester I am extremely
-glad I made this decision: it gave me the experience I would never trade for
-anything else.
+The [[Japanese]] course I enrolled in at Jōdai was the first formal Japanese
+course I ever took; before this, I only ever studied on my own.
+
+My self-study began my first year of college. At that time I had already decided
+to study abroad in Japan to enrich my language study, to improve my speaking,
+reading, and writing skills in an immersive and enriching context. I'm not sure
+why, I guess I was driven. I look back on deciding to study abroad as one of the
+most important decisions of my life. Despite delaying my graduation by a
+semester it afforded me the experience I would never trade for anything else.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreic4hknafhj233zvyfdufhuuhznap47ycdmjeusxxp74ftcfngj3im" size=medium]]
@@ -50,13 +52,14 @@ anything else.
 (4)](https://en.wikipedia.org/wiki/Route_4_(Shuto_Expressway))</figcaption>
 </figure>
 
-I knew almost no-one from my university who would be abroad at Sophia with me.
-Eventually I met three others from N.C. State also studying alongside me there,
-two who were there only for the semester like myself and one more who had been
-there for a year. We all lived in different wards and in vastly different living
-arrangements, some living with a host family and some just in student dorms. I
-rented an apartment for internationals (mostly students) in Taitō ward, but when
-I initially landed I stayed at a very large hotel in Chiyoda for a few nights.
+I knew almost no-one from my university who would be abroad that year at Sophia
+with me. Eventually, overseas, I met three others from N.C. State also studying
+alongside me there. Two were there only for the semester like myself and one
+more had already been there for a year. We all lived in different wards and in
+vastly different living arrangements, some living with a host family and some
+just in student dorms. I rented an apartment for internationals (mostly
+students) in Taitō ward, but when I initially landed I stayed at a very large
+hotel in Chiyoda for a few nights.
 
 Though I was scheduled to begin school in mid-April, I smartly set aside two
 weeks for settling in and exploring the city. When I touched down in late-March
@@ -86,16 +89,17 @@ flowers of a cherry blossom viewing or simply drinking hot [[Coffee]] from a
 scalding steel can.
 
 I bought the same coffee from the vending machine in Akihabara for a week until
-it ran out, then I went to the one across the street.  BOSS, the boss of them
-all.
+it ran out, then I went to the one across the street.
+[[BOSS|Suntory_Boss_Coffee_Black]], the boss of them all.
 
-After these days I relocated in early-April to the apartment where I would spend
-the rest of the semester. I lived with a smattering of internationals, mostly
-graduate students studying at Tōkyō University or other nearby schools. The
-apartment-mates I saw and talked with were so nice and all left Japan around the
-same time I came back to the states. They were helpful in navigating the
-paperwork surrounding national healthcare and residency, though I still went to
-the office alone and handled it with my budding Japanese.
+After these beautiful days living in the hotel I relocated in early-April to the
+apartment where I would spend the rest of the semester. I lived with a
+smattering of internationals, mostly graduate students studying at Tōkyō
+University or other nearby schools. The apartment-mates I saw and talked with
+were so nice and they all left Japan around the same time I came back to the
+states. They were helpful in navigating the paperwork surrounding national
+healthcare and residency. I still went to the office alone and handled it with
+my budding Japanese, for the sake of my own pride.
 
 When compared to the irregularity of every day I spent sorting through residency
 forms and navigating the Tōkyō subway system, the rigidity afforded by a
@@ -106,8 +110,8 @@ felt like I was an irremovable and definite piece of the city.
 Practicing Japanese
 -------------------
 
-Each morning at 11AM I had a Japanese lesson. The course-content each day was
-structured upon the key-points noted the day before, and the homework passed
+Each morning at 11AM I had a [[Japanese]] lesson. The course-content each day
+was structured upon the key-points noted the day before, and the homework passed
 forward each morning also reinforced these points and prepared us for the
 grammar and vocabulary we'd cover that day. I studied very hard each night and
 did very well in this class, completing many of the optional exercises in the
@@ -145,9 +149,11 @@ naturally a ton to write about. I would watch people come and go from their 3rd
 and 4th period classes, maybe grab something to keep me awake from the 7-11
 downstairs, and lay quietly on the large steps and click-clack my thoughts into
 my diary. Some days the sun slanted through the gap between this floor and the
-next (giving a fantastic view over all the campus) and I would retreat inside to
-some bench or corner. The library was also a pleasant place to work, write and
-study, though I mostly worked outside on benches or at tables.
+next ([giving a fantastic view over all the
+campus](https://web.hooya.wesl.ee/cid-content/bafkreic4hknafhj233zvyfdufhuuhznap47ycdmjeusxxp74ftcfngj3im))
+and I would retreat inside to some bench or corner. The library was also a
+pleasant place to work, write and study, though I mostly worked outside on
+benches or at tables.
 
 [[Arcades]]
 -----------
@@ -247,6 +253,11 @@ ratty the outside looked I would walk in
 <figcaption>Tonkatsu from Danki Tonkatsu, a shop in Asakusa in those weird side-streets near Sensō-ji</figcaption>
 </figure>
 
+When I [[visited Tōkyō again in 2023|Tokyo_23]] my husband
+[got](https://public-demo.hooya.wesl.ee/cid/bafkreibpttiuh7e7fwezmlxhjuiiivqxcuvfthhnubpndtslmkgnihoioa)
+the same tonkatsu set meal at the same place I had the tokatsu set meal in 2018.
+This was 5 years apart. I closed my eyes. It only felt like 5 minutes.
+
 Virtual Self (Akasaka BLITZ)
 ----------------------------
 
@@ -260,7 +271,7 @@ this.
 <figcaption>Virtual Self at Akasaka BLITZ in Tōkyō</figcaption>
 </figure>
 
-It was probably the most English I'd heard around me for months but it was fun
-regardless. The music and feel of the set made me want to play DDR (especially
+It was probably the most English I'd heard around me for months. It was fun
+regardless. The music and vibe of the set made me want to play DDR (especially
 DE-SIRE - SP-TRIP MACHINE ～Jungle Mix～) so the next day I went to Tōkyō
 Leisure Land in Akihabara and played every mix of PARANOiA I had unlocked.
