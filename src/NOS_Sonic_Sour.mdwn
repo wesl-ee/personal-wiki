@@ -2,8 +2,10 @@
 [[!tag Energy_Drink Review]]
 
 High Performance Energy. Enhanced Mental Focus. CMPLX6. It's NOS. But not the
-[[original one|NOS]]. This one is NOS Sonic Sour, delivered in a green can. I
-can already guess what it tastes like before I even open it.
+[[original one|NOS]]. This one is NOS Sonic Sour, delivered in a green can.
+Oddly, it has more caffeine (200mg) than both the original NOS and
+[[GT Grape|NOS_GT_Grape]]. Just looking at the can, I can already guess what it
+tastes like before I even open it.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreigzojjj6rxjajuewx4dqbjl7wmhak6odge73xedxb4a4pahdrsbua" size=medium]]
