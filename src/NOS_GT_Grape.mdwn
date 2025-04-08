@@ -24,3 +24,5 @@ caffeine.
 | Volume | 16 floz |
 | Calories | 210cal |
 | Caffeine | 160mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lmcli7wnhc2s"]]
