@@ -38,3 +38,5 @@ taste but I'm satisfied just having tried it once.
 | Calories | 280cal |
 
 [^1]: [https://guatemalasaludable.blogspot.com/2008/01/raptor-nuevo-producto-en-la-linea-de.html](https://guatemalasaludable.blogspot.com/2008/01/raptor-nuevo-producto-en-la-linea-de.html)
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lmgfyjjlc22r"]]
