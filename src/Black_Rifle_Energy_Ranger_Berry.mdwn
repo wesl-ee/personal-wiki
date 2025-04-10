@@ -45,3 +45,5 @@ fiddle, boy.
 | Biotin | 30mcg |
 | Panthothenic Acid | 5mg |
 | Potassium | 30mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lmiox2cmkk26"]]
