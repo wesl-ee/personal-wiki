@@ -49,5 +49,7 @@ little citric acid.
 | Vitamin B6 | 1.7mg |
 | Vitamin B12 | 2.4mcg |
 | Biotin | 30mcg |
-| Panthotenic Acid | 5mg |
+| Panthothenic Acid | 5mg |
 | Potassium | 30mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lmioia75as2e"]]
