@@ -10,7 +10,7 @@ push you in the way they want you to think. If you lost sight, you'd be free of
 this bias, at the tragic consequence of many other inconveniences.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreiandeeh7cizyjxdcnihroyx544i6rmo25jqu4nbd6s4rtpyp6oq5a" size=medium]]
+<img src="https://web.hooya.wesl.ee/cid-content/bafkreiandeeh7cizyjxdcnihroyx544i6rmo25jqu4nbd6s4rtpyp6oq5a"/>
 <figcaption>I know that game!</figcaption>
 </figure>
 
