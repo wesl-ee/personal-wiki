@@ -1,0 +1,40 @@
+[[!meta title="Energy Drink — Raptor Energy"]]
+[[!tag Review Energy_Drink]]
+
+Information on _Raptor_ on the English Internet is scarce. I did a bit of
+research, looking through import receipts, by looking up the importer I found on
+the side of the plastic bottle, EDT USA corporation, and finding that this
+bottle was exported from Guatemala by Alimentos Maravilla, S.A.
+
+The original Raptor flavor was introduced in 2008[^1]; a cola flavor soon
+followed in 2009. I've never heard or seen of this energy drink until a friend
+offered it to me. The bottle I have in front of me is a PET bottle with a screw
+cap, which is not typical for energy drinks in the [[current
+age|Living_In_The_Energy_Drink_Renaissance]] when most things come in cans.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreih7zi53sg6eb3jcfik2zfygnxwrup6fkilegwpadsxtcz6wnmjsly" size=medium]]
+</figure>
+
+The smell is so sweet, like candy. This is not surprising considering it has 70g
+of sugar in a 20.3 floz bottle. There are other sizes, [up to
+1500ml](http://www.esdemaravilla.com/web/user/ver_producto?id=9), which features
+168g of sugar... wow! That's about as much sugar per unit volume as a Coke.
+
+Throughout the taste of Raptor is sour, redolent of Sweet Tarts. I can't stop
+thinking about how much sugar is in this; 70g is a lot. Raptor tastes great but
+at what cost? The flavor is not nuanced or dynamic like how I'm used to with
+drinks from prolific brands like Red Bull with their 2025
+[[Red_Bull_Sping_Edition_Grapefruit_Blossom]].
+
+I finished the bottle and it made my head hurt for a bit. Overall it's a great
+taste but I'm satisfied just having tried it once.
+
+| | Amount |
+| ---- | ------ |
+| Volume | 20.3floz |
+| Caffeine | 180mg |
+| Sugar | 70g |
+| Calories | 280cal |
+
+[^1]: [https://guatemalasaludable.blogspot.com/2008/01/raptor-nuevo-producto-en-la-linea-de.html](https://guatemalasaludable.blogspot.com/2008/01/raptor-nuevo-producto-en-la-linea-de.html)
