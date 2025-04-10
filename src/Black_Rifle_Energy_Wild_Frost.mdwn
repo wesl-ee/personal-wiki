@@ -1,0 +1,53 @@
+[[!meta title="Energy Drink — Black Rifle Energy Wild Frost"]]
+[[!tag Energy_Drink Review]]
+
+Our eyes prompt us as to how things may taste. Things in blue cans taste blue.
+Things in red cans taste red. And things in white cans taste like... who knows.
+White is always a toss-up. I try to put aside visual bias when observing the can
+because it _does_ affect how I think of the taste. Visual design, colorways and
+little details like these are just more tools in the manufacturer's arsenal to
+push you in the way they want you to think. If you lost sight, you'd be free of
+this bias, at the tragic consequence of many other inconveniences.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiandeeh7cizyjxdcnihroyx544i6rmo25jqu4nbd6s4rtpyp6oq5a" size=medium]]
+<figcaption>I know that game!</figcaption>
+</figure>
+
+That's all to say the can is white. Black Rifle also makes a [[Ranger
+Berry|Black_Rifle_Energy_Ranger_Berry]] with a blue colorway; it tastes how
+you'd expect.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidnc7jje27nkwllhz2fpxk6qe57kdusprv5qlwmc36fvn2ckqwwkm" size=medium]]
+</figure>
+
+Here, Wild Frost doesn't taste like much at all, like club soda with 200mg of
+caffeine and a vague, distant echo of a raspberry. It's not bitter. It's not
+sweet. It's not really anything at all. If it _were_ just caffeine and club
+soda, which I've had, it would taste bitter, but the fact it does not is a
+testament to the weight that sucralose pulls in masking, or at least distracting
+from, the bitterness of caffeine.
+
+The carbonation is light and velvety on the tongue. This is the most tame, most
+boring energy drink I've had. Its unexceptional nature reminds me of how boring
+and unexceptional one of the first energy drinks I reviewed here,
+[[Phocus|Phocus_Review]], was. It may be remarkable because of just how
+unremarkable it is. This is a class of energy drinks I'll affectionately call
+[rounded Spongebobs](https://spongebob.fandom.com/wiki/Not_Normal).
+
+Anyhow, on a hot day this would be refreshing. As an energy drink it's
+underwhelming with respect to flavor. The upside is that it has no sugar and
+little citric acid.
+
+| | Amount |
+| ---- | ------ |
+| Volume | 16floz |
+| Caffeine | 200mg |
+| Calories | 10cal |
+| Niacin | 16mg |
+| Vitamin B6 | 1.7mg |
+| Vitamin B12 | 2.4mcg |
+| Biotin | 30mcg |
+| Panthotenic Acid | 5mg |
+| Potassium | 30mg |
