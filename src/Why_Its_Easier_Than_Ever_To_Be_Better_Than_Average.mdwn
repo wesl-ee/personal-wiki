@@ -1,7 +1,7 @@
 [[!meta title="Why It's Easier Than Ever To Be Better Than Average"]]
 
 I am an optimist. I am positive about the human condition. I believe we live in
-the [[!wikiepdia Best_of_all_possible_worlds]]. And I don't believe there has
+the [[!wikipedia Best_of_all_possible_worlds]]. And I don't believe there has
 ever been a better time to be alive than now.
 
 In the same breath, it's hard to ignore that the same technological progress
@@ -128,3 +128,5 @@ this. Prior, art was impenetrable. Now I recognize that thinking to be part of a
 
 [^1]: [According to Priori Data](https://prioridata.com/data/smartphone-usage-statistics/),
       4051 person survey conducted July 2024
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lmjawvgeps24"]]
