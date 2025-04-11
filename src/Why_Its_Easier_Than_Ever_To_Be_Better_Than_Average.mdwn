@@ -1,0 +1,130 @@
+[[!meta title="Why It's Easier Than Ever To Be Better Than Average"]]
+
+I am an optimist. I am positive about the human condition. I believe we live in
+the [[!wikiepdia Best_of_all_possible_worlds]]. And I don't believe there has
+ever been a better time to be alive than now.
+
+In the same breath, it's hard to ignore that the same technological progress
+which has brought us modern miracles like medicine, increased agricultural
+productivity, and global communication also non-negotiably renders unto us
+forces which can corrupt and which can be used to corrupt. Presently this is
+being weaponized, unintentionally but transcendental from its design, by tech
+companies to monetize your attention.
+
+The redpill people never mention when bemoaning tech is that it's always been
+like this. And the only thing that's different this time is that the system's
+become ruthlessly efficient, more efficient with each iteration.
+
+---
+
+At different points in history, radio, television, video games, and the Internet
+were all subjects of the concern of the potential to corrupt, both youth and
+adults alike.
+
+In 1976, a man coined the phrase "couch potato" to refer to people who spend
+time lazing on their couch watching television. Television was _not_ one of the
+first things people considered "mind-numbing", but the first that is still
+relatable to a modern audience. As an example, people used to call _pulp
+fiction_ and _dime novels_ mind-numbing too. I'm not old enough to remember a
+time when reading was ever frowned upon.
+
+Continuing, video games, especially in the wake of Columbine but also before to
+a lesser extent, were criticized for their depictions of realistic violence and
+for their potential to blur the lines between the video game world and the real
+world. They say people get sucked into these games and that they would devote
+almost all their waking hours to gaming and exploring these virtual worlds, so
+disjoint from ours, and ultimately shutting themselves out of society. They'd
+become anti-social, outcasts, and lose touch with what was real and what was
+not.
+
+The panic around the Internet was similar to that around video games: the media
+published fantastic stories of people becoming so far absorbed in the Internet
+that their chatroom persona became their whole self; their entire existence was
+online, and they, the media cautioned, were victims of technology that had
+become so addictive that they could not be helped or blamed, but that it was
+just a shame people spent so much time chatting Online.
+
+<figure>
+<video>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreibm55ahnmrszsqeie5nlz5wlcpvtupbkskbzibk2m2zcrf7nyzv5y"/>
+<figcaption>Snippet from Futurequest (1994)</figcaption>
+</video>
+</figure>
+
+In each of these cases, the claims are outlandish, but based on fact. People
+_did_ actually watch too much television. People _did_ actually play games for
+days on end. People _did_ actually spend long nights online. And people still
+do. This time it's different but it's still all the same.
+
+---
+
+The average American spends 4 hours and 43 minutes[^1] staring at their phone.
+Over a week, this amounts to **more than a full day**. If you find this
+surprising, consider that this is just the _average American_; half of Americans
+spend more time than _just_ 4 hours and 43 minutes.
+
+<figure>
+<video>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreigqasjvb4fhm6o2hyt2damjlobj3hwbbjrw56rcav5qavsgn54tkm"/>
+</video>
+<figcaption>
+<em>Think of how stupid the average person is and then realize half
+of em are stupider than that</em>
+</figcaption>
+</figure>
+
+What is the average person doing on their phone? Messaging. YouTube. Facebook.
+TikTok. News sometimes. The phone provides entertainment. The phone staves off
+[[Boredom]].
+
+When you put your phone down next, ask yourself: what did I just read? Summarize
+the information mentally. I often can't remember what I just looked at. I'm not
+immune. Like most people, I recognize that I am overly attached to my phone, and
+that it's draining energy. I've taken measures to reduce how fun it is by
+logging out of Xitter, which I idly scrolled for years just to look at pretty
+art.
+
+The amount of time I've stared at this box is interesting, but not concerning.
+In fact, it's a blessing. Many people are wasting a whole-ass day a week
+scrolling YouTube Shorts, or TikTok, or Instagram Reels. Messaging friends is
+forgiven. All else, it's probably just wasted.
+
+The fact that the average person can reclaim a whole day a week is an amazing
+thing. And while it's sad that people get sucked into this digital sinkhole,
+considering companies have a financial incentive, even a financial obligation to
+shareholders, to make content more addictive and more tailored than ever in
+order to grow their bottomline, it is not surprising at all that this is a
+problem. It is inherent in the design of the system. For a free market I don't
+believe there is a solution above the individual level. That's you, you're the
+individual!
+
+Once you understand this is inherent, that there is no solution, that this has
+been a problem since forever ago and that also it's only gotten more ruthless
+and more efficient over time, you understand why It's Never Been Easier To Be Better
+Than Average.
+
+Use the technology as a tool; don't let it use you.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreihtl3rerhdzazdlqkl5b4kbkmtmb6y7oluv4xoy6taeh6malem2qi" size=medium]]
+</figure>
+
+And you may think I'm going to transition into saying: "you should do something
+productive instead of staring at your phone." I'm not, because fuck that. But
+maybe you can do something that makes you happier instead? Or maybe you could do
+nothing at all? I've found that many interesting things can happen when you let
+yourself be [[bored|Boredom]].
+
+Lie on your back. Stare at a wall. Did you know there is a [rich tradition of
+staring at the ground or a wall for minutes, maybe hours a
+day](https://en.wikipedia.org/wiki/Meditation)? What do they see that we don't?
+
+In my freed time I've discovered passion for things I never would have thought
+myself capable of doing: I've been able to keep at things I found frustrating
+and uncomfortable for long enough that those tasks have become enjoyable.
+[[Drawing]] for me has become the activity I point to the most when I talk about
+this. Prior, art was impenetrable. Now I recognize that thinking to be part of a
+[[False_Dichotomy]], only existing in my head and that of others.
+
+[^1]: [According to Priori Data](https://prioridata.com/data/smartphone-usage-statistics/),
+      4051 person survey conducted July 2024
