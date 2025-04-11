@@ -45,10 +45,10 @@ become so addictive that they could not be helped or blamed, but that it was
 just a shame people spent so much time chatting Online.
 
 <figure>
-<video>
-<source src="https://web.hooya.wesl.ee/cid-content/bafkreibm55ahnmrszsqeie5nlz5wlcpvtupbkskbzibk2m2zcrf7nyzv5y"/>
-<figcaption>Snippet from Futurequest (1994)</figcaption>
+<video width=492 height=360 controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreihd6qord7ur6kk2svpkd573zswvqvaeoij4nnro5jaov3fk4qrmqm"/>
 </video>
+<figcaption>Snippet from Futurequest (1994)</figcaption>
 </figure>
 
 In each of these cases, the claims are outlandish, but based on fact. People
@@ -64,7 +64,7 @@ surprising, consider that this is just the _average American_; half of Americans
 spend more time than _just_ 4 hours and 43 minutes.
 
 <figure>
-<video>
+<video width=492 height=360 controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreigqasjvb4fhm6o2hyt2damjlobj3hwbbjrw56rcav5qavsgn54tkm"/>
 </video>
 <figcaption>
@@ -103,7 +103,7 @@ been a problem since forever ago and that also it's only gotten more ruthless
 and more efficient over time, you understand why It's Never Been Easier To Be Better
 Than Average.
 
-Use the technology as a tool; don't let it use you.
+Use the technology as a tool. Don't let it use you.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreihtl3rerhdzazdlqkl5b4kbkmtmb6y7oluv4xoy6taeh6malem2qi" size=medium]]
