@@ -26,6 +26,8 @@ Anyhow.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreibkdnbhxax4hkyphwi3zy4wfpfnjsglwygowgz2lxytd7wv5pgggu" size=medium]]
+<figcaption>Excuse the poor quality this was taken with my [[Titan
+Pocket|Personal_Device/Unihertz_Titan_Pocket]], not notable for its camera
 </figure>
 
 The noodles of Nissin's Hot & Spicy Shrimp themselves are thin. Taking my first
@@ -57,3 +59,4 @@ dehydrated shrimp to the broth. Those suck hard. This sucks less.
 | Sodium | 1330mg |
 | Protein | 10g |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lmnboxjn7s2y"]]
