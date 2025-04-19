@@ -46,6 +46,7 @@ jittery.
 | Caffeine | 300mg |
 
 [^1]: Monster Energy Co v. Vital Pharmaceuticals Inc d/b/a VPX Sports, 9th U.S. Circuit Court of Appeals, No. 23-55451.
+
 [^2]: Orange Bang Inc v. Vital Pharmaceuticals Inc, U.S. District Court for the Central District of California, No. 5:20-cv-01464.
 
 [[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ln52ezim2s2u"]]
