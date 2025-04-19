@@ -1,0 +1,49 @@
+[[!meta title="Energy Drink — Bang Black Cherry Vanilla"]]
+[[!tag Energy_Drink Review]]
+
+I've mentioned this before, but Bang is a weird brand. At one time its own
+company, VPX, the producer of Bang, was sued out of existence by Monster for
+false advertising[^1]. The advertising in question was the label
+[[Super_Creatine]] at the top of all Bang cans, which monster claims is a
+misleading phrase pasted there in an attempt to cut into Monster's share of the
+workout energy drink market, which it held down with its brand Reign Total Body
+Fuel.
+
+Ordered to pay $311 million to Monster Energy, the largest claim ever made under
+the federal Lanham act, VPX declared bankruptcy and was acquired by Monster for
+$362 million in 2023. Interestingly this is not the only suit VPX was involved
+in. Previously they settled with a company called Orange Bang Inc., which
+claimed the use of "Bang" for pre-workout could cause confusion among consumers
+thinking this was associated with Orange Bang Inc.[^2] The settlement limited
+their use of the trademark Bang to only "creatine-based" drinks. In 2015 VPX
+launched the Bang Energy ready-to-drink (RTD), which carried the
+"super-creatine" label. Orange Bang Inc. and Monster teamed up to blow up Bang,
+because Monster claimed "Super Creatine" is not creatine (which it's not), which
+if true, violates the previous settlement with Orange Bang Inc.
+Also, in 2022 the estate of Prince sued VPX, claiming their "Purple Rain"
+flavor infringes on the Prince's image; Purple Rain was later renamed Purple
+Haze.
+
+On the front of this Black Cherry Vanilla can, where the words Fuel Your Destiny
+are, is where the Super Creatine text was before they were made to remove it.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreieanxgpimoh6l3ps4wpaagv6b24sgq4aqpjfht5ni3pxgxh2sdhaq" size=medium]]
+</figure>
+
+Black Cherry Vanilla smells and tastes like artificial cherry. There's a
+pleasant depth to it, almost an earthy taste. This contrasts with some other
+cherry flavors that taste light and thin. On the finish this tastes distantly
+like watermelon.
+
+It's easy to drink and zero sugar. At 300mg caffeine it can make you quite
+jittery.
+
+| | Amount |
+| --- | --- |
+| Volume | 16 floz |
+| Calories | 0cal |
+| Caffeine | 300mg |
+
+[^1]: Monster Energy Co v. Vital Pharmaceuticals Inc d/b/a VPX Sports, 9th U.S. Circuit Court of Appeals, No. 23-55451.
+[^2]: Orange Bang Inc v. Vital Pharmaceuticals Inc, U.S. District Court for the Central District of California, No. 5:20-cv-01464.
