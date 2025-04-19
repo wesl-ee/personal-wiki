@@ -2,7 +2,18 @@ Cookout is a chain burger joint with stores on the Southeast US seaboard, with
 the most stores in North Carolina, where it was founded in 1989. It is a
 legendary store and one of the best fast-food places I know of. In addition to
 burgers they have chicken sandwiches, quesadillas, hot dogs, wraps, barbeque,
-fries, cheese curds and 40+ flavors of milkshakes.
+fries, cheese curds and 40+ flavors of milkshakes. For reviews of these
+milkshake flavors by themselves you should visit
+[cookoutmilkshakereviews.com](http://cookoutmilkshakereviews.com/). From their
+website:
+
+> It’s the hot glow of electric freedom. It’s a blazing sentry of liberty. It’s the neon sign across the street that reads COOK OUT — and those are tears in your eyes.<br/>
+> To dine at Cook Out is to be presented a dazzling, dizzying array of choices. There are endless meal combinations — including the option to order a quesadilla or chicken wrap as a side — because this truly is the land of the free, the home of the tray.
+
+Cookout is best enjoyed on the hood of a car or in the bed of a truck. Some
+institutions have outdoor seating which is great, but newer ones (at least the
+new one near me) lack outdoor seating. Indoor seating should be avoided at all
+costs.
 
 The Menu and Min-maxing
 -----------------------
@@ -40,26 +51,28 @@ This affected my order and consequently the course of my life to come.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreiffs7umx6vf37gndnffookhtbfk4k5tywinlrhvsl2uxd2znbneti" size=medium]]
-<figcaption>There is beauty everywhere for those with the eyes to see it. Big
+<figcaption>There is beauty everywhere for those with eyes to see it<br/>Big
 double tray with grilled onions and jalapenos; okra and jalapeno cheese fries;
 bottled water</figcaption>
 </figure>
 
-Classic
--------
+Classic:
 
-Big double tray cheddar style; ranch wrap and cajun fries; huge tea
+- Big double tray cheddar style
+- Ranch wrap and cajun fries
+- Huge tea
 
-My Go-to
---------
+My Go-to:
 
-Regular burger tray with grilled onions and jalapenos; cajun fries and okra[^2];
-either an unsweet tea or a snickers cobbler[^3] milkshake.
+- Regular burger tray with grilled onions and jalapenos
+- Cajun fries and okra[^2]
+- Either an unsweet tea or a snickers cobbler[^3] milkshake #eatbigtogetbig
 
-Forbidden "Quesadilla Boy" Tray
--------------------------------
+Forbidden "Quesadilla Boy" Tray:
 
-2 chicken quesadilla tray; 2 chicken quesadillas as sides; cheerwine
+- 2 chicken quesadilla tray
+- 2 chicken quesadillas as sides
+- Cheerwine
 
 [^1]: The Big Double and regular hamburger are the same amount of meat, this
     just determines if it is split between two patties or just one. Regular
@@ -74,3 +87,4 @@ Forbidden "Quesadilla Boy" Tray
     because there is a "cobbler" button they press that you could add to any
     milkshake. Peach cobbler is just a special case peach + cobbler.
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ln56i33w2s2h"]]
