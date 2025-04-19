@@ -1,0 +1,76 @@
+Cookout is a chain burger joint with stores on the Southeast US seaboard, with
+the most stores in North Carolina, where it was founded in 1989. It is a
+legendary store and one of the best fast-food places I know of. In addition to
+burgers they have chicken sandwiches, quesadillas, hot dogs, wraps, barbeque,
+fries, cheese curds and 40+ flavors of milkshakes.
+
+The Menu and Min-maxing
+-----------------------
+
+The menu triptych is daunting. The bravest people I know freeze up like
+Microsoft Windows ME under memory pressure when they see it. Don't worry, it's
+actually easy to order at a Cookout.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreierm2x3rm76z2grbbi4jr3hrd2imhvxiiiwkcyuprx6rbn6xzyjli" size=medium]]
+</figure>
+
+You're going to want to get the Cookout Tray. This means you are following the
+red strip at the top, left to right, starting where it says *CHOOSE 1 FOR TRAY*.
+So, pick something from under that heading. The regular hamburger, big double
+burger[^1], and regular barbeque burger are all good choices. You can get the burger
+with any of the sides listed on the left triptych where it says _CHOICE OF_ or
+you can select one of the _styles_ to make it easier. They're all pretty good.
+
+Then, continuing along the top, you can select any 2 of the sides listed under
+_CHOOSE 2 SIDES or DOUBLE UP_. Don't get the walkin' taco. I think they ran out
+of space because you can also order from the sides listed in the middle panel
+under _QUESADILLAS AND SIDES_.
+
+Finally, for the drink you can get anything, or a milkshake for an extra $1.60.
+And when it comes to milkshakes, you can order any of the 40+ flavors and
+optionally combine as many as you want. I know a guy who gets a mint snickers
+cherry and peanut butter shake. Incomprehensible behavior. But accepted as a
+valid order.
+
+There is an art to discovering your perfect order. It is trial-and-error. It is
+fluid over time. For instance, I only recently was informed that regular
+hamburger trays and Big Double trays have the same amount of meat on the burger.
+This affected my order and consequently the course of my life to come.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiffs7umx6vf37gndnffookhtbfk4k5tywinlrhvsl2uxd2znbneti" size=medium]]
+<figcaption>There is beauty everywhere for those with the eyes to see it. Big
+double tray with grilled onions and jalapenos; okra and jalapeno cheese fries;
+bottled water</figcaption>
+</figure>
+
+Classic
+-------
+
+Big double tray cheddar style; ranch wrap and cajun fries; huge tea
+
+My Go-to
+--------
+
+Regular burger tray with grilled onions and jalapenos; cajun fries and okra[^2];
+either an unsweet tea or a snickers cobbler[^3] milkshake.
+
+Forbidden "Quesadilla Boy" Tray
+-------------------------------
+
+2 chicken quesadilla tray; 2 chicken quesadillas as sides; cheerwine
+
+[^1]: The Big Double and regular hamburger are the same amount of meat, this
+    just determines if it is split between two patties or just one. Regular
+    hamburger is more savory, Big Double is going to be charred more because of
+    the extra surface area.
+
+[^2]: Not all stores have okra but if they do I'm making damn sure to get it.
+    For instance, the location with the menu pictured above does not have okra.
+
+[^3]: Snickers cobbler is the snickers milkshake with the cobbler part of the
+    peach cobbler milkshake mixed in. It's actually easy for them to input
+    because there is a "cobbler" button they press that you could add to any
+    milkshake. Peach cobbler is just a special case peach + cobbler.
+
