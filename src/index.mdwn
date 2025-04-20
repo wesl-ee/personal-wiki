@@ -39,6 +39,7 @@ more about that topic.
 
 [[!pagestats show="Title" pages="Discover/*
     and !Discover/Energy_Drink
+    and !Discover/Sleepy_Supplements
     and !Discover/Review
     and !Discover/Instant_Noodles
 "]]

@@ -20,7 +20,7 @@ Notably, nothing on the bowl says anything about _rāmen_, actually, they are
 only called "stir fry asian noodles in sauce". The addition of the sauce packet
 makes the noodles oily and satisfying. Of course it's quite spicy too, but not
 unbearably so, well-deserving of the 5-chilis-out-of-6 advertised on the front
-and top of the bowl.Finally, I could smell the shrimp clearly as it was cooking
+and top of the bowl. Finally, I could smell the shrimp clearly as it was cooking
 in the hot water, but any shrimp taste is barely noticable when enjoying the
 noodles.
 
@@ -43,3 +43,4 @@ not call out the shrimp specifically.
 | Sodium | 2160mg |
 | Protein | 14g |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ln7o3gx6ic2o"]]
