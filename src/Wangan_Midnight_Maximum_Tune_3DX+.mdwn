@@ -10,13 +10,21 @@ internationally later that year.
 The game itself is based on the Wangan Midnight manga from 1990, itself based on
 real-life a group called Mid Night Racing Team, an extremely notorious and
 shadowy group of tuners and racers that prowled the [[!wikipedia
-Shuto_Expressway]] from 1989 onwards in Tōkyō.
-
-I'm not sure if this particular video is of Mid Night but it shows what people
-were doing on the C1 back then.
+Shuto_Expressway]] from 1989 onwards in Tōkyō. The Shuto Expressway is network
+of highways with on-ramps, off-ramps and interchanges between the different
+lines. Here is a clip of someone battling on the C1. I'm not sure if this is Mid
+Night or not.
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I-6fX2Vhr6Y?si=iP8M097XNmNd_XO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
+The university I attended in Tōkyō, [[Sophia University]], was right behind
+Shinjuku Route (4) of the Shuto. While I was abroad I played a lot of Wangan
+Maximum Tune 5DX+ because that was the latest game out.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreib3gskzkt26n6k7wyke32tqkmflxpoiiju3oxfmq3a7bjsn6oitim" size=medium]]
 </figure>
 
 Wangan Midnight is a manga, anime and later a game based on this legend. The
