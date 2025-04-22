@@ -1,0 +1,68 @@
+Wangan Midnight Maximum Tune 3DX+ is the final game Bandai Namco (then Namco Bandai)
+produced for the Wangan Midnight Maximum Tune 3 arcade cabinets. Maxi 3DX+ as
+it's affectionately known was released in Japan on March 4, 2010, and
+internationally later that year.
+
+The game itself is based on the Wangan Midnight manga from 1990, itself based on
+real-life a group called Mid Night Racing Team, an extremely notorious and
+shadowy group of tuners and racers that prowled the [[!wikipedia
+Shuto_Expressway]] from 1989 onwards in Tōkyō.
+
+I'm not sure if this particular video is of Mid Night but it shows what people
+were doing on the C1 back then.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I-6fX2Vhr6Y?si=iP8M097XNmNd_XO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Wangan Midnight is a manga, anime and later a game based on this legend. The
+Wangan Maximum Tune 3DX+ (and 3DX, and 3) cabinet uses the [[!wikipedia
+Namco_System_N2]] with these specs (shamelessly lifted from Wikipedia, the world
+encyclopedia):
+
+    Motherboard: MSI K7N2GM-IL (NVIDIA nForce2 Chipset, Custom BIOS) (Japan/Asia) / ASUS M2N-MX (Export, Standard BIOS)
+    CPU: AMD K7 Mobile Athlon XP 2800+ at 2.13 GHz (Socket A/462) [3] (Japan/Asia) / AMD Athlon 64 3500+ at 2.2 GHz (Socket 939) [4] (Export)
+    RAM: 1×1GB / 2×1GB DDR 400 MHz 3200 MB/s
+    GPU: NVIDIA GeForce 4 series / GeForce 7600 GS AGP with 256/512MB GDDR2 memory (GeForce 7800 GS AGP for some japan region maximum tune N2s)
+    Output: 1 DVI port, 1 VGA port, 1 S-Video port
+    Storage: Seagate 80GB (Japan/Asia) / WD 80GB PATA IDE HDD (Export)
+    Operating System: Linux 32-bit (Debian based)
+    Sound: stereo RCA output from front panel audio with external AMP PCB (Audio duplicated to rear speakers by amp)
+    Protection: HASP HL Max/RTC USB dongle (v0.06)
+
+Maximum Tune 2 and Maximum Tune 1 cabinets used the Sega Chihiro platform. The OG Wangan
+Midnight game, which lacked the "Maximum Tune" title, used the Namco 246.
+
+I've played on two 3DX+ cabinets, one English and one Japanese. This game was the last Maximum Tune game to be released outside of Asia until Maximum Tune
+5 in 2017. Cards issued from
+the Japanese version are not usable on the international cabinets, and vice-versa.
+Below is a picture of the Japanese Maxi 3DX+ cabinet I've played on:
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifbuppnakfpb5zfkyqrff23odraqbkcc7mhmvo6iioay22exmsmx4" size=medium]]
+</figure>
+
+Maxi 3 cabinets have a card reader-writer which records player data on a magnetic stripe
+card which can be purchased from the machine for an additional credit. After 3DX+ the magnetic
+card was replaced by the Banapassport. Below is my card from 3DX+ (JP):
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreih4eszrdeoflx6gjlng3le77vhxbytq4n4p5qwqkpm35hxlrjzxey" size=medium]]
+</figure>
+
+Sadly there are very few Maxi 3DX+ cabinets in existence and fewer whose card
+readers work. Before the 3DX+ machines near me disappeared I brought my
+Mitsubishi Lancer Evolution VI GSR (above) up to 640HP on the JP cabinet and had
+raised my Skyline GT-R to 470HP on the EN cabinet.
+
+This JP 3DX+ cabinet was in a
+[barcade](https://zenius-i-vanisher.com/v5.2/arcade.php?id=4020) for whatever
+reason while the EN version was in a [Namco arcade in a tiny
+mall](https://zenius-i-vanisher.com/v5.2/arcade.php?id=3834) near a small
+engineering firm I interned at for about 6 months. Neither machine exists
+anymore, at least at the places above.
+
+There are 100 chapters in 3DX+, they all mostly have the same structure of
+racing against characters on the Shuto Expressway. After beating chapters
+upgrades to either the power or handling upgrades of the car are unlocked. The
+cabinets are also locally networked, meaning players can challenge others
+sitting at adjacent cabinets in "VS" mode. The winner continues playing for
+free, effectively taking the loser's credit.
