@@ -3,6 +3,10 @@ produced for the Wangan Midnight Maximum Tune 3 arcade cabinets. Maxi 3DX+ as
 it's affectionately known was released in Japan on March 4, 2010, and
 internationally later that year.
 
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifbuppnakfpb5zfkyqrff23odraqbkcc7mhmvo6iioay22exmsmx4" size=medium]]
+</figure>
+
 The game itself is based on the Wangan Midnight manga from 1990, itself based on
 real-life a group called Mid Night Racing Team, an extremely notorious and
 shadowy group of tuners and racers that prowled the [[!wikipedia
@@ -11,7 +15,9 @@ Shuto_Expressway]] from 1989 onwards in Tōkyō.
 I'm not sure if this particular video is of Mid Night but it shows what people
 were doing on the C1 back then.
 
+<figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I-6fX2Vhr6Y?si=iP8M097XNmNd_XO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 Wangan Midnight is a manga, anime and later a game based on this legend. The
 Wangan Maximum Tune 3DX+ (and 3DX, and 3) cabinet uses the [[!wikipedia
@@ -31,14 +37,10 @@ encyclopedia):
 Maximum Tune 2 and Maximum Tune 1 cabinets used the Sega Chihiro platform. The OG Wangan
 Midnight game, which lacked the "Maximum Tune" title, used the Namco 246.
 
-I've played on two 3DX+ cabinets, one English and one Japanese. This game was the last Maximum Tune game to be released outside of Asia until Maximum Tune
-5 in 2017. Cards issued from
-the Japanese version are not usable on the international cabinets, and vice-versa.
-Below is a picture of the Japanese Maxi 3DX+ cabinet I've played on:
-
-<figure>
-[[!template id="hooya-img.tmpl" cid="bafkreifbuppnakfpb5zfkyqrff23odraqbkcc7mhmvo6iioay22exmsmx4" size=medium]]
-</figure>
+I've played on two 3DX+ cabinets, one English and one Japanese. This game was
+the last Maximum Tune game to be released outside of Asia until Maximum Tune 5
+in 2017. Cards issued from the Japanese version are not usable on the
+international cabinets, and vice-versa.
 
 Maxi 3 cabinets have a card reader-writer which records player data on a magnetic stripe
 card which can be purchased from the machine for an additional credit. After 3DX+ the magnetic
@@ -66,3 +68,5 @@ upgrades to either the power or handling upgrades of the car are unlocked. The
 cabinets are also locally networked, meaning players can challenge others
 sitting at adjacent cabinets in "VS" mode. The winner continues playing for
 free, effectively taking the loser's credit.
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lneryp6yzk2l"]]
