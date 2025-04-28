@@ -1,0 +1,32 @@
+[[!meta title="Energy Drink — Ashoc Blue Raspberry"]]
+[[!tag Energy_Drink Review]]
+
+Founded by Lance Collins, the founder of Nos, Fuze, premium water brand Core,
+and BodyArmor, Ashoc is an energy drink that positions itself as a natural,
+clean, zero-sugar alternative to high-sugar energy drinks. Previously it was
+known as Adrenaline Shoc but that was eventually shortened to just Ashoc. I
+found it because it's $1.25 at the Dollar Tree.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreiboudkjgze6jm42lem3qnsut5ylyj36lzou3y2cssyneip2jvxw3m" size=medium]]
+</figure>
+
+Ashoc Blue Raspberry tastes like a blue sno-cone with a heavy vanilla note on
+the finish. It's actually really good. For $1.25 it's an amazing value
+proposition and I easily pay more for almost everything Ashoc competes against,
+which seems to be chiefly [[Celsius|Celsius_Raspberry_Acai_Green_Tea]] and
+[[Ghost|Ghost_Energy_x_Welchs_Grape]]. Given the choice I'd buy this more often,
+but it doesn't meaningfully differentiate itself from other options on the
+shelf. Also it has extremely poor distribution, at least where I live, despite
+heavy investment from Keurig Dr. Pepper. KDP actually [acquired a majority stake
+in
+Ghost](https://news.keurigdrpepper.com/2024-10-24-Keurig-Dr-Pepper-to-Acquire-Disruptive-Energy-Drink-Business-GHOST)
+in 2024 and will acquire the remaining 40% stake in 2028, so I see why Ashoc is
+not widely distributed anymore, if it ever was.
+
+| | Amount |
+| --- | --- |
+| Volume | 16 floz |
+| Calories | 10cal |
+| Caffeine | 200mg |
+
