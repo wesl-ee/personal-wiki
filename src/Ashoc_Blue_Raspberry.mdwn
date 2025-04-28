@@ -30,3 +30,4 @@ not widely distributed anymore, if it ever was.
 | Calories | 10cal |
 | Caffeine | 200mg |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lnuza2e62c2h"]]
