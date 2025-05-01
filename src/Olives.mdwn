@@ -1,5 +1,5 @@
-Olives are fruit that grows on trees in climates similar to the Mediterranean
-Basin. Olive trees are some of the oldest fruit trees domesticated by humans,
+Olives are fruits that on trees in climates similar to the Mediterranean Basin.
+Olive trees are some of the oldest fruit trees domesticated by humans,
 potentially being grown for purposes of harvesting as far back in time as 5000
 BC.
 
@@ -12,8 +12,18 @@ cosmetic.
 
 As a fruit, olives are green until they ripen on the tree, at which point they
 become purple-black. Riper olives produce more oil, but some say younger olives
-make richer oil. Fresh from the tree, olive fruit is bitter, and must be cured
-to be enjoyable. Curing is normally done by one of these methods:
+make richer oil. The olive fruit has a pit, sometimes called a stone, that is
+the seed of the tree. This is removed before further processing, and in the case
+of table olives is replaced by slices of pimento chilis. Previously this slicing
+and inserting was done by hand. Modern developments in manufacturing technology
+have allowed producers to purée pimento peppers and reconstitute them into
+standard-size little strips using a gum. The standardization allows the stuffing
+of olives to be mechanized.
+
+---
+
+Fresh from the tree, olive fruit is bitter, and must be cured to be enjoyable.
+Curing is normally done by one of these methods:
 
 - Salt packing
 - Lye bath
@@ -23,7 +33,7 @@ to be enjoyable. Curing is normally done by one of these methods:
 At the grocery store they sell table olives in cans or jars. Black olives come
 in cans and green ones come in jars. That's because black olives in cans caused
 cases of [botulism in the early 20th century in
-California](https://pubmed.ncbi.nlm.nih.gov/29677267/). Cans be heated to
+California](https://pubmed.ncbi.nlm.nih.gov/29677267/). Cans can be heated to
 temperatures high enough to kill bacteria whereas glass cannot stand these
 temps.
 
@@ -35,3 +45,5 @@ _However_ California black olives are picked green, soaked in lye and injected
 with air, a process that causes the flesh to oxidize. This gives them their
 unique black color, especially compared to purple olives which are not cured in
 a way that oxidizes the flesh.
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lo3sx3j2xk2z"]]
