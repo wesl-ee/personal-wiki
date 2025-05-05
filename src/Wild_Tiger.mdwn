@@ -4,10 +4,11 @@
 I know about Wild Tiger for the same reason I know about [[Rip
 It|Rip_It_Citrus_X]]: Wild Tiger found the same niche keeping young servicemen
 deployed to the Middle East, especially Iraq, awake and alert during the
-[[!wikiepdia War_on_Terror]].
+[[!wikipedia War_on_Terror]].
 
-<figure><video>
+<figure><video controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreidfidm5dngedcs5eaqnidwwcp5liyv3ihuriyjimgxr2ecehmdk2q"/>
+</video>
 <figcaption><a href="https://www.youtube.com/watch?v=YjChAEHPGV0">MTV Cribs IRAQ</a>
 </video></figure>
 
@@ -35,3 +36,5 @@ It's damn good.
 | Volume | 8.3 floz |
 | Calories | 125cal |
 | Caffeine | 75mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3logsjtnsis24"]]
