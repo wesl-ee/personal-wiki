@@ -332,11 +332,9 @@ We're In This Together, Until The <del>Bitter</del> <ins>Beautiful</ins> End
   </ul>
 </div>
 
-Resitance Is Futile, My Friend
-------------------------------
 
-Here are some of the topics I write about here. Larger text means I've written
-more about that topic.
+Broady, here are tags I've assigned to articles. Larger text means I've written
+more articles with that tag.
 
 [[!pagestats show="Title" pages="Discover/*
     and !Discover/Energy_Drink
