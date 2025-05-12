@@ -93,6 +93,9 @@ section#content .longlink {
     #content #startpage-icon {
         max-width: initial;
     }
+    #all-pages-list {
+      column-count: 1 !important;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -129,6 +132,23 @@ section#content a[href^="."], section#content a[href^="/"] {
 	text-decoration: none;
 	transition: background-size .2s, color .4s;
 }
+
+/* negates ^ */
+section#content #all-pages-list a[href^="."] {
+	background-image: none;
+    color: blue;
+	padding: initial;
+	background-position: initial;
+	background-repeat: initial;
+	background-size: initial;
+	text-decoration: initial;
+    transition: color .2s;
+}
+
+section#content #all-pages-list a[href^="."]:hover {
+    color: red;
+}
+
 section#content a[href^="."]:hover, section#content a[href^="/"]:hover {
 	color: red;
 	background-size: 1px 1px;
@@ -516,6 +536,23 @@ article hr {
   position: absolute;
   opacity: 1;
   pointer-events: none;
+}
+
+#all-pages-list {
+    column-count: 2;
+    column-gap: 1ch;
+    line-height: initial;
+    text-align: left;
+}
+
+#all-pages-list ul {
+    padding-left: 3ch;
+    break-inside: avoid-column;
+}
+
+#all-pages-list > ul > li {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 /* bsky-comments */
