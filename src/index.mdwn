@@ -34,18 +34,8 @@ or Coffee
 or BMW_318ti
 ) and !index"]]
 
-Here are some of the topics I write about here. Larger text means I've written
-more about that topic.
-
-[[!pagestats show="Title" pages="Discover/*
-    and !Discover/Energy_Drink
-    and !Discover/Sleepy_Supplements
-    and !Discover/Review
-    and !Discover/Instant_Noodles
-"]]
-
-All pages on this site are available in chronological order under the
-[[Meta/New_Posts]] page.
+We're In This Together, Until The Beautiful End
+--------
 
 <div id="all-pages-list">
   <ul>
@@ -341,6 +331,19 @@ All pages on this site are available in chronological order under the
     </ul>
   </ul>
 </div>
+
+Resitance Is Futile, My Friend
+------------------------------
+
+Here are some of the topics I write about here. Larger text means I've written
+more about that topic.
+
+[[!pagestats show="Title" pages="Discover/*
+    and !Discover/Energy_Drink
+    and !Discover/Sleepy_Supplements
+    and !Discover/Review
+    and !Discover/Instant_Noodles
+"]]
 
 What's New?
 -----------
