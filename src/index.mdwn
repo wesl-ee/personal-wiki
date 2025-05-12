@@ -34,7 +34,7 @@ or Coffee
 or BMW_318ti
 ) and !index"]]
 
-We're In This Together, Until The Beautiful End
+We're In This Together, Until The <del>Bitter</del> <ins>Beautiful</ins> End
 --------
 
 <div id="all-pages-list">
