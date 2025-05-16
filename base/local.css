@@ -149,6 +149,14 @@ section#content #all-pages-list a[href^="."]:hover {
     color: red;
 }
 
+@media (prefers-color-scheme: dark) {
+    section#content #all-pages-list a[href^="."] {
+        color: cyan;
+    }
+    section#content #all-pages-list a[href^="."]:hover {
+    }
+}
+
 section#content a[href^="."]:hover, section#content a[href^="/"]:hover {
 	color: red;
 	background-size: 1px 1px;
