@@ -12,15 +12,14 @@ but give a good guess as to what weight I could lift for 1 rep. But because
 testing a 1RM is exhausting and 1 is not in the ideal rep range for a workout I
 rarely if ever test my 1RM.
 
-| | Best | 1RM |
+| | Best | Estimated 1RM |
 | --- | --- | --- |
-| Squat | 195lb x7 | 234lb[^1] |
-| Bench Press | 155lb x5 | 174lb[^1] |
-| Deadlift | 225lb x6 | 261lb[^1] |
-| Leg Press | 270lb x8 | 335lb[^1] |
-| Dumbbell Curl | 35lb x6 | 41lb[^1] |
-| Lat Pulldown | 120lb x10 | 160lb[^1] |
-| Cable Row | 100lb x10 | 133lb[^1] |
+| Squat | 195lb x7 | 234lb |
+| Bench Press | 155lb x5 | 174lb |
+| Deadlift | 225lb x6 | 261lb |
+| Leg Press | 270lb x8 | 335lb |
+| Dumbbell Curl | 35lb x6 | 41lb |
+| Lat Pulldown | 120lb x10 | 160lb |
+| Cable Row | 100lb x10 | 133lb |
 
-[^1]: Estimated
-
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lq2n4icad22h"]]
