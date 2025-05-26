@@ -184,11 +184,6 @@ Site Directory
     </ul>
   </ul>
   <ul>
-    <li>Recipes</li>
-    <ul>
-    </ul>
-  </ul>
-  <ul>
     <li>Food</li>
     <ul>
       <li>[[Ramen]]</li>
@@ -304,8 +299,13 @@ Site Directory
     <ul>
       <li>[[Piercings]]</li>
       <li>[[Wear_Whatever]]</li>
-      <li>[[Physical_Fitness]]</li>
       <li>[[Rendering_Jeans_into_Hemmed_Shorts]]</li>
+    </ul>
+  </ul>
+  <ul>
+    <li>[[Physical_Fitness]]</li>
+    <ul>
+      <li>[[Personal_Records]]</li>
     </ul>
   </ul>
   <ul>
