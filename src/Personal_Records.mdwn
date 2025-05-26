@@ -1,6 +1,6 @@
 [[!tag Aesthetics]]
 
-Tracking personal records (PRs) is useful for gauging [[Phyiscal_Fitness]]
+Tracking personal records (PRs) is useful for gauging [[Physical_Fitness]]
 progress. For me there is no goal and there is no end. It's just fun to watch
 the numbers go up!
 
@@ -9,6 +9,7 @@ the most-tracked lifts, but I've listed lifts which are tracked less often here
 too.
 
 | | Best | Calculated 1RM |
+| --- | --- | --- |
 | Squat | 195lb x7 | 234lb |
 | Bench Press | 155lb x5 | 174lb |
 | Deadlift | 225lb x6 | 261lb |
