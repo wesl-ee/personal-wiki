@@ -1,0 +1,18 @@
+[[!tag Aesthetics]]
+
+Tracking personal records (PRs) is useful for gauging [[Phyiscal_Fitness]]
+progress. For me there is no goal and there is no end. It's just fun to watch
+the numbers go up!
+
+These are my most up-to-date ORs. The big three (squat, press and deadlift) are
+the most-tracked lifts, but I've listed lifts which are tracked less often here
+too.
+
+| | Best | Calculated 1RM |
+| Squat | 195lb x7 | 234lb |
+| Bench Press | 155lb x5 | 174lb |
+| Deadlift | 225lb x6 | 261lb |
+| Leg Press | 270lb x8 | 335lb |
+| Dumbbell Curl | 35lb x6 | 41lb |
+| Lat Pulldown | 120lb x10 | 160lb |
+| Cable Row | 100lb x10 | 133lb |
