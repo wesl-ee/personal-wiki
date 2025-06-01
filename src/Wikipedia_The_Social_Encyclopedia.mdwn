@@ -1,0 +1,88 @@
+[[!meta title="Wikipedia, The Social Encyclopedia"]]
+
+*While you are reading this I invite you to [listen to
+Wikipedia](http://listen.hatnote.com/).*
+
+*If you are short on time you can [skip right to the
+end](https://en.wikipedia.org/wiki/Wikipedia:The_end_of_Wikipedia)*
+
+Almost everyone knows what Wikipedia, the Free Encyclopedia, is. Not many know
+about the people who write and edit articles on Wikipedia. The Wikipedia
+community is fascinating and diverse. Editors have no incentive to contribute to
+articles. The warm and fuzzy feelings it may inspire contributing to the largest
+online encyclopedia must be enough.
+
+[[!wikipedia Wikipedia:WikiFauna]]
+----------------------------------
+
+I'll begin on the shallow side of the pool, with the gateway through which most
+are introduced to the Wikipedia community, article Talk pages.
+
+Consider this article on [[!wikipedia List_of_Round_Barns]]. Think of the
+deliberate effort it takes to research, create and maintain an article about as
+niche a subject as round barns. This is not just an individual effort either.
+Once the article is written, others may edit its contents and improve its
+accuracy. This is the magic of online Wikis ([[!wikipedia
+Wikipedia:Don't_abbreviate_"Wikipedia"_as_"Wiki"!]]). Editors on Wikipedia
+coordinate with fellow editors on article [[!wikipedia Help:Talk_Pages]]. Talk
+pages are for serious discussion. Just look at [[!wikipedia Talk:Kombucha]].
+
+While talk pages are always _about the article_ most of the time they are rather
+boring. Real Wikipedians maintain a user page and write whatever they want
+there. Here is one I just found, [[!wikipedia User:AFirefoxUser]], just clicking
+around. Like with this [[Personal_Wiki]], you can find a lot of things just
+clicking around.
+
+Wikipedians can be divided into categories of [[!wikipedia
+Wikipedia:WikiFauna]] and further categorized by age: [[!wikipedia
+Wikipedia:Seven_Ages_of_Wikipedians]]. So, pick your favorite fauna, be it
+WikiBarbarian or
+[WikiCat](https://en.wikipedia.org/wiki/Category:Wikipedian_WikiCats) or even a
+[WikiCryptid](https://en.wikipedia.org/wiki/Wikipedia:WikiFauna#WikiCryptids). A
+[[!wikipedia Wikipedia:WikiPuppy]] may find kindred spirits investigating the
+[[!wikipedia Wikipedia:Puppy_Cabal]]; non-WikiPuppies may be interested in the
+regular [[!wikipedia Wikipedia:List_of_cabals]].
+
+User Boxes. Typical WikiFauna Behavior
+--------------------------------------
+
+User pages need to have userboxes. Some do not, but most do, and those without
+are not nationally recognized by other Wikipedians. Userboxes look like this:
+
+<table class="no-border">
+<tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-happy.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-vaporwave.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-us-taxpayer.tmpl"]]</td></tr>
+</table>
+
+My userboxes are at [[Me]]. WikiFauna can find their own userboxes of
+[[!wikipedia Wikipedia:Userboxes/Wikipedia/WikiFauna]]. Examples of user pages
+which make appropriate use of userboxes are:
+
+- [[!wikipedia User:BEEFITRON]]
+- [[!wikipedia User:Mr._UnderhiIl]]
+- [[!wikipedia User:AFirefoxUser]]
+- [[!wikipedia User:Divotdefer]]
+- [[!wikipedia User:Alucard_16]]
+- [[!wikipedia User:CrafterNova]]
+
+For those who like userboxes there are [[!wikipedia
+Category:User_templates_about_userboxes]]. A collation of userboxes can be found
+in [[!wikipedia Wikipedia:Userboxes/Galleries]] but userboxes can exist outside
+of galleries. The perfect one (or, perfect 100) is hiding out there, you just
+need to find it!
+
+Userboxes are amazingly extensible things, derived from wikipedia templates,
+which can show things like [[!wikipedia
+User:Stage7/Japan_adjacent_railway_stations]]. 
+
+Wikipe-tan
+----------
+
+Yeah it's an article about Wikipedia of course it has to mention [[!wikipedia
+Wikipedia:Wikipe-tan]] the cutest mascot of The Free Encyclopedia!
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreia5q5d74lqqlhlqker4wxanxxhogkawkafhuh4kykrcmgdlkhi7te" size=medium]]
+</figure>

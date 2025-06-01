@@ -116,6 +116,7 @@ Site Directory
     <li>Internet Culture</li>
     <ul>
       <li>[[Personal_Wiki]]</li>
+      <li>[[Wikipedia, The Social Encyclopedia|Wikipedia_The_Social_Encyclopedia]]</li>
       <li>[[Blogroll]]</li>
     </ul>
   </ul>
