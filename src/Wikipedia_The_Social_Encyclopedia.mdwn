@@ -12,9 +12,6 @@ community is fascinating and diverse. Editors have no incentive to contribute to
 articles. The warm and fuzzy feelings it may inspire contributing to the largest
 online encyclopedia must be enough.
 
-[[!wikipedia Wikipedia:WikiFauna]]
-----------------------------------
-
 I'll begin on the shallow side of the pool, with the gateway through which most
 are introduced to the Wikipedia community, article Talk pages.
 
@@ -22,38 +19,44 @@ Consider this article on [[!wikipedia List_of_Round_Barns]]. Think of the
 deliberate effort it takes to research, create and maintain an article about as
 niche a subject as round barns. This is not just an individual effort either.
 Once the article is written, others may edit its contents and improve its
-accuracy. This is the magic of online Wikis ([[!wikipedia
-Wikipedia:Don't_abbreviate_"Wikipedia"_as_"Wiki"!]]). Editors on Wikipedia
-coordinate with fellow editors on article [[!wikipedia Help:Talk_Pages]]. Talk
-pages are for serious discussion. Just look at [[!wikipedia Talk:Kombucha]].
+accuracy. This is the magic of online Wikis. Note the "Wiki" and not "Wikipedia"
+because [[!wikipedia Wikipedia:Don't_abbreviate_"Wikipedia"_as_"Wiki"!]].
+Editors on Wikipedia coordinate with fellow editors on article [[!wikipedia
+Help:Talk_Pages]]. Talk pages are for serious discussion. Just look at
+[[!wikipedia Talk:Kombucha]].
+
+WikiFauna
+---------
 
 While talk pages are always _about the article_ most of the time they are rather
 boring. Real Wikipedians maintain a user page and write whatever they want
 there. Here is one I just found, [[!wikipedia User:AFirefoxUser]], just clicking
-around. Like with this [[Personal_Wiki]], you can find a lot of things just
+around. Like with this [[Personal_Wiki]] you can find a lot of things just
 clicking around.
 
 Wikipedians can be divided into categories of [[!wikipedia
-Wikipedia:WikiFauna]] and further categorized by age: [[!wikipedia
+Wikipedia:WikiFauna]] and further categorized by [[!wikipedia
 Wikipedia:Seven_Ages_of_Wikipedians]]. So, pick your favorite fauna, be it
 WikiBarbarian or
 [WikiCat](https://en.wikipedia.org/wiki/Category:Wikipedian_WikiCats) or even a
 [WikiCryptid](https://en.wikipedia.org/wiki/Wikipedia:WikiFauna#WikiCryptids). A
 [[!wikipedia Wikipedia:WikiPuppy]] may find kindred spirits investigating the
 [[!wikipedia Wikipedia:Puppy_Cabal]]; non-WikiPuppies may be interested in the
-regular [[!wikipedia Wikipedia:List_of_cabals]].
+regular, normal [[!wikipedia Wikipedia:List_of_cabals]].
 
-User Boxes. Typical WikiFauna Behavior
---------------------------------------
+User Boxes
+----------
 
 User pages need to have userboxes. Some do not, but most do, and those without
-are not nationally recognized by other Wikipedians. Userboxes look like this:
+are not nationally recognized by other Wikipedians, most importantly by those
+with userboxes. Userboxes look like this:
 
 <table class="no-border">
 <tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-happy.tmpl"]]</td></tr>
 <tr><td class="no-border">[[!template id="userbox-vaporwave.tmpl"]]</td></tr>
-<tr><td class="no-border">[[!template id="userbox-us-taxpayer.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-mortal.tmpl"]]</td></tr>
+<tr><td class="no-border">[[!template id="userbox-foodlion.tmpl"]]</td></tr>
 </table>
 
 My userboxes are at [[Me]]. WikiFauna can find their own userboxes of
@@ -62,7 +65,6 @@ which make appropriate use of userboxes are:
 
 - [[!wikipedia User:BEEFITRON]]
 - [[!wikipedia User:Mr._UnderhiIl]]
-- [[!wikipedia User:AFirefoxUser]]
 - [[!wikipedia User:Divotdefer]]
 - [[!wikipedia User:Alucard_16]]
 - [[!wikipedia User:CrafterNova]]
@@ -86,3 +88,5 @@ Wikipedia:Wikipe-tan]] the cutest mascot of The Free Encyclopedia!
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreia5q5d74lqqlhlqker4wxanxxhogkawkafhuh4kykrcmgdlkhi7te" size=medium]]
 </figure>
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lqjowgolg224"]]
