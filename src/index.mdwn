@@ -113,10 +113,11 @@ Site Directory
     </ul>
   </ul>
   <ul>
-    <li>Internet Culture</li>
+    <li>Internet</li>
     <ul>
       <li>[[Personal_Wiki]]</li>
       <li>[[Wikipedia, The Social Encyclopedia|Wikipedia_The_Social_Encyclopedia]]</li>
+      <li>[[The_Wolf_Web]]</li>
       <li>[[Blogroll]]</li>
     </ul>
   </ul>

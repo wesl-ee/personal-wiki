@@ -19,7 +19,7 @@ Consider this article on [[!wikipedia List_of_round_barns]]. Think of the
 deliberate effort it takes to research, create and maintain an article about as
 niche a subject as round barns. This is not just an individual effort either.
 Once the article is written, others may edit its contents and improve its
-accuracy. This is the magic of online Wikis. Note the "Wiki" and not "Wikipedia"
+accuracy. This is the magic of online wikis. Note the "wiki" and not "Wikipedia"
 because [[!wikipedia Wikipedia:Don't_abbreviate_"Wikipedia"_as_"Wiki"!]].
 Editors on Wikipedia coordinate with fellow editors on article [[!wikipedia
 Help:Talk_pages]]. Talk pages are for serious discussion. Just look at
