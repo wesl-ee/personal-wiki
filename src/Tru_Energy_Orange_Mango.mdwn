@@ -27,3 +27,4 @@ often. They compete in the same niche as Celsius so maybe this makes sense.
 | Vitamin B12 | 1.2mcg |
 | Juice | 3% |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lr6tkw5pik2e"]]
