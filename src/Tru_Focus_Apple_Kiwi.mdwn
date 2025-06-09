@@ -1,3 +1,6 @@
+[[!meta title="Energy Drink — Tru Focus Apple Kiwi"]]
+[[!tag Energy_Drink Review]]
+
 Tru is a weird brand. There are currently 7 types of Tru sparkling drinks: Tru
 Energy, True Focus (with l-theanine) and Tru Defend (immune system support), Tru
 Dream (chamomile, gaba, magnesium), Tru Gut, Tru Refresh, Tru Glow (biotin).
@@ -26,13 +29,15 @@ that caffeine gives you, hence why this blend is called "focus". In my
 experience the effect is minimal in doses smaller than 200mg, which is about
 where they max out for "nootropic" drinks like this. The label doesn't say how
 much l-theanine so I can only guess it's less than 200mg based on what other
-drinks contain.
+drinks contain. Finally, with just 100mg caffeine, there is not much energy to
+taper.
 
 | | Amount |
 | --- | --- |
-| Volume | 16 floz |
+| Volume | 12 floz |
 | Calories | 10cal |
 | Caffeine | 100mg |
 | Choline | 30mg |
 | Juice | 4% |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lr6o2nguoc2g"]]
