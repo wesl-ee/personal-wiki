@@ -9,21 +9,18 @@ Carolina-based band. Their one album is great.
 [[!template id="hooya-img.tmpl" cid="bafkreiayr5gpc4zxbwdxv7rz5672kupbz6gy3el7e2y2t2xeuvzp4x6dvq" size=medium]]
 </figure>
 
-Lineup
-------
-
 - Travis - Vocals
 - Woody - Guitar
 - Tyler - Bass
 - Matt Clark - Drums
 - Vocals - Spencer
 
-### Just Whales (2009) [[DDL]()]
+### Just Whales (2009) [ [[!myipfs cid="QmdziYSi7b8vMaRUMktTFVJSvjCzEu4Y42KBct6teKaGYV" desc="DDL"]] ]
 
 Label — Gold Medal Records
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreietix7vr5syqsuizvcgguku54wrbpi5z22uj35u5k3qnpmr7nccva" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreidm3xbmg2kmqfhi5ynlnkzans23q7exbhriyrau6lbicwszbiufmu" size=medium]]
 </figure>
 
 1. Catching Bricks With My Face
