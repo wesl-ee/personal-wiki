@@ -113,6 +113,12 @@ Site Directory
     </ul>
   </ul>
   <ul>
+    <li>Music</li>
+    <ul>
+      <li>[[Fastest_Kid_in_5th_Grade]]</li>
+    </ul>
+  </ul>
+  <ul>
     <li>Internet</li>
     <ul>
       <li>[[Personal_Wiki]]</li>
