@@ -2,8 +2,8 @@ Fastest Kid in 5th Grade was a metalcore band from Greensboro, North Carolina.
 Their only release is [Just Whales
 (2009)](https://rateyourmusic.com/release/ep/fastest-kid-in-5th-grade/just-whales/).
 They were active for 3 years, from 06 to 09. I learned about these guys when I
-bothered a friend for bands similar to Between the Buried and Me, another North
-Carolina-based band. Their one album is great.
+bothered a friend for bands similar to Between the Buried and Me, another band
+with North Carolina roots. Just Whales is great.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreiayr5gpc4zxbwdxv7rz5672kupbz6gy3el7e2y2t2xeuvzp4x6dvq" size=medium]]
@@ -15,7 +15,7 @@ Carolina-based band. Their one album is great.
 - Matt Clark - Drums
 - Vocals - Spencer
 
-### Just Whales (2009) [ [[!myipfs cid="QmdziYSi7b8vMaRUMktTFVJSvjCzEu4Y42KBct6teKaGYV" desc="DDL"]] ]
+Just Whales (2009) [ [[!myipfs QmdziYSi7b8vMaRUMktTFVJSvjCzEu4Y42KBct6teKaGYV desc="DDL"]] ]
 
 Label — Gold Medal Records
 
