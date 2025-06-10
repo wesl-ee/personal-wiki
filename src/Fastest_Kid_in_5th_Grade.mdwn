@@ -29,3 +29,5 @@ Label — Gold Medal Records
 4. Seeders and Leechers
 5. So Raven
 6. Magic is a Double Edged Sword
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lrabwc4ul226"]]
