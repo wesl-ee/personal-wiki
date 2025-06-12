@@ -20,7 +20,7 @@ is an energy drink to avoid unless absolutely necessary.
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreib2fvkvx7fayegsjpd6xhehyis76xlfw7ftennkkqlw6let26bbeq" size=medium]]
 <figcaption>A true patriot holding a Rip It Tribute Cherry Lime and Black &
-Milds outside an Exxon</figcaption>
+Milds outside an [[Exxon]]</figcaption>
 </figure>
 
 [[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ldapm65uqs2s"]]
