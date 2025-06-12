@@ -1,3 +1,4 @@
+[[!meta title="Tinned Fish — Beach Cliff Fish Steaks in Louisiana Hot Sauce"]]
 [[!tag Tinned_Fish Review]]
 
 Like all novel things I sample in life, at least recently, this tinned fish
@@ -24,7 +25,7 @@ spicy than Tobasco, so I lean on the side of just Tabasco-style hot sauce.
 Texture is fine. Dry but not distracting.
 
 Over rice these would shine. Eating them with crackers (you know, like a normal
-person eating tinned fish in their kitchen) is a upsetting because of how they
+person eating tinned fish in their kitchen) is upsetting because of how they
 stay whole. I'm used to having fish all over the cracker, not just at one end!
 Maybe I'm meant to eat them like the canned food in S.T.A.L.K.E.R. ...
 
@@ -42,3 +43,5 @@ FDA is slacking! I've found this information online though:
 | Carbohydrates | 2g |
 | Sodium | 470mg |
 | Protein | 15g |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lrf2lipfks2h"]]

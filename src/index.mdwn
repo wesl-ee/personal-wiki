@@ -194,6 +194,12 @@ Site Directory
     </ul>
   </ul>
   <ul>
+    <li>Tinned Fish</li>
+    <ul>
+      <li>[[Beach_Cliff_Fish_Steaks_in_Louisiana_Hot_Sauce]]</li>
+    </ul>
+  </ul>
+  <ul>
     <li>Food</li>
     <ul>
       <li>[[Ramen]]</li>
@@ -351,6 +357,7 @@ more articles with that tag.
     and !Discover/Sleepy_Supplements
     and !Discover/Review
     and !Discover/Instant_Noodles
+    and !Discover/Tinned_Fish
 "]]
 
 What's New?
