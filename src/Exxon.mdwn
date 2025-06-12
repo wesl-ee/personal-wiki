@@ -2,12 +2,12 @@ Yeah Exxon's a gas station. It's also the largest company non-government-owned
 company in the energy sector. But this is an article about their gas stations.
 
 Big news: gas stations don't make money on gas. Margins on gas are razor
-thin because competition is cuththroat and gas is one of those things Americans
-are very sensitive about. Gas prices are determined by the oil market, as gas is a commodity,
-with regional variation for different supply-demand dynamics and state taxes.
-The gas is there to get you inside. Somehow people really care about a few cents
-when it comes to gas but don't seem to mind buying an energy drink inside if
-they've already stopped.
+thin because competition is cutthroat and gas is one of those things Americans
+are very sensitive about. Gas prices are determined by the oil market with
+tolerance for regional variation given different supply-demand dynamics and
+state taxes. Somehow people really care about a few cents when it comes to gas
+but don't seem to mind buying an energy drink inside if they've already stopped.
+The gas is there to get you inside.
 
 I don't know if you've ever walked into a convenience store and _looked_ before.
 Open your eyes. You'll find the craziest shit. Caffeine pills.
@@ -21,9 +21,11 @@ stations.
 
 I enjoy patronizing these 3 Exxons because it seems Exxon gives the store owner
 almost unlimited freedom with what they stock the store with. In contrast, BP,
-Sheetz (dug), Shell to a lesser extent, are cleaner and have a more select
+Sheetz (duh), Shell to a lesser extent, are cleaner and have a more select
 inventory. The same things that put people off of Exxons like the video lottery
-machines, rhino dick pills behind the counter and people asking for money
-outside, are the same things gatekeeping you from discovery. In a time where
-more people than ever are afraid to try new things for fear of unknown it's no
-wonder [[Why_Its_Easier_Than_Ever_To_Be_Better_Than_Average]].
+machines, rhino dick pills and people asking you for money outside are the same
+things gatekeeping you from discovery. In a time where more people than ever are
+afraid to try new things for fear of the unknown it's no wonder
+[[Why_Its_Easier_Than_Ever_To_Be_Better_Than_Average]].
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lrf54ta5ws2s"]]
