@@ -130,6 +130,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[El_Jefe_Zuma_Watermelon]]</li>
       <li>[[Tru_Energy_Orange_Mango]]</li>
       <li>[[Tru_Focus_Apple_Kiwi]]</li>
       <li>[[Ghost_Energy_x_Warheads_Sour_Watermelon]]</li>
@@ -178,6 +179,7 @@ Site Directory
   <ul>
     <li>Instant Noodles</li>
     <ul>
+      <li>[[Tapatio_Bowl_Spicy_Carne_Asada_with_Lime]]</li>
       <li>[[Tapatio_Bowl_Chili_Lime_Shrimp]]</li>
       <li>[[Maruchan_Gold_Spicy_Miso]]</li>
       <li>[[Menraku_Miso_Tonkotsu_Ramen]]</li>
