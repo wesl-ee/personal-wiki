@@ -37,3 +37,5 @@ or malic acid, it tastes mad artificial.
 | Carbohydrates | 71g |
 | Sodium | 2650mg |
 | Protein | 10g |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lrru2tbs6k2z"]]
