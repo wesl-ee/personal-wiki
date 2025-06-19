@@ -174,7 +174,6 @@ Site Directory
       <li>[[Ghost_Energy_x_Sour_Patch_Kids_Blue_Raspberry]]</li>
       <li>[[Rockstar_Sugar_Free]]</li>
       <li>[[Rip_It_Tribute_Cherry_Lime]]</li>
-      <li>[[Rip_It_Tribute_Cherry_Lime]]</li>
       <li>[[Zero_Sugar_Versus_Sugar_Free]]</li>
     </ul>
   </ul>

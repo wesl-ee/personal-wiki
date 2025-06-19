@@ -8,7 +8,7 @@ Unfortunately the drinks [no longer contain Super
 Creatine](https://www.foodbev.com/news/monster-secures-311m-victory-over-bang-energy-in-false-advertising-case),
 but it's not like Super Creatine had effects similar to creatine in the first
 place. Fatal mistake! I talked a bit about Super Creatine also in the first Bang
-review on this site, [[Bang_Black_Cherry]].
+review on this site, [[Bang_Black_Cherry_Vanilla]].
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreica4auevztq7x2v55ot6yakqohjli5wzy7xfnm2jnnbfop3atrooq" size=medium]]
@@ -24,3 +24,5 @@ taste is still very good. It's one of my favorite Bang flavors for that reason.
 | Volume | 16 floz |
 | Calories | 0cal |
 | Caffeine | 300mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lrxr63b52c2m"]]
