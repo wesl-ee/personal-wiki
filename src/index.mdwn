@@ -130,6 +130,8 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Bang_Cotton_Candy]]</li>
+      <li>[[Bang_Black_Cherry_Vanilla]]</li>
       <li>[[El_Jefe_Zuma_Watermelon]]</li>
       <li>[[Tru_Energy_Orange_Mango]]</li>
       <li>[[Tru_Focus_Apple_Kiwi]]</li>
