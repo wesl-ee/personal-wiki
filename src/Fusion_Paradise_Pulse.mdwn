@@ -1,3 +1,6 @@
+[[!meta title="Energy Drink — Fusion Paradise Pulse"]]
+[[!tag Energy_Drink Review]]
+
 I got this one along with [[Fusion_Rockin_Rainbow]] at the local Speedway, a brand
 which was acquired by 7-11 in 2021. Prior to being a Speedway this location was
 a Hess. A long lineage of corporate acquisitions and mergers are reflected in
@@ -34,3 +37,5 @@ that ain't bad!
 | Niacin | 16mg |
 
 [^1]: [https://corp.7-eleven.com/corp-press-releases/7-eleven-inc-launches-new-7-select-tm-fusion-energy-beverage](https://corp.7-eleven.com/corp-press-releases/7-eleven-inc-launches-new-7-select-tm-fusion-energy-beverage)
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3ls2s2qqfzc2g"]]
