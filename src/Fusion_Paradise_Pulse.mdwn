@@ -1,0 +1,36 @@
+I got this one along with [[Fusion_Rockin_Rainbow]] at the local Speedway, a brand
+which was acquired by 7-11 in 2021. Prior to being a Speedway this location was
+a Hess. A long lineage of corporate acquisitions and mergers are reflected in
+the history of this humble gas station.
+
+Fusion is a product of 7-11[^1] as suggested by the words "7 Select" in small
+text beside the brand name.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifxvxmrmijjzblny4dguy7k33tv7k74cyoyhmtfvdu5nbxbd42tva" size=medium]]
+</figure>
+
+The taste is clean, refreshing and artificial in a good way. Artificial
+sweeteners like Ace K do not imbue the drinks with a stickiness like
+high-fructose corn syrup does, giving this drink its clean texture. It's 86F
+today and drinking this outside is not revolting like some other drinks are in
+the heat. As for the flavor, this drink is like a sour blueberry.
+
+Overall it's surprising how pleasant this drink is considering also how cheap
+it's sold for: $2.49, which is a price point I only expect from the world's
+worst [[Rip Its|Rip_It_Tribute_Cherry_Lime]]. With zero sugar and 200mg caffeine
+that ain't bad!
+
+| | Amount |
+| --- | --- |
+| Volume | 12 floz |
+| Calories | 0cal |
+| Caffeine | 200mg |
+| Vitamin B6 | 3.4mg |
+| Vitamin B12 | 12mcg |
+| Biotin | 30mcg |
+| Pantothenic Acid | 5mg |
+| Vitamin C | 90mg |
+| Niacin | 16mg |
+
+[^1]: [https://corp.7-eleven.com/corp-press-releases/7-eleven-inc-launches-new-7-select-tm-fusion-energy-beverage](https://corp.7-eleven.com/corp-press-releases/7-eleven-inc-launches-new-7-select-tm-fusion-energy-beverage)

@@ -130,6 +130,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Fusion_Paradise_Pulse]]</li>
       <li>[[Bang_Cotton_Candy]]</li>
       <li>[[Bang_Black_Cherry_Vanilla]]</li>
       <li>[[El_Jefe_Zuma_Watermelon]]</li>
