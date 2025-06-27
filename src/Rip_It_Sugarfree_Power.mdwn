@@ -16,8 +16,10 @@ unapproachable, un-dethroneable by anyone else: at $1.25 there is no cheaper
 energy drink that can send you 0 to 100 so quick. It has only 160mg of caffeine,
 same as a [[Rockstar]], but it gets me so much more wired.
 
-> If there is any one conspiracy theory I actually believe it's that they put
-> *something else* in the Rip Its they don't advertise on the can.
+[[!template id="warning" text="""
+If there is any one conspiracy theory I actually believe it's that they put
+*something else* in the Rip Its they don't advertise on the can.
+"""]]
 
 | | Amount |
 | --- | --- |
@@ -27,3 +29,5 @@ same as a [[Rockstar]], but it gets me so much more wired.
 | Vitamin C | 144mg |
 | Vitamin B6 | 4mg |
 | Vitamin B12 | 12mcg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lsmql36sd227"]]
