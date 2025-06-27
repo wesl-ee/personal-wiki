@@ -36,7 +36,7 @@ section#content th.no-border, section#content td.no-border {
 
 section#content table {
 	border: 1px solid;
-	margin: auto;
+	margin: 2ch auto;
     empty-cells: hide;
     text-align: left;
 }
