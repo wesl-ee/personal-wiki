@@ -1,12 +1,14 @@
 [[!meta title="That One Fate Sample In That One Weeknd Track On House Of Balloons"]]
 
 There is a track on the 2011 mixtape from The Weeknd [[!wikipedia House of
-Balloons]] called [_Coming Down_](https://youtu.be/WVg1mbxTkFo). The track
-samples a dialogue from Fate/ Stay Night Episode 21.
+Balloons]] called _Coming Down_. The track samples dialogue from Fate/ Stay
+Night Episode 21.
 
-<figure><video width=492 height=360 controls>
+<figure class="image-square">
+<video width=492 height=360 controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreibpybozzjogwj7ahb7qejhbixrte227qrqvrneqmdnuduhu6zcxla" type="video/webm">
 </video>
+<iframe width="492" height="360" src="https://www.youtube.com/embed/WVg1mbxTkFo?si=TQCgqhuRzwOMWnOX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </figure>
 
 > Please stop troubling me. This action is unpleasant for me. Shirou, you are
