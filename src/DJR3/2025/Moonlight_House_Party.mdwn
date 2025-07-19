@@ -19,9 +19,9 @@ videos to hell. Duh! Soon, in addition to IPFS, I can offer sets directly on
 
 <figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreigdakpdvuzjufakhetntzdx5fvo4tjnlofvxcvcso65ekqy6yzkgi" size=medium]]
-<video autoplay muted controls>
+<div><video autoplay muted loop controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreihq2mxbzmwxospvsbzeeg3kylbjqynu5eqbwuv7nlj5ii755zon64">
-</video>
+</video></div>
 </figure>
 
 1. Aekae — Endless Skies
