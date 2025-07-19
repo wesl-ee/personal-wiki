@@ -24,22 +24,27 @@ videos to hell. Duh! Soon, in addition to IPFS, I can offer sets directly on
 </video></div>
 </figure>
 
-1. Aekae — Endless Skies
-2. nuphory — Leave The World Behind feat. Luna Lenta
-3. Nhato — Voices
-4. SubLab — Hyper Focus
-5. nuphory — Andromeda 
-6. Heimanu — Atrea (Former Hero Remix)
-7. ident — burning, alive (Katzhu Remix)
-8. nuphory — HYPERTRANCE/ETERNAL SPRING
-9. nuphory - TECHNOID99 
-10. Dog Blood — KOKOE (with Otira)
-11. leroy — BACK DOOR EXIT ---- IVE got a cr*sh on you
-12. Stessie & Volant — star anthem 2005 
-13. tenshi — Y2KVOID
-14. XX92 — Take Me Away
-15. Disaffected — A-Trak — Heads Will Roll Remix (Disaffected Bootleg)
-16. nuphory — CALLING
-17. Volant & Integra — Reality
+Colors below correspond to who is playing what track. But they tend to bleed
+together in the video. I'm not really sure anymore.
+
+<ol>
+<li style="color:#f0f">Aekae — Endless Skies</li>
+<li style="color:#f0f">nuphory — Leave The World Behind feat. Luna Lenta</li>
+<li style="color:#f9a100">Nhato — Voices</li>
+<li style="color:#f9a100">SubLab — Hyper Focus</li>
+<li style="color:#f0f">nuphory — Andromeda </li>
+<li style="color:#f9a100">Heimanu — Atrea (Former Hero Remix)</li>
+<li style="color:#f9a100">ident — burning, alive (Katzhu Remix)</li>
+<li style="color:#f0f">nuphory — HYPERTRANCE/ETERNAL SPRING</li>
+<li style="color:#f0f">nuphory - TECHNOID99 </li>
+<li style="color:#f9a100">Dog Blood — KOKOE (with Otira)</li>
+<li style="color:#f9a100">leroy — BACK DOOR EXIT ---- IVE got a cr*sh on you</li>
+<li style="color:#f0f">Stessie & Volant — star anthem 2005 </li>
+<li style="color:#f0f">tenshi — Y2KVOID</li>
+<li style="color:#f9a100">XX92 — Take Me Away</li>
+<li style="color:#f9a100">Disaffected — A-Trak — Heads Will Roll Remix (Disaffected Bootleg)</li>
+<li style="color:#f0f">nuphory — CALLING</li>
+<li style="color:#f0f">Volant & Integra — Reality</li>
+</ul>
 
 [[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lucuonvvqk2s"]]
