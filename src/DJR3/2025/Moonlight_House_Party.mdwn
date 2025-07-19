@@ -11,15 +11,17 @@ different ways. Last recorded B2B we did was exactly this time last year at the
 [[2024 Moonlight House Party|DJR3/2024/Moonlight_House_Party]]. In between then
 and here we played a small house party. Ain't no thing!
 
-The video of this set I [[!myipfs QmPXxmqRkW91Dh61JugAczp3LAhAcJvobKEPpFkhWgxZZs
-desc="posted to IPFS"]] is much higher quality than the one I uploaded to
-YouTube because Google compresses videos to hell. Duh! Soon, in addition to
-IPFS, I can offer sets directly on [[HooYa]]. Soon...
+The video of this set which I [[!myipfs
+QmPXxmqRkW91Dh61JugAczp3LAhAcJvobKEPpFkhWgxZZs desc="posted to IPFS"]] is much
+higher quality than the one I uploaded to YouTube because Google compresses
+videos to hell. Duh! Soon, in addition to IPFS, I can offer sets directly on
+[[HooYa]]. Soon...
 
 <figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreigdakpdvuzjufakhetntzdx5fvo4tjnlofvxcvcso65ekqy6yzkgi" size=medium]]
 <video autoplay muted controls>
-<source src="https://web.hooya.wesl.ee/cid-content/bafkreihq2mxbzmwxospvsbzeeg3kylbjqynu5eqbwuv7nlj5ii755zon64"/>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreihq2mxbzmwxospvsbzeeg3kylbjqynu5eqbwuv7nlj5ii755zon64">
+</video>
 </figure>
 
 1. Aekae — Endless Skies
