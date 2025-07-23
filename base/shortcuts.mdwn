@@ -9,4 +9,5 @@
 [[!shortcut name=ipfs url="https://cloudflare-ipfs.com/ipfs/%s" desc="/ipfs/%s"]]
 [[!shortcut name=myipfs url="https://ipfs-gateway.wesl.ee/%s" desc="/ipfs/%s"]]
 [[!shortcut name=ens url="https://%s.eth.limo" desc="%s.eth" ]]
+[[!shortcut name=danbooru url="https://danbooru.donmai.us/posts?tags=%s"
 

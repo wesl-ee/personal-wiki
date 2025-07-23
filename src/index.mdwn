@@ -132,6 +132,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Venom_Energy_Mango]]</li>
       <li>[[Fusion_Paradise_Pulse]]</li>
       <li>[[Bang_Cotton_Candy]]</li>
       <li>[[Bang_Black_Cherry_Vanilla]]</li>
