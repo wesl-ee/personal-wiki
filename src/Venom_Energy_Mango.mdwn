@@ -28,7 +28,7 @@ any difficult task.</figcaption>
 Mango Venom has fine, velvety carbonation. The flavor is wildy sweet, slightly
 sour. The sugar and citrus reminds of those fantastic, over-the-top Japanese
 parfaits that are tropes in your favorite gacha's official art ([[!danbooru
-parfait+official_art desc="Danbooru:parfair+official_art"]]). The taste is like a
+parfait official_art desc="Danbooru:parfait official_art"]]). The taste is like a
 citrus parfait topped with orange and mango and lemon dissolving into a sugary
 hell of cream and blended fruit below. It's fine but hard to drink if you're not
 expecting it.
