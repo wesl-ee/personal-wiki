@@ -132,6 +132,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[C4_Jolly_Rancher_Blue_Raspberry]]</li>
       <li>[[Venom_Energy_Mango]]</li>
       <li>[[Fusion_Paradise_Pulse]]</li>
       <li>[[Bang_Cotton_Candy]]</li>

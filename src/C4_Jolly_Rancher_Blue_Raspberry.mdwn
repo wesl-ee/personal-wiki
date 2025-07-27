@@ -37,7 +37,7 @@ to run or lift. Anything but sit down.
 So don't have a C4 sitting down unless you do not have the beta alanine allergy.
 Which surprisingly not everyone has. Only one way to find out!
 
-[^1]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6092497/
+[^1]: [https://pmc.ncbi.nlm.nih.gov/articles/PMC6092497/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6092497/)
 
 | | Amount |
 | --- | --- |
@@ -45,3 +45,5 @@ Which surprisingly not everyone has. Only one way to find out!
 | Calories | 0cal |
 | Caffeine | 200mg |
 | Beta-alanine | Unclear |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3luxzpddv2s2o"]]
