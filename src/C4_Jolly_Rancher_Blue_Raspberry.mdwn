@@ -1,0 +1,47 @@
+[[!meta title="Energy Drink — C4 Jolly Rancher Blue Raspberry"]]
+[[!tag Energy_Drink Review]]
+
+Blue raspberry is an invented fruit. Isn't it funny we all know how it tastes
+when it's not even real? Regardless we've looked at a few blue raspberry
+flavored drinks on this site, a few have blue raspberry shamelessly in the name:
+[[Ashoc_Blue_Raspberry]] and [[Ghost_Energy_x_Sour_Patch_Kids_Blue_Raspberry]].
+Many more are flavored (and colored) to emulate that distinct blue sno-cone
+flavor.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreidodd4yydq6oytznfwbs63z2fy4c2yepqczkemhilyo7jglwsrzea" size=medium]]
+</figure>
+
+C4 Jolly Rancher Blue Raspberry is a mild blue raspberry flavor. Compared to
+those mentioned above the flavor is mild and clean. Easy to drink. A bit sour on
+the finish but otherwise not tasting too artificial. *Mmm, smooth*.
+
+I bet this would be amazing if it were an ice slush, as its flavor does remind
+me of a sno cone with a very light amount of syrup. The side of the can says "do
+not freeze". That's what gave me the idea.
+
+The beta alanine (branded betaPOWER, a registered trademark of [[!wikipedia
+DuPont desc="Wikipedia:DuPont"]]) in C4 hits me like a freight train every time.
+I drink [[Bucked_Up|Bucked_Up_Miami]] and believe I've microdosed my way out of
+a beta alanine allergy but, C4 reminds me, I still get very tingly after
+drinking these. This is the intended effect of course: C4 is "energy you can
+feel", that's the whole gimmick. Beta alanine may improve athletic performance
+in endurance running [^1] though this was supplementation at 5g over 3 weeks. So
+the gains of beta alanine had by drinking a single can are psychological at
+best. Caffeine is the heavy lifter.
+
+But the tingles are weird and fun. For me it is a full-body effect and can be
+confusingly itchy, especially around my face and lower torso. It makes me want
+to run or lift. Anything but sit down.
+
+So don't have a C4 sitting down unless you do not have the beta alanine allergy.
+Which surprisingly not everyone has. Only one way to find out!
+
+[^1]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6092497/
+
+| | Amount |
+| --- | --- |
+| Volume | 16 floz |
+| Calories | 0cal |
+| Caffeine | 200mg |
+| Beta-alanine | Unclear |
