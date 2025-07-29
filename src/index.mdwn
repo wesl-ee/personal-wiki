@@ -208,6 +208,12 @@ Site Directory
     </ul>
   </ul>
   <ul>
+    <li>Soup</li>
+    <ul>
+      <li>[[McDougalls_Black_Bean_and_Lime_Soup_Cup]]</li>
+    </ul>
+  </ul>
+  <ul>
     <li>Food</li>
     <ul>
       <li>[[Ramen]]</li>
@@ -363,6 +369,8 @@ more articles with that tag.
 
 [[!pagestats show="Title" pages="Discover/*
     and !Discover/Energy_Drink
+    and !Discover/DJ_Set
+    and !Discover/Soup
     and !Discover/Sleepy_Supplements
     and !Discover/Review
     and !Discover/Instant_Noodles

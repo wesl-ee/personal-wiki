@@ -51,3 +51,5 @@ once, if you're up for something different.
 | Sodium | 590mg |
 | Fiber | 14g |
 | Protein | 21g |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lv3vzcyo6k2g"]]
