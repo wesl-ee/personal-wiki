@@ -1,0 +1,70 @@
+Olive oil is pressed from the flesh of [[Olives]].
+
+There are two main types of olive oil, refined and unrefined, and there are a
+few different grades of olive oil. Exhaustively, below, the first two items are
+unrefined and the rest are refined.
+
+- Extra virgin olive oil
+- Virgin olive oil
+- Refined olive oil
+- Pure olive oil
+- Olive pomace oil
+
+Virgin oil has slightly higher acidity than extra virgin oil. Refined and pure
+oil are made by refining virgin olive oils. Finally, pomace oil is made from oil
+extracted from the olive pit and is only used for cooking: it has a higher smoke
+point than unrefined olive oils like virgin and extra virgin.
+
+In ancient Greece olive oil was an important export, as important as wine and
+pottery, and its utility made olives a staple crop in the Mediterranean. Olive
+oil was used as food, fuel and as a beauty cosmetic. It was given to athletes as
+trophies celebrating their victories (it was often quickly re-sold by these
+athletes), who themselves annointed their bodies with it traditionally before
+competition.
+
+In the Jewish story of the miracle of Hanukkah, also known as the [[!wikipedia
+Miracle_of_the_cruse_of_oil]], a night's worth of olive oil burned in a menorah
+for 8 nights. After the defiling of the second temple in Jerusalem by the
+Greeks, returning Jewish soldiers who'd been fighting the Greeks sought to
+purify and rededicate the temple:
+
+> As the Maccabees searched for pure oil to light the menorah with, they found
+> just one cruse of pure oil which still had the seal of the High Priest, the
+> symbol of pure oil. This cruse contained just enough pure oil to keep the
+> menorah lit for one day. In order to make pure oil however, individuals making
+> the oil must be in a state of spiritual purity. Being soldiers returning from
+> the battlefield, the Maccabees were deemed impure, and therefore could not make
+> pure oil. Since the process of ritual purification after touching a corpse lasts
+> seven days, the Maccabees could only produce additional pure oil after eight
+> days: seven days of becoming pure including one day, once pure, to actually make
+> the oil. Therefore, the Maccabees would have been unable to light the Menorah
+> for seven days before the completion of new pure oil. Miraculously, the one
+> cruse of oil had lasted for all eight days, and by that point new pure oil was
+> ready.
+
+Today olive oil is sold at the grocery store. Amid canola and vegetable oil it
+is not notable to the passerby except for being priced moderately higher. There
+are grades of olive oil and they are used for different things. Extra virgin
+olive oil (EVOO) and virgin olive oil are great for dipping. Both can be rich in
+flavor served cold with bread, balsamic, salt and pepper.
+
+The gentle oils like EVOO and virgin olive oil denature when severe heat is
+applied to them as they have a low-ish smoke point.
+
+Refined, pure and pomace oils have a much higher smoke point. That means they
+are suitable for frying and searing things like steak and fish. Steak,
+especially, can demand high temperatures to sear. Olive oil can fry just as
+canola, vegetable and grapeseed oils can fry, provided you pick the one with an
+appropriate smoke point:
+
+| Oil                        | Smoke Point (°F) |
+| -------------------------- | ---------------- |
+| **Extra virgin olive oil** | ~410°F           |
+| **Virgin olive oil**       | ~420°F           |
+| **Refined olive oil**      | ~465°F           |
+| **Pure olive oil**         | ~465°F           |
+| **Olive pomace oil**       | ~465°F           |
+
+Some believe olive oil, particularly extra virgin olive oil (EVOO) is healthier
+than other oils. Yes, it's moderately healthier. But in the same breath you're
+likely to die from something else well before the canola oil does you in.
