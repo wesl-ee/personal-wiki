@@ -1,3 +1,5 @@
+[[!tag Food_+_Drink]]
+
 Olive oil is pressed from the flesh of [[Olives]].
 
 There are two main types of olive oil, refined and unrefined, and there are a
@@ -68,3 +70,5 @@ appropriate smoke point:
 Some believe olive oil, particularly extra virgin olive oil (EVOO) is healthier
 than other oils. Yes, it's moderately healthier. But in the same breath you're
 likely to die from something else well before the canola oil does you in.
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lvn5crhdwk2d"]]

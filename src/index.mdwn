@@ -219,6 +219,7 @@ Site Directory
     <ul>
       <li>[[Ramen]]</li>
       <li>[[Olives]]</li>
+      <li>[[Olive_Oil]]</li>
       <li>[[Coffee]]</li>
       <li>[[Yoshinoya]]</li>
       <li>[[Cookout]]</li>

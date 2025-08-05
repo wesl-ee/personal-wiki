@@ -32,3 +32,5 @@ Food Lion.
 | Carbohydrates | 0g |
 | Sodium | 220mg |
 | Protein | 19g |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lvn52mzlbc24"]]
