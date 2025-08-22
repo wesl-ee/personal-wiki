@@ -1,0 +1,47 @@
+[[!meta title="Instant Noodles — Nissin Ramen Bistro Sichuan Garlic Chicken"]]
+[[!tag Instant_Noodles Review]]
+
+Nissin's Ramen Bistro is a new brand for me, I haven't seen it around before.
+These I found at the Dollar General near my house. Researching, I've found in a
+FY 3/2025 H1 presentation that the Bistro brand was launched in November
+2024.[^1]
+
+They have three flavors right now: Sichuan Garlic Chicken, Korean Gochujang Beef
+and Japanese Miso. Today I've got the first.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreihhxfvfjwtg7ehplcnmuvprsokgsaa5xbxwwvxaipnit4pvqqpjue" size=medium]]
+</figure>
+
+First impression: there are so many noodles here, more than other cup noodles
+I've had, so many that I can barely see the soup despite having filled it up to
+the fill line. It does seem like something absorbed the water, as it is a
+quarter inch below where I filled it to. There is a distant, wet spice imbued in
+the noodles. The lid claims the noodles are "chili-infused" so this checks out.
+They have great body and are springy despite me getting distracted and
+overcooking by a minute. Since starting on my humble
+[[Discover/Instant_Noodles]] journey I've become more fond of noodles with bite.
+Mushy noodles cannot compare. These are perfect.
+
+There are carrots, green onion and a dark, leafy green that the label betrays is
+bok choy. It has palpable texture. There's dried chicken in here too, which I
+find more of as I finish the noodles. Fascinating.
+
+For a chicken broth it's damn good. Not too salty. It has suspended bits of oil
+floating around in it, a nice touch. The spice introduces itself a bit more
+aggressively in the broth than in the noodles. It's welcome, for me, but I like
+spice. Not overpowering though.
+
+In my hierarchy, this rivals [[Shin|Nongshim_Shin_Spicy_Cup_Noodles]]. I like
+Shin a bit more because it has mushrooms. But this is a damn good cup of
+noodles for not that much money. I found you at the Dollar General!
+
+| | Amount |
+| ---- | ------ |
+| Calories | 390cal |
+| Fat | 13g |
+| Carbohydrates | 57g |
+| Sodium | 1070mg |
+| Protein | 10g |
+
+[^1]: [https://www.nissin.com/en_jp/ir/library/file/2025/2q_presentation_material.pdf](https://www.nissin.com/en_jp/ir/library/file/2025/2q_presentation_material.pdf) ([archived](https://web.hooya.wesl.ee/cid-content/bafkreiaixuduouyscrxe5royg43hd5ub7gbzbvx2k7hc3s7ghgfl7xki2q))
