@@ -185,6 +185,7 @@ Site Directory
   <ul>
     <li>Instant Noodles</li>
     <ul>
+      <li>[[Nissin_Ramen_Bistro_Sichuan_Garlic_Chicken]]</li>
       <li>[[Tapatio_Bowl_Spicy_Carne_Asada_with_Lime]]</li>
       <li>[[Tapatio_Bowl_Chili_Lime_Shrimp]]</li>
       <li>[[Maruchan_Gold_Spicy_Miso]]</li>
@@ -204,6 +205,7 @@ Site Directory
   <ul>
     <li>Tinned Fish</li>
     <ul>
+      <li>[[Cento_Flat_Fillet_Anchovies]]</li>
       <li>[[King_Oscar_Salmon_In_Extra_Virgin_Olive_Oil_With_Lemon]]</li>
       <li>[[Beach_Cliff_Fish_Steaks_in_Louisiana_Hot_Sauce]]</li>
     </ul>
