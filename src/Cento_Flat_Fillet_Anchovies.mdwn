@@ -15,10 +15,11 @@ to you, it's clear that you wouldn't get it.
 These are another Food Lion pull.
 
 These anchovies are super salty but actually have a good taste for tinned fish;
-they are surprisingly easy to eat on their own. The olive oil lends a smooth
-texture but itself lacks any taste. It's probably pomace oil, which is the most suitable
-olive oil for high-heat cooking, which is required for canning. There are little
-bones in the filets but they are microscopic because anchovies are small fish.
+they are surprisingly easy to eat on their own. The [[Olive_Oil]] lends a smooth
+texture but itself lacks any taste. It's probably pomace oil, which is the most
+suitable olive oil for high-heat cooking, which is required for canning. There
+are little bones in the filets but they are microscopic because anchovies are
+small fish.
 
 Still, in spite of the taste, the filets were so, so salty. I couldn't finish
 half the tin without feeling like I was rapidly becoming dehydrated.
@@ -31,3 +32,4 @@ half the tin without feeling like I was rapidly becoming dehydrated.
 | Sodium | 960mg |
 | Protein | 8g |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lwxpihd7y22j"]]

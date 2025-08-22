@@ -45,3 +45,5 @@ noodles for not that much money. I found you at the Dollar General!
 | Protein | 10g |
 
 [^1]: [https://www.nissin.com/en_jp/ir/library/file/2025/2q_presentation_material.pdf](https://www.nissin.com/en_jp/ir/library/file/2025/2q_presentation_material.pdf) ([archived](https://web.hooya.wesl.ee/cid-content/bafkreiaixuduouyscrxe5royg43hd5ub7gbzbvx2k7hc3s7ghgfl7xki2q))
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lwxpgowkxc2f"]]
