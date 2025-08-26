@@ -19,8 +19,8 @@ you're not range of the tower.
 
 <figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreie5b5ojkee3trtneezq36me7ta6spcwxb4syhpnef23l4ufeega5q" size=medium]]
-<div><video autoplay muted loop>
-<source src="https://web.hooya.wesl.ee/cid-thumbnail/bafkreid6aauoee2spar3h772viaflo72slbkgmm4ed5ya57foopjhc6q3m/medium">
+<div><video autoplay muted loop controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreibpzkkpn6wzahfglhmuu6p76ytj5ycb5oubkulahmgct4zznoti6i">
 </video></div>
 </figure>
 
