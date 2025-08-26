@@ -30,3 +30,5 @@ it's not very "clean" if it still has 28g of added sugar!
 | Volume | 12 floz |
 | Calories | 120cal |
 | Caffeine | 80mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lxbzqpj3ik26"]]
