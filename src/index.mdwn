@@ -43,6 +43,7 @@ Site Directory
     <ul>
       <li>2025</li>
       <ul>
+        <li>[[DJR3/2025/Wifi_Saves_Ravemune]]</li>
         <li>[[DJR3/2025/Moonlight_House_Party]]</li>
         <li>[[DJR3/2025/Transit_Hint_of_Darkness]]</li>
         <li>[[DJR3/2025/Millennium_Strike_Episode_17]]</li>
