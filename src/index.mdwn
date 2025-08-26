@@ -187,6 +187,7 @@ Site Directory
   <ul>
     <li>Instant Noodles</li>
     <ul>
+      <li>[[Nissin Protein Hot & Spicy Chicken|Nissin_Protein_Hot_Spicy_Chicken]]</li>
       <li>[[Nissin_Ramen_Bistro_Sichuan_Garlic_Chicken]]</li>
       <li>[[Tapatio_Bowl_Spicy_Carne_Asada_with_Lime]]</li>
       <li>[[Tapatio_Bowl_Chili_Lime_Shrimp]]</li>
