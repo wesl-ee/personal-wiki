@@ -1,7 +1,7 @@
 [[!tag DJ_Set]]
 [[!meta title="Wifi Saves Rave~mune"]]
 
-[ [Watch on YouTube](https://youtu.be/5kSlsmDBXLk) / [Download from HooYa!](https://hooya.wesl.ee/cid/bafkreid6aauoee2spar3h772viaflo72slbkgmm4ed5ya57foopjhc6q3m)
+[ [Watch on YouTube](https://youtu.be/5kSlsmDBXLk) / [Download from HooYa!](https://hooya.wesl.ee/cid/bafkreid6aauoee2spar3h772viaflo72slbkgmm4ed5ya57foopjhc6q3m) ]
 
 August 22, 2025
 
@@ -15,11 +15,11 @@ scrolling!
 This was with a handful of either current or past DJs for
 [WKNC](https://wknc.org). They play the same music on the radio. It's crazy to
 hear breakcore on the terrestrial radio! You can [listen online](https://wknc.org/stream-hd1/) too if
-you're not range of the tower
+you're not range of the tower.
 
 <figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreie5b5ojkee3trtneezq36me7ta6spcwxb4syhpnef23l4ufeega5q" size=medium]]
-<div><video autoplay muted loop controls>
+<div><video autoplay muted loop>
 <source src="https://web.hooya.wesl.ee/cid-thumbnail/bafkreid6aauoee2spar3h772viaflo72slbkgmm4ed5ya57foopjhc6q3m/medium">
 </video></div>
 </figure>
@@ -41,3 +41,5 @@ you're not range of the tower
 15. Culture Shock — Discotheque
 16. NERO — PROMISES (SKRILLEX AND NERO REMIX) [MAPLE EDIT]
 17. Oolacile — Bathtub Marlboro
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lxd4ycivt222"]]
