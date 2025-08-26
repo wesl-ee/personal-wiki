@@ -3,12 +3,12 @@
 
 Nissin Protein noodles are even newer than the [[Ramen
 Bistro|Nissin_Ramen_Bistro_Sichuan_Garlic_Chicken]] brand which was released
-last November. Nissin Protein was released on July 28 2025. Lately Nissin seems
-to be making a push in the foreign market (instead of the Japanese domestic
-market) with lots of new and interesting innovations in the field of things that
-can be put in cups. Nissin Stir Fry has been around for a while, as has Curry.
-Nissin Stir Fry with Noodles is newer. Top Ramen Hotpot Fusions was just
-released in July along with Cup Noodles Protein.
+last November. Nissin Protein was released on July 28 2025.[^1] Lately Nissin
+seems to be making a push in the foreign market (instead of the Japanese
+domestic market) with lots of new and interesting innovations in the field of
+things that can be put in cups. Nissin Stir Fry has been around for a while, as
+has Curry. Nissin Stir Fry with Noodles is newer. Top Ramen Hotpot Fusions was
+just released in July along with Cup Noodles Protein.
 
 Hot & Spicy Chicken, but not to be confused with
 [[Nissin_Hot_Spicy_Fire_Wok_Molten_Chili_Chicken]]. These are not notably spicy
@@ -50,3 +50,5 @@ an 8g difference would be negligible. Anyway, it's nice that it's there.
 | Protein | 16g |
 
 [^1]: [https://www.nissinfoods.com/story/cup-noodles-protein-out-in-stores-now/]()
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3lxdffydj3k2j"]]
