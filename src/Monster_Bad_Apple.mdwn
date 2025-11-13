@@ -10,7 +10,6 @@ some random person.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreid2mvzpzvhkej2ctulyqyj4c3huxtadugl5khpqgnm3fnp6sfxx2i" size=medium]]
-<figcaption>Alucard would be so much cooler though</figcaption>
 </figure>
 
 And no, not related to [that](https://youtu.be/FtutLA63Cp8) Bad Apple either
@@ -43,3 +42,5 @@ stomach. Surprisingly, it's only 6% juice by volume.
 | Volume | 16 floz |
 | Calories | 170cal |
 | Caffeine | 160mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3m5ken4dnas2x"]]

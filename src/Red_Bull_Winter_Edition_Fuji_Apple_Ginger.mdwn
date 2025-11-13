@@ -34,3 +34,5 @@ difference or a difference in palates.
 | Volume | 7.4 floz |
 | Calories | 110cal |
 | Caffeine | 80mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3m5keor2om22x"]]
