@@ -103,6 +103,7 @@ Site Directory
     <ul>
       <li>[[Why It's Easier Than Ever To Be Better Than Average|Why_Its_Easier_Than_Ever_To_Be_Better_Than_Average]]</li>
       <li>[[False_Dichotomy]]</li>
+      <li>[[Living_In_The_Energy_Drink_Renaissance]]
       <li>[[Programming_Is_Just_A_Tool]]</li>
       <li>[[The_Boxes_They_Will_Put_You_In]]</li>
       <li>[[Boredom]]</li>
@@ -128,11 +129,15 @@ Site Directory
       <li>[[Wikipedia, The Social Encyclopedia|Wikipedia_The_Social_Encyclopedia]]</li>
       <li>[[The_Wolf_Web]]</li>
       <li>[[Blogroll]]</li>
+      <li>[[Semantic_HTML]]</li>
     </ul>
   </ul>
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Monster_Bad_Apple]]</li>
+      <li>[[Red_Bull_Winter_Edition_Fuji_Apple_Ginger]]</li>
+      <li>[[Monster_Electric_Blue]]</li>
       <li>[[28_Black_Classic]]</li>
       <li>[[C4_Jolly_Rancher_Blue_Raspberry]]</li>
       <li>[[Venom_Energy_Mango]]</li>
@@ -314,6 +319,7 @@ Site Directory
       <li>[[Devices/Wonder_Pop]]</li>
       <li>[[Devices/Spitfire]]</li>
       <li>[[Devices/Z_Flip4]]</li>
+      <li>[[One_Year_of_Owning_the_Galaxy_Z_Flip_4]]
       <li>[[Devices/x240]]</li>
     </ul>
   </ul>
