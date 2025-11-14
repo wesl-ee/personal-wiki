@@ -12,9 +12,8 @@ some random person.
 [[!template id="hooya-img.tmpl" cid="bafkreid2mvzpzvhkej2ctulyqyj4c3huxtadugl5khpqgnm3fnp6sfxx2i" size=medium]]
 </figure>
 
-And no, not related to [that](https://youtu.be/FtutLA63Cp8) Bad Apple either
-Here's a great Baile flip of Bad Apple. Not related to the drink but I can't
-just sit on this one.
+And no, the drink is not related to [that](https://youtu.be/FtutLA63Cp8) Bad
+Apple. Here's a great Baile flip of Bad Apple. I can't just sit on this one.
 
 <figure>
 <audio src="https://web.hooya.wesl.ee/cid-content/bafkreid25b4hagsjpqhdgtvtewsjshfaly7b2iy4zwr275vxlqsce2ngsi" controls/>
