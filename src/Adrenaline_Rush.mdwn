@@ -1,0 +1,45 @@
+[[!meta title="Energy Drink — Adrenaline Rush"]]
+[[!tag Energy_Drink Review]]
+
+Adrenanine Rush is an odd drink with a long history. Adrenaline Rush was first
+released in 2000 for beverage company SoBe. SoBe was founded in 1996 by John
+Bello and Tom Schwalm, then sold to PepsiCo in 2000 for $370 million[^1]. Today,
+PepsiCo still distributes Adrenaline Rush. The can I have is Product of Honduras
+from Embotelladora de Sula, S.A, with the words Bebida Energizante written on
+the front. There is a playful graphic on the front with the lizard motif, but
+with SoBe written nowhere on the can. It seems Adrenaline Rush was rebranded
+after SoBe withdrew from the US market around 2011.
+
+<figure><div class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreibiqtu5pvmrzhni6s2sxffu6d3silfwwed4zd5axgmtz7h6344ju4" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreighqp5k2o6np3dmbzivbo2z7vll5xcb7xnxxbanxo7voujpso5hei" size=medium]]
+</div>
+</figure>
+
+SoBe bottled all of its drinks in glass until 2007 when it switched to plastic.
+One drink branded by SoBe, SoBe No Fear, had creatine in it[^2]. I triple-checked this claim
+and it appears to be true. [[Bang|Bang_Black_Cherry_Vanilla]] would later enter
+the market with Super Creatine (no relation). It apepars SoBe was ahead of the
+game, and still failed, reminding us that it takes more than just being early to
+be successful.
+
+SoBe also produced a wide variety of tea and infused water. Nowadays the only
+lingering SoBe product I see is Adrenaline Rush. It seems Adrenaline Rush has a
+larger presence abroad, especially in Russia and Latin America. I've not seen on
+produced in the US in a long time.
+
+Adrenaline Rush tastes like... nothing. It's a remarkably empty and vapid
+profile. A hint of grapefruit plus orange and just, nothing. It is very easy to
+drink for this reason, not too acidic nor too flat. But not remarkable in any
+other way. And notably sugary, too.
+
+| | Amount |
+| --- | --- |
+| Volume | 10 floz |
+| Calories | 150cal |
+| Caffeine | Unclear |
+
+[^1]:  Olson, Jorge S.; Lopez, Carlos (February 13, 2009). Build Your Beverage
+       Empire. Jorge Olson. p. 67. ISBN 978-0-9821425-1-6.
+
+[^2]: [https://energy-drink-ratings.blogspot.com/2006/05/no-fear-sobe-energy-drink-review.html](https://energy-drink-ratings.blogspot.com/2006/05/no-fear-sobe-energy-drink-review.html)

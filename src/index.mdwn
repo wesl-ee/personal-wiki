@@ -135,6 +135,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Adrenaline_Rush]]</li>
       <li>[[Monster_Bad_Apple]]</li>
       <li>[[Red_Bull_Winter_Edition_Fuji_Apple_Ginger]]</li>
       <li>[[Monster_Electric_Blue]]</li>
