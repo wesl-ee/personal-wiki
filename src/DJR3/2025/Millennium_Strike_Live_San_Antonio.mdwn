@@ -1,23 +1,21 @@
 [[!tag DJ_Set]]
-[[!meta title="Wifi Saves Rave~mune"]]
+[[!meta title="Mi"]]
 
 [ [Watch on YouTube](https://youtu.be/y-xIyCoIqlQ?si=xBkkUl8Jk0ldFH9b) / [Download from HooYa!](https://hooya.wesl.ee/cid/bafkreiambgwnqygtlf5s3ojo47sfxs7cryjlfu5ofcvdyw3am7gqrvr2rq) ]
 
-
+November 8, 2025
 
 Millennium Strike hosted two IRL events in Texas in 2025, one in Austin and one
 in San Antonio. I had the fortune of playing the one in San Antonio. My last IRL
-Millennium Strike event as a B2B at a 2023
+Millennium Strike event was a B2B at a 2023
 [[DJR3/2023/Millennium_Strike_Prologue]] in Chicago. Earlier in 2025 I played
-[[DJR3/2025/Millennium_Strike_Episode_17]]
+[[DJR3/2025/Millennium_Strike_Episode_17]].
 
-<figure class="image-square">
-<div>
+<figure>
 [[!template id="hooya-img.tmpl" cid="bafkreidbnsct64uv27xy2fccq25cspbqjhvqcfttvjrlpgxjvxcuvbtk2q" size=medium]]
-</div><div>
+</figure><figure class="image-square">
 [[!template id="hooya-img.tmpl" cid="bafkreifoxz3qeerdve4rqgciq3u6oegyu2ml4zjzvan5izqsmsmofjbveu" size=medium]]
 [[!template id="hooya-img.tmpl" cid="bafkreifoyueijm4dm4ccc5myrpvu7hzxaeqjstusdgelhl4wkswbr7bldm" size=medium]]
-</div>
 </figure>
 
 Both days in Texas were awesome. I flew down for the weekend and went from
@@ -43,7 +41,13 @@ site](https://shop.hikariresearch.org/product/millennium-strike-live-shirt)
 [[!template id="hooya-img.tmpl" cid="bafkreihqsvxvtdpcqpstz4xme7mmdrf4dcophp4ywhpytvnlatrt7jfptu" size=medium]]
 </figure>
 
-I played a lot of music too.
+On the San Antontio day I immersed myself in WipeOut 64 on the N64 console that
+was set out. After I was charmed, I stood up and played my music and sat back
+down to run the track back.
+
+Catch the set either on
+[YouTube](https://youtu.be/y-xIyCoIqlQ?si=xBkkUl8Jk0ldFH9b) or [download it from
+HooYa!](https://hooya.wesl.ee/cid/bafkreiambgwnqygtlf5s3ojo47sfxs7cryjlfu5ofcvdyw3am7gqrvr2rq).
 
 1. Taishi - Cynthia
 2. TORI NO UTA (DATABASS REWORK)
@@ -72,3 +76,4 @@ I played a lot of music too.
 25. Oolacile - Bathtub Marlboro
 26. nuphory - HYPERTRANCE
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3m7kd5rlics27"]]
