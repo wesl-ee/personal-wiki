@@ -1,0 +1,207 @@
+[[!meta title="Epic Plane Evolution (YouTube Playables)"]]
+
+This is a guide for Epic Plane Evolution, specifically the YouTube Playables
+version. If you didn't know, YouTube has
+[Playables](https://www.youtube.com/playables). They are little games that run
+in your browser. They're meant for mobile but you can play them on desktop (and
+mobile too) by going to Menu (left side) > Explore >
+Show more > Playables. You can access Epic Plane Evolution directly
+[here](https://youtube.com/playables/UgkxcT8M5bNG1kGoKdTlFWee_ugvWJhkkT-Y).
+
+Here's what Epic Plane Evolution looks like:
+
+<figure><video autoplay muted loop controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreiepkuokhdbx7ck6xe6jjhfys3rfr4pao476uxvpinmlr7ltwesda4">
+</video></figure>
+
+Gameplay Loop
+-------------
+
+In every level you start with a basic plane attached to a slingshot. You can
+pull the slingshot back to launch your plane, and where you land determines the
+gold you earn for that launch. While you only start with a fuselage most times,
+you can take the gold you earn and upgrade three possible things over the
+course of the level:
+
+1. Slingshot
+2. Plane
+3. Income
+
+Plane upgrades are by-far the most important. Typically you get 3 control
+surfaces (eg left wing, right wing, tail) and a propeller. In every level at
+least up to 7, which is the terminus of the YouTube Playables version and the
+only version of Epic Plane Evolution I've bothered playing, there are at most 4
+Plane upgrades. Upgrading further does not get you any new parts and is actually
+throwing money away.
+
+Slingshot upgrades determine the launch speed of the plane. For most levels,
+once I mastered the mechanics (I explain below), I only needed at most 3
+upgrades for the slingshot, sometimes only 2. Listen and you shall learn.
+
+Finally there is the Income upgrade. Upgrading this one increases the multiplier
+applied to the money you receive per launch. Because money is the only currency
+in the Playables version this is generally a good investment.
+
+So to recap, for each level:
+
+- 4 plane upgrades
+- You probably only need to upgrade the slingshot 3 times
+- As much for Income as you deem necessary
+
+Plane upgrades do not carry over. Slingshot upgrades do not carry over though
+the aesthetics of the slingshot do, weirdly enough. That means for each level,
+regardless of what you brought, money aside, you need to follow this upgrade
+path. Upgrades get more expensive as the game progresses and as you put more
+money into an upgrade, though this seems to reset to a baseline increase in cost
+after moving to the next level.
+
+
+---
+
+There's no way to put it lightly: this game is a massive grindfest. It
+has its roots as a mobile game launched in June 2024 that joined YouTube
+Playables in September of that year.
+
+It didn't stop being a mobile game but the mobile game now has so many ads it
+seems to be [near-unplayable](https://youtu.be/cnaa5Rka72Q). Compounding this,
+in the mobile game you need Plane Tickets to fly. These regenerate slowly over
+time. This is a common mechanic but the only other game I played with an energy
+mechanic was Love Live School Idol Festival. And _that_ was a grind-y game!
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreifjpz2aw2kbfnzbn5jcygn64c3s4ybr56qbqn5omw5637vxuar4we" size=medium]]
+<figcaption>Screencap of my SIF account from June 2018 when I was at
+[[Sophia_University]]. I know what a good mobile game looks like!</figcaption>
+</figure>
+
+In Epic Plane Evolution you can watch 2 ads to get more tickets (3 at a time) or
+you can buy them with money: $2 for 20, $5 for 80 or $10 for 200 tickets. Now
+that's epic!
+
+Flight Controls
+---------------
+
+The actual flying part of the game is very fun. Once you've finally acquired the
+money, upgraded the plane and upgraded to a decent slingshot upgrade, the next
+hardest part of the game is actually flying the thing to the end of the level.
+
+1. Make very minimal in-flight adjustments
+2. Pitch up or down lightly to maintain constant or steadily increasing
+   airspeed
+3. Plan how to avoid obstacles well in advance
+
+Level 1
+-------
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreieamwe6dpf6qf7ovulx5nbzwivxbfbzu3cxxlegs3t6kbqhkmmagy" size=medium]]
+</figure>
+
+Looks like the Vaught F4U Corsair. The upgrades you get are:
+
+1. Left Wing
+2. Right Wing
+3. Tail
+4. Propeller
+
+Level 1 is a lagoon and is easy to navigate once you get up and over the initial
+trees. It transitions into a desert with some snow dotting the ground and ends
+soon after.
+
+Level 2
+-------
+
+Indoor biplane challenge. Controls similar to Level 1.
+
+1. Bottom Wing
+2. Top Wing
+3. Tail
+4. Propeller
+
+As for the stage, dodging two chairs and maintaining enough speed indoors is
+easier than it looks once you get the controls down. After dodging the furniture
+and a bath you fly out a window and coast along a sidewalk towards the level's
+end with no remaining obstacles.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreigh5ogstzhyeaxhvdlewubsr5w45zovx4e66qsoyrnatnxktkodli" size=medium]]
+</figure>
+
+Level 3
+-------
+
+Fly a jet treachourously close to buildings. [Reminds me of that
+tragedy](https://youtu.be/VkSMSbFV_q0). Respectfully, one of the harder levels
+in this game.
+
+1. Left Wing
+2. Right Wing
+3. Tail
+4. Engines
+
+My fortuitous path is as below:
+
+<figure><video autoplay muted loop controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreih6m54w3h5sppdrtmgjbcv5giqfmaz42bgi3vcmbgrwoir66sjyem">
+</video></figure>
+
+Level 4
+-------
+
+Fly a paper airplane. Most EPE- (Epic Plane Evolution) heads consider this the
+hardest level. Traditional upgrades don't apply here but still only take 4:
+
+1. Great Paper Airplane
+2. Super Paper Airplane
+3. Hyper Paper Airplane
+4. Mega Paper Airplane
+
+<figure><video autoplay muted loop controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreiexbr3qfimqybqsdiaefz27mrl5orvzv3oixlqx4n7wu6ft4nwzni">
+</video></figure>
+
+Once you get over the meeting room desks and out the window you're home free.
+But until you do it's an exercise in managing airspeed.
+
+Level 5
+-------
+
+Another biplane. Epic!
+
+1. Bottom Wing
+2. Top Wing
+3. Tail
+4. Propeller
+
+Not bad. Dodge the trees, grain silos and
+[Windpumps](https://en.wikipedia.org/wiki/Windpump#Multi-bladed_windpumps) and
+you won't crash.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreigsgvqltofk32bh4nke7ud6icds57obtlnarpxcbe3haxgaz5n5ea" size=medium]]
+</figure>
+
+Level 6
+-------
+
+Solar glider. Your wings glow gold when in the sun and you gain a significant
+speed boost. Otherwise you're as slow as molasses. Keep airspeed steady in every
+case. This will involve trading speed for altitude when you're solar-powered and
+pitching down to gain speed when you're in the dark.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreigymyjrriwxij3vzn2zaompf4olhkbxxb75vwf34dt4g4hw7m3pse" size=medium]]
+</figure>
+
+Level 7
+-------
+
+Most challenging level in my experience. Even when fully upgraded the plane is
+so touchy, especially at the start. Once you clear the church you probably have
+a good handle on altitude so focus on airspeed here on. I crashed so many times
+before getting out of the field. Here was my winning run:
+
+<figure><video autoplay muted loop controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreig5ufnijyiou7227ch5fcjefouoj4eiwtuzhbprptby5o7dpqj7xe">
+</video></figure>
+
