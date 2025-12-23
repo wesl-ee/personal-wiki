@@ -130,7 +130,7 @@ end with no remaining obstacles.
 Level 3
 -------
 
-Fly a jet treachourously close to buildings. [Reminds me of that
+Fly a jet treacherously close to buildings. [Reminds me of that
 tragedy](https://youtu.be/VkSMSbFV_q0). Respectfully, one of the harder levels
 in this game.
 
@@ -139,9 +139,9 @@ in this game.
 3. Tail
 4. Engines
 
-My fortuitous path is as below:
+It will take some time to find a path. My fortuitous path is as below:
 
-<figure><video autoplay muted loop controls>
+<figure><video muted loop controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreih6m54w3h5sppdrtmgjbcv5giqfmaz42bgi3vcmbgrwoir66sjyem">
 </video></figure>
 
@@ -156,7 +156,7 @@ hardest level. Traditional upgrades don't apply here but still only take 4:
 3. Hyper Paper Airplane
 4. Mega Paper Airplane
 
-<figure><video autoplay muted loop controls>
+<figure><video muted loop controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreiexbr3qfimqybqsdiaefz27mrl5orvzv3oixlqx4n7wu6ft4nwzni">
 </video></figure>
 
@@ -201,7 +201,8 @@ so touchy, especially at the start. Once you clear the church you probably have
 a good handle on altitude so focus on airspeed here on. I crashed so many times
 before getting out of the field. Here was my winning run:
 
-<figure><video autoplay muted loop controls>
+<figure><video muted loop controls>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreig5ufnijyiou7227ch5fcjefouoj4eiwtuzhbprptby5o7dpqj7xe">
 </video></figure>
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mao3ddioc22u"]]
