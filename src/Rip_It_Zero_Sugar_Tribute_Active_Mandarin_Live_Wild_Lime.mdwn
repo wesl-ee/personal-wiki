@@ -4,7 +4,7 @@
 Zero sugar Rip Its are great. They are all sweetened with sucralose, a God-tier
 artificial sweetener and one which I have 200g of, enough for 10 lifetimes. They
 are generally inoffensive as well. The full-sugar Rip Its, however, can be very
-good like [[Rip_It_Stinger_Mo]] or very bad like [[Rip_It_Dragon_Fire]]. In
+good like [[Rip_It_Stinger-Mo]] or very bad like [[Rip_It_Dragon_Fire]]. In
 every incarnation they are very sugary. Zero sugar is light and does not leave
 my mouth sticky with high-fructose corn syrup residue. That's a great plus.
 
@@ -34,3 +34,5 @@ version.
 | Volume | 16 floz |
 | Calories | 5cal |
 | Caffeine | 160mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mbuafvxuc22g"]]

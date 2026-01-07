@@ -32,3 +32,5 @@ nor do they pretend to try.
 | Volume | 16 floz |
 | Calories | 200cal |
 | Caffeine | 160mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mbuaf7mshc2g"]]
