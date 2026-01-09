@@ -137,6 +137,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Ghost_Energy_Blue_Raspberry]]</li>
       <li>[[Rip_It_Zero_Sugar_Tribute_Active_Mandarin_Live_Wild_Lime]]</li>
       <li>[[Rip_It_Tribute_Active_Mandarin_Live_Wild_Lime]]</li>
       <li>[[Adrenaline_Rush]]</li>
@@ -146,6 +147,7 @@ Site Directory
       <li>[[28_Black_Classic]]</li>
       <li>[[C4_Jolly_Rancher_Blue_Raspberry]]</li>
       <li>[[Venom_Energy_Mango]]</li>
+      <li>[[Rip_It_Sugarfree_Power]]</li>
       <li>[[Fusion_Paradise_Pulse]]</li>
       <li>[[Bang_Cotton_Candy]]</li>
       <li>[[Bang_Black_Cherry_Vanilla]]</li>
