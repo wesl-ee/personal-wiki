@@ -3,7 +3,13 @@
 Flying FPV drones is everything I love about racing Zero-G craft in games like
 WipEout and F-Zero GX except you can do it in real life. That's awesome! Plus it
 comes with the technical complexity of needing to maintain, fix and potentially
-upgrade the drone which is also an aspect of flying I love. There are a few
+upgrade the drone which is also an aspect of flying I love.
+
+<figure class=image-square>
+[[!template id="hooya-img.tmpl" cid="bafkreiggmckc755e4bcjaxcufi7iucdahsrsezloawzgxwhllqaohr34bq" size=medium]]
+</figure>
+
+There are a few
 different types of FPV drones:
 
 - Freestyle drones
@@ -40,9 +46,10 @@ you're not out a lot of money. Especially if you resell!
 Recommendation
 --------------
 
-[**BetaFPV Cetus X FPV Kit**](https://betafpv.com/products/cetus-x-fpv-kit)
+What I started with and what I recommend to start with is the [**BetaFPV Cetus X
+FPV Kit**](https://betafpv.com/products/cetus-x-fpv-kit).
 
-<span style="color:red"><strong>BetaFPV Cetus X FPV Kit</strong></span>
+<strong>BetaFPV Cetus X FPV Kit</strong>
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreigwbz44rg5p3oohsfobbkey3dvobn6wifvo6ij3u7b47fvvzrrr6m" size=medium]]
@@ -124,4 +131,8 @@ With this kit you can pick up any of BetaFPV's tinywhoops like the [Air65](https
 lot of money and they will just work with your existing controller and goggles.
 Below is me flying the Air65.
 
+<figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FIYcvyET9v0?si=53hRqJhRYVP9zXRi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mf27wlzvgk2d"]]
