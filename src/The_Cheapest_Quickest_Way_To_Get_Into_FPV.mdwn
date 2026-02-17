@@ -60,7 +60,7 @@ contributes to an interesting look. The headset has a DVR for easy recording
 with a micro SD. Right now it's $240 US.
 
 The kit comes with 4 batteries, each flight takes 2. You can buy some extra 1S
-batteries for not that much more from Betaflight. 4 extra batteries is
+batteries for not that much more from BetaFPV. 4 extra batteries is
 well-worth the extra $14.74 if you even think you might plan to take the quad
 out often. In my experience, with hard flying, a set of 2x 450mAH batteries
 yields 3 minutes of flight time. If you want to go somewhere interesting and
@@ -70,7 +70,7 @@ charging the other batteries while you fly.
 Pick up some spare propellers too (cheap) because you _will_ lose some, break
 some or chip some, compromising their airfoil profile. Additionally I've
 personally lost a rotor because it was coupled too tightly to the prop and when
-the prop flew off the roto did too, meaning I needed to buy a new set of motors
+the prop flew off the rotor did too, meaning I needed to buy a new set of motors
 too. You can handle these things as they come up so I wouldn't buy a new set of
 motors right away. Anyway, for the kit, there's 2 choices: Betaflight FC vs
 Cetus FC.
@@ -129,7 +129,9 @@ ground level (FAA limit) and quite far in general, even among obstacles.
 With this kit you can pick up any of BetaFPV's tinywhoops like the [Air65](https://betafpv.com/products/air65-brushless-whoop-quadcopter) or
 [Air75](https://betafpv.com/products/air75-brushless-whoop-quadcopter) for not a
 lot of money and they will just work with your existing controller and goggles.
-Below is me flying the Air65.
+Below is me flying the Air65, and the feed along with the artifacting is exactly
+what I see. The video is much sharper when flying than YouTube makes it out to
+be.
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FIYcvyET9v0?si=53hRqJhRYVP9zXRi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

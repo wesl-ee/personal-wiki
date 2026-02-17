@@ -117,6 +117,12 @@ Site Directory
     </ul>
   </ul>
   <ul>
+    <li>FPV</li>
+    <ul>
+      <li>[[The Cheapest And Quickest Way To Get Into FPV|The_Cheapest_Quickest_Way_To_Get_Into_FPV]]</li>
+    </ul>
+  </ul>
+  <ul>
     <li>Music</li>
     <ul>
       <li>[[Fastest_Kid_in_5th_Grade]]</li>
