@@ -32,11 +32,13 @@ wonder!
 | | Amount |
 | --- | --- |
 | Volume | 100mL |
-| Calories | 5cal |
+| Calories | 72cal |
 | Caffeine | 50mg |
 | Taurine | 1000mg |
 | Vitamin B2 | 2mg |
 | Vitamin B6 | 2.5mg |
-| Nicotinamide (water-soluble B3) | 2.5mg |
-| Fursultiamine hydrochloride (B1 derivative) | 2.5mg |
+| Nicotinamide | 2.5mg |
+| Fursultiamine hydrochloride | 2.5mg |
 | Sodium L-aspartate | 125mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mhq33zbkes2g"]]
