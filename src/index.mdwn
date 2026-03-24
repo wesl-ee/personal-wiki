@@ -102,6 +102,7 @@ Site Directory
   <ul>
     <li>Musing</li>
     <ul>
+      <li>[[You_Can_Never_Go_Home_Again]]</li>
       <li>[[Why It's Easier Than Ever To Be Better Than Average|Why_Its_Easier_Than_Ever_To_Be_Better_Than_Average]]</li>
       <li>[[False_Dichotomy]]</li>
       <li>[[Living_In_The_Energy_Drink_Renaissance]]
