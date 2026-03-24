@@ -68,10 +68,10 @@ strictly worse than Tōkyō (sorry!). The bus is almost a necessary mode of
 transport if you're not taking a car or cab. There's far more castles and ruins.
 They use a different IC card.
 
-Today I visited Nijō Castle. It is a tidy castle built by Tokugawa Ieyasu. He
-was the first shogun and the great unifier of Japan. He ended the Warring States
-period. Until the Meiji Restoration, Japan enjoyed an era of peace under a
-shogun-emperor duality.
+Today I visited Nijō Castle. It is a tidy castle built by [[!wikipedia
+Tokugawa_Ieyasu]]. He was the first shogun and the great unifier of Japan. He
+ended the Warring States period. Until the Meiji Restoration, Japan enjoyed an
+era of peace under a shogun-emperor duality.
 
 We visited Nijō in the morning and went to a nice restaurant for lunch.
 Teppenyaki wagyu. I've never had a teppenyaki dinner before where the chef
@@ -87,3 +87,5 @@ To close out the day I dropped in to the Lashinbang and bought this:
 You can never go
 [home](https://prettyboytellem.com/writing/2018/Mar/March-31.html) again. But
 it's beautiful to visit.
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mhsuwzlhr22b"]]
