@@ -28,3 +28,5 @@ nothing else. Simple.
 | Volume | 500ml |
 | Calories | 0cal |
 | Caffeine | Yes |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mhs4g4sft22d"]]
