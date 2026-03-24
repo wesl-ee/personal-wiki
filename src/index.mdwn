@@ -143,6 +143,8 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Suntory_Craft_Boss_Black]]</li>
+      <li>[[Alinamin_7]]</li>
       <li>[[Ghost_Energy_Blue_Raspberry]]</li>
       <li>[[Rip_It_Zero_Sugar_Tribute_Active_Mandarin_Live_Wild_Lime]]</li>
       <li>[[Rip_It_Tribute_Active_Mandarin_Live_Wild_Lime]]</li>
@@ -168,6 +170,7 @@ Site Directory
       <li>[[Rip_It_Dragon_Fire]]</li>
       <li>[[Rip_It_Tribute_C.Y.P.-X]]</li>
       <li>[[Black_Rifle_Energy_Wild_Frost]]</li>
+      <li>[[Suntory_Boss_Coffee_Black]]</li>
       <li>[[Suntory_Craft_Boss_Sunny_Coffee]]</li>
       <li>[[NOS_Sonic_Sour]]</li>
       <li>[[Red_Bull_Summer_Edition_White_Peach]]</li>
