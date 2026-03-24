@@ -3,7 +3,9 @@
 Hello diary. I'm listening to _Threads_ by _Now, Now_. A nice way to relax after
 a long day. I'm spending some time in Japan.
 
+<figure>
 [[!template id="hooya-img.tmpl" cid="bafkreibfebczsduwfhvk4onejro6k3bshy64js2xxafdpilxqwjrcgqblm" size=medium]]
+</figure>
 
 A few days ago I took the bullet train. I didn't do anything on the train. I
 actually had a great time doing nothing. Purposefully, I have the dumbest and
@@ -19,7 +21,9 @@ _Chidorigafuchi_ had not even bloomed. The brown-black trees traced the shape of
 a cozy roof over the park. The limbs vaguely protected me from rain. I lingered
 for some time.
 
+<figure>
 [[!template id="hooya-img.tmpl" cid="bafkreid2ec3xzptjduffzhsvc2237pzrxwyx74rycivqkym5okiwgsse7e" size=medium]]
+</figure>
 
 This little park is special to me. It's where I spent my first full day after
 arriving in Japan to study at [[Sophia_University]]. It was the same time of
@@ -53,7 +57,9 @@ the end of them, the mystery and wonder has evaporated. I know how it ends.
 For that reason I can't help but feel a little sad when I visit _Chidorigafuchi_
 park.
 
+<figure>
 [[!template id="hooya-img.tmpl" cid="bafkreigqzpfwpg5ovvcnyif6i2mm4efbqwadcxswwdv7vndjeqreznojl4" size=medium]]
+</figure>
 
 This week is my first time in Kyōto and even though I've only been here a couple
 days it's already detectably very different from Tōkyō. There are
@@ -74,6 +80,10 @@ special.
 
 To close out the day I dropped in to the Lashinbang and bought this:
 
+<figure>
 [[!template id="hooya-img.tmpl" cid="bafkreie6oarnze5xsqno5rf5z3dccco5gfjv5s7emvacbd3gohqtitvdsq" size=medium]]
+</figure>
 
-You can never go home again. But it's beautiful to visit.
+You can never go
+[home](https://prettyboytellem.com/writing/2018/Mar/March-31.html) again. But
+it's beautiful to visit.
