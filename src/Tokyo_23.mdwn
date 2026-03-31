@@ -9,8 +9,9 @@ I visited [[Tōkyō]] again in the second full week of June 2023 with a group of
 capital city for the full week. I have been here before when I studied at
 [[Sophia_University]] for a semester in the Summer.
 
-I host some of the pictures from this trip [in a
-gallery](https://gallery.wesl.ee/gallery/Tokyo23) on a separate site.
+I host some [pictures from this
+trip](https://public-demo.hooya.wesl.ee/?query=gallery%3Atokyo+23) on an
+instance of my [[HooYa]] booru.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreia53edqz7z2wgbpwikpuz2rii5w2xdvam4rqr4ey6qyockrozazba" size=medium]]
@@ -93,6 +94,8 @@ group because IC cards are strictly better than buying paper tickets. It became
 a little joke with the guys behind the counter because they recognized me after
 the second time, as you needed everyone physically present who was buying a
 pass.
+
+花田
 
 That night we both went to Akihabara and bounced in and out of my favorite arcades.
 HEY!, Tōkyō Leisure Land, and the new GiGo arcades that replaced the Sega
