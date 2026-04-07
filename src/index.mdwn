@@ -144,6 +144,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Red_Bull_Spring_Edition_Cherry_Sakura_Sugarfree]]</li>
       <li>[[Suntory_Craft_Boss_Black]]</li>
       <li>[[Alinamin_7]]</li>
       <li>[[Ghost_Energy_Blue_Raspberry]]</li>
