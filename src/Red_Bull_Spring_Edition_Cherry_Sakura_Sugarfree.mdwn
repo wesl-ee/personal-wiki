@@ -22,3 +22,11 @@ caffeine is, this drink masks it beautifully.
 
 Not my favorite from Red Bull, but this year's Spring Edition is yet another Red
 Bull banger.
+
+| | Amount |
+| --- | --- |
+| Volume | 12 floz |
+| Calories | 15cal |
+| Caffeine | 114mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3miw3okjbv22v"]]
