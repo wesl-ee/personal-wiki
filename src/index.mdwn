@@ -144,6 +144,8 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[UCC_Kuro_No_Yoin]]</li>
+      <li>[[Georgia_Kaoru_Bitou]]</li>
       <li>[[Red_Bull_Spring_Edition_Cherry_Sakura_Sugarfree]]</li>
       <li>[[Suntory_Craft_Boss_Black]]</li>
       <li>[[Alinamin_7]]</li>
