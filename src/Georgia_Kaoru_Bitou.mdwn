@@ -28,3 +28,4 @@ would you do that? True coffee heads rejoice.
 | Calories | 49cal |
 | Caffeine | Yes |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mj35uv2fvc2r"]]

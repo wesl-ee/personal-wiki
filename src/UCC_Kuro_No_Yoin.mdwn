@@ -24,3 +24,4 @@ you're not drinking it all in one go, it is able to be served hot or chilled.
 | Calories | 0cal |
 | Caffeine | Yes |
 
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mj35ts4mec2r"]]
