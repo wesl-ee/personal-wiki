@@ -144,6 +144,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Ghost_Energy_Iced_Tea_Lemonade]]</li>
       <li>[[UCC_Kuro_No_Yoin]]</li>
       <li>[[Georgia_Kaoru_Bitou]]</li>
       <li>[[Red_Bull_Spring_Edition_Cherry_Sakura_Sugarfree]]</li>
