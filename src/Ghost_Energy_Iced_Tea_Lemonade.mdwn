@@ -7,7 +7,7 @@ Peaches flavor released earlier this year. The can a pretty pastel blue with
 yellow accents.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreiblq752hrga63qrpvqdusjudrgplgwtceocov3t25zhn5yrdsctmi" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreih6mkppyuv5eb7cbn3mtap67f6kgxhoejaamiuuhhdsurpn2fqvea" size=medium]]
 </figure>
 
 First off it's carbonated. Why is a drink called "iced tea lemonade" bubbly?
@@ -21,3 +21,11 @@ idea it's confusing. The taste is artificially sour up-front and musky on the
 finish, like a plum that's way too ripe. It's not bitter but the taste is
 neither accurate, refreshing nor very pleasant. This is either the worst Ghost
 I've had or just barely on-par with [[Ghost_Energy_x_Faze_Clan_Faze_Pop]].
+
+| | Amount |
+| --- | --- |
+| Volume | 16 floz |
+| Calories | 10cal |
+| Caffeine | 200mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mjcuepd2422x"]]
