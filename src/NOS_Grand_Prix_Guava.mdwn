@@ -1,13 +1,14 @@
 [[!meta title="Energy Drink — NOS Grand Prix Guava"]]
 [[!tag Energy_Drink Review]]
 
-NOS. I thought you were dead, I thought you were gone! As a subsidiary of
-Monster I thought they'd give you the axe, considering Moster has so many sugary
-flavors already. I was wrong. Happily wrong.
+NOS. I thought you were dead, I thought you were gone!
 
 <table class="no-border">
 <tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
 </table>
+
+As a subsidiary of Monster I thought they'd give you the axe, considering Moster
+has so many sugary flavors already. I was wrong. Happily wrong.
 
 NOS Grand Prix Guava released in April 2026 and displaced [[NOS_Sonic_Sour]].
 Their lineup is now 4-wide: [[NOS]], [[NOS_Zero_Sugar]], [[NOS_GT_Grape]] and
@@ -19,22 +20,24 @@ this one, Grand Prix Guava.
 
 Grand Prix Guava smells and tastes like candy, like bubblegum in particular.
 Real bubblegum. That one bubblegum with the punk rock duck on it that looks like
-Lil Uzi Vert. That's what this tastes like.
+Lil Uzi Vert.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreihghv4lwdasynzr7pjerd7us3i7ymj2kfwbpx2wkrfgm65dsgfpxu" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreihghv4lwdasynzr7pjerd7us3i7ymj2kfwbpx2wkrfgm65dsgfpxu" size=small]]
 </figure>
 
 I'm pretty sure they still sell it in that wrapper. Anyway, with 200mg of
 caffeine as opposed to NOS' typical 160mg the duck captures how I feel after
-downing this one. 
+downing this one. Plus the colorway almost matches.
 
-Of course it's sugary. They all are except Zero Sugar. But that doesn't matter.
-I can always budget a NOS into my daily routine, especially one that is as good
-as this one.
+Of course the NOS is sugary. They all are except [[NOS_Zero_Sugar]]. But that
+doesn't matter. I can always budget a NOS into my daily routine, especially one
+that is as good as this one.
 
 | | Amount |
 | --- | --- |
 | Volume | 16 floz |
 | Calories | 210cal |
 | Caffeine | 200mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mjkhtzacq224"]]
