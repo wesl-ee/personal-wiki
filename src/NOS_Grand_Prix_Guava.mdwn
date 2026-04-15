@@ -1,6 +1,13 @@
+[[!meta title="Energy Drink — NOS Grand Prix Guava"]]
+[[!tag Energy_Drink Review]]
+
 NOS. I thought you were dead, I thought you were gone! As a subsidiary of
 Monster I thought they'd give you the axe, considering Moster has so many sugary
 flavors already. I was wrong. Happily wrong.
+
+<table class="no-border">
+<tr><td class="no-border">[[!template id="userbox-nos.tmpl"]]</td></tr>
+</table>
 
 NOS Grand Prix Guava released in April 2026 and displaced [[NOS_Sonic_Sour]].
 Their lineup is now 4-wide: [[NOS]], [[NOS_Zero_Sugar]], [[NOS_GT_Grape]] and
@@ -15,7 +22,7 @@ Real bubblegum. That one bubblegum with the punk rock duck on it that looks like
 Lil Uzi Vert. That's what this tastes like.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreiao54h2ahapdook3ljnhcp2z6pptkh5xtg3b7o7iopkqgxm3lf7nq" size=medium]]
+[[!template id="hooya-img.tmpl" cid="bafkreihghv4lwdasynzr7pjerd7us3i7ymj2kfwbpx2wkrfgm65dsgfpxu" size=medium]]
 </figure>
 
 I'm pretty sure they still sell it in that wrapper. Anyway, with 200mg of
