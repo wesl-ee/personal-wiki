@@ -1,3 +1,5 @@
+[[!tag FPV_Drone]]
+
 The video transmitter (VTX) unit on a drone gets very hot during normal
 operation. They are cooled by the rushing air around them while the drone is
 flying. But if the drone is not flying, the units can get very hot and shut
@@ -34,6 +36,7 @@ This will list what values I can possibly set the VTX to transmit at.
 
 [[!syntax text="""
 # vtxtable
+
 vtxtable bands 6
 vtxtable channels 8
 vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
@@ -54,8 +57,9 @@ I want the switch to represent 400mW when at the 1000 value and 25mW when at the
 To do that I just run these commands in the same CLI box:
 
 [[!syntax text="""
-vtx 0 3 0 0 4 900 1200
-vtx 1 3 0 0 1 1800 2100
+# vtx 0 3 0 0 4 900 1200
+
+# vtx 1 3 0 0 1 1800 2100
 """]]
 
 The syntax of the command is
@@ -71,7 +75,7 @@ earlier from the vtxtable command. After running those two commands, run `save`
 and the VTX table will be saved to the flight controller.
 
 <figure>
-[[!template id="hooya-img.tmpl" cid="bafkreicnmxkelotf2pugk76v5un3kqoxqhfsl2l5mmkyfyeciskv5h4shi" size=small]]
+[[!template id="hooya-img.tmpl" cid="bafkreicnmxkelotf2pugk76v5un3kqoxqhfsl2l5mmkyfyeciskv5h4shi" size=medium]]
 </figure>
 
 You can check this works on the drone itself by entering the OSD settings and

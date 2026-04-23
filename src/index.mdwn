@@ -121,6 +121,7 @@ Site Directory
     <li>FPV</li>
     <ul>
       <li>[[The Cheapest And Quickest Way To Get Into FPV|The_Cheapest_Quickest_Way_To_Get_Into_FPV]]</li>
+      <li>[[Changing_Analog_VTX_Power_Using_A_Drone_Radio_Button]]</li>
     </ul>
   </ul>
   <ul>
