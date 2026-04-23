@@ -26,7 +26,7 @@ from 1000 and 2000 when I throw the switch down, then back to 1000 when I move
 it back.
 
 <figure>
-<video controls>
+<video autoplay mute>
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreif5f7mwcza5tiupzrzqbachzk7hb2z7kqeunzc3onq77ry5ljb7nm" type="video/mp4">
 </video>
 </figure>
