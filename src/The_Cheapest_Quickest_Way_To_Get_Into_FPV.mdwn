@@ -117,9 +117,12 @@ the square root of power, so this yields approximately a 4x increase in range
 under similar conditions. Impact on flight time is minimal because most drain is
 through motors, not VTX. VTX power can be adjusted either [in the
 OSD](https://youtu.be/BQXlKk9IUIs?t=70) or in Betaflight Configurator by
-connecting the FC via USB. With 400mW VTX I can comfortably go up to 400ft above
-ground level (FAA limit) and quite far in general, even among obstacles.
-
+connecting the FC via USB. As for me, I like to set up my controller to [[let me
+toggle between low and high VTX
+power|Changing_Analog_VTX_Power_Using_A_Drone_Radio_Button]] to avoid frying the
+chip if I am working with it on the bench. In the air, with 400mW VTX I can
+comfortably go up to 400ft above ground level (FAA limit) and quite far in
+general, even among obstacles.
 
 <figure class=image-square>
 [[!template id="hooya-img.tmpl" cid="bafkreicyiabu6mztvgzdzdexlglymbnpt5lydrho4cmoeu436v255nqeme" size=medium]]
