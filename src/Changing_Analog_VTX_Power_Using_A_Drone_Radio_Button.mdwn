@@ -87,3 +87,5 @@ the switch.
 <source src="https://web.hooya.wesl.ee/cid-content/bafkreihxb555uxmytscsovqtiur2bujxerrfr5a4zm4h665d37bxz3akha" type="video/mp4">
 </video>
 </figure>
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mk5etwwmsc2z"]]
