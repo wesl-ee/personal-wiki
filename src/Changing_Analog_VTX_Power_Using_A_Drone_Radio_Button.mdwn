@@ -1,0 +1,85 @@
+The video transmitter (VTX) unit on a drone gets very hot during normal
+operation. They are cooled by the rushing air around them while the drone is
+flying. But if the drone is not flying, the units can get very hot and shut
+down before they fry themselves. It's not likely a unit would get damaged like
+this (they are designed with safeties for overheating in mind) but if you're
+working on the drone in the headset, it is useful to be able to see it.
+
+That's why for all my drones I assign a switch on my radio to set my VTX power
+to 25mW when I need, and otherwise transmit at max power. This makes it nice for
+flying nearby or when I need to be on the ground or bench for an extended period
+of time with the power on.
+
+It's not a feature Betaflight exposes but with a few CLI commands you can
+configure it to do this.
+
+First open [Betaflight Configurator](https://app.betaflight.com/) and connect
+the drone to it via (typically) USB.
+
+Next identify the switch on your radio you want to toggle this behavior on. I'm
+using the right-most 2-pole switch on my Radiomaster Boxer (labeled SD) which
+maps to AUX4. I can know that it maps to AUX4 by pairing my radio and observing
+what channel changes as I throw the switch. As you can see below, AUX4 moves
+from 1000 and 2000 when I throw the switch down, then back to 1000 when I move
+it back.
+
+<figure>
+<video controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreif5f7mwcza5tiupzrzqbachzk7hb2z7kqeunzc3onq77ry5ljb7nm" type="video/mp4">
+</video>
+</figure>
+
+With this in mind, I can flip to the CLI tab and run the `vtxtable` command.
+This will list what values I can possibly set the VTX to transmit at.
+
+[[!syntax text="""
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 LOWRACE  L FACTORY 5333 5373 5413 5453 5493 5533 5573 5613
+vtxtable powerlevels 5
+vtxtable powervalues 1 2 3 4 0
+vtxtable powerlabels 25 100 200 400 PIT
+"""]]
+
+Importantly, their labels (25 100 200 400 PIT) are at the bottom, with their
+values just above. So 25mW is 1, 100mW is 2, 200mW is 3, 400mW is 4 and PIT is 0.
+
+I want the switch to represent 400mW when at the 1000 value and 25mW when at the 2000.
+To do that I just run these commands in the same CLI box:
+
+[[!syntax text="""
+vtx 0 3 0 0 4 900 1200
+vtx 1 3 0 0 1 1800 2100
+"""]]
+
+The syntax of the command is
+
+[[!syntax text="""
+vtx <index> <aux_channel> <band> <channel> <power_level> <range_low> <range_high>
+"""]]
+
+AUX channels are zero-indexed so for AUX4 the index is 3. Notice I use a wide
+range for the range_low and range_high for both (900 to 1200 and 1800 to 2100)
+to account for imprecise encoding. 4 and 1 are of course the levels I pulled
+earlier from the vtxtable command. After running those two commands, run `save`
+and the VTX table will be saved to the flight controller.
+
+<figure>
+[[!template id="hooya-img.tmpl" cid="bafkreicnmxkelotf2pugk76v5un3kqoxqhfsl2l5mmkyfyeciskv5h4shi" size=small]]
+</figure>
+
+You can check this works on the drone itself by entering the OSD settings and
+watching the VTX power go between your two configured power levels as you throw
+the switch.
+
+<figure>
+<video controls>
+<source src="https://web.hooya.wesl.ee/cid-content/bafkreihxb555uxmytscsovqtiur2bujxerrfr5a4zm4h665d37bxz3akha" type="video/mp4">
+</video>
+</figure>
