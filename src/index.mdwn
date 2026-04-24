@@ -145,6 +145,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Gorilla_Mind_Wild_Grape]]</li>
       <li>[[NOS_Grand_Prix_Guava]]</li>
       <li>[[Ghost_Energy_Iced_Tea_Lemonade]]</li>
       <li>[[UCC_Kuro_No_Yoin]]</li>
