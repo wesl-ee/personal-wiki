@@ -217,6 +217,7 @@ Site Directory
   <ul>
     <li>Instant Noodles</li>
     <ul>
+      <li>[[Maruchan Akai Kitsune Udon]]</li>
       <li>[[Nissin Cup Noodles Seafood]]</li>
       <li>[[Nissin Cup Noodles Protein Hot & Spicy Chicken|Nissin_Cup_Noodles_Protein_Hot_Spicy_Chicken]]</li>
       <li>[[Nissin_Ramen_Bistro_Sichuan_Garlic_Chicken]]</li>
