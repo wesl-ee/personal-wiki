@@ -15,7 +15,7 @@ called _[[!wikipedia Abura-age]]_.
 These are instant _kitsune udon_ noodles. Maruchan has sold _Akai Kitsune Udon_
 since 1978 without much change. The 1978 product evolved from _Cup Kitsune Udon_
 which was released in 1975 and was the world's first cup udon. Here is an
-advertisement for _Cup Kitsune Udon_.
+advertisement for that _Cup Kitsune Udon_.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreifsf6oyykgwh27l5vpmhllpywas26gqbyjmtedhp4aq6bhxbxa3xm" size=medium]]
@@ -23,12 +23,13 @@ advertisement for _Cup Kitsune Udon_.
 
 However, Tōyō Suisan at the time failed to secure a patent for its process
 before Nissin released _Donbei Kitsune Udon_ in 1976. Tōyō Suisan refined their
-process and rebranded to _Akai Kitsune Udon_ in red packaging to stand out more
-on shelves against its Nissin competitor. They changed the shape of the
-packaging slightly as well, which is why it is no longer called _Cup Udon_.
+process and rebranded _Cup Kitsune Udon_ to _Akai Kitsune Udon_ in red packaging
+to stand out more on shelves against its Nissin competitor. They changed the
+shape of the packaging slightly as well, which is why it is no longer called
+cup udon.
 
 What I have today is an evolution of that 1978 product, still branded _Akai
-Kitsune Udon_ in red.
+Kitsune Udon_ and still packaged in red.
 
 <figure>
 [[!template id="hooya-img.tmpl" cid="bafkreihweebybapjsihrydaanu6igdsf2omirpfvq26hvx2rsoejr4dl7i" size=medium]]
@@ -50,3 +51,5 @@ Finally, the broth is fantastic. Very salty, but rich and somewhat sweet.
 There's visibly suspended oil floating in the broth which imbues a slick
 texture. The only negative here is that it's super salty, which does distract
 some from the flavor.
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mlbdugcepk2j"]]
