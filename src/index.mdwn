@@ -178,6 +178,7 @@ Site Directory
       <li>[[NOS_Zero_Sugar]]</li>
       <li>[[Rip_It_Dragon_Fire]]</li>
       <li>[[Rip_It_Tribute_C.Y.P.-X]]</li>
+      <li>[[Black_Rifle_Energy_Ranger_Berry]]</li>
       <li>[[Black_Rifle_Energy_Wild_Frost]]</li>
       <li>[[Suntory_Boss_Coffee_Black]]</li>
       <li>[[Suntory_Craft_Boss_Sunny_Coffee]]</li>
@@ -217,6 +218,7 @@ Site Directory
   <ul>
     <li>Instant Noodles</li>
     <ul>
+      <li>[[A-Sha x Hot Ones Smoky Chili Noodles]]</li>
       <li>[[Maruchan Akai Kitsune Udon]]</li>
       <li>[[Nissin Cup Noodles Seafood]]</li>
       <li>[[Nissin Cup Noodles Protein Hot & Spicy Chicken|Nissin_Cup_Noodles_Protein_Hot_Spicy_Chicken]]</li>
