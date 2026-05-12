@@ -48,3 +48,14 @@ True to the smell, the broth _does_ taste like that McDonalds picante sauce.
 Smoky and spicy. Notes of tomato and jalapeño. All together it's a pleasant,
 slow-building, novel flavor for instant noodles. Nothing I've had before
 compares. Not to say it's amazing, just new. Which is a great thing in itself. 
+
+| | Amount |
+| ---- | ------ |
+| Serving | Paper cup (72g) |
+| Calories | 250cal |
+| Fat | 10g |
+| Carbohydrates | 35g |
+| Sodium | 1450mg |
+| Protein | 5g |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mln4qh3ji22w"]]
