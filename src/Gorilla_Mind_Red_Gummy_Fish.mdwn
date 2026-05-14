@@ -28,3 +28,5 @@ They really nailed the ~~Swedish Fish~~ Red Gummy Fish flavor.
 | Volume | 16 floz |
 | Calories | 15cal |
 | Caffeine | 200mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mltoj4v45k2z"]]
