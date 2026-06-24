@@ -31,3 +31,5 @@ from the paralyzing initial release of Red Bull in 1987, and that's fine!
 | Volume | 500mL |
 | Calories | 225kcal |
 | Caffeine | 160mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3mozufeqci225"]]
