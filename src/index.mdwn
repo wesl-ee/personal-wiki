@@ -134,7 +134,7 @@ Site Directory
   <ul>
     <li>Spaces</li>
     <ul>
-      <li><a href="./Spaces/Garden/">Garden</a></li>
+      <li><a href="./Spaces/Teardrops/">Teardrops</a></li>
     </ul>
   </ul><ul>
     <li>Internet</li>
