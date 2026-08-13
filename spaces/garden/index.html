@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>garden</title>
+  <link rel="stylesheet" href="garden.css">
+</head>
+<body>
+  <main id="garden" aria-label="A generative piano visualized as an ASCII field">
+    <canvas id="garden-field" aria-hidden="true"></canvas>
+    <p id="garden-title" hidden>
+      <span>aisatsana</span>
+      <span>aphex twin</span>
+      <span class="garden-credit">generative.fm</span>
+      <span>alex bainter</span>
+    </p>
+    <div id="garden-controls">
+      <a id="garden-home" href="https://wesl.ee/" hidden>Home</a>
+      <button id="garden-toggle" type="button">Start</button>
+    </div>
+    <p id="garden-status" role="status" aria-live="polite"></p>
+  </main>
+  <script src="tone.js"></script>
+  <script src="regenerator-runtime.js"></script>
+  <script src="piece-aisatsana.js"></script>
+  <script src="garden.js"></script>
+</body>
+</html>

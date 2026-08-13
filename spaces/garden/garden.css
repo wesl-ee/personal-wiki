@@ -1,0 +1,128 @@
+html:has(#garden),
+body:has(#garden) {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#garden {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: hidden;
+  background: #fff;
+  color: #111;
+  font: 16px/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  text-align: left;
+}
+
+#garden-field {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#garden-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: .25em .6em;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  font-weight: normal;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+#garden-title.blooming {
+  animation: garden-title-bloom 5.5s ease-out forwards;
+}
+
+#garden-title span {
+  display: block;
+  text-align: center;
+}
+
+#garden-title .garden-credit {
+  margin-top: 1.2em;
+}
+
+@keyframes garden-title-bloom {
+  0%, 55% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#garden button,
+#garden-home {
+  display: inline-block;
+  padding: .55em .9em;
+  border: 1px solid #111;
+  border-radius: 0;
+  background: #fff;
+  color: #111;
+  font: inherit;
+  cursor: pointer;
+  line-height: normal;
+  text-decoration: none;
+}
+
+#garden button:hover,
+#garden button:focus-visible,
+#garden-home:hover,
+#garden-home:focus-visible {
+  background: #111;
+  color: #fff;
+}
+
+#garden button:disabled {
+  cursor: wait;
+  color: #777;
+}
+
+#garden-controls {
+  position: absolute;
+  right: 2ch;
+  bottom: 2ch;
+  display: flex;
+  gap: .75ch;
+  align-items: center;
+}
+
+#garden-home[hidden] {
+  display: none;
+}
+
+#garden-status {
+  position: absolute;
+  left: 2ch;
+  bottom: 2ch;
+  margin: 0;
+  color: #555;
+  font-size: .8em;
+}
+
+@media (prefers-color-scheme: dark) {
+  #garden,
+  #garden button,
+  #garden-home,
+  #garden-title {
+    background: #080808;
+    color: #eee;
+    border-color: #eee;
+  }
+
+  #garden button:hover,
+  #garden button:focus-visible,
+  #garden-home:hover,
+  #garden-home:focus-visible {
+    background: #eee;
+    color: #080808;
+  }
+
+  #garden-status {
+    color: #aaa;
+  }
+}
