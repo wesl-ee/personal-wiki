@@ -56,6 +56,6 @@ in pkgs.stdenv.mkDerivation rec {
   installPhase = ''
     mv www $out
     mkdir -p $out/Spaces
-    cp -R spaces/garden $out/Spaces/Garden
+    cp -R spaces/teardrops $out/Spaces/Teardrops
   '';
 }
