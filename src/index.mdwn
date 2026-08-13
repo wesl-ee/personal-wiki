@@ -132,6 +132,11 @@ Site Directory
     </ul>
   </ul>
   <ul>
+    <li>Spaces</li>
+    <ul>
+      <li>[Garden](/Spaces/Garden)</li>
+    </ul>
+  </ul><ul>
     <li>Internet</li>
     <ul>
       <li>[[Personal_Wiki]]</li>

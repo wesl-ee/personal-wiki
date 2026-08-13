@@ -55,6 +55,6 @@ in pkgs.stdenv.mkDerivation rec {
 
   installPhase = ''
     mv www $out
-    cp -R spaces $out/spaces
+    cp -R spaces $out/Spaces
   '';
 }
