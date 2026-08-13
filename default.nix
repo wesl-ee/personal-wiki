@@ -1,13 +1,13 @@
 with import <nixpkgs>{};
-let TextVimColor = perl538Packages.buildPerlPackage {
+let TextVimColor = perlPackages.buildPerlPackage {
     pname = "Text-VimColor";
     version = "0.29";
     src = fetchurl {
       url = "mirror://cpan/authors/id/R/RW/RWSTAUNER/Text-VimColor-0.29.tar.gz";
       sha256 = "e20d3202c888af3d082a2245db5e87ee774e96fcf6708a30530f2eeb1a90988e";
     };
-    buildInputs = [ vim perl538Packages.FileShareDirInstall perl538Packages.TestFileShareDir ];
-    propagatedBuildInputs = [ perl538Packages.FileShareDir perl538Packages.PathClass ];
+    buildInputs = [ vim perlPackages.FileShareDirInstall perlPackages.TestFileShareDir ];
+    propagatedBuildInputs = [ perlPackages.FileShareDir perlPackages.PathClass ];
     meta = {
       homepage = "https://github.com/rwstauner/Text-VimColor";
       description = "Syntax highlight text using Vim";
@@ -34,13 +34,13 @@ in pkgs.stdenv.mkDerivation rec {
 
     discount
 
-    perl538
-    perl538Packages.syntax
-    perl538Packages.PathClass
-    perl538Packages.FileShare
-    perl538Packages.FileShareDir
-    perl538Packages.TextMultiMarkdown
-    perl538Packages.SortNaturally
+    perl
+    perlPackages.syntax
+    perlPackages.PathClass
+    perlPackages.FileShare
+    perlPackages.FileShareDir
+    perlPackages.TextMultiMarkdown
+    perlPackages.SortNaturally
     TextVimColor
   ];
 
