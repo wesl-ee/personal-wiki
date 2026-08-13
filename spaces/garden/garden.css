@@ -11,6 +11,7 @@ body:has(#garden) {
   inset: 0;
   z-index: 1000;
   overflow: hidden;
+  color-scheme: light;
   background: #fff;
   color: #111;
   font: 16px/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -105,6 +106,10 @@ body:has(#garden) {
 }
 
 @media (prefers-color-scheme: dark) {
+  #garden {
+    color-scheme: dark;
+  }
+
   #garden,
   #garden button,
   #garden-home,

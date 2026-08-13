@@ -65,6 +65,80 @@
 
   const hueForMidi = midi => (midi * 47) % 360;
 
+  const hslToRgb = (hue, saturation = .82, lightness = .5) => {
+    const h = hue / 30;
+    const chroma = saturation * Math.min(lightness, 1 - lightness);
+    const channel = offset => {
+      const k = (offset + h) % 12;
+      return lightness - chroma * Math.max(-1, Math.min(k - 3, 9 - k, 1));
+    };
+    return [channel(0), channel(8), channel(4)];
+  };
+
+  const rgbToHsl = ([red, green, blue]) => {
+    const brightest = Math.max(red, green, blue);
+    const darkest = Math.min(red, green, blue);
+    const range = brightest - darkest;
+    const lightness = (brightest + darkest) / 2;
+    if (!range) return [0, 0, lightness];
+    const saturation = range / (1 - Math.abs(2 * lightness - 1));
+    let hue;
+    if (brightest === red) hue = ((green - blue) / range) % 6;
+    if (brightest === green) hue = (blue - red) / range + 2;
+    if (brightest === blue) hue = (red - green) / range + 4;
+    return [(hue * 60 + 360) % 360, saturation, lightness];
+  };
+
+  const rgbToRyb = ([red, green, blue]) => {
+    const white = Math.min(red, green, blue);
+    red -= white;
+    green -= white;
+    blue -= white;
+    const brightest = Math.max(red, green, blue);
+    let yellow = Math.min(red, green);
+    red -= yellow;
+    green -= yellow;
+    if (blue && green) {
+      blue /= 2;
+      green /= 2;
+    }
+    yellow += green;
+    blue += green;
+    const strongest = Math.max(red, yellow, blue);
+    if (strongest) {
+      const scale = brightest / strongest;
+      red *= scale;
+      yellow *= scale;
+      blue *= scale;
+    }
+    return [red + white, yellow + white, blue + white];
+  };
+
+  const rybToRgb = ([red, yellow, blue]) => {
+    const white = Math.min(red, yellow, blue);
+    red -= white;
+    yellow -= white;
+    blue -= white;
+    const brightest = Math.max(red, yellow, blue);
+    let green = Math.min(yellow, blue);
+    yellow -= green;
+    blue -= green;
+    if (blue && green) {
+      blue *= 2;
+      green *= 2;
+    }
+    red += yellow;
+    green += yellow;
+    const strongest = Math.max(red, green, blue);
+    if (strongest) {
+      const scale = brightest / strongest;
+      red *= scale;
+      green *= scale;
+      blue *= scale;
+    }
+    return [red + white, green + white, blue + white];
+  };
+
   const resize = () => {
     const ratio = devicePixelRatio || 1;
     const width = innerWidth;
@@ -111,10 +185,13 @@
   const strike = note => {
     const midi = noteToMidi(note);
     const slot = sequence * 13 % radiants.length;
+    const hue = hueForMidi(midi);
+    const paint = rgbToRyb(hslToRgb(hue));
     waves.push({
       ...radiants[slot],
       born: performance.now(),
-      hue: hueForMidi(midi),
+      hue,
+      paint,
       slot,
     });
     sequence++;
@@ -169,14 +246,21 @@
             x,
             y,
             energy: 0,
-            hits: 0,
-            hueX: 0,
-            hueY: 0,
+            paint: [0, 0, 0],
+            paintSquare: [0, 0, 0],
+            dominantEnergy: 0,
+            dominantHue: 0,
           };
           cell.energy += energy;
-          cell.hits++;
-          cell.hueX += Math.cos(wave.hue * Math.PI / 180) * energy;
-          cell.hueY += Math.sin(wave.hue * Math.PI / 180) * energy;
+          if (energy > cell.dominantEnergy) {
+            cell.dominantEnergy = energy;
+            cell.dominantHue = wave.hue;
+          }
+          for (let channel = 0; channel < 3; channel++) {
+            const pigment = wave.paint[channel];
+            cell.paint[channel] += pigment * energy;
+            cell.paintSquare[channel] += pigment * pigment * energy;
+          }
           cells.set(key, cell);
         }
       }
@@ -190,14 +274,35 @@
         heatGlyphs.length - 1,
         Math.floor(heat * heatGlyphs.length)
       );
-      const hue = (Math.atan2(cell.hueY, cell.hueX) * 180 / Math.PI + 360) % 360;
-      const saturation = Math.min(100, 58 + heat * 35 + cell.hits * 4);
+      const paint = cell.paint.map(channel => channel / cell.energy);
+      const variance = paint.reduce((sum, channel, index) => (
+        sum + Math.max(0, cell.paintSquare[index] / cell.energy - channel ** 2)
+      ), 0);
+      const mixture = Math.min(1, Math.max(
+        0,
+        (.9 - cell.dominantEnergy / cell.energy) / .4
+      ));
+      const mud = mixture * Math.min(.35, Math.sqrt(variance / 3) * .9);
       const lightness = dark.matches
-        ? Math.min(88, 42 + heat * 42)
-        : Math.max(20, 68 - heat * 45);
+        ? Math.min(.88, .42 + heat * .42)
+        : Math.max(.2, .68 - heat * .45);
+      const vivid = hslToRgb(
+        cell.dominantHue,
+        Math.min(1, .62 + heat * .35),
+        lightness
+      );
+      const [paintHue, paintSaturation] = rgbToHsl(rybToRgb(paint));
+      const mixed = hslToRgb(
+        paintHue,
+        paintSaturation * (1 - mud * 1.4),
+        Math.max(.12, lightness * (1 - mud * .65))
+      );
+      const color = vivid.map((channel, index) => Math.round(
+        (channel * (1 - mixture) + mixed[index] * mixture) * 255
+      ));
       context.fillStyle = isCool
         ? dark.matches ? "#686868" : "#aaa"
-        : `hsl(${hue} ${saturation}% ${lightness}%)`;
+        : `rgb(${color.join(" ")})`;
       context.globalAlpha = isCool ? .3 + heat * 2.5 : .2 + heat * .8;
       context.fillText(isCool ? ":" : heatGlyphs[index], cell.x * cellWidth, cell.y * cellHeight);
     }
