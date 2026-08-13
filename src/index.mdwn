@@ -134,7 +134,7 @@ Site Directory
   <ul>
     <li>Spaces</li>
     <ul>
-      <li>[Garden](/Spaces/Garden)</li>
+      <li><a href="/Spaces/Garden/">Garden</a></li>
     </ul>
   </ul><ul>
     <li>Internet</li>
