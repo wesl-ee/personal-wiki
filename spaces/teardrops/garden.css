@@ -68,14 +68,21 @@ body:has(#garden) {
   cursor: pointer;
   line-height: normal;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-#garden button:hover,
 #garden button:focus-visible,
-#garden-home:hover,
 #garden-home:focus-visible {
-  background: #111;
-  color: #fff;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+@media (hover: hover) {
+  #garden button:hover,
+  #garden-home:hover {
+    background: #111;
+    color: #fff;
+  }
 }
 
 #garden button:disabled {
@@ -119,15 +126,15 @@ body:has(#garden) {
     border-color: #eee;
   }
 
-  #garden button:hover,
-  #garden button:focus-visible,
-  #garden-home:hover,
-  #garden-home:focus-visible {
-    background: #eee;
-    color: #080808;
-  }
-
   #garden-status {
     color: #aaa;
+  }
+}
+
+@media (prefers-color-scheme: dark) and (hover: hover) {
+  #garden button:hover,
+  #garden-home:hover {
+    background: #eee;
+    color: #080808;
   }
 }
