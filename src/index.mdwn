@@ -150,6 +150,7 @@ Site Directory
   <ul>
     <li>Energy Drinks</li>
     <ul>
+      <li>[[Ghost_Energy_Root_Beer]]</li>
       <li>[[Megaforce]]</li>
       <li>[[Gorilla_Mind_Red_Gummy_Fish]]</li>
       <li>[[Gorilla_Mind_Wild_Grape]]</li>
