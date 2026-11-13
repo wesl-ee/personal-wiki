@@ -1,12 +1,12 @@
 [[!tag Japan Diary]]
 
-It's quite cold in Kansai. I've forgotten to go out with my jacket on a number
-of nights now and I've regretted it. The wind rips through gaps in buildings,
-flat out across plazas and tumbling over the Hanshin Loop outside my door. I'm
-safe in my room; the wind slams into my door and explodes in all directions,
-diffused and halted. I'm warm in here.
+It's quite cold in Ōsaka. I've forgotten to go out with my jacket on a number of
+nights now and I've regretted it. The wind rips through gaps in buildings, flat
+out across plazas and tumbling over the Hanshin Loop outside my door. I'm safe
+in my room; the wind slams into my door and explodes in all directions, diffused
+and halted. I'm warm in here.
 
-I'm in Kansai until tomorrow. At 6:50P local time tomorrow I leave from HND. At
+I'm in Japan until tomorrow. At 6:50P local time tomorrow I leave from HND. At
 6:50P they're playing the music for me. I will see the walls shake. They're
 kicking me square in the chest while I sit on the ledge. They'll kick me so hard
 my chair and I will tumble down, down, down into the icy bath made for me before
@@ -18,7 +18,7 @@ bound to the chair. They are telling me my time's up.
 [[!template id="hooya-img.tmpl" cid="bafkreiboj4iiwxdydbsmex6enm35mrq62zmsynrk3p7ezjdf36qafsgsqa" size=medium]]
 </figure>
 
-I was in Kyōto too earlier this year on honeymoon with my husband. I showed my
+I was in Japan too earlier this year on honeymoon with my husband. I showed my
 parents the country then, as well, after our honeymoon week. The days of the
 trip coincided with the Spring. Cherry blossoms, interview season, start of a
 new semester, this sort of thing. I didn't know what I was getting in to at the
@@ -89,8 +89,8 @@ hospitality.
 </figure>
 
 The onsen in our ryokan, with water trucked in daily, was painfully hot. I
-braved it for 15m. Then, sweating and bare, I emerged from the cauldron and
-retired to our 12-tatami, 5-boy room.
+braved it for 15 minutes. Then, sweating and bare, I emerged from the cauldron
+and retired to our 12-tatami, 5-boy room.
 
 In the ryokan we slept on the floor in large blankets. The kind thick enough to
 keep you warm on a cold fall night, thick enough to muffle snoring or soft
@@ -100,3 +100,5 @@ crying. Eventually I fell asleep, deep, deep, deep into a dream.
 > I'll go to sleep and I dream again  
 > That's the only thing to do  
 > Till all my lover's dreams come true
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3n27fwwxyi227"]]
