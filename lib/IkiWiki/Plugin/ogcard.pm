@@ -73,8 +73,6 @@ sub pagetemplate (@) {
 		else {
 			$img = $src;
 		}
-		# hooya thumbs are avif, which X won't render; card gets the original
-		$img =~ s{/cid-thumbnail/([^/?#]+)/[^/?#]+}{/cid-content/$1};
 	}
 
 	my $title = $template->param("title");
