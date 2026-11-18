@@ -28,9 +28,9 @@ year's Winter Edition.
 FUCK. It's good.
 
 The first sip tastes like candy. Gummy candy, something that's got a bit of
-citric acid but shows restarint that's rare in a candy. On the finish it's salty
-and nutty. Which is a fascinating profile for a drink. The side of the can says
-almost nothing about it other than:
+citric acid but shows the restraint that's rare in a candy. On the finish it's
+salty and nutty. Which is a fascinating profile for a drink. The side of the can
+says almost nothing about it other than:
 
 > RED BULL® The Winter Edition, The Taste of Pistachio and Berries — artifically
 > flavored. The Wings of Red Bull. Red Bull is appreciated worldwide by top
@@ -41,3 +41,5 @@ almost nothing about it other than:
 | Volume | 12 floz |
 | Calories | 160cal |
 | Caffeine | 114mg |
+
+[[!template id="bsky-comments.tmpl" uri="https://bsky.app/profile/wesl.ee/post/3n2ls2blk4227"]]
